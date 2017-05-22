@@ -28,6 +28,7 @@ local handicapMod 						= GameInfo.HandicapInfos[handicapID].AdvancedStartPoints
 local mathCeil 							= math.ceil 
 local speedID							= Game.GetGameSpeedType()
 local speedMod 							= GameInfo.GameSpeeds[speedID].GoldPercent
+local MP_POPfixNeeded					= false
 --=======================================================================================================================
 -- CORE FUNCTIONS
 --=======================================================================================================================
@@ -47,6 +48,9 @@ function JFD_CulDiv_InitOnSettle(playerID, plotX, plotY)
 	if (not city:IsCapital()) then return end
 	local cultureID = JFD_GetCultureID(playerID)
 	if cultureID then
+		if playerID == g_activePlayerID then
+			JFD_CulDiv_LoadScreenCloseUI()
+		end
 		local cultureType = GameInfo.JFD_CultureTypes[cultureID].Type
 		local eraMod = GameInfo.Eras[player:GetCurrentEra()].StartingGold
 		for row in GameInfo.JFD_CultureType_StartingBonuses("CultureType = '" .. cultureType .. "'") do
@@ -91,6 +95,7 @@ function JFD_CulDiv_InitOnSettle(playerID, plotX, plotY)
 			end
 				
 			if row.FreePopulation > 0 then
+				MP_POPfixNeeded = true
 				city:ChangePopulation(row.FreePopulation, true)
 			end
 				
@@ -179,6 +184,27 @@ end
 if userSettingStartingBonuses then
 	GameEvents.PlayerCityFounded.Add(JFD_CulDiv_InitOnSettle)
 end
+
+GameEvents.SetPopulation.Add(
+function( x, y, oldPopulation, newPopulation )
+	if MP_POPfixNeeded then
+		local plot = Map.GetPlot( x, y )
+		local city = plot and plot:GetPlotCity()
+		local playerID = city and city:GetOwner()
+		if Game.GetGameTurn() == city:GetGameTurnAcquired() then
+			for row in GameInfo.JFD_CultureType_StartingBonuses("CultureType = '" .. GameInfo.JFD_CultureTypes[JFD_GetCultureID(playerID)].Type .. "'") do 
+				if row.FreePopulation > 0 then
+					if city:IsCapital() and city:GetPopulation() == 1 then
+						city:ChangePopulation(row.FreePopulation,true) 
+					end
+				end
+			end
+		else
+			MP_POPfixNeeded = false
+		end
+	end
+end
+)
 -------------------------------------------------------------------------------------------------------------------------
 -- ART DEFINES
 -------------------------------------------------------------------------------------------------------------------------
@@ -383,11 +409,11 @@ end
 
 --JFD_CulDiv_LoadScreenCloseUI
 function JFD_CulDiv_LoadScreenCloseUI()
-	if activePlayer:GetCapitalCity() then return end
+	--if activePlayer:GetCapitalCity() then return end
 	ContextPtr:SetHide(false)
 end
 if userSettingStartingBonuses then
-	Events.LoadScreenClose.Add(JFD_CulDiv_LoadScreenCloseUI)
+	--Events.LoadScreenClose.Add(JFD_CulDiv_LoadScreenCloseUI)
 end
 --------------------------------------------------------------------
 function InputHandler(uiMsg, wParam, lParam)

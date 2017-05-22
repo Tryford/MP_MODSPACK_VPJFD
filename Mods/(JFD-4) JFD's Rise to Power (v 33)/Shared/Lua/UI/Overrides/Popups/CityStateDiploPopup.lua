@@ -690,6 +690,7 @@ function OnDisplay()
 	SetButtonSize(Controls.PushClaimLabel, Controls.PushClaimButton, Controls.PushClaimAnim, Controls.PushClaimButtonHL)
 	-- SetButtonSize(Controls.BuyoutLabel, Controls.BuyoutButton, Controls.BuyoutAnim, Controls.BuyoutButtonHL)
 
+	Controls.GiveStackCSD:SetHide(true)
 	Controls.GiveStack:SetHide(true)
 	Controls.TakeStack:SetHide(true)
 	Controls.ButtonStack:SetHide(false)
@@ -889,6 +890,7 @@ Controls.GiveButton:RegisterCallback( Mouse.eLClick, OnGiveButtonClicked )
 -- Open Take Submenu
 ----------------------------------------------------------------
 function OnTakeButtonClicked ()
+	Controls.GiveStackCSD:SetHide(true)
 	Controls.GiveStack:SetHide(true)
 	Controls.TakeStack:SetHide(false)
 	Controls.ButtonStack:SetHide(true)
@@ -1367,6 +1369,7 @@ Controls.UnitTributeButton:RegisterCallback( Mouse.eLClick, OnUnitTributeButtonC
 -- Close Take Submenu
 ----------------------------------------------------------------
 function OnCloseTake()
+	Controls.GiveStackCSD:SetHide(true)
 	Controls.GiveStack:SetHide(true)
 	Controls.TakeStack:SetHide(true)
 	Controls.ButtonStack:SetHide(false)

@@ -266,7 +266,8 @@ function UpdateDisplay()
 		
 		local strTextKey = GameInfo.PolicyBranchTypes[iDominantBranch].Title;
 		
-		local strText = Locale.ConvertTextKey(strTextKey, player:GetNameKey(), player:GetCivilizationShortDescriptionKey());
+		--local strText = Locale.ConvertTextKey(strTextKey, player:GetNameKey(), player:GetCivilizationShortDescriptionKey());
+		local strText = player:GetNameKey() .. " of " .. Locale.ConvertTextKey(player:GetCivilizationShortDescriptionKey());
 		
 	    Controls.PlayerTitleLabel:SetHide(false);
 	    Controls.PlayerTitleLabel:SetText(strText);
