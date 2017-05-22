@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!--INTERFACE-->
+		<Replace Tag="TXT_KEY_EUI_BUILT_IN_X_CITIES">
+			<Text>{1: plural  0?None built; 1?Built in 1 City; 2?Built in {1} Cities;}{2: plural 0?; 1?, Building in 1 City; 2?, Building in {2} Cities;}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
+			<Text>Built by {@1_CivName} in {@2_CityName}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRO_RELIGIOUS_PRESSURE_ENTRY">
+			<Text>{1_ReligionIcon} {2_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EXTRA_MAINTENANCE_COST">
+			<Text>[ICON_GOLD] Extra Maintenance: {1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILD_CHARGES">
+			<Text>[ICON_WORKER] Build Charges: {1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_WORK_RATE">
+			<Text>[ICON_WORKER] Work Rate: {1_Num}%</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_BUILD_NUM_CHARGES">
+			<Text>{1_Num} Charges</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_ADMIRAL_POINTS">
+			<Text>[ICON_GREAT_PEOPLE] Great Admiral Points: +{1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_GENERAL_POINTS">
+			<Text>[ICON_GREAT_PEOPLE] Great General Points: +{1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUPANEL_CITY_BLOCKADED">
+			<Text>Blockaded</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITY_STARVING_TT">
+			<Text>{1_CityName} [COLOR_WARNING_TEXT]is starving! {2_Num} turn(s) until it loses a [ICON_CITIZEN] Citizen![ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_BUILDINGS_EUI">
+			<Text>Buildings</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_WONDERS_EUI">
+			<Text>Buildings</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_REGULARBUILDING_TEXT">
+			<Text>Buildings ({1_Num})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_GREAT_WORK_BUILDINGS_TEXT">
+			<Text>Great Work Buildings ({1_Num})</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_CITYVIEW_NATIONAL_WONDERS_TEXT">
+			<Text>National Wonders ({1_Num})</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_CITYVIEW_SPECIALIST_BUILDINGS_TEXT">
+			<Text>Specialist Buildings ({1_Num})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_WONDERS_TEXT">
+			<Text>Wonders ({1_Num})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_AVOID_GROWTH_TEXT">
+			<Text>[COLOR_YELLOW]Growth Halted[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_NATIONAL_WONDERS">
+			<Text>National Wonders</Text>
+		</Replace>
+		<!--Install Satellite-->
+		<Row Tag="TXT_KEY_POPUP_JFD_SATELLITE_CITY">
+			<Text>Install Satellite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_JFD_SATELLITE_CITY_TT">
+			<Text>By turning the City into a [COLOR_POSITIVE_TEXT]Satellite[ENDCOLOR], you will liberate this city and immediately gain +{1_Num} [ICON_INFLUENCE] Influence with them.</Text>
+		</Row>
+		<!--NOTIFICATIONS-->
+		<Row Tag="TXT_KEY_JFD_SATELLITE_INSTALLED_NOTIFICATION_SHORT">
+			<Text>Satellite Installed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SATELLITE_INSTALLED_NOTIFICATION">
+			<Text>We have installed a new satellite government in {1_CityName}, significantly increasing our [ICON_INFLUENCE] Influence over them!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_SATELLITE_INSTALLED">
+			<Text>{1_LeaderName} of {2_CivName} have installed a new satellite government in {3_CityName}, significantly increasing their [ICON_INFLUENCE] Influence over them!</Text>
+		</Row>
+		<!--CITY BANNER-->
+		<Replace Tag="TXT_KEY_CITYVIEW_FOCUS_CLICK_TO_CLEAR">
+			<Text>{1_FocusType} (click to clear)</Text>
+		</Replace>
+		<!--CITY VIEW-->
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_TURNS">
+			<Text>{1_Num} Turn(s)</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_PRODUCTION_GOLDEN_AGE">
+			<Text>[NEWLINE] [ICON_BULLET]Modifier from [ICON_GOLDEN_AGE] Golden Age: {1_Num}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_WLTKD_BELIEF">
+			<Text>[NEWLINE] [ICON_BULLET]Belief Modifier from [ICON_JFD_WLTKD] 'WLTKD:' {1_Num}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CULTURE_GOLDEN_AGE">
+			<Text>{1_Num}% [ICON_CULTURE] from [ICON_GOLDEN_AGE] Golden Age</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CULTURE_WLTKD">
+			<Text>{1_Num}% [ICON_CULTURE] from 'WLTKD'</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_FAITH_FROM_GOLDEN_AGE">
+			<Text>{1_Num}% [ICON_PEACE] from [ICON_GOLDEN_AGE] Golden Age</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_FAITH_FROM_WLTKD">
+			<Text>{1_Num}% [ICON_PEACE] from [ICON_JFD_WLTKD] 'WLTKD'</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_YIELD_FROM_WLTKD">
+			<Text>{1_Num}% {2_IconString} from [ICON_JFD_WLTKD] 'WLTKD'</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_YIELD_FROM_GOLDEN_AGE">
+			<Text>{1_Num}% {2_IconString} from [ICON_GOLDEN_AGE] Golden Age</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER">
+			<Text>[ICON_JFD_WLTKD] We Love The King Day! ({1_Num})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_WLTKD_BUILDING">
+			<Text>[NEWLINE] [ICON_BULLET]Building Modifier from [ICON_JFD_WLTKD] 'We Love The King Day:' {1_Num}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT">
+			<Text>Connecting this Resource to your trade network will cause this City to go into [ICON_JFD_WLTKD] 'We Love the King Day,' which increases [ICON_FOOD] growth!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT">
+			<Text>This City is in [ICON_JFD_WLTKD] 'We Love the King Day,' which increases [ICON_FOOD] growth!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA">
+			<Text>[ICON_JFD_WLTKD] We Love The Empress Day! ({1_Num})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_DEMAND_UA">
+			<Text>The City of {1_CityName:textkey} wants {2_ResourceName:textkey}! Connecting that resource to your trade network will cause the city to enter [ICON_JFD_WLTKD] 'We Love the Empress Day,' increasing its [ICON_FOOD] Growth rate by 50%!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA">
+			<Text>This City is in [ICON_JFD_WLTKD] 'We Love the Empress Day,' which increases [ICON_FOOD] growth!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA">
+			<Text>Connecting this Resource to your trade network will cause this City to go into [ICON_JFD_WLTKD] 'We Love the Empress Day,' which increases [ICON_FOOD] growth!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_GOLDEN_AGE_POINTS">
+			<Text>[ICON_GOLDEN_AGE] Golden Age Points: +{1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_GOLDEN_AGE_POINTS_NEGATIVE">
+			<Text>[ICON_GOLDEN_AGE] Golden Age Points: {1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_ADMIRAL_POINTS">
+			<Text>[ICON_GREAT_ADMIRAL] Great Admiral Points: +{1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_ADMIRAL_POINTS_NEGATIVE">
+			<Text>[ICON_GREAT_ADMIRAL] Great Admiral Points: {1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_GENERAL_POINTS">
+			<Text>[ICON_GREAT_GENERAL] Great General Points: +{1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_GENERAL_POINTS_NEGATIVE">
+			<Text>[ICON_GREAT_GENERAL] Great General Points: {1_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_YIELD_FROM_PILLAGED_TILES">
+			<Text>{1_Num} [ICON_PRODUCTION] from Pillaged Tiles</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_FAITH_FROM_PIETY">
+			<Text>{1_Num} [ICON_PEACE] from following the Majority Religion</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUPANEL_NAVAL_DEFENSE_CITY">
+			<Text>Difficult Target</Text>
+		</Replace>
+		<!--Defense-->
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEFENSE_TEXT_TT">
+			<Text>[ICON_STRENGTH] Defense is used to protect your city from attack. It also directly correlates to your city's [ICON_STRENGTH] Combat Strength. [NEWLINE]{1_DefenseBreakdown}[NEWLINE][NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]{2_Num} [ICON_STRENGTH] Total</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DEFENSE_TT_FROM_BASE">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_STRENGTH] from Base</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DEFENSE_TT_FROM_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_STRENGTH] from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DEFENSE_TT_FROM_GARRISON">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_STRENGTH] from Garrison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DEFENSE_TT_FROM_PLAGUE">
+			<Text>[NEWLINE][ICON_BULLET]-{1_Num} [ICON_STRENGTH] from Plague</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DEFENSE_TT_FROM_POPULATION">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_STRENGTH] from Population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DEFENSE_TT_FROM_TERRAIN">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_STRENGTH] from Terrain</Text>
+		</Row>
+		<!--RANKINGS-->
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_AUTOCRACY" >
+			<Text>The World's Most Authoritarian Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_AUTOCRACY_TT" >
+			<Text>Ranks players by authoritarian [ICON_JFD_REFORM] Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_COLONIES" >
+			<Text>The World's Largest Empires</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_COLONIES_TT" >
+			<Text>Ranks players by number of [ICON_JFD_COLONY] Colonies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CRIMES" >
+			<Text>The World's Most Dangerous Countries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CRIMES_TT" >
+			<Text>Ranks players by number of [ICON_JFD_CRIME_BLACK] Crime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_FREEDOM" >
+			<Text>The World's Most Liberal Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_FREEDOM_TT" >
+			<Text>Ranks players by liberal [ICON_JFD_REFORM] Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_HEALTH" >
+			<Text>The People that Live the Longest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_HEALTH_TT" >
+			<Text>Ranks players by number of [ICON_JFD_HEALTH] Health.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_ORDER" >
+			<Text>The World's Most Egalitarian Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_ORDER_TT" >
+			<Text>Ranks players by egalitarian [ICON_JFD_REFORM] Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RANKINGS_DIPLO_CORNER_HOOK" >
+			<Text>Civilization Rankings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RANKINGS_DIPLO_CORNER_HOOK_TT" >
+			<Text>Ranking types: Overall score, [ICON_FOOD] production, [ICON_PRODUCTION] capacity, Total [ICON_GOLD], [ICON_GOLD] per turn, Number of techs known, [ICON_RESEARCH] per turn, Number of social policies active, [ICON_CULTURE] per turn, National [ICON_HAPPINESS_1], Number of wonders built, Military power.</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_NEXT">
+			<Text>Next</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_PREV">
+			<Text>Previous</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_OVERALL" >
+			<Text>Overall Score</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_OVERALL_TT" >
+			<Text>Ranks players by their overall score.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_GPT" >
+			<Text>New Shiny per Turn</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_GPT_TT" >
+			<Text>Ranks players by amount of [ICON_GOLD] Gold per turn.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_SPT" >
+			<Text>People Reading per Turn</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_SPT_TT" >
+			<Text>Ranks players by amount of [ICON_RESEARCH] Science per turn.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_CPT" >
+			<Text>Number of Stories Sold per Turn</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_CPT_TT" >
+			<Text>Ranks players by amount of [ICON_CULTURE] Culture per turn.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_FAITH">
+			<Text>The World's Most Religious People</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_FAITH_TT">
+			<Text>Ranks players by the number of cities following their founded religion.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_FPT" >
+			<Text>Number of Prayers per Turn</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_FPT_TT" >
+			<Text>Ranks players by amount of [ICON_PEACE] Faith per turn.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_TPT" >
+			<Text>Number of Photos per Turn</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROGRESS_SCREEN_TPT_TT" >
+			<Text>Ranks players by amount of [ICON_TOURISM] Tourism per turn.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_A" >
+			<Text>Annales Cambriae has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_B" >
+			<Text>Bodhi Vamsa has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_C" >
+			<Text>Chronica seu originale regum et principum Poloniae</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_D" >
+			<Text>Dioclean Priest's Chronicle has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_E" >
+			<Text>Croyland Chronicle has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_F" >
+			<Text>Froissart's Chronicles has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_G" >
+			<Text>History of the Prophets and Kings has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_H" >
+			<Text>Dale Kent has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_I" >
+			<Text>Jans der Enikel has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_J" >
+			<Text>Kaiserchronik has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_K" >
+			<Text>Lethrense Chronicle has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_L" >
+			<Text>Nabonidus Chronicle has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_M" >
+			<Text>Puranas has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_N" >
+			<Text>Rajatarangini has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_O" >
+			<Text>Records of Three Kingdoms has compiled:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DUDE_P" >
+			<Text>Swiss illustrated chronicles has compiled:</Text>
+		</Replace>
+		<!--TRADE ROUTES-->
+		<Replace Tag="TXT_KEY_TRO_LOCATE_RECALL_TT">
+			<Text>Click to view, Control-Click to recall</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRO_RECALLED">
+			<Text>[COLOR_WARNING_TEXT]R[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_ITEM_CITY_TT">
+			<Text>There {1: plural 1?is; other?are;} {1} possible trade route{1: plural 2?s;} from {2_CityName}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FOOD_SHORT">
+			<Text>[ICON_FOOD]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_PRODUCTION_SHORT">
+			<Text>[ICON_PRODUCTION]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_GOLD_SHORT">
+			<Text>[ICON_GOLD]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_SCIENCE_SHORT">
+			<Text>[ICON_RESEARCH]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_CULTURE_SHORT">
+			<Text>[ICON_CULTURE]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FAITH_SHORT">
+			<Text>[ICON_FAITH]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_RELIGIOUS_PRESSURE_SHORT">
+			<Text>{1_ReligionIcon}+{2_Num}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_INFLUENCE_OTHER">
+			<Text>Highest Influence</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_PRODUCTION">
+			<Text>Highest Production</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_FOOD">
+			<Text>Highest Food</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_CONNECTED">
+			<Text>[ICON_CONNECTED]</Text>
+		</Replace>
+		<!--UNIT PANEL-->
+		<Replace Tag="TXT_KEY_BUILD_TOURISM_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_TOURISM] Tourism</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILD_GAP_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE] Golden Age Points</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILD_HEALTH_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_JFD_HEALTH] Health</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILD_DISEASE_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_JFD_DISEASE] Disease</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILD_YIELD_STRING">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_FontIcon} {3_Desc}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRADE_ROUTE_FROM_CITY">
+			<Text>Departed {1_CityName}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRADE_ROUTE_TO_CITY">
+			<Text>For {1_CityName}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRADE_ROUTE_RECALLING">
+			<Text>[COLOR_WARNING_TEXT]Recalling to {1_CityName}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRADE_ROUTE_RECALLED">
+			<Text>[COLOR_WARNING_TEXT]Recalled to {1_CityName}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CURRENTLY_SELECTED_UNIT">
+			<Text>This is the currently selected Unit.[NEWLINE][NEWLINE](Left-Click to center camera[NEWLINE]Right-Click to rename)</Text>
+		</Replace>
+		<!--Charges-->
+		<Row Tag="TXT_KEY_UPANEL_JFD_CHARGES" >
+			<Text>Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_JFD_CHARGES_STATS" >
+			<Text>{1_Num}/{2_Num} [ICON_WORKER]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_JFD_CHARGES_TT" >
+			<Text>The number of [ICON_WORKER] Improvements this unit can build before being expended ({1_Num}/{2_Num}).</Text>
+		</Row>
+
+	
+
+
+</Language_en_US>
+	<Language_de_DE>
+		<Row Tag="TXT_KEY_RANKINGS_DIPLO_CORNER_HOOK" >
+			<Text>Zivilisations Ranglisten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RANKINGS_DIPLO_CORNER_HOOK_TT" >
+			<Text>Ranking types: Overall score, [ICON_FOOD] production, [ICON_PRODUCTION] capacity, Total [ICON_GOLD], [ICON_GOLD] per turn, Number of techs known, [ICON_RESEARCH] per turn, Number of social policies active, [ICON_CULTURE] per turn, National [ICON_HAPPINE&#223;_1], Number of wonders built, Military power.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_NEXT">
+			<Text>N&#228;chste</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_PREV">
+			<Text>Zur&#252;ck</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_OVERALL" >
+			<Text>Gesamtpunkte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_OVERALL_TT" >
+			<Text>Punkte Rangliste.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_GPT" >
+			<Text>Die gr&#246;&#223;ten Finanzstrategen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_GPT_TT" >
+			<Text>[ICON_GOLD] Gold pro Runde.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_SPT" >
+			<Text>Die erfolgreichsten Forscher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_SPT_TT" >
+			<Text>[ICON_RESEARCH] Wi&#223;enschaft pro Runde.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CPT" >
+			<Text>Kulturelles Erbe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CPT_TT" >
+			<Text>[ICON_CULTURE] Kultur pro Runde.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_FAITH">
+			<Text>Die religi&#246;sesten Menschen der Welt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_FAITH_TT">
+			<Text>Anzahl der St&#228;dte die dieser Religion folgen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_FPT" >
+			<Text>Die gl&#228;ubigsten Menschen der Welt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_FPT_TT" >
+			<Text>[ICON_PEACE] Glauben pro Runde.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_TPT" >
+			<Text>Die meisten Urlauber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_TPT_TT" >
+			<Text>[ICON_TOURISM] Tourismus pro Runde.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DUDE_A" >
+			<Text>Annales Cambriae hat ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_B" >
+			<Text>Bodhi Vamsa hat ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_C" >
+			<Text>Chronica seu originale regum et principum Poloniae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_D" >
+			<Text>Dioclean Priest's Chroniken wurden ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_E" >
+			<Text>Croyland Chronik wurde ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_F" >
+			<Text>Froi&#223;art's Chronik wurde ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_G" >
+			<Text>Geschichten der Propheten und K&#246;nige wurden ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_H" >
+			<Text>Dale Kent hat ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_I" >
+			<Text>Jans der Enikel hat ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_J" >
+			<Text>Kaiserchronik hat ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_K" >
+			<Text>Lethrense Chronik wurde ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_L" >
+			<Text>Nabonidus Chronik wurde ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_M" >
+			<Text>Puranas hat ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_N" >
+			<Text>Rajatarangini hat ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_O" >
+			<Text>Die Aufzeichnungen der Drei K&#246;nigreiche wurden ver&#246;ffentlicht:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_P" >
+			<Text>Die Schweizer illustrierten Chroniken wurden ver&#246;ffentlicht:</Text>
+		</Row>
+	</Language_de_DE>
+</GameData>

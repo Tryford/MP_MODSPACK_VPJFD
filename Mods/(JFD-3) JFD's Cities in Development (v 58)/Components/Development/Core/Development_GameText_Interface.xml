@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--INTERFACE-->
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_TEXT">
+			<Text>DEVELOPMENT ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_THRESHOLD">
+			<Text>[ICON_CITIZEN] Threshold: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_TOTAL">
+			<Text>{2_Icon} Development: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_TT">
+			<Text>{9_Icon} Development is the measure of your city's capacity, and is used to support a city's [ICON_CITIZEN] Population. Surplus Development is converted into [ICON_HAPPINESS_1] Local Happiness and [ICON_JFD_HEALTH] Health, whereas Deficit Development is converted into [ICON_JFD_CRIME_BLACK] Crime and [ICON_JFD_DISEASE] Disease.[NEWLINE][NEWLINE][ICON_CITIZEN] Population Threshold: {1_Num}{2_ThresholdBreakdown}[NEWLINE][NEWLINE]{9_Icon} Development: {4_Num}{3_DevelopmentBreakdown}[NEWLINE]------------------[NEWLINE]{5_TextHL}{6_Num} {9_Icon} {7_Text}[ENDCOLOR]{8_Yield}[NEWLINE][NEWLINE]Note that these effects are rounded down.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_TT_DEFICIT">
+			<Text>Deficit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_TT_DEFICIT_TT">
+			<Text>[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]+{1_Num} [ICON_JFD_CRIME_BLACK] Crime[NEWLINE][ICON_BULLET]+{2_Num} [ICON_JFD_DISEASE] Disease[NEWLINE][ICON_BULLET]-{3_Num}% [ICON_PRODUCTION] Wonder Production[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_TT_SURPLUS">
+			<Text>Surplus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_TT_SURPLUS_TT">
+			<Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num} [ICON_HAPPINESS_1] Happiness[NEWLINE][ICON_BULLET]+{2_Num} [ICON_JFD_HEALTH] Health[NEWLINE][ICON_BULLET]+{3_Num}% [ICON_PRODUCTION] Building Production[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_FROM_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DEVELOPMENT] from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_FROM_FEATURES">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DEVELOPMENT] from Features</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_FROM_IMPROVEMENTS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DEVELOPMENT] from Improvements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_FROM_RESOURCES">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DEVELOPMENT] from Resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_FROM_SPECIALISTS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DEVELOPMENT] from Specialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_FROM_MISC">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DEVELOPMENT] from {2_Desc}s (+{3_Num} each)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_THRESHOLD_FROM_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_THRESHOLD_FROM_IMPROVEMENTS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from Improvements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_THRESHOLD_FROM_POLICIES">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_THRESHOLD_FROM_PROVINCES">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from Province Level</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_THRESHOLD_FROM_REFORMS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DEVELOPMENT_THRESHOLD_FROM_TRAITS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from Traits</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEVELOPMENT">
+			<Text>[ICON_JFD_DEVELOPMENT] Development: +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEVELOPMENT_NEGATIVE">
+			<Text>[ICON_JFD_DEVELOPMENT] Development: -{1_Num}</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

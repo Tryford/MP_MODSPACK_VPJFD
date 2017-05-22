@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--Possession-->
+		<Row Tag="TXT_KEY_PLAGUE_JFD_POSSESSION">
+			<Text>Possession</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PLAGUE_POSSESSION">
+			<Text>JFD: Plague (Possession)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PLAGUE_POSSESSION_HELP">
+			<Text>City is [ICON_JFD_PLAGUE] Plagued.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

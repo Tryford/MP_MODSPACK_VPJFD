@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/27/2015 5:26:53 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CIVILIZATION PANEL-->
+		<Row Tag="TXT_KEY_CIVILIZATION_PANEL_JFD_DECISIONS">
+			<Text>[ICON_ED_DECISIONS] {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_PANEL_JFD_DIGNITARIES">
+			<Text>[ICON_JFD_DIGNITARIES] {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_PANEL_JFD_MAGISTRATES">
+			<Text>[ICON_MAGISTRATES] {1_Num}</Text>
+		</Row>
+		<!--CITY VIEW-->
+		<Row Tag="TXT_KEY_POLICY_GP_MOD_NEGATIVE">
+			<Text>[ICON_BULLET] Policy Penalties: {1_Num}%</Text>
+		</Row>
+		<!--TOP PANEL-->
+		<Replace Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_RELIGION">
+			<Text>[ICON_BULLET]{1_Num} is added per turn from Religion.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_TRAIT">
+			<Text>[ICON_BULLET]{1_Num} is added per turn from Traits.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_CITIES">
+			<Text>[ICON_BULLET]{1_Num} is added per turn from Cities.</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_JFD_HIDE_RESOURCES">
+			<Text>Hide Resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_UNHIDE_RESOURCES">
+			<Text>Unhide Resources</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

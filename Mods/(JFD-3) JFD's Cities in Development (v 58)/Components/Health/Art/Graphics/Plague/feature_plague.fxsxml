@@ -1,0 +1,8 @@
+<Asset>
+  <Mesh file="feature_plague.gr2" source="Max" />
+  <BoneUsage>
+    <Bone name="FX_Fallout" />
+  </BoneUsage>
+  <TimedTrigger file="FX_Triggers_Feature_Fallout.ftsxml" source="Tool" model="Fallout" state="0,1,2,3" />
+  <DecisionTree file="StaticLandmarkDecisionTree.ddtxml" source="Tool" />
+</Asset>

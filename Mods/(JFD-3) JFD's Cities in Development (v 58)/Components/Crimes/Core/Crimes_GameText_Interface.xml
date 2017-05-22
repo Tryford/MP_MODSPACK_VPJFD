@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--INTERFACE-->
+		<Row Tag="TXT_KEY_PEDIA_CRIME_LABEL">
+			<Text>Crime:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_GLOBAL_CRIME_LABEL">
+			<Text>Global Crime:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME">
+			<Text>[ICON_JFD_CRIME_BLACK] Crime: +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_NEGATIVE">
+			<Text>[ICON_JFD_CRIME_BLACK] Crime: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_MOD">
+			<Text>[ICON_JFD_CRIME_BLACK] Crime: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_MOD_NEGATIVE">
+			<Text>[ICON_JFD_CRIME_BLACK] Crime: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_CRIME_MOD">
+			<Text>[ICON_JFD_CRIME_BLACK] Global Crime: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_CRIME_MOD">
+			<Text>{2_CrimeIcon} {3_CrimeDesc}: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_CRIME_MOD_EUI">
+			<Text>{3_CrimeDesc}: {1_Num}% {2_CrimeIcon}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_CRIME">
+			<Text>-{1_Num} [ICON_CULTURE] from [ICON_JFD_CRIME_PURPLE] Vandalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEFENSE_FROM_CRIME">
+			<Text>-{1_Num} [ICON_STRENGTH] from [ICON_JFD_CRIME_GRAY] Sabotage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_CRIME">
+			<Text>-{1_Num} [ICON_PEACE] from [ICON_JFD_CRIME_WHITE] Heresy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOOD_FROM_CRIME">
+			<Text>-{1_Num} [ICON_FOOD] from [ICON_JFD_CRIME_GREEN] Violence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOLD_FROM_CRIME">
+			<Text>-{1_Num} [ICON_GOLD] from [ICON_JFD_CRIME_YELLOW] Corruption</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_FROM_CRIME">
+			<Text>-{1_Num} [ICON_HAPPINESS_1] from [ICON_JFD_CRIME_RED] Treason</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HEALTH_FROM_CRIME">
+			<Text>-{1_Num} [ICON_JFD_HEALTH] from [ICON_JFD_CRIME_LIGHT_BLUE] Drug Abuse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_FROM_CRIME">
+			<Text>-{1_Num} [ICON_PRODUCTION] from [ICON_JFD_CRIME_ORANGE] Theft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCE_FROM_CRIME">
+			<Text>-{1_Num} [ICON_RESEARCH] from [ICON_JFD_CRIME_BLUE] Fraud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOURISM_FROM_CRIME">
+			<Text>-{1_Num} [ICON_TOURISM] Tourism from [ICON_JFD_CRIME_BROWN] Abduction</Text>
+		</Row>
+		<!--CITY VIEW-->
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_TEXT">
+			<Text>[COLOR_JFD_CRIME_BLACK]Crime[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_TEXT_TT">
+			<Text>[ICON_JFD_CRIME_BLACK] Crime is the consequence of your city's development. As your infrastructure expands, so too will the people looking to exploit it![NEWLINE]As Crime increases, certain parts to your city's yield output will be affected.[NEWLINE]------------------{1_CrimeBreakdown}{2_CrimePercents}[NEWLINE]------------------[NEWLINE]{3_Num} [ICON_JFD_CRIME_BLACK] Crime Total[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_TEXT_TT_NONE">
+			<Text>[ICON_JFD_CRIME_BLACK] Crime is the consequence of your city's development. As your infrastructure expands, so too will the people looking to exploit it! As Crime increases, certain parts to your city's yield output will be affected.[NEWLINE]------------------{1_CrimeBreakdown}[NEWLINE]No Crime[NEWLINE]------------------[NEWLINE]{2_Num} [ICON_JFD_CRIME_BLACK] Crime Total[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num} {2_Icon} from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_DISEASE">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_CRIME_BLACK] from Disease</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_DEVELOPMENT">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num} [ICON_JFD_CRIME_BLACK] from Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_HEALTH">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_CRIME_BLACK] from Health</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_GREAT_WORKS">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num} [ICON_JFD_CRIME_BLACK] from [ICON_GREAT_WORK] Great Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_MODIFIERS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% {2_Icon} from Modifiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_ORGANIZED_CRIME">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% [ICON_JFD_CRIME_BLACK] from {2_Icon} Organized Crime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_POLICIES">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} {2_Icon} from Reforms/Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_POPULATION">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_CRIME_BLACK] from Population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_SPECIALISTS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_CRIME_BLACK] from Specialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_TRAITS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} {2_Icon} from Traits</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_ORGANIZED">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% [ICON_JFD_CRIME_BLACK] from {2_Icon} Organized Crime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_FROM_LOYALTY">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% {2_Icon} from {3_Icon} Loyalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_PIETY_POOR">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% [ICON_JFD_CRIME_WHITE] from [ICON_JFD_PIETY] Piety Level</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_CRIME_TT_PIETY_HERETICAL">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% [ICON_JFD_CRIME_WHITE] from [ICON_JFD_PIETY] Piety Level</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SELL_BUILDING_INFO_JFD_CRIME">
+			<Text>Are you sure you want to sell this building? You will receive {1_Num} [ICON_GOLD] Gold and it will save you {2_Num} [ICON_JFD_CRIME_BLACK] Crime per turn in maintenance. (Note: you may only sell one building per turn)</Text>
+		</Row>
+		<!--Organized Crime-->
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_ORGANIZED">
+			<Text>Organized Threshold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_ORGANIZED_TEXT">
+			<Text>{1_Icon} [COLOR_JFD_CRIME_BLACK]{2_Desc}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_ORGANIZED_TEXT_TT">
+			<Text>[ICON_JFD_ORGANIZED_CRIME] Organized Crime is an advanced stage of Crime. As specific Crimes become dominant, they will become organized! When Organized Crime emerges, certain parts to your city's yield output will be affected.[NEWLINE]------------------[NEWLINE][ICON_JFD_ORGANIZED_CRIME] Threshold: {3_Color}{1_Threshold}%[ENDCOLOR]{2_OrganizedCrimeBreakdown}[NEWLINE]------------------[NEWLINE][ICON_JFD_ORGANIZED_CRIME] Organized Crime will not appear unless the city has reached [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [ICON_CITIZEN] Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_ORGANIZED_TEXT_TT_100">
+			<Text>[ICON_JFD_ORGANIZED_CRIME] Organized Crime is an advanced stage of Crime. As specific Crimes become dominant, they will become organized! When Organized Crime emerges, certain parts to your city's yield output will be affected.[NEWLINE]------------------[NEWLINE][ICON_JFD_ORGANIZED_CRIME]Threshold: [COLOR_POSITIVE_TEXT]{1_Threshold}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_ORGANIZED_ACTIVE_TT">
+			<Text>[NEWLINE]------------------[NEWLINE]{1_Text}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_ORGANIZED_TT">
+			<Text>Because {1_IconString} {2_CrimeDesc} and {3_IconString} {4_CrimeDesc} exceed {5_Num}% in this city, {6_IconString} {7_OrganizedCrimeDesc} increase the city's [ICON_JFD_CRIME_BLACK] Crime by {8_Num}%![NEWLINE]{9_Buildings}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_CRIME_ORGANIZED_TT_LOYALTY">
+			<Text>Because {1_IconString} {2_CrimeDesc} and {3_IconString} {4_CrimeDesc} exceed {5_Num}% in this city, {6_IconString} {7_OrganizedCrimeDesc} decrease the city's [ICON_JFD_BLUE_FIST] Loyalty by {8_Num}%!</Text>
+		</Row>
+		<!--NOTIFICATIONS-->
+		<Row Tag="TXT_KEY_JFD_CITY_CRIME_NOTIFICATION_SHORT">
+			<Text>[ICON_JFD_CRIME_BLACK] Crime Report</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_CRIME_NOTIFICATION">
+			<Text>{1_Icon} {2_Desc} Loss from [ICON_JFD_CRIME_BLACK] Crime now exceeds [COLOR_NEGATIVE_TEXT]{3_Num}[ENDCOLOR] in {4_CityDesc}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ORGANIZED_CRIME_EMERGES_NOTIFICATION_SHORT">
+			<Text>[ICON_JFD_ORGANIZED_CRIME] Organized Crime emerges in {1_CityDesc}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ANARCHISTS_EMERGES_NOTIFICATION">
+			<Text>As [ICON_JFD_CRIME_RED] Treason and [ICON_JFD_CRIME_PURPLE] Vandalism exceed 50% in {1_City}, [ICON_JFD_ORGANIZED_CRIME_ANARCHISTS] Anarchists have emerged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COUNTERFEITERS_EMERGES_NOTIFICATION">
+			<Text>As [ICON_JFD_CRIME_BLUE] Fraud and [ICON_JFD_CRIME_WHITE] Heresy exceed 50% in {1_City}, [ICON_JFD_ORGANIZED_CRIME_COUNTERFEITERS] Counterfeiters have emerged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MAFIA_EMERGES_NOTIFICATION">
+			<Text>As [ICON_JFD_CRIME_YELLOW] Corruption and [ICON_JFD_CRIME_ORANGE] Theft exceed 50% in {1_City}, [ICON_JFD_ORGANIZED_CRIME_MAFIA] Mafia have emerged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SABOTEURS_EMERGES_NOTIFICATION">
+			<Text>As [ICON_JFD_CRIME_BROWN] Abduction and [ICON_JFD_CRIME_GREEN] Violence exceed 50% in {1_City}, [ICON_JFD_ORGANIZED_CRIME_SABOTEURS] Saboteurs have emerged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TERRORISTS_EMERGES_NOTIFICATION">
+			<Text>As [ICON_JFD_CRIME_BROWN] Abduction and [ICON_JFD_CRIME_GREEN] Violence exceed 50% in {1_City}, [ICON_JFD_ORGANIZED_CRIME_TERRORISTS] Terrorists have emerged!</Text>
+		</Row>
+		<!--WHOS WINNING POPUP-->
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CITY_JFD_CRIME">
+			<Text>The Cities We All Like to Avoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CITY_JFD_CRIME_TT">
+			<Text>Ranks cities by [ICON_JFD_CRIME_BLACK] Crime output.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

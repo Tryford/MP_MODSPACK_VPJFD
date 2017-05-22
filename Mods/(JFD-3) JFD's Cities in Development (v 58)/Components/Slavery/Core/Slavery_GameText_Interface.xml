@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--INTERFACE-->
+		<Row Tag="TXT_KEY_POP_SLAVES">
+			<Text>SLAVES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_VIEW_SLAVERY_PURCHASE">
+			<Text>{1_Num} [ICON_JFD_SHACKLES]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CANNOT_PURCHASE_JFD_NO_SLAVES">
+			<Text>[NEWLINE]You do not have enough [ICON_JFD_SHACKLES] Shackles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PURCHASE_JFD_SLAVES_UNHAPPINESS">
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_JFD_SHACKLES] Slaves earn 50% less XP from combat and cost 100% more to upgrade. However, they may move immediately after purchase.[NEWLINE][NEWLINE]Spending [ICON_JFD_SHACKLES] Shackles will increase progress toward your [ICON_RESISTANCE] Resistance Counter.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_JFD_ENSLAVE_CITY">
+			<Text>Enslave the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_JFD_ENSLAVE_CITY_TT">
+			<Text>Enslaving the city will grant {1_Num} [ICON_JFD_SHACKLES] Shackles, reducing the city's [ICON_CITIZEN] Population by {2_Num}.[NEWLINE][NEWLINE]It will cause the city to go into [ICON_RESISTANCE] Resistance for {3_Num} turns.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]This action will otherwise {4_Text} the city.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_JFD_ENSLAVE_CITY_TT_ANNEX">
+			<Text>Annex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_JFD_ENSLAVE_CITY_TT_COLONIZE">
+			<Text>Colonize</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_JFD_CITY_CAPTURE_INFO_ANNEX">
+			<Text>[COLOR_POSITIVE_TEXT]Annexing[ENDCOLOR] the City into your empire causes it to become a normal City that produces quite a bit of extra [ICON_HAPPINESS_4] Unhappiness.[NEWLINE][NEWLINE]It will not cause the city to go into [ICON_RESISTANCE] Resistance, but will contribute {2_Num} toward the city's [ICON_RESISTANCE] Resistance Counter.[NEWLINE][NEWLINE]Annexing this City will increase [ICON_HAPPINESS_4] Unhappiness by {1_Num}.</Text>
+		</Row>
+		<!--TRADE ROUTE OVERVIEW-->
+		<Row Tag="TXT_KEY_TRO_COL_FROM_SLAVES">
+			<Text>[ICON_ARROW_LEFT][ICON_JFD_SHACKLES]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_SLAVES">
+			<Text>[ICON_ARROW_RIGHT][ICON_JFD_SHACKLES]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_SLAVES_TT">
+			<Text>Click to sort by the amount of [ICON_JFD_SHACKLES] Shackles that the city that established the trade route generates from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_SLAVES_TT">
+			<Text>Click to sort by the amount of [ICON_JFD_SHACKLES] Shackles that the destination city would receive from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_SLAVES_FROM_TT">
+			<Text>You are receiving +{1_Num} [ICON_JFD_SHACKLES] Shackles on this route to your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_SLAVES_TO_TT">
+			<Text>They are receiving +{1_Num} [ICON_JFD_SHACKLES] Shackles on this route from your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_JFD_SLAVES">
+			<Text>[ICON_JFD_SHACKLES] +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_JFD_SLAVES_SHORT">
+			<Text>[ICON_JFD_SHACKLES] +{1_Num} Shackles per turn</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

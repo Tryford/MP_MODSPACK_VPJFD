@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<LuaContext FileName="Assets/UI/InGame/TechPopup" ID="TechPopup" Hidden="1" />
+
+	<!--=======================================================================================================================-->
+	<!--   Currently Researching Grid9FrameBlack Grid9DetailFive140-->
+	<!--=======================================================================================================================-->
+	<Grid Anchor="L,T" Offset="35,4"  Size="400,130" Color="255,255,255,255"   StateOffsetIncrement="0,0" Style="Grid9FrameBlack" ID="ActiveStyle" Hidden="0">
+		<Label Anchor="L,C" Offset="0,0" String="" Font="TwCenMT16" ID="DecisionsText"  ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+		<Label Anchor="L,C" Offset="0,0" String="" Font="TwCenMT16" ID="DignitariesText"  ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+		<Label Anchor="L,C" Offset="0,0" String="" Font="TwCenMT16" ID="MagistratesText"  ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+	</Grid>
+
+	<Image Anchor="L,T" Texture="assets\UI\Art\WorldView\TopLeft001.dds"  Offset="0,30"  Size="512,128" Hidden="0"/>
+	<Image Anchor="L,T" Texture="assets\UI\Art\WorldView\TopLeft022.dds"  Offset="0,30"  Size="512,128" Hidden="0"/>
+
+
+	<!--=======================================================================================================================-->
+	<!--    Change Close Button  -->
+	<!--=======================================================================================================================-->
+
+	<Grid Style="Grid9BlueFrame" Anchor="L,T" Size="470,45" Color="255,255,255,255" Offset="0,43" StateOffsetIncrement="0,0" ID="CivTitleGrid">
+		<Box Size="300,55" Offset="120,0" Color="255,255,255,0">
+			<Label Anchor="L,C" Offset="0,-15" Font="TwCenMT20" ID="CivText" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+			<Label Anchor="L,C" Offset="0,3" Font="TwCenMT14" ID="LeaderText" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+			<Image ID="Bar2" Anchor="L,C" Offset="20,3" Texture="bar300x2.dds" Size="300.1" Hidden="1"/>
+			<Stack Anchor="L,C" Offset="0,12" Padding="0" StackGrowth="Right" ID="RightInfoStack" Hidden="0">
+				<Label Anchor="C,C" Offset="20,0" Font="TwCenMT14" ID="Government" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+				<Label Anchor="C,C" Offset="20,0" Font="TwCenMT14" ID="Power" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+				<Label Anchor="C,C" Offset="20,0" Font="TwCenMT14" ID="Politics" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+			</Stack>
+		</Box>
+	</Grid>
+
+
+	<!--=======================================================================================================================-->
+	<!--    Image Frame and Meters (Regular and Gold) -->
+	<!--=======================================================================================================================-->
+	<Button Anchor="L,T" NoStateChange="1" Offset="0,30"  Texture="leaderportraits1024frame.dds" Size="128.128" ID="LeaderButton" >
+		<Image Anchor="C,C"  Size="128.128" ID="LeaderIcon" Hidden="0"/>
+	</Button>
+	<Button Anchor="L,T" NoStateChange="1" Offset="-5,76"  Texture="civsymbolsframe360.dds" Size="45.45" ID="GovtButton" >
+		<Image Anchor="C,C"  Size="45.45" ID="GovtIcon" Hidden="0"/>
+	</Button>
+	<Button Anchor="L,T" NoStateChange="1" Offset="40,123"  Texture="civsymbolsframe360.dds" Size="45.45" ID="ReligionButton" >
+	</Button>
+	<Button Anchor="L,T" NoStateChange="1" Offset="5,110"  Texture="civsymbolsframe360.dds" Size="45.45" ID="CivButton" >
+		<Image Anchor="C,C"  Size="45.45" ID="CivIcon" Hidden="0"/>
+	</Button>
+
+</Context>

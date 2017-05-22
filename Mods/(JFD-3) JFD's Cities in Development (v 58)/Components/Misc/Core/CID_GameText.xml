@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_26">
+			<Text>Corporations and Monopolies</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_27">
+			<Text>Vassals</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_28">
+			<Text>Cities in Development</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_29">
+			<Text>Exploration Continued</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_30">
+			<Text>Rise to Power</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_JFD_MISC_BUILD_CHARGES_HEADING1_TITLE">
+			<Text>Misc: Build Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MISC_BUILD_CHARGES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Build Charges[ENDCOLOR] are a replacement for how Workers (and Peasants and Slaves) construct Improvements. Instead of taking a number of Turns to complete an Improvement, Improvements are now built instantly, consuming 'Charges' in the process. Each Worker may use these Charges until they have none left, at which point they are expended.[NEWLINE]Roads, Railroads, Repairs, and Clearing Features still requires a set number of Turns, however, and do not consume Charges.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MISC_SATELLITES_HEADING1_TITLE">
+			<Text>Misc: Satellites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MISC_SATELLITES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Satellites[ENDCOLOR] are an additional option when capturing a City-State. Instead of taking that City-State's Capital, a 'Statellite Government' may be installed, immediately granting a large amount of Influence with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORKERS_JFD_REPAIRINGROADS_HEADING3_BODY">
+			<Text>A worker may repair a pillaged road or improvement. It does not take any Charges to do this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORKERS_JFD_DURATIONTOCONSTRUCT_HEADING3_BODY">
+			<Text>Some improvements takes a certain amount of time. It will take longer to construct improvements in marathon games, and shorter in games started in later eras.[NEWLINE][NEWLINE]Terrain Modifiers: Improvements constructed in tundra and deserts will take 25% longer than the standard time to construct, while improvements constructed in snow will take 50% longer.</Text>
+		</Row>
+		<!--BUILDINGCLASS CATEGORIES-->
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_CENTRAL_DESC">
+			<Text>Central District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_CULTURAL_DESC">
+			<Text>Cultural District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_EDUCATION_DESC">
+			<Text>Education District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_ENTERTAINMENT_DESC">
+			<Text>Entertainment District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_FINANCIAL_DESC">
+			<Text>Financial District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_INDUSTRIAL_DESC">
+			<Text>Industrial District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_MARITIME_DESC">
+			<Text>Maritime District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_MILITARY_DESC">
+			<Text>Military District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_RELIGIOUS_DESC">
+			<Text>Religious District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUILDINGCLASSCATEGORY_WELFARE_DESC">
+			<Text>Welfare District</Text>
+		</Row>
+		<!--INTERFACE-->
+		<Replace Tag="TXT_KEY_YIELD_FROM_SPECIALISTS_FAITH">
+			<Text>{1_Num} [ICON_PEACE] from Specialists</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_INFLUENCE_OTHER">
+			<Text>Our [ICON_TOURISM]: {1_Num}%</Text>
+		</Replace>
+		<!--TOOLTIPS-->
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_CULTURE_MOD">
+			<Text>[ICON_CULTURE] Culture: +{1_Num}%</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CULTURE_MOD_NEGATIVE">
+			<Text>[ICON_CULTURE] Culture: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CULTURE_NEGATIVE">
+			<Text>[ICON_CULTURE] Culture: {1_Num}</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_FAITH_MOD">
+			<Text>[ICON_PEACE] Faith: +{1_Num}%</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FAITH_MOD_NEGATIVE">
+			<Text>[ICON_PEACE] Faith: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FAITH_NEGATIVE">
+			<Text>[ICON_PEACE] Faith: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_MODIFIERS">
+			<Text>{1_Num}% [ICON_PEACE] Faith from City Modifiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_NEGATIVE">
+			<Text>[ICON_FOOD] Food: {1_Num}</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_MOD">
+			<Text>[ICON_FOOD] Food: +{1_Num}%</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_MOD_NEGATIVE">
+			<Text>[ICON_FOOD] Food: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GOLD_NEGATIVE">
+			<Text>[ICON_GOLD] Gold: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GOLD_MOD_NEGATIVE">
+			<Text>[ICON_GOLD] Gold: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_NEGATIVE">
+			<Text>[ICON_HAPPINESS_1] Happiness: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRODUCTION_NEGATIVE">
+			<Text>[ICON_PRODUCTION] Production: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRODUCTION_MOD_NEGATIVE">
+			<Text>[ICON_PRODUCTION] Production: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SCIENCE_NEGATIVE">
+			<Text>[ICON_RESEARCH] Science: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SCIENCE_MOD_NEGATIVE">
+			<Text>[ICON_RESEARCH] Science: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TOURISM_NEGATIVE">
+			<Text>[ICON_TOURISM] Tourism: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOURISM_FROM_BUILDINGS">
+			<Text>{1_Num} [ICON_TOURISM] from Buildings</Text>
+		</Row>
+		<!--BUILDINGS-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEFENSE_DESC">
+			<Text>JFD: Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PYRAMID_HELP_CHARGES">
+			<Text>+1 [ICON_WORKER] Build Charge and two Workers appear near the City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PYRAMID_HELP_CHARGES_SLAVERY">
+			<Text>+1 [ICON_WORKER] Build Charge and two Peasants appear near the City.</Text>
+		</Row>
+		<!--POLICIES-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CITIZENSHIP_HELP_CHARGES">
+			<Text>[COLOR_POSITIVE_TEXT]Citizenship[ENDCOLOR][NEWLINE]+1 [ICON_WORKER] Build Charge and a Worker appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CITIZENSHIP_HELP_CHARGES_SLAVERY">
+			<Text>[COLOR_POSITIVE_TEXT]Citizenship[ENDCOLOR][NEWLINE]+1 [ICON_WORKER] Build Charge and a Peasant appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_AUTOCRACY_HELP_CHARGES_CBO">
+			<Text>COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production when building Military Units, and +1 [ICON_BUILD] Build Charges.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CITIZENSHIP_HELP_CHARGES_CBO">
+			<Text>[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR][NEWLINE]A Worker appears near the [ICON_CAPITAL] Capital.[NEWLINE] +1 [ICON_WORKER] Build Charge and Workers are trained 25% more quickly.</Text>
+		</Row>
+		<!--PROMOTIONS-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BUILD_CHARGE">
+			<Text>Build Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BUILD_CHARGE_HELP">
+			<Text>Indicates 1 Build Charge</Text>
+		</Row>
+		<!--UNITS-->
+		<!--Peasant-->
+		<Row Tag="TXT_KEY_UNIT_JFD_PEASANT_HELP_CHARGES">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities, with less Charges than Slaves or Workers. Cannot build Railroads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PEASANT_STRATEGY_CHARGES">
+			<Text>The Peasant constructs roads and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory. The Peasant has less Charges than a Worker or Slave and cannot build Railroads.</Text>
+		</Row>
+		<!--Slave-->
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_SLAVE_CHARGES">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities, with more Charges than Peasants. Can build Slave Plantations, but not Roads nor Railroads. Cannot repair Improvements.[NEWLINE][NEWLINE]May be expended to hurry [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SLAVE_STRATEGY_CHARGES">
+			<Text>The Slave builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory. It has more Charges than the Peasant, however, it cannot construct roads or railroads and cannot repair improvements. The Slave can also hurry production of a unit, building or Wonder in a city. The Slave is expended when used in either of these ways.</Text>
+		</Row>
+		<!--Worker-->
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_WORKER_CHARGES">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities, with more Charges than Peasants or Slaves. Can build Villages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_WORKER_STRATEGY_CHARGES">
+			<Text>The Worker constructs roads, railroads and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory. This unit costs additional Maintenance over the Peasant and Slave, but has more Charges.</Text>
+		</Row>
+		<!--YIELDS-->
+		<Row Tag="TXT_KEY_YIELD_JFD_DEFENSE">
+			<Text>Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_JFD_DEVELOPMENT">
+			<Text>Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_JFD_HAPPINESS">
+			<Text>Happiness</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

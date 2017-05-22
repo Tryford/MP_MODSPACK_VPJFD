@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_DEVELOPMENT_HEADING1_TITLE">
+			<Text>Development: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DEVELOPMENT_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Development[ENDCOLOR] is one of the new gameplay elements added by Cities in Development. It is the measurement of a city's capacity to support its Population. You must have at least as much Development as your Population Threshold, otherwise the city will have increased Crime and Disease, and decreased Wonder Production. However, going beyond this Population Threshold will increase the city's Happiness,  Health, and Building Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DEVELOPMENT_INCREASE_HEADING1_TITLE">
+			<Text>Development: Increasing Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DEVELOPMENT_INCREASE_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Development[ENDCOLOR] can be increased through the construction of Buildings, or Improvements like the Village, Town, or Fort. With Provinces, your city's Province Level will also decrease the city's Population Threshold.</Text>
+		</Row>
+		<!--BUILDINGS-->
+		<!--Development Deficit-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_DEFICIT_CRIME">
+			<Text>JFD: Development Deficit (Crime)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_DEFICIT_CRIME_HELP">
+			<Text>+1 [ICON_JFD_CRIME_BLACK] Crime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_DEFICIT_DISEASE">
+			<Text>JFD: Development Deficit (Disease)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_DEFICIT_DISEASE_HELP">
+			<Text>+1 [ICON_JFD_DISEASE] Disease.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_DEFICIT_WONDERS">
+			<Text>JFD: Development Deficit (Wonder Production)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_DEFICIT_WONDERS_HELP">
+			<Text>-1% [ICON_PRODUCTION] Wonder Production.</Text>
+		</Row>
+		<!--Development Surplus-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_SURPLUS_HAPPINESS">
+			<Text>JFD: Development Surplus (Happiness)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_SURPLUS_HAPPINESS_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_SURPLUS_HEALTH">
+			<Text>JFD: Development Surplus (Health)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_SURPLUS_HEALTH_HELP">
+			<Text>+1 [ICON_JFD_HEALTH] Health.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_SURPLUS_BUILDINGS">
+			<Text>JFD: Development Surplus (Building Production)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEVELOPMENT_SURPLUS_BUILDINGS_HELP">
+			<Text>+1% [ICON_PRODUCTION] Building Production.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--GAZEBO CITY-STATE DIPLOMACY-->
+		<!--City Hall-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_CSD">
+			<Text>City Hall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_STRATEGY_CSD">
+			<Text>The City Hall is a Medieval Era building. It increases the speed at which the city produces military units. It can also be used to work Dignitary specialists, which increase your progress toward [ICON_GOLDEN_AGE] Golden Ages and the generation of Great Dignitaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_TEXT_CSD">
+			<Text>In local government, a city hall, town hall, civic centre, guildhall, Rathaus , or (more rarely) a municipal building, is the chief administrative building of a city, town, or other municipality. It usually houses the city or town council, its associated departments, and their employees. It also usually functions as the base of the mayor of a city, town, borough, or county.</Text>
+		</Row>
+		<!--Court of Chancery-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_HELP_CSD">
+			<Text>Length of [ICON_GOLDEN_AGE] Golden Ages increased by 25%. Provides +2 [ICON_JFD_DIGNITARY] Dignitaries.[NEWLINE][NEWLINE]Must have built a City Hall in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_STRATEGY_CSD">
+			<Text>This National Wonder increases the length of [ICON_GOLDEN_AGE] Golden Ages. It also provides a [ICON_JFD_DIGNITARY] Dignitary on completion, making the Court of Chancery a useful building for pushing [ICON_JFD_CLAIM_MEDIUM] Claims. A civilization must have a City Hall in all cities before it can construct a Court of Chancery.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

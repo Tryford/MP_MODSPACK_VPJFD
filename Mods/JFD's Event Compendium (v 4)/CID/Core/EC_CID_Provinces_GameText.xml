@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--Family Dispute-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_DESCRIPTION">
+			<Text>Family Dispute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc} has come to us to settle a family dispute. Their mother has recently passed, leaving behind a modest sum of gold. It was her will, backed by her eldest son, that the money be donated to the city's poor. The {1_RulerDesc}, however, believes that it should be split among the members of their family instead.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_DESCRIPTION_CHOICE_1">
+			<Text>We must not dishonour those passed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_DESCRIPTION_CHOICE_2">
+			<Text>It should go to the family. Though we expect a fee.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_DESCRIPTION_CHOICE_3">
+			<Text>Simple. The gold is ours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_HELP_CHOICE_1">
+			<Text>The City gains +{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_HELP_CHOICE_2">
+			<Text>+{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_HELP_CHOICE_3">
+			<Text>+20 to the City's [ICON_JFD_RED_FIST] Revolt Counter and +{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_CHOICE_1">
+			<Text>The governor of {2_CityDesc}'s family dispute has ended in their inheritance going to the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_CHOICE_2">
+			<Text>The governor of {2_CityDesc}'s family dispute has ended in their inheritance going to their family.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_FAMILY_DISPUTE_CHOICE_3">
+			<Text>The governor of {2_CityDesc}'s family dispute has ended in their inheritance going to us.</Text>
+		</Row>
+		<!--Fervant Levies-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_PROVINCE_FERVANCE_DESCRIPTION_CHOICE_1">
+			<Text>Fervant Levies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_PROVINCE_FERVANCE_HELP_CHOICE_1">
+			<Text>A band of Levies have been taking extra time to train in the hopes to serve their country. A random Levy Unit gains +20 XP.</Text>
+		</Row>
+		<!--Governor's Call to Arms-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_CALL_TO_ARMS_DESCRIPTION_CHOICE_1">
+			<Text>Governor's Call to Arms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_CALL_TO_ARMS_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]Pledging their support, the City's {1_RulerDesc} has provided 1 Military Unit to assist in our current war effort.</Text>
+		</Row>
+		<!--Governor's Daughter-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DAUGHTER_DESCRIPTION">
+			<Text>Governor's Daughter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DAUGHTER_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc} has requested that we allow their beloved daughter a place at our court. This would no doubt displease {2_CityDesc}'s people, however.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DAUGHTER_DESCRIPTION_CHOICE_1">
+			<Text>Very well. They may take a place at our court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DAUGHTER_DESCRIPTION_CHOICE_2">
+			<Text>I must decline.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DAUGHTER_HELP_CHOICE_1">
+			<Text>+20 to the City's [ICON_HAPPINESS_4] Resistance Counter and +10% [ICON_JFD_BLUE_FIST] Loyalty in the City for the next 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DAUGHTER_HELP_CHOICE_2">
+			<Text>No effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_DAUGHTER_CHOICE_1">
+			<Text>We have accepted at our court the daughter of the governor of {2_CityDesc}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_DAUGHTER_CHOICE_2">
+			<Text>We have declined at our court the daughter of the governor of {2_CityDesc}.</Text>
+		</Row>
+		<!--Governor's Dissatisfaction-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DISSATISFACTION_DESCRIPTION">
+			<Text>Governor's Dissatisfaction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DISSATISFACTION_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc} has petitioned us for a higher station. They have given us good cause to do so, but we have been advised by our court that this promotion would be costly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DISSATISFACTION_DESCRIPTION_CHOICE_1">
+			<Text>Yes, perhaps we should.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DISSATISFACTION_DESCRIPTION_CHOICE_2">
+			<Text>The greedy lout shall get no such thing!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DISSATISFACTION_HELP_CHOICE_1">
+			<Text>{1_Yield} and the City becomes a [ICON_JFD_DUCHY] State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DISSATISFACTION_HELP_CHOICE_2">
+			<Text>+50 to the City's [ICON_JFD_RED_FIST] Revolt Counter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_DISSATISFACTION_CHOICE_1">
+			<Text>The governor of {2_CityDesc} has been elevated to a higher station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_DISSATISFACTION_CHOICE_2">
+			<Text>The governor of {2_CityDesc} has been denied a higher station.</Text>
+		</Row>
+		<!--Governor's Donation-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DONATION_DESCRIPTION_CHOICE_1">
+			<Text>Governor's Donation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_DONATION_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]Satisfied with our leadership, the {1_RulerDesc} has donated a cache of gold to us. Gain a sum of [ICON_GOLD] Gold.</Text>
+		</Row>
+		<!--Governor's Garden-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GARDEN_DESCRIPTION">
+			<Text>Governor's Garden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GARDEN_HELP">
+			<Text>The garden at {2_CityDesc} has become a favourite refuge for the city's {1_RulerDesc}. It is said they spend so much time there, however, that it has become a problem for the local government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GARDEN_DESCRIPTION_CHOICE_1">
+			<Text>Let them have their peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GARDEN_DESCRIPTION_CHOICE_2">
+			<Text>They must return to work.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GARDEN_HELP_CHOICE_1">
+			<Text>+10 to the City's [ICON_JFD_RED_FIST] Revolt Counter and the City's Garden gains +1 [ICON_CULTURE] Culture for the next 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GARDEN_HELP_CHOICE_2">
+			<Text>-20 to the City's [ICON_JFD_RED_FIST] Revolt Counter.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_GARDEN_CHOICE_1">
+			<Text>We have allowed the governor of {2_CityDesc} to remain at their garden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_GARDEN_CHOICE_2">
+			<Text>We have forbidden the governor of {2_CityDesc} to remain at their garden.</Text>
+		</Row>
+		<!--Governor's Gift-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GIFT_DESCRIPTION_CHOICE_1">
+			<Text>Governor's Gift</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GIFT_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]In awe of our leadership, the {1_RulerDesc} has gifted their finest horse to us. Gain 1 [ICON_RES_HORSE] Horse.</Text>
+		</Row>
+		<!--Governor's Marriage-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_MARRIAGE_DESCRIPTION">
+			<Text>Governor's Marriage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_MARRIAGE_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc} has arranged to be married to a young noble. We might wish to take this opportunity to make a public affair out of the ceremony.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_MARRIAGE_DESCRIPTION_CHOICE_1">
+			<Text>Yes, this marriage is everyone's concern.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_MARRIAGE_DESCRIPTION_CHOICE_2">
+			<Text>No, it is no one else's concern.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_MARRIAGE_HELP_CHOICE_1">
+			<Text>{1_Yield} and all cities begin celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 3 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_MARRIAGE_HELP_CHOICE_2">
+			<Text>The City begins celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 5 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_MARRIAGE_CHOICE_1">
+			<Text>The governor of {2_CityDesc}'s marriage has become a public ceremony.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_MARRIAGE_CHOICE_2">
+			<Text>The governor of {2_CityDesc}'s marriage has remained a private ceremony.</Text>
+		</Row>
+		<!--Governor's Request-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_REQUEST_DESCRIPTION">
+			<Text>Governor's Request</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_REQUEST_HELP">
+			<Text>We have been petitioned by the {1_RulerDesc} of {2_CityDesc} for a donation of gold, to sustain their tireless allegiance to us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_REQUEST_DESCRIPTION_CHOICE_1">
+			<Text>Very well, they may have this gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_REQUEST_DESCRIPTION_CHOICE_2">
+			<Text>Absolutely not! Is it not enough that they serve beneath me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_REQUEST_HELP_CHOICE_1">
+			<Text>{1_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_REQUEST_HELP_CHOICE_2">
+			<Text>+30 to the City's [ICON_JFD_RED_FIST] Revolt Counter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_REQUEST_CHOICE_1">
+			<Text>We have agreed to the governor of {2_CityDesc}'s request for a donation of gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_REQUEST_CHOICE_2">
+			<Text>We have turned down the governor of {2_CityDesc}'s request for a donation of gold.</Text>
+		</Row>
+		<!--Great Ball-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_DESCRIPTION">
+			<Text>The Great Ball</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_HELP">
+			<Text>Apparently, a Great Ball is to be hosted at the pleasure of the {1_RulerDesc} of {2_CityDesc}, but we were not invited![NEWLINE][NEWLINE]Choose from one of the options below...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_DESCRIPTION_CHOICE_1">
+			<Text>Well, what's a Ball? I suppose it would be frightfully dull...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_DESCRIPTION_CHOICE_2">
+			<Text>This is an insult! We will be in attendance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_HELP_CHOICE_1">
+			<Text>The [ICON_CAPITAL] Capital begins celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 5 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_HELP_CHOICE_2">
+			<Text>The City's [ICON_JFD_WLTKD] 'We Love the King Day' ends and +{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_CHOICE_1">
+			<Text>We have chosen not to attend the Great Ball at {2_CityDesc}, pleasing our court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_CHOICE_2">
+			<Text>We have attended the Great Ball at {2_CityDesc}, despite having not been invited.</Text>
+		</Row>
+		<!--Great Ball Embarrassment-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_EMBARRASS_DESCRIPTION_CHOICE_1">
+			<Text>The Great Ball</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_EMBARRASS_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]Our attendance at the Great Ball hosted at {2_CityDesc} was met with much displeasure and discomfort by its guests. +10 to the City's [ICON_HAPPINESS_4] Resistance Counter.</Text>
+		</Row>
+		<!--Great Ball Misunderstanding-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_MISTAKE_DESCRIPTION_CHOICE_1">
+			<Text>The Great Ball</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_GREAT_BALL_MISTAKE_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]As it turns out, we were invited to the Great Ball hosted at {2_CityDesc} after all! The City begins celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 3 turns.</Text>
+		</Row>
+		<!--Homosexual Governor-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HOMOSEXUAL_DESCRIPTION">
+			<Text>Homosexual Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HOMOSEXUAL_HELP">
+			<Text>Rumours have spread that the {1_RulerDesc} of {2_CityDesc} has taken to the bed of a servant - of the same sex! The rumours have left their court in disarray, and we have been asked to step in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HOMOSEXUAL_DESCRIPTION_CHOICE_1">
+			<Text>We do not address mere rumours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HOMOSEXUAL_DESCRIPTION_CHOICE_2">
+			<Text>What of it? Their private life is their concern.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HOMOSEXUAL_HELP_CHOICE_1">
+			<Text>30 to the [ICON_CAPITAL] Capital's [ICON_JFD_BLUE_FIST] Celebration Counter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HOMOSEXUAL_HELP_CHOICE_2">
+			<Text>+{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_HOMOSEXUAL_CHOICE_1">
+			<Text>The governor of {2_CityDesc}'s homosexual affair has been dismissed as being no more than mere rumour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_HOMOSEXUAL_CHOICE_2">
+			<Text>The governor of {2_CityDesc}'s homosexual affair has been dismissed as being their business alone.</Text>
+		</Row>
+		<!--Hunting Accident-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_DESCRIPTION">
+			<Text>Hunting Accident</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc} has recently been killed by their brother in a hunting accident. Reportedly, they were mistaken for a deer and shot dead with an arrow to the... eye![NEWLINE][NEWLINE]Choose from one of the options below...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_DESCRIPTION_CHOICE_1">
+			<Text>Nothing suspicious here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_DESCRIPTION_CHOICE_2">
+			<Text>We had better investigate this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_HELP_CHOICE_1">
+			<Text>The City's [ICON_JFD_BLUE_FIST] Celebration and [ICON_JFD_RED_FIST] Revolt Counters are reset.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_HELP_CHOICE_2">
+			<Text>-50 to the City's [ICON_JFD_BLUE_FIST] Celebration Counter and -50 to the City's [ICON_JFD_RED_FIST] Revolt Counter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_HUNTING_CHOICE_1">
+			<Text>The governor of {2_CityDesc}'s death in a hunting accident has been ruled accidental.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_HUNTING_CHOICE_2">
+			<Text>The governor of {2_CityDesc}'s death in a hunting accident has been ruled suspicious.</Text>
+		</Row>
+		<!--Hunting Accident Evidence-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_EVIDENCE_DESCRIPTION_CHOICE_1">
+			<Text>Hunting Accident</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_EVIDENCE_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]New evidence reveals that the death of the former {1_RulerDesc} was, indeed as we expected, an accident. +10 to the City's [ICON_JFD_BLUE_FIST] Celebration Counter.</Text>
+		</Row>
+		<!--Hunting Accident Witness-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_WITNESS_DESCRIPTION">
+			<Text>Hunting Accident</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_WITNESS_HELP">
+			<Text>A servant has come forth claiming that the death of the former {1_RulerDesc} of {2_CityDesc} was no accident. They allege that the governor's brother had first ordered the servants to vacate the area, before reportedly luring the {1_RulerDesc} into a position in which to be targeted at a distance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_WITNESS_DESCRIPTION_CHOICE_1">
+			<Text>As we said - nothing suspicious here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_HUNTING_WITNESS_HELP_CHOICE_1">
+			<Text>+40 to the City's [ICON_JFD_BLUE_FIST] Celebration Counter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_HUNTING_WITNESS_CHOICE_1">
+			<Text>The governor of {2_CityDesc}'s death in a hunting accident has been confirmed as accidental.</Text>
+		</Row>
+		<!--Incompetent Governor-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_DESCRIPTION">
+			<Text>Incompetent Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc} has time and again been called out for their gross incompetence. Finally, however, they have gone too far - having thrown our delegate from their court and ranting that such "overseering" is unneeded![NEWLINE][NEWLINE]Choose from one of the options below...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_DESCRIPTION_CHOICE_1">
+			<Text>Perhaps we can look the other way.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_HELP_CHOICE_1">
+			<Text>{1_Yield} and +10% [ICON_JFD_BLUE_FIST] Loyalty in the City for the next 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_CHOICE_1">
+			<Text>The incompetent governor of {2_CityDesc} continues to make a mockery of their office.</Text>
+		</Row>
+		<!--Incompetent Governor Fire-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_FIRE_DESCRIPTION">
+			<Text>Incompetent Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_FIRE_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc}, in their latest display of incompetence, has let the local Granary burn to the ground![NEWLINE][NEWLINE]Choose from one of the options below...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_FIRE_DESCRIPTION_CHOICE_1">
+			<Text>An accident, surely.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_FIRE_HELP_CHOICE_1">
+			<Text>The City loses its Granary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_FIRE_CHOICE_1">
+			<Text>The incompetent governor of {2_CityDesc} has cost us a Granary in the city.</Text>
+		</Row>
+		<!--Incompetent Governor Gold-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_GOLD_DESCRIPTION">
+			<Text>Incompetent Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_GOLD_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc}, in their latest display of incompetence, has misplaced the city's ledger, resulting in a loss in our income![NEWLINE][NEWLINE]Choose from one of the options below...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_GOLD_DESCRIPTION_CHOICE_1">
+			<Text>An innocent mistake.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_GOLD_HELP_CHOICE_1">
+			<Text>{1_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_INCOMPETENT_GOLD_CHOICE_1">
+			<Text>The incompetent governor of {2_CityDesc} has cost us a sum of Gold.</Text>
+		</Row>
+		<!--Insane Governor-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_DESCRIPTION">
+			<Text>Insane Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_HELP">
+			<Text>It has been reported that the {1_RulerDesc} of {2_CityDesc} has slipped into madness. They waste away the nights prowling the streets, howling at the moon and cackling at passersby. Something must be done before they endanger the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_DESCRIPTION_CHOICE_1">
+			<Text>We cannot dishonour their family; they must remain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_HELP_CHOICE_1">
+			<Text>{1_Yield} and +{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_INSANE_CHOICE_1">
+			<Text>The demented governor of {2_CityDesc} remains at their station, averting dishonour to their family - albeit at the expense of the people.</Text>
+		</Row>
+		<!--Insane Governor's Counsel-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_HORSE_DESCRIPTION">
+			<Text>Insane Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_HORSE_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc} has recently appointed their favourite stallion as a member of their government! It is clear that their madness is only worsening, and that we must act before they become a danger to the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_HORSE_DESCRIPTION_CHOICE_1">
+			<Text>What harm can this appointment do?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_HORSE_HELP_CHOICE_1">
+			<Text>{1_Yield} and gain 2 [ICON_RES_HORSE] Horses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_INSANE_HORSE_CHOICE_1">
+			<Text>The governor of {2_CityDesc} has appointed a Horse to advise them on political matters.</Text>
+		</Row>
+		<!--Insane Governor's Murder-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_MURDER_DESCRIPTION">
+			<Text>Insane Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_MURDER_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc} has fled the city, leaving a disemboweled servant and a distraught spouse in their wake! Our negligence has cost a servant their life and us our reputation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_MURDER_DESCRIPTION_CHOICE_1">
+			<Text>They must be brought before a court and tried!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_MURDER_DESCRIPTION_CHOICE_2">
+			<Text>We must appoint a replacement and hide this embarrassment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_MURDER_HELP_CHOICE_1">
+			<Text>+{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_MURDER_HELP_CHOICE_2">
+			<Text>The City begins celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_INSANE_MURDER_CHOICE_1">
+			<Text>The governor of {2_CityDesc} has been brought before a court and tried for their crime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_INSANE_MURDER_CHOICE_2">
+			<Text>A new governor of {2_CityDesc} has been appointed, averting any attention to the recently murdered servant.</Text>
+		</Row>
+		<!--Insane Governor's Palace-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_PALACE_DESCRIPTION">
+			<Text>Insane Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_PALACE_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc}, believing themself to be the living incarnation of a God, has ordered that the city's Assembly be converted into a lavish palace. It is unclear whether their madness will ever cease.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_PALACE_DESCRIPTION_CHOICE_1">
+			<Text>Let them have their palace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_INSANE_PALACE_HELP_CHOICE_1">
+			<Text>{1_Yield} in the City and the City's Assembly gains +2 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_INSANE_PALACE_CHOICE_1">
+			<Text>The governor of {2_CityDesc} has converted the city's Assembly into a palace.</Text>
+		</Row>
+		<!--Jousting Tournament-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_DESCRIPTION">
+			<Text>Jousting Tournament</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_HELP">
+			<Text>The {1_RulerDesc} of {2_CityDesc} has invited us to compete in a Jousting Tournament, to be hosted at their expense. It would be an opportunity for us to prove our mettle in the public eye.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_DESCRIPTION_CHOICE_1">
+			<Text>It is a Tournament then!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_DESCRIPTION_CHOICE_2">
+			<Text>We have no time for games.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_DESCRIPTION_CHOICE_3">
+			<Text>Not with that mad-man!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_HELP_CHOICE_1">
+			<Text>The City begins celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 5 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_HELP_CHOICE_2">
+			<Text>The City gains +{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_HELP_CHOICE_3">
+			<Text>+{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_JOUSTING_CHOICE_1">
+			<Text>We have agreed to the governor of {2_CityDesc}'s Jousting Tournament.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_JOUSTING_CHOICE_2">
+			<Text>We have turned down the governor of {2_CityDesc}'s Jousting Tournament.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_JOUSTING_CHOICE_3">
+			<Text>We have turned down the governor of {2_CityDesc}'s Jousting Tournament, remembering that they were insane!</Text>
+		</Row>
+		<!--Jousting Tournament Failure-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_FAILURE_DESCRIPTION_CHOICE_1">
+			<Text>Jousting Tournament</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_FAILURE_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]In our Jousting Tournament with the {1_RulerDesc}, we have emerged as the loser! -50 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<!--Jousting Tournament Insane-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_INSANE_DESCRIPTION_CHOICE_1">
+			<Text>Jousting Tournament</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_INSANE_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]Alas, the city's demented {1_RulerDesc} has challenged us naked! We are forced to forfeit. -50 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<!--Jousting Tournament Victory-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_VICTORY_DESCRIPTION_CHOICE_1">
+			<Text>Jousting Tournament</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_JOUSTING_VICTORY_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]In our Jousting Tournament with the {1_RulerDesc}, we have emerged as the victor! Gain a sum of [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<!--Levies Desert-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_PROVINCE_DESERTION_DESCRIPTION_CHOICE_1">
+			<Text>Levies Desert!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_PROVINCE_DESERTION_HELP_CHOICE_1">
+			<Text>[NEWLINE][NEWLINE]Learning the fate that awaits them, some of our Levies have thrown down their arms and fled! A random Levy Unit takes 20 Damage.</Text>
+		</Row>
+		<!--New Birth-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_NEW_BIRTH_DESCRIPTION_CHOICE_1">
+			<Text>New Birth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_NEW_BIRTH_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]After much hardship, a new child has been born to the city's {1_RulerDesc}. The City begins celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 3 turns.</Text>
+		</Row>
+		<!--Tireless Governor-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TIRELESS_DESCRIPTION">
+			<Text>Tireless Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TIRELESS_HELP">
+			<Text>One of our most trusted allies, the {1_RulerDesc} of {2_CityDesc}, is said to have collapsed from exhaustion. Although it pains them to admit, perhaps it is time that they step down.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TIRELESS_DESCRIPTION_CHOICE_1">
+			<Text>That is their decision to make, not ours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TIRELESS_HELP_CHOICE_1">
+			<Text>{1_Yield} and +{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_TIRELESS_CHOICE_1">
+			<Text>The tireless governor of {2_CityDesc} continues to toil away in their office.</Text>
+		</Row>
+		<!--Governor's Death-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TIRELESS_DEATH_DESCRIPTION_CHOICE_1">
+			<Text>Tireless Governor's Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TIRELESS_DEATH_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]Unfortunately, the {1_RulerDesc} of {2_CityDesc} has died. Perhaps if we had heeded the signs... The City's [ICON_JFD_BLUE_FIST] Celebration Counter is reset.</Text>
+		</Row>
+		<!--Tortured Children-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TORTURE_DESCRIPTION">
+			<Text>Tortured Children</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TORTURE_HELP">
+			<Text>We have learned that the {1_RulerDesc} of {2_CityDesc} has been torturing young children; locking them in dungeons and starving them to the brink of death. One, however, has escaped, and awaits in tapered hope that we might intervene.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TORTURE_DESCRIPTION_CHOICE_1">
+			<Text>Yes, the governor will be fined and instructed to stop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_TORTURE_HELP_CHOICE_1">
+			<Text>+{2_Yield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_TORTURE_CHOICE_1">
+			<Text>The governor of {2_CityDesc} has been fined for their torture of children and asked that they not to do it again.</Text>
+		</Row>
+		<!--War Machine-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_WAR_MACHINE_DESCRIPTION_CHOICE_1">
+			<Text>War Machine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_WAR_MACHINE_CHOICE_1_HELP">
+			<Text>News from [COLOR_POSITIVE_TEXT]{2_CityDesc}[ENDCOLOR]:[NEWLINE][NEWLINE]To aide in our current war effort, the {1_RulerDesc} has provided us with a secret war machine. Gain 1 Siege Tower at the City.</Text>
+		</Row>
+		<!--Shared Choices-->
+		<!--Remove Governor-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_REMOVE_DESCRIPTION_CHOICE_2">
+			<Text>We must remove this governor from office.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_REMOVE_HELP_CHOICE_2">
+			<Text>The City enters [ICON_RESISTANCE] Resistance for 1 turn and begins celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 10 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_PROVINCE_REMOVE_DESCRIPTION">
+			<Text>Governor of {2_CityDesc} removed from office.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_PROVINCE_REMOVE_CHOICE_2">
+			<Text>The governor of {2_CityDesc} has been removed from their office for malfeasance.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

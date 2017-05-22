@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_INVESTMENTS_HEADING1_TITLE">
+			<Text>Invesments: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INVESTMENTS_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Investments[ENDCOLOR] is one of the new gameplay elements added by Cities in Development. It replaces Gold-rushing. Instead, you use gold to Invest in a Building or Wonder, thereby reducing its base Production cost.[NEWLINE][NEWLINE]Investing in a Puppet or Colony will incline the AI to focus on that Building. However, in these cities, the Magistrate resource can be used to rush Buildings instead.</Text>
+		</Row>
+		<!--INTERFACE-->
+		<Replace Tag="TXT_KEY_ALREADY_INVESTED">
+			<Text>[NEWLINE]You have already [ICON_INVEST] Invested in this. It's [ICON_PRODUCTION] Production cost has been reduced.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING_PURCHASE">
+			<Text>[NEWLINE]You cannot [ICON_GOLD] Purchase this Unit without {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_BuildingType}} constructed in the city.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_INVESTMENT_BUILDING">
+			<Text>[COLOR_YIELD_GOLD]{1_Num}% [ICON_PRODUCTION] cost with [ICON_INVEST] Investment.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_INVESTMENT_UNIT">
+			<Text>[COLOR_YIELD_GOLD]{1_Num}% [ICON_PRODUCTION] cost with [ICON_INVEST] Investment.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_INVESTMENT_WONDER">
+			<Text>[COLOR_YIELD_GOLD]{1_Num}% [ICON_PRODUCTION] cost with [ICON_INVEST] Investment.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_INVESTED">
+			<Text>[COLOR_YIELD_GOLD] ([ICON_INVEST] INVESTED) [ENDCOLOR]</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_INVEST">
+			<Text>Invest {1_Num} [ICON_INVEST]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_INVEST_TT">
+			<Text>You may spend {1_Num} [ICON_GOLD] Gold in order to [ICON_JFD_INVEST] Invest in this {2_Desc}, which will reduce it's [ICON_PRODUCTION] Production cost by {3_Num}%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_INVESTED">
+			<Text>INVESTED</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_INVESTED_TT">
+			<Text>You have already [ICON_INVEST] Invested in this {1_Desc}. It's [ICON_PRODUCTION] Production has been reduced by {2_Num}%.</Text>
+		</Row>
+		<!--POLICIES-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MERCANTILISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mercantilism[ENDCOLOR][NEWLINE][ICON_INVEST] Investments in Buildings or Units reduce their [ICON_PRODUCTION] Production cost by an additional 15%. +1 [ICON_RESEARCH] Science from every Mint, Market, Bank, and Stock Exchange.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

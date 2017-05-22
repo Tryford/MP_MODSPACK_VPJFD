@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_PROVINCES_HEADING1_TITLE">
+			<Text>Provinces: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROVINCES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Provinces[ENDCOLOR] is one of the new gameplay elements added by Cities in Development. They are a measurement of a city's territorial development and offer unique bonuses as they increase in level.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]State:[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_RANGE_STRENGTH] City Bombard Range.[NEWLINE][ICON_BULLET]-30% [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring tiles.[NEWLINE][ICON_BULLET]Villages: +1 [ICON_GOLD], Towns: +2 [ICON_GOLD][NEWLINE][ICON_BULLET]Upon (defensive) war, receive 1 Melee Units beginning with 100% of the XP provided by Buildings in the city.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]County:[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RANGE_STRENGTH] City Bombard Range.[NEWLINE][ICON_BULLET]-10% [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring tiles.[NEWLINE][ICON_BULLET]Towns: +1 [ICON_GOLD].[NEWLINE][ICON_BULLET]Upon (defensive) war, receive 1 Melee Units beginning with 50% of the XP provided by Buildings in this city.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Municipality:[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_RANGE_STRENGTH] City Bombard Range.[NEWLINE][ICON_BULLET]Upon (defensive) war, receive 1 Melee Unit beginning with 25% of the XP provided by Buildings in this city.[NEWLINE][NEWLINE]The [ICON_CAPITAL] Capital and [ICON_JFD_COLONY] Colonies are exceptions:[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Capital:[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_RANGE_STRENGTH] City Bombard Range.[NEWLINE][ICON_BULLET]Villages: +1 [ICON_GOLD], Towns: +2 [ICON_GOLD][NEWLINE][ICON_BULLET]Upon (defensive) war, receive 2 Melee Units beginning with 100% of the XP provided by Buildings in the city.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Colony:[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RANGE_STRENGTH] City Bombard Range.[NEWLINE][ICON_BULLET]Upon (defensive) war, receive 2 Melee Units beginning with 50% of the XP provided by Buildings in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROVINCES_LEVIES_HEADING1_TITLE">
+			<Text>Provinces: Levies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROVINCES_LEVIES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Levies[ENDCOLOR] are Melee or Guns Units that can be conscripted from a city by expending its Population. You will also receive free Levies when a major war is declared against you (provided you are at peace at the time and have unlocked the Nobility tech), but these Levies will be disbanded once you return to peace. Levy Units in either case have less Max Hit Points and begin with less XP than regular Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROVINCES_UPGRADE_HEADING1_TITLE">
+			<Text>Provinces: Upgrading</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROVINCES_UPGRADE_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Upgrading Provinces[ENDCOLOR] is done primarily through the construction of the Manor or Mansion National Wonder. These National Wonders require a specific number of Population or a specific number of Improved Tiles before they can be constructed.[NEWLINE][NEWLINE]If you are using Claims, the Great Magistrate may be used to instantly upgrade a Province.</Text>
+		</Row>
+		<!--BELIEFS-->
+		<!--Religious Settlements-->
+		<Row Tag="TXT_KEY_BELIEF_JFD_RELIGIOUS_SETTLEMENTS_DESC">
+			<Text>+1 [ICON_PEACE] on Trading Posts, Villages, and Towns</Text>
+		</Row>
+		<!--BUILDS-->
+		<!--Trading Post-->
+		<Row Tag="TXT_KEY_BUILD_JFD_TRADING_POST_REC">
+			<Text>It will upgrade into more advanced Improvements as it is worked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_JFD_TRADING_POST_HELP">
+			<Text>Upgrades into more advanced Improvements as it is worked.</Text>
+		</Row>
+		<!--IMPROVEMENTS-->
+		<!--Town-->
+		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_TOWN_DESC">
+			<Text>Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_JFD_TOWN_TEXT">
+			<Text>Towns are moderately sized settlements where people live who prefer the quietier country to hectic city. Travelers and city folk come to purchase and trade food, weapons, whiskey, gold, and all of the other trappings of society. They can generate an even larger amount of wealth for a society than Villages.</Text>
+		</Row>
+		<!--Village-->
+		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_VILLAGE_DESC">
+			<Text>Village</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_JFD_VILLAGE_TEXT">
+			<Text>Villages are small settlements where people live who prefer the quietier country to hectic city. Travelers and city folk come to purchase and trade food, weapons, whiskey, gold, and all of the other trappings of society. They generate a larger amount of wealth for a society than Trading Posts.</Text>
+		</Row>
+		<!--MISSIONS-->
+		<!--Upgrade Province-->
+		<Row Tag="TXT_KEY_MISSION_JFD_UPGRADE_PROVINCE">
+			<Text>Upgrade Province</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_UPGRADE_PROVINCE_HELP">
+			<Text>This order will consume the unit and upgrade the city's Province level.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_UPGRADE_PROVINCE_DISABLED">
+			<Text>Unit must be stationed in a [ICON_JFD_BARONY] Municipality or [ICON_JFD_COUNTY] County level city.</Text>
+		</Row>
+		<!--NATIONAL WONDERS-->
+		<!--Assembly-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_ASSEMBLY">
+			<Text>Assembly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ASSEMBLY_HELP">
+			<Text>Denotes a [ICON_JFD_BARONY] Muncipality.[NEWLINE][ICON_BULLET]+1 [ICON_RANGE_STRENGTH] City Bombard Range.[NEWLINE][ICON_BULLET]Levy Units begin with [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] of the XP provided Buildings in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ASSEMBLY_TEXT">
+			<Text>An assembly is a gathering called to address issues of importance to participants. Assemblies tend to be freely open to participation and operate by direct democracy. Some assemblies are of people from a location, some from a given workplace, industry or educational establishment others are called to address a specific issue.</Text>
+		</Row>
+		<!--Manor-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MANOR">
+			<Text>Manor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MANOR_HELP">
+			<Text>Denotes a [ICON_JFD_COUNTY] County.[NEWLINE][ICON_BULLET]+2 [ICON_RANGE_STRENGTH] City Bombard Range.[NEWLINE][ICON_BULLET][ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles is reduced by 10%.[NEWLINE][ICON_BULLET]Towns: +1 [ICON_GOLD].[NEWLINE][ICON_BULLET]Receive 1 [ICON_JFD_LEVIES] Levy Unit when a [COLOR_NEGATIVE_TEXT]MAJOR[ENDCOLOR] war is declared against you.[NEWLINE][ICON_BULLET]Levy Units begin with [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] of the XP provided Buildings in this city.[NEWLINE][NEWLINE]See Province Breakdown for requirements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MANOR_TEXT">
+			<Text>A manor house is a large country house, which was historically the capital residence or messuage within a manor, the basic unit of territorial organisation in the feudal system in Europe, in which dwelled the lord of the manor. It formed the administrative centre of a manor and within its great hall were held the lord's manorial courts, communal meals with manorial tenants and great banquets. The term is today loosely applied to smaller country houses, frequently dating from the late medieval era, which formerly housed the gentry. They were often fortified, but this was frequently intended more for show than for defense. Manor houses existed in most European countries where feudalism existed, where they were sometimes known as castles, palaces, and so on. Many buildings, such as schools, are named Manor; the reason behind this is because the building was or is close to a manor house.</Text>
+		</Row>
+		<!--Mansion-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MANSION">
+			<Text>Mansion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MANSION_HELP">
+			<Text>Denotes a [ICON_JFD_DUCHY] State.[NEWLINE][ICON_BULLET]+3 [ICON_RANGE_STRENGTH] City Bombard Range.[NEWLINE][ICON_BULLET][ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles is reduced by 30%.[NEWLINE][ICON_BULLET]Villages: +1 [ICON_GOLD], Towns: +1 [ICON_GOLD].[NEWLINE][ICON_BULLET]Receive 1 [ICON_JFD_LEVIES] Levy Units when a [COLOR_NEGATIVE_TEXT]MAJOR[ENDCOLOR] war is declared against you.[NEWLINE][ICON_BULLET]Levy Units begin with [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] of the XP provided Buildings in this city.[NEWLINE][NEWLINE]See Province Breakdown for requirements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MANSION_TEXT">
+			<Text>A mansion is a large dwelling house. The word itself derives from the Latin word mansio "dwelling", an abstract noun derived from the verb manere "to dwell". The English word "manse" originally defined a property large enough for the parish priest to maintain himself, but a mansion is no longer self-sustaining in this way (compare a Roman or medieval villa). 'Manor' comes from the same root—territorial holdings granted to a lord who would remain there—hence it is easy to see how the word 'Mansion' came to have its meaning.</Text>
+		</Row>
+		<!--POLICIES-->
+		<!--Commerce Finisher-->
+		<Row Tag="TXT_KEY_POLICY_JFD_COMMERCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to empires focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce will boost [ICON_GOLD] Gold output in the [ICON_CAPITAL] Capital City by 25%. Unlocks building Big Ben.[NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant +1 [ICON_GOLD] Gold from every Trading Post, Village, and Town. It also allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<!--Free Thought-->
+		<Row Tag="TXT_KEY_POLICY_JFD_FREE_THOUGHT_HELP">
+			<Text>+1 [ICON_RESEARCH] Science from every Trading Post, Village, and Town, and +17% [ICON_RESEARCH] Science from Universities.</Text>
+		</Row>
+		<!--Mobilization-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MOBILIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mobilization[ENDCOLOR][NEWLINE]Receive an additional [ICON_JFD_LEVIES] Levy Unit whenever one is conscripted.</Text>
+		</Row>
+		<!--PROMOTIONS-->
+		<!--Levy-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_LEVY">
+			<Text>Levy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_LEVY_HELP">
+			<Text>This Unit has been [ICON_JFD_LEVIES] Levied.[NEWLINE][NEWLINE]It has Max 50 HP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_LEVY_HELP_DEFENSIVE">
+			<Text>This Unit has been [ICON_JFD_LEVIES] Levied. It will be disbanded when upon you return to peace with all current (major) foes.[NEWLINE][NEWLINE]It has Max 50 HP.</Text>
+		</Row>
+		<!--PROVINCES-->
+		<!--Barony-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC">
+			<Text>Muncipality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER">
+			<Text>Mayor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_FEMININE">
+			<Text>Mayoress</Text>
+		</Row>
+		<!--County-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC">
+			<Text>County</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER">
+			<Text>Lord Mayor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_FEMININE">
+			<Text>Lord Mayor</Text>
+		</Row>
+		<!--State-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_FEMININE">
+			<Text>Governor</Text>
+		</Row>
+		<!--Capital-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_CAPITAL_DESC">
+			<Text>Capital</Text>
+		</Row>
+		<!--Colony-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC">
+			<Text>Colony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER">
+			<Text>Vicegerent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_FEMININE">
+			<Text>Vicegerent</Text>
+		</Row>
+		<!--March-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC">
+			<Text>March</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_RULER">
+			<Text>Marquis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_RULER_FEMININE">
+			<Text>Marquess</Text>
+		</Row>
+		<!--TECHS-->
+		<Replace Tag="TXT_KEY_ABLTY_CITY_INDIRECT_INCREASE">
+			<Text>City Indirect Range increased by 1.</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_JFD_ALLOWS_LEVIES">
+			<Text>Allows Levy Units to be recruited.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

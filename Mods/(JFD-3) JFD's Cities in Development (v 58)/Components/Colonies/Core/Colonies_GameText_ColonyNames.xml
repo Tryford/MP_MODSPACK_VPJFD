@@ -1,0 +1,5376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CIVILIZATIONS-->
+		<!--America-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_01">
+			<Text>Monrovia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_02">
+			<Text>Manila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_03">
+			<Text>San Juan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_04">
+			<Text>Charlotte Amalie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_05">
+			<Text>Pago Pago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_06">
+			<Text>Guam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_07">
+			<Text>South Tarawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_08">
+			<Text>Majuro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_09">
+			<Text>Palikir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_10">
+			<Text>Constitution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_11">
+			<Text>Adamsville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AMERICA_12">
+			<Text>Columbus</Text>
+		</Row>
+		<!--Austria-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRIA_01">
+			<Text>Osterstadt</Text>
+		</Row>
+		<!--Babylon-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BABYLON_01">
+			<Text>Sarralim</Text>
+		</Row>
+		<!--Brazil-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BRAZIL_01">
+			<Text>Rio Novo</Text>
+		</Row>
+		<!--Byzantium-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BYZANTIUM_01">
+			<Text>Deuspoli</Text>
+		</Row>
+		<!--Celts-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTS_01">
+			<Text>Baile Nua</Text>
+		</Row>
+		<!--China-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_01">
+			<Text>New Beijing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_02">
+			<Text>Xianggang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_03">
+			<Text>Aomen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_04">
+			<Text>Taibei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_05">
+			<Text>Lasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_06">
+			<Text>Tainan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_07">
+			<Text>Gaoxiong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_08">
+			<Text>Rikaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_09">
+			<Text>Taizhong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_10">
+			<Text>Jiangzi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_11">
+			<Text>Xinzhu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_12">
+			<Text>Changdu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_13">
+			<Text>Taoyuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_14">
+			<Text>Shiquanhe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_15">
+			<Text>Jilong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_16">
+			<Text>Naqu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_17">
+			<Text>Hualian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CHINA_18">
+			<Text>Taidong</Text>
+		</Row>
+		<!--Denmark-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_01">
+			<Text>Balasore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_02">
+			<Text>Reval</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_03">
+			<Text>Tórshavn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_04">
+			<Text>Kongenstein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_05">
+			<Text>Prinzenstein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_06">
+			<Text>Danmarksnagore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_07">
+			<Text>Trankebar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_08">
+			<Text>Reykjavik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_09">
+			<Text>Nuuk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_10">
+			<Text>Piltene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_DENMARK_11">
+			<Text>Frederiksnagore</Text>
+		</Row>
+		<!--Egypt-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_EGYPT_01">
+			<Text>Beth-Pelet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_EGYPT_02">
+			<Text>Robihwa</Text>
+		</Row>
+		<!--England-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_01">
+			<Text>Jamestown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_02">
+			<Text>Kingston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_03">
+			<Text>Sydney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_04">
+			<Text>Gibraltar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_05">
+			<Text>Nelson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_06">
+			<Text>Russel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_07">
+			<Text>Freetown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_08">
+			<Text>Plymouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_09">
+			<Text>Roanoke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_10">
+			<Text>St. George</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_11">
+			<Text>St. John</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_12">
+			<Text>Salem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_13">
+			<Text>Boston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_14">
+			<Text>Windsor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_15">
+			<Text>Abidjan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_16">
+			<Text>Libreville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_17">
+			<Text>Saybrook</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_18">
+			<Text>Providence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_19">
+			<Text>Cape Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_20">
+			<Text>Accra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_21">
+			<Text>Lagos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_22">
+			<Text>Victoria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_23">
+			<Text>Mombasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_24">
+			<Text>Maseru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_25">
+			<Text>Wellington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_26">
+			<Text>Natal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_27">
+			<Text>Pretoria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_28">
+			<Text>Bloemfontein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_29">
+			<Text>Codrington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_30">
+			<Text>Kuching</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_31">
+			<Text>Rangoon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_32">
+			<Text>Colombo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_33">
+			<Text>Stanley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_34">
+			<Text>Jesselton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_35">
+			<Text>Singapore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ENGLAND_36">
+			<Text>Sandakan</Text>
+		</Row>
+		<!--France-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_01">
+			<Text>La Rochelle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_02">
+			<Text>Charlesbourg Royale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_03">
+			<Text>Montreal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_04">
+			<Text>Nouvelle Orleans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_05">
+			<Text>Caroline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_06">
+			<Text>Tadoussac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_07">
+			<Text>Basse-Terre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_08">
+			<Text>Quebec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_09">
+			<Text>Saint Cristophe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_10">
+			<Text>Trois Riviers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_11">
+			<Text>Dominica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_12">
+			<Text>Cayenne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_13">
+			<Text>La Grenade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_14">
+			<Text>Moroni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_15">
+			<Text>Brazzaville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_16">
+			<Text>Algiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_17">
+			<Text>Bamako</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_18">
+			<Text>Ndjamena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_19">
+			<Text>Njimay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_20">
+			<Text>Djibouti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_21">
+			<Text>Conakry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_22">
+			<Text>Dauphin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_23">
+			<Text>Djougou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_24">
+			<Text>Bechar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_25">
+			<Text>Saigon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_26">
+			<Text>Hanoi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FRANCE_27">
+			<Text>Keelung</Text>
+		</Row>
+		<!--Germany-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANY_01">
+			<Text>Windhoek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANY_02">
+			<Text>Mzizma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANY_03">
+			<Text>Bagamoyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANY_04">
+			<Text>Herbertshöhe </Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANY_05">
+			<Text>Apia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANY_06">
+			<Text>Yaren</Text>
+		</Row>
+		<!--Greece-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_01">
+			<Text>Cyrene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_02">
+			<Text>Naxos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_03">
+			<Text>Rhegium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_04">
+			<Text>Massalia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_05">
+			<Text>Antipolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_06">
+			<Text>Tarentum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_07">
+			<Text>Croton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_08">
+			<Text>Cumae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_09">
+			<Text>Neapolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_10">
+			<Text>Sybaris</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_11">
+			<Text>Agathe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_12">
+			<Text>Syracuse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GREECE_13">
+			<Text>Heraclea</Text>
+		</Row>
+		<!--Japan-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_01">
+			<Text>New Kyoto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_02">
+			<Text>Shuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_03">
+			<Text>Keijo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_04">
+			<Text>Pyonyan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_05">
+			<Text>Shinkyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_06">
+			<Text>Rinko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_07">
+			<Text>Taikyu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_08">
+			<Text>Chichiharu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_09">
+			<Text>Eiko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_10">
+			<Text>Pusan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_11">
+			<Text>Koshu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_12">
+			<Text>Ando</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_13">
+			<Text>Chonju</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_14">
+			<Text>Mukuden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_15">
+			<Text>Dairen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_16">
+			<Text>Kaijo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_17">
+			<Text>Kitsurin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_JAPAN_18">
+			<Text>Harubin</Text>
+		</Row>
+		<!--Netherlands-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_01">
+			<Text>Beverwijck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_02">
+			<Text>Pavonia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_03">
+			<Text>Curacao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_04">
+			<Text>Bonaire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_05">
+			<Text>Aruba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_06">
+			<Text>Sint Eusatius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_07">
+			<Text>Geode Hoop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_08">
+			<Text>Sint Maarten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_09">
+			<Text>Saba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_10">
+			<Text>Wiltwijck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_11">
+			<Text>Paramaribo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NETHERLANDS_12">
+			<Text>Kyk over Al</Text>
+		</Row>
+		<!--Poland-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_01">
+			<Text>New Courland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_02">
+			<Text>St. Andrews</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_03">
+			<Text>St. Mary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_04">
+			<Text>Jakob</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_05">
+			<Text>Jilifree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_06">
+			<Text>Bayona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_07">
+			<Text>St. Anthony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_08">
+			<Text>Toco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_09">
+			<Text>Morska Wola</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_10">
+			<Text>Zbaraz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_11">
+			<Text>Kamieniec Podolski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_12">
+			<Text>Bar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_13">
+			<Text>Latyczow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_14">
+			<Text>Brzezany</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_15">
+			<Text>Pilawce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_16">
+			<Text>Wisioniec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_17">
+			<Text>Trembowla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_18">
+			<Text>Tarnopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_POLAND_19">
+			<Text>Winnica</Text>
+		</Row>
+		<!--Portugal-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_01">
+			<Text>Sao Vincete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_02">
+			<Text>Recife</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_03">
+			<Text>Salvador da Bahia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_04">
+			<Text>Sao Paulo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_05">
+			<Text>Rio de Janeiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_06">
+			<Text>Joao Pessoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_07">
+			<Text>Sao Cristvao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_08">
+			<Text>Vitoria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_09">
+			<Text>Belem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_10">
+			<Text>Igarassu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_11">
+			<Text>Olinda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_12">
+			<Text>Sao Bernando do Campo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_13">
+			<Text>Isabela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_14">
+			<Text>Bissau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_15">
+			<Text>Sao Tome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_16">
+			<Text>Luanda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_17">
+			<Text>Benguela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_18">
+			<Text>Beira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_19">
+			<Text>Sao de Bandeira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_20">
+			<Text>Mozambique</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_21">
+			<Text>Vila Babral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_22">
+			<Text>Tete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_23">
+			<Text>Luso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_24">
+			<Text>Henrique</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_25">
+			<Text>Mocamedes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_26">
+			<Text>New Lamego</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_PORTUGAL_27">
+			<Text>Joao Belo</Text>
+		</Row>
+		<!--Rome-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_01">
+			<Text>Apulum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_02">
+			<Text>Ebarocum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_03">
+			<Text>Augusta Emerita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_04">
+			<Text>Singidinum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_05">
+			<Text>Camulodunum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_06">
+			<Text>Agrippinensium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_07">
+			<Text>Hierosoloma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_08">
+			<Text>Lindum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_09">
+			<Text>Stifis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_10">
+			<Text>Napoca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_11">
+			<Text>Drobeta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ROME_12">
+			<Text>Oescus</Text>
+		</Row>
+		<!--Russia-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_01">
+			<Text>Sagallo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_02">
+			<Text>Ross</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_03">
+			<Text>Elizabeth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_04">
+			<Text>Three Saints Bay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_05">
+			<Text>St. Paul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_06">
+			<Text>Kodiak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_07">
+			<Text>Old Sitka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_08">
+			<Text>Sitka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_09">
+			<Text>Nulato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_RUSSIA_10">
+			<Text>Stikine</Text>
+		</Row>
+		<!--Siam-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_01">
+			<Text>New Bangkok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_02">
+			<Text>New Ayutthaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_03">
+			<Text>New Sukhotai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_04">
+			<Text>Siemarat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_05">
+			<Text>Martaban</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_06">
+			<Text>Phra  Nakhon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_07">
+			<Text>Wiang Chan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_08">
+			<Text>Luang Phrabang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_09">
+			<Text>Champasak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_10">
+			<Text>Phra Tabong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_11">
+			<Text>Si Sophon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_12">
+			<Text>Krung Koh Kong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_13">
+			<Text>Chiang Rung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_14">
+			<Text>Pakse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_15">
+			<Text>Thakhek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_16">
+			<Text>Muang Phuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SIAM_FORT_SUFFIX">
+			<Text>-buri</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_01">
+			<Text>Krung Thep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_02">
+			<Text>Ayutthaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_03">
+			<Text>Sukhothai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_04">
+			<Text>Phitsanulok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_05">
+			<Text>Chiang Rai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_06">
+			<Text>Nakhon Si Thammarat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_07">
+			<Text>Lampang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_08">
+			<Text>Kamphaeng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_09">
+			<Text>Ratchaburi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_10">
+			<Text>Lopburi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_11">
+			<Text>Chiang Mai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_12">
+			<Text>Khorat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_13">
+			<Text>Nakhon Sawan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_14">
+			<Text>Nan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_15">
+			<Text>Si Satchanalai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_16">
+			<Text>Nonthaburi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_17">
+			<Text>Udon Thani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_18">
+			<Text>Nakhon Pathom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_19">
+			<Text>Khon Kaen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_20">
+			<Text>Surin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SIAM_21">
+			<Text>Phimai</Text>
+		</Row>
+		<!--Spain-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_01">
+			<Text>Santo Domingo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_02">
+			<Text>Havana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_03">
+			<Text>Nombre de Dios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_04">
+			<Text>Panama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_05">
+			<Text>Veracruz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_06">
+			<Text>Apapulco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_07">
+			<Text>Cartagena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_08">
+			<Text>Bueno Aires</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_09">
+			<Text>Callao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_10">
+			<Text>Asuncion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_11">
+			<Text>Valparaiso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_12">
+			<Text>Antigua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_13">
+			<Text>Cebu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_14">
+			<Text>Lloilo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_15">
+			<Text>Villa Cisneros</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_16">
+			<Text>La Mamora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_17">
+			<Text>Quito</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_18">
+			<Text>Mexico City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_19">
+			<Text>Villa Bens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_20">
+			<Text>Ambon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_21">
+			<Text>Jauja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_22">
+			<Text>Lima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_23">
+			<Text>Monterrrey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SPAIN_24">
+			<Text>Río de Oro</Text>
+		</Row>
+		<!--Sweden-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SWEDEN_01">
+			<Text>Christiansborg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SWEDEN_02">
+			<Text>Carlusborg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SWEDEN_03">
+			<Text>Annamabo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SWEDEN_04">
+			<Text>Batensteyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SWEDEN_05">
+			<Text>Taccorari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SWEDEN_06">
+			<Text>Apollonia</Text>
+		</Row>
+		<!--CULTURES-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_EAST_INDIES_FORT_SUFFIX">
+			<Text>-pura</Text>
+		</Row>
+		<!--LINGUISTIC GROUPS-->
+		<!--JFD_Germanic-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_1">
+			<Text>Arneuwstad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_2">
+			<Text>Erlingen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_3">
+			<Text>Malborg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_4">
+			<Text>Vattingver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_5">
+			<Text>Jyvík</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_6">
+			<Text>Klaunsburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_7">
+			<Text>Trusenheim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_8">
+			<Text>Flantragen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_9">
+			<Text>Franesbay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_10">
+			<Text>Augarpold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_11">
+			<Text>Saalburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_12">
+			<Text>Nijmen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_13">
+			<Text>Hamblestadt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_14">
+			<Text>Birchweist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_15">
+			<Text>Kastadt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_16">
+			<Text>Mäaramberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_17">
+			<Text>Vankönken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_18">
+			<Text>Gleswich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_19">
+			<Text>Dellehafel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_20">
+			<Text>Horthen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_21">
+			<Text>Sansberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_22">
+			<Text>Dalmöpint</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_23">
+			<Text>Trømstock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_24">
+			<Text>Mückenbir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_25">
+			<Text>Norchester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_26">
+			<Text>Vorn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_27">
+			<Text>Haarlagen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_28">
+			<Text>Oberhavík</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_29">
+			<Text>Kirkwall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_30">
+			<Text>Wolborg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_31">
+			<Text>Ranes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_32">
+			<Text>Ínglaksberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_33">
+			<Text>Hilden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_34">
+			<Text>Maidenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_35">
+			<Text>Birch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_36">
+			<Text>Hadth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_37">
+			<Text>Ensbad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_38">
+			<Text>Leick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_39">
+			<Text>Lannisport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_40">
+			<Text>Kitzburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_41">
+			<Text>Jellingham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_42">
+			<Text>Visensbach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_43">
+			<Text>St. Gall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_44">
+			<Text>Klagen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_45">
+			<Text>Riverrun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_46">
+			<Text>Reythaftheim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_47">
+			<Text>Hverne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_48">
+			<Text>Rindar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_49">
+			<Text>Chemnich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_50">
+			<Text>Eichweim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_51">
+			<Text>Amstonsby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_52">
+			<Text>Esbronne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_53">
+			<Text>Aalsburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_54">
+			<Text>Hammerfell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_55">
+			<Text>Hälfjord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_56">
+			<Text>Nordvík</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_57">
+			<Text>Thingland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_58">
+			<Text>Mumburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_59">
+			<Text>St. Gotsmö</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_60">
+			<Text>Ludwick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_61">
+			<Text>Bresdam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_62">
+			<Text>Bredridhiem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_63">
+			<Text>Slachesdam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_64">
+			<Text>Altotsmount</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_65">
+			<Text>Hall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_66">
+			<Text>Muhensbury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_67">
+			<Text>Aarbourg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_68">
+			<Text>Birchenborg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_69">
+			<Text>Winterfell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_70">
+			<Text>Leonsburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_71">
+			<Text>Caemlyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_72">
+			<Text>Bielden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_73">
+			<Text>Carbastern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_74">
+			<Text>Windhover</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_75">
+			<Text>Gotsdam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_76">
+			<Text>Ålevogen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_77">
+			<Text>Uppersen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_78">
+			<Text>Stadensberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_79">
+			<Text>Duisberhus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_80">
+			<Text>St. Reyert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_81">
+			<Text>Utrüssend</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_82">
+			<Text>Kemniangen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_83">
+			<Text>Östland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_84">
+			<Text>Godthåb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_85">
+			<Text>Mooseslodge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_86">
+			<Text>Mückholm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_87">
+			<Text>Reyjalands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_88">
+			<Text>Ipsburheim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_89">
+			<Text>Hägen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_90">
+			<Text>Lugsburgen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_91">
+			<Text>Brisingr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_92">
+			<Text>Tilheipzig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_93">
+			<Text>Kolbæk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_94">
+			<Text>Grodt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_95">
+			<Text>St. Cove</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_96">
+			<Text>Frebrüssen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_97">
+			<Text>Lieuwstrand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_98">
+			<Text>Wülheim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_99">
+			<Text>Windhelm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_GERMANIC_100">
+			<Text>Briksbach</Text>
+		</Row>
+		<!--JFD_Latinate-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_1">
+			<Text>Mont Elcoré</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_2">
+			<Text>Cuiza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_3">
+			<Text>Novesca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_4">
+			<Text>Coñares</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_5">
+			<Text>Aix-en-Pité</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_6">
+			<Text>Coimbassoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_7">
+			<Text>Flornia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_8">
+			<Text>Troveir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_9">
+			<Text>Amiguardo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_10">
+			<Text>Castelvert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_11">
+			<Text>Cassantes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_12">
+			<Text>São Brena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_13">
+			<Text>Santa Joia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_14">
+			<Text>Novanco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_15">
+			<Text>Vilampona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_16">
+			<Text>Palago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_17">
+			<Text>Certra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_18">
+			<Text>Noveira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_19">
+			<Text>Aquintal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_20">
+			<Text>Zaropoleu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_21">
+			<Text>Dienseto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_22">
+			<Text>Roulcherca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_23">
+			<Text>Sevir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_24">
+			<Text>Vignon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_25">
+			<Text>Brasternes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_26">
+			<Text>Mida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_27">
+			<Text>Machaiedo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_28">
+			<Text>Buritieter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_29">
+			<Text>Paro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_30">
+			<Text>Luanne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_31">
+			<Text>São Casco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_32">
+			<Text>Aquelonto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_33">
+			<Text>Arasbonné</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_34">
+			<Text>Abria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_35">
+			<Text>Antontalle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_36">
+			<Text>Dienne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_37">
+			<Text>Maceiranne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_38">
+			<Text>Avilletero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_39">
+			<Text>Sandeause</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_40">
+			<Text>Figuellampa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_41">
+			<Text>Lucipo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_42">
+			<Text>Pinos Grandes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_43">
+			<Text>Sienta de Amiglia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_44">
+			<Text>Villazó</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_45">
+			<Text>Tomém</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_46">
+			<Text>Ovira dos Rios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_47">
+			<Text>Le Gaenza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_48">
+			<Text>Guardolero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_49">
+			<Text>Yacanta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_50">
+			<Text>Montessoli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_51">
+			<Text>Arno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_52">
+			<Text>Sandia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_53">
+			<Text>Viantepesco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_54">
+			<Text>Val Royeaux</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_55">
+			<Text>Orlais</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_56">
+			<Text>Lydes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_57">
+			<Text>Suveiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_58">
+			<Text>Montaña</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_59">
+			<Text>Gran Rio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_60">
+			<Text>Tombriano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_61">
+			<Text>Autuna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_62">
+			<Text>Camegro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_63">
+			<Text>Las Marchas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_64">
+			<Text>Nepanto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_65">
+			<Text>Castillion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_66">
+			<Text>Parmeggio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_67">
+			<Text>Gran Vista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_68">
+			<Text>Brezzonte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_69">
+			<Text>Abresco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_70">
+			<Text>Bonnemiel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_71">
+			<Text>Esperanza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_72">
+			<Text>Santa Fe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_73">
+			<Text>Vittoria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_74">
+			<Text>Santa Grazia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_75">
+			<Text>Fiore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_76">
+			<Text>Maranaulio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_77">
+			<Text>Sol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_78">
+			<Text>Illian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_79">
+			<Text>Santa Cruz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_80">
+			<Text>São Cardo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_81">
+			<Text>Tavillonte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_82">
+			<Text>Corcelleso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_83">
+			<Text>Monterens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_84">
+			<Text>Mantoragem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_85">
+			<Text>Auverlier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_86">
+			<Text>Etiguarda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_87">
+			<Text>La Manta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_88">
+			<Text>Reirianera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_89">
+			<Text>Pratalezzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_90">
+			<Text>Viance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_91">
+			<Text>Nicellague</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_92">
+			<Text>Puerto Puro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_93">
+			<Text>Castaño</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_94">
+			<Text>Porenceill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_95">
+			<Text>Capella</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_96">
+			<Text>Florasco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_97">
+			<Text>Nueva Paz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_98">
+			<Text>San Luis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_99">
+			<Text>Marimelena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_LATINATE_100">
+			<Text>Miramar</Text>
+		</Row>
+		<!--JFD_TaiKhmer-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_1">
+			<Text>Na Luang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_2">
+			<Text>Ban Thamui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_3">
+			<Text>Nongphum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_4">
+			<Text>Surathang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_5">
+			<Text>Phitsaphon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_6">
+			<Text>Phra thong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_7">
+			<Text>Thanthum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_8">
+			<Text>Khum Phong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_9">
+			<Text>Viengthong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_10">
+			<Text>Sephumphay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_11">
+			<Text>Pakeuattaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_12">
+			<Text>Xienmok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_13">
+			<Text>Pak Pak Ou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_14">
+			<Text>Phrakhong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_15">
+			<Text>Vaphong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_16">
+			<Text>Krabani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_17">
+			<Text>Khumphane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_18">
+			<Text>Xamthang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_19">
+			<Text>Meungthong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_20">
+			<Text>Hua Krean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_21">
+			<Text>Boungkhrae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_22">
+			<Text>Lamtawei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_23">
+			<Text>Udom Khom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_24">
+			<Text>Patham Sot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_25">
+			<Text>Sisalai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_26">
+			<Text>Chiang Mook</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_27">
+			<Text>Chong Pakk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_28">
+			<Text>Thonggye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_29">
+			<Text>Phiwan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_30">
+			<Text>Kraburi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_31">
+			<Text>Phrang Ban</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_32">
+			<Text>Sri Nang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_33">
+			<Text>Makhatchit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_34">
+			<Text>Oudongthan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_35">
+			<Text>Phnomsoukhong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_36">
+			<Text>Phu Warao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_37">
+			<Text>Laburi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_38">
+			<Text>Phoukhouay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_39">
+			<Text>Si Khaban</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_40">
+			<Text>Mye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_41">
+			<Text>Hat Chan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_42">
+			<Text>Loi-kai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_43">
+			<Text>Stune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_44">
+			<Text>Pathone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_45">
+			<Text>Phnăm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_46">
+			<Text>Madxay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_47">
+			<Text>Out yit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_48">
+			<Text>Namutthum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_49">
+			<Text>Thekolok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_50">
+			<Text>Nikhamrok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_51">
+			<Text>Ban Chaeng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_52">
+			<Text>Houri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_53">
+			<Text>Amhethum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_54">
+			<Text>Nak Thong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_55">
+			<Text>Samut Lao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_56">
+			<Text>Nakhon Ban</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_57">
+			<Text>Xay Rat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_58">
+			<Text>Xaybouai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_59">
+			<Text>Sihanthak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_60">
+			<Text>Pyei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_61">
+			<Text>Thonburi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_62">
+			<Text>Phaopbutta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_63">
+			<Text>Bouk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_64">
+			<Text>Chamaroeng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_65">
+			<Text>Nakhon Chai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_66">
+			<Text>Yithon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_67">
+			<Text>Phouatcha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_68">
+			<Text>Hapyu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_69">
+			<Text>Mawla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_70">
+			<Text>Kamin-Oong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_71">
+			<Text>Bang Boret</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_72">
+			<Text>Honthakkhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_73">
+			<Text>Hetong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_74">
+			<Text>Bueaphouk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_TAI_KHMER_75">
+			<Text>Om Neun Sa</Text>
+		</Row>
+		<!--JFD_Austronesian-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_1">
+			<Text>Sampura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_2">
+			<Text>Malos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_3">
+			<Text>Te Sipi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_4">
+			<Text>Holuang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_5">
+			<Text>Oronga Val</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_6">
+			<Text>La'taha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_7">
+			<Text>Wailantiaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_8">
+			<Text>Te Delayon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_9">
+			<Text>Pikpaha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_10">
+			<Text>Lampu-las</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_11">
+			<Text>Bisay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_12">
+			<Text>Kaik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_13">
+			<Text>Hurangeroi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_14">
+			<Text>Tacoluoto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_15">
+			<Text>Waiki Tua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_16">
+			<Text>Wai U'a</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_17">
+			<Text>Talayuguma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_18">
+			<Text>Tanga Ura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_19">
+			<Text>Oro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_20">
+			<Text>Waikina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_21">
+			<Text>Waikowulu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_22">
+			<Text>Pasikihu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_23">
+			<Text>Pedanakale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_24">
+			<Text>Matambayba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_25">
+			<Text>Isara Hihe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_26">
+			<Text>Bori Teke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_27">
+			<Text>Matipan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_28">
+			<Text>Pekikurand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_29">
+			<Text>Batabatua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_30">
+			<Text>Quegan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_31">
+			<Text>Va'alapu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_32">
+			<Text>Pau Malayu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_33">
+			<Text>Prigadoroa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_34">
+			<Text>Tando</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_35">
+			<Text>O'honga'rami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_36">
+			<Text>Kaipasmayu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_37">
+			<Text>Havity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_38">
+			<Text>Balika</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_39">
+			<Text>A' Te Makar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_40">
+			<Text>Lambontias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_41">
+			<Text>Ilikpa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_42">
+			<Text>Iriñang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_43">
+			<Text>Bogyan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_44">
+			<Text>Ambonok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_45">
+			<Text>Malawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_46">
+			<Text>Luces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_47">
+			<Text>Tikihee-wa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_48">
+			<Text>Kapilalay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_49">
+			<Text>Liga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_50">
+			<Text>Bayao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_51">
+			<Text>Balisli-ho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_52">
+			<Text>Bati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_53">
+			<Text>Olobay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_54">
+			<Text>Tikihulua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_55">
+			<Text>Samalemala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_56">
+			<Text>Bislisarti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_57">
+			<Text>Bacololo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_58">
+			<Text>Bayon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_59">
+			<Text>Ha'alegay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_60">
+			<Text>Cara Tanga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_61">
+			<Text>Cauay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_62">
+			<Text>Escalarto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_63">
+			<Text>Oronga Tan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_64">
+			<Text>Bimarlonga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_65">
+			<Text>Hologña</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_66">
+			<Text>Papuayapio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_67">
+			<Text>Heka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_68">
+			<Text>Falena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_69">
+			<Text>Guihiakene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_70">
+			<Text>Lampuni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_71">
+			<Text>Kaikeycala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_72">
+			<Text>Manda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_73">
+			<Text>Dapan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_74">
+			<Text>Te'e</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_AUSTRONESIAN_75">
+			<Text>Teki</Text>
+		</Row>
+		<!--JFD_Arabic-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_1">
+			<Text>El Jadir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_2">
+			<Text>Al Uyun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_3">
+			<Text>Nofudhat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_4">
+			<Text>Qairt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_5">
+			<Text>Hajur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_6">
+			<Text>Al Belimah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_7">
+			<Text>Wada'ifra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_8">
+			<Text>Khobah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_9">
+			<Text>Al-Ahsal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_10">
+			<Text>El Melatif</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_11">
+			<Text>Farya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_12">
+			<Text>Uyun al-Ur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_13">
+			<Text>El Abbès</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_14">
+			<Text>Ha'iya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_15">
+			<Text>Hameimah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_16">
+			<Text>Sidir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_17">
+			<Text>Djela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_18">
+			<Text>Bishah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_19">
+			<Text>Al Gatif</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_20">
+			<Text>Lihyah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_21">
+			<Text>Tangierré</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_22">
+			<Text>Damiyadin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_23">
+			<Text>Djeit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_24">
+			<Text>Riyahadidi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_25">
+			<Text>Chtoulfala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_26">
+			<Text>Tejila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_27">
+			<Text>Hofuda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_28">
+			<Text>Sulah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_29">
+			<Text>Jawashari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_30">
+			<Text>Asbiyah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_31">
+			<Text>Al-Musaour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_32">
+			<Text>Jabat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_33">
+			<Text>Sharma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_34">
+			<Text>Karmaymani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_35">
+			<Text>Rafi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_36">
+			<Text>Al-Urbala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_37">
+			<Text>Berkah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_38">
+			<Text>Khem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_39">
+			<Text>Qadh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_40">
+			<Text>Al Aïdaba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_41">
+			<Text>El Ruman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_42">
+			<Text>Thuqbaid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_43">
+			<Text>Omrat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_44">
+			<Text>Oratinit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_45">
+			<Text>Ta'if</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_46">
+			<Text>Aljizir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_47">
+			<Text>Sidi Aïn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_48">
+			<Text>Jal Ghadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_49">
+			<Text>Riyate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_50">
+			<Text>Bishah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_51">
+			<Text>Rhuidean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_52">
+			<Text>Elsweyr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_53">
+			<Text>Shuqbah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_54">
+			<Text>Murzan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_55">
+			<Text>Al-Haratna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_56">
+			<Text>Jadah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_57">
+			<Text>Mizah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_58">
+			<Text>Tyrosh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_59">
+			<Text>Qohor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_60">
+			<Text>Myr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_61">
+			<Text>Qarth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_62">
+			<Text>Asshai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_63">
+			<Text>Akhyah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_64">
+			<Text>Mayyadin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_65">
+			<Text>Kachei'ahm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_66">
+			<Text>Ghelm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_67">
+			<Text>Dawernat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_68">
+			<Text>El Jadahen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_69">
+			<Text>Khazamm Al</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_70">
+			<Text>Abhah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_71">
+			<Text>Duma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_72">
+			<Text>Bisumamis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_73">
+			<Text>Safji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_74">
+			<Text>Damiyyil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ARABIC_75">
+			<Text>Wadir</Text>
+		</Row>
+		<!--JFD_Slavic-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_1">
+			<Text>Byelovor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_2">
+			<Text>Nizhogrod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_3">
+			<Text>Seversk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_4">
+			<Text>Skarsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_5">
+			<Text>Novsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_6">
+			<Text>Yuzhnyi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_7">
+			<Text>Byelogor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_8">
+			<Text>Krasnowo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_9">
+			<Text>Radom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_10">
+			<Text>Svyatoy Andrey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_11">
+			<Text>Chemystok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_12">
+			<Text>Baranovets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_13">
+			<Text>Fort Ilyan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_14">
+			<Text>Irkhangelsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_15">
+			<Text>Kamenets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_16">
+			<Text>Magnitogorsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_17">
+			<Text>Krasnorog</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_18">
+			<Text>Kamenstovo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_19">
+			<Text>Vlyst-litovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_20">
+			<Text>Lubomsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_21">
+			<Text>Radomerice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_22">
+			<Text>Sborna Hora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_23">
+			<Text>Suzgorod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_24">
+			<Text>Saczynica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_25">
+			<Text>Byelsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_26">
+			<Text>Omskopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_27">
+			<Text>Zarussava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_28">
+			<Text>Poznovar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_29">
+			<Text>Novi Nizh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_30">
+			<Text>Prizhrensk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_31">
+			<Text>Kuliko-Byalsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_32">
+			<Text>Sbarnopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_33">
+			<Text>Saratytsa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_34">
+			<Text>Rzhevsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_35">
+			<Text>Krayarsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_36">
+			<Text>Ceninovo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_37">
+			<Text>Volsko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_38">
+			<Text>Tarnow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_39">
+			<Text>Tulivelts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_40">
+			<Text>Shlezkh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_41">
+			<Text>Vinnilovo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_42">
+			<Text>Konasnovo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_43">
+			<Text>Vojninov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_44">
+			<Text>Bree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_45">
+			<Text>Skingrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_46">
+			<Text>Dąbrowa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_47">
+			<Text>Czarna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_48">
+			<Text>Chekhovosky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_49">
+			<Text>Pochimsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_50">
+			<Text>Ivangrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_51">
+			<Text>Chodinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_52">
+			<Text>Ełosnovar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_53">
+			<Text>Odivostgrod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_54">
+			<Text>Katimków</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_55">
+			<Text>Kurovodov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_56">
+			<Text>Alminsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_57">
+			<Text>Monyakov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_58">
+			<Text>Bagelsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_59">
+			<Text>Uvaldagrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_60">
+			<Text>Ozovorsky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_61">
+			<Text>Neminsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_62">
+			<Text>Zarquon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_63">
+			<Text>Gadnov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_64">
+			<Text>Odivostra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_65">
+			<Text>Kurodovosk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_66">
+			<Text>Ogienek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_67">
+			<Text>Valskynica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_68">
+			<Text>Ulavlopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_69">
+			<Text>Morovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_70">
+			<Text>Krzegódań</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_71">
+			<Text>Yurasnov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_72">
+			<Text>Cheroków</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_73">
+			<Text>Veredenov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_74">
+			<Text>Podansk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SLAVIC_75">
+			<Text>Galinowa</Text>
+		</Row>
+		<!--JFD_Mesopotamian-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_1">
+			<Text>Hafri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_2">
+			<Text>Halabat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_3">
+			<Text>Uruppak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_4">
+			<Text>Djelibeybi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_5">
+			<Text>Kis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_6">
+			<Text>Dur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_7">
+			<Text>Assur-shar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_8">
+			<Text>Taymazu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_9">
+			<Text>Sirsa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_10">
+			<Text>Nina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_11">
+			<Text>Ummat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_12">
+			<Text>Shur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_13">
+			<Text>Esh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_14">
+			<Text>Kelasip</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_15">
+			<Text>Abu Sam Al</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_16">
+			<Text>Awana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_17">
+			<Text>Apish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_18">
+			<Text>Enesh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_19">
+			<Text>Abu Sirpur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_20">
+			<Text>Durad-tibi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_21">
+			<Text>Shubat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_22">
+			<Text>Keshin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_23">
+			<Text>Shub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_24">
+			<Text>Marat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_25">
+			<Text>Enlil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_26">
+			<Text>Eshair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_27">
+			<Text>Ki-an</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_28">
+			<Text>Lagsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_29">
+			<Text>Ribil Bara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_30">
+			<Text>Sarrak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_31">
+			<Text>Enlilbattu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_32">
+			<Text>Ereish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_33">
+			<Text>Arbirpa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_34">
+			<Text>Hit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_35">
+			<Text>Nasad-Tuta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_36">
+			<Text>Nineshineg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_37">
+			<Text>Isippa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_38">
+			<Text>Ner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_39">
+			<Text>Kuriga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_40">
+			<Text>Auriga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_41">
+			<Text>Assuradab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_42">
+			<Text>Tar Valon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_43">
+			<Text>Arru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_44">
+			<Text>Jemis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_45">
+			<Text>Adab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_46">
+			<Text>Kutul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_47">
+			<Text>Qat-enlil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_48">
+			<Text>Awantepe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_49">
+			<Text>Uqair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_50">
+			<Text>Nerissu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_51">
+			<Text>Isip</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_52">
+			<Text>Erbela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_53">
+			<Text>Ana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_54">
+			<Text>Far Madding</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_55">
+			<Text>Apis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_56">
+			<Text>Akkadum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_57">
+			<Text>Nash</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_58">
+			<Text>Urkesh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_59">
+			<Text>Ram Alah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_60">
+			<Text>Carad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_61">
+			<Text>Ki-an Shub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_62">
+			<Text>Ankh-Morpork</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_63">
+			<Text>Apiqum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_64">
+			<Text>Harigash</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_65">
+			<Text>Ashineveh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_66">
+			<Text>Esha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_67">
+			<Text>Ereish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_68">
+			<Text>Tibirat Ne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_69">
+			<Text>Hamad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_70">
+			<Text>Rapkh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_71">
+			<Text>Arrak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_72">
+			<Text>Kelasha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_73">
+			<Text>Larta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_74">
+			<Text>Akkad-tuth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOPOTAMIAN_75">
+			<Text>Qar-Kutub</Text>
+		</Row>
+		<!--JFD_Mesoamerican-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_1">
+			<Text>Xiuitl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_2">
+			<Text>Wahapal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_3">
+			<Text>Huexcochic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_4">
+			<Text>Tepec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_5">
+			<Text>Xiuilotzun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_6">
+			<Text>Ilhuixtl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_7">
+			<Text>Ohtlaopilo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_8">
+			<Text>Tlacahapan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_9">
+			<Text>Yoltepec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_10">
+			<Text>Neztali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_11">
+			<Text>Tezca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_12">
+			<Text>Pohokwatem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_13">
+			<Text>Altanauhtl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_14">
+			<Text>Xochcalelo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_15">
+			<Text>Ainco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_16">
+			<Text>Cuitli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_17">
+			<Text>Wahalmi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_18">
+			<Text>Tzingwite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_19">
+			<Text>Tetlalca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_20">
+			<Text>Kamixtl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_21">
+			<Text>Altempalco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_22">
+			<Text>Uaxacapan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_23">
+			<Text>Cerriza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_24">
+			<Text>Tolcoakbe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_25">
+			<Text>Ixtapan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_26">
+			<Text>Agabitepec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_27">
+			<Text>Teotl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_28">
+			<Text>Q'umarka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_29">
+			<Text>Uaxha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_30">
+			<Text>Mezalco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_31">
+			<Text>Xuntun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_32">
+			<Text>Tepec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_33">
+			<Text>Chatepec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_34">
+			<Text>Mandeka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_35">
+			<Text>Xuti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_36">
+			<Text>Agabahuica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_37">
+			<Text>Zacoaxotl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_38">
+			<Text>Dehwe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_39">
+			<Text>Cuacate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_40">
+			<Text>Mosona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_41">
+			<Text>Ihuaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_42">
+			<Text>Mecan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_43">
+			<Text>Ixtotl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_44">
+			<Text>Takmuca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_45">
+			<Text>Tlazopi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_46">
+			<Text>Wingabisha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_47">
+			<Text>Agarador</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_48">
+			<Text>Nochte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_49">
+			<Text>Calco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_50">
+			<Text>Huexotlaco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_51">
+			<Text>Sishucagu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_52">
+			<Text>Apainde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_53">
+			<Text>Pahwekame</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_54">
+			<Text>Dutse'ni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_55">
+			<Text>Tikabewi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_56">
+			<Text>Xutekakwin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_57">
+			<Text>Sateha'i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_58">
+			<Text>Se'nikiaa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_59">
+			<Text>Yte'itek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_60">
+			<Text>Sa'izamia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_61">
+			<Text>Wakahadeh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_62">
+			<Text>Bane'ieka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_63">
+			<Text>Yabanee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_64">
+			<Text>Xuca'n</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_65">
+			<Text>Kacahambeh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_66">
+			<Text>Waineekab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_67">
+			<Text>Sekie'nde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_68">
+			<Text>Pe'nnnit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_69">
+			<Text>Mosadek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_70">
+			<Text>Se'itaosh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_71">
+			<Text>Yosem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_72">
+			<Text>Paohakan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_73">
+			<Text>Xute'itek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_74">
+			<Text>Agitaha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_MESOAMERICAN_75">
+			<Text>Washangwi</Text>
+		</Row>
+		<!--JFD_Oriental-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_1">
+			<Text>Jixing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_2">
+			<Text>Fuizha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_3">
+			<Text>Haminga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_4">
+			<Text>Syejuong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_5">
+			<Text>Nangzuma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_6">
+			<Text>Fusama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_7">
+			<Text>Takuyama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_8">
+			<Text>Kagako</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_9">
+			<Text>Xishen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_10">
+			<Text>Hanga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_11">
+			<Text>Hiben</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_12">
+			<Text>Kunji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_13">
+			<Text>Imatota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_14">
+			<Text>Xingqi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_15">
+			<Text>Shoyami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_16">
+			<Text>Ba Sing Se</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_17">
+			<Text>Nangao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_18">
+			<Text>Lingbei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_19">
+			<Text>Jingzhia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_20">
+			<Text>Ingasu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_21">
+			<Text>Okinama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_22">
+			<Text>Choshang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_23">
+			<Text>Huchan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_24">
+			<Text>Angang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_25">
+			<Text>Mitoro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_26">
+			<Text>Geongsua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_27">
+			<Text>Kyoshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_28">
+			<Text>Tongcheo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_29">
+			<Text>Fukung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_30">
+			<Text>Hingama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_31">
+			<Text>Dashing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_32">
+			<Text>Hoshenqi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_33">
+			<Text>Xinoushu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_34">
+			<Text>Mengji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_35">
+			<Text>Haming</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_36">
+			<Text>Hawanang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_37">
+			<Text>Nitanga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_38">
+			<Text>Angokei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_39">
+			<Text>Hadai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_40">
+			<Text>Naminzu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_41">
+			<Text>Furan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_42">
+			<Text>Akiran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_43">
+			<Text>Dangmia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_44">
+			<Text>Tōkakouda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_45">
+			<Text>Xuaman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_46">
+			<Text>Xingan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_47">
+			<Text>Shangi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_48">
+			<Text>Tōgukou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_49">
+			<Text>Kangyai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_50">
+			<Text>Nangji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_51">
+			<Text>Xiya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_52">
+			<Text>Kun-Lai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_53">
+			<Text>Niuzao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_54">
+			<Text>Gao-Ran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_55">
+			<Text>Townlong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_56">
+			<Text>Jinpyong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_57">
+			<Text>Pangwon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_58">
+			<Text>Gyongji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_59">
+			<Text>Simcheo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_60">
+			<Text>Yangwan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_61">
+			<Text>Mingyon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_62">
+			<Text>Chongung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_63">
+			<Text>Anyeo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_64">
+			<Text>Gwaeyong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_65">
+			<Text>Cheongji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_66">
+			<Text>Gimhe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_67">
+			<Text>Dangjung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_68">
+			<Text>Bongju</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_69">
+			<Text>Seonche</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_70">
+			<Text>Jeongjui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_71">
+			<Text>Pyeongdu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_72">
+			<Text>Angwa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_73">
+			<Text>Sungryo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_74">
+			<Text>Kimyang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_75">
+			<Text>Gyeoksup</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_76">
+			<Text>Osonjun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_77">
+			<Text>Jeongyon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_78">
+			<Text>Pangjun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_79">
+			<Text>Iksan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_80">
+			<Text>Gwae'on</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_81">
+			<Text>Anpong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_82">
+			<Text>Hwangyeong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_83">
+			<Text>Incheon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_84">
+			<Text>Seonghon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_85">
+			<Text>Jeju</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_86">
+			<Text>Huryeon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_87">
+			<Text>Tiangong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_88">
+			<Text>Quoyang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_89">
+			<Text>Chengzhen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_90">
+			<Text>Dongji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_91">
+			<Text>Xuangzhen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_92">
+			<Text>Langshan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_93">
+			<Text>Angzhung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_94">
+			<Text>Wumang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_95">
+			<Text>Jinxian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_96">
+			<Text>Qian'ge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_97">
+			<Text>Pu'er</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_98">
+			<Text>Dangxin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_99">
+			<Text>Angxinqi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ORIENTAL_100">
+			<Text>Jianhou</Text>
+		</Row>
+		<!--JFD_FinnoUgric-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_1">
+			<Text>Buovarves</Text>
+		</Row> 
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_2">
+			<Text>Volskygge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_3">
+			<Text>Järervi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_4">
+			<Text>Kunjáruomi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_5">
+			<Text>Ratvau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_6">
+			<Text>Siergyhik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_7">
+			<Text>Szpuosinek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_8">
+			<Text>Tankaankis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_9">
+			<Text>Tördluohka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_10">
+			<Text>Põruvaanahu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_11">
+			<Text>Lajok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_12">
+			<Text>Sakuno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_13">
+			<Text>Esomakom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_14">
+			<Text>Kanovinna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_15">
+			<Text>Ohkijark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_16">
+			<Text>Vasaniovav</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_17">
+			<Text>Rarviokelaano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_18">
+			<Text>Kalareneu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_19">
+			<Text>Koritantiuudain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_20">
+			<Text>Järinesk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_21">
+			<Text>Pyajää</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_22">
+			<Text>Hämidariv</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_23">
+			<Text>Alaan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_24">
+			<Text>Romskilit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_25">
+			<Text>Jölivenjok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_26">
+			<Text>Äämsal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_27">
+			<Text>Kekiveraro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_28">
+			<Text>Mõrvamsauol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_29">
+			<Text>Tainegyku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_30">
+			<Text>Pémelarj</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_31">
+			<Text>Vatarskien</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_32">
+			<Text>Kinnomenari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_33">
+			<Text>Sztakinank</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_34">
+			<Text>Komperam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_35">
+			<Text>Kuotarkiesk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_36">
+			<Text>Kaviasid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_37">
+			<Text>Pärvinenares</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_38">
+			<Text>Herskapszt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_39">
+			<Text>Gyvavd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_40">
+			<Text>Pariske</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_41">
+			<Text>Denuonfékä</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_42">
+			<Text>Kápepokovi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_43">
+			<Text>Hulalgin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_44">
+			<Text>Kajärilaral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_45">
+			<Text>Taleaaupan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_46">
+			<Text>Suuoheskaau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_47">
+			<Text>Szenol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_48">
+			<Text>Jorvella</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_49">
+			<Text>Göninnnal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_50">
+			<Text>Anáruosféna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_51">
+			<Text>Päjo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_52">
+			<Text>Kerová</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_53">
+			<Text>Ratil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_54">
+			<Text>Kokiv</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_55">
+			<Text>Taváre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_56">
+			<Text>Békarid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_57">
+			<Text>Aaare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_58">
+			<Text>Surkaveve</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_59">
+			<Text>Szosz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_60">
+			<Text>Óztte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_61">
+			<Text>Otulla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_62">
+			<Text>Szsalina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_63">
+			<Text>Koarjokha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_64">
+			<Text>Sohärv</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_65">
+			<Text>Kankiokszov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_66">
+			<Text>Lukinna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_67">
+			<Text>Kinunu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_68">
+			<Text>Pikäriö</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_69">
+			<Text>Párdi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_70">
+			<Text>Tanta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_71">
+			<Text>Nyaaakarr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_72">
+			<Text>Jöhrva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_73">
+			<Text>Jorrvaskr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_74">
+			<Text>Haafingar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_FINNO_UGRIC_75">
+			<Text>Volkihar</Text>
+		</Row>
+		<!--JFD_Semitic-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_1">
+			<Text>Ebou Dar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_2">
+			<Text>Ashangi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_3">
+			<Text>Daba Adum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_4">
+			<Text>Addis Selima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_5">
+			<Text>Amba Selli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_6">
+			<Text>Ashkemest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_7">
+			<Text>Gorgor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_8">
+			<Text>Kira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_9">
+			<Text>Ris Amber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_10">
+			<Text>Lod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_11">
+			<Text>Dolet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_12">
+			<Text>Tsfarme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_13">
+			<Text>Alita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_14">
+			<Text>Yehon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_15">
+			<Text>Dabre Ziwa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_16">
+			<Text>Tiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_17">
+			<Text>Gat Har</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_18">
+			<Text>Adi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_19">
+			<Text>Yabidom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_20">
+			<Text>Haifat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_21">
+			<Text>Bei Dawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_22">
+			<Text>Awashkemes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_23">
+			<Text>Kiryat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_24">
+			<Text>Adal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_25">
+			<Text>Adama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_26">
+			<Text>Limba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_27">
+			<Text>Baychem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_28">
+			<Text>Rehoftu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_29">
+			<Text>Nesh Illem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_30">
+			<Text>Adumi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_31">
+			<Text>Ashkel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_32">
+			<Text>Eillik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_33">
+			<Text>Yehudam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_34">
+			<Text>Kiryat-gat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_35">
+			<Text>Kebria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_36">
+			<Text>Wacha'ayin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_37">
+			<Text>Chemone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_38">
+			<Text>Kirya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_39">
+			<Text>Illamlamat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_40">
+			<Text>Debariam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_41">
+			<Text>Goraki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_42">
+			<Text>Shimma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_43">
+			<Text>Hayimma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_44">
+			<Text>Kiryati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_45">
+			<Text>Malekemona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_46">
+			<Text>Ankorat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_47">
+			<Text>Kaberqosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_48">
+			<Text>Imfaral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_49">
+			<Text>Falme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_50">
+			<Text>Katar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_51">
+			<Text>Mos Shirare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_52">
+			<Text>Mos Espa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SEMITIC_53">
+			<Text>Salis D'aar</Text>
+		</Row>
+		<!--JFD_Hellenic-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_1">
+			<Text>Pseudopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_2">
+			<Text>Ephebe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_3">
+			<Text>Lemonium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_4">
+			<Text>Citruspolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_5">
+			<Text>Aquae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_6">
+			<Text>Visnestrae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_7">
+			<Text>Edennai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_8">
+			<Text>Valiopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_9">
+			<Text>Nemina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_10">
+			<Text>Polanoi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_11">
+			<Text>Parthalera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_12">
+			<Text>Aquindrolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_13">
+			<Text>Belgaripol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_14">
+			<Text>Trinium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_15">
+			<Text>Camaetum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_16">
+			<Text>Caesiletus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_17">
+			<Text>Verinopoli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_18">
+			<Text>Hadrium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_19">
+			<Text>Ikona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_20">
+			<Text>Armium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_21">
+			<Text>Nicyonum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_22">
+			<Text>Equa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_23">
+			<Text>Olus Equae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_24">
+			<Text>Magonium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_25">
+			<Text>Nikonion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_26">
+			<Text>Castadunti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_27">
+			<Text>Hipolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_28">
+			<Text>Aeternum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_29">
+			<Text>Agridunum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_30">
+			<Text>Vetonikai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_31">
+			<Text>Curopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_32">
+			<Text>Luceii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_33">
+			<Text>Lutondorum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_34">
+			<Text>Caesiletus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_35">
+			<Text>Caesopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_36">
+			<Text>Inthestera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_37">
+			<Text>Salevium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_38">
+			<Text>Capidamium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_39">
+			<Text>Nikopona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_40">
+			<Text>Beldursoni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_41">
+			<Text>Nikonium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_42">
+			<Text>Zametopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_43">
+			<Text>Orchium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_44">
+			<Text>Pulamonium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_45">
+			<Text>Paxos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_46">
+			<Text>Auguste</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_47">
+			<Text>Hadrippini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_48">
+			<Text>Pylopona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_49">
+			<Text>Vulcena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_50">
+			<Text>Veretondos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_51">
+			<Text>Augurdinum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_52">
+			<Text>Corum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_53">
+			<Text>Capo Regio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_54">
+			<Text>Oea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_55">
+			<Text>Paeucium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_56">
+			<Text>Cassium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_57">
+			<Text>Sithestrae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_58">
+			<Text>Capolathae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_59">
+			<Text>Persos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_60">
+			<Text>Pomae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_61">
+			<Text>Marenticom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_62">
+			<Text>Edeapolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_63">
+			<Text>Arcentium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_64">
+			<Text>Dianum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_65">
+			<Text>Pylonthene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_66">
+			<Text>Ikontiome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_67">
+			<Text>Philepinoi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_68">
+			<Text>Tricyoniae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_69">
+			<Text>Bagusustor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_70">
+			<Text>Liberse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_71">
+			<Text>Bibliothekai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_72">
+			<Text>Vetanthera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_73">
+			<Text>Tiburae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_74">
+			<Text>Faeapolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_HELLENIC_75">
+			<Text>Caetriconi</Text>
+		</Row>
+		<!--JFD_Bantu-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_1">
+			<Text>Kalemingo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_2">
+			<Text>Boenga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_3">
+			<Text>Makuru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_4">
+			<Text>Bosokwi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_5">
+			<Text>Ruwendu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_6">
+			<Text>Binde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_7">
+			<Text>Diba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_8">
+			<Text>Kiteingo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_9">
+			<Text>Masok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_10">
+			<Text>Kalani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_11">
+			<Text>Iru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_12">
+			<Text>Nyeru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_13">
+			<Text>Zakubwe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_14">
+			<Text>Kwambwa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_15">
+			<Text>Mapani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_16">
+			<Text>Mutolobo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_17">
+			<Text>Mtungwizi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_18">
+			<Text>Kwadungati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_19">
+			<Text>Kwayaku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_20">
+			<Text>Keribambu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_21">
+			<Text>Inga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_22">
+			<Text>Masa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_23">
+			<Text>Bendi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_24">
+			<Text>Bokosotshe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_25">
+			<Text>Bondajiado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_26">
+			<Text>Chareen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_27">
+			<Text>Codarra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_28">
+			<Text>Daryne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_29">
+			<Text>Goshein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_30">
+			<Text>Miagoma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_31">
+			<Text>Nakai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_32">
+			<Text>Lubusukamn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_33">
+			<Text>Shaarad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_34">
+			<Text>Shaido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_35">
+			<Text>Shiande</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_36">
+			<Text>Taardad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_37">
+			<Text>Kalamwasan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_38">
+			<Text>Jenn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_39">
+			<Text>Muta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_40">
+			<Text>Muru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_41">
+			<Text>Dibwezique</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_42">
+			<Text>Mlawudzulu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_43">
+			<Text>Emapeni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_44">
+			<Text>Wati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_45">
+			<Text>Masokwa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_46">
+			<Text>Kwansapwin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_47">
+			<Text>Emba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_48">
+			<Text>Gwe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_49">
+			<Text>Ondo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_50">
+			<Text>Kwavungo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_51">
+			<Text>Qunda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_52">
+			<Text>Naro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_53">
+			<Text>Harisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_54">
+			<Text>Gembadaabo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_55">
+			<Text>Dekwe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_56">
+			<Text>Emawayo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_57">
+			<Text>Ondongundi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_58">
+			<Text>Kwalunga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_59">
+			<Text>Kiluwe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_60">
+			<Text>Mkuzaf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_61">
+			<Text>Gbaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_62">
+			<Text>Nairoi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_63">
+			<Text>Binho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_64">
+			<Text>Matamba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_65">
+			<Text>Gembela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_66">
+			<Text>Ileme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_67">
+			<Text>Bakumbu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_68">
+			<Text>Omashu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_69">
+			<Text>Homalabaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_70">
+			<Text>Busukulu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_71">
+			<Text>Boende</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_72">
+			<Text>Idjwindu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_73">
+			<Text>Aketi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_74">
+			<Text>Luandu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BANTU_75">
+			<Text>Zimbayo</Text>
+		</Row>
+		<!--JFD_Songhay-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_1">
+			<Text>Karu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_2">
+			<Text>Diffa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_3">
+			<Text>Pobère</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_4">
+			<Text>Malabé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_5">
+			<Text>Gana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_6">
+			<Text>Godomélad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_7">
+			<Text>Ogboulo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_8">
+			<Text>Jimet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_9">
+			<Text>Kumbe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_10">
+			<Text>Ogar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_11">
+			<Text>Doussa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_12">
+			<Text>Doumandi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_13">
+			<Text>Abadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_14">
+			<Text>Boroumé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_15">
+			<Text>Kandez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_16">
+			<Text>Djounne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_17">
+			<Text>Kaladou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_18">
+			<Text>Josso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_19">
+			<Text>Djeneniali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_20">
+			<Text>Ouena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_21">
+			<Text>Mopti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_22">
+			<Text>Filankasso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_23">
+			<Text>Oyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_24">
+			<Text>Abader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_25">
+			<Text>Mataou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_26">
+			<Text>Ogao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_27">
+			<Text>Sakéméla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_28">
+			<Text>Lagouri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_29">
+			<Text>Fillono</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_30">
+			<Text>Ekpenna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_31">
+			<Text>Nsukka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_32">
+			<Text>Madugoum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_33">
+			<Text>Biréri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_34">
+			<Text>Bassou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_35">
+			<Text>Abandi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_36">
+			<Text>Apladao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_37">
+			<Text>Tânoua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_38">
+			<Text>Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_39">
+			<Text>Youmbé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_40">
+			<Text>Ngader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_41">
+			<Text>Aguié</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_42">
+			<Text>Tcha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_43">
+			<Text>Fata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_44">
+			<Text>Dirri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_45">
+			<Text>Dogouleni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_46">
+			<Text>Koroumbour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_47">
+			<Text>Ogbo-tonné</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_48">
+			<Text>Dakèré</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_49">
+			<Text>Abasso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_50">
+			<Text>Ikotou-bag</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_51">
+			<Text>Katamar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_52">
+			<Text>Kari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_53">
+			<Text>Birozé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_54">
+			<Text>Abombèkè</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_55">
+			<Text>Kidaoumbi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_56">
+			<Text>Aplabalaho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_57">
+			<Text>Abara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_58">
+			<Text>Maïnéron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_59">
+			<Text>Ogbouenna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_60">
+			<Text>Kou-bandi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_61">
+			<Text>Yolouguidu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_62">
+			<Text>Akurembeok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_63">
+			<Text>Kidahondi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_64">
+			<Text>Abasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_65">
+			<Text>Lagou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_66">
+			<Text>Kalaba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_67">
+			<Text>Mingao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_68">
+			<Text>Ndamingama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_69">
+			<Text>Djouna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_70">
+			<Text>Gusa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_71">
+			<Text>Tessaba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_72">
+			<Text>Doumji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_73">
+			<Text>Owerria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_74">
+			<Text>Iloungos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_SONGHAY_75">
+			<Text>Ogbamey</Text>
+		</Row>
+		<!--JFD_IndoIranian-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_1">
+			<Text>Bandar Eban</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_2">
+			<Text>Hampur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_3">
+			<Text>Peshpallapur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_4">
+			<Text>Bhakhangte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_5">
+			<Text>Tikaputtra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_6">
+			<Text>Dakabira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_7">
+			<Text>Ampala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_8">
+			<Text>Ursha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_9">
+			<Text>Peskhnagan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_10">
+			<Text>Ganapur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_11">
+			<Text>Jaithur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_12">
+			<Text>Ayoda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_13">
+			<Text>Peskhnadur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_14">
+			<Text>Uranda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_15">
+			<Text>Ujjagriyub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_16">
+			<Text>Qathulapur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_17">
+			<Text>Chatanai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_18">
+			<Text>Behisa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_19">
+			<Text>Agrbabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_20">
+			<Text>Ganagodhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_21">
+			<Text>Gabilipura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_22">
+			<Text>Singapura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_23">
+			<Text>Tushkactra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_24">
+			<Text>Ujjaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_25">
+			<Text>Anasipure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_26">
+			<Text>Rajahoresh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_27">
+			<Text>Cola</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_28">
+			<Text>Vijanuwara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_29">
+			<Text>Putampur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_30">
+			<Text>Colompahir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_31">
+			<Text>Capur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_32">
+			<Text>Kyre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_33">
+			<Text>Dakelipur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_34">
+			<Text>Agriya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_35">
+			<Text>Vijagangte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_36">
+			<Text>Kyreskhana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_37">
+			<Text>Capitpur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_38">
+			<Text>Kugalu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_39">
+			<Text>Chapitiya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_40">
+			<Text>Laliore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_41">
+			<Text>Charandrap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_42">
+			<Text>Capur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_43">
+			<Text>Mordiusarm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_44">
+			<Text>Jaugan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_45">
+			<Text>Nepatyugar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_46">
+			<Text>Thimarat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_47">
+			<Text>Nuwar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_48">
+			<Text>Dattalar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_49">
+			<Text>Bagalipura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_50">
+			<Text>Kugadu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_51">
+			<Text>Katnagaran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_52">
+			<Text>Karmak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_53">
+			<Text>Hetticalor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_54">
+			<Text>Jaunpuradu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_55">
+			<Text>Sigarmake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_56">
+			<Text>Valanj</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_57">
+			<Text>Paravadhya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_58">
+			<Text>Amakelhina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_59">
+			<Text>Mumbanak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_60">
+			<Text>Kadura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_61">
+			<Text>Pasakhna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_62">
+			<Text>Kaniyapith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_63">
+			<Text>Kugalora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_64">
+			<Text>Patnaintei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_65">
+			<Text>Autwanapur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_66">
+			<Text>Hampabulle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_67">
+			<Text>Lekhnagar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_68">
+			<Text>Merandae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_69">
+			<Text>Darakachim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_70">
+			<Text>Rajanannai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_71">
+			<Text>Jaffnawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_72">
+			<Text>Lalion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_73">
+			<Text>Vijavattav</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_74">
+			<Text>Daktapura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_INDO_IRANIAN_75">
+			<Text>Kolordisha</Text>
+		</Row>
+		<!--JFD_Altaic-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_1">
+			<Text>Urgan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_2">
+			<Text>Angan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_3">
+			<Text>Urtoq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_4">
+			<Text>Urtontau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_5">
+			<Text>Kosh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_6">
+			<Text>Sharagan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_7">
+			<Text>Orarg‘roq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_8">
+			<Text>Izmit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_9">
+			<Text>Sanbalya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_10">
+			<Text>Ulanbalsak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_11">
+			<Text>Ohandibatt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_12">
+			<Text>Olmarabaat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_13">
+			<Text>Talqanchiv</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_14">
+			<Text>Aqraubasya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_15">
+			<Text>Erzurfa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_16">
+			<Text>Voboybad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_17">
+			<Text>Quvashkent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_18">
+			<Text>Rishdarak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_19">
+			<Text>Erdarinov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_20">
+			<Text>Kosh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_21">
+			<Text>Sararmala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_22">
+			<Text>Ulattalay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_23">
+			<Text>Guldijdu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_24">
+			<Text>Samalkirak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_25">
+			<Text>Tasyar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_26">
+			<Text>Ekir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_27">
+			<Text>Ulay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_28">
+			<Text>G'uzan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_29">
+			<Text>Chorgan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_30">
+			<Text>Ulanbulor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_31">
+			<Text>Qarasliasil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_32">
+			<Text>Mashda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_33">
+			<Text>Choy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_34">
+			<Text>Koshir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_35">
+			<Text>Terleg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_36">
+			<Text>Sarash</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_37">
+			<Text>Ber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_38">
+			<Text>Almarsus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_39">
+			<Text>Aktandarsa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_40">
+			<Text>Qorashiva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_41">
+			<Text>Urfanganao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_42">
+			<Text>Urg‘ytep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_43">
+			<Text>Haqquduv</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_44">
+			<Text>Zaraslikha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_45">
+			<Text>Uchu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_46">
+			<Text>Tabzorsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_47">
+			<Text>Shandanayt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_48">
+			<Text>Inetrabri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_49">
+			<Text>Qorgut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_50">
+			<Text>Balgor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_51">
+			<Text>Bain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_52">
+			<Text>Muglan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_53">
+			<Text>Sarun-Urtk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_54">
+			<Text>Istarash</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_55">
+			<Text>Harshdar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_56">
+			<Text>Olmatargad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_57">
+			<Text>Satyrakarb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_58">
+			<Text>Sarbayh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_59">
+			<Text>Gazgan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_60">
+			<Text>Petshoy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_61">
+			<Text>Kyzylodak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_62">
+			<Text>Quvashdar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_63">
+			<Text>Uliastau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_64">
+			<Text>To‘rgad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_65">
+			<Text>Ohahrikh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_66">
+			<Text>Izmitlay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_67">
+			<Text>Aqbala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_68">
+			<Text>Sarinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_69">
+			<Text>Uchiqudu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_70">
+			<Text>Shahtinske</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_71">
+			<Text>Kyzyli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_72">
+			<Text>Ulatoq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_73">
+			<Text>G'ijduq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_74">
+			<Text>Tarhivash</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ALTAIC_75">
+			<Text>Istaqo‘r</Text>
+		</Row>
+		<!--JFD_Celtic-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_1">
+			<Text>Nemonabill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_2">
+			<Text>Rotinarfon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_3">
+			<Text>Lugdunum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_4">
+			<Text>Caergodunt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_5">
+			<Text>Ynys Wair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_6">
+			<Text>Gwythleort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_7">
+			<Text>Caerwenia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_8">
+			<Text>Caernarfon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_9">
+			<Text>Durobratum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_10">
+			<Text>Ageloria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_11">
+			<Text>Burdigalwy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_12">
+			<Text>Burotiorum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_13">
+			<Text>Penryn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_14">
+			<Text>Gabum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_15">
+			<Text>Llawrenryn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_16">
+			<Text>Ludd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_17">
+			<Text>Treorth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_18">
+			<Text>Llancum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_19">
+			<Text>Caer Gabil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_20">
+			<Text>Bree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_21">
+			<Text>Caerdigact</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_22">
+			<Text>Agedd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_23">
+			<Text>Lugduntric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_24">
+			<Text>Autreon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_25">
+			<Text>Lugduntior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_26">
+			<Text>Durdydrynn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_27">
+			<Text>Avarnabill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_28">
+			<Text>Llanfairpw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_29">
+			<Text>Gwyth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_30">
+			<Text>Lutreon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_31">
+			<Text>Caerwenned</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_32">
+			<Text>Dalwynedin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_33">
+			<Text>Eborum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_34">
+			<Text>Caerynne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_35">
+			<Text>Aleorum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_36">
+			<Text>Caerdyddyd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_37">
+			<Text>Branfairph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_38">
+			<Text>Gwynnarfon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_39">
+			<Text>Ynystwyth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_40">
+			<Text>Gwynetus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_41">
+			<Text>Caellyanfa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_42">
+			<Text>Cenryngyll</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_43">
+			<Text>Durobrate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_44">
+			<Text>Caerdyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_45">
+			<Text>Dineiddyne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_46">
+			<Text>Caellgwyne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_47">
+			<Text>Gwyngyllon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_48">
+			<Text>Segodunum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_49">
+			<Text>Cenrys Wai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_50">
+			<Text>Noviacum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_51">
+			<Text>Lutetus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_52">
+			<Text>Caergovia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_53">
+			<Text>Aberdyne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_54">
+			<Text>Caernag</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_55">
+			<Text>Balwys</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_56">
+			<Text>Avarivodun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_57">
+			<Text>Aleontomag</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_58">
+			<Text>Argennetum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_59">
+			<Text>Powyngylly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_60">
+			<Text>Nanfairphi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_61">
+			<Text>Uxelorum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_62">
+			<Text>Namarfonum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_63">
+			<Text>Caerleorch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_64">
+			<Text>Condunte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_65">
+			<Text>Agellgwys</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_66">
+			<Text>Aberweniat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_67">
+			<Text>Penryngyll</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_68">
+			<Text>Bibritum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_69">
+			<Text>Trennetorc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_70">
+			<Text>Ludnonaric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_71">
+			<Text>Bagacum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_72">
+			<Text>Lutretion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_73">
+			<Text>Bagalwyth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_74">
+			<Text>Caeryngyll</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_CELTIC_75">
+			<Text>Caergedind</Text>
+		</Row>
+		<!--JFD_NorthAmerican-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_1">
+			<Text>Inupiwak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_2">
+			<Text>Waskahpiwa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_3">
+			<Text>Mdekai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_4">
+			<Text>Wahwayuta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_5">
+			<Text>Mamanutai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_6">
+			<Text>Penaidiksi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_7">
+			<Text>Waskatik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_8">
+			<Text>Uasikampa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_9">
+			<Text>Aapeton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_10">
+			<Text>Wemihon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_11">
+			<Text>Kahni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_12">
+			<Text>Unkak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_13">
+			<Text>Natakihk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_14">
+			<Text>Ahkissewin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_15">
+			<Text>Sipiksa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_16">
+			<Text>Gowakit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_17">
+			<Text>Waskooska</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_18">
+			<Text>Wahpiwaloh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_19">
+			<Text>Hukaganipi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_20">
+			<Text>A'ana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_21">
+			<Text>Opa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_22">
+			<Text>Hunpao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_23">
+			<Text>Motapaosot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_24">
+			<Text>Wam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_25">
+			<Text>Chela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_26">
+			<Text>Unkahiskos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_27">
+			<Text>Yananinik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_28">
+			<Text>Moshisinka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_29">
+			<Text>Aamaska</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_30">
+			<Text>Obedjiwaha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_31">
+			<Text>Canupi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_32">
+			<Text>Nitadek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_33">
+			<Text>Waswak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_34">
+			<Text>Wapitisset</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_35">
+			<Text>Wazipupatu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_36">
+			<Text>Ipoksiokwe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_37">
+			<Text>Kiyini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_38">
+			<Text>Itak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_39">
+			<Text>Taganiwaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_40">
+			<Text>Osinininiw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_41">
+			<Text>Kááwawid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_42">
+			<Text>Payaba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_43">
+			<Text>Apipchaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_44">
+			<Text>Weenukuash</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_45">
+			<Text>Te-Bou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_46">
+			<Text>Goshenupaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_47">
+			<Text>Mistininin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_48">
+			<Text>Gowala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_49">
+			<Text>Againi-Pwa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_50">
+			<Text>Essetotan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_51">
+			<Text>Tsúùtín</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_52">
+			<Text>Waskáwacu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_53">
+			<Text>Gosh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_54">
+			<Text>Misli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_55">
+			<Text>Oglalahton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_56">
+			<Text>Syrachawi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_57">
+			<Text>Tatsipitup</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_58">
+			<Text>A'anaiga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_59">
+			<Text>Mazipupik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_60">
+			<Text>Kánik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_61">
+			<Text>Sisotepweg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_62">
+			<Text>Miawahisto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_63">
+			<Text>Waswa te-mo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_64">
+			<Text>Shikáápi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_65">
+			<Text>Haharekawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_66">
+			<Text>Mamuchohap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_67">
+			<Text>Yanca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_68">
+			<Text>Wapita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_69">
+			<Text>Silkosotwa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_70">
+			<Text>Whawan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_71">
+			<Text>Sanca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_72">
+			<Text>Itesha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_73">
+			<Text>Misle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_74">
+			<Text>Yaharie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_NORTH_AMERICAN_75">
+			<Text>Ahaw</Text>
+		</Row>
+		<!--JFD_Quechumaran-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_1">
+			<Text>Tamachanta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_2">
+			<Text>Huacayo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_3">
+			<Text>Parámaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_4">
+			<Text>Ojjo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_5">
+			<Text>Andahucamo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_6">
+			<Text>Ichac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_7">
+			<Text>Pajampatal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_8">
+			<Text>Chuachis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_9">
+			<Text>Tumbes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_10">
+			<Text>Mayo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_11">
+			<Text>Huaymi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_12">
+			<Text>Caxambamba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_13">
+			<Text>Cuzcawaín</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_14">
+			<Text>Caxamba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_15">
+			<Text>Arequiapo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_16">
+			<Text>Azá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_17">
+			<Text>Tampa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_18">
+			<Text>Tumbamboch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_19">
+			<Text>Chuacaymi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_20">
+			<Text>Jarconguil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_21">
+			<Text>Azápatayl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_22">
+			<Text>Kuequillap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_23">
+			<Text>Pucaras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_24">
+			<Text>Warápa Zo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_25">
+			<Text>Huaylapo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_26">
+			<Text>Arequitcos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_27">
+			<Text>Sipes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_28">
+			<Text>Tiwanchimu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_29">
+			<Text>Andahucuca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_30">
+			<Text>Icajes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_31">
+			<Text>Wanchangar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_32">
+			<Text>Cangaras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_33">
+			<Text>Ocongas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_34">
+			<Text>Qongamboc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_35">
+			<Text>Cuzca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_36">
+			<Text>Soc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_37">
+			<Text>Chopata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_38">
+			<Text>Pokotiapo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_39">
+			<Text>Chactayo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_40">
+			<Text>Pacarcona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_41">
+			<Text>Huaymi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_42">
+			<Text>Tamakanjal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_43">
+			<Text>Pajchichuc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_44">
+			<Text>Tiwantallo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_45">
+			<Text>Chuaytacha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_46">
+			<Text>Aticos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_47">
+			<Text>Machanchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_48">
+			<Text>Puchabampa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_49">
+			<Text>Azápa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_50">
+			<Text>Quipacáma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_51">
+			<Text>Chuaín</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_52">
+			<Text>Ichichimu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_53">
+			<Text>Carihuará</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_54">
+			<Text>Huantayo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_55">
+			<Text>Lupataymi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_56">
+			<Text>Azáma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_57">
+			<Text>Huilla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_58">
+			<Text>Tamara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_59">
+			<Text>Icajchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_60">
+			<Text>Ayavirao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_61">
+			<Text>Huipata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_62">
+			<Text>Hataritich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_63">
+			<Text>Tibilca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_64">
+			<Text>Tambampac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_65">
+			<Text>Chucucuira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_66">
+			<Text>Huaylani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_67">
+			<Text>Wira Canja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_68">
+			<Text>Jinaku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_69">
+			<Text>Icapan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_70">
+			<Text>Llaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_71">
+			<Text>Carisacta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_72">
+			<Text>Cámakurma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_73">
+			<Text>Chico</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_74">
+			<Text>Ocollanka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_QUECHUMARAN_75">
+			<Text>Wanaka</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

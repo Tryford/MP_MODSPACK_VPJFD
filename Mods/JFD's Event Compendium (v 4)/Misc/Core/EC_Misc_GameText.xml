@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--GENERAL-->
+		<Replace Tag="TXT_KEY_BUILDING_EVENT_MODIFIER">
+			<Text>{2_Icon} {3_Name}: {1_Num}% (Active Events)</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TP_HAPPINESS_EVENT">
+			<Text>{1_Happiness} from Events</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NEED_YIELDS">
+			<Text>[NEWLINE][ICON_BULLET]You lack the required Yields</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EVENT_DISABLED_REASONS_HEADER">
+			<Text>[COLOR_NEGATIVE_TEXT]Choice unavailable:[ENDCOLOR]</Text>
+		</Replace>
+		<!--EVENTS-->
+		<!--Artists Protest the Eiffel Tower-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_DESCRIPTION">
+			<Text>Artists Protest the Eiffel Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_HELP">
+			<Text>"We, writers, painters, sculptors, architects and passionate devotees of the hitherto untouched beauty of {1_City}, protest with all our strength, with all our indignation in the name of slighted {2_Adj} taste, against the erection of this useless and monstrous Eiffel Tower. To bring our arguments home, imagine for a moment a giddy, ridiculous tower dominating {1_City} like a gigantic black smokestack, crushing under its barbaric bulk all of our humiliated monuments which will disappear in this ghastly dream."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_DESCRIPTION_CHOICE_1">
+			<Text>Idiots.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_DESCRIPTION_CHOICE_2">
+			<Text>We can't take it down! We're using it as a radio tower!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_DESCRIPTION_CHOICE_3">
+			<Text>Fine, let's tear it down.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_CHOICE_1_HELP">
+			<Text>No effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_CHOICE_2_HELP">
+			<Text>{1_Num} and the city gains a Broadcast Tower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_CHOICE_3_HELP">
+			<Text>3 Great Artists appear and the city loses the Eiffel Tower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_CHOICE_1">
+			<Text>Artists staged a protest againt the Eiffel Tower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_CHOICE_2">
+			<Text>The Eiffel Tower has been converted into a Broadcast Tower!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_MISC_EIFFEL_TOWER_CHOICE_3">
+			<Text>In response to criticism, the Eiffel Tower has been torn down. Local artists celebrate its removal!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_CITY_EVENT_JFD_EIFFEL_TOWER_1">
+			<Text>Artists have staged protests against the Eiffel Tower in the {5_Adj} city of {2_CityDesc}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_CITY_EVENT_JFD_EIFFEL_TOWER_3">
+			<Text>In response to protests by local artists, the Eiffel Tower in the {5_Adj} city of {2_CityDesc} has been torn down.</Text>
+		</Row>
+		<!--Assassinated Official-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_ASSASSINATION_DESCRIPTION">
+			<Text>Assassinated Official</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_ASSASSINATION_HELP">
+			<Text>There are those who are apparently so appalled by our policies that they've decided to show their displeasure by assassinating a city official. They were not particularly notable, but their death will result in some issues nonetheless.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_ASSASSINATION_DESCRIPTION_CHOICE_1">
+			<Text>Let local officials handle it</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_ASSASSINATION_DESCRIPTION_CHOICE_2">
+			<Text>We must apprehend the scoundrel who did this!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_ASSASSINATION_CHOICE_1_HELP">
+			<Text>+{3_Num} [ICON_RESISTANCE] Resistance Sentiment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_ASSASSINATION_CHOICE_2_HELP">
+			<Text>{1_Num} and +{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_MISC_ASSASSINATION_CHOICE_1">
+			<Text>We have decided to let local officials deal with the assassination of one of their own.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_MISC_ASSASSINATION_CHOICE_2">
+			<Text>We have scoured out the murderer of one of our officials</Text>
+		</Row>
+		<!--Beast Stalks the City-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_DESCRIPTION">
+			<Text>Beast Stalks the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_HELP">
+			<Text>Rumours have begun to filter that a monstrous beast stalks the city streets at the dead of night. Eye-witnesses claim that the beast is a demon, others claim it is the elusive wild haggis. Regardless, it is beginning to disquiet the city, and so the matter must be dealt with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_DESCRIPTION_CHOICE_1">
+			<Text>We do not address mere rumours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_DESCRIPTION_CHOICE_2">
+			<Text>Send the guard out to hunt this beast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_DESCRIPTION_CHOICE_3">
+			<Text>Capture the beast and put it in our Zoo!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_DESCRIPTION_CHOICE_3_EE">
+			<Text>Capture the beast and put it in our Menagerie!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_CHOICE_1_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_CHOICE_2_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_CHOICE_3_HELP">
+			<Text>50% chance that the City Zoo will receive +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_CHOICE_3_HELP_EE">
+			<Text>50% chance that the city's Menagerie will receive +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_MISC_BEAST_CHOICE_1">
+			<Text>We have sent our guards to hunt a dangerous beast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_MISC_BEAST_CHOICE_2">
+			<Text>We have embarked on a quest to hunt a dangerous beast.</Text>
+		</Row>
+		<!--Beast: Hunt (Fail)-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_FAIL_DESCRIPTION_CHOICE_1">
+			<Text>Beast Stalks the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_FAIL_CHOICE_1_HELP">
+			<Text>Failure! The beast that had been stalking the city has evaded our capture![NEWLINE][NEWLINE]{1_Num}.</Text>
+		</Row>
+		<!--Beast: Hunt (Kill)-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_KILL_DESCRIPTION_CHOICE_1">
+			<Text>Beast Stalks the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_KILL_CHOICE_1_HELP">
+			<Text>Disaster! A Citizen has been killed by the beast that had been stalking the city! We have no choice but to hunt it down.[NEWLINE][NEWLINE]{1_Num}.</Text>
+		</Row>
+		<!--Beast: Hunt (Leave)-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_LEAVES_DESCRIPTION_CHOICE_1">
+			<Text>Beast Stalks the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_LEAVES_CHOICE_1_HELP">
+			<Text>No sign of the beast that had been allegedly stalking the city has arisen. We must conclude that the rumours were false.[NEWLINE][NEWLINE]+{2_Num}.</Text>
+		</Row>
+		<!--Beast: Hunt (Suit)-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_SUIT_DESCRIPTION_CHOICE_1">
+			<Text>Beast Stalks the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_SUIT_CHOICE_1_HELP">
+			<Text>Erhm? The beast that had been stalking the city was nothing more than a man in a suit! It's the talk of the city![NEWLINE][NEWLINE]+{2_Num}.</Text>
+		</Row>
+		<!--Beast: Hunt (Success)-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_SUCCESS_DESCRIPTION_CHOICE_1">
+			<Text>Beast Stalks the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_BEAST_SUCCESS_CHOICE_1_HELP">
+			<Text>Success! The beast that had been stalking the city has been captured and killed![NEWLINE][NEWLINE]+{2_Num}.</Text>
+		</Row>
+		<!--Bountiful Harvest-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_HARVEST_GOOD_DESCRIPTION_CHOICE_1">
+			<Text>Bountiful Harvest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_HARVEST_GOOD_CHOICE_1_HELP">
+			<Text>Owing to this year's excellent weather, the local farmers report an amazing surplus of food. Rarely has the earth ever yielded so much![NEWLINE][NEWLINE]+1 [ICON_FOOD] to the city's Granary for 10 turns.</Text>
+		</Row>
+		<!--Corruption-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_CORRUPTION_DESCRIPTION_CHOICE_1">
+			<Text>Corruption</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_CORRUPTION_CHOICE_1_HELP">
+			<Text>Bureaucracy sometimes just doesn't work. The wrong men in the wrong places can lead to corrupt practices which hurt the country's income. Even worse, it will take a few years to get the proper paperwork to change it.[NEWLINE][NEWLINE]{1_Num}.</Text>
+		</Row>
+		<!--Death of a Great Artist-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_DESCRIPTION">
+			<Text>Death of a Great Artist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_HELP">
+			<Text>A Great Artist, known throughout the world for their marble sculptures, has met an untimely end. In their will, they have left behind their life's work to the the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_DESCRIPTION_CHOICE_1">
+			<Text>Sell the art and fill our coffers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_DESCRIPTION_CHOICE_2">
+			<Text>We must take care and have this art put into storage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_DESCRIPTION_CHOICE_3">
+			<Text>Let us have this art put on display for the public to admire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_CHOICE_1_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_CHOICE_2_HELP">
+			<Text>{1_Num} and +{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_CHOICE_3_HELP">
+			<Text>{1_Num} and receive a [ICON_GREAT_WORK] Great Work of Art in the next available slot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_CHOICE_3_DISABLED">
+			<Text>[COLOR_NEGATIVE_TEXT]Choice unavailable:[ENDCOLOR][NEWLINE][ICON_BULLET]You lack the required Yields OR you do not have a free Great Work of Art slot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_CHOICE_1">
+			<Text>We have sold a collection of art left to the state to a private collector.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_CHOICE_2">
+			<Text>We have put a collection of art left to the state into storage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_DEATH_ARTIST_CHOICE_3">
+			<Text>We have put a collection of art left to the state on public display.</Text>
+		</Row>
+		<!--Destitute Noble-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_DESCRIPTION">
+			<Text>Destitute Noble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_HELP">
+			<Text>A destitute noble, without lord or way, arrives at your court. They pledge their service to you, promising to do utmost to ensure your protection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_DESCRIPTION_CHOICE_1">
+			<Text>Turn the wretch away!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_DESCRIPTION_CHOICE_2">
+			<Text>Clean them up and suit them with armour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_DESCRIPTION_CHOICE_3">
+			<Text>Confiscate their estate and have them executed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_CHOICE_1_HELP">
+			<Text>No effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_CHOICE_2_HELP">
+			<Text>{1_Num} and receive a Great General.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_CHOICE_3_HELP">
+			<Text>{1_Num} and +{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_CHOICE_2">
+			<Text>We have recruited into our service a destitute noble.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_DESTITUTE_NOBLE_CHOICE_3">
+			<Text>We have executed a destitute noble and confiscated their estate.</Text>
+		</Row>
+		<!--Excellent Official-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_EXCELLENT_OFFICIAL_DESCRIPTION_CHOICE_1">
+			<Text>Excellent Official</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_EXCELLENT_OFFICIAL_CHOICE_1_HELP">
+			<Text>Our newly hired government officials have proven to be particularly skilled and efficient. Their administrative efforts can only serve to benefit the nation.[NEWLINE][NEWLINE]+1 [ICON_MAGISTRATES] Magistrates.</Text>
+		</Row>
+		<!--Excellent Official-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_EXCELLENT_OFFICIAL_2_DESCRIPTION_CHOICE_1">
+			<Text>Excellent Official</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_EXCELLENT_OFFICIAL_2_CHOICE_1_HELP">
+			<Text>Our newly hired government officials have proven to be particularly skilled and efficient. Their diplomatic efforts can only serve to benefit the nation.[NEWLINE][NEWLINE]+1 [ICON_JFD_DIGNITARY] Dignitaries.</Text>
+		</Row>
+		<!--Gift to the State-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_STATE_GIFT_DESCRIPTION_CHOICE_1">
+			<Text>Gift to the State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_STATE_GIFT_CHOICE_1_HELP">
+			<Text>Good governments would sometimes prompt the nobility and the businessmen of the realm to donate cash to the treasury, out of pure patriotism or in exchange for the sales or transfer of honorary titles and positions.[NEWLINE][NEWLINE]+{2_Num}.</Text>
+		</Row>
+		<!--Incompetent Diplomat-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_DESCRIPTION">
+			<Text>Incompetent Diplomat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_HELP">
+			<Text>One of our diplomats, showing a lack of tact, has made some outrageous statements in front of {1_CityState}'s dignitaries, shocking and angering them. The man has embarrassed our country and damaged relations with {1_CityState}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_DESCRIPTION_CHOICE_1">
+			<Text>Time heals all wounds...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_DESCRIPTION_CHOICE_2">
+			<Text>Perhaps we can smooth this over?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_DESCRIPTION_CHOICE_3">
+			<Text>We've been planning to conquer them anyway.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_CHOICE_1_HELP">
+			<Text>-10 [ICON_INFLUENCE] Influence with this City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_CHOICE_2_HELP">
+			<Text>{1_Num} and +15 [ICON_INFLUENCE] Influence with this City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_CHOICE_3_HELP">
+			<Text>-15 [ICON_INFLUENCE] Influence with this City-State and receive a free Military Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_CHOICE_1">
+			<Text>An incompetent diplomat has made some rather embarrassing remarks in front of a City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_INCOMPETENCE_CHOICE_2">
+			<Text>An incompetent diplomat has made some rather embarrassing remarks in front of a City-State, but we have smoothed these over.</Text>
+		</Row>
+		<!--Meagre Harvest-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_HARVEST_BAD_DESCRIPTION_CHOICE_1">
+			<Text>Meagre Harvest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_HARVEST_BAD_CHOICE_1_HELP">
+			<Text>Owing to this year's abysmal weather, the local farmers report a terrible deficit of food. Rarely has the earth ever yielded so little![NEWLINE][NEWLINE]-1 [ICON_FOOD] to the city's Granary for 10 turns.</Text>
+		</Row>
+		<!--Mercenaries-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_MERCENARIES_DESCRIPTION">
+			<Text>Mercenaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_MERCENARIES_HELP">
+			<Text>A band of wandering soldiers have arried at your court, offering their services to us in exchange for good pay.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_MERCENARIES_DESCRIPTION_CHOICE_1">
+			<Text>Arrest these deserters!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_MERCENARIES_DESCRIPTION_CHOICE_2">
+			<Text>Clean them up and suit them with armour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_MERCENARIES_DESCRIPTION_CHOICE_3">
+			<Text>Turn them away. They do the military a dishonour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_MERCENARIES_CHOICE_1_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_MERCENARIES_CHOICE_2_HELP">
+			<Text>{1_Num} and receive two free Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_MERCENARIES_CHOICE_3_HELP">
+			<Text>+{2_Num} and two Barbarian Units will attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_MERCENARIES_CHOICE_1">
+			<Text>We have arrested a band of wandering mercenaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_MERCENARIES_CHOICE_2">
+			<Text>We have recruited a band of wandering mercenaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_MERCENARIES_CHOICE_3">
+			<Text>We have turned away a band of wandering mercenaries.</Text>
+		</Row>
+		<!--Rebel Uprising-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_UPRISING_DESCRIPTION_CHOICE_1">
+			<Text>Rebel Uprising</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_MISC_UPRISING_CHOICE_1_HELP">
+			<Text>In order to ensure the glory of our country we have had to restrict local privileges. The problem with privileges is that people get very attached to them for sentimental reasons. Now, some power hungry idiot has declared himself the true ruler of our country, and many hopefuls flock to his banner because he has promised to restore local privileges.[NEWLINE][NEWLINE]2 Rebel Units appear near the city.</Text>
+		</Row>
+		<!--Solar Eclipse-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_DESCRIPTION">
+			<Text>Solar Eclipse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_HELP">
+			<Text>The nation stares in awe as the Sun slowly disappears behind a black disc in the sky; as the world turns to darkness despite it being mid-day. Your subjects are absolutely terrified.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_DESCRIPTION_CHOICE_1">
+			<Text>Our prayers and sacrifices shall bring back the light.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_DESCRIPTION_CHOICE_2">
+			<Text>There must be a reasonable explanation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_DESCRIPTION_CHOICE_3">
+			<Text>Divine intervention set the heavens in motion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_DESCRIPTION_CHOICE_4">
+			<Text>The laws of gravity dictate the motions of the sun and moon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_DESCRIPTION_CHOICE_5">
+			<Text>A new dawn for the Iroquois Confederacy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_CHOICE_1_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_CHOICE_2_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_CHOICE_3_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_CHOICE_4_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_CHOICE_5_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_MISC_SOLAR_ECLIPSE_CHOICE_1">
+			<Text>A solar eclipse astounds the nation.</Text>
+		</Row>
+		<!--Successful Embassy-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_EMBASSY_DESCRIPTION_CHOICE_1">
+			<Text>Successful Embassy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_EMBASSY_CHOICE_1_HELP">
+			<Text>Our ambassadors have been very good at spreading a favourable opinion of us among the government of {1_CityState}.[NEWLINE][NEWLINE]+10 [ICON_INFLUENCE] Influence with this City-State.</Text>
+		</Row>
+		<!--Technological Breakthrough-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TECH_BREAKTHROUGH_DESCRIPTION">
+			<Text>Technological Breakthrough</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TECH_BREAKTHROUGH_HELP">
+			<Text>Our ministers report that there has been a local development that is relevant to our understanding of {1_TechName}. They advise we investigate to learn if we can incorporate this new information into our current research.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TECH_BREAKTHROUGH_DESCRIPTION_CHOICE_1">
+			<Text>Just send some people for a cursory investigation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TECH_BREAKTHROUGH_DESCRIPTION_CHOICE_2">
+			<Text>Investigate thoroughly and with scepticism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TECH_BREAKTHROUGH_CHOICE_1_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TECH_BREAKTHROUGH_CHOICE_2_HELP">
+			<Text>50% chance to gain +{2_Num}.</Text>
+		</Row>
+		<!--Terrible Official-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TERRIBLE_OFFICIAL_DESCRIPTION_CHOICE_1">
+			<Text>Terrible Official</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TERRIBLE_OFFICIAL_CHOICE_1_HELP">
+			<Text>Our newly hired government officials have proven to be particularly terrible and inefficient. Their administrative efforts can only serve to ruin the nation.[NEWLINE][NEWLINE]-1 [ICON_MAGISTRATES] Magistrates.</Text>
+		</Row>
+		<!--Terrible Official-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TERRIBLE_OFFICIAL_2_DESCRIPTION_CHOICE_1">
+			<Text>Terrible Official</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_MISC_TERRIBLE_OFFICIAL_2_CHOICE_1_HELP">
+			<Text>Our newly hired government officials have proven to be particularly terrible and inefficient. Their diplomatic efforts can only serve to ruin the nation.[NEWLINE][NEWLINE]-1 [ICON_JFD_DIGNITARY] Dignitaries.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

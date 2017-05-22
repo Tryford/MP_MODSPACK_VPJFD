@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--GENERAL-->
+		<Replace Tag="TXT_KEY_JFD_POLICY_MAGISTRATE">
+			<Text>Write a bug on me.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_MONGOLIASILKROAD2">
+			<Text>Mongol Silk Road</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_EGYPTVALLEYOFTHEKINGS">
+			<Text>Excavate the Valley of the Kings</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_ESTATES_GENERAL">
+			<Text>Create the Estates-General</Text>
+		</Replace>
+		<!--BUILDINGS-->
+		<!--Claimed City-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CLAIMED_CITY">
+			<Text>JFD: Claimed City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CLAIMED_CITY_HELP">
+			<Text>Marks this city as a claimed city.</Text>
+		</Row>
+		<!--Puppet City-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PUPPET_CITY">
+			<Text>JFD: Puppet City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PUPPET_CITY_HELP">
+			<Text>Marks this city as a puppet city.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

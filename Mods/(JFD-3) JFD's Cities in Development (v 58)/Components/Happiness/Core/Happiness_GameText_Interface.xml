@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CITY BANNER-->
+		<Row Tag="TXT_KEY_JFD_CITYBANNER_HAPPINESS_TEXT_TT_RESISTANCE">
+			<Text>City is considered [ICON_HAPPINESS_4] [COLOR_JFD_UNHAPPINESS]Unhappy[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]City will enter [ICON_RESISTANCE] Resistance in {1_Num} Turn(s)![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYBANNER_HAPPINESS_TEXT_TT_RESISTANCE_OTHER">
+			<Text>City is considered [ICON_HAPPINESS_4] [COLOR_JFD_UNHAPPINESS]Unhappy[ENDCOLOR]</Text>
+		</Row>
+		<!--CITY VIEW-->
+		<Row Tag="TXT_KEY_CITY_SCREEN_JFD_HAPPINESS_PER_TURN">
+			<Text>{1_Num} [ICON_HAPPINESS_1] Happiness / Turn</Text>
+		</Row>
+		<!--INTERFACE-->
+		<!--Happiness-->
+		<Replace Tag="TXT_KEY_CITYVIEW_HAPPINESS_TEXT">
+			<Text>[COLOR_JFD_HAPPINESS]Happiness[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_UNHAPPINESS_TEXT">
+			<Text>[COLOR_JFD_UNHAPPINESS]Unhappiness[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYVIEW_HAPPINESS_PERTURN_TEXT">
+			<Text>{2_Color}+{1_Num}[ENDCOLOR]</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HAPPINESS_TT">
+			<Text>[ICON_HAPPINESS_1] Happiness is used to offset [ICON_HAPPINESS_4] Unhappiness produced by cities and [ICON_CITIZEN] Citizens. Local Happiness cannot exceed the number of [ICON_CITIZEN] Citizens in the city.[NEWLINE]{1_HappinessSources}[NEWLINE]----------------[NEWLINE][COLOR_POSITIVE_TEXT]{2_HappinessTotal} [ICON_HAPPINESS_1] Happiness Total[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_HAPPINESS_COMP_TEXT_TT">
+			<Text>[ICON_HAPPINESS_1] Happiness is used to offset [ICON_HAPPINESS_4] Unhappiness, excess of which contributes toward potential [ICON_RESISTANCE] Resistance. The threshold at which Resistance strikes is increased with your Total Happiness. Excess Happiness is converted directly into [ICON_PRODUCTION] Production.[NEWLINE]{1_UnhappinessBreakdown}[NEWLINE]{3_HappinessBreakdown}[NEWLINE]------------------[NEWLINE][COLOR_NEGATIVE_TEXT]{2_Num} [ICON_HAPPINESS_4] Total[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]{4_Num} [ICON_HAPPINESS_1] Total[ENDCOLOR][NEWLINE][ICON_BULLET]{8_HL}[ICON_RESISTANCE] Resistance Sentiment: {5_Num}/{6_Num}[ENDCOLOR][NEWLINE][NEWLINE]{8_HL}City will enter [ICON_RESISTANCE] Resistance in {7_Num} Turn(s)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_RESISTANCE_TEXT">
+			<Text>RESISTANCE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HAPPINESS_TT_BUILDINGS">
+			<Text>{1_Num} [ICON_HAPPINESS_1] from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HAPPINESS_TT_FROM_DEVELOPMENT">
+			<Text>{1_Num} [ICON_HAPPINESS_1] from Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HAPPINESS_TT_EVENT">
+			<Text>{1_Num} [ICON_HAPPINESS_1] from Active Events</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HAPPINESS_TT_GARRISON">
+			<Text>{1_Num} [ICON_HAPPINESS_1] from Military Garrison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HAPPINESS_TT_GLOBAL_HAPPINESS">
+			<Text>{1_Num} [ICON_HAPPINESS_1] from Global Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_UNHAPPINESS_TT_CITY">
+			<Text>{1_Num} [ICON_HAPPINESS_4] from City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_UNHAPPINESS_TT_POPULATION">
+			<Text>{1_Num} [ICON_HAPPINESS_4] from [ICON_CITIZEN] Population</Text>
+		</Row>
+		<!--NOTIFICATIONS-->
+		<Row Tag="TXT_KEY_JFD_CITY_RESISTANCE_NOTIFICATION_SHORT">
+			<Text>{1_CityName} Strikes!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_RESISTANCE_NOTIFICATION">
+			<Text>Citizens in {1_CityName} are staging protests against our rule because their [ICON_HAPPINESS_4] Unhappiness remains too high!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_RESISTANCE_IMMINENT_NOTIFICATION_SHORT">
+			<Text>Protests Imminent in {1_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_RESISTANCE_IMMINENT_NOTIFICATION">
+			<Text>Citizens are planning to stage protests in {1_CityName} in {2_Num} turns if we do not address their [ICON_HAPPINESS_4] Unhappiness!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_CITY_RESISTANCE">
+			<Text>Unhappy Citizens are staging widespread protests in the {1_CivName}.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

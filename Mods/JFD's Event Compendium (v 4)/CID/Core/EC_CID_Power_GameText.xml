@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--Blackout-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_POWER_BLACKOUT_DESCRIPTION">
+			<Text>Slave Maltreatment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_POWER_BLACKOUT_HELP">
+			<Text>Slaves 
+				
+				Missionaries have requested that we fund their passage to {1_CityDesc}, so that they can spread the faith to the frontier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_POWER_BLACKOUT_DESCRIPTION_CHOICE_1">
+			<Text>Very well. We shall fund their passage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_POWER_BLACKOUT_DESCRIPTION_CHOICE_2">
+			<Text>They will stay behind.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_POWER_BLACKOUT_CHOICE_1_HELP">
+			<Text>{1_Yield} and the City gains a Missionary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_POWER_BLACKOUT_CHOICE_2_HELP">
+			<Text>No effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_POWER_BLACKOUT_CHOICE_1">
+			<Text>A religious mission has been sent to {2_CityDesc}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_POWER_BLACKOUT_CHOICE_2">
+			<Text>A religious mission has been denied passage to {2_CityDesc}.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

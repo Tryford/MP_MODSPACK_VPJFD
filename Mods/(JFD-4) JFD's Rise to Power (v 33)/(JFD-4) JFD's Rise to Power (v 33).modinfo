@@ -1,0 +1,977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eea66053-7579-481a-bb8d-2f3959b59974" version="33">
+  <Properties>
+    <Name>(JFD-4) JFD's Rise to Power</Name>
+    <Teaser>Adds various [COLOR_POSITIVE_TEXT]State themed[ENDCOLOR] changes and effects to the game.</Teaser>
+    <Description>See CivFanatics for full details.</Description>
+    <Authors>JFD</Authors>
+    <SpecialThanks>Gazebo, Janboruta, Sukritact, Viregel, Tomatekh, Leugi,[NEWLINE]Clotting, DarkScythe, Sir Kesler, Sir Chrisy,[NEWLINE]Sir Daniel Empire, LeeS</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer> 
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+  </Dependencies>
+  <References>
+    <Mod id="66743884-90cd-4de4-9ea2-dfbbe608c3d1" minversion="0" maxversion="999" title="UI - Notification Options (GK)" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="44a1244d-5b92-455d-b75f-6d8889da295a" minversion="0" maxversion="999" title="Longer Eras - Historic" />
+    <Mod id="e408b819-aef0-4f44-954b-94dcd0dc9e07" minversion="0" maxversion="999" title="Extended Eras" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete (BNW or GK)" />
+    <Mod id="6bc3cb6e-a697-491e-9347-5e3e02640f00" minversion="0" maxversion="999" title="Historical Religions Edit" />
+    <Mod id="6c52be67-b7da-4768-9873-1a9ce5011e8e" minversion="0" maxversion="999" title="Christian Denominations" />
+    <Mod id="d60c32bd-6826-4ca3-8161-2e37ebab5883" minversion="0" maxversion="999" title="Protestant Denominations" />
+    <Mod id="24fba76-d0be-447f-9c89-fc56462f9f63" minversion="0" maxversion="999" title="Islamic Denominations" />
+    <Mod id="cda9bfce-2abf-4b10-b0be-514f850d95cb" minversion="0" maxversion="999" title="Hindu Denominations" />
+    <Mod id="59a97415-76c7-47e8-8f69-d268dccd9535" minversion="0" maxversion="999" title="Buddhist Denominations" />
+    <Mod id="5139dcb2-e318-4fe7-a58c-68a59b8339db " minversion="0" maxversion="999" title="Mesopotamian Denominations" />
+    <Mod id="1b456011-7882-4f02-8184-5421e6a2b3fb" minversion="0" maxversion="999" title="Egyptian Denominations" />
+    <Mod id="a8a3f188-f98e-4ba2-91bf-76af49cb0a6d" minversion="0" maxversion="999" title="Greco-Roman Denominations" />
+    <Mod id="20dd5230-df95-4722-9043-385fe8b90de6" minversion="0" maxversion="999" title="Medieval Heresies" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events and Decisions" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="d3338a80-bbbf-4c42-8696-2c4020bf7997" minversion="0" maxversion="999" title="Race for Religion (BNW)" />
+    <Mod id="93bb9f13-2952-4d7c-bc63-1ee5097cfce8" minversion="0" maxversion="999" title="Strange Religions" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="Community Balance Patch - Compatibility Files (EUI)" />
+    <Mod id="828b5b4b-7c62-4afb-a43f-034b596ef5e4" minversion="0" maxversion="999" title="Community Balance Patch - Compatibility Files" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities in Development" />
+    <Mod id="09fc2951-8a5c-478a-801a-7c7cccba81a5" minversion="0" maxversion="999" title="Speed Repacing" />
+    <Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="0" maxversion="999" title="(3) City-State Diplomacy Mod for CBP" />
+    <Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="0" maxversion="999" title="City-State Diplomacy Mod (CSD) for Brave New World" />
+    <Mod id="781d81cf-49e1-4acb-ae5f-b9e3713f98d3" minversion="0" maxversion="999" title="(1a) Civ IV Diplomatic Features - CP" />
+    <Mod id="c1871abe-b596-4028-a121-6568c154cb8d" minversion="0" maxversion="999" title="Sukritact's Suzerainty" />
+  </References>
+  <Blocks>
+    <Mod id="4ad8de1c-a52a-4752-8e61-e73edcecf8dd" minversion="0" maxversion="999" title="UI - Religion Spread" />
+    <Mod id="475933b9-264f-42e6-8c73-70bbc7e839ea" minversion="0" maxversion="999" title="JFD's Dynamic Top Panel Support" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD and Pouakai's Mercenaries" />
+    <Mod id="e569b799-91d5-4360-b407-be5146fcec32" minversion="0" maxversion="999" title="(7) Events and Decisions (CBP)" />
+  </Blocks>
+  <Files>
+    <File md5="EB032DDE5FF34EFF9DB47346ED498943" import="1">Components/Claims/Art/FontIcons/ClaimMedium-FontIcons.dds</File>
+    <File md5="0ED6BB887BC4B7D728CA8C769D19ECFC" import="1">Components/Claims/Art/FontIcons/ClaimStrong-FontIcons.dds</File>
+    <File md5="DBBF29D8566C0D68FEF0E15120BA2B11" import="1">Components/Claims/Art/FontIcons/ClaimWeak-FontIcons.dds</File>
+    <File md5="FC7198D76EA4DEB2882F9BC6A82C2DC5" import="1">Components/Claims/Art/FontIcons/Dignitary-FontIcons.dds</File>
+    <File md5="69B78DF165A1FEA66B630B726823A353" import="1">Components/Claims/Art/FontIcons/JFD_ClaimMediumFontIcons_22.ggxml</File>
+    <File md5="D0FDCF6DCFAD19C66244AE8EC580427E" import="1">Components/Claims/Art/FontIcons/JFD_ClaimStrongFontIcons_22.ggxml</File>
+    <File md5="0BFB78333F5B73DAE208FEDB41383DF7" import="1">Components/Claims/Art/FontIcons/JFD_ClaimWeakFontIcons_22.ggxml</File>
+    <File md5="F58DBAE7266366B612F921FBEDFF91CC" import="1">Components/Claims/Art/FontIcons/JFD_DignitaryFontIcons_22.ggxml</File>
+    <File md5="3F323EC85CBA9680913CAB9049C15B54" import="1">Components/Claims/Art/Graphics/Great Dignitary/great_dignitary.dds</File>
+    <File md5="243191A6894A1E0B5D83D3633297FC34" import="1">Components/Claims/Art/Graphics/Great Dignitary/great_dignitary.fxsxml</File>
+    <File md5="5857A603A66458E6EFE89DC1F8CB477E" import="1">Components/Claims/Art/Graphics/Great Dignitary/great_dignitary.gr2</File>
+    <File md5="405B4F8DF190B110A940EA22D692FA80" import="1">Components/Claims/Art/Graphics/Great Dignitary/sv_GreatDignitary.dds</File>
+    <File md5="B0486EA72FEC579C534A804C5642ACE5" import="1">Components/Claims/Art/Graphics/Great Magistrate Late/great_magistrate_late.fxsxml</File>
+    <File md5="AD066199686669057CDA4143743801D8" import="1">Components/Claims/Art/Graphics/Great Magistrate Late/great_magistrate_late.gr2</File>
+    <File md5="1250685690F5AD9A91EAEEB61B7A289C" import="1">Components/Claims/Art/Graphics/Great Magistrate Late/great_magistrate_late.indiedefs</File>
+    <File md5="87B6BD14EF8D707619E4D32E7BDCD047" import="1">Components/Claims/Art/Graphics/Great Magistrate Late/great_magistrate_late_diff.dds</File>
+    <File md5="A4A470D5D4B2FE0FD95706B93135FFAE" import="1">Components/Claims/Art/Graphics/Great Magistrate Late/great_magistrate_late_sref.dds</File>
+    <File md5="24E23013A101EA932098CC886220DC41" import="1">Components/Claims/Art/Graphics/Great Magistrate/great_magistrate.dds</File>
+    <File md5="B0354D3173E3B1A7986D44971F2C5F4D" import="1">Components/Claims/Art/Graphics/Great Magistrate/great_magistrate.fxsxml</File>
+    <File md5="8B9320AA8CDCA20668FB10562855B2B5" import="1">Components/Claims/Art/Graphics/Great Magistrate/great_magistrate.gr2</File>
+    <File md5="10B56098DBBE34BA5EA832167D619E37" import="1">Components/Claims/Art/Graphics/Great Magistrate/sv_GreatMagistrate.dds</File>
+    <File md5="41ACB08F8D6E076859CE644C77F1D52A" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsBuildingAtlas_128.dds</File>
+    <File md5="6765D604D669FD19EE49522E9A0D3844" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsBuildingAtlas_256.dds</File>
+    <File md5="DB6D8D75A7CFEDE3D376D8D5544CC07B" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsBuildingAtlas_32.dds</File>
+    <File md5="E4DF6A7E550CFC2332713A3E4CD63597" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsBuildingAtlas_45.dds</File>
+    <File md5="B62045222EB73519668F0CD73C001DFA" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsBuildingAtlas_64.dds</File>
+    <File md5="076798BB093B18F84588FCFC3F3E2956" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsBuildingAtlas_80.dds</File>
+    <File md5="2D5C0ACD96F9B13BCF4FB49E70360411" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsGreatDignitaryUnitFlag_32.dds</File>
+    <File md5="DFE517099354AB7787A01E824E0929B8" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsGreatMagistrateUnitFlag_32.dds</File>
+    <File md5="7FE9B31DAE45B0A965AF681ED4A8477C" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsMission1Atlas_45.dds</File>
+    <File md5="379BB2B8BEB17A5AB8337BE907FC5F5C" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsMission1Atlas_64.dds</File>
+    <File md5="2EA7EBBCF9EF18E10176E07AE5EC9E46" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsMission2Atlas_45.dds</File>
+    <File md5="DC0E55638DBD628287C5B350A60F5622" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsMission2Atlas_64.dds</File>
+    <File md5="C932F15418697AD6FCBF7E44BD4CE539" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsResourceAtlas_128.dds</File>
+    <File md5="31CB40C5D33B7F76F1B5F78783A7C488" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsResourceAtlas_256.dds</File>
+    <File md5="1E457A80C0238903B646B705503E9D70" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsResourceAtlas_45.dds</File>
+    <File md5="078B210A706C2F9403E54FB14FC47185" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsResourceAtlas_64.dds</File>
+    <File md5="96D4C81A8D4F6FF10B978141183D7ED4" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsResourceAtlas_80.dds</File>
+    <File md5="F838A72B58F73C5210341184A3A494D0" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsSpecialistAtlas_128.dds</File>
+    <File md5="64428287DB80944BC0828030BAB4DF8A" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsSpecialistAtlas_256.dds</File>
+    <File md5="C54BFF117E0EC0EB32985781E1525408" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsSpecialistAtlas_32.dds</File>
+    <File md5="6C0639205A7A1B1E67A1FDB24FDD3945" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsSpecialistAtlas_45.dds</File>
+    <File md5="DEADC9201C9B25342D1A26C4E7BDAF43" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsSpecialistAtlas_64.dds</File>
+    <File md5="21C13B45E0109FE28D6C1FF20F221768" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsSpecialistAtlas_80.dds</File>
+    <File md5="042823022FD3570014673A6D5799AC6C" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsTechAtlas_128.dds</File>
+    <File md5="DDFCF73CCB59AB1527A10AB0F089465C" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsTechAtlas_214.dds</File>
+    <File md5="EADD88EF91D7C3095904F3C6A14FDB76" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsTechAtlas_256.dds</File>
+    <File md5="D775860F4B63CB63E0DC34D597C68141" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsTechAtlas_45.dds</File>
+    <File md5="2EB25CA49C859F781EC901130086966D" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsTechAtlas_64.dds</File>
+    <File md5="508F6C46D631E15F87FCC767E3DC1062" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsTechAtlas_80.dds</File>
+    <File md5="5F37C96D88FA6071F78EF56419070C49" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsUnitAtlas_128.dds</File>
+    <File md5="2A0F3450AB9FB733BA0E03F446046BF6" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsUnitAtlas_256.dds</File>
+    <File md5="F4BA01DD5DA9B72E9F88A54724ED4926" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsUnitAtlas_32.dds</File>
+    <File md5="A86D07D8E27E90C2A629E43AADA89C31" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsUnitAtlas_45.dds</File>
+    <File md5="C19260D7CD3BD2904A1851A81E792A02" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsUnitAtlas_64.dds</File>
+    <File md5="512769472C5CDFD2891192672D09C900" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsUnitAtlas_80.dds</File>
+    <File md5="B9FA52E36A949EB36EEE9C65808DD789" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsWonderAtlas_128.dds</File>
+    <File md5="B0D5C5BFF041C6CFB876FCF77409B43D" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsWonderAtlas_256.dds</File>
+    <File md5="A90BC9776E2E4BD602780A9B261E6993" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsWonderAtlas_45.dds</File>
+    <File md5="DC47EF58FE4929D9B84E3818BEAE4835" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsWonderAtlas_64.dds</File>
+    <File md5="C3F27CDC955FF8063147914DE0A59DF8" import="1">Components/Claims/Art/IconAtlas/JFD_ClaimsWonderAtlas_80.dds</File>
+    <File md5="DB1178FBD81AFE314680F69A406815A7" import="1">Components/Claims/Art/Images/CitizenDignitary.dds</File>
+    <File md5="DB1178FBD81AFE314680F69A406815A7" import="1">Components/Claims/Art/Images/CitizenMagistrate.dds</File>
+    <File md5="3D4A8FE326F7BC9D865D8419FE95296D" import="1">Components/Claims/Art/SplashScreens/Wonder_ForumRomanum.dds</File>
+    <File md5="5E21C0276C8A14AB8FD8FBA284E470B9" import="1">Components/Claims/Art/SplashScreens/Wonder_Westminster.dds</File>
+    <File md5="EB8C6AFC67549487BB4118BFE802334D" import="1">Components/Claims/Audio/GreatDignitary.wav</File>
+    <File md5="D7CC4050FBC7632B9DB9A66DB1CD8976" import="1">Components/Claims/Audio/GreatMagistrate.wav</File>
+    <File md5="8A699A93D526211AB078F35BB6241DA8" import="1">Components/Claims/Audio/Wonder_ForumRomanum.mp3</File>
+    <File md5="D191276F9EC1AAEC481D7CD463170EB1" import="1">Components/Claims/Audio/Wonder_Westminster.mp3</File>
+    <File md5="1050C90E655B7A7E48E4862E8D08A071" import="0">Components/Claims/Core/Claims_ArtDefines.sql</File>
+    <File md5="FA995FC76D0C140D7C1FEC1A9677E6FF" import="0">Components/Claims/Core/Claims_Buildings.sql</File>
+    <File md5="3E165492BE33C9C72E8DDC904DE12069" import="0">Components/Claims/Core/Claims_Civilizations.sql</File>
+    <File md5="E36874E458BE25E2FEEB480220C17DFC" import="0">Components/Claims/Core/Claims_Claims.sql</File>
+    <File md5="F8260D8B67BFF41C8C5AD55B5AF72793" import="0">Components/Claims/Core/Claims_GameDefines.sql</File>
+    <File md5="AA3D56D2DD4D9107E82DFF47B9BD19C6" import="0">Components/Claims/Core/Claims_GameText.xml</File>
+    <File md5="7A0656BAE94A116117B319814BC3ECE3" import="0">Components/Claims/Core/Claims_GameText_Decisions.xml</File>
+    <File md5="76896D2823F2018D29712E70A622931F" import="0">Components/Claims/Core/Claims_GameText_Interface.xml</File>
+    <File md5="14B1A3F8140254AE44C7FD3B9D267094" import="0">Components/Claims/Core/Claims_GameText_ModSupport.xml</File>
+    <File md5="6AFB0F397528FD7C382EE3043661C33A" import="0">Components/Claims/Core/Claims_Master_SlotTexture.sql</File>
+    <File md5="114E769391DDA55BE06DE5805BFBD5E4" import="0">Components/Claims/Core/Claims_ModSupport.sql</File>
+    <File md5="E6FBB087A4C917827CEE4465325A4564" import="0">Components/Claims/Core/Claims_Policies.sql</File>
+    <File md5="B187AF9BA60CE7468DFB9F39E178D401" import="0">Components/Claims/Core/Claims_Specialists.sql</File>
+    <File md5="4CDD7524C1CD07D510BC227FCA82781B" import="0">Components/Claims/Core/Claims_Technologies.sql</File>
+    <File md5="62E8CD9A8A580100C873353C59968A4F" import="0">Components/Claims/Core/Claims_Unit.sql</File>
+    <File md5="C18FEBA5E3FDC0404A087FAAA7C4048A" import="1">Components/Claims/Lua/Interactions_Suk_Claims.lua</File>
+    <File md5="6834086A5C8B62D5D5CB8493C8144AAC" import="0">Components/Claims/Lua/JFD_RTP_Claims_AustriaFunctions.lua</File>
+    <File md5="1FD23BD657979DC9689D9541443C2AE8" import="1">Components/Claims/Lua/JFD_RTP_Claims_Decisions.lua</File>
+    <File md5="21671E247A7245E6D456423C6CEDF30D" import="0">Components/Claims/Lua/JFD_RTP_Claims_Functions.lua</File>
+    <File md5="9E15622351223C7F38F7208C3040F4B9" import="1">Components/Claims/Lua/Utilities/JFD_RTP_ClaimsUtils.lua</File>
+    <File md5="8911D340B833A4B1967C56A950CF3D2F" import="1">Components/Epithets/Art/Images/Epithets.dds</File>
+    <File md5="C4C77C16D5BEA2A6A8AA5B7B04204C02" import="1">Components/Epithets/Art/Images/Events/Event_CacheTreasure.dds</File>
+    <File md5="D6E08946CF5C6EA9FB568389046F649C" import="1">Components/Epithets/Art/Images/Events/Event_InnocentExecution.dds</File>
+    <File md5="54979AD1B8A968096B3AFD509E5F4DD9" import="1">Components/Epithets/Art/Images/Events/Event_SpousalRumours.dds</File>
+    <File md5="F4F62144AF3471712B825C63F28A8BB9" import="1">Components/Epithets/Audio/Epithet.wav</File>
+    <File md5="E5FF84C3A2276FF961AC048028D919FB" import="1">Components/Epithets/Audio/EpithetAccepted.wav</File>
+    <File md5="80BC034F7DA705F6B078C644E74AE009" import="0">Components/Epithets/Core/Epithets_ArtDefines.sql</File>
+    <File md5="F55F8B062011F732B932C6648D616D8C" import="0">Components/Epithets/Core/Epithets_GameDefines.sql</File>
+    <File md5="2AAC15813D48AA758933259119DD845E" import="0">Components/Epithets/Core/Epithets_Epithets.sql</File>
+    <File md5="D1E0B4C8BD4127E249159BA3B4FEE6F4" import="0">Components/Epithets/Core/Epithets_GameText.xml</File>
+    <File md5="E446B1BC04E7938CDB086E5784BFDF6D" import="0">Components/Epithets/Core/Epithets_GameText_Interface.xml</File>
+    <File md5="A2B82AAF29362284DC689902F9FD4DFC" import="0">Components/Epithets/Core/Epithets_GameText_ModSupport.xml</File>
+    <File md5="8BB8374E81E24F1BB6BEFEDA7D3FA504" import="0">Components/Epithets/Core/Epithets_ModSupport.sql</File>
+    <File md5="8FDB231F43D352EDF293FB2C4A0D9DEC" import="1">Components/Epithets/Lua/JFD_RTP_Epithets_Events.lua</File>
+    <File md5="46C695C8094A0AB9EB42B0B9673D0C3A" import="0">Components/Epithets/Lua/JFD_RTP_Epithets_Functions.lua</File>
+    <File md5="05C93209964DBA30111889519656577D" import="0">Components/Epithets/Lua/JFD_RTP_Epithets_Functions.xml</File>
+    <File md5="4C9A6B7433666BFB12FDBC8951C4AF81" import="1">Components/Epithets/Lua/Utilities/JFD_RTP_EpithetsUtils.lua</File>
+    <File md5="B037FA5379E1C54A9FF4413A9A64539E" import="1">Components/Mercenaries/Art/DC45_Mercenaries.dds</File>
+    <File md5="78CE89E604D09145B28361873FE3A4BD" import="1">Components/Mercenaries/Art/FontIcons/JFD_MercenaryFontIcons_22.ggxml</File>
+    <File md5="668822C69A07E7CF3FBEF2F2F87D3A6B" import="1">Components/Mercenaries/Art/FontIcons/Mercenary-FontIcons.dds</File>
+    <File md5="5FF7A7CB17BC32EC7ECA63813D7049C2" import="1">Components/Mercenaries/Art/Graphics/Gaesatae/Gaesatae.dds</File>
+    <File md5="4AEDA072F2AB09F6556F6E887822053E" import="1">Components/Mercenaries/Art/Graphics/Gaesatae/Gaesatae.fxsxml</File>
+    <File md5="8ADB17D0BB056EF7FD27CDBF0E961E01" import="1">Components/Mercenaries/Art/Graphics/Gaesatae/Gaesatae.gr2</File>
+    <File md5="C5CFC000F96EB1C8DA3807C8732134E9" import="1">Components/Mercenaries/Art/Graphics/Gaesatae/Gaesatae_sref.dds</File>
+    <File md5="12DAF543E5CAD0D5AA19BD8195B7AED3" import="1">Components/Mercenaries/Art/Graphics/Gaesatae/JFD_CelticMerc.fxsxml</File>
+    <File md5="957E06225D7D3DE0EC7A89EB48ABD140" import="1">Components/Mercenaries/Art/Graphics/Gaesatae/JFD_CelticMerc.gr2</File>
+    <File md5="5655CA51083DB2500444EDF3AA62C80E" import="1">Components/Mercenaries/Art/Graphics/Gaesatae/JFD_CelticMerc_diff.dds</File>
+    <File md5="EEB951EF88C9EFDFC94E40A6A66F298D" import="1">Components/Mercenaries/Art/Graphics/Gaesatae/JFD_CelticMerc_sref.dds</File>
+    <File md5="87AC6B4A0265D133B63B658EC1787D77" import="1">Components/Mercenaries/Art/Graphics/Gaesatae/sv_MercGaesatae.dds</File>
+    <File md5="A84B5A41E92D9F7AB8087A26C1B6641A" import="1">Components/Mercenaries/Art/Graphics/Hessian/Hessian.dds</File>
+    <File md5="099A7EDC72D3EDA0A2214F41A333173B" import="1">Components/Mercenaries/Art/Graphics/Hessian/Hessian.fxsxml</File>
+    <File md5="9046F6235BB3280AEDFBBD3CD637DC59" import="1">Components/Mercenaries/Art/Graphics/Hessian/Hessian.gr2</File>
+    <File md5="DE2451411F913D6C16F2F0B38AE43DDD" import="1">Components/Mercenaries/Art/Graphics/Hessian/Hessian_sref.dds</File>
+    <File md5="66F25EC2F253C657C49C7C478E46BAC9" import="1">Components/Mercenaries/Art/Graphics/Hessian/sv_MercHessianGren.dds</File>
+    <File md5="1D73E8331618E66367BC224136CB9F71" import="1">Components/Mercenaries/Art/IconAtlas/JFD_HessianUnitFlag_32.dds</File>
+    <File md5="8C84EA4BE26E72B3D03968128FFA5981" import="1">Components/Mercenaries/Art/IconAtlas/JFD_MercGaesataeUnitFlag_32.dds</File>
+    <File md5="9BAE78AB5A6901BC1D53B2ED16B1A9DD" import="1">Components/Mercenaries/Art/IconAtlas/JFD_MercHessianGrenUnitFlag_32.dds</File>
+    <File md5="FD3D81F2C6488A7966986BD925ECAFAE" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryMissionAtlas_45.dds</File>
+    <File md5="58B6D5FC12C84E62943E08E0C04C10EF" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryNotificationAtlas_80.dds</File>
+    <File md5="C69397B2016622C1A17860AB2BB95A50" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryTechAtlas_128.dds</File>
+    <File md5="EA3614691458D18A5E2FE65F2F5D8048" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryTechAtlas_214.dds</File>
+    <File md5="C8BE27839209AC75E38F9ED7C723744D" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryTechAtlas_256.dds</File>
+    <File md5="7C7BC91700FA38D44FC3164CB4F12FBD" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryTechAtlas_45.dds</File>
+    <File md5="7138021B307A3726D4F4647B51CCBD4E" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryTechAtlas_64.dds</File>
+    <File md5="48AFADAE57DD228932F6367BB0383672" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryTechAtlas_80.dds</File>
+    <File md5="2E782D3626B339E23E3B393E97AD1B30" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryUnitAtlas_128.dds</File>
+    <File md5="F29BDD3E0B651D59400AFFE081A771B8" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryUnitAtlas_160.dds</File>
+    <File md5="FCDE4903945F2E30A8C290E38A2342AE" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryUnitAtlas_256.dds</File>
+    <File md5="CEA4FD23C33A0D2EC7353152309B47E0" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryUnitAtlas_45.dds</File>
+    <File md5="05BF4E45B53E22484C1F43CB49059ECD" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryUnitAtlas_64.dds</File>
+    <File md5="2156EA2ACA0C6E4D05542736F00B36BE" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryUnitAtlas_80.dds</File>
+    <File md5="3B8ADBD080A331840F17496914C57E33" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryWonderAtlas_128.dds</File>
+    <File md5="D07456A62E76C21AEEBB3104B3770623" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryWonderAtlas_256.dds</File>
+    <File md5="D0CCA49AAEE02380F57D7116C00C3602" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryWonderAtlas_45.dds</File>
+    <File md5="EAB54C6FB787E629A7755760FFAFCCAF" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryWonderAtlas_64.dds</File>
+    <File md5="F4BE32CD14F77176A2C0300154AB18E3" import="1">Components/Mercenaries/Art/IconAtlas/JFD_Pouakai_MercenaryWonderAtlas_80.dds</File>
+    <File md5="3BFDB175429DB3229A6594D5E77B5A5A" import="1">Components/Mercenaries/Art/SplashScreens/Wonder_Jiayuguan.dds</File>
+    <File md5="A912605499807F7140EE5BD54A79B2A5" import="1">Components/Mercenaries/Audio/ContractDefaulted.mp3</File>
+    <File md5="97229361264CBF65654BFC7F8EC667FE" import="1">Components/Mercenaries/Audio/ContractStarted.wav</File>
+    <File md5="AE36BB3254C5DF0012BDCCDF681E4ED5" import="1">Components/Mercenaries/Audio/Wonder_Jiayuguan.mp3</File>
+    <File md5="75A60CDD4317FE038FD489B464FB4149" import="0">Components/Mercenaries/Core/Mercenaries_ArtDefines.sql</File>
+    <File md5="819C0D3DD1CC05CA7B622ADDD1FE3F89" import="0">Components/Mercenaries/Core/Mercenaries_Buildings.sql</File>
+    <File md5="54AA1EB4B07D2FC69D411CA33A2BFE59" import="0">Components/Mercenaries/Core/Mercenaries_Contracts.sql</File>
+    <File md5="181F0CE251A31C1DA4F289C5C6F936F3" import="0">Components/Mercenaries/Core/Mercenaries_GameDefines.sql</File>
+    <File md5="91DE687D7904598FEE5467E3E096D479" import="0">Components/Mercenaries/Core/Mercenaries_GameText.xml</File>
+    <File md5="2B3332DB71D40A3B6805BCA185A69260" import="0">Components/Mercenaries/Core/Mercenaries_GameText_Interface.xml</File>
+    <File md5="E9C0076E67876B26ECE2610885BCA0D9" import="0">Components/Mercenaries/Core/Mercenaries_Leaders.sql</File>
+    <File md5="43818EE4B38B56777B0F8F2CBAC1E5C9" import="0">Components/Mercenaries/Core/Mercenaries_ModSupport.sql</File>
+    <File md5="A0326FF76E477630E8E7C00F1218E60F" import="0">Components/Mercenaries/Core/Mercenaries_Promotions.sql</File>
+    <File md5="11FC62D6E0831EB9C6B7AE18630916B9" import="0">Components/Mercenaries/Core/Mercenaries_Resolutions.sql</File>
+    <File md5="08988E5FE30ED2688A84E033F01F5A47" import="0">Components/Mercenaries/Core/Mercenaries_Techs.sql</File>
+    <File md5="21F43CEF04BFD9D1BB1AE78209AF69CF" import="0">Components/Mercenaries/Core/Mercenaries_Units.sql</File>
+    <File md5="CC0F3D5EDB155496BB4F19AFC6AD4DCC" import="0">Components/Mercenaries/Lua/JFD_RTP_Mercenaries_Functions.lua</File>
+    <File md5="1C503DCEE543F7A988C058A264344563" import="0">Components/Mercenaries/Lua/JFD_RTP_Mercenaries_Functions.xml</File>
+    <File md5="2EABC0C1DB8878CE11E372CB22860257" import="1">Components/Mercenaries/Lua/Utilities/JFD_RTP_MercenariesUtils.lua</File>
+    <File md5="6E79982052DC5630573D3AC4E8095081" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscTechAtlas_128.dds</File>
+    <File md5="FAB24A60A100794F471939C3F7550AC5" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscTechAtlas_214.dds</File>
+    <File md5="7A3B6B40EC38D7EF25013B115C52729C" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscTechAtlas_256.dds</File>
+    <File md5="F5F58B273C88F5A858CC608D0A728E3C" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscTechAtlas_45.dds</File>
+    <File md5="98180D668E62E8220178E1226D3E25BB" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscTechAtlas_64.dds</File>
+    <File md5="65831060B701DDCE7BB0B1E943689B27" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscTechAtlas_80.dds</File>
+    <File md5="837A97C27FE46E60F2B82AAA4030A4F4" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscWonderAtlas_128.dds</File>
+    <File md5="68A71A1EBF139F98F6E0F1F59F05D4B7" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscWonderAtlas_256.dds</File>
+    <File md5="D63719FEF4EDD0B4B2458A83F800D13A" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscWonderAtlas_45.dds</File>
+    <File md5="82D22736B9E19441FAC576AC6BCB583E" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscWonderAtlas_64.dds</File>
+    <File md5="4E29A16910335634D54256D228407F62" import="1">Components/Misc/Art/IconAtlas/JFD_RTP_MiscWonderAtlas_80.dds</File>
+    <File md5="C1E1D98C3EE43DDC192B2798587A7E81" import="0">Components/Misc/Core/RTP_Buildings.sql</File>
+    <File md5="73ABC0E57DFF32F345EB4290BDB1AC41" import="0">Components/Misc/Core/RTP_GameText.xml</File>
+    <File md5="58485B4F1453FC0776F9FB7C51020B66" import="0">Components/Misc/Core/RTP_GameDefines.sql</File>
+    <File md5="35D6CFEF3BBF24773AA23547BE200E2F" import="0">Components/Misc/Core/RTP_ArtDefines.sql</File>
+    <File md5="AB38C8411C574E133FBB2410B66A892A" import="0">Components/Misc/Core/RTP_GameText_Interface.xml</File>
+    <File md5="F72B62DA0AAC57158CCBDEE2D555FE53" import="1">Components/Piety/Art/FontIcons/JFD_GoldReligion_22_Fonticons.dds</File>
+    <File md5="65CEAE110D705CD7272CDB29BE0BC051" import="1">Components/Piety/Art/FontIcons/JFD_GoldReligion_22_Fonticons.ggxml</File>
+    <File md5="36963F37603E1CAB42D098C8DC2101FE" import="1">Components/Piety/Art/FontIcons/JFD_PietyFontIcons_22.ggxml</File>
+    <File md5="D519C311AC653DD32E06284C2C596C8B" import="1">Components/Piety/Art/FontIcons/JFD_PietyHeresyAtlas_22_Fonticons.dds</File>
+    <File md5="E8E444CAA73A80CACA722800EBFAC7B2" import="1">Components/Piety/Art/FontIcons/JFD_PietyHeresyAtlas_22_Fonticons.ggxml</File>
+    <File md5="E6F6A3B5FB33E92E0DE01B664FBC0E4D" import="1">Components/Piety/Art/FontIcons/Piety-FontIcons.dds</File>
+    <File md5="B7BB98170128069A0F14C2A747485BE1" import="1">Components/Piety/Art/IconAtlas/CitizenMonk.dds</File>
+    <File md5="17442339E407280E150960D8CB761DA0" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBeliefAtlas_128.dds</File>
+    <File md5="D986BD930EBEBB4BE70CEF1607307AC5" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBeliefAtlas_256.dds</File>
+    <File md5="6FF75BE95E5F37DF5743D36DC5DF65A1" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBeliefAtlas_45.dds</File>
+    <File md5="A286B679AAEC35A50CCE205E0F52BFD8" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBeliefAtlas_64.dds</File>
+    <File md5="B2438E5E991DCB115665CF3D4B8967AF" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBeliefAtlas_80.dds</File>
+    <File md5="B6EF442B1032751434741B3D62CC213E" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBuildingAtlas_128.dds</File>
+    <File md5="6A2E3EAF3B0B3999F8EEBD9DB4CD9DE8" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBuildingAtlas_256.dds</File>
+    <File md5="41D4CFAD91A23E198724DDBDD2C7C61C" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBuildingAtlas_45.dds</File>
+    <File md5="50197DDE6A1A4A36A1848A4EA05642C3" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBuildingAtlas_64.dds</File>
+    <File md5="799F15F2B3B433A440A641130EC33B7C" import="1">Components/Piety/Art/IconAtlas/JFD_PietyBuildingAtlas_80.dds</File>
+    <File md5="397C087A553C0F522ADDDEFBCF9BE7E4" import="1">Components/Piety/Art/IconAtlas/JFD_PietyNotificationGlowingAtlas_80.dds</File>
+    <File md5="4D2472FE113A96A90470D6F928E07AC0" import="1">Components/Piety/Art/IconAtlas/JFD_PietyHeresyAtlas_128.dds</File>
+    <File md5="D3943DFA27B73E0436655A42CA9AE336" import="1">Components/Piety/Art/IconAtlas/JFD_PietyHeresyAtlas_16.dds</File>
+    <File md5="A81ADFE77B22532DC58AC3BC922BFD2D" import="1">Components/Piety/Art/IconAtlas/JFD_PietyHeresyAtlas_214.dds</File>
+    <File md5="3DC8DB70FC7A993B5C107EDF52B9845D" import="1">Components/Piety/Art/IconAtlas/JFD_PietyHeresyAtlas_24.dds</File>
+    <File md5="697136E385C9404336298CE81E45425F" import="1">Components/Piety/Art/IconAtlas/JFD_PietyHeresyAtlas_256.dds</File>
+    <File md5="7C41C0DB1758ED46D919C5C744261312" import="1">Components/Piety/Art/IconAtlas/JFD_PietyHeresyAtlas_32.dds</File>
+    <File md5="A6166FEDF69B02112CF50590597FC493" import="1">Components/Piety/Art/IconAtlas/JFD_PietyHeresyAtlas_48.dds</File>
+    <File md5="2631B6CCAFE073C501509C0402F9C737" import="1">Components/Piety/Art/IconAtlas/JFD_PietyHeresyAtlas_64.dds</File>
+    <File md5="5AE4B849AE3F861FC610F49236794AEA" import="1">Components/Piety/Art/IconAtlas/JFD_PietyHeresyAtlas_80.dds</File>
+    <File md5="399005BEE7C6F71FA47928E699CB8CD9" import="1">Components/Piety/Art/IconAtlas/JFD_PietyMissionAtlas_45.dds</File>
+    <File md5="4B866CB882FA7FD2E3445D47B02BBE79" import="1">Components/Piety/Art/IconAtlas/JFD_PietyNotificationAtlas_80.dds</File>
+    <File md5="9502D2B012AB8EF784E0B94872E1BF93" import="1">Components/Piety/Art/IconAtlas/JFD_PietyProcessAtlas_128.dds</File>
+    <File md5="DB177B9D639718F4628F25F216A3B7C2" import="1">Components/Piety/Art/IconAtlas/JFD_PietyProcessAtlas_256.dds</File>
+    <File md5="45E1615DDE7FA3F38D0227A522A3023C" import="1">Components/Piety/Art/IconAtlas/JFD_PietyProcessAtlas_45.dds</File>
+    <File md5="A9C1869C281D0241F4DD8CA385AE0704" import="1">Components/Piety/Art/IconAtlas/JFD_PietyProcessAtlas_64.dds</File>
+    <File md5="0CB5264F35822A32A9118B66F28F5E9B" import="1">Components/Piety/Art/IconAtlas/JFD_PietyProcessAtlas_80.dds</File>
+    <File md5="3664D99F8C26A0B046CA28D83FEC486C" import="1">Components/Piety/Art/IconAtlas/JFD_PietySpecialistAtlas_128.dds</File>
+    <File md5="98E783541D351B993B75EA726B0DB7B8" import="1">Components/Piety/Art/IconAtlas/JFD_PietySpecialistAtlas_256.dds</File>
+    <File md5="2DD1F73FF34CE72485B8C20CC9CEEB1F" import="1">Components/Piety/Art/IconAtlas/JFD_PietySpecialistAtlas_45.dds</File>
+    <File md5="2081E0BF813576A3E6B1C3B3F8C1ECD9" import="1">Components/Piety/Art/IconAtlas/JFD_PietySpecialistAtlas_64.dds</File>
+    <File md5="C2909347B76997D0BFE52048B96781F5" import="1">Components/Piety/Art/IconAtlas/JFD_PietySpecialistAtlas_80.dds</File>
+    <File md5="E1464AFB695AC1A4F6687A0ABBB281DD" import="1">Components/Piety/Art/IconAtlas/JFD_PietyTechAtlas_128.dds</File>
+    <File md5="10F33E8DD74B4F7629BDB0F4C8721455" import="1">Components/Piety/Art/IconAtlas/JFD_PietyTechAtlas_214.dds</File>
+    <File md5="A141126E746B9A5F483D8D28FC5441EE" import="1">Components/Piety/Art/IconAtlas/JFD_PietyTechAtlas_256.dds</File>
+    <File md5="F78B402C18E381B5B5FDBD1B1B2BEB81" import="1">Components/Piety/Art/IconAtlas/JFD_PietyTechAtlas_45.dds</File>
+    <File md5="E58ADBABBBA28D15CD6CC853FFCB38A5" import="1">Components/Piety/Art/IconAtlas/JFD_PietyTechAtlas_64.dds</File>
+    <File md5="7A1ED62545545BB399C34D7FA51587E1" import="1">Components/Piety/Art/IconAtlas/JFD_PietyTechAtlas_80.dds</File>
+    <File md5="90593CB8228E2BEDD0C1BC6D469A9AC5" import="1">Components/Piety/Art/IconAtlas/JFD_PietyTechAtlas_90.dds</File>
+    <File md5="1192F9FA7DA6DB22413D9450F766FF9A" import="1">Components/Piety/Art/IconAtlas/JFD_PietyWonderAtlas_128.dds</File>
+    <File md5="09B4516B2012A6DE398E972392C86E56" import="1">Components/Piety/Art/IconAtlas/JFD_PietyWonderAtlas_256.dds</File>
+    <File md5="F11EFBBB272615B507CCD656ECAA22D5" import="1">Components/Piety/Art/IconAtlas/JFD_PietyWonderAtlas_45.dds</File>
+    <File md5="F23D2DD9BD1AF4A13B9A8282671B9244" import="1">Components/Piety/Art/IconAtlas/JFD_PietyWonderAtlas_64.dds</File>
+    <File md5="76DAF2CBB81F8CF82CF0991E33EA9788" import="1">Components/Piety/Art/IconAtlas/JFD_PietyWonderAtlas_80.dds</File>
+    <File md5="AFFF0D9F0CCBC2455ADBB4F6C0B72FF0" import="1">Components/Piety/Art/Images/Header400.dds</File>
+    <File md5="9C7588481E0330B7CF8F40F1B2451E69" import="1">Components/Piety/Art/Images/Relic_background.dds</File>
+    <File md5="C1974FD9419DD695829E50DD3694E4C4" import="1">Components/Piety/Art/Images/Religious64.dds</File>
+    <File md5="4EE90ED950E2937F7E5F191C87E4893B" import="1">Components/Piety/Art/Images/Secularization.dds</File>
+    <File md5="FDEE6714067C8951AAF63F6D1F25E29C" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_Apocalypse.dds</File>
+    <File md5="54C872131728AB769EB3C7A4DB9C0E82" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_BenedictineMonk.dds</File>
+    <File md5="275BBD7E0948FEAB30A6B737B6BC80A9" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_Bodhisattva.dds</File>
+    <File md5="6333B384E5A8051723575C529B618A68" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_BookBurning.dds</File>
+    <File md5="90DD4D2A2382F53606A0EC04546564E0" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_CallStateReligion.dds</File>
+    <File md5="E0F95954BB7C70EEFE7F125D9E074727" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_ClergyConcerned.dds</File>
+    <File md5="F10E54FF07FEC944F8D1B7B448DBFC72" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_Corruption.dds</File>
+    <File md5="8586E016BEA7FCBAA55EB5D7EEECEC13" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_CourtHeretic.dds</File>
+    <File md5="AC750B1FB159917DB9F85A4A1BD5CC80" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_Diaspora.dds</File>
+    <File md5="D2134E0FBDE2DED8596D8B55E210FDBA" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_HagiaSophia.dds</File>
+    <File md5="AFDDE92E931F88AAD1EBDF0E643A092C" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_HeathenGuard.dds</File>
+    <File md5="2708FA7F38D056330CF3F5E3E7525BC4" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_HellFog.dds</File>
+    <File md5="DE02EB7B391B3E12BEEFF0C5284C2C7E" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_HolyOrder.dds</File>
+    <File md5="806831621AA740DC33835DAC66D6B3C1" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_Miracles.dds</File>
+    <File md5="F5D5A88692C4A4F43187C2CCC1350576" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_PaganFestival.dds</File>
+    <File md5="16E6A91983873478707752E8D36CF58C" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_PaganUprising.dds</File>
+    <File md5="C73A96EF62CD1A1CC1DD862C1713E15D" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_Peddler.dds</File>
+    <File md5="6F0A40073C319ECADFF0519E1ECD2776" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_Philosopher.dds</File>
+    <File md5="FFEA8D245C93C201AA3847F219936C49" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_RosicrucianManifestos.dds</File>
+    <File md5="A22DCAFA06B714D672948C5DA3A01274" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_Schism.dds</File>
+    <File md5="54BB1D623DF5E72B34530AA3518B3121" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_StSebastian.dds</File>
+    <File md5="9B362B014FC544C830B3E36A064D3613" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_TempleDestruction.dds</File>
+    <File md5="10E7FFE60E62B3BEB6591C66B36337F8" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_VoiceOfGod.dds</File>
+    <File md5="8F4D2174477C48ADDB4E5E38BAA2681C" import="1">Components/Piety/Art/Images/Splashscreens/Events/Event_Witchcraft.dds</File>
+    <File md5="40B00A4C499DF82FBCDD6E5A05410363" import="1">Components/Piety/Art/Images/Splashscreens/Wonders/Wonder_BuddhaBamiyan.dds</File>
+    <File md5="4652D0B5C3C6A194FEC3A24D2DF22D9C" import="1">Components/Piety/Art/Images/Splashscreens/Wonders/Wonder_Todai.dds</File>
+    <File md5="17EF82C59B0165C86695C7451D6A7FF8" import="1">Components/Piety/Art/Images/Splashscreens/Wonders/Wonder_AbuSimbel.dds</File>
+    <File md5="7FBFE0EB317359C5DE7F62D0C2305939" import="1">Components/Piety/Art/Images/Splashscreens/Wonders/Wonder_Cologne.dds</File>
+    <File md5="407A4C9FD0CC4CAAC1CEDB51C96D8AB5" import="1">Components/Piety/Art/Images/Splashscreens/Wonders/Wonder_DomeRock.dds</File>
+    <File md5="51B7F2A221D3FC0E6BBD0C0268375C19" import="1">Components/Piety/Art/Images/Splashscreens/Wonders/Wonder_Pantheon.dds</File>
+    <File md5="FE150CE04BF6EA5385E756BC53AF99A4" import="1">Components/Piety/Art/Images/Splashscreens/Wonders/Wonder_TempleHeaven.dds</File>
+    <File md5="F4833BBB11F298BA69FF4C3D857CEF97" import="1">Components/Piety/Art/Images/Splashscreens/Wonders/Wonder_TempleSolomon.dds</File>
+    <File md5="54C407427466D23D25BF9A2257B396AA" import="1">Components/Piety/Audio/Buildings/Altar.mp3</File>
+    <File md5="D33B0330B33097A8B931FFA1FA873E83" import="1">Components/Piety/Audio/Buildings/Church.mp3</File>
+    <File md5="7E3324F8D39DAAA81CB9F153AAC1E69F" import="1">Components/Piety/Audio/Buildings/Daoguan.mp3</File>
+    <File md5="B89EFC4C547E6330B15617D43215EC40" import="1">Components/Piety/Audio/Buildings/GrandInquisition.mp3</File>
+    <File md5="BBD52E151F993E457328CF49AA9E0A77" import="1">Components/Piety/Audio/Buildings/Gurdwara.mp3</File>
+    <File md5="D43588C545B1F5BCADE36AB6C108C1B7" import="1">Components/Piety/Audio/Buildings/Mandir.mp3</File>
+    <File md5="5A93BE9BA2F9F3634BB6EBE8C6970D3E" import="1">Components/Piety/Audio/Buildings/SpanishInquisition.mp3</File>
+    <File md5="6B2883A196F100B9079639A76D65E2F6" import="1">Components/Piety/Audio/Buildings/Synagogue.mp3</File>
+    <File md5="0E4242A501872766D883C9B974E2D288" import="1">Components/Piety/Audio/Buildings/Torii.mp3</File>
+    <File md5="C19C614C398197FBFBC6C21C795C6A25" import="1">Components/Piety/Audio/Contracts/BuddistMissActivate.mp3</File>
+    <File md5="41A8FF8103A85D754CA14AABDC343556" import="1">Components/Piety/Audio/Contracts/ChristMissionaryActivate.mp3</File>
+    <File md5="4F256658129C444AC40C39DDC5DB3C7C" import="1">Components/Piety/Audio/Contracts/ConfucianMissActivate.mp3</File>
+    <File md5="18FCE6E36B01FDA727DE434120938779" import="1">Components/Piety/Audio/Contracts/HinduMissActivate.mp3</File>
+    <File md5="E4D44C8305736F437C515AA58B212FF0" import="1">Components/Piety/Audio/Contracts/IslamicMissActivate.mp3</File>
+    <File md5="08D458C7C046FB72F177E239EEFEF66F" import="1">Components/Piety/Audio/Contracts/JewishMissActivate.mp3</File>
+    <File md5="9BD133E5916DECA151F56E488D2173EA" import="1">Components/Piety/Audio/Contracts/OlympDink.mp3</File>
+    <File md5="92DB0F02E4ACAD8ACDE28BDE2FF20B16" import="1">Components/Piety/Audio/Contracts/RaDink.mp3</File>
+    <File md5="3CD856FBDE4A0C40FACCB8A6BC497EDA" import="1">Components/Piety/Audio/Contracts/ReligionConvert.mp3</File>
+    <File md5="0F69BA4636E8D23FEA376EA1D24594B2" import="1">Components/Piety/Audio/Contracts/TaoistMissionaryActivate.mp3</File>
+    <File md5="3516125D3E71986B03400DDC31E03911" import="1">Components/Piety/Audio/Contracts/ToltecDink.mp3</File>
+    <File md5="488F8CA7D388EC54D98C84A9BC8AD558" import="1">Components/Piety/Audio/Contracts/ZoroDink.mp3</File>
+    <File md5="2460AB086C1260524820B4D7FA53389A" import="1">Components/Piety/Audio/Religion/JFD_Amatongo.mp3</File>
+    <File md5="80C6191A853873008AF6DB043CDD10F3" import="1">Components/Piety/Audio/Religion/JFD_Andean.mp3</File>
+    <File md5="F0A427F66DE2182A90F1AF6A0CCC3150" import="1">Components/Piety/Audio/Religion/JFD_Angakkuqism.mp3</File>
+    <File md5="5A72DF356ACA8E72C65E48129A9D78DB" import="1">Components/Piety/Audio/Religion/JFD_Anglicanism.mp3</File>
+    <File md5="E360152045C70AA14EED36E47FC77ADC" import="1">Components/Piety/Audio/Religion/JFD_Atenism.mp3</File>
+    <File md5="7592CCCEECCB5F9C334892E43EC25498" import="1">Components/Piety/Audio/Religion/JFD_Bahai.mp3</File>
+    <File md5="89E5FF5400E851840C198ECD9DC5C5C4" import="1">Components/Piety/Audio/Religion/JFD_Bogomilism.mp3</File>
+    <File md5="ABD0AE5E7A43AA26BBA9C08BAB564F8D" import="1">Components/Piety/Audio/Religion/JFD_Buddhism.mp3</File>
+    <File md5="6B6998B231158524B9A538A3666DE6B7" import="1">Components/Piety/Audio/Religion/JFD_Calvinism.mp3</File>
+    <File md5="D15B3B102651603F4A48EA67BE5E434B" import="1">Components/Piety/Audio/Religion/JFD_Canaanism.mp3</File>
+    <File md5="B1668E0B57B20B00640DFF87C88659D3" import="1">Components/Piety/Audio/Religion/JFD_Cathar.mp3</File>
+    <File md5="2B44DBF6126C3D726032DE46A49CA76B" import="1">Components/Piety/Audio/Religion/JFD_Catholicism.mp3</File>
+    <File md5="3973982ABACC2B1DF6C8D1333F500B8F" import="1">Components/Piety/Audio/Religion/JFD_ChurchOfTheEast.mp3</File>
+    <File md5="CB38C3B03B796B546D6585578F0FF309" import="1">Components/Piety/Audio/Religion/JFD_Confucianism.mp3</File>
+    <File md5="7B1040130FD86B88DB64E3CB7A260CDA" import="1">Components/Piety/Audio/Religion/JFD_Dionysianism.mp3</File>
+    <File md5="A44773691D0E751CB8F7E5C495B95B4F" import="1">Components/Piety/Audio/Religion/JFD_Druidism.mp3</File>
+    <File md5="D24F1B9AF482AE691B2A0C57C454D247" import="1">Components/Piety/Audio/Religion/JFD_Druze.mp3</File>
+    <File md5="D094A65875D8E3B153DB7F98CBE51FEA" import="1">Components/Piety/Audio/Religion/JFD_Fat_Roog.mp3</File>
+    <File md5="8E2C41129165D4F4D46BB0352474D648" import="1">Components/Piety/Audio/Religion/JFD_Forn_Sidr.mp3</File>
+    <File md5="88D8CE947FF56B71D245B8E85B2AF684" import="1">Components/Piety/Audio/Religion/JFD_Hellenism.mp3</File>
+    <File md5="F7EEC37EA43B49A15D5376543BC5D35A" import="1">Components/Piety/Audio/Religion/JFD_Hinduism.mp3</File>
+    <File md5="D6B08A9BF80E433336FA8018F7532374" import="1">Components/Piety/Audio/Religion/JFD_Hussite.mp3</File>
+    <File md5="5F9541A0CB3E7A81626DB044D36B196C" import="1">Components/Piety/Audio/Religion/JFD_Ibadi.mp3</File>
+    <File md5="270BA60C337F1D7AE13BCE9CE76AAAB0" import="1">Components/Piety/Audio/Religion/JFD_Itan.mp3</File>
+    <File md5="1AE6E8767950D4E8C21BAB81D62F4ECA" import="1">Components/Piety/Audio/Religion/JFD_Jainism.mp3</File>
+    <File md5="E1E8B23C506AC2F80E84D9EA793C73B5" import="1">Components/Piety/Audio/Religion/JFD_Judaism.mp3</File>
+    <File md5="0940E0DB846C8B65E11F627305A83736" import="1">Components/Piety/Audio/Religion/JFD_Lutherism.mp3</File>
+    <File md5="CD33F5018497E6F6ABBB58D829B043A5" import="1">Components/Piety/Audio/Religion/JFD_Mahayana.mp3</File>
+    <File md5="CF26E71DB1911E99C628FB137AFF128C" import="1">Components/Piety/Audio/Religion/JFD_Manaism.mp3</File>
+    <File md5="63D24F4C087C60F6735F91370A75F156" import="1">Components/Piety/Audio/Religion/JFD_Mandeanism.mp3</File>
+    <File md5="3B74B6DF25F468F6113783B6D31F3427" import="1">Components/Piety/Audio/Religion/JFD_Mesopotamic.mp3</File>
+    <File md5="709A10D255787D049DDDBE0666CD1691" import="1">Components/Piety/Audio/Religion/JFD_Midewiwin.mp3</File>
+    <File md5="015978C78FC4C3B007A78211665F61AE" import="1">Components/Piety/Audio/Religion/JFD_Mormonism.mp3</File>
+    <File md5="AB4D47BE9E2ACF9D88B28144AD5D95F5" import="1">Components/Piety/Audio/Religion/JFD_Muism.mp3</File>
+    <File md5="D58DF057645E5DD67A18207FD26D36A2" import="1">Components/Piety/Audio/Religion/JFD_NativeAmerican.mp3</File>
+    <File md5="8B373A8B226AE79990706BBB56633F33" import="1">Components/Piety/Audio/Religion/JFD_Nzambiism.mp3</File>
+    <File md5="D05DFA8D86BE98487ED278BB895BC045" import="1">Components/Piety/Audio/Religion/JFD_Orthodoxy.mp3</File>
+    <File md5="279D859539ADCCEAC4A7242BD2A46FC0" import="1">Components/Piety/Audio/Religion/JFD_Pachaism.mp3</File>
+    <File md5="02FC2157D03AF11687FE1089F9CB99F1" import="1">Components/Piety/Audio/Religion/JFD_Pajelanca.mp3</File>
+    <File md5="F8F1E42B914EB262B3BD37C670BB4359" import="1">Components/Piety/Audio/Religion/JFD_PatriarchyFX.mp3</File>
+    <File md5="9F93BD6E5E2BDB4029F3E87CA0670660" import="1">Components/Piety/Audio/Religion/JFD_Pesedjet.mp3</File>
+    <File md5="33DC1728A9BB0D6DB35E5BB1B89935B5" import="1">Components/Piety/Audio/Religion/JFD_Romuva.mp3</File>
+    <File md5="7879A5A0B75AAB520A1E442C82DC2432" import="1">Components/Piety/Audio/Religion/JFD_Saman.mp3</File>
+    <File md5="8AD0631FD6E23B1ED78AC50726ACA241" import="1">Components/Piety/Audio/Religion/JFD_SatsanaPhi.mp3</File>
+    <File md5="D0052EA1A91CEB8913F2BCF55A6ED8DD" import="1">Components/Piety/Audio/Religion/JFD_Shia.mp3</File>
+    <File md5="0C6C9B410CBAED313D5599A5DE2C966E" import="1">Components/Piety/Audio/Religion/JFD_Shinto.mp3</File>
+    <File md5="73E4E29A5B57037A5FA2A81F4B84F285" import="1">Components/Piety/Audio/Religion/JFD_Sikhism.mp3</File>
+    <File md5="4D86C0825C7F35EF779B0067F99DD64C" import="1">Components/Piety/Audio/Religion/JFD_Slavanism.mp3</File>
+    <File md5="BB475E8FC9656DDC2AD9373431ECE7D7" import="1">Components/Piety/Audio/Religion/JFD_Sunni.mp3</File>
+    <File md5="24E0BEB9927238A2233CD0C9B63B0FAA" import="1">Components/Piety/Audio/Religion/JFD_Taoism.mp3</File>
+    <File md5="C1FC63519E95B9534542F0376F7C4BBB" import="1">Components/Piety/Audio/Religion/JFD_Tengriism.mp3</File>
+    <File md5="245447788D58FCE0D259E34FFEEA92B1" import="1">Components/Piety/Audio/Religion/JFD_Tjukurpa.mp3</File>
+    <File md5="2A1E9EDDAB0C69B6C3DC80BE399BC1D5" import="1">Components/Piety/Audio/Religion/JFD_Tlatoematiliztli.mp3</File>
+    <File md5="BCA9982D5D74C3EE67F139BC9B8DEAE3" import="1">Components/Piety/Audio/Religion/JFD_Tzolkin.mp3</File>
+    <File md5="25A3FAAFC8C62FBB8FEEDB08F0D63FFE" import="1">Components/Piety/Audio/Religion/JFD_Vajrayana.mp3</File>
+    <File md5="629801620D48299C122BF917C70A62D4" import="1">Components/Piety/Audio/Religion/JFD_Voodoo.mp3</File>
+    <File md5="B57CCF233AE7C6A09CBE92045416F56A" import="1">Components/Piety/Audio/Religion/JFD_WilranMapu.wav</File>
+    <File md5="99D02E124A18D019EDC53C108577F41F" import="1">Components/Piety/Audio/Religion/JFD_Yazdanism.mp3</File>
+    <File md5="BB4F19517F8CC024C6F2C812E06C55CB" import="1">Components/Piety/Audio/Religion/JFD_Zoroastrianism.mp3</File>
+    <File md5="E930C9D0065FA4F2BBFFFD60CF23BE01" import="1">Components/Piety/Audio/Secularization.wav</File>
+    <File md5="978122FC23A5992FE67B3ABE1BF4D4C2" import="1">Components/Piety/Audio/Wonder/Wonder_AbuSimbel.mp3</File>
+    <File md5="2F59B6E8686FC6DF188EBA4A5739D718" import="1">Components/Piety/Audio/Wonder/Wonder_BuddhaBamiyan.mp3</File>
+    <File md5="EA9FA8B6B2D65CBFC7C2EBE57BDE9FAC" import="1">Components/Piety/Audio/Wonder/Wonder_Cologne.mp3</File>
+    <File md5="7855CEA4CA89FC781B687F07DA8ED778" import="1">Components/Piety/Audio/Wonder/Wonder_DomeRock.mp3</File>
+    <File md5="18BDC900A8393FC9FBBB3E856175DC08" import="1">Components/Piety/Audio/Wonder/Wonder_Pantheon.mp3</File>
+    <File md5="1AF826C978BDCA2C01935705E1B7CF4E" import="1">Components/Piety/Audio/Wonder/Wonder_Solomon.mp3</File>
+    <File md5="1B4E2A59844F77CDEB98332F648AD954" import="1">Components/Piety/Audio/Wonder/Wonder_TempleHeaven.mp3</File>
+    <File md5="4BBE21CE38E50C1455BC7D2051B98E5E" import="1">Components/Piety/Audio/Wonder/Wonder_Todai.mp3</File>
+    <File md5="E46189DF9C5E65073D15E814EA5B6180" import="0">Components/Piety/Core/Piety_ArtDefines.sql</File>
+    <File md5="2AD8113772787654603FE6201F1EA3A5" import="0">Components/Piety/Core/Piety_Beliefs.sql</File>
+    <File md5="3B62CA57BA0FAD338A7C1D5D6FF674B9" import="0">Components/Piety/Core/Piety_Buildings.sql</File>
+    <File md5="C2270C1E9454BBF68EA9BC0ADD74E498" import="0">Components/Piety/Core/Piety_Civilizations.sql</File>
+    <File md5="148D822D732CA61DD61C38A9B77210AC" import="0">Components/Piety/Core/Piety_Contracts.sql</File>
+    <File md5="DEE32B52D2D9EF45984940A681A62DE8" import="0">Components/Piety/Core/Piety_GameDefines.sql</File>
+    <File md5="45BA5A4BEC121B9614EA5EC10C5FA561" import="0">Components/Piety/Core/Piety_GameText.xml</File>
+    <File md5="11076E92845004162D117A5BAD240C20" import="0">Components/Piety/Core/Piety_GameText_Interface.xml</File>
+    <File md5="F5188CB81190F2E950F314FF2333DCD6" import="0">Components/Piety/Core/Piety_GameText_ModSupport.xml</File>
+    <File md5="3567818D58557F4A7A777BFBB0FB32A5" import="0">Components/Piety/Core/Piety_ModSupport.sql</File>
+    <File md5="94E15F46CD1D31C979FB112A57706018" import="0">Components/Piety/Core/Piety_PietyLevels.sql</File>
+    <File md5="7141ED854478719C60C3F1F7F195AB76" import="0">Components/Piety/Core/Piety_Policies.sql</File>
+    <File md5="E05790055BF3196E68786E888E2A144A" import="0">Components/Piety/Core/Piety_Religions.sql</File>
+    <File md5="AF75A34E3B3293E4D1045DE6A57BE044" import="0">Components/Piety/Core/Piety_Resolutions.sql</File>
+    <File md5="03532F16FC6A91F69A9F84F2F024C8D6" import="0">Components/Piety/Core/Piety_Specialists.sql</File>
+    <File md5="A6F48B902CA31FC01EB54106F18A49D5" import="0">Components/Piety/Core/Piety_Technologies.sql</File>
+    <File md5="2EB242819DF09E91C06BFB867A714131" import="0">Components/Piety/Core/Piety_Units.sql</File>
+    <File md5="3CC5DB7EE55A6FCF0DE38F1CC72A027C" import="1">Components/Piety/Lua/Interactions_Suk_Piety.lua</File>
+    <File md5="A4E866F82CA42964B482B8EFCD861ACF" import="0">Components/Piety/Lua/JFD_RTP_Piety_AztecsFunctions.lua</File>
+    <File md5="6AFF04231CC10D20731737CAA9D92685" import="1">Components/Piety/Lua/JFD_RTP_Piety_Decisions.lua</File>
+    <File md5="5FA684F0D027147E9416123A10BF28AC" import="1">Components/Piety/Lua/JFD_RTP_Piety_Events.lua</File>
+    <File md5="2C20E2F9478C9039FD203C4E8846B690" import="0">Components/Piety/Lua/JFD_RTP_Piety_Functions.lua</File>
+    <File md5="C00833F3C9EF04B7088767E6D6580295" import="1">Components/Piety/Lua/Utilities/JFD_PietyUtils.lua</File>
+    <File md5="803488476E1BE3C9E06C8AB00D13BA59" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_BahtFontIcon.ggxml</File>
+    <File md5="DDC488ABBA2D98C32E815F3235C26A6C" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_BahtFontIcon_22.dds</File>
+    <File md5="71EE76766EDCCF0FAA3FC1404DFDC111" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_BirrFontIcon.ggxml</File>
+    <File md5="0D200BC80DC459596C9277D5C993AC0A" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_BirrFontIcon_22.dds</File>
+    <File md5="2FEB6DF09B95DD53911784661CB5381F" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_ChaoFontIcon.ggxml</File>
+    <File md5="51276B6D47F0C3782EDD9BB4F947A009" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_ChaoFontIcon_22.dds</File>
+    <File md5="98E73ACFED4EC7E715D2CA38E754B7F1" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_CrownFontIcon.ggxml</File>
+    <File md5="46E20C25A4023D163B07D88A5D680CF2" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_CrownFontIcon_22.dds</File>
+    <File md5="97DA3883717A3B043A8EA27503ACDEC8" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DaricFontIcon.ggxml</File>
+    <File md5="CA2B8B5B2FA92F4973E227D25533FE1F" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DaricFontIcon_22.dds</File>
+    <File md5="FA381BE63D493B2FEB2B6B0DFF85372D" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DenariusFontIcon.ggxml</File>
+    <File md5="3EF69CDB921410F12A9E4411C729ABBB" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DenariusFontIcon_22.dds</File>
+    <File md5="67E60E3620C5337C22FDB3AD064BBA28" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DinarFontIcon.ggxml</File>
+    <File md5="5EE0A6B70306AF89E6FDC63918037611" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DinarFontIcon_22.dds</File>
+    <File md5="05429A8FD9C8AAEEA260450773F5EE6E" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DirhamFontIcon.ggxml</File>
+    <File md5="4974AD47A1D8E83C38B6AE8E08322A68" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DirhamFontIcon_22.dds</File>
+    <File md5="3501D82ECF759B63D421459677A0F86B" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DollarFontIcon.ggxml</File>
+    <File md5="6F2FB0F066CE0975A85C0DC03A9D79A3" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DollarFontIcon_22.dds</File>
+    <File md5="8B9B02C20895F32448DA231D269286A9" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DrachmaFontIcon.ggxml</File>
+    <File md5="3D7E1610E2EE19EA9B2BEB0EDDC5D814" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DrachmaFontIcon_22.dds</File>
+    <File md5="69C3A48F6F590BCAE11EC9658DEA5BEC" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DucatFontIcon.ggxml</File>
+    <File md5="4754D4A5C61F9DD672F5C453AE8BAFB2" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_DucatFontIcon_22.dds</File>
+    <File md5="D8331FEDE69672044F003F4088D9AF76" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_EuroFontIcon.ggxml</File>
+    <File md5="6DA87D01774FA0538E89EADE405C71F3" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_EuroFontIcon_22.dds</File>
+    <File md5="8A41BDB58BA904887E163246537A8E18" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_FlorinFontIcon.ggxml</File>
+    <File md5="267433FBA1ABE697C788AD6BD2603CA2" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_FlorinFontIcon_22.dds</File>
+    <File md5="BA092A6BC7529D2B120EA80ACEF86884" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_FrancFontIcon.ggxml</File>
+    <File md5="B6ABB582072D67BA610D20B068D500EC" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_FrancFontIcon_22.dds</File>
+    <File md5="22FF9D8CE311B98BA507FA30CE23D254" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_GuilderFontIcon.ggxml</File>
+    <File md5="B28D3C03FA1D73C3573AF09479865E0A" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_GuilderFontIcon_22.dds</File>
+    <File md5="B5474F15B619C12CEB30823563640F6F" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_HansatsuFontIcon.ggxml</File>
+    <File md5="F59A9C65B66ADE84FD3A9322EDDF8842" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_HansatsuFontIcon_22.dds</File>
+    <File md5="5C66F4E553403FFE5C6D42567C2CDAEA" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_HyperpyronFontIcon.ggxml</File>
+    <File md5="75464AF3C2F5ED4315B0BCE0B75394E3" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_HyperpyronFontIcon_22.dds</File>
+    <File md5="BC7F94511653F66CF0C1021B0EFECB42" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_JiaoziFontIcon.ggxml</File>
+    <File md5="1B13E8165EDE30D40FEF81898784C5EC" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_JiaoziFontIcon_22.dds</File>
+    <File md5="AB49CDDEF31E47134264D18E4AB337B9" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_KochosenFontIcon.ggxml</File>
+    <File md5="A46F706D8A2D4498F814082C684BAEBB" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_KochosenFontIcon_22.dds</File>
+    <File md5="AA5F6EC50E7AF8799ECAF9010E7180DD" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_LiraFontIcon.ggxml</File>
+    <File md5="E1C49DB611A91CA95607BEA08A1713E8" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_LiraFontIcon_22.dds</File>
+    <File md5="9AD7100C088F4926574A4B4A5198ACF1" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_LivreFontIcon.ggxml</File>
+    <File md5="186C89CB0F36F00F0C0EFF1C32EAE172" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_LivreFontIcon_22.dds</File>
+    <File md5="16B69A03E2C7883727788CF269336EF8" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_MarkFontIcon.ggxml</File>
+    <File md5="91C01A190071DEC78AA90B02ABE389BA" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_MarkFontIcon_22.dds</File>
+    <File md5="B1B75C3436347D08505CD200B2FA0D8F" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_PesoFontIcon.ggxml</File>
+    <File md5="44BDD8EA75DA8E5A644ED13E026269E6" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_PesoFontIcon_22.dds</File>
+    <File md5="0F37E6B09E178A377CC4979E7C8C0D6C" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_PoundFontIcon.ggxml</File>
+    <File md5="5035128AD8B32376EAB0E75F75261918" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_PoundFontIcon_22.dds</File>
+    <File md5="27F72E1FD876915B3284DCA6FC472CFC" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_RealFontIcon.ggxml</File>
+    <File md5="A831E250DC612621E5BE7954591709A6" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_RealFontIcon_22.dds</File>
+    <File md5="3CF82CB6279D5FFB88ADB6A3196415C2" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_RubleFontIcon.ggxml</File>
+    <File md5="48115866E87EF36D4D9462A284C5353B" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_RubleFontIcon_22.dds</File>
+    <File md5="322ADC3E7DA29700C7921D8191177539" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_RupeeFontIcon.ggxml</File>
+    <File md5="115595A1BC0CAEFDBFB6E2413C73A903" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_RupeeFontIcon_22.dds</File>
+    <File md5="BE468D22A47597A9FB057CA9973D64EA" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_SheqelFontIcon.ggxml</File>
+    <File md5="45654FC6CF22091BE9F8CF5E40B52A40" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_SheqelFontIcon_22.dds</File>
+    <File md5="CFCF8D48B8C100801F543AB56B39607E" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_WonFontIcon.ggxml</File>
+    <File md5="B25438307A4D3D0F40B89D2C6D904AD9" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_WonFontIcon_22.dds</File>
+    <File md5="F8D89B6652F1EDACA256A662D6FC33E0" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_YenFontIcon.ggxml</File>
+    <File md5="38BCFA6E64A950B0214AC9FFB22E4EB4" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_YenFontIcon_22.dds</File>
+    <File md5="4EAED74E99DC5EA83693DA162A0ED5AC" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_YuanFontIcon.ggxml</File>
+    <File md5="CCBCADA574FD7F5BED169470247E3EC3" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_YuanFontIcon_22.dds</File>
+    <File md5="EE6F7CB1ED962B73E30F5E87A68909EE" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_ZlotyFontIcon.ggxml</File>
+    <File md5="6702659F399B53655729872BEAF72199" import="1">Components/Prosperity/Art/FontIcons/Currencies/JFD_ZlotyFontIcon_22.dds</File>
+    <File md5="473A4D1C7FBB97C8FA6CB784A45E2C15" import="1">Components/Prosperity/Art/FontIcons/JFD_MigrationFontIcons_22.dds</File>
+    <File md5="5B6BC4EA4676E2D655EBD0A44470C69C" import="1">Components/Prosperity/Art/FontIcons/JFD_MigrationFontIcons_22.ggxml</File>
+    <File md5="BEE170E680C44A41FEEA10A9E2A163A1" import="1">Components/Prosperity/Art/IconAtlas/JFD_ProsperityCurrenciesAtlas_256.dds</File>
+    <File md5="D60D0D1290DB66F4003571E1935BB37E" import="1">Components/Prosperity/Art/IconAtlas/JFD_ProsperityCurrenciesAtlas_64.dds</File>
+    <File md5="856729D7645DEB3FB5F22165B5F46530" import="1">Components/Prosperity/Art/IconAtlas/JFD_ProsperityNotificationAtlas_64.dds</File>
+    <File md5="AAF7A6C92F467D4CD67935E28C891307" import="1">Components/Prosperity/Art/IconAtlas/JFD_ProsperityNotificationAtlas_80.dds</File>
+    <File md5="406A005F6BFEBD1A0CF26B91F6A31D28" import="1">Components/Prosperity/Art/IconAtlas/JFD_ProsperityWonderAtlas_128.dds</File>
+    <File md5="04F2FB8A4232A1D8780942F97001C2E9" import="1">Components/Prosperity/Art/IconAtlas/JFD_ProsperityWonderAtlas_256.dds</File>
+    <File md5="64ACEBAF72A8CB2BFB310EF7D6C43A58" import="1">Components/Prosperity/Art/IconAtlas/JFD_ProsperityWonderAtlas_45.dds</File>
+    <File md5="C96BEE2658433EEB90AC2C8080AA2D25" import="1">Components/Prosperity/Art/IconAtlas/JFD_ProsperityWonderAtlas_64.dds</File>
+    <File md5="534947382DA1E0CFD9A6F256E1DDB4E7" import="1">Components/Prosperity/Art/IconAtlas/JFD_ProsperityWonderAtlas_80.dds</File>
+    <File md5="AC4AD0C7F6C932EE1F802FB6FF1D1DB9" import="1">Components/Prosperity/Art/Images/Wonder_GrandCanal.dds</File>
+    <File md5="5C199ADB07E95159234A9D30872736D4" import="1">Components/Prosperity/Audio/Wonder_GrandCanal.mp3</File>
+    <File md5="9D07AAFDC7AB4CE8F22161317052F707" import="0">Components/Prosperity/Core/Prosperity_ArtDefines.sql</File>
+    <File md5="FE4C10A38C53DBD944C7BD72960D0AFD" import="0">Components/Prosperity/Core/Prosperity_Buildings.sql</File>
+    <File md5="A2882F480303BA6D5BCB130F4CB741E6" import="0">Components/Prosperity/Core/Prosperity_GameDefines.sql</File>
+    <File md5="D68F38D97B8D682F9B1B4C749FD959C0" import="0">Components/Prosperity/Core/Prosperity_GameText.xml</File>
+    <File md5="D633A48445B7652C3C15B1CF937CDA72" import="0">Components/Prosperity/Core/Prosperity_GameText_Interface.xml</File>
+    <File md5="298B309F0F499A166EA77E153A61F37E" import="0">Components/Prosperity/Lua/JFD_RTP_Prosperity_Functions.lua</File>
+    <File md5="51D7DDF467F3CC0A77D46B8523F1AE19" import="0">Components/Prosperity/Lua/UI/Overrides/EconomicGeneralInfo.lua</File>
+    <File md5="7184288570E2661E24711670696B459A" import="0">Components/Prosperity/Lua/UI/Overrides/EconomicGeneralInfo.xml</File>
+    <File md5="B2ABA8FFE33572CA5D9030747C5851F5" import="0">Components/Prosperity/Lua/UI/Overrides/EconomicOverview.lua</File>
+    <File md5="C2B2DAF9A1BF38967D23BF711EBBEDC9" import="0">Components/Prosperity/Lua/UI/Overrides/EconomicOverview.xml</File>
+    <File md5="CC5BC457352B83F8705971FD4ACD155B" import="1">Components/Prosperity/Lua/Utilities/JFD_RTP_ProsperityUtils.lua</File>
+    <File md5="8AA3FA567FE84487D5F728B2AD560A72" import="1">Components/Sovereignty/Art/FontIcons/Core/Anarchy-FontIcons.dds</File>
+    <File md5="2D4845093BD1FE603B634C10F81E5BF4" import="1">Components/Sovereignty/Art/FontIcons/Core/Faction-FontIcons.dds</File>
+    <File md5="4B4164A988D67C5D247FE3343EA7DF89" import="1">Components/Sovereignty/Art/FontIcons/Core/HRE-FontIcons.dds</File>
+    <File md5="60DFCB3A4FC287BC264C48721F89900B" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_AnarchyFontIcons_22.ggxml</File>
+    <File md5="5168736E93E711A5DD982F0B29BC15AA" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_PrivyCouncillorFontIcons_22.ggxml</File>
+    <File md5="E114D06227DC706053719F1A1188E72F" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_LegislatureFontIcons_22.ggxml</File>
+    <File md5="9E9B2BD1717384267AA4C6D311789620" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_LegtimacyFontIcons_22.ggxml</File>
+    <File md5="2D42BABC1E14A92A19F9C09E583B3FA0" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_FactionFontIcons_22.ggxml</File>
+    <File md5="7B30B7177BF90B49E27D626A6DFF683A" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_ReformCooldownFontIcons_22.ggxml</File>
+    <File md5="EB1581DFCB8278B0E85A0C5920AF9EB2" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_ReformFontIcons_22.ggxml</File>
+    <File md5="B4BC95B977ADB7538A815AF80A1959E7" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_ReformNewFontIcons_22.ggxml</File>
+    <File md5="5BB74EA4E4C25F0543F8F4AD84753E7D" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_SovereigntyFontIcons_22.ggxml</File>
+    <File md5="215B58DE2B805A4ECFA9E441E821D08C" import="1">Components/Sovereignty/Art/FontIcons/Core/JFD_VoteFontIcons_22.ggxml</File>
+    <File md5="F387BFD0E69EF47CEDA3F3B5996C0DF6" import="1">Components/Sovereignty/Art/FontIcons/Core/Legislature-FontIcons.dds</File>
+    <File md5="732FE0757FDA36EBA030C8E8FDD061D6" import="1">Components/Sovereignty/Art/FontIcons/Core/Legitimacy-FontIcons.dds</File>
+    <File md5="21BA4F241CA4B6854961603F8897A1B1" import="1">Components/Sovereignty/Art/FontIcons/Core/PrivyCouncillor-FontIcons.dds</File>
+    <File md5="49B0F4F1F5CCE69EB41C0A312797BB3A" import="1">Components/Sovereignty/Art/FontIcons/Core/Reform-FontIcons.dds</File>
+    <File md5="DBAE41602D8029680D2FDAE07EEDE205" import="1">Components/Sovereignty/Art/FontIcons/Core/ReformCooldown-FontIcons.dds</File>
+    <File md5="8BEC4ECA8A1560DEBAC20CD744ADB146" import="1">Components/Sovereignty/Art/FontIcons/Core/ReformNew-FontIcons.dds</File>
+    <File md5="849786F340243DC1A1DB1F4C855E52CC" import="1">Components/Sovereignty/Art/FontIcons/Core/Sovereignty-FontIcons.dds</File>
+    <File md5="DD34237055EBD1F09FED6F03EFE3816B" import="1">Components/Sovereignty/Art/FontIcons/Core/Vote-FontIcons.dds</File>
+    <File md5="12D4C5EE0038AFD861AED6A99EA8B06D" import="1">Components/Sovereignty/Art/FontIcons/Electors/Elector-FontIcons.dds</File>
+    <File md5="37E1B46629648960C11D0E132A7868DA" import="1">Components/Sovereignty/Art/FontIcons/Electors/JFD_ElectorFontIcons_22.ggxml</File>
+    <File md5="CD710B0F04C72BAD804C400512094C9B" import="1">Components/Sovereignty/Art/FontIcons/Estates/Alt/BurghersAlt-FontIcons.dds</File>
+    <File md5="53A5002C02086E71F5F375FD3872D371" import="1">Components/Sovereignty/Art/FontIcons/Estates/Alt/ClergyAlt-FontIcons.dds</File>
+    <File md5="D25F69DFBC7DFEA0C37993BA50317BAE" import="1">Components/Sovereignty/Art/FontIcons/Estates/Alt/JFD_BurghersFontIconsAlt_22.ggxml</File>
+    <File md5="5CF3BA60B646E51F579860D5BE34FFB3" import="1">Components/Sovereignty/Art/FontIcons/Estates/Alt/JFD_ClergyFontIconsAlt_22.ggxml</File>
+    <File md5="77CB88D8DD08065D3EE940ACD210FA24" import="1">Components/Sovereignty/Art/FontIcons/Estates/Alt/JFD_NobilityFontIconsAlt_22.ggxml</File>
+    <File md5="5FB9208BB416E5FF2D644A8D95980DBE" import="1">Components/Sovereignty/Art/FontIcons/Estates/Alt/JFD_RevolutionariesFontIconsAlt_22.ggxml</File>
+    <File md5="B7A90A29B31EC62DB701FEC6848037BF" import="1">Components/Sovereignty/Art/FontIcons/Estates/Alt/NobilityAlt-FontIcons.dds</File>
+    <File md5="8BC873B2C36829F8803217DC42A2BE7C" import="1">Components/Sovereignty/Art/FontIcons/Estates/Alt/RevolutionariesAlt-FontIcons.dds</File>
+    <File md5="E8795618F6B488E4FCF21804FC3A9390" import="1">Components/Sovereignty/Art/FontIcons/Estates/Burghers-FontIcons.dds</File>
+    <File md5="F7D46CB08662ECD37FBA3F6BD4549BFB" import="1">Components/Sovereignty/Art/FontIcons/Estates/Clergy-FontIcons.dds</File>
+    <File md5="A1CD808176688A1393DD0E1FD15A406E" import="1">Components/Sovereignty/Art/FontIcons/Estates/JFD_BurghersFontIcons_22.ggxml</File>
+    <File md5="9B41ABD0EAF7CE02E655E5EABADC19E5" import="1">Components/Sovereignty/Art/FontIcons/Estates/JFD_ClergyFontIcons_22.ggxml</File>
+    <File md5="0EB441193774096C30A7FD6E4F344C0B" import="1">Components/Sovereignty/Art/FontIcons/Estates/JFD_NobilityFontIcons_22.ggxml</File>
+    <File md5="D757A95F587E80889041AD218DD9CF0F" import="1">Components/Sovereignty/Art/FontIcons/Estates/JFD_RevolutionariesFontIcons_22.ggxml</File>
+    <File md5="309E342C647508D4CDB2477FC8900230" import="1">Components/Sovereignty/Art/FontIcons/Estates/Nobility-FontIcons.dds</File>
+    <File md5="39DE413FEB25B61B081539F85061B846" import="1">Components/Sovereignty/Art/FontIcons/Estates/Revolutionaries-FontIcons.dds</File>
+    <File md5="ED9BAC11FC1FAC2774D5722F424632C6" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/CommunistAlt-FontIcons.dds</File>
+    <File md5="B5C927CAE9477E5651FCBE8A7DF579F3" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/ConservativeAlt-FontIcons.dds</File>
+    <File md5="5813B00554BF7640A02CA8ED9A0759C1" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/FascistAlt-FontIcons.dds</File>
+    <File md5="19EFD522A19A63B0A651EE74DE2003FC" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/JFD_CommunistAltFontIcons_22.ggxml</File>
+    <File md5="1F48717762033F345175439A659D5850" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/JFD_ConservativeAltFontIcons_22.ggxml</File>
+    <File md5="662E31F83BDEE4E6199F6C7F06854FAE" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/JFD_FascistAltFontIcons_22.ggxml</File>
+    <File md5="351A0E688CEF11BC8CCD31D84C766A13" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/JFD_SocialistAltFontIcons_22.ggxml</File>
+    <File md5="09713412CF1BF9170B73EC9D8B987836" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/JFD_LibertarianAltFontIcons_22.ggxml</File>
+    <File md5="D9B8AD8E82A525FF7BE202F349D1190C" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/JFD_ReactionaryAltFontIcons_22.ggxml</File>
+    <File md5="73A870B1BC4B531935C46A168094D093" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/JFD_LiberalAltFontIcons_22.ggxml</File>
+    <File md5="E2C9D06F6A68E4C8016110235E7AC118" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/LiberalAlt-FontIcons.dds</File>
+    <File md5="FB08B24AE88834A24CC2ECD1AB961C64" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/LibertarianAlt-FontIcons.dds</File>
+    <File md5="DE8CCC997975DFCF8E6E198DB01890D2" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/ReactionaryAlt-FontIcons.dds</File>
+    <File md5="3CABF18C182361A81D87C91974ABF37D" import="1">Components/Sovereignty/Art/FontIcons/PoliticalParties/Alt/SocialistAlt-FontIcons.dds</File>
+    <File md5="E1BFE548CDC637AF1ED4D6FE5A45B74A" import="1">Components/Sovereignty/Art/FontIcons/Senators/Communist-FontIcons.dds</File>
+    <File md5="89E92A358B6EA066E148E948B6C7E649" import="1">Components/Sovereignty/Art/FontIcons/Senators/Fascist-FontIcons.dds</File>
+    <File md5="22703671AE321079E2D1DF0FE55422D5" import="1">Components/Sovereignty/Art/FontIcons/Senators/Industrialist-FontIcons.dds</File>
+    <File md5="6AC0E6C8F5A1F8BEBEACC89D0B75F93A" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_CommunistFontIcons_22.ggxml</File>
+    <File md5="8F7F24D277ACCD393EE00BCBC8FAA7B8" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_DictatorshipFontIcons_22.ggxml</File>
+    <File md5="6A7F75A0C2BC16F6FE2FC52B61AD076C" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_FascistFontIcons_22.ggxml</File>
+    <File md5="03D189E7F1836E2D28A93D5EA7203A14" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_HREFontIcons_22.ggxml</File>
+    <File md5="D916DA1CDDE9CB626B11EA9AD78920EC" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_IndustrialistFontIcons_22.ggxml</File>
+    <File md5="EB4CCDE494803E5CE326692F307B3FB6" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_LibertarianFontIcons_22.ggxml</File>
+    <File md5="329D9076C4C63FB1C44F3BC54144CCFA" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_MercantileFontIcons_22.ggxml</File>
+    <File md5="72E386898CDB871CFAA248868B1A9B94" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_MilitaryFontIcons_22.ggxml</File>
+    <File md5="3DBE55BE690EBE4C3248E375C0C9410B" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_PopulistFontIcons_22.ggxml</File>
+    <File md5="2CF06A4D505FCDCE79C56F1F98F686BA" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_ReligiousFontIcons_22.ggxml</File>
+    <File md5="76F4DA0965C469B6E73080C2D113C314" import="1">Components/Sovereignty/Art/FontIcons/Senators/JFD_SenatorFontIcons_22.ggxml</File>
+    <File md5="D63991A76BBA49BD63F821D36506504D" import="1">Components/Sovereignty/Art/FontIcons/Senators/Libertarian-FontIcons.dds</File>
+    <File md5="08F4B436FCDEA1F73B8353ACC807F7BD" import="1">Components/Sovereignty/Art/FontIcons/Senators/Mercantile-FontIcons.dds</File>
+    <File md5="11CB61420537E0FCB2CA7E050506CD1B" import="1">Components/Sovereignty/Art/FontIcons/Senators/Military-FontIcons.dds</File>
+    <File md5="9748C77BD7B4078925B577CCA31CFEEA" import="1">Components/Sovereignty/Art/FontIcons/Senators/Populist-FontIcons.dds</File>
+    <File md5="611B8EC2E22C0D28442DAE6C30CEBAB8" import="1">Components/Sovereignty/Art/FontIcons/Senators/Religious-FontIcons.dds</File>
+    <File md5="EC3B8D4196510F180B36B3B11A8E6FEF" import="1">Components/Sovereignty/Art/FontIcons/Senators/Senator-FontIcons.dds</File>
+    <File md5="76A91485544933B591A9D6203354552B" import="1">Components/Sovereignty/Art/FontIcons/Specialists/Artist-FontIcons.dds</File>
+    <File md5="BED40D33F1E78C5CC4EDC1FA6383FAD3" import="1">Components/Sovereignty/Art/FontIcons/Specialists/Doctor-FontIcons.dds</File>
+    <File md5="D3E6C54E736B0E54AFA3E84D4BB1E86F" import="1">Components/Sovereignty/Art/FontIcons/Specialists/Engineer-FontIcons.dds</File>
+    <File md5="7F5B202C8FE72AD469387E9506FFD33B" import="1">Components/Sovereignty/Art/FontIcons/Specialists/JFD_ArtistFontIcons_22.ggxml</File>
+    <File md5="0AE0BBC8A24D9F38B03B1E0102535401" import="1">Components/Sovereignty/Art/FontIcons/Specialists/JFD_DoctorFontIcons_22.ggxml</File>
+    <File md5="5AB889F259D54F53D31D3FA19AB127A5" import="1">Components/Sovereignty/Art/FontIcons/Specialists/JFD_EngineerFontIcons_22.ggxml</File>
+    <File md5="3446664FEC0C260C2FE13E0FF76E1D45" import="1">Components/Sovereignty/Art/FontIcons/Specialists/JFD_MonkFontIcons_22.ggxml</File>
+    <File md5="AD79B291438784BB6D2BF7706FC76EBB" import="1">Components/Sovereignty/Art/FontIcons/Specialists/JFD_ScientistFontIcons_22.ggxml</File>
+    <File md5="2CA01C80D8419DEBEF96D713933734EC" import="1">Components/Sovereignty/Art/FontIcons/Specialists/JFD_MerchantFontIcons_22.ggxml</File>
+    <File md5="A77AB39F72DA2BB7AD01C07F0A844401" import="1">Components/Sovereignty/Art/FontIcons/Specialists/Merchant-FontIcons.dds</File>
+    <File md5="670F88E1BE0D928FF0DB389C98490CF5" import="1">Components/Sovereignty/Art/FontIcons/Specialists/Monk-FontIcons.dds</File>
+    <File md5="3EBFEF2E96249CCCDC4D438037695062" import="1">Components/Sovereignty/Art/FontIcons/Specialists/Scientist-FontIcons.dds</File>
+    <File md5="93FBEBA588CF2E87B14CCA2369245017" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyAlphaAtlas_128.dds</File>
+    <File md5="06D801AEEA5BA4F4C902AA42C5C8E332" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyBuildingAtlas_128.dds</File>
+    <File md5="9FFB9446645BEAEA3E76F7663C516899" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyBuildingAtlas_256.dds</File>
+    <File md5="DB6D8D75A7CFEDE3D376D8D5544CC07B" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyBuildingAtlas_32.dds</File>
+    <File md5="4D439F1EFB5F117F1232F95A73FFA1B8" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyBuildingAtlas_45.dds</File>
+    <File md5="86BD31FE2A83ADC34E61A5E72AF9544F" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyBuildingAtlas_64.dds</File>
+    <File md5="E13DAC11CCB32D3083B776B154FC04A8" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyBuildingAtlas_80.dds</File>
+    <File md5="B91D236FA0BB831925DFE8EF38FDAE6D" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyAlphaAtlas_48.dds</File>
+    <File md5="29ED73517D60071B3F367637241B62CB" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyAlphaAtlas_80.dds</File>
+    <File md5="C33BA25578AA0BAEB0CA09DAE9FBE560" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyGovernmentAtlas_128.dds</File>
+    <File md5="E8F9CB9A60594B888EFDD93C97826B29" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyGovernmentAtlas_256.dds</File>
+    <File md5="21CDF8B52BBD4AC5D2C635D50D91ACF1" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyGovernmentAtlas_45.dds</File>
+    <File md5="C39D59ECAD4F32351EF9B72C2A2B5C2A" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyGovernmentAtlas_64.dds</File>
+    <File md5="A07908B991E5E4D02A2DE63BBFDD3A9B" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyGovernmentAtlas_80.dds</File>
+    <File md5="60B0FF955612BA900B9AB66428360D2A" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyMissionAtlas_45.dds</File>
+    <File md5="267771602EFA5EF13642A4D090400D32" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyMissionAtlas_64.dds</File>
+    <File md5="1C8988D855208D4CD279589414F6A483" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyNotificationAtlas_80.dds</File>
+    <File md5="3D30C315517990B279EE996F121FBBE7" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyWonderAtlas_128.dds</File>
+    <File md5="57D16BBA7E582899ED9EF260B17F567C" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyWonderAtlas_256.dds</File>
+    <File md5="CD43BE2EC138A620230BB73293B05367" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyWonderAtlas_45.dds</File>
+    <File md5="674AEE15A4ABF190792ABD1EAD777F56" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyWonderAtlas_64.dds</File>
+    <File md5="72B0C9C77DCC6F55CB615CABC5ACE6C7" import="1">Components/Sovereignty/Art/IconAtlas/JFD_SovereigntyWonderAtlas_80.dds</File>
+    <File md5="E42147C544AA18434616D78C2D477B56" import="1">Components/Sovereignty/Art/IconAtlas/leaderportraits360.dds</File>
+    <File md5="A652673C30B5A09DA8208B7A6B659F4C" import="1">Components/Sovereignty/Art/Images/governmentsdictatorship.dds</File>
+    <File md5="66D4891B6A56B3C8FCCFE541E3643DB9" import="1">Components/Sovereignty/Art/Images/governmentshre.dds</File>
+    <File md5="D9840A25C3B2FC0EEF964189452933F4" import="1">Components/Sovereignty/Art/Images/governmentsmonarchy.dds</File>
+    <File md5="66620EB6FF7A805AB9B9FC7E93E55F84" import="1">Components/Sovereignty/Art/Images/governmentsrepublic.dds</File>
+    <File md5="D449A8DB68DE6C584694FBA905DF5814" import="1">Components/Sovereignty/Art/Images/governmentstheocracy.dds</File>
+    <File md5="3CF0885459592253E0510216F248D534" import="1">Components/Sovereignty/Art/Images/GovtOverview_Background.dds</File>
+    <File md5="DD5B80B942DA668B239F6744B58ECF29" import="1">Components/Sovereignty/Art/Images/NotificationIconsChooseGovernment.dds</File>
+    <File md5="24AEDEF8E4E743DE00063C2CB85A0FB0" import="1">Components/Sovereignty/Art/Images/NotificationIconsChooseGovernmentGlow.dds</File>
+    <File md5="DFBA59BF3D82264DCAF1242096DFF44D" import="1">Components/Sovereignty/Art/Images/UI/55x55framebutton.dds</File>
+    <File md5="837D4AF6F1DEBB039FA9858D5E1A343A" import="1">Components/Sovereignty/Art/Images/UI/bar250.dds</File>
+    <File md5="A676DC56A8D971C071FCAC846AC0C8C9" import="1">Components/Sovereignty/Art/Images/UI/ChangeGovtIcon.dds</File>
+    <File md5="291438E1FE414E250D4A19A8546E477A" import="1">Components/Sovereignty/Art/Images/UI/ChangeGovtIconDisabled.dds</File>
+    <File md5="8633DC90096814C231C128047EBF740B" import="1">Components/Sovereignty/Art/Images/UI/ClergyPartyBar.dds</File>
+    <File md5="E8576EC36F9440F5683CEC3A80BA32E1" import="1">Components/Sovereignty/Art/Images/UI/CommunistPartyBar.dds</File>
+    <File md5="DF85E196707879F71119422A1B24E535" import="1">Components/Sovereignty/Art/Images/UI/ConservativePartyBar.dds</File>
+    <File md5="A56304547DDD35DF069F4F955DE1AA28" import="1">Components/Sovereignty/Art/Images/UI/DC45_CultureReforms.dds</File>
+    <File md5="F0C43B9F9AB45F97BE379EF01CC0C300" import="1">Components/Sovereignty/Art/Images/UI/DC45_CultureReformsHL.dds</File>
+    <File md5="68798466848601B9A974EEE3AECFE6FC" import="1">Components/Sovereignty/Art/Images/UI/DC45_EconomicReformsHL.dds</File>
+    <File md5="2C08B8FEB68D01E315BDDFBF61129D71" import="1">Components/Sovereignty/Art/Images/UI/DC45_ForeignReformsHL.dds</File>
+    <File md5="5C5A38BEB641602141CBFD6BE7065A75" import="1">Components/Sovereignty/Art/Images/UI/DC45_GovernmentReforms.dds</File>
+    <File md5="DCFC0CB134793E230368A937A7766438" import="1">Components/Sovereignty/Art/Images/UI/DC45_EconomicReforms.dds</File>
+    <File md5="2CAEC0E05C8AC340EED0833CB16C1C10" import="1">Components/Sovereignty/Art/Images/UI/DC45_ForeignReforms.dds</File>
+    <File md5="D506DAA46E7D52D23BE7E04EF61878C5" import="1">Components/Sovereignty/Art/Images/UI/DC45_GovernmentReformsHL.dds</File>
+    <File md5="9D07B83BB9E6E2FABC862E1A4BF812AD" import="1">Components/Sovereignty/Art/Images/UI/DC45_IndustryReformsHL.dds</File>
+    <File md5="A0E204E471A51D1BBCA17C3229D95F46" import="1">Components/Sovereignty/Art/Images/UI/DC45_LegalReforms.dds</File>
+    <File md5="C90192C5F1285F48BE8C018831A10A51" import="1">Components/Sovereignty/Art/Images/UI/DC45_IndustryReforms.dds</File>
+    <File md5="FE56550281355140E15C3527AE88215C" import="1">Components/Sovereignty/Art/Images/UI/DC45_LegalReformsHL.dds</File>
+    <File md5="1922DF64CAE1193370EB24A9DE742B1D" import="1">Components/Sovereignty/Art/Images/UI/DC45_MilitaryReforms.dds</File>
+    <File md5="69C93B7E91075B332F5964CA8A703B7A" import="1">Components/Sovereignty/Art/Images/UI/DC45_MilitaryReformsHL.dds</File>
+    <File md5="61877EDFD154F19CF1812197F6F95967" import="1">Components/Sovereignty/Art/Images/UI/DC45_ReligionReforms.dds</File>
+    <File md5="CAF201422772FAA44D2C6D9534C2AFE0" import="1">Components/Sovereignty/Art/Images/UI/DC45_ReligionReformsHL.dds</File>
+    <File md5="A944D922F9D0B50508C6141E4DCDA733" import="1">Components/Sovereignty/Art/Images/UI/FascistPartyBar.dds</File>
+    <File md5="B1673CE061E724EDF7BA56C3E11B2FFA" import="1">Components/Sovereignty/Art/Images/UI/FormalGovernmentPopupTop500.dds</File>
+    <File md5="FB0A5583837B7F11459C0282CD5C8AA8" import="1">Components/Sovereignty/Art/Images/UI/Government.dds</File>
+    <File md5="CF9EC2E0AFB81D6B91C3002D2E35C273" import="1">Components/Sovereignty/Art/Images/UI/GovtHeader.dds</File>
+    <File md5="559BB54F0695F0BD415625A3B3DDA36C" import="1">Components/Sovereignty/Art/Images/UI/GovtHeader190.dds</File>
+    <File md5="6A97BB02B91E260B3BD66AC7A073D841" import="1">Components/Sovereignty/Art/Images/UI/GovtHeader380.dds</File>
+    <File md5="AFFF0D9F0CCBC2455ADBB4F6C0B72FF0" import="1">Components/Sovereignty/Art/Images/UI/GovtHeader400.dds</File>
+    <File md5="2DA2E11236A957B09181CBAAA53161B0" import="1">Components/Sovereignty/Art/Images/UI/HorizontalBar.dds</File>
+    <File md5="FA81112451187BE62D32CF74454C2A62" import="1">Components/Sovereignty/Art/Images/UI/LiberalPartyBar.dds</File>
+    <File md5="84E4E98A82EBAED07877F8261AC29ACE" import="1">Components/Sovereignty/Art/Images/UI/LibertarianPartyBar.dds</File>
+    <File md5="C26A22F78FF4D90FA42B1F5BC635D263" import="1">Components/Sovereignty/Art/Images/UI/meterbarframe164.dds</File>
+    <File md5="B39CE8D4451D7549E476466D8F225114" import="1">Components/Sovereignty/Art/Images/UI/meterbargreatpersonback164.dds</File>
+    <File md5="112F24FC5D7F711F851C1F72E99630F1" import="1">Components/Sovereignty/Art/Images/UI/meterbargreatpersongold164.dds</File>
+    <File md5="DF36071ED41B7710AD5387D0EFEF7867" import="1">Components/Sovereignty/Art/Images/UI/NobilityPartyBar.dds</File>
+    <File md5="FBA0E4F5446A2CCA51C9DC8B2229A282" import="1">Components/Sovereignty/Art/Images/UI/ParliamentBG.dds</File>
+    <File md5="D5D9CB1C7EE446261D01FB9EBC45ABD8" import="1">Components/Sovereignty/Art/Images/UI/ReactionaryPartyBar.dds</File>
+    <File md5="F918E654F715F70C3E65C101671DE983" import="1">Components/Sovereignty/Art/Images/UI/ReformBranchHeader.dds</File>
+    <File md5="01513F93FDD46137A1EE7A5E6A65124A" import="1">Components/Sovereignty/Art/Images/UI/ReformHeader.dds</File>
+    <File md5="40E6ED255DE71C226A26306C4E556A22" import="1">Components/Sovereignty/Art/Images/UI/RevolutionaryPartyBar.dds</File>
+    <File md5="9BBA45A1E29367ADDE53931293409468" import="1">Components/Sovereignty/Art/Images/UI/SenateBG.dds</File>
+    <File md5="48FAF913C31A44E66590A5C861ABBA97" import="1">Components/Sovereignty/Art/Images/UI/SocialistPartyBar.dds</File>
+    <File md5="C540FBD6E91A35B731F7DD6D9D3E4D6F" import="1">Components/Sovereignty/Art/Images/UI/legislatureframe.dds</File>
+    <File md5="58690F56F7FAC934829E20AEC88452F1" import="1">Components/Sovereignty/Art/Images/UI/VerticalBar.dds</File>
+    <File md5="FECBEC3B28D199B8F2F75D0534F2C2CE" import="1">Components/Sovereignty/Art/Images/UI/windowtrimleft223.dds</File>
+    <File md5="5F6A1E17A50D41ED39829C737201F163" import="1">Components/Sovereignty/Art/Images/UI/windowtrimright223.dds</File>
+    <File md5="9637F74C831F77DE79E2DA7486A587BE" import="1">Components/Sovereignty/Art/Splashes/Wonder_DogesPalace.dds</File>
+    <File md5="AEEE93A4F727FEA838C329660C2BA707" import="1">Components/Sovereignty/Art/Splashes/Wonder_HofburgPalace.dds</File>
+    <File md5="8829680B0D12F749F42C52E85C33291C" import="1">Components/Sovereignty/Art/Splashes/Wonder_SargonsPalace.dds</File>
+    <File md5="54AB32B80663254E808DA8319B7F45FF" import="1">Components/Sovereignty/Art/Splashes/Wonder_StPeters.dds</File>
+    <File md5="B87BF24F1742AF042384377AE3112F10" import="1">Components/Sovereignty/Art/Splashes/Wonder_Versailles.dds</File>
+    <File md5="7FC77BEE15E8AB4DF99F78757CB1BF47" import="1">Components/Sovereignty/Audio/DictatorshipFounded.wav</File>
+    <File md5="4099290E37035CD437924B08382B94E3" import="1">Components/Sovereignty/Audio/HREFounded.wav</File>
+    <File md5="2A3763CEA1EE8432FDBDDD61F4F17A80" import="1">Components/Sovereignty/Audio/MonarchyFounded.wav</File>
+    <File md5="A901297AD964701A123F7E6060A49D1D" import="1">Components/Sovereignty/Audio/ReformPassed.wav</File>
+    <File md5="E5FF84C3A2276FF961AC048028D919FB" import="1">Components/Sovereignty/Audio/RepublicFounded.wav</File>
+    <File md5="9CC53A851813182B0228CB5D7EAF3D38" import="1">Components/Sovereignty/Audio/PrivyCouncillor.wav</File>
+    <File md5="58BC61D7A7789ACDABF4E6D7D20DC6BC" import="1">Components/Sovereignty/Audio/ReformAnarchy.wav</File>
+    <File md5="A9E94E8DF95AAE5453CDE9435B231C14" import="1">Components/Sovereignty/Audio/ReformPassable.wav</File>
+    <File md5="D1B3DAAF32D1D519CF8562FB733E909F" import="1">Components/Sovereignty/Audio/ReformPassed2.wav</File>
+    <File md5="79C383691B876D69926A9BFBDBD4EFF8" import="1">Components/Sovereignty/Audio/TheocracyFounded.wav</File>
+    <File md5="DD4924457DB0E748E7C2221E6B8E5E67" import="1">Components/Sovereignty/Audio/Wonder_DogesPalace.mp3</File>
+    <File md5="768334ADAC017B6F9E67AC9F81A82EFD" import="1">Components/Sovereignty/Audio/Wonder_HofburgPalace.mp3</File>
+    <File md5="90874C1A63B61A222C57C3F50FD45FD0" import="1">Components/Sovereignty/Audio/Wonder_StPeters.mp3</File>
+    <File md5="0DA4AF9822143D7DC3153D4439ADEA6A" import="1">Components/Sovereignty/Audio/Wonder_Versailles.mp3</File>
+    <File md5="3E0F641031D974BC01D05897C8BF2026" import="1">Components/Sovereignty/Audio/Wonder_SargonsPalace.mp3</File>
+    <File md5="83E20B20E15DA9259BE35658CB438AD4" import="0">Components/Sovereignty/Core/Sovereignty_Leaders.sql</File>
+    <File md5="854104A3A58636FF44A26C64B04EC0EA" import="0">Components/Sovereignty/Core/Sovereignty_GameText_Reforms.xml</File>
+    <File md5="E8EEB5F494714E2C7E145AB7FE10DC0C" import="0">Components/Sovereignty/Core/Sovereignty_ArtDefines.sql</File>
+    <File md5="033BCDD280A4D40D28E765BFAA90A16C" import="0">Components/Sovereignty/Core/Sovereignty_Buildings.sql</File>
+    <File md5="F8B02E0DFB64FABA1C4845A1E388E302" import="0">Components/Sovereignty/Core/Sovereignty_Civilizations.sql</File>
+    <File md5="372B54F04FE92234F8963493F4010DC0" import="0">Components/Sovereignty/Core/Sovereignty_GameDefines.sql</File>
+    <File md5="E6B50746226E9CF8A23645693D5D856B" import="0">Components/Sovereignty/Core/Sovereignty_GameText.xml</File>
+    <File md5="72A827D9134104DE7B7E6C22BE58F2C1" import="0">Components/Sovereignty/Core/Sovereignty_GameText_Interface.xml</File>
+    <File md5="D76E9C59FE5E7292526CB795DD7D3A00" import="0">Components/Sovereignty/Core/Sovereignty_GameText_ModSupport.xml</File>
+    <File md5="F6B7053928A46CF0C6262647C08E30E3" import="0">Components/Sovereignty/Core/Sovereignty_GameText_Governments.xml</File>
+    <File md5="0F20A0713DEB2C1E4765B812BEE77A09" import="0">Components/Sovereignty/Core/Sovereignty_GameText_Titles.xml</File>
+    <File md5="0917804E27063CC9E703ED78C1F9E43F" import="0">Components/Sovereignty/Core/Sovereignty_Governments.sql</File>
+    <File md5="1A1BCC9DDCC874476EE1B0234DD915B1" import="0">Components/Sovereignty/Core/Sovereignty_ModSupport.sql</File>
+    <File md5="0634B08D5A61B7A8FF56E0D35CE7E357" import="0">Components/Sovereignty/Core/Sovereignty_Policies.sql</File>
+    <File md5="F1CE644E9B4DF35253EC3C9B542F1347" import="0">Components/Sovereignty/Core/Sovereignty_Reforms.sql</File>
+    <File md5="03C515318014B8B29CC3AEAB9FC7642B" import="0">Components/Sovereignty/Core/Sovereignty_Religions.sql</File>
+    <File md5="1EEDE030D43DB51A1919238601445203" import="0">Components/Sovereignty/Core/Sovereignty_Units.sql</File>
+    <File md5="BCBD8D22B285EB94D0B60F200BFE4888" import="1">Components/Sovereignty/Lua/JFD_RTP_Sovereignty_Decisions.lua</File>
+    <File md5="764C0054D99F90AFBEED77CBD59108D4" import="0">Components/Sovereignty/Lua/JFD_RTP_Sovereignty_Functions.lua</File>
+    <File md5="36BEE71F4288EC862293736D57F79C59" import="0">Components/Sovereignty/Lua/UI/JFD_RTP_Sovereignty_ChooseGovernmentPopup.lua</File>
+    <File md5="C2E54F3F339AF7170A57E9ECB7FF87CF" import="0">Components/Sovereignty/Lua/UI/JFD_RTP_Sovereignty_ChooseGovernmentPopup.xml</File>
+    <File md5="52EB2BB62ED1799A7171B64B0812A2E6" import="0">Components/Sovereignty/Lua/UI/JFD_RTP_Sovereignty_ChoosePrivyCouncillor..lua</File>
+    <File md5="2E3607E7CD4CE8695F0E56E525E19D4F" import="0">Components/Sovereignty/Lua/UI/JFD_RTP_Sovereignty_ChoosePrivyCouncillor..xml</File>
+    <File md5="F1AE6149150C01321CD845BF82900553" import="0">Components/Sovereignty/Lua/UI/JFD_RTP_Sovereignty_GovernmentOverview.lua</File>
+    <File md5="2F5FDBF525841461B9AE488D36ED7D90" import="0">Components/Sovereignty/Lua/UI/JFD_RTP_Sovereignty_GovernmentOverview.xml</File>
+    <File md5="2A0A4B783B2665DB105155A327E12295" import="1">Components/Sovereignty/Lua/UI/Overrides/ActionInfoPanel.lua</File>
+    <File md5="78EDB8DB696C7863B7C6267E4FB112D9" import="1">Components/Sovereignty/Lua/Utiltiies/JFD_RTP_SovereigntyUtils.lua</File>
+    <File md5="06A1D61B92401B9D5F2E090BFB63ECC0" import="0">DeleteMissingReferences.xml</File>
+    <File md5="A85A7A8A84E0293DAE65D05B86B41932" import="0">JFD_RTP_UserSettings.sql</File>
+    <File md5="20586120B22142FAB31116E610174AF5" import="1">Shared/Art/UI/Advisors45.dds</File>
+    <File md5="1DEF10FF7582D98512E1AE3F15F08D4F" import="1">Shared/Art/UI/Advisors45HL.dds</File>
+    <File md5="2214D1A628A8AFE5948F06D2BAF2337E" import="1">Shared/Art/UI/Corporations45.dds</File>
+    <File md5="781AC3707C1DC744C1C5796393F3438C" import="1">Shared/Art/UI/Corporations45HL.dds</File>
+    <File md5="521D0288A5306BE7280372D1CD69A983" import="1">Shared/Art/UI/Demographics45.dds</File>
+    <File md5="B7ED35425F3201A089C8AD4A2E115353" import="1">Shared/Art/UI/Demographics45HL.dds</File>
+    <File md5="7506DFF7AA62028BD9D2026555F3F2C0" import="1">Shared/Art/UI/Events45.dds</File>
+    <File md5="194030B477CEB07B8995F75E0D21BE57" import="1">Shared/Art/UI/Events45HL.dds</File>
+    <File md5="92D4C56C0C1D744106A672E4D89A2D01" import="1">Shared/Art/UI/GreatWorks245.dds</File>
+    <File md5="DA486C95DE22C8F5F7FEA4335DF021BB" import="1">Shared/Art/UI/GreatWorks245HL.dds</File>
+    <File md5="A64ABCDDDCD5D4C41572DBC99B6B0D63" import="1">Shared/Art/UI/InfoAddict45.dds</File>
+    <File md5="1470C8F3CF1FA3A92C5A68521D606389" import="1">Shared/Art/UI/InfoAddict45HL.dds</File>
+    <File md5="A5517EC611A30F91B8D93084BF175B67" import="1">Shared/Art/UI/Economic45.dds</File>
+    <File md5="6C5514A9B03B5C781790BDD7677D5D87" import="1">Shared/Art/UI/Economic45HL.dds</File>
+    <File md5="CB52F8FAA3D0E8631639F3868DC06C18" import="1">Shared/Art/UI/GreatWorks45.dds</File>
+    <File md5="9215CEC160B91609E492F5BB35AAAF87" import="1">Shared/Art/UI/GreatWorks45HL.dds</File>
+    <File md5="CA81B62C7A595F723792E645B01C6C9E" import="1">Shared/Art/UI/Mercenaries45.dds</File>
+    <File md5="1AA5FE76282B95D6D67EF70457BA35A1" import="1">Shared/Art/UI/Mercenaries45HL.dds</File>
+    <File md5="0A324508608A316897BE734FC3ACC2CC" import="1">Shared/Art/UI/Decisions80.dds</File>
+    <File md5="5C0448A51E6A8D60BE090ADCFB2466EF" import="1">Shared/Art/UI/Decisions80HL.dds</File>
+    <File md5="366FEF38EE6F178B33D3407931D82C5A" import="1">Shared/Art/UI/Government80.dds</File>
+    <File md5="E20A25AB2E9C65F6A5D14B663EB4BBD5" import="1">Shared/Art/UI/Government80Glow.dds</File>
+    <File md5="2ED86BD5EAC0956B36D375689C822E3F" import="1">Shared/Art/UI/Military45.dds</File>
+    <File md5="EA11E9034368F28094F7F64E6473E4B9" import="1">Shared/Art/UI/Military45HL.dds</File>
+    <File md5="1CB873747B8F48CCCA0D1FDEC7A868E9" import="1">Shared/Art/UI/Notification45.dds</File>
+    <File md5="B59D4C354BA576B8B3632897A5261646" import="1">Shared/Art/UI/Notification45HL.dds</File>
+    <File md5="82F65E983DA4567FB6D3D1EF256CCADD" import="1">Shared/Art/UI/Religion45.dds</File>
+    <File md5="8A88CB30DB11BB07B197BD91B093277E" import="1">Shared/Art/UI/Religion45HL.dds</File>
+    <File md5="0A7A263DE02C3B82059D0C2AC0293381" import="1">Shared/Art/UI/SocialPolicies45.dds</File>
+    <File md5="75758D2B9F6EA69D2B335EA332FB4AE9" import="1">Shared/Art/UI/SocialPolicies45HL.dds</File>
+    <File md5="CD41709C2B3B520BAE26968CA6EF1BAB" import="1">Shared/Art/UI/Techs45.dds</File>
+    <File md5="3F9F9C12EDB41D3E81AD8C2CE5236BFB" import="1">Shared/Art/UI/Techs45HL.dds</File>
+    <File md5="B24499E3FACE11C367AFAF5EC2788AD1" import="1">Shared/Art/UI/TopLeft020.dds</File>
+    <File md5="6D77E19DB91F51541DCCBB3FB08A8679" import="1">Shared/Art/UI/TradeRoutes45.dds</File>
+    <File md5="2275CF6A9D5043145673C6BE0C2EF751" import="1">Shared/Art/UI/TradeRoutes45HL.dds</File>
+    <File md5="D3A1FF62DFDC46E1DC99D335101A87C7" import="1">Shared/Art/UI/Vassals45.dds</File>
+    <File md5="6556E328B8C7A3C10EBBEC79704A3C43" import="1">Shared/Art/UI/Vassals45HL.dds</File>
+    <File md5="BC5B1144C26CBF2CA46EAEB9C4625D72" import="1">Shared/Art/UI/Victory45.dds</File>
+    <File md5="6A8516468E9B31D7795AB902F4B5CDE5" import="1">Shared/Art/UI/Victory45HL.dds</File>
+    <File md5="E06907F0B6CFA04B56C2B275D7BFD5F8" import="1">Shared/Art/UI/WorldCongress45.dds</File>
+    <File md5="0A196E8C78EB3E84B63BBB8AC81196CF" import="1">Shared/Art/UI/WorldCongress45HL.dds</File>
+    <File md5="5FADF8B9D9A1A29E1189285036BCE2D1" import="0">Shared/Core/RTP_GameDefines.sql</File>
+    <File md5="085A39E7469DD405EB787B34017EBFD5" import="0">Shared/Core/RTP_GameText.xml</File>
+    <File md5="C48AB633B3BAA80572A61A33BE97CBB4" import="0">Shared/Lua/JFD_RTP_Functions.lua</File>
+    <File md5="6BD7025F35952B9BF7C5FA33E96BF5EB" import="1">Shared/Lua/Save Utils/JFD_RTP_GlobalDefines.lua</File>
+    <File md5="A0C55EBCD72DCD2A32A8BE64ED795572" import="1">Shared/Lua/Save Utils/JFD_RTP_TSLSerializerV3.lua</File>
+    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">Shared/Lua/Save Utils/TableSaverLoader016.lua</File>
+    <File md5="69FCADF0D2AE7C0C2CEC9D821AD41883" import="1">Shared/Lua/Save Utils/TSLSerializerCoreV3.lua</File>
+    <File md5="78D5E5F3D7ACACEDC03AC3D7A087AD3D" import="1">Shared/Lua/UI/Overrides/Decisions/EnactDescisionsPopup.lua</File>
+    <File md5="8D4239760D357D878A94D9B857C9A23F" import="1">Shared/Lua/UI/Overrides/Decisions/EnactDescisionsPopup.xml</File>
+    <File md5="94C63FA695568741AFCF315FC24FD24F" import="1">Shared/Lua/UI/Overrides/Decisions/ReligiousDecisions.lua</File>
+    <File md5="02B0F0AA14965EF43717D885F9496F8D" import="1">Shared/Lua/UI/Overrides/DiploCorner/DiploCorner.lua</File>
+    <File md5="0F9E5D200C84E8FB04F6754589F5444E" import="1">Shared/Lua/UI/Overrides/DiploCorner/DiploCorner.xml</File>
+    <File md5="2B332729A82F78F0DC7444F39FF43648" import="0">Shared/Lua/UI/Overrides/DiploList/DiploList.lua</File>
+    <File md5="896146D9C940B17F77121E815DC99350" import="0">Shared/Lua/UI/Overrides/DiploList/DiploList.xml</File>
+    <File md5="35021C7BACFB97433723A476F25F3F03" import="1">Shared/Lua/UI/Overrides/GameplayUtilities.lua</File>
+    <File md5="83CCFCA068FBD7CB5BC34E8990C6C0EF" import="0">Shared/Lua/UI/Overrides/InfoPanelWIP/CivilizationOverview.lua</File>
+    <File md5="60BAE944CF477D1098677E82F9A071A4" import="0">Shared/Lua/UI/Overrides/InfoPanelWIP/CivilizationOverview.xml</File>
+    <File md5="9D78F463560084A62AA951DD73C790E6" import="0">Shared/Lua/UI/Overrides/InfoPanelWIP/InfoCorner.lua</File>
+    <File md5="E94E999A2696818CC9E14F425911429F" import="0">Shared/Lua/UI/Overrides/InfoPanelWIP/InfoCorner.xml</File>
+    <File md5="20CC482370D2A767DEA9F6703121A97A" import="1">Shared/Lua/UI/Overrides/LoadScreen.lua</File>
+    <File md5="499D258A7F485F8BA82863D9215E6B8D" import="1">Shared/Lua/UI/Overrides/NotificationPanel/Images/cityeventnotification80.dds</File>
+    <File md5="E721649DC27B61FD4840A61585E42440" import="1">Shared/Lua/UI/Overrides/NotificationPanel/Images/eventnotification80.dds</File>
+    <File md5="DE48FBA4B06265C41F73C1E0F30D6990" import="1">Shared/Lua/UI/Overrides/NotificationPanel/Images/notificationcityeventglow.dds</File>
+    <File md5="4FEA391E88CC5EEF3C49EA84122B8D61" import="1">Shared/Lua/UI/Overrides/NotificationPanel/Images/notificationcityeventorange.dds</File>
+    <File md5="95D498B7DD244272391492AF9BA4F4A1" import="1">Shared/Lua/UI/Overrides/NotificationPanel/Images/notificationeventglow.dds</File>
+    <File md5="879CF550A56D42755709363D22253E11" import="1">Shared/Lua/UI/Overrides/NotificationPanel/Images/notificationeventorange.dds</File>
+    <File md5="E185E7278774D346D4722C1AC4A14CE7" import="1">Shared/Lua/UI/Overrides/NotificationPanel/NotificationPanel.lua</File>
+    <File md5="1BCE8921194B07FE7EEE8DA42EF0E5A3" import="1">Shared/Lua/UI/Overrides/NotificationPanel/NotificationPanel.xml</File>
+    <File md5="B773C0592A2EC9984B71CC19675DF536" import="1">Shared/Lua/UI/Overrides/Popups/ChooseReligionPopup.lua</File>
+    <File md5="E0E21B2B4B256F6FA25FB2E48BEF3685" import="1">Shared/Lua/UI/Overrides/Popups/ChooseReligionPopup.xml</File>
+    <File md5="BCEB93E58BCF7C67AEBBD3228460AF4F" import="1">Shared/Lua/UI/Overrides/Popups/CityStateDiploPopup.lua</File>
+    <File md5="F54F3511515DFB648653F79F275ACFC0" import="1">Shared/Lua/UI/Overrides/Popups/CityStateDiploPopup.xml</File>
+    <File md5="62F7FEDBD5974BD1436F4302CE2919C5" import="1">Shared/Lua/UI/Overrides/Popups/CultureOverview.lua</File>
+    <File md5="5F310B56A85B1E68963A0B8361F3F4BC" import="1">Shared/Lua/UI/Overrides/Popups/CultureOverview.xml</File>
+    <File md5="A40FAFE32B6733DFEE42A30205FA4CF5" import="1">Shared/Lua/UI/Overrides/Popups/GreatWorkPopup.lua</File>
+    <File md5="27C8145F33E0EEA1CD9BAC96B9B6EE82" import="1">Shared/Lua/UI/Overrides/Popups/MilitaryOverview.lua</File>
+    <File md5="EF85FD647BCCB7AD1934C52CDC5AC1A5" import="1">Shared/Lua/UI/Overrides/Popups/MilitaryOverview.xml</File>
+    <File md5="45891F019D1CA6EEB440E55FB622523C" import="1">Shared/Lua/UI/Overrides/Popups/ReligionOverview.lua</File>
+    <File md5="1F45533127E608167F2E6E997E0DBD06" import="1">Shared/Lua/UI/Overrides/Popups/ReligionOverview.xml</File>
+    <File md5="90D0A2F52EB4832C52A1878A7E283241" import="1">Shared/Lua/UI/Overrides/TopPanel/TopPanel.lua</File>
+    <File md5="DBFC6072DB71F2CC9D155FB9AC065AD4" import="1">Shared/Lua/UI/Overrides/TopPanel/TopPanel.xml</File>
+    <File md5="F4B18A67DE1D63DC176BBC835B936065" import="1">Shared/Lua/UI/Overrides/WorldView/ActionInfoPanel.lua</File>
+    <File md5="E612350618018DF9B28B1C237F59C0C5" import="1">Shared/Lua/UI/Overrides/WorldView/GPList.lua</File>
+    <File md5="48007776DE63E486B84C9FB46804C93A" import="1">Shared/Lua/UI/Overrides/WorldView/GPList.xml</File>
+    <File md5="2FF9AB2AA4FE94AE2510484240EE9E84" import="1">Shared/Lua/UI/Overrides/WorldView/MPList.lua</File>
+    <File md5="76CDC81432BD182625DE8D2E7556A961" import="0">Shared/Lua/UI/Overrides/WorldView/NewTurn.lua</File>
+    <File md5="17F59F6E9D3F22C3DCEE613F5F6FC60A" import="0">Shared/Lua/UI/Overrides/WorldView/NewTurn.xml</File>
+    <File md5="12916D74DB20AB818F855E11035F80E6" import="1">Shared/Lua/UI/Overrides/WorldView/TechButtonInclude.lua</File>
+    <File md5="40C75B4D87919EF07E2D3A861E70D808" import="1">Shared/Lua/UI/Overrides/WorldView/UnitList.lua</File>
+    <File md5="4BE02F61AE21B6005F785B3322417C60" import="1">Shared/Lua/UI/Overrides/WorldView/UnitList.xml</File>
+    <File md5="2A435539722C401AF019AF0191C068FB" import="1">Shared/Lua/Utilities/JFD_RTPUtils.lua</File>
+    <File md5="04308327EEC43F08E426DDFE05A33F95" import="1">Shared/Lua/Utilities/JFD_TopPanelUtils.lua</File>
+    <File md5="6CCBD18FA404C82533D202F202B31059" import="1">Shared/Lua/Utilities/Sukritact_HotkeyManager.lua</File>
+    <File md5="C5F13551FB0DC0B160B1DE8AAECA6C3C" import="0">Shared/RTP_Master.sql</File>
+    <File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Shared/RTP_Master_CivIVDiplo.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>JFD_RTP_UserSettings.sql</UpdateDatabase>
+      <UpdateDatabase>Shared/RTP_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Misc/Core/RTP_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Misc/Core/RTP_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Beliefs.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Contracts.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_PietyLevels.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Religions.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Resolutions.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Specialists.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Technologies.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Piety/Core/Piety_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_Contracts.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_Leaders.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_Resolutions.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_Techs.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Mercenaries/Core/Mercenaries_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Prosperity/Core/Prosperity_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Prosperity/Core/Prosperity_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Prosperity/Core/Prosperity_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Prosperity/Core/Prosperity_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Prosperity/Core/Prosperity_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_Claims.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_GameText_Decisions.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_Master_SlotTexture.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_Technologies.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_Specialists.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_Unit.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Claims/Core/Claims_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_GameText_Governments.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_GameText_Reforms.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_GameText_Titles.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_Governments.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_Leaders.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_Reforms.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_Religions.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Sovereignty/Core/Sovereignty_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Epithets/Core/Epithets_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Epithets/Core/Epithets_Epithets.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Epithets/Core/Epithets_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Epithets/Core/Epithets_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Epithets/Core/Epithets_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Epithets/Core/Epithets_GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Epithets/Core/Epithets_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Misc/Core/RTP_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Components/Misc/Core/RTP_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Components/Misc/Core/RTP_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/Core/RTP_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Shared/Core/RTP_GameText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Components/Piety/Lua/JFD_RTP_Piety_Functions.lua">
+      <Name>JFD_RTP_Piety_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Components/Piety/Lua/JFD_RTP_Piety_AztecsFunctions.lua">
+      <Name>JFD_RTP_Piety_AztecsFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Components/Epithets/Lua/JFD_RTP_Epithets_Functions.lua">
+      <Name>JFD_RTP_Epithets_ChooseEpithetPopup</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Components/Mercenaries/Lua/JFD_RTP_Mercenaries_Functions.lua">
+      <Name>JFD_RTP_Mercenaries_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Components/Sovereignty/Lua/UI/JFD_RTP_Sovereignty_ChooseGovernmentPopup.lua">
+      <Name>JFD_RTP_Sovereignty_ChooseGovernmentPopup</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Components/Sovereignty/Lua/UI/JFD_RTP_Sovereignty_GovernmentOverview.lua">
+      <Name>JFD_RTP_Sovereignty_GovernmentOverview</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Components/Sovereignty/Lua/JFD_RTP_Sovereignty_Functions.lua">
+      <Name>JFD_RTP_Sovereignty_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Components/Claims/Lua/JFD_RTP_Claims_Functions.lua">
+      <Name>JFD_RTP_Claims_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Components/Claims/Lua/JFD_RTP_Claims_AustriaFunctions.lua">
+      <Name>JFD_RTP_Claims_AustriaFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/Lua/JFD_RTP_Functions.lua">
+      <Name>JFD_RTP_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

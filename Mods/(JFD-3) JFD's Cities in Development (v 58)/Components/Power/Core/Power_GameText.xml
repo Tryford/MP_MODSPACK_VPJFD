@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_POWER_HEADING1_TITLE">
+			<Text>Power: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_POWER_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Power[ENDCOLOR] is one of the new gameplay elements added by Cities in Development. It is a new Strategic Resource that many late-game Buildings (such as the Broadcast Tower or Police Station) require before they can be constructed.[NEWLINE][NEWLINE]Certain buildings, such as the Factory and Hydro Plant, now produce Power. A single city will usually be unable to produce enough Power to construct all Buildings. You must select carefully what Buildings a city should support.</Text>
+		</Row>
+		<!--BUILDINGS-->
+		<!--Blast Furance-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_BLAST_FURNACE">
+			<Text>Blast Furance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BLAST_FURNACE_HELP">
+			<Text>Requires 2 [ICON_RES_IRON] Iron.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BLAST_FURNACE_STRATEGY">
+			<Text>The Blast Furnace is an Industrial-era building which increases the city's ability to work Engineers and [ICON_PRODUCTION] Production. 2 [ICON_RES_IRON] Iron is consumed when a Blast Furnace is created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BLAST_FURNACE_TEXT">
+			<Text>A blast furnace is a type of metallurgical furnace used for smelting to produce industrial metals, generally iron, but also others such as lead or copper. In a blast furnace, fuel, ores, and flux are continuously supplied through the top of the furnace, while a hot blast of air is blown into the lower section of the furnace through a series of pipes called tuyeres, so that the chemical reactions take place throughout the furnace as the material moves downward. The end products are usually molten metal and slag phases tapped from the bottom, and flue gases exiting from the top of the furnace. The downward flow of the ore and flux in contact with an upflow of hot, carbon monoxide-rich combustion gases is a countercurrent exchange process.</Text>
+		</Row>
+		<!--Coal Station-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_COAL_PLANT">
+			<Text>Coal Station</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COAL_PLANT_HELP">
+			<Text>Requires 2 [ICON_RES_COAL] Coal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COAL_PLANT_HELP_HEALTH">
+			<Text>Requires 2 [ICON_RES_COAL] Coal.[NEWLINE][NEWLINE]+1 [ICON_JFD_DISEASE] Disease from [ICON_RES_COAL] Coal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COAL_PLANT_STRATEGY">
+			<Text>The Coal Plant is an Industrial-era building which increases the city's [ICON_JFD_POWER] Power and [ICON_PRODUCTION] Production. 2 [ICON_RES_COAL] Coal is consumed when a Coal Plant is created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COAL_PLANT_TEXT">
+			<Text>A fossil-fuel power station is a power station which burns fossil fuel such as coal, natural gas or petroleum to produce electricity. Central station fossil-fuel power plants are designed on a large scale for continuous operation. In many countries, such plants provide most of the electrical energy used. Fossil-fuel power stations have machinery to convert the heat energy of combustion into mechanical energy, which then operates an electrical generator. The prime mover may be a steam turbine, a gas turbine or, in small plants, a reciprocating internal combustion engine. All plants use the energy extracted from expanding gas, either steam or combustion gases. Very few MHD generators have been built which directly convert the energy of moving hot gas into electricity.</Text>
+		</Row>
+		<!--Horse Mill-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HORSE_MILL">
+			<Text>Horse Mill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HORSE_MILL_HELP">
+			<Text>Requires 2 [ICON_RES_HORSE] Horse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HORSE_MILL_STRATEGY">
+			<Text>The Horse Mill is an mid-game building which increases the city's [ICON_JFD_POWER] Power and [ICON_PRODUCTION] Production. 2 [ICON_RES_HORSE] Horse is consumed when a Horse Mill is created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HORSE_MILL_TEXT">
+			<Text>A horse mill is a mill, sometimes used in conjunction with a watermill or windmill, that uses a horse as the power source. Any milling process can be powered in this way, but the most frequent use of animal power in horse mills was for grinding grain and pumping water. Other animal engines for powering mills are powered by dogs, donkeys and oxen. Treadwheels are engines powered by humans.</Text>
+		</Row>
+		<!--Oil Refinery-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_OIL_REFINERY">
+			<Text>Oil Refinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_OIL_REFINERY_HELP">
+			<Text>Requires 2 [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_OIL_REFINERY_HELP_HEALTH">
+			<Text>Requires 2 [ICON_RES_OIL] Oil.[NEWLINE][NEWLINE]+1 [ICON_JFD_DISEASE] Disease from [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_OIL_REFINERY_STRATEGY">
+			<Text>The Oil Refinery is an Industrial-era building which increases your [ICON_JFD_POWER] Power and [ICON_PRODUCTION] Production. 2 [ICON_RES_OIL] Oil is consumed when an Oil Refinery is created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_OIL_REFINERY_TEXT">
+			<Text>An oil refinery or petroleum refinery is an industrial process plant where crude oil is processed and refined into more useful products such as petroleum naphtha, gasoline, diesel fuel, asphalt base, heating oil, kerosene, and liquefied petroleum gas. Oil refineries are typically large, sprawling industrial complexes with extensive piping running throughout, carrying streams of fluids between large chemical processing units. In many ways, oil refineries use much of the technology of, and can be thought of, as types of chemical plants. The crude oil feed stock has typically been processed by an oil production plant. There is usually an oil depot (tank farm) at or near an oil refinery for the storage of incoming crude oil feedstock as well as bulk liquid products.</Text>
+		</Row>
+		<!--Wind Farm-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_WIND_FARM">
+			<Text>Wind Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WIND_FARM_HELP">
+			<Text>Requires 2 [ICON_RES_ALUMINUM] Aluminum to be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WIND_FARM_STRATEGY">
+			<Text>The Wind Farm is an Industrial-era building which increases your [ICON_JFD_POWER] Power. It also increases a city's [ICON_PRODUCTION] Production. 2 [ICON_RES_ALUMINUM] Aluminum is consumed when a Wind Farm is created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WIND_FARM_TEXT">
+			<Text>A windfarm or wind park is a group of wind turbines in the same location used to produce electricity. A large wind farm may consist of several hundred individual wind turbines and cover an extended area of hundreds of square miles, but the land between the turbines may be used for agricultural or other purposes. A wind farm can also be located offshore.</Text>
+		</Row>
+		<!--INTERFACE-->
+		<Row Tag="TXT_KEY_PEDIA_POWER_LABEL">
+			<Text>Power:</Text>
+		</Row>
+		<!--RESOURCES-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_POWER">
+			<Text>Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_POWER_TEXT">
+			<Text>Energy is a property of objects which can be transferred to other objects or converted into different forms. Examples of energy transformation include generating electric energy from heat energy via a steam turbine, or lifting an object against gravity using electrical energy driving a crane motor. Lifting against gravity performs mechanical work on the object and stores gravitational potential energy in the object. If the object falls to the ground, gravity does mechanical work on the object which transforms the potential energy in the gravitational field to the kinetic energy released as heat on impact with the ground. Our Sun transforms nuclear potential energy to other forms of energy; its total mass does not decrease due to that in itself (since it still contains the same total energy even if in different forms), but its mass does decrease when the energy escapes out to its surroundings, largely as radiant energy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JFD_POWER_HELP">
+			<Text>Used and produced by a number of late-game Buildings.</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Three Gorges Dam-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_THREE_GORGES">
+			<Text>Three Gorges Dam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_THREE_GORGES_HELP">
+			<Text>Provides a free Hydro Plant in the city in which it is built. City must be built on a river</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_THREE_GORGES_QUOTE">
+			<Text>[NEWLINE]"The river seeking for the sea confronts the dam and precipice, yet knows it cannot fail or miss"[NEWLINE] - Ella Wheeler Wilcox[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_THREE_GORGES_PEDIA">
+			<Text>Built across the Yangtze River in the Hubei province of China, the Three Gorges Dam is the largest Hydroelectic powerstation on Earth, in terms of maximum capacity. Construction began in December 1994, and was completed on July 4, 2012, with the exception of the boat lift, which is not excpected to be complete until 2014. The dam has 32 main generators, each with an individual output of 700 mW, combining with other smaller generators for a combined total output of 22,500 mW, an ammount which would be able to power 6,750,000 homes every hour. Following the completion of the reservoir in 2003, the flooding of the area upstream from the dam resulted in the loss of several archaeological and cultural sites in the area, which resulted in harsh criticism from global agencies. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

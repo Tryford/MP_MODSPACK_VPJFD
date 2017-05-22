@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!--GAZBEO COMMUNITY BALANCE PATCH-->
+		<!--Infallibility-->
+		<Row Tag="TXT_KEY_POLICY_JFD_INFALLIBILITY_CBP">
+			<Text>Infallibility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_INFALLIBILITY_HELP_CBP">
+			<Text>[COLOR_POSITIVE_TEXT]Infallibility[ENDCOLOR][NEWLINE]Gain +5 [ICON_JFD_PIETY] Piety when purchasing a Great Prophet, Missionary, or Inquisitor. When [ICON_JFD_PIETY] Piety is Devout or Virtuous, converts followers of foreign religions as well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_INFALLIBILITY_TEXT_CBP">
+			<Text>Infallbility is the philosophical doctrine concerned with reality and truth. In Christian theology, it is the inability to err when speaking on revelation. In the Catholic Church, the doctrine of Papal Infallability asserts that, when exercising the office of St. Peter, as by the promise of St. Peter, the Pope cannot speak in error.</Text>
+		</Row>
+		<!--Monastery-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MONASTERY_HELP_CBP">
+			<Text>Each source of [ICON_RES_INCENSE] Incense and [ICON_RES_WINE] Wine worked by this City produce +1 [ICON_PEACE] Faith, and +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MONASTERY_STRATEGY_CBP">
+			<Text>Monasteries increase a city's [ICON_PEACE] Faith and [ICON_CULTURE] Culture output, especially if the city is near to improved Incense and/or Wine resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MONASTERY_HELP_CBP_HEALTH">
+			<Text>Each source of [ICON_RES_INCENSE] Incense and [ICON_RES_WINE] Wine worked by this City produce +1 [ICON_PEACE] Faith, +1 [ICON_JFD_HEALTH] Health, and +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MONASTERY_STRATEGY_CBP_HEALTH">
+			<Text>Monasteries increase a city's [ICON_PEACE] Faith, [ICON_JFD_HEALTH] Health, and [ICON_CULTURE] Culture output, especially if the city is near to improved Incense and/or Wine resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MONASTERY_HELP_CBP_EXCE">
+			<Text>Each source of [ICON_RES_INCENSE] Incense, [ICON_JFD_RES_SAFFRON] Saffron, and [ICON_RES_WINE] Wine worked by this City produce +1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MONASTERY_STRATEGY_CBP_EXCE">
+			<Text>Monasteries increase a city's [ICON_PEACE] Faith and [ICON_CULTURE] Culture output, especially if the city is near to improved Incense, Saffron, and/or Wine resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MONASTERY_HELP_CBP_HEALTH_EXCE">
+			<Text>Each source of [ICON_RES_INCENSE] Incense, [ICON_JFD_RES_SAFFRON] Saffron, and [ICON_RES_WINE] Wine worked by this City produce +1 [ICON_PEACE] Faith, +1 [ICON_JFD_HEALTH] Health, and +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MONASTERY_STRATEGY_CBP_HEALTH_EXCE">
+			<Text>Monasteries increase a city's [ICON_PEACE] Faith, [ICON_JFD_HEALTH] Health, and [ICON_CULTURE] Culture output, especially if the city is near to improved Incense, Saffron, and/or Wine resources.</Text>
+		</Row>
+		<!--JFD CID-->
+		<Row Tag="TXT_KEY_WONDER_JFD_COLOGNE_CATHEDRAL_HELP_CID">
+			<Text>+2 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture on all Faith-unlocked buildings. Provides a free Cathedral in the city in which it is built.</Text>
+		</Row>
+		<!--JFD CRIMES-->
+		<Row Tag="TXT_KEY_WONDER_JFD_GRAND_INQUISITION_HELP_CRIME">
+			<Text>Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_WHITE] Heresy by 5% in all cities and by 10% in the city in which the National Wonder is built.</Text>
+		</Row>
+		<!--JFD HEALTH-->
+		<!--Mandirs-->
+		<Row Tag="TXT_KEY_BELIEF_JFD_MANDIRS_HEALTH">
+			<Text>Use [ICON_PEACE] Faith to purchase Mandirs (+1 [ICON_PEACE] Faith, +2 [ICON_JFD_HEALTH] Health, 1 [ICON_GREAT_WORK] Great Work of Art slot)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PIETY_HELP_PIETY_HEALTH">
+			<Text>[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith of empires and the [ICON_JFD_PIETY] Piety of State Religions.[NEWLINE][NEWLINE]Adopting Piety allows you to [ICON_PRODUCTION] build Shrines, Temples, and Monasteries in half the usual time. Unlocks building the Dome of the Rock.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree allows you to choose an additional belief for your religion. If you do not have a religion and no more religions can be founded, you will receive a free Great Prophet instead. It also allows the purchase of Great Doctors with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<!--Shamanism-->
+		<Row Tag="TXT_KEY_BELIEF_JFD_SHAMANISM_SHORT_DESC_PIETY">
+			<Text>Shamanism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_SHAMANISM_DESC_PIETY">
+			<Text>Doctor and Monk specialists yield +2 [ICON_JFD_HEALTH] Health and +2 [ICON_PEACE] Faith and +25 [ICON_JFD_PIETY] Piety when a [ICON_GREAT_PEOPLE] Great Doctor or Great Prophet is expended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_SHAMANISM_DESC_PIETY_PIETY_DESC">
+			<Text>Doctor and Monk specialists yield +2 [ICON_JFD_HEALTH] Health and +2 [ICON_PEACE] Faith.[NEWLINE][ICON_BULLET]+20 [ICON_JFD_PIETY] Piety when a [ICON_GREAT_PEOPLE] Great Doctor or Great Prophet is expended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_SHAMANISM_DESC_PIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] when a [ICON_GREAT_PEOPLE] Great Doctor or Great Prophet is expended.</Text>
+		</Row>
+		<!--JFD INVESTMENTS-->
+		<!--Charity-->
+		<Row Tag="TXT_KEY_BELIEF_JFD_CHARITY_INVESTMENTS">
+			<Text>+1 [ICON_GOLD] Gold for every two followers (max +15) and +5 [ICON_JFD_PIETY] Piety when a Building or Wonder is [ICON_INVEST] Invested in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_CHARITY_INVESTMENTS_DESC_PIETY">
+			<Text>+1 [ICON_GOLD] Gold for every two followers (max +15).[NEWLINE][ICON_BULLET]+5 [ICON_JFD_PIETY] Piety when a Building or Wonder is [ICON_INVEST] Invested in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_CHARITY_INVESTMENTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] when a Building or Wonder is [ICON_INVEST] Invested in.</Text>
+		</Row>
+		<!--SUKRITACT DECISIONS-->
+		<!--PAGAN DECISIONS-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PAGAN_COST">
+			<Text>[NEWLINE]Requirement/Restrictions:[NEWLINE][ICON_BULLET]Player must have {1_Belief} as their Pantheon belief.[NEWLINE][ICON_BULLET]Player must be Pagan.[NEWLINE][ICON_BULLET]May only be enacted once per era[NEWLINE]Costs:[NEWLINE][ICON_BULLET]{2_Cost} [ICON_FOOD] Food from the [ICON_CAPITAL] Capital.[NEWLINE][ICON_BULLET]{2_Cost} [ICON_PRODUCTION] Production from the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PAGAN_COST_GENERIC">
+			<Text>[NEWLINE]Requirement/Restrictions:[NEWLINE][ICON_BULLET]Player must have a Pantheon belief.[NEWLINE][ICON_BULLET]Player must be Pagan.[NEWLINE][ICON_BULLET]May only be enacted once per era.[NEWLINE]Costs:[NEWLINE][ICON_BULLET]{2_Cost} [ICON_FOOD] Food from the [ICON_CAPITAL] Capital.[NEWLINE][ICON_BULLET]{2_Cost} [ICON_PRODUCTION] Production from the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PAGAN_REWARD">
+			<Text>[NEWLINE]Rewards:[NEWLINE][ICON_BULLET]{1_FaithReward} [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PAGAN_ENACTED_REWARD">
+			<Text>[NEWLINE]Rewards:[NEWLINE][ICON_BULLET]A lump sum of [ICON_PEACE] Faith</Text>
+		</Row>
+		<!--Perform Fertility Rites-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_FERTILITY_RITES">
+			<Text>Perform Fertility Rites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_FERTILITY_RITES_DESC">
+			<Text>Praise be to our carnal vigour! Let us summon the Heirophant and have him perform the fertility rites of our faith![NEWLINE]</Text>
+		</Row>
+		<!--Perform Oral Traditions-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_ORAL_TRADITION">
+			<Text>Perform Oral Traditions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_ORAL_TRADITION_DESC">
+			<Text>Praise be to our sacred heroes! Let us summon the Heirophant and have him spin tales of our ancient peoples![NEWLINE]</Text>
+		</Row>
+		<!--Perform Rites of Reverence-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_RITES_OF_REVERANCE">
+			<Text>Perform Rites of Reverence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_RITES_OF_REVERANCE_DESC">
+			<Text>Praise be to the sacred ancestors! Let us summon the Heirophant and have him perform the rites of reverence for our dead![NEWLINE]</Text>
+		</Row>
+		<!--Perform Sacred Mysteries-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_SACRED_MYSTERIES">
+			<Text>Perform Sacred Mysteries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_SACRED_MYSTERIES_DESC">
+			<Text>Praise be to the sacred divine! Let us summon the Heirophant and have him perform the sacred mysteries of our faith![NEWLINE]</Text>
+		</Row>
+		<!--One With Nature-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_NATURE_CEREMONIES">
+			<Text>Perform Nature Ceremonies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_NATURE_CEREMONIES_DESC">
+			<Text>Praise be to the earth! Let us summon the Heirophant and have him perform the sacred ceremonies of our faith![NEWLINE]</Text>
+		</Row>
+		<!--Sacred Waters-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_RIVER_CEREMONIES">
+			<Text>Perform Water Ceremonies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_PERFORM_RIVER_CEREMONIES_DESC">
+			<Text>Praise be to the blessed waters! Let us summon the Heirophant and have him perform the sacred ceremonies of our faith![NEWLINE]</Text>
+		</Row>
+		<!--STATE RELIGION DECISIONS-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_STATE_RELIGION_LIST">
+			<Text>{1_ReligionName} (Founded by: {2_Civname})</Text>
+		</Row>
+		<!--GENERIC RELIGIOUS DECISIONS-->
+		<!-- Holy Book -->
+		<Replace Tag="TXT_KEY_DECISIONS_HOLYBOOK_DESC">
+			<Text>Books are expensive; a finely illustrated book is even more so. Regardless, as a faithful follower of {1_Religion}, we should obtain a copy.[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_HOLYBOOK_COST">
+			<Text>[NEWLINE]Requirement/Restrictions:[NEWLINE][ICON_BULLET]State Religion must be {1_Religion}.[NEWLINE][ICON_BULLET]Must not have researched Printing Press.[NEWLINE][ICON_BULLET]May not be enacted in the Ancient Era.[NEWLINE][ICON_BULLET]May only be enacted once per game.[NEWLINE]Costs:[NEWLINE][ICON_BULLET]{2_Gold} [ICON_GOLD] Gold.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_HOLYBOOK_REWARD">
+			<Text>[NEWLINE]Rewards:[NEWLINE][ICON_BULLET]{1_Faith} [ICON_PEACE] Faith[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: The [ICON_PEACE] Faith you receive increases with your [ICON_JFD_PIETY] Piety Level.</Text>
+		</Replace>
+		<!-- Religious Festival -->
+		<Replace Tag="TXT_KEY_DECISIONS_RELIGIONEVENTS_1_COST">
+			<Text>[NEWLINE]Requirement/Restrictions:[NEWLINE][ICON_BULLET]State Religion must be {1_Religion}.[NEWLINE][ICON_BULLET]May only be enacted once per era.[NEWLINE]Costs:[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.</Text>
+		</Replace>
+		<!-- Appoint Church Leaders -->
+		<Replace Tag="TXT_KEY_DECISIONS_RELIGIONEVENTS_1CATHOLICISM">
+			<Text>Appoint Church Leaders</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_RELIGIONEVENTS_1_DESCCATHOLICISM">
+			<Text>The Church lacks men to lead it. We are in a position to correct this. Let us aid the Church in seeking out wise and godly men to appoint as the leaders of Christianity![NEWLINE]</Text>
+		</Replace>
+		<!-- Celebrate the Feast of All-Saints -->
+		<Replace Tag="TXT_KEY_DECISIONS_RELIGIONEVENTS_1CHRISTIAN_ORIENTAL_ORTHODOX">
+			<Text>Celebrate the Feast of All-Saints</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_RELIGIONEVENTS_1_DESCCHRISTIAN_ORIENTAL_ORTHODOX">
+			<Text>Let us commemorate in a humble feast the blessed saints who, unknown or known, have served to guide the word of God into our hearts and spirits.[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_RELIGIONEVENTS_1ORTHODOXY">
+			<Text>Celebrate the Feast of All-Saints</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_RELIGIONEVENTS_1_DESCORTHODOXY">
+			<Text>Let us commemorate in a humble feast the blessed saints who, unknown or known, have served to guide the word of God into our hearts and spirits.[NEWLINE]</Text>
+		</Replace>
+		<!--Expel Religious Minorities-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_EXPEL_MINORITIES">
+			<Text>Expel Religious Minorities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_EXPEL_MINORITIES_DESC">
+			<Text>There are many within our empire who do not accept our religious ways. They create disunity and unease amongst the faithful, undermining the legitimacy of our State Religion. Let us create an edict for a religious cleansing; those that do not submit to our faith will be denied the privilege of living within our borders and cast from the empire.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must have a State Religion.
+				[NEWLINE][ICON_BULLET]Piety level must be at least [COLOR_JFD_PIETY_NEUTRAL]Neutral[ENDCOLOR].
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_JFD_PIETY] Piety.
+				[NEWLINE][ICON_BULLET]All non-State religions are removed from all cities in the empire.
+				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Note: The [ICON_GOLD] Gold cost increases with your total [ICON_CITIZEN] Population.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_EXPEL_MINORITIES_ENACTED_DESC">
+			<Text>There are many within our empire who do not accept our religious ways. They create disunity and unease amongst the faithful, undermining the legitimacy of our State Religion. Let us create an edict for a religious cleansing; those that do not submit to our faith will be denied the privilege of living within our borders and cast from the empire.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_JFD_PIETY] Piety.
+				[NEWLINE][ICON_BULLET]All non-State religions are removed from all cities in the empire.
+				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Note: The [ICON_GOLD] Gold cost increases with your total [ICON_CITIZEN] Population.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_EXPEL_RELIGIOUS_MINORITIES">
+			<Text>{1_LeaderName} has expelled religious minorities from the {2_CivName}.</Text>
+		</Row>
+		<!--Declare Repentance-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_DECLARE_REPENTANCE">
+			<Text>Declare Repentance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_DECLARE_REPENTANCE_DESC">
+			<Text>We have sinned deeply! We have committed acts of such blasphemy that God Himself weeps for our soul! But we repent! We repent! We declare this public declaration of penitence in the hopes that our faithful subjects and the Heavens might forgive us!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must have a State Religion.
+				[NEWLINE][ICON_BULLET]Piety level must be [COLOR_JFD_PIETY_POOR]Poor[ENDCOLOR] or lower.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_PEACE] Faith.
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_JFD_PIETY] Piety.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_DECLARE_REPENTANCE_ENACTED_DESC">
+			<Text>We have sinned deeply! We have committed acts of such blasphemy that God Himself weeps for our soul! But we repent! We repent! We declare this public declaration of penitence in the hopes that our faithful subjects and the Heavens might forgive us!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_JFD_PIETY] Piety.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_DECLARE_REPENTANCE">
+			<Text>{1_LeaderName} of {2_CivName} has declared penitence for their sins, restoring their once lost piety.</Text>
+		</Row>
+		<!--SUKRITACT EVENTS-->
+		<!--PAGAN EVENTS-->
+		<!-- Bad Omen -->
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY">
+			<Text>Bad Omen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_DESC">
+			<Text>Seers have interpreted the {1_Omen} to be a sign of the Gods' disfavour with us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_1_DESC">
+			<Text>birth of an ugly child</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_2_DESC">
+			<Text>twisted insides of a pigeon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_3_DESC">
+			<Text>destruction of a sacred tree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_4_DESC">
+			<Text>ailment of a wise old hag</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_5_DESC">
+			<Text>infliction of gout upon us</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_OUTCOME_1">
+			<Text>We must make a sacrifice in order to restore favour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]50% you will gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_FOOD] Growth in the [ICON_CAPITAL] Capital[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]90% you will gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_CULTURE] Culture[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]70% you will gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BAD_OMEN_PIETY_OUTCOME_RESULT_4">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]30% you will gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BAD_OMEN_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have made a sacrifice to the Gods! But it does not seem that they were listening...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BAD_OMEN_PIETY_OUTCOME_RESULT_1_ALT_NOTIFICATION">
+			<Text>We have made a sacrifice to the Gods! It seems to have pleased them for now.</Text>
+		</Row>
+		<!-- Good Omen -->
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY">
+			<Text>Good Omen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_DESC">
+			<Text>Seers have interpreted the {1_Omen} to be a sign of the Gods' favour with us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_1_DESC">
+			<Text>recovery of a sickly maiden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_2_DESC">
+			<Text>rising of the sun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_3_DESC">
+			<Text>delicious insides of a rabbit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_4_DESC">
+			<Text>recovery of our slight cough</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_5_DESC">
+			<Text>recovery of our gout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_OUTCOME_1">
+			<Text>It's about time!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_OUTCOME_2">
+			<Text>I am humbled by the Gods' favour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_GOLDEN_AGE] Golden Age points[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_GOOD_OMEN_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOOD_OMEN_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>A Good Omen upon us speaks to the favour of the Gods!</Text>
+		</Row>
+		<!-- Heathen Guard -->
+		<Row Tag="TXT_KEY_EVENT_JFD_HEATHEN_GUARD_PIETY">
+			<Text>The Heathen Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HEATHEN_GUARD_PIETY_DESC">
+			<Text>A member of the court of {1_LeaderName} of {2_CivName} has approached us to enlist one of our personal guards to the service of their prestigious Heathen Guard; an army composed strictly of pagan soldiers. They offer us great pay, but to the sacrifice of one of our most loyal guards.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HEATHEN_GUARD_PIETY_OUTCOME_1">
+			<Text>Very well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HEATHEN_GUARD_PIETY_OUTCOME_2">
+			<Text>No. My guards are not objects to be lent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HEATHEN_GUARD_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose your [ICON_CAPITAL] Capital's garrison[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HEATHEN_GUARD_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Your [ICON_CAPITAL] Capital's garrison gains a bonus promotion[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEATHEN_GUARD_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have agreed to send one of our guards to the service of a foreign court, in exchange for a generous pay - destined for us, of course.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEATHEN_GUARD_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have refused the offer of a foreign court to enlist one of our guards into their service.</Text>
+		</Row>
+		<!-- Call for State Religion -->
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_STATE_RELIGION_PIETY">
+			<Text>Call for State Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_STATE_RELIGION_PIETY_DESC">
+			<Text>There are now many followers of {1_Religion} within our empire and our elite have called for us to formally declare this as the State Religion of our nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_STATE_RELIGION_PIETY_OUTCOME_1">
+			<Text>It is agreed. We shall adopt this State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_STATE_RELIGION_PIETY_OUTCOME_2">
+			<Text>We shall do no such thing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_STATE_RELIGION_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Religion} becomes your State Religion[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_STATE_RELIGION_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Nothing[ENDCOLOR]</Text>
+		</Row>
+		<!--GENERIC RELIGIOUS EVENTS-->
+		<!-- Apocalyptic Threat -->
+		<Row Tag="TXT_KEY_EVENT_JFD_APOCALYPTIC_THREAT_PIETY">
+			<Text>Apocalyptic Threat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_APOCALYPTIC_THREAT_PIETY_DESC">
+			<Text>A number of the clergy have raised concerns that a recent plague conspires in the favour of a foretold apocalypse. They believe that something must be done to show faith, and appeal to you for action.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_APOCALYPTIC_THREAT_PIETY_OUTCOME_1">
+			<Text>Indeed the apocalypse comes! Let the disbelievers suffer!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_APOCALYPTIC_THREAT_PIETY_OUTCOME_2">
+			<Text>Donate money to them! Charity shall appease the Lord.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_APOCALYPTIC_THREAT_PIETY_OUTCOME_3">
+			<Text>Superstitious nonsense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_APOCALYPTIC_THREAT_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]33% of all religious minorities and non-believers in the empire are converted to your State Religion[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_APOCALYPTIC_THREAT_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety and {3_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_APOCALYPTIC_THREAT_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_APOCALYPTIC_THREAT_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>In fear of an impending apocalypse, heretics throughout the empire have converted to our State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_APOCALYPTIC_THREAT_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>In fear of an impending apocalypse, we have donated gold to the clergy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_APOCALYPTIC_THREAT_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have dismissed claims of an impending apocalypse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_APOCALYPTIC_THREAT_1">
+			<Text>Mass conversions are occuring in the {1_CivName} as a result of claims of an impending apocalypse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_APOCALYPTIC_THREAT_2">
+			<Text>{1_LeaderName} of {2_CivName} has donated large sums of gold to the clery under threat of an impending apocalypse.</Text>
+		</Row>
+		<!-- Radical Philosopher -->
+		<Row Tag="TXT_KEY_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY">
+			<Text>Radical Philosopher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_DESC">
+			<Text>A Philosopher has posed serious questions against our faith. These questions are beginning to cause unease amongst the faithful and if we cannot resolve them promptly, they may turn people against us.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_1">
+			<Text>Perhaps this is a sign that our religion is misguided.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_2">
+			<Text>Embrace these questions! Pursuit of their answers can only strengthen our faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_3">
+			<Text>Execute the Philosopher! Their heresy cannot be tolerated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_CULTURE] Culture[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]50% chance that 20% of your empire will convert away from your State Religion[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety and {3_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have lost faith in the infallibility our religion. Oh well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have embraced the questions of a radical philosopher in the hopes that their answers shall strengthen our religion. Unfortunately, however, we've thus far come to realize that the philosopher is quite mad.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_RESULT_2_ALT_NOTIFICATION">
+			<Text>We have embraced the questions of a radical philosopher in the hopes that their answers shall strengthen our religion. So far, this has been to great success!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have executed a radical philosopher who had dared to question our religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PHILOSOPHER_QUESTIONS_RELIGION_PIETY_OUTCOME_RESULT_3_ALT_NOTIFICATION">
+			<Text>We have executed a radical philosopher who had dared to question our religion. Unfortunately, this seems to only have worsened the influence of his beliefs and a portion of our empire has converted away from our religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_1">
+			<Text>The radical teachings of a {1_CivAdj} philosopher has cast doubt in the mind of {2_LeaderName} of {3_CivName} in regards their faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_2">
+			<Text>The radical teachings of a {1_CivAdj} philosopher have been embraced by {2_LeaderName} of {3_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PHILOSOPHER_QUESTIONS_RELIGION_3">
+			<Text>A {1_CivAdj} philosopher has been executed in the {2_CivName} for questioning religious doctrine.</Text>
+		</Row>
+		<!-- Religious Corruption -->
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_CORRUPTION_PIETY">
+			<Text>Religious Corruption</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_CORRUPTION_PIETY_DESC">
+			<Text>A few vocal members of the clergy have begun denouncing their superiors as being corrupt. They claim that our religious elite conduct simony and usury. Some have even gone so far as to question our own piety. We must appease these clergy somehow, before the public start to believe in their accusations.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_CORRUPTION_PIETY_OUTCOME_1">
+			<Text>Investigate these claims! We shall cleanse the clergy of corruption.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_CORRUPTION_PIETY_OUTCOME_2">
+			<Text>Have the agitators thrown in prison.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_CORRUPTION_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_CORRUPTION_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RELIGIOUS_CORRUPTION_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have begun to investigate claims against corruption amongst the religious elite. Indeed it was true! Several Priests had been engaging in lewd conduct, and they have been dealt with accordingly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RELIGIOUS_CORRUPTION_PIETY_OUTCOME_RESULT_1_ALT_NOTIFICATION">
+			<Text>We have begun to investigate claims against corruption amongst the religious elite. Unfortunately, our investigation has turned up nothing. The agitators likely had some personal vendetta against their superiors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RELIGIOUS_CORRUPTION_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have thrown in prison those who have accused the religious elite of corruption. We have been graciously compensated by those elite as a result.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_RELIGIOUS_CORRUPTION_1">
+			<Text>{1_LeaderName} of {2_CivName} has vowed to cleanse the {3_CivAdj} clergy of their corruption.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_RELIGIOUS_CORRUPTION_2">
+			<Text>{1_LeaderName} of {2_CivName} has denounced claims of corruption amongst the {3_CivAdj} clergy.</Text>
+		</Row>
+		<!-- Court Heretic -->
+		<Row Tag="TXT_KEY_EVENT_JFD_COURT_HERETIC_PIETY">
+			<Text>Court Heretic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_COURT_HERETIC_PIETY_DESC">
+			<Text>The clergy have decried one of the members of our court as being a heretic, who allegedly cohorts with {1_Demons} and practices witchcraft! We do not know if these accusations have any merit, but they are beginning to disquiet the court. Something must be done on the matter.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_COURT_HERETIC_PIETY_OUTCOME_1">
+			<Text>These claims are unfounded, and I shall not sacrifice a good courtier for them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_COURT_HERETIC_PIETY_OUTCOME_2">
+			<Text>The courtier will be exiled, but we shall pay for them to live in comfort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_COURT_HERETIC_PIETY_OUTCOME_3">
+			<Text>Have the heretic burned alive!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_COURT_HERETIC_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain 1 [ICON_MAGISTRATES] Magistrate[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_COURT_HERETIC_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {3_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_COURT_HERETIC_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COURT_HERETIC_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have dismissed claims of heresy against a member of our court. In a show of appreciation, they have pledged to double their efforts in their service to our court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COURT_HERETIC_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have exiled a courtier accused of heresy for their own sake, but they shall live their days in comfort for their long-standing service to our court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COURT_HERETIC_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have put to death a courtier accused of heresy! God take his soul.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_COURT_HERETIC_PIETY_1">
+			<Text>{1_LeaderName} of {2_CivName} has denied claims of heresy within their court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_COURT_HERETIC_PIETY_2">
+			<Text>{1_LeaderName} of {2_CivName} has banished from their court a courtier accused of heresy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_COURT_HERETIC_PIETY_3">
+			<Text>{1_LeaderName} of {2_CivName} has put to death one of the members of their court for heresy.</Text>
+		</Row>
+		<!--Pagan Uprising-->
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_UPRISING_PIETY">
+			<Text>Pagan Uprising</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_UPRISING_PIETY_DESC">
+			<Text>A violent group of followers of our long-discarded pagan Gods, long having worshipped in secret, have sparked an uprising within our empire. Driven mad by their barbarous devotion to heresy, they are beyond reconciliation, and can only be stopped by means of force.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_UPRISING_PIETY_OUTCOME_1">
+			<Text>We must put this uprising down!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_UPRISING_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Two barbarians spawn within your empire[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PAGAN_UPRISING_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>A pagan uprising has begun within our empire. But God shall deliver us to victory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PAGAN_UPRISING">
+			<Text>A pagan uprising has broken out in the {1_CivName}.</Text>
+		</Row>
+		<!--Witchcraft-->
+		<Row Tag="TXT_KEY_EVENT_JFD_WITCHCRAFT_PIETY">
+			<Text>Witchcraft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_WITCHCRAFT_PIETY_DESC">
+			<Text>Rampant acts of witchcraft have been reported throughout the empire. Witchcraft is of the highest blasphemy and it is unacceptable that this practice has become so wide-spread. We must act swiftly and without mercy against the abominations that have orchestrated this heresy![NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_WITCHCRAFT_PIETY_OUTCOME_1">
+			<Text>But I love witchcraft...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_WITCHCRAFT_PIETY_OUTCOME_2">
+			<Text>Establish an inquisition to root out witchcraft wherever it might dwell!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_WITCHCRAFT_PIETY_OUTCOME_3">
+			<Text>Let us encourage vigilantism against the witches.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_WITCHCRAFT_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Receive a random [ICON_CULTURE] Culture, [ICON_GOLD] Gold or [ICON_RESEARCH] Science boost[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_WITCHCRAFT_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]The Grand Inquisition is constructed in the [ICON_CAPITAL] Capital[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_WITCHCRAFT_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_CULTURE] Culture[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WITCHCRAFT_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have shamelessly declared our tolerance for witchcraft. Somehow, as if by magic, we receive {1_Num} {2_Type}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WITCHCRAFT_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have established the Holy {1_Adjective} Office of the Universal Inquisition Against Witchcraft and Wizardry to root out witchery in our empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WITCHCRAFT_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have promoted local vigilantism against witchcraft. Peasants are gleefully hunting down witches wherever they find them - unfortunately, we suspect some innocents have been killed in the process.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WITCHCRAFT_PIETY_OUTCOME_RESULT_3_ALT_NOTIFICATION">
+			<Text>We have promoted local vigilantism against witchcraft. Nobles are joyously hunting down witches for sport.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_WITCHCRAFT_1">
+			<Text>{1_LeaderName} of {2_CivName} has purportedly embraced witchcraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_WITCHCRAFT_2">
+			<Text>{1_LeaderName} has launched an inquisition to root out witchcraft in the {2_CivName}.</Text>
+		</Row>
+		<!-- Religious Diaspora -->
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_DIASPORA_PIETY">
+			<Text>Religious Diaspora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_DIASPORA_PIETY_DESC">
+			<Text>Followers of {1_Religion} cast from their homeland have come to our borders seeking refuge. They bring with them foreign ideas, but also an abundance of gold - perfect to line our pockets.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_DIASPORA_PIETY_OUTCOME_1">
+			<Text>They are welcome in my empire! Should they pay the price, of course.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_DIASPORA_PIETY_OUTCOME_2">
+			<Text>Turn them away! I shall accept no heretics in my empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_DIASPORA_PIETY_OUTCOME_3">
+			<Text>We shall give them our mercy, unconditionally.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_DIASPORA_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]10% of all [ICON_CITIZEN] Citizens in each city will convert to {2_Religion}[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {3_Num} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_DIASPORA_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLDEN_AGE] Golden Age points[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIGIOUS_DIASPORA_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]10% of all [ICON_CITIZEN] Citizens in each city will convert to {2_Religion}[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {3_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RELIGIOUS_DIASPORA_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have embraced religious minorities - and their coin - seeking refuge in our empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RELIGIOUS_DIASPORA_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have turned away religious minorities seeking refuge in our empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RELIGIOUS_DIASPORA_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have embraced religious minorities seeking refuge in our empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_RELIGIOUS_DIASPORA_1">
+			<Text>Followers of {1_Religion} seeking refuge have been accepted by {2_LeaderName} into the {3_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_RELIGIOUS_DIASPORA_2">
+			<Text>Followers of {1_Religion} seeking refuge have been turned away by {2_LeaderName} of {3_CivName}.</Text>
+		</Row>
+		<!--Voice of God-->
+		<Row Tag="TXT_KEY_EVENT_JFD_VOICE_OF_GOD_PIETY">
+			<Text>Voice of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_VOICE_OF_GOD_PIETY_DESC">
+			<Text>Word that a lowly soldier speaks with God has reached our Court. The soldier claims that God has ordained them to lead our armies to great success. Whether this be true or not, it is causing some unease amongst our high officers, and should be addressed promptly.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_VOICE_OF_GOD_PIETY_OUTCOME_1">
+			<Text>This soldier is clearly speaking blasphemy and must be brought to justice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_VOICE_OF_GOD_PIETY_OUTCOME_2">
+			<Text>Perhaps we should heed the word of this soldier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_VOICE_OF_GOD_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_VOICE_OF_GOD_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain a free Great General which begins with the Medic promotion[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_VOICE_OF_GOD_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have executed a soldier that had been speaking blasphemy. We pray we have made the right decision.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_VOICE_OF_GOD_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have heeded the word of a soldier claiming to hear the voice of God. We pray that good will come of this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_VOICE_OF_GOD_1">
+			<Text>A soldier claiming to speak to God in the {1_CivName} has been put to death.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_VOICE_OF_GOD_2">
+			<Text>A soldier claiming to speak to God has been embraced by {1_LeaderName} of {2_CivName}.</Text>
+		</Row>
+		<!--Temple Destroyed!-->
+		<Row Tag="TXT_KEY_EVENT_JFD_TEMPLE_DESTROYED_PIETY">
+			<Text>Temple Destroyed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_TEMPLE_DESTROYED_PIETY_DESC">
+			<Text>A freak accident in the city of {1_CityName} has led to the destruction of the local Temple. The priests there claim that is a sign that God disfavours our current level of piety.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_TEMPLE_DESTROYED_PIETY_OUTCOME_1">
+			<Text>We shall pledge gold to rebuild this Temple at once.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_TEMPLE_DESTROYED_PIETY_OUTCOME_2">
+			<Text>We shall not pay for a new one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_TEMPLE_DESTROYED_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_TEMPLE_DESTROYED_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]The Temple in {1_CityName} is destroyed[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TEMPLE_DESTROYED_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>The Temple at {1_CityName} has been re-constructed and spared the disfavour of God.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TEMPLE_DESTROYED_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>The Temple at {1_CityName} shall remain in ruins.</Text>
+		</Row>
+		<!--Miracle-->
+		<Row Tag="TXT_KEY_EVENT_JFD_MIRACLES_PIETY">
+			<Text>Miracle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_MIRACLES_PIETY_DESC">
+			<Text>Clergy in the city of {1_CityName} claim that a miracle has been witnessed at the local {2_Building}. Their claims have begun to attract pilgrims, who allege that a child has been born to a previously infertile noblewoman.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_MIRACLES_PIETY_OUTCOME_1">
+			<Text>Embrace these miracles! They are proof of our divine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_MIRACLES_PIETY_OUTCOME_2">
+			<Text>People should be paying to see something so precious!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_MIRACLES_PIETY_OUTCOME_3">
+			<Text>Have the perpetrators rescind their claims or thrown in jail for this blasphemy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_MIRACLES_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_MIRACLES_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_MIRACLES_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MIRACLES_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have embraced a miracle within our empire!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MIRACLES_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have enforced an admission price over a miracle within our empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MIRACLES_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have put a stop to all claims of a miracle within our empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_MIRACLES_1">
+			<Text>{1_LeadeName} has embraced claims of miracles being performed within a city in the {2_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_MIRACLES_3">
+			<Text>{1_LeadeName} has denounced claims of miracles being performed within a city in the {2_CivName}.</Text>
+		</Row>
+		<!--Relic Peddler-->
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIC_PEDDLER_PIETY">
+			<Text>Relic Peddler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIC_PEDDLER_PIETY_DESC">
+			<Text>A renown purveyor of ancient and sacred relics has approached us with an offer of what he claims to be a genuine {1_RelicName}. If the sanctity that the peddler purports is true, then as a good and faithful ruler we must possess this most sacred relic.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIC_PEDDLER_PIETY_OUTCOME_1">
+			<Text>We must purchase these relics, whatever the cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIC_PEDDLER_PIETY_OUTCOME_2">
+			<Text>A purveyor of false worship and in-genuine sale, more like.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIC_PEDDLER_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]80% chance to gain a free Artifact[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_RELIC_PEDDLER_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RELIC_PEDDLER_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have purchased a new religious relic: a genuine {1_RelicName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RELIC_PEDDLER_PIETY_OUTCOME_RESULT_1_ALT_NOTIFICATION">
+			<Text>Unfortunately, the {1_RelicName} that we purchased would seem to have been a fake and is completely worthless.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RELIC_PEDDLER_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We turned away a peddler of religious relics claiming to be in possession of a genuine {1_RelicName}.</Text>
+		</Row>
+		<!--Homosexual Priest-->
+		<Row Tag="TXT_KEY_EVENT_JFD_HOMOSEXUAL_PRIEST_PIETY">
+			<Text>Homosexual Priest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOMOSEXUAL_PRIEST_PIETY_DESC">
+			<Text>It has come to our attention that a member of the clergy has taken to the company of a handsome young man, in a way most inappropriate. We have been asked to respond to the matter discretely.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOMOSEXUAL_PRIEST_PIETY_OUTCOME_1">
+			<Text>Perhaps we should pay this Priest a visit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOMOSEXUAL_PRIEST_PIETY_OUTCOME_2">
+			<Text>This is outrageous. The Priest must be defrocked immediately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOMOSEXUAL_PRIEST_PIETY_OUTCOME_3">
+			<Text>If the Priest has done no harm, then it is no concern of ours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOMOSEXUAL_PRIEST_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOMOSEXUAL_PRIEST_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_CULTURE] Culture[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOMOSEXUAL_PRIEST_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HOMOSEXUAL_PRIEST_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have paid a visit to a reportedly homosexual member of the clergy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HOMOSEXUAL_PRIEST_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have defrocked a reportedly homosexual member of the clergy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HOMOSEXUAL_PRIEST_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have allowed a reportedly member of the clergy to continue their romantic interests at their discretion.</Text>
+		</Row>
+		<!--Benedictine Monk-->
+		<Row Tag="TXT_KEY_EVENT_JFD_BENEDICTINE_MONK">
+			<Text>Benedictine Monk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BENEDICTINE_MONK_DESC">
+			<Text>
+				The many holy centres within our empire often attract pilgrims, bringing with them wealth and faith abound, but they still refuse to permanently settle. A Benedictine Monk has recently arrived at our court. If we persuade him to stay, it would surely benefit the faith of our realm. We should be weary, however, that such an act would interfere with the Monk's sacred pilgrimage and could be considered blasphemy.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BENEDICTINE_MONK_OUTCOME_1">
+			<Text>Let us persuade the Monk to settle within our realm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BENEDICTINE_MONK_OUTCOME_2">
+			<Text>We should not interfere in the Monk's pilgrimage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BENEDICTINE_MONK_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain a free Monastery in the [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BENEDICTINE_MONK_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BENEDICTINE_MONK_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have persuaded a Benedictine Monk to settle in our empire and establish a new Monastery.</Text>
+		</Row>
+		<!--Pagan Festival-->
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_FESTIVAL">
+			<Text>Pagan Festival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_FESTIVAL_DESC">
+			<Text>
+				A once commonplace pagan festival is fast approaching and the people are concerned that their new religion would prohibit their participation in the celebrations. If we let the festival go ahead, it might appease our people, but at what cost to our piety?[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_FESTIVAL_OUTCOME_1">
+			<Text>Let the festival proceed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_FESTIVAL_OUTCOME_2">
+			<Text>This blasphemy will not happen under my watch.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_FESTIVAL_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]All cities begin celebrating 'We Love the King Day' for 2 turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_PAGAN_FESTIVAL_OUTCOME_RESULT_2">
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_BULLET]30% chance that the [ICON_CAPITAL] Capital will enter 1 turn of [ICON_RESISTANCE] Resistance[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PAGAN_FESTIVAL_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have allowed a traditionally pagan festival to proceed, in spite of this obvious blasphemy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PAGAN_FESTIVAL_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have forbidden the procession of a traditionally pagan festival, to the benefit of our piety.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PAGAN_FESTIVAL_OUTCOME_RESULT_2_ALT_NOTIFICATION">
+			<Text>We have forbidden the procession of a traditionally pagan festival. However, our decision has been met with some resistance in the capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PAGAN_FESTIVAL_1">
+			<Text>{1_LeaderName} has forbidden a traditionally-held pagan festival to proceed in the {2_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_PAGAN_FESTIVAL_2">
+			<Text>{1_LeaderName} has allowed a traditionally-held pagan festival to proceed in the {2_CivName}.</Text>
+		</Row>
+		<!--Holy Order-->
+		<Row Tag="TXT_KEY_EVENT_JFD_HOLY_ORDER_PIETY">
+			<Text>Holy Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOLY_ORDER_PIETY_DESC">
+			<Text>A band of warriors calling themselves the {1_Flavour} in Service of {2_ReligionName} have arrived at our Court, asking that they be allowed to establish a Chapter of their order within our empire. In doing so, they pledge their name in the defence of the religious integrity of our state. If we turn them down, they may never be seen again, so we must think carefully on this matter.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOLY_ORDER_PIETY_OUTCOME_1">
+			<Text>It is agreed. Their order shall find home within our empire's borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOLY_ORDER_PIETY_OUTCOME_2">
+			<Text>We shall not have these merchants of war in our homeland. We trust in God.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOLY_ORDER_PIETY_OUTCOME_3">
+			<Text>Alas, we cannot afford to patronise their order, and must turn them away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOLY_ORDER_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {2_Num} [ICON_GOLD] Gold[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Chapter Houses are established in all cities following your State Religion. Chapter Houses increase the starting XP for Land Units and increase a city's [ICON_PEACE] Faith output[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOLY_ORDER_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_PEACE] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HOLY_ORDER_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Nothing[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HOLY_ORDER_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have embraced The {1_Flavour} and their Chapters have been established throughout our empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HOLY_ORDER_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have turned away The {1_Flavour} in favour of our faith in God.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HOLY_ORDER_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have been forced to turn away The {1_Flavour} in Service of {2_ReligionName}, for that we lack the faith to patronise them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_HOLY_ORDER_1">
+			<Text>The {1_Flavour} in Service of {2_ReligionName} have established their Chapter Houses in {3_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_HOLY_ORDER_2">
+			<Text>The {1_Flavour} in Service of {2_ReligionName} have been turned away by {3_LeaderName} of {4_CivName}.</Text>
+		</Row>
+		<!--Chapter House-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHAPTER_HOUSE">
+			<Text>Chapter House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHAPTER_HOUSE_HELP">
+			<Text>+15 XP for all Land Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHAPTER_HOUSE_STRATEGY">
+			<Text>Can only be acquired through the Holy Order event. Chapter Houses provide experience for military land units constructed in the city. This experience can be used to give the units Promotions, making them more effective in battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHAPTER_HOUSE_PEDIA">
+			<Text>A Chapter House is the local meeting place for religious military orders; societies founded for the purpose of defending and propagating a particular faith - usually Christian. Many famous military orders were active during the Middle Ages, such as the Teutonic Knights, the Knights Hospitaller, and the Knights of Saint John. Today, those military orders survive, exist strictly a charitable or ceremonial organisations, and no longer partake in the persecution of the blasphemous.</Text>
+		</Row>
+		<!--STATE RELIGION EVENTS-->
+		<!--Clergy Concerned-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_1_PIETY">
+			<Text>Clergy Concerned</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_1_PIETY_DESC">
+			<Text>A number of the clergy have raised concerns over the extent of heresy in the empire; it is so widespread that more than half the empire follows a foreign religion! They appeal to us to address the matter.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_1_PIETY_OUTCOME_1">
+			<Text>The people can worship how they wish. But our State Religion is ancient and sacred.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_1_PIETY_OUTCOME_2">
+			<Text>Perhaps it is time to change our State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_1_PIETY_OUTCOME_3">
+			<Text>We shall create a special mission to remedy this heresy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_1_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_CULTURE] Culture[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_1_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Your State Religion becomes {2_NewStateReligion}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_1_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {2_Num} [ICON_GOLD] Gold[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]50% of your empire is converted to your State Religion[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_CONCERNED_1_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have decreed that our State Religion is to remain, despite the mass of heresy committed against it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_CONCERNED_1_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have decreed that our State Religion is to become {1_NewStateReligion} in accordance with the beliefs of our people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_CONCERNED_1_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have established a mission to counter the widespread heresy being committed within the empire.</Text>
+		</Row>
+		<!-- Clergy Concerned 2 -->
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_2_PIETY">
+			<Text>Clergy Concerned</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_2_PIETY_DESC">
+			<Text>A number of the clergy have raised concerns over our level of piety. They accuse us of having become complacent in our faith, and that it has slipped dangerously into heresy. Their concerns must be settled.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_2_PIETY_OUTCOME_1">
+			<Text>If the sovereign does it, it is not heresy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_2_PIETY_OUTCOME_2">
+			<Text>It is true. But I shall do my utmost to repent my impiety.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_2_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CLERGY_CONCERNED_2_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE} Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_CONCERNED_2_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have condemned accusations of heresy against us, much to the disapproval of the clergy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_CONCERNED_2_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have accepted accusations of heresy against us, and have pledged to repent for our impiety.</Text>
+		</Row>
+		<!-- Call for Secularization -->
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_SECULARISATION_PIETY">
+			<Text>Call for Secularization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_SECULARISATION_PIETY_DESC">
+			<Text>The people no longer approve of the idea that their nation would promote one religion over another; believing it illiberal and oppressive. They call for the secularization of the state.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_SECULARISATION_PIETY_OUTCOME_1">
+			<Text>Absolutely not. Our State Religion is the irrefutable law of God.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_SECULARISATION_PIETY_OUTCOME_2">
+			<Text>If the people will it, then so be it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_SECULARISATION_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]The [ICON_CAPITAL] Capital goes into one turn of [ICON_RESISTANCE] Resistance[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CALL_FOR_SECULARISATION_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]The [ICON_CAPITAL] Capital goes into one turn of [ICON_RESISTANCE] Resistance[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Your State Religion is disbanded[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CALL_FOR_SECULARISATION_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have rejected the call of the people to secularize the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CALL_FOR_SECULARISATION_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have conceded to the demands of the people and have pledged to initiate the secularization of the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_CALL_FOR_SECULARISATION_1">
+			<Text>{1_LeaderName} of {2_CivName} has denied calls for the {3_CivAdj} state to be made secular.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_CALL_FOR_SECULARISATION_2">
+			<Text>{1_LeaderName} of {2_CivName} has conceded to demands for the {3_CivAdj} state to be made secular.</Text>
+		</Row>
+		<!--Fog From Hell-->
+		<Row Tag="TXT_KEY_EVENT_JFD_FOG_FROM_HELL_PIETY">
+			<Text>Fog From Hell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_FOG_FROM_HELL_PIETY_DESC">
+			<Text>A mysterious and deadly fog has suddenly appeared over a forest near the city of {1_CityName}. It is said by the local folk that the fog is a conjuration of the evil beyond and that those that enter it are never seen again. Whatever it may be, it infects the land with its noxious fumes and we must act to dispel it.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_FOG_FROM_HELL_PIETY_OUTCOME_1">
+			<Text>A show of faith will surely have it dissipate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_FOG_FROM_HELL_PIETY_OUTCOME_2">
+			<Text>Have our best researchers figure it's cause.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_FOG_FROM_HELL_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]30% chance that the Fallout is cleared[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_FOG_FROM_HELL_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]30% chance that the Fallout is cleared[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FOG_FROM_HELL_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>After a night of intense devotion, the hellish fog surrounding one of our cities has finally dissipated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FOG_FROM_HELL_PIETY_OUTCOME_RESULT_1_ALT_NOTIFICATION">
+			<Text>After a night of intense devotion, the hellish fog surrounding one of our cities unfortunately yet remains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FOG_FROM_HELL_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>Researchers have determined that the hellish fog surrounding one of our cities is but a natural phenomenon, and predict that it shall soon pass.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FOG_FROM_HELL_PIETY_OUTCOME_RESULT_2_ALT_NOTIFICATION">
+			<Text>Researchers have been unable to determine the cause of the hellish fog surrounding one of our cities.</Text>
+		</Row>
+		<!--Hagia Sophia-->
+		<Row Tag="TXT_KEY_EVENT_JFD_HAGIA_SOPHIA_PIETY">
+			<Text>Hagia Sophia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HAGIA_SOPHIA_PIETY_DESC">
+			<Text>The great Hagia Sophia is a monument to an improper faith. We must take great care to see that the wonder is converted for our religious needs.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HAGIA_SOPHIA_PIETY_OUTCOME_1">
+			<Text>We wish to preserve it's Monastery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HAGIA_SOPHIA_PIETY_OUTCOME_2">
+			<Text>We wish to convert it into a {1_BuildingDesc}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HAGIA_SOPHIA_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Nothing[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_HAGIA_SOPHIA_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]The free Monastery from the Hagia Sophia is removed[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain a free {2_BuildingDesc} in {3_CityName}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HAGIA_SOPHIA_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>To no-one's notice, we have decreed the Monastery at the Hagia Sophia remain untouched.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HAGIA_SOPHIA_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>At great personal expense but greater devotion, we have ordained the conversion of the Hagia Sophia into a religious monument worthy of our faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_HAGIA_SOPHIA_1">
+			<Text>{1_LeaderName} of {2_CivName} has converted the Hagia Sophia into a {3_BuildingDesc}.</Text>
+		</Row>
+		<!--Book Burning-->
+		<Row Tag="TXT_KEY_EVENT_JFD_BOOK_BURNING_PIETY">
+			<Text>Book Burning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BOOK_BURNING_PIETY_DESC">
+			<Text>Local priests have decried a new novel as inciting witchcraft and wizardry, and have organized a book burning in order to see the book and its contents destroyed.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BOOK_BURNING_PIETY_OUTCOME_1">
+			<Text>We endorse these burnings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BOOK_BURNING_PIETY_OUTCOME_2">
+			<Text>We must put a stop to this!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BOOK_BURNING_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_CULTURE] Culture[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BOOK_BURNING_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BOOK_BURNING_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have approved the gathering of a book burning against a novel said to incite witchcraft, much to the dismay of writers across the nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BOOK_BURNING_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have forbidden the book burning of a novel said to incite witchcraft, dampening the clergy's opinion of us.</Text>
+		</Row>
+		<!--Rosicrucian Manifestos-->
+		<Row Tag="TXT_KEY_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY">
+			<Text>Rosicrucian Manifestos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_DESC">
+			<Text>
+				Documents of unknown authorship have surfaced in {1_CityName} claiming the existence of an esoteric order which follow an unusual blend of modern faiths and ancient rites. According to the documents, the order - known as the Order of the Rose Cross - aim to create a cultural and religious movement to one day unite and reform the religions of the world. Perhaps if we were to allow the Hermetic faith to be freely practiced within our realm, this order would make themselves known.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_OUTCOME_1">
+			<Text>Then we must open our minds to Hermeticism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_OUTCOME_2">
+			<Text>Mere fantasy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_OUTCOME_3">
+			<Text>These documents are dangerous and must be destroyed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_RELIGION_JFD_HERMETICISM] Hermeticism is founded in {2_CityName}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_JFD_PIETY] Piety[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_CULTURE] Culture[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have opened our cities to the teachings of Hermeticism, in the hopes that the Order of the Rose Cross might make themselves known.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have declared the Order of the Rose Cross as nothing more than myth and legend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have decreed the destruction of any documents pertaining to the Order of the Rose Cross.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_1">
+			<Text>Following the surfacing of documents purporting the existence of an esoteric order known as the Order of the Rose Cross, {1_LeaderName} of {2_CivName} has opened their cities to the teachings of Hermeticism, in the hopes that the Order might reveal themselves to the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_2">
+			<Text>Documents purporting the existence of an esoteric order known as the Order of the Rose Cross have emerged in {2_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_ROSICRUCIAN_MANIFESTOS_PIETY_3">
+			<Text>{1_LeaderName} of {2_CivName} has ordered the destruction of documents purporting the existence of an esoteric order known as the Order of the Rose Cross.</Text>
+		</Row>
+		<!--Religious Schism-->
+		<Row Tag="TXT_KEY_EVENT_JFD_SCHISM_PIETY">
+			<Text>Religious Schism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SCHISM_PIETY_DESC">
+			<Text>A malcontent theologian has decried the moral failings of our faith. His work has had a serious impact upon the people of {1_CityStateName}, and they have begun to take up the cause of a new religion: {2_ReligionDesc}.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SCHISM_PIETY_OUTCOME_1">
+			<Text>This blasphemy shall not stand!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SCHISM_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{2_ReligionDesc} is founded in {1_CityStateName}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SCHISM_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>A malcontent theologian has decried the moral failings of {1_ReligionDesc}. His teachings have inspired the emergence of a new faith, {2_ReligionDesc}, in the city of {3_CityStateName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_SCHISM_PIETY_1">
+			<Text>A malcontent theologian has decried the moral failings of {1_ReligionDesc}. His teachings have inspired the emergence of a new faith, {3_ReligionDesc}, in the {2_CivAdj} city of {4_CityStateName}.</Text>
+		</Row>
+		<!--Bodhisattva-->
+		<Row Tag="TXT_KEY_EVENT_JFD_BODHISATTVA_PIETY">
+			<Text>Bodhisattva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BODHISATTVA_PIETY_DESC">
+			<Text>A wandering stranger from an exotic land has arrived at our court, bringing with him the esoteric teachings of his master. They call him a Bodhisattva - one who has postponed nirvana for the benefit of others. He requests only that we might grant him lodgings for the night.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BODHISATTVA_PIETY_OUTCOME_1">
+			<Text>He shall teach us the Dharma.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BODHISATTVA_PIETY_OUTCOME_2">
+			<Text>He may stay, but I shall hear no word from him.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BODHISATTVA_PIETY_OUTCOME_3">
+			<Text>Throw him out. This is not an inn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BODHISATTVA_PIETY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Followers of {1_Religion} in the [ICON_CAPITAL] Capital convert to {2_Religion}[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]If not already, you meet the founder of {2_Religion}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BODHISATTVA_PIETY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]30% chance that the Fallout is cleared[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_BODHISATTVA_PIETY_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_PEACE] Faith[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EVENT_JFD_BODHISATTVA_PIETY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>Our faith has become enraptured by the teachings of a wandering Boddhisattva, and we have become convinced that Buddhism is the path to enlightenment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EVENT_JFD_BODHISATTVA_PIETY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have agreed to allow a wandering Boddhisattva to take lodging at our Palace, so long as they would refrain from preaching their so-called Dharma.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EVENT_JFD_BODHISATTVA_PIETY_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have forbidden a wandering Boddhisattva from lodging at our Palace; much to the pleasure of the clergy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_BODHISATTVA_1">
+			<Text>A wandering Boddhisattva, an adherent of the Buddhist faith, has enraptured the faith of {1_LeaderName} of {2_CivName}.</Text>
+		</Row>
+		<!--RELIGION-SPECIFIC EVENTS-->
+		<Row Tag="TXT_KEY_EVENT_JFD_PROTESTANTCANON_OUTCOME_3_DESC">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Reward} [ICON_JFD_PIETY] Piety[ENDCOLOR]</Text>
+		</Row>
+		<!--CIV-SPECIFIC EVENTS-->
+		<!-- Israel (Leugi): Bathsheba -->
+		<Row Tag="TXT_KEY_EVENT_JFD_PIETY_ISRAEL_BATHSEBA_OUTCOME_RESULT_1">
+			<Text>
+				[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose all your [ICON_FAITH] Faith[ENDCOLOR]
+				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose all your [ICON_GOLDEN_AGE] Golden Age Points and stop a [ICON_GOLDEN_AGE] Golden Age if started[ENDCOLOR]
+				[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR]
+				[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Receive a free Great Prophet[ENDCOLOR]
+			</Text>
+		</Row>
+		<!--SUKRITACT SUZERAINTY-->
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_1">
+			<Text>Your dedication to our religion is truly mesmerizing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_2">
+			<Text>Thank you. We promise to change our sinful ways from now on.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_3">
+			<Text>There is no one more pious than you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_4">
+			<Text>Splendid. A great weight has now lifted from this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_5">
+			<Text>So we're absolved of our sins now, right?</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

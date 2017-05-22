@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/16/2015 6:48:04 PM -->
+<GameData>
+	<Language_en_US>
+		<!--SUKRITACT EVENTS-->
+		<!--Foreign Dignitary Abducted!-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ABDUCTION">
+			<Text>Foreign Dignitary Abducted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ABDUCTION_DESC">
+			<Text>A dignitary visiting from {1_CityState} has been kidnapped from the streets in {2_City}! The incident has not only caused widespread panic throughout the city, but has damaged our relations with {1_CityState}.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ABDUCTION_OUTCOME_1">
+			<Text>Oh well...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ABDUCTION_OUTCOME_2">
+			<Text>We must find them at once!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ABDUCTION_OUTCOME_3">
+			<Text>I have a very particular set of skills...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ABDUCTION_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {2_Num} [ICON_INFLUENCE] Influence with {1_CityState}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ABDUCTION_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {2_Num} [ICON_INFLUENCE] Influence with {1_CityState}[NEWLINE][ICON_BULLET]Lose {3_Num} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ABDUCTION_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_CityName} goes into 2 turns of [ICON_RESISTANCE] Resistance[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_ABDUCTION_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have declined to respond to the recent abduction of a visiting emissary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_ABDUCTION_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>Following the abduction of a visiting emissary, we have pledged to use what resources we have to see them returned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_ABDUCTION_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>Following the abduction of a visiting emissary, we have pledged to use what skills we have to see them returned. In doing so, however, we have left in our wake a city half-destroyed by bombs and drive-bys!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORLD_EVENT_CRIMES_ABDUCTION">
+			<Text>An emissary visiting from {1_CityState} has been abducted in the {2_CivAdj} city of {3_CityName}.</Text>
+		</Row>
+		<!--Embezzling Politician-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_CORRUPTION">
+			<Text>Embezzling Politician</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_CORRUPTION_DESC">
+			<Text>We have discovered to our dismay that an important member of our government has been embezzling state funds. We must decide what to do with them.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_CORRUPTION_OUTCOME_1">
+			<Text>The politician must be held to account.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_CORRUPTION_OUTCOME_2">
+			<Text>We should turn a blind eye for the time being.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_CORRUPTION_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose 1 [ICON_MAGISTRATES] Magistrate[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_CORRUPTION_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLDEN_AGE] Golden Age Points[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_CORRUPTION_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have held to account a politician believed to be embezzling state funds.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_CORRUPTION_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>Inclined toward their service in government, we have opted to ignore a politician believed to be embezzling state funds.</Text>
+		</Row>
+		<!--Fraudalant Species-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_FRAUD">
+			<Text>Fraudalant Species</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_FRAUD_DESC">
+			<Text>A previously lauded discovery by a local scientist has turned out to be nothing more than a forgery! It is alleged that the scientist sowed together the parts to several animals, before asserting his claim on the discovery of a new species.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_FRAUD_OUTCOME_1">
+			<Text>I expect that man's title to be stripped.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_FRAUD_OUTCOME_2">
+			<Text>For the public's interest, let's say the thing is extinct.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_FRAUD_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_RESEARCH] Science[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_GOLDEN_AGE] Golden Age Points[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_FRAUD_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_FRAUD_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have stripped the doctorate from a scientist involved in falsely asserting the discovery of a new animal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_FRAUD_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>For the good of the public, we have 'discovered' evidence that the fraudulant creation of a mad scientist, passed off as a new animal species, is actually extinct.</Text>
+		</Row>
+		<!--Heretic Preacher!-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_HERESY">
+			<Text>Heretic Preacher!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_HERESY_DESC">
+			<Text>A local priest of {1_CityName} has begun to preach what is most undeniably heresy! We have been asked by our faithful to put a stop to it before our people are swayed by his lies.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_HERESY_OUTCOME_1">
+			<Text>Have the priest arrested!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_HERESY_OUTCOME_2">
+			<Text>We are a free society and the priest may practice as he pleases.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_HERESY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]30% chance that {1_CityName} will go into 1 turn of [ICON_RESISTANCE] Resistance.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} {3_YieldType}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_HERESY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} {2_YieldType}[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {3_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_HERESY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have ordered the arrest of a priest spouting heresies, to little public objective.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_HERESY_OUTCOME_RESULT_1_ALT_NOTIFICATION">
+			<Text>We have ordered the arrest of a priest spouting heresies. However, his misguided followers have now risen up in protest!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_HERESY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have ordered that a priest spouting heresies remain protected under the free society that we live, be it at cost to our piety.</Text>
+		</Row>
+		<!--Stockpile Stolen!-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_THEFT">
+			<Text>Stockpile Stolen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_THEFT_DESC">
+			<Text>A stockpile of {1_ResourceIcon} {2_ResourceDesc} has reportedly gone missing. Whether it be at the hands of an enemy of the state or a disgruntled commander, we must surely look to recover these resources.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_THEFT_OUTCOME_1">
+			<Text>This will not do at all. This stockpile must be found.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_THEFT_OUTCOME_2">
+			<Text>We've more important matters to worry about.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_THEFT_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_THEFT_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} {2_Icon} {3_Desc}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_THEFT_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have managed to recover a stolen stockpile of {1_Icon} {2_Desc}. However, we were unable to ascertain as to the thief.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_THEFT_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have decided not to pursue the case of a stolen stockpile of {1_Icon} {2_Desc}. We shall simply recover the resources elsewhere.</Text>
+		</Row>
+		<!--A Friend's Betrayal-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TREASON">
+			<Text>A Friend's Betrayal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TREASON_DESC">
+			<Text>To our grave dismay, we have learnt that a great friend to us is at the helm of a conspiracy to see us dead. But like any other, they must be brought to face justice.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TREASON_OUTCOME_1">
+			<Text>They must be arrested. But comfortably.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TREASON_OUTCOME_2">
+			<Text>No punishment would surely render this heartache just. Kill them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TREASON_OUTCOME_3">
+			<Text>We must confront them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TREASON_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Progress toward [ICON_RESISTANCE] Resistance in the [ICON_CAPITAL] Capital is increased by {1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TREASON_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]50% chance that the [ICON_CAPITAL] Capital goes into 1 turn of [ICON_RESISTANCE] Resistance.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TREASON_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Progress toward [ICON_RESISTANCE] Resistance in the [ICON_CAPITAL] Capital is decreased by {1_Num}[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]The [ICON_CAPITAL] Capital goes into 1 turn of [ICON_RESISTANCE] Resistance[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_TREASON_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>Although we have had our conspiring friend arrested, they no doubt brood and await their opportunity to take their revenge.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_TREASON_OUTCOME_RESULT_2_ALT_NOTIFICATION">
+			<Text>Upon learning of the execution of their leader, a group of conspirators have given up their cause to see us dead.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_TREASON_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>Upon learning of the execution of their leader, a group of conspirators have staged a riot in the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_TREASON_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>Our confrontation with our conspiring friend has led to a peaceful resolution, but their co-conspirators have broken out in riot.</Text>
+		</Row>
+		<!--Statue Damaged!-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VANDALISM">
+			<Text>Statue Damaged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VANDALISM_DESC">
+			<Text>Some villainous scoundral has torn the arm from one of our great statues in {1_City}, perhaps in conspiracy against our rule! It would cost much to repair the damage, however, it would cost equally to our legitimacy to leave it in its current state.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VANDALISM_OUTCOME_1">
+			<Text>Demolish it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VANDALISM_OUTCOME_2">
+			<Text>We must repair it at once!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VANDALISM_OUTCOME_3">
+			<Text>Find the culprits and put them to work on it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VANDALISM_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]The {1_BuildingDesc} in {3_City} is destroyed.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_PRODUCTION] Production in {3_City}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VANDALISM_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]{2_City} begins celebrating 'We Love the King Day' for {3_Num} turns[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VANDALISM_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_VANDALISM_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have decreed that a monument recently damaged by vandals be destroyed and the materials put to use elsewhere.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_VANDALISM_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have decreed the repairation of a monument recently damaged by vandals, and we pledge funds to this endeavour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_VANDALISM_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have captured the vandals responsible for damaging a well-known monument, and have set them to work in repairing it.</Text>
+		</Row>
+		<!--Bread Riot!-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VIOLENCE">
+			<Text>Bread Riot!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VIOLENCE_DESC">
+			<Text>People in the city of {1_City} have begun to protest over what they claim to be an exorbitant price to bread. They threaten violence and looting upon the local bakeries if they cannot be fed.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VIOLENCE_OUTCOME_1">
+			<Text>Let them eat cake!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VIOLENCE_OUTCOME_2">
+			<Text>Fire the milita upon them!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VIOLENCE_OUTCOME_3">
+			<Text>Then we must prioritize their contentment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VIOLENCE_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_City} enters [ICON_RESISTANCE] Resistance for 3 turns[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VIOLENCE_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_City} loses 1 [ICON_CITIZEN] Population[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_VIOLENCE_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_VIOLENCE_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>A bread riot has broken out in {1_City} over the price of bread.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_VIOLENCE_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have set the local militia to disperse a crowd threatening violence in protest over the price of bread, resulting in the death of several protestors and soldiers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_VIOLENCE_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have paid in gold to disperse a crowd threatening violence in protest over the price of bread.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORLD_EVENT_CRIMES_VIOLENCE_1">
+			<Text>Riots have broken out in the {1_CivAdj} city of {2_CityName} over the price of bread.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORLD_EVENT_CRIMES_VIOLENCE_2">
+			<Text>Rioters over the price of bread have been massacred in the {1_CivAdj} city of {2_CityName}.</Text>
+		</Row>
+		<!--ORGANIZED CRIME EVENTS-->
+		<!--Anarchist Student-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ANARCHISTS">
+			<Text>Anarchist Student</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ANARCHISTS_DESC">
+			<Text>A student showing particular promise at the University of {1_City} has unfortunately fallen in with a crowd of anarchists. We would not know of this had an advisor from the university not passed along this troubling news.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ANARCHISTS_OUTCOME_1">
+			<Text>We cannot let this bright pupil fall to the malices of empassioned caprice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ANARCHISTS_OUTCOME_2">
+			<Text>There will be many more like him with better sense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ANARCHISTS_OUTCOME_3">
+			<Text>We should not interfere in the student's right to freedom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ANARCHISTS_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]30% chance {1_City} goes into 1 turn of [ICON_RESISTANCE] Resistance[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]70% chance you gain {2_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ANARCHISTS_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_CULTURE] Culture[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_ANARCHISTS_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_CULTURE] Culture[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {2_Num} [ICON_GOLDEN_AGE] Golden Age Points[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_ANARCHISTS_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have intervened at the University of {1_City}, where a promising student has fallen in with a crowd of anarchists. Fortunately, the student saw the error of his ways and immediately renounced anarchism. Under no duress, we assure us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_ANARCHISTS_OUTCOME_RESULT_1_ALT_NOTIFICATION">
+			<Text>We have intervened at the University of {1_City}, where a promising student has fallen in with a crowd of anarchists. Unfortunately, the student appears too far indoctrinated, and he and the anarchists have protested our noble efforts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_ANARCHISTS_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have declined to interfere at the University of {1_City}, where a promising student has fallen in with a crowd of anarchists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_ANARCHISTS_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have declined to interfere at the University of {1_City}, where a promising student has fallen in with a crowd of anarchists. It is difficult to know the scholarship that we have now lost.</Text>
+		</Row>
+		<!--Terrorist Attack!-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_COUNTERFEITERS">
+			<Text>Terrorist Attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_COUNTERFEITERS_DESC">
+			<Text>Due to the current successful economic standing of our currency, some shrewd criminals have begun to manufacture counterfeits of it and are circulating it around in the market. Our economy and diplomatic relations are at stake.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_COUNTERFEITERS_OUTCOME_1">
+			<Text>Oh well...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_COUNTERFEITERS_OUTCOME_2">
+			<Text>We must find them at once!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_COUNTERFEITERS_OUTCOME_3">
+			<Text>I have a very particular set of skills...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_COUNTERFEITERS_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]All cities begin celebrating 'We Love the King Day' for 5 turns[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_COUNTERFEITERS_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]60% chance that all cities begin celebrating 'We Love the King Day' for 10 turns[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_COUNTERFEITERS_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have won the animal tossing competition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_COUNTERFEITERS_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have won the animal tossing competition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_COUNTERFEITERS_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have won the animal tossing competition.</Text>
+		</Row>
+		<!--Terrorist Attack!-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_MAFIA">
+			<Text>Terrorist Attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_MAFIA_DESC">
+			<Text>A local politician has been snatched by the shadows in {1_City}! The incident has caused widespread panic throughout the city and people are now unwilling to leave their homes at night.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_MAFIA_OUTCOME_1">
+			<Text>Oh well...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_MAFIA_OUTCOME_2">
+			<Text>We must find them at once!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_MAFIA_OUTCOME_3">
+			<Text>I have a very particular set of skills...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_MAFIA_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]All cities begin celebrating 'We Love the King Day' for 5 turns[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_MAFIA_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]60% chance that all cities begin celebrating 'We Love the King Day' for 10 turns[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_MAFIA_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have won the animal tossing competition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_MAFIA_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have won the animal tossing competition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_MAFIA_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have won the animal tossing competition.</Text>
+		</Row>
+		<!--Terrorist Attack!-->
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TERRORISTS">
+			<Text>Terrorist Attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TERRORISTS_DESC">
+			<Text>An explosion at the local {1_BuildingDesc} in {2_City} is believed to have been the work of a terrorist group! Concerns that a second attack is planned for the local {3_BuildingDesc} have surfaced.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TERRORISTS_OUTCOME_1">
+			<Text>We must do more to counter terrorism!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TERRORISTS_OUTCOME_2">
+			<Text>I'm certain it was but a random act of violence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TERRORISTS_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLD] Gold[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain a free Police Station in {2_CityName}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_CID_CRIMES_TERRORISTS_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]30% chance that the {1_BuildingDesc} is destroyed[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_TERRORISTS_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>"'The resolve of our great nation is being tested. But make no mistake, we will show the world that we will pass this test.'"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_TERRORISTS_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We are disinclined to believe that a recent explosion in one of our cities is a terrorist attack upon the nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIMES_TERRORISTS_OUTCOME_RESULT_2_ALT_NOTIFICATION">
+			<Text>A second attack upon a local {1_BuildingDesc} has suggested to us that we were in error to dismiss the claims that the nation was under terrorist attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORLD_EVENT_CRIMES_TERRORISTS">
+			<Text>A terrorist attack in the {1_CivAdj} city of {2_CityName} has left the nation on edge.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--BHUTAN-->
+		<!--Blind Monk-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MONK_DESCRIPTION">
+			<Text>Blind Monk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MONK_HELP">
+			<Text>A blind monk arrives at our court, seeking to propagate their faith. They speak in riddles, and claim to know a truer path to our religion than that currently taught by our clerics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MONK_DESCRIPTION_CHOICE_1">
+			<Text>We welcome what insights they might have.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MONK_DESCRIPTION_CHOICE_2">
+			<Text>This blind fool knows nothing. Turn him away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MONK_CHOICE_1_HELP">
+			<Text>Receive a Missionary with +2 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MONK_CHOICE_2_HELP">
+			<Text>+{3_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_BHUTAN_MONK_CHOICE_1">
+			<Text>We have turned away a Blink Monk professing to know a truer path to our religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_BHUTAN_MONK_CHOICE_2">
+			<Text>We have invited a Blink Monk professing to know a truer path to our religion.</Text>
+		</Row>
+		<!--Influx of Migrants-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MIGRANTS_DESCRIPTION">
+			<Text>Influx of Migrants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MIGRANTS_HELP">
+			<Text>An influx of migrants are flooding from across the border. Their threat to our culture is bringing unease to our people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MIGRANTS_DESCRIPTION_CHOICE_1">
+			<Text>We welcome them into our realm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MIGRANTS_DESCRIPTION_CHOICE_2">
+			<Text>Turn them away and strengthen our borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MIGRANTS_CHOICE_1_HELP">
+			<Text>{1_Yield} and the city gains +1 [ICON_CITIZEN] Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_BHUTAN_MIGRANTS_CHOICE_2_HELP">
+			<Text>The city begins celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 15 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_BHUTAN_MIGRANTS_CHOICE_1">
+			<Text>Migrants have been accepted into {2_CityDesc}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_BHUTAN_MIGRANTS_CHOICE_2">
+			<Text>Migrants have been turned away from {2_CityDesc}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_PLAYER_EVENT_JFD_EPITHETS_BHUTAN_MIGRANTS_1">
+			<Text>{3_LeaderName} of {1_CivName} has welcomed an influx of migrants into his country.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_PLAYER_EVENT_JFD_EPITHETS_BHUTAN_MIGRANTS_2">
+			<Text>{3_LeaderName} of {1_CivName} has dispelled an influx of migrants into his country.</Text>
+		</Row>
+		<!--ROME (CONSTANTINE)-->
+		<!--Circus Maximus-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_ROME_CONSTANTINE_CIRCUS_MAXIMUS_DESCRIPTION">
+			<Text>Circus Maximus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_ROME_CONSTANTINE_CIRCUS_MAXIMUS_HELP">
+			<Text>An adversary has become popular for their racing complex at the Via Appia. Our advisors have suggested that, in response, we should expand the seating available at the Circus Maximus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_ROME_CONSTANTINE_CIRCUS_MAXIMUS_DESCRIPTION_CHOICE_1">
+			<Text>A waste of coin.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_ROME_CONSTANTINE_CIRCUS_MAXIMUS_DESCRIPTION_CHOICE_2">
+			<Text>Yes, expand the seating.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_ROME_CONSTANTINE_CIRCUS_MAXIMUS_CHOICE_1_HELP">
+			<Text>No effect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_ROME_CONSTANTINE_CIRCUS_MAXIMUS_CHOICE_2_HELP">
+			<Text>{1_Yield} and the city gains +2 [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_EVENT_JFD_ROME_CONSTANTINE_CIRCUS_MAXIMUS_CHOICE_2">
+			<Text>The seating in the Circus Maximus in {2_CityDesc} has been expanded.</Text>
+		</Row>
+		<!--Pagan Dissenters-->
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_ROME_CONSTANTINE_PAGAN_DISSENT_DESCRIPTION_CHOICE_1">
+			<Text>Pagan Dissenters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_JFD_ROME_CONSTANTINE_PAGAN_DISSENT_CHOICE_1_HELP">
+			<Text>Wretched villains of the old faith have renegaded on their committment to peace and tolerance. They march upon us![NEWLINE][NEWLINE]Three Barbarian Units appear near the city.</Text>
+		</Row>
+		<!--UK (GEORGE V)-->
+		<!--Cousin the Need-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_COUSIN_DESCRIPTION">
+			<Text>Cousin the Need</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_COUSIN_HELP">
+			<Text>One of our cousins is facing popular protests against him in his home country. He requests sancutary until the matter is resolved.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_COUSIN_DESCRIPTION_CHOICE_1">
+			<Text>Yes, we cannot refuse family.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_COUSIN_DESCRIPTION_CHOICE_2">
+			<Text>No, the people would despise us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_COUSIN_CHOICE_1_HELP">
+			<Text>+{3_Num} [ICON_RESISTANCE] Resistance Sentiment and +{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_COUSIN_CHOICE_2_HELP">
+			<Text>{1_Num} [ICON_GOLDEN_AGE] Golden Age Points and the Capital begins celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 15 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_UK_GEORGE_V_COUSIN_CHOICE_1">
+			<Text>We have pledged to the security of our cousin in need, although the people have not welcomed him with the same enthusiasm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_UK_GEORGE_V_COUSIN_CHOICE_2">
+			<Text>We have treacherously denied our cousin in their time of need. Now let's murder some kittens.</Text>
+		</Row>
+		<!--Foreign Connections-->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_CONNECTIONS_DESCRIPTION">
+			<Text>Foreign Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_CONNECTIONS_HELP">
+			<Text>Ministers have suggested that we change our family name, which bears too much likeness to one of our enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_CONNECTIONS_DESCRIPTION_CHOICE_1">
+			<Text>Yes, we shall re-christian ourselves the House of Windsor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_CONNECTIONS_DESCRIPTION_CHOICE_2">
+			<Text>No, we cannot abandon our heritage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_CONNECTIONS_CHOICE_1_HELP">
+			<Text>{1_Num} and all Cities begin celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 5 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_JFD_UK_GEORGE_V_CONNECTIONS_CHOICE_2_HELP">
+			<Text>+{2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_UK_GEORGE_V_CONNECTIONS_CHOICE_1">
+			<Text>We have formally re-named our dynasty to the House of Windsor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_EVENT_JFD_UK_GEORGE_V_CONNECTIONS_CHOICE_2">
+			<Text>We have dismissed concerns over the use of our family name.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_PLAYER_EVENT_JFD_UK_GEORGE_V_CONNECTIONS_1">
+			<Text>{3_LeaderName} of {1_CivName} has declared himself head of the House of Windsor, distancing himself from one of his relatives.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
