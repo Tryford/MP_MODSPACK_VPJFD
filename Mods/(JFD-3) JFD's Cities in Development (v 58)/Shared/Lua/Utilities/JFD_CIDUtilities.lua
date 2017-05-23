@@ -59,7 +59,7 @@ function JFD_IsUsingEventsDecisions()
 	local eventsDecisionsModID = "1f941088-b185-4159-865c-472df81247b2"
 	--for _, mod in pairs(Modding.GetActivatedMods()) do
 		--if (mod.ID == eventsDecisionsModID) then
-			return true
+			return false--true
 		--end
 	--end
 end
