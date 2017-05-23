@@ -215,7 +215,7 @@ function UpdateDisplay()
 	    
 	    local statusY = instance.Status:GetSizeY();
 	    statusY = statusY + 10;
-	    --print(statusY);
+	    ----print(statusY);
 	    if(statusY > 24)then
 		   instance.StatusBox:SetSizeY(statusY); 
 		   instance.SelectionFrame:SetSizeY(statusY);

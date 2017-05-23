@@ -49,7 +49,7 @@ function Migration(iPlayer)		-- executed at the start of an each player's turn
 	local rating = GetProsperityRating(player);
 	for i = 1, #rating do
 		local entry = rating[i];
-		--print(entry.pros, Pad(entry.city:GetName()), entry.ebar);
+		----print(entry.pros, Pad(entry.city:GetName()), entry.ebar);
 		if entry.ownr == player then
 			--print("its our city");
 			DecCooldown(entry.city);

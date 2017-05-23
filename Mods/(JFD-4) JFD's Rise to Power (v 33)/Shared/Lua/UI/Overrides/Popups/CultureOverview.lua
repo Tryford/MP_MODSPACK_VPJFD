@@ -562,7 +562,7 @@ g_GreatWorkBuildings = getBuildings();
 
 print("Non-Wonder Great Work buildings");
 for _, v in pairs(g_GreatWorkBuildings) do
-	print(
+	--print(
 		v.Id .. ":" .. v.BuildingClass .. "/" .. v.BuildingType .. ": " ..
 		v.GreatWorkCount .. "x GW" .. (v.HasThemeBonusInt == 1 and "+T" or "") .. " / " .. 
         (v.CivilizationType ~= nil and v.CivilizationType or "Generic") .. 
@@ -1211,7 +1211,7 @@ function SortAndDisplayYourCulture()
 		
 		local viewGreatWorks = function()
 			print("VIEWING GREAT WORKS!!!!");
-			print(greatWorksIndex);
+			--print(greatWorksIndex);
 			
 			if(greatWorksIndex ~= -1 and not greatWorkIsArtifact) then
 				local popupInfo = {

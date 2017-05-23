@@ -1104,7 +1104,7 @@ local Decisions_EgyptianNome = {}
 	Decisions_EgyptianNome.Monitors[LuaEvents.DecisionEnacted] =  (
 	function(iPlayer, sDecision)
 		local pPlayer = Players[iPlayer]
-		--print(sDecision)
+		----print(sDecision)
 		
 		if sDecision == "Decisions_EgyptianNomarch" or sDecision == "Decisions_EgyptianPharaoh" then return end
 		if pPlayer:GetCivilizationType() ~= GameInfoTypes.CIVILIZATION_EGYPT then return false, false end
@@ -1224,7 +1224,7 @@ local Decisions_EgyptValleyOfTheKings = {}
 			end
 
 			Decisions_EgyptValleyOfTheKings.Wonders[iBuilding] = {Culture = iCulture, Faith = iFaith}
-			--print(tBuilding.Type, iCulture, iFaith)
+			----print(tBuilding.Type, iCulture, iFaith)
 		end
 	end
 
@@ -4654,13 +4654,13 @@ local Decisions_HunsRansom = {}
 						local sKey = "Decisions_HunsRansom" .. iEnemy
 						local iNumUnits = tData.Units
 						local iReward = math.ceil(150 * iMod)
-						--print(sName, iNumUnits)
+						----print(sName, iNumUnits)
 						if (iNumUnits ~= nil and iNumUnits > 0) then
 							iReward = math.ceil(iNumUnits * 100 * iMod)
 						else 
 							iNumUnits = 0
 						end
-						--print(sName, iNumUnits, iReward)
+						----print(sName, iNumUnits, iReward)
 						tTempDecisions[sKey].Desc = Locale.ConvertTextKey("TXT_KEY_DECISIONS_HUNSRANSOM_DESC", sName, iReward)
 						
 						if not(pTeam:IsAtWar(iEnemyTeam)) then return true, false end

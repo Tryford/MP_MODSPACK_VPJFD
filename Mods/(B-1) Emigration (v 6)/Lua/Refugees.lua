@@ -37,7 +37,7 @@ function GetProximityRating(from, iOldOwner)
 						dist = dist / 2;
 					end
 					local wght = math.floor(99999 / dist^2);	-- inversely proportional to dist^2
-					--print(city:GetName() .. " wght = " .. wght);
+					----print(city:GetName() .. " wght = " .. wght);
 					table.insert(rating,
 					{
 						city = city,

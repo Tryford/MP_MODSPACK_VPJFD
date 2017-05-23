@@ -1659,7 +1659,7 @@ function ResourcesTipHandler( control )
 		end
 	end
 	
-	print(strText);
+	--print(strText);
 	if(strText ~= "") then
 		tipControlTable.TopPanelMouseover:SetHide(false);
 		tipControlTable.TooltipLabel:SetText( strText );
@@ -1720,7 +1720,7 @@ function InternationalTradeRoutesTipHandler( control )
 		strTT = strTT .. strToYouTradeRoutes;
 	end
 	
-	--print(strText);
+	----print(strText);
 	if(strText ~= "") then
 		tipControlTable.TopPanelMouseover:SetHide(false);
 		tipControlTable.TooltipLabel:SetText( strTT );

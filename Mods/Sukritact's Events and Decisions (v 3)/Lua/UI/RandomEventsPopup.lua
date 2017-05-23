@@ -149,7 +149,7 @@ function ShowEventSchedule()
 	for iPlayer, tTable in pairs (g_tScheduledEvents) do
 		local sName = Players[iPlayer]:GetName()
 		for iKey, tData in ipairs(tTable) do
-			print(sName, tData.Event, tData.Turns, tData.Year)
+			--print(sName, tData.Event, tData.Turns, tData.Year)
 		end
 	end
 end
@@ -347,7 +347,7 @@ function ShowPopup(pPlayer, tEvent)
 			UIManager:QueuePopup(ContextPtr, PopupPriority.BarbarianCamp)
 		end		
 		
-		--print(Locale.ConvertTextKey(tEvent.Name) .. " has been processed for Player " .. pPlayer:GetID())
+		----print(Locale.ConvertTextKey(tEvent.Name) .. " has been processed for Player " .. pPlayer:GetID())
 	-----------------------------------------------------------
 	--AI Handler
 	-----------------------------------------------------------
@@ -371,7 +371,7 @@ function ShowPopup(pPlayer, tEvent)
 		local iRandomKey = tOutcomes[GetRandom(1, #tOutcomes)]
 		tEvent.Outcomes[iRandomKey].DoFunc(pPlayer, tEvent.Data1, tEvent.Data2)		
 		
-		--print(Locale.ConvertTextKey(tEvent.Name) .. " has been processed for Player " .. pPlayer:GetID() .. ", AI has selected " .. Locale.ConvertTextKey(tEvent.Outcomes[iRandomKey].Name))
+		----print(Locale.ConvertTextKey(tEvent.Name) .. " has been processed for Player " .. pPlayer:GetID() .. ", AI has selected " .. Locale.ConvertTextKey(tEvent.Outcomes[iRandomKey].Name))
 	end
 end
 
@@ -385,7 +385,7 @@ function PushPopup(pPlayer, tEvent)
 	if bCan then
 		LuaEvents.ShowRandomEventPopup(pPlayer, tEvent)
 	else
-		print(Locale.ConvertTextKey(tEvent.Name) .. ": Not available")
+		--print(Locale.ConvertTextKey(tEvent.Name) .. ": Not available")
 	end
 end
 

@@ -651,7 +651,7 @@ function DetermineContinents()
 	local largestDesertID = nil
 	local secondLargestDesertID = nil
 	for n=1,#desertMap.areaList do
-		--if debugTime then print(string.format("area[%d] size = %d",n,desertMap.areaList[n].size)) end
+		--if debugTime then --print(string.format("area[%d] size = %d",n,desertMap.areaList[n].size)) end
 		if desertMap.areaList[n].trueMatch then
 			if largestDesertID == nil then
 				largestDesertID = desertMap.areaList[n].id
@@ -860,13 +860,13 @@ function Logger(self)
 		local message = string.format(unpack(arg))
 		if level == LOG_FATAL then
 			message = string.format("Turn %-3s %s", Game.GetGameTurn(), message)
-			print(level .. string.rep(" ", 7-level:len()) .. message)
-			if debug then print(debug.traceback()) end
+			--print(level .. string.rep(" ", 7-level:len()) .. message)
+			if debug then --print(debug.traceback()) end
 		else
 			if level >= LOG_INFO then
 				message = string.format("Turn %-3s %s", Game.GetGameTurn(), message)
 			end
-			print(level .. string.rep(" ", 7-level:len()) .. message)
+			--print(level .. string.rep(" ", 7-level:len()) .. message)
 		end
 		return true
 	end
@@ -972,7 +972,7 @@ function GeneratePlotTypes()
 	--[[
 	local plot = Map.GetPlot(5, 5)
 	for nearPlot, distance in Plot_GetPlotsInCircle(plot, 0, 1) do
-		print(string.format(
+		--print(string.format(
 			"plot %s distance=%s",
 			Plot_GetID(nearPlot),
 			distance
@@ -984,7 +984,7 @@ function GeneratePlotTypes()
 	local mapW, mapH = Map.GetGridSize()
 	
 	--first do all the preliminary calculations in this function
-	if debugTime then print(string.format("map size: width=%d, height=%d",mapW,mapH)) end
+	if debugTime then --print(string.format("map size: width=%d, height=%d",mapW,mapH)) end
 	mg = MapGlobals:New()
 	PWRandSeed()
 
@@ -1346,7 +1346,7 @@ function RestoreLakes()
 			if Plot_IsRiver(plot, edgeDirection) then
 				prevPlot, edgeA, edgeB, flowA, flowB = Plot_GetPreviousRiverPlot(plot, edgeDirection)
 				if prevPlot and Plot_IsLake(prevPlot) and not Contains(lakesDone, prevPlot) then
-					print(string.format(
+					--print(string.format(
 						"%2s flowing river: add edge %2s flowing %2s, edge %2s flowing %2s", 
 						mg.flowNames[Plot_GetRiverFlowDirection(plot, edgeDirection)],
 						mg.directionNames[edgeA],
@@ -1451,13 +1451,13 @@ function GenerateTerrain()
 	end
 	
 	
-	if debugTime then print(string.format("%5s ms, GenerateTerrain %s", math.floor((os.clock() - timeStart) * 1000), "Main")) end
+	if debugTime then --print(string.format("%5s ms, GenerateTerrain %s", math.floor((os.clock() - timeStart) * 1000), "Main")) end
 	if debugTime then timeStart = os.clock() end
 	
-	if debugTime then print(string.format("%5s ms, GenerateTerrain %s", math.floor((os.clock() - timeStart) * 1000), "SetOceanRiftPlots")) end
+	if debugTime then --print(string.format("%5s ms, GenerateTerrain %s", math.floor((os.clock() - timeStart) * 1000), "SetOceanRiftPlots")) end
 	if debugTime then timeStart = os.clock() end
 	BlendTerrain()
-	if debugTime then print(string.format("%5s ms, GenerateTerrain %s", math.floor((os.clock() - timeStart) * 1000), "BlendTerrain")) end
+	if debugTime then --print(string.format("%5s ms, GenerateTerrain %s", math.floor((os.clock() - timeStart) * 1000), "BlendTerrain")) end
 end
 
 
@@ -2245,7 +2245,7 @@ function BlendTerrain()
 			end
 		end
 	end
-	if debugTime then print(string.format("%5s ms, BlendTerrain %s", math.floor(mountainCheckTime * 1000), "MountainCheckTime")) end
+	if debugTime then --print(string.format("%5s ms, BlendTerrain %s", math.floor(mountainCheckTime * 1000), "MountainCheckTime")) end
 	
 	-- flat -> hills near mountain, and flat cold -> hills when surrounded by warm
 	for plotID, plot in Plots(Shuffle) do
@@ -2294,7 +2294,7 @@ function CreatePossibleMountainPass(plot)
 						longestRoute = getRouteLength()
 					end
 					if (getRouteLength() == 0 or getRouteLength() > 15) then
-						print(string.format("CreatePossibleMountainPass path distance = %2s - Change to Hills", getRouteLength()))
+						--print(string.format("CreatePossibleMountainPass path distance = %2s - Change to Hills", getRouteLength()))
 						plot:SetPlotType(PlotTypes.PLOT_HILLS, false, true)
 						--plot:SetFeatureType(FeatureTypes.FEATURE_FALLOUT, -1) -- debug
 						
@@ -2305,7 +2305,7 @@ function CreatePossibleMountainPass(plot)
 			end
 		end
 	end
-	--print(string.format("CreatePossibleMountainPass longestRoute = %2s", longestRoute))
+	----print(string.format("CreatePossibleMountainPass longestRoute = %2s", longestRoute))
 end
 
 
@@ -2698,7 +2698,7 @@ function SetOceanRiftPlots()
 	print("SetOceanRiftPlots")
 	for plotID, data in pairs(mg.oceanRiftPlots) do
 		local plot = Map.GetPlotByIndex(plotID)
-		--print(string.format("oceanRiftPlots plotID=%-4s isWater=%-6s terrainID=%-3s", plotID, tostring(data.isWater), data.terrainID))
+		----print(string.format("oceanRiftPlots plotID=%-4s isWater=%-6s terrainID=%-3s", plotID, tostring(data.isWater), data.terrainID))
 		if data.isWater then
 			if not plot:IsWater() or data.terrainID == TerrainTypes.TERRAIN_OCEAN then
 				plot:SetTerrainType(data.terrainID, true, true)
@@ -2777,7 +2777,7 @@ function AddFeatures()
 	AddIsles()
 	--ConnectTerraContinents()
 	
-	if debugTime then print(string.format("%5s ms, AddFeatures %s", math.floor((os.clock() - timeStart) * 1000), "End")) end
+	if debugTime then --print(string.format("%5s ms, AddFeatures %s", math.floor((os.clock() - timeStart) * 1000), "End")) end
 end
 
 function Plot_AddMainFeatures(plot, zeroTreesThreshold, jungleThreshold)
@@ -3415,7 +3415,7 @@ function GenerateMountainMap(width,height,xWrap,yWrap,initFreq)
 	local stdDevMap = FloatMap:New(width,height,xWrap,yWrap)
 	local noiseMap = FloatMap:New(width,height,xWrap,yWrap)
 	
-	if debugTime then print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "Start")) end
+	if debugTime then --print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "Start")) end
 	if debugTime then timeStart = os.clock() end
 	for y = 0, mountainMap.height - 1 do
 		for x = 0,mountainMap.width - 1 do
@@ -3427,13 +3427,13 @@ function GenerateMountainMap(width,height,xWrap,yWrap,initFreq)
 			stdDevMap.data[i] = mountainMap.data[i]
 		end
 	end
-	if debugTime then print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "A")) end
+	if debugTime then --print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "A")) end
 	if debugTime then timeStart = os.clock() end
 	mountainMap:Normalize()
-	if debugTime then print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "B")) end
+	if debugTime then --print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "B")) end
 	if debugTime then timeStart = os.clock() end
 	stdDevMap:Deviate(mg.elevationBlendRange)
-	if debugTime then print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "C")) end
+	if debugTime then --print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "C")) end
 	if debugTime then timeStart = os.clock() end
 	stdDevMap:Normalize()
 	--stdDevMap:Save("stdDevMap.csv")
@@ -3441,7 +3441,7 @@ function GenerateMountainMap(width,height,xWrap,yWrap,initFreq)
 	noiseMap:Normalize()
 	--noiseMap:Save("noiseMap.csv")
 	
-	if debugTime then print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "D")) end
+	if debugTime then --print(string.format("%5s ms, GenerateMountainMap %s", math.floor((os.clock() - timeStart) * 1000), "D")) end
 	if debugTime then timeStart = os.clock() end
 
 	local moundMap = FloatMap:New(width,height,xWrap,yWrap)
@@ -3537,7 +3537,7 @@ function GenerateElevationMap(width,height,xWrap,yWrap)
 	
 	if debugTime then timeStart = os.clock() end
 	local mountainMap = GenerateMountainMap(width,height,xWrap,yWrap,mountainScatter)
-	if debugTime then print(string.format("%5s ms, GenerateElevationMap %s", math.floor((os.clock() - timeStart) * 1000), "GenerateMountainMap")) end
+	if debugTime then --print(string.format("%5s ms, GenerateElevationMap %s", math.floor((os.clock() - timeStart) * 1000), "GenerateMountainMap")) end
 	
 	if debugTime then timeStart = os.clock() end
 	local elevationMap = ElevationMap:New(width,height,xWrap,yWrap)	
@@ -3568,7 +3568,7 @@ function GenerateElevationMap(width,height,xWrap,yWrap)
 	elevationMap.seaLevelThreshold = elevationMap:FindThresholdFromPercent(mg.landPercent + 0.05,true,false)
 	log:Debug("seaLevelThreshold = %s", elevationMap.seaLevelThreshold)
 
-	if debugTime then print(string.format("%5s ms, GenerateElevationMap %s", math.floor((os.clock() - timeStart) * 1000), "End")) end
+	if debugTime then --print(string.format("%5s ms, GenerateElevationMap %s", math.floor((os.clock() - timeStart) * 1000), "End")) end
 	return elevationMap
 end
 
@@ -3609,7 +3609,7 @@ function GenerateTempMaps(elevationMap)
 	end
 	if debugTime then timeStart = os.clock() end
 	summerMap:Smooth(math.min(mg.tempBlendMaxRange, math.floor(elevationMap.width/8)))
-	if debugTime then print(string.format("%5s ms, GenerateTempMaps %s", math.floor((os.clock() - timeStart) * 1000), "Smooth")) end	
+	if debugTime then --print(string.format("%5s ms, GenerateTempMaps %s", math.floor((os.clock() - timeStart) * 1000), "Smooth")) end	
 	if debugTime then timeStart = os.clock() end
 	summerMap:Normalize()
 	local winterMap = FloatMap:New(elevationMap.width,elevationMap.height,elevationMap.xWrap,elevationMap.yWrap)
@@ -3694,10 +3694,10 @@ function GenerateRainfallMap(elevationMap)
 				bottomY = 0
 			end
 			--str = string.format("topY = %d, bottomY = %d",topY,bottomY)
-			--print(str)
+			----print(str)
 			local dir1,dir2 = elevationMap:GetGeostrophicWindDirections(zone)
 			--str = string.format("zone = %d, dir1 = %d",zone,dir1)
-			--print(str)
+			----print(str)
 			if (dir1 == mg.SW) or (dir1 == mg.SE) then
 				yStart = topY
 				yStop = bottomY --- 1
@@ -3717,13 +3717,13 @@ function GenerateRainfallMap(elevationMap)
 				incX = 1
 			end
 			--str = string.format("yStart = %d, yStop = %d, incY = %d",yStart,yStop,incY)
-			--print(str)
+			----print(str)
 			--str = string.format("xStart = %d, xStop = %d, incX = %d",xStart,xStop,incX)
-			--print(str)
+			----print(str)
 
 			for y = yStart,yStop ,incY do
 				--str = string.format("y = %d",y)
-				--print(str)
+				----print(str)
 				--each line should start on water to avoid vast areas without rain
 				local xxStart = xStart
 				local xxStop = xStop
@@ -3776,7 +3776,7 @@ function GenerateRainfallMap(elevationMap)
 		local y = sortedGeoMap[i][2]
 --~ 		if y == 35 or y == 40 then
 --~ 			str = string.format("x = %d, y = %d",x,y)
---~ 			print(str)
+--~ 			--print(str)
 --~ 		end
 		DistributeRain(x,y,elevationMap,temperatureMap,geoMap,rainfallGeostrophicMap,moistureMap,true)
 	end
@@ -3816,12 +3816,12 @@ function DistributeRain(x,y,elevationMap,temperatureMap,pressureMap,rainfallMap,
 	local i = elevationMap:GetIndex(x,y)
 	local upLiftSource = math.max(math.pow(pressureMap.data[i],mg.upLiftExponent),1.0 - temperatureMap.data[i])
 	--local str = string.format("geo=%s,x=%d, y=%d, srcPressure uplift = %f, upliftSource = %f",tostring(boolGeostrophic),x,y,math.pow(pressureMap.data[i],mg.upLiftExponent),upLiftSource)
-	--print(str)
+	----print(str)
 	if elevationMap:IsBelowSeaLevel(x,y) then
 		moistureMap.data[i] = math.max(moistureMap.data[i], temperatureMap.data[i])
 		--print("water tile = true")
 	end
-	--if debugTime then print(string.format("moistureMap.data[i] = %f",moistureMap.data[i])) end
+	--if debugTime then --print(string.format("moistureMap.data[i] = %f",moistureMap.data[i])) end
 
 	--make list of neighbors
 	local nList = {}
@@ -3872,13 +3872,13 @@ function DistributeRain(x,y,elevationMap,temperatureMap,pressureMap,rainfallMap,
 				moisturePerNeighbor = mg.geostrophicLateralWindStrength * moistureMap.data[i]
 			end
 		end
-		--if debugTime then print(string.format("---xx=%d, yy=%d, destPressure uplift = %f, upLiftDest = %f, cost = %f, moisturePerNeighbor = %f, bonus = %f",xx,yy,math.pow(pressureMap.data[ii],mg.upLiftExponent),upLiftDest,cost,moisturePerNeighbor,bonus)) end
+		--if debugTime then --print(string.format("---xx=%d, yy=%d, destPressure uplift = %f, upLiftDest = %f, cost = %f, moisturePerNeighbor = %f, bonus = %f",xx,yy,math.pow(pressureMap.data[ii],mg.upLiftExponent),upLiftDest,cost,moisturePerNeighbor,bonus)) end
 		rainfallMap.data[i] = rainfallMap.data[i] + cost * moisturePerNeighbor + bonus
 		--pass to neighbor.
-		--if debugTime then print(string.format("---moistureMap.data[ii] = %f",moistureMap.data[ii])) end
+		--if debugTime then --print(string.format("---moistureMap.data[ii] = %f",moistureMap.data[ii])) end
 		moistureMap.data[ii] = moistureMap.data[ii] + moisturePerNeighbor - (cost * moisturePerNeighbor)
-		--if debugTime then print(string.format("---dropping %f rain",cost * moisturePerNeighbor + bonus)) end
-		--if debugTime then print(string.format("---passing on %f moisture",moisturePerNeighbor - (cost * moisturePerNeighbor))) end
+		--if debugTime then --print(string.format("---dropping %f rain",cost * moisturePerNeighbor + bonus)) end
+		--if debugTime then --print(string.format("---passing on %f moisture",moisturePerNeighbor - (cost * moisturePerNeighbor))) end
 	end
 
 end
@@ -4103,7 +4103,7 @@ function Plot_GetPlotsInCircleFast(x, y, radius)
 	if x-(radius-bottomY) - math.floor((bottomY+odd)/2) < 0 then
 		i = i - (W*bottomY) + (W-(radius-bottomY)) - math.floor((bottomY+odd)/2)
 		x = x + (W-(radius-bottomY)) - math.floor((bottomY+odd)/2)
-		-- print(string.format("i for (%d,%d) WOULD have been in outer space. x is (%d,%d) i is (%d)",xx,y,x,y-bottomY,i))
+		-- --print(string.format("i for (%d,%d) WOULD have been in outer space. x is (%d,%d) i is (%d)",xx,y,x,y-bottomY,i))
 	else
 		i = i - (W*bottomY) - (radius-bottomY) - math.floor((bottomY+odd)/2)
 		x = x - (radius-bottomY) - math.floor((bottomY+odd)/2)
@@ -4158,7 +4158,7 @@ function Plot_GetPlotsInCircleFast(x, y, radius)
 			-- break
 		-- end
 	end
-	-- print(string.format("added "..str.." to table for circle starting at(%d,%d)",xx,y))
+	-- --print(string.format("added "..str.." to table for circle starting at(%d,%d)",xx,y))
 	return plotIDs
 end
 
@@ -4425,7 +4425,7 @@ function GetWeightedTable(list, size)
 		end
 		if totalWeight == 0 then
 			print("GetWeightedTable: empty list")
-			--print(debug.traceback())
+			----print(debug.traceback())
 			return -1
 		end
 	end
@@ -4661,7 +4661,7 @@ function ShiftMapsBy(xshift, yshift)
 				
 				local iSourceI = W * iSourceY + iSourceX
 				Shift[iDestI] = elevationMap.data[iSourceI]
-				--if debugTime then print(string.format("Shift:%d,	%f	|	eMap:%d,	%f",iDestI,Shift[iDestI],iSourceI,elevationMap.data[iSourceI])) end
+				--if debugTime then --print(string.format("Shift:%d,	%f	|	eMap:%d,	%f",iDestI,Shift[iDestI],iSourceI,elevationMap.data[iSourceI])) end
 				iDestI = iDestI + 1
 			end
 		end
@@ -4836,7 +4836,7 @@ function FloatMap:GetNeighbor(x,y,dir)
 		yy = y - 1
 		return xx,yy
 	else
-		print(string.format("Bad direction %s in FloatMap:GetNeighbor", dir))
+		--print(string.format("Bad direction %s in FloatMap:GetNeighbor", dir))
 	end
 	return -1,-1
 end
@@ -5092,7 +5092,7 @@ function FloatMap:GetGeostrophicPressure(lat)
 	end
 	pressure = pressure - 1
 -- FIN -Bobert13
-	--print(pressure)
+	----print(pressure)
 	return pressure
 end
 
@@ -5289,7 +5289,7 @@ function PWAreaMap:DefineAreas(matchFunction)
 				currentAreaID = currentAreaID + 1
 				local area = PWArea:New(currentAreaID,x,y,matchFunction(x,y))
 				--str = string.format("Filling area %d, matchFunction(x = %d,y = %d) = %s",area.id,x,y,tostring(matchFunction(x,y)))
-				--print(str)
+				----print(str)
 				self:FillArea(x,y,area,matchFunction)
 				table.insert(self.areaList, area)
 
@@ -5313,7 +5313,7 @@ end
 function PWAreaMap:ScanAndFillLine(seg,area,matchFunction)
 
 	--str = string.format("Processing line y = %d, xLeft = %d, xRight = %d, dy = %d -------",seg.y,seg.xLeft,seg.xRight,seg.dy)
-	--print(str)
+	----print(str)
 	if self:ValidateY(seg.y + seg.dy) == -1 then
 		return
 	end
@@ -5321,7 +5321,7 @@ function PWAreaMap:ScanAndFillLine(seg,area,matchFunction)
 	local odd = (seg.y + seg.dy) % 2
 	local notOdd = seg.y % 2
 	--str = string.format("odd = %d, notOdd = %d",odd,notOdd)
-	--print(str)
+	----print(str)
 
 	local lineFound = 0
 	local xStop = nil
@@ -5334,12 +5334,12 @@ function PWAreaMap:ScanAndFillLine(seg,area,matchFunction)
 	for leftExt = seg.xLeft - odd,xStop + 1,-1 do
 		leftExtreme = leftExt --need this saved
 		--str = string.format("leftExtreme = %d",leftExtreme)
-		--print(str)
+		----print(str)
 		local x = self:ValidateX(leftExtreme)
 		local y = self:ValidateY(seg.y + seg.dy)
 		local i = self:GetIndex(x,y)
 		--str = string.format("x = %d, y = %d, area.trueMatch = %s, matchFunction(x,y) = %s",x,y,tostring(area.trueMatch),tostring(matchFunction(x,y)))
-		--print(str)
+		----print(str)
 		if self.data[i] == 0 and area.trueMatch == matchFunction(x,y) then
 			self.data[i] = area.id
 			area.size = area.size + 1
@@ -5357,7 +5357,7 @@ function PWAreaMap:ScanAndFillLine(seg,area,matchFunction)
 		end
 	end
 	--str = string.format("leftExtreme = %d",leftExtreme)
-	--print(str)
+	----print(str)
 	local rightExtreme = nil
 	--now scan right to find extreme right, place each found segment on stack
 	if self.wrapX then
@@ -5368,12 +5368,12 @@ function PWAreaMap:ScanAndFillLine(seg,area,matchFunction)
 	for rightExt = seg.xLeft + lineFound - odd,xStop - 1 do
 		rightExtreme = rightExt --need this saved
 		--str = string.format("rightExtreme = %d",rightExtreme)
-		--print(str)
+		----print(str)
 		local x = self:ValidateX(rightExtreme)
 		local y = self:ValidateY(seg.y + seg.dy)
 		local i = self:GetIndex(x,y)
 		--str = string.format("x = %d, y = %d, area.trueMatch = %s, matchFunction(x,y) = %s",x,y,tostring(area.trueMatch),tostring(matchFunction(x,y)))
-		--print(str)
+		----print(str)
 		if self.data[i] == 0 and area.trueMatch == matchFunction(x,y) then
 			self.data[i] = area.id
 			area.size = area.size + 1
@@ -5389,14 +5389,14 @@ function PWAreaMap:ScanAndFillLine(seg,area,matchFunction)
 			local newSeg = LineSeg:New(y,leftExtreme,rightExtreme - 1,seg.dy)
 			Push(self.segStack,newSeg)
 			--str = string.format("  pushing y = %d, xLeft = %d, xRight = %d, dy = %d",y,leftExtreme,rightExtreme - 1,seg.dy)
-			--print(str)
+			----print(str)
 			--determine if we must put reverse direction on stack
 			if leftExtreme < seg.xLeft - odd or rightExtreme >= seg.xRight + notOdd then
 				--out of shadow so put reverse direction on stack
 				newSeg = LineSeg:New(y,leftExtreme,rightExtreme - 1,-seg.dy)
 				Push(self.segStack,newSeg)
 				--str = string.format("  pushing y = %d, xLeft = %d, xRight = %d, dy = %d",y,leftExtreme,rightExtreme - 1,-seg.dy)
-				--print(str)
+				----print(str)
 			end
 			if(rightExtreme >= seg.xRight + notOdd) then
 				break
@@ -5413,14 +5413,14 @@ function PWAreaMap:ScanAndFillLine(seg,area,matchFunction)
 		local newSeg = LineSeg:New(seg.y + seg.dy,leftExtreme,rightExtreme - 1,seg.dy)
 		Push(self.segStack,newSeg)
 		str = string.format("  pushing y = %d, xLeft = %d, xRight = %d, dy = %d",seg.y + seg.dy,leftExtreme,rightExtreme - 1,seg.dy)
-		print(str)
+		--print(str)
 		--determine if we must put reverse direction on stack
 		if leftExtreme < seg.xLeft - odd or rightExtreme >= seg.xRight + notOdd then
 			--out of shadow so put reverse direction on stack
 			newSeg = LineSeg:New(seg.y + seg.dy,leftExtreme,rightExtreme - 1,-seg.dy)
 			Push(self.segStack,newSeg)
 			str = string.format("  pushing y = %d, xLeft = %d, xRight = %d, dy = %d",seg.y + seg.dy,leftExtreme,rightExtreme - 1,-seg.dy)
-			print(str)
+			--print(str)
 		end
 	end
 end
@@ -5466,7 +5466,7 @@ function PWAreaMap:PrintAreaList()
 		local size = self.areaList[i].size
 		local trueMatch = self.areaList[i].trueMatch
 		local str = string.format("area id = %d, trueMatch = %s, size = %d, seedx = %d, seedy = %d",id,tostring(trueMatch),size,seedx,seedy)
-		print(str)
+		--print(str)
 	end
 end
 
@@ -5567,7 +5567,7 @@ function AddRivers()
 					plot:SetPlotType(PlotTypes.PLOT_HILLS,false,false)
 				end
 				plot:SetWOfRiver(true,WOfRiver)
-				--if debugTime then print(string.format("(%d,%d)WOfRiver = true dir=%d",x,y,WOfRiver)) end
+				--if debugTime then --print(string.format("(%d,%d)WOfRiver = true dir=%d",x,y,WOfRiver)) end
 			end
 
 			if NWOfRiver == mg.flowNONE then
@@ -5579,7 +5579,7 @@ function AddRivers()
 					plot:SetPlotType(PlotTypes.PLOT_HILLS,false,false)
 				end
 				plot:SetNWOfRiver(true,NWOfRiver)
-				--if debugTime then print(string.format("(%d,%d)NWOfRiver = true dir=%d",x,y,NWOfRiver)) end
+				--if debugTime then --print(string.format("(%d,%d)NWOfRiver = true dir=%d",x,y,NWOfRiver)) end
 			end
 
 			if NEOfRiver == mg.flowNONE then
@@ -5591,7 +5591,7 @@ function AddRivers()
 					plot:SetPlotType(PlotTypes.PLOT_HILLS,false,false)
 				end
 				plot:SetNEOfRiver(true,NEOfRiver)
-				--if debugTime then print(string.format("(%d,%d)NEOfRiver = true dir=%d",x,y,NEOfRiver)) end
+				--if debugTime then --print(string.format("(%d,%d)NEOfRiver = true dir=%d",x,y,NEOfRiver)) end
 			end
 		end
 	end
@@ -5914,7 +5914,7 @@ function RiverMap:isLake(junction)
 		return false
 	end
 
-	--if debugTime then print(string.format("junction = (%d,%d) N = %s, alt = %f",junction.x,junction.y,tostring(junction.isNorth),junction.altitude)) end
+	--if debugTime then --print(string.format("junction = (%d,%d) N = %s, alt = %f",junction.x,junction.y,tostring(junction.isNorth),junction.altitude)) end
 
 	local vertNeighbor = self:GetJunctionNeighbor(mg.VERTFLOW,junction)
 	local vertAltitude = nil
@@ -5923,7 +5923,7 @@ function RiverMap:isLake(junction)
 		--print("--vertNeighbor == nil")
 	else
 		vertAltitude = vertNeighbor.altitude
-		--if debugTime then print(string.format("--vertNeighbor = (%d,%d) N = %s, alt = %f",vertNeighbor.x,vertNeighbor.y,tostring(vertNeighbor.isNorth),vertNeighbor.altitude)) end
+		--if debugTime then --print(string.format("--vertNeighbor = (%d,%d) N = %s, alt = %f",vertNeighbor.x,vertNeighbor.y,tostring(vertNeighbor.isNorth),vertNeighbor.altitude)) end
 	end
 
 	local westNeighbor = self:GetJunctionNeighbor(mg.WESTFLOW,junction)
@@ -5933,7 +5933,7 @@ function RiverMap:isLake(junction)
 		--print("--westNeighbor == nil")
 	else
 		westAltitude = westNeighbor.altitude
-		--if debugTime then print(string.format("--westNeighbor = (%d,%d) N = %s, alt = %f",westNeighbor.x,westNeighbor.y,tostring(westNeighbor.isNorth),westNeighbor.altitude)) end
+		--if debugTime then --print(string.format("--westNeighbor = (%d,%d) N = %s, alt = %f",westNeighbor.x,westNeighbor.y,tostring(westNeighbor.isNorth),westNeighbor.altitude)) end
 	end
 
 	local eastNeighbor = self:GetJunctionNeighbor(mg.EASTFLOW,junction)
@@ -5943,7 +5943,7 @@ function RiverMap:isLake(junction)
 		--print("--eastNeighbor == nil")
 	else
 		eastAltitude = eastNeighbor.altitude
-		--if debugTime then print(string.format("--eastNeighbor = (%d,%d) N = %s, alt = %f",eastNeighbor.x,eastNeighbor.y,tostring(eastNeighbor.isNorth),eastNeighbor.altitude)) end
+		--if debugTime then --print(string.format("--eastNeighbor = (%d,%d) N = %s, alt = %f",eastNeighbor.x,eastNeighbor.y,tostring(eastNeighbor.isNorth),eastNeighbor.altitude)) end
 	end
 
 	local lowest = math.min(vertAltitude,math.min(westAltitude,math.min(eastAltitude,junction.altitude)))
@@ -6022,9 +6022,9 @@ function RiverMap:SiltifyLakes()
 	local shortestLakeList = #lakeList
 	local iterations = 0
 	local debugOn = false
-	--if debugTime then print(string.format("initial lake count = %d",longestLakeList)) end
+	--if debugTime then --print(string.format("initial lake count = %d",longestLakeList)) end
 	while #lakeList > 0 do
-		--if debugTime then print(string.format("length of lakeList = %d",#lakeList)) end
+		--if debugTime then --print(string.format("length of lakeList = %d",#lakeList)) end
 		iterations = iterations + 1
 		if #lakeList > longestLakeList then
 			longestLakeList = #lakeList
@@ -6032,7 +6032,7 @@ function RiverMap:SiltifyLakes()
 
 		if #lakeList < shortestLakeList then
 			shortestLakeList = #lakeList
-			--if debugTime then print(string.format("shortest lake list = %d, iterations = %d",shortestLakeList,iterations)) end
+			--if debugTime then --print(string.format("shortest lake list = %d, iterations = %d",shortestLakeList,iterations)) end
 			iterations = 0
 		end
 
@@ -6053,13 +6053,13 @@ function RiverMap:SiltifyLakes()
 		end
 
 		if debugOn then
-			if debugTime then print(string.format("processing (%d,%d) N=%s alt=%f",junction.x,junction.y,tostring(junction.isNorth),junction.altitude)) end
+			if debugTime then --print(string.format("processing (%d,%d) N=%s alt=%f",junction.x,junction.y,tostring(junction.isNorth),junction.altitude)) end
 		end
 
 		local avgLowest = self:GetLowerNeighborAverage(junction)
 
 		if debugOn then
-			if debugTime then print(string.format("--avgLowest == %f",avgLowest)) end
+			if debugTime then --print(string.format("--avgLowest == %f",avgLowest)) end
 		end
 
 		if avgLowest < junction.altitude + 0.005 then --cant use == in fp comparison
@@ -6072,13 +6072,13 @@ function RiverMap:SiltifyLakes()
 		end
 
 		if debugOn then
-			if debugTime then print(string.format("--changing altitude to %f",junction.altitude)) end
+			if debugTime then --print(string.format("--changing altitude to %f",junction.altitude)) end
 		end
 
 		for dir = mg.WESTFLOW,mg.VERTFLOW do
 			local neighbor = self:GetJunctionNeighbor(dir,junction)
 			if debugOn and neighbor == nil then
-				if debugTime then print(string.format("--nil neighbor at direction = %d",dir)) end
+				if debugTime then --print(string.format("--nil neighbor at direction = %d",dir)) end
 			end
 			if neighbor ~= nil and self:isLake(neighbor) then
 				local i = self.elevationMap:GetIndex(neighbor.x,neighbor.y)
@@ -6086,21 +6086,21 @@ function RiverMap:SiltifyLakes()
 					Push(lakeList,neighbor)
 					onQueueMapNorth[i] = true
 					if debugOn then
-						if debugTime then print(string.format("--pushing (%d,%d) N=%s alt=%f",neighbor.x,neighbor.y,tostring(neighbor.isNorth),neighbor.altitude)) end
+						if debugTime then --print(string.format("--pushing (%d,%d) N=%s alt=%f",neighbor.x,neighbor.y,tostring(neighbor.isNorth),neighbor.altitude)) end
 					end
 				elseif neighbor.isNorth == false and onQueueMapSouth[i] == false then
 					Push(lakeList,neighbor)
 					onQueueMapSouth[i] = true
 					if debugOn then
-						if debugTime then print(string.format("--pushing (%d,%d) N=%s alt=%f",neighbor.x,neighbor.y,tostring(neighbor.isNorth),neighbor.altitude)) end
+						if debugTime then --print(string.format("--pushing (%d,%d) N=%s alt=%f",neighbor.x,neighbor.y,tostring(neighbor.isNorth),neighbor.altitude)) end
 					end
 				end
 			end
 		end
 	end
-	--if debugTime then print(string.format("longestLakeList = %d",longestLakeList)) end
+	--if debugTime then --print(string.format("longestLakeList = %d",longestLakeList)) end
 
-	--if debugTime then print(string.format("sea level = %f",self.elevationMap.seaLevelThreshold)) end
+	--if debugTime then --print(string.format("sea level = %f",self.elevationMap.seaLevelThreshold)) end
 
 	--[[
 	local belowSeaLevelCount = 0
@@ -6122,13 +6122,13 @@ function RiverMap:SiltifyLakes()
 
 			if self:isLake(self.riverData[i].northJunction) then
 				local junction = self.riverData[i].northJunction
-				if debugTime then print(string.format("lake found at (%d, %d) isNorth = %s, altitude = %f!",junction.x,junction.y,tostring(junction.isNorth),junction.altitude)) end
+				if debugTime then --print(string.format("lake found at (%d, %d) isNorth = %s, altitude = %f!",junction.x,junction.y,tostring(junction.isNorth),junction.altitude)) end
 				riverTest.data[i] = 1.0
 				lakesFound = true
 			end
 			if self:isLake(self.riverData[i].southJunction) then
 				local junction = self.riverData[i].southJunction
-				if debugTime then print(string.format("lake found at (%d, %d) isNorth = %s, altitude = %f!",junction.x,junction.y,tostring(junction.isNorth),junction.altitude)) end
+				if debugTime then --print(string.format("lake found at (%d, %d) isNorth = %s, altitude = %f!",junction.x,junction.y,tostring(junction.isNorth),junction.altitude)) end
 				riverTest.data[i] = 1.0
 				lakesFound = true
 			end
@@ -6229,7 +6229,7 @@ function RiverMap:SetRiverSizes(rainfallMap)
 	table.sort(junctionList,function (a,b) return a.size > b.size end)
 	local riverIndex = math.floor(mg.riverPercent * #junctionList)
 	self.riverThreshold = junctionList[riverIndex].size
-	if debugTime then print(string.format("river threshold = %f",self.riverThreshold)) end
+	if debugTime then --print(string.format("river threshold = %f",self.riverThreshold)) end
 
 --~ 	local riverMap = FloatMap:New(self.elevationMap.width,self.elevationMap.height,self.elevationMap.xWrap,self.elevationMap.yWrap)
 --~ 	for y = 0,self.elevationMap.height - 1 do
@@ -6244,20 +6244,20 @@ end
 
 --This function returns the flow directions needed by civ
 function RiverMap:GetFlowDirections(x,y)
-	--if debugTime then print(string.format("Get flow dirs for %d,%d",x,y)) end
+	--if debugTime then --print(string.format("Get flow dirs for %d,%d",x,y)) end
 	local i = elevationMap:GetIndex(x,y)
 
 	local WOfRiver = mg.flowNONE
 	local xx,yy = elevationMap:GetNeighbor(x,y,mg.NE)
 	local ii = elevationMap:GetIndex(xx,yy)
 	if ii ~= -1 and self.riverData[ii].southJunction.flow == mg.VERTFLOW and self.riverData[ii].southJunction.size > self.riverThreshold then
-		--if debugTime then print(string.format("--NE(%d,%d) south flow=%d, size=%f",xx,yy,self.riverData[ii].southJunction.flow,self.riverData[ii].southJunction.size)) end
+		--if debugTime then --print(string.format("--NE(%d,%d) south flow=%d, size=%f",xx,yy,self.riverData[ii].southJunction.flow,self.riverData[ii].southJunction.size)) end
 		WOfRiver = mg.flowS
 	end
 	xx,yy = elevationMap:GetNeighbor(x,y,mg.SE)
 	ii = elevationMap:GetIndex(xx,yy)
 	if ii ~= -1 and self.riverData[ii].northJunction.flow == mg.VERTFLOW and self.riverData[ii].northJunction.size > self.riverThreshold then
-		--if debugTime then print(string.format("--SE(%d,%d) north flow=%d, size=%f",xx,yy,self.riverData[ii].northJunction.flow,self.riverData[ii].northJunction.size)) end
+		--if debugTime then --print(string.format("--SE(%d,%d) north flow=%d, size=%f",xx,yy,self.riverData[ii].northJunction.flow,self.riverData[ii].northJunction.size)) end
 		WOfRiver = mg.flowN
 	end
 
@@ -7276,7 +7276,7 @@ function AssignStartingPlots:ProcessResourceList(frequency, impact_table_number,
 							end
 							local randValue = Map.Rand(self.resource_setting + 1, "Place Strategic Resource - Lua")
 							local quantity = res_quantity[use_this_res_index] + randValue
-							--print(string.format("ProcessResourceList table 1, Resource: %20s, Quantity: %s + %s - 1", GameInfo.Resources[res_ID[use_this_res_index]].Type, res_quantity[use_this_res_index], randValue));
+							----print(string.format("ProcessResourceList table 1, Resource: %20s, Quantity: %s + %s - 1", GameInfo.Resources[res_ID[use_this_res_index]].Type, res_quantity[use_this_res_index], randValue));
 							res_plot:SetResourceType(res_ID[use_this_res_index], quantity);
 							if (Game.GetResourceUsageType(res_ID[use_this_res_index]) == ResourceUsageTypes.RESOURCEUSAGE_LUXURY) then
 								self.totalLuxPlacedSoFar = self.totalLuxPlacedSoFar + 1;
@@ -7570,7 +7570,7 @@ function AssignStartingPlots:CalculateStrategicPlotWeights()
 				local nearPlotID	= Plot_GetID(nearPlot)
 				local nearPlotType	= nearPlot:GetPlotType()
 				for _, resID in pairs(resIDs) do
-					print(string.format(("self.plotResInfo[resID]=%s nearPlotID=%s", nearPlotID, tostring(self.plotResInfo[resID]))))
+					--print(string.format(("self.plotResInfo[resID]=%s nearPlotID=%s", nearPlotID, tostring(self.plotResInfo[resID]))))
 					local nearWeight = self.plotResInfo[resID]
 					nearWeight = nearWeight[nearPlotID]
 					nearWeight = nearWeight.weight
@@ -8069,7 +8069,7 @@ function PlacePossibleFish(plot)
 	
 	if odds >= Map.Rand(100, "PlacePossibleFish - Lua") then
 		plot:SetResourceType(fishID, 1)
-		--print(string.format( "PlacePossibleFish fertility=%-3s odds=%-3s fishMod=%-3s", Round(sumFertility), Round(odds), Round(fishMod) ))
+		----print(string.format( "PlacePossibleFish fertility=%-3s odds=%-3s fishMod=%-3s", Round(sumFertility), Round(odds), Round(fishMod) ))
 	end
 end
 ------------------------------------------------------------------------------

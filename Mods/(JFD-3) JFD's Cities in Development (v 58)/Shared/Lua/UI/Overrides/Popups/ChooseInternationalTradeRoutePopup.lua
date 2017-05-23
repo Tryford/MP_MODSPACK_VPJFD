@@ -50,10 +50,10 @@ Controls.ItemScrollPanel:ReprocessAnchoring();
 
 local bpWidth, bpHeight = Controls.BottomPanel:GetSizeVal();
 --bpHeight = bpHeight * heightRatio;
---print(heightOffset);
---print(bpHeight);
+----print(heightOffset);
+----print(bpHeight);
 bpHeight = bpHeight + heightOffset 
---print(bpHeight);
+----print(bpHeight);
 
 local pUnitPlot;
 

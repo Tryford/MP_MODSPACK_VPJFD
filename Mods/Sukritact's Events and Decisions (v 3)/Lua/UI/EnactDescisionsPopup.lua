@@ -242,7 +242,7 @@ g_SortByPulldown:GetButton():LocalizeAndSetText(g_SortOptions[g_CurrentSortOptio
 --=======================================================================================================================
 function PushDecision(pPlayer, tDecision)
 
-	print(pPlayer:GetName() .. "(" .. pPlayer:GetID() .. ") Enacting " .. tDecision.Name)
+	--print(pPlayer:GetName() .. "(" .. pPlayer:GetID() .. ") Enacting " .. tDecision.Name)
 
 	tDecision.DoFunc(pPlayer, tDecision.Data1, tDecision.Data2)
 	if not(bHidden) then RefreshList() end
@@ -354,7 +354,7 @@ function RefreshList()
 		end
 		
 		tDecisionsStorage[iPlayer][sKey] = {Name = tEvent.Name, Available = bAvailable, Enactable = bEnactable, Enacted = bEnacted}
-		print(tEvent.Name, bAvailable, bEnactable, bEnacted)
+		--print(tEvent.Name, bAvailable, bEnactable, bEnacted)
 	end
 	print("")
 
@@ -377,7 +377,7 @@ function RefreshList()
 		end
 		
 		tDecisionsStorage[iPlayer][sKey] = {Name = tEvent.Name, Available = bAvailable, Enactable = bEnactable, Enacted = bEnacted}
-		print(tEvent.Name, bAvailable, bEnactable, bEnacted)
+		--print(tEvent.Name, bAvailable, bEnactable, bEnacted)
 	end
 	tTempDecisions = {}
 	print("")
@@ -534,7 +534,7 @@ function AIProcessEventsTable(pPlayer, tTable)
 					local bAvailable, bEnactable, bEnacted = tEvent.CanFunc(pPlayer, tEvent.Data1, tEvent.Data2)
 					if bAvailable and bEnactable then
 			
-						--print(pPlayer:GetName() .. "(" .. pPlayer:GetID() .. ") Can Enact " .. tEvent.Name)
+						----print(pPlayer:GetName() .. "(" .. pPlayer:GetID() .. ") Can Enact " .. tEvent.Name)
 				
 						LuaEvents.PushDecisions(pPlayer, tEvent)
 					end
@@ -544,7 +544,7 @@ function AIProcessEventsTable(pPlayer, tTable)
 			local bAvailable, bEnactable, bEnacted = tEvent.CanFunc(pPlayer, tEvent.Data1, tEvent.Data2)
 			if bAvailable and bEnactable then
 			
-				--print(pPlayer:GetName() .. "(" .. pPlayer:GetID() .. ") Can Enact " .. tEvent.Name)
+				----print(pPlayer:GetName() .. "(" .. pPlayer:GetID() .. ") Can Enact " .. tEvent.Name)
 				
 				if tEvent.Weight(pPlayer, tEvent.Data1, tEvent.Data2) then
 					LuaEvents.PushDecisions(pPlayer, tEvent)
@@ -554,7 +554,7 @@ function AIProcessEventsTable(pPlayer, tTable)
 			local bAvailable, bEnactable, bEnacted = tEvent.CanFunc(pPlayer, tEvent.Data1, tEvent.Data2)
 			if bAvailable and bEnactable then
 			
-				--print(pPlayer:GetName() .. "(" .. pPlayer:GetID() .. ") Can Enact " .. tEvent.Name)
+				----print(pPlayer:GetName() .. "(" .. pPlayer:GetID() .. ") Can Enact " .. tEvent.Name)
 				
 				LuaEvents.PushDecisions(pPlayer, tEvent)
 			end

@@ -67,7 +67,7 @@ local Event_ReligiousProject = {}
 				table.insert(tValidBuildings, GetUniqueBuilding(pPlayer, sClass))
 			end
 			if Event_ReligiousProject.CivBuildings[GameInfo.Civilizations[pPlayer:GetCivilizationType()].Type] then
-				print(Event_ReligiousProject.CivBuildings[GameInfo.Civilizations[pPlayer:GetCivilizationType()].Type])
+				--print(Event_ReligiousProject.CivBuildings[GameInfo.Civilizations[pPlayer:GetCivilizationType()].Type])
 				table.insert(tValidBuildings, Event_ReligiousProject.CivBuildings[GameInfo.Civilizations[pPlayer:GetCivilizationType()].Type])
 				table.insert(tValidBuildings, Event_ReligiousProject.CivBuildings[GameInfo.Civilizations[pPlayer:GetCivilizationType()].Type])
 			end

@@ -191,7 +191,7 @@ function OnDisplay( type, team )
 			m_bAllowBack = false;
 		end
 			
-		--print(victoryType);
+		----print(victoryType);
 		if(victoryType)then
 			m_strAudio = GetVictoryAudio(victoryType);
 			Controls.BackgroundImage:SetTexture(GameInfo.Victories[victoryType].VictoryBackground);    		

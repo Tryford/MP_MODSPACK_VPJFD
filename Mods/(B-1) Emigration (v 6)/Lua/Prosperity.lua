@@ -103,7 +103,7 @@ end
 --------------------------------------------------------------
 function GetDangerModifier(city)
 	local danger = Players[city:GetOwner()]:GetPlotDanger(city:Plot());
-	--print(city:GetName() .. " danger = " .. danger);
+	----print(city:GetName() .. " danger = " .. danger);
 	if danger > 0 then
 		return DangerModifier;
 	end
@@ -371,7 +371,7 @@ function GetProsperityTooltip(city)
 	-- emigration city list
 	local infos = nil;
 	for k,v in pairs(ProsperityInfos) do
-		--print(k:GetID() .. " " .. k:GetName() .. "\t" .. #v .. " infos");
+		----print(k:GetID() .. " " .. k:GetName() .. "\t" .. #v .. " infos");
 		if k:Plot() == city:Plot() then	-- ProsperityInfos[city] just doesn't work for some reason
 			--print("found infos");
 			infos = v;
@@ -406,7 +406,7 @@ function GetProsperityTooltip(city)
 	for city,infos in pairs(ProsperityInfos) do
 		for i = 1, #infos do
 			local info = infos[i];
-			--print(city:GetName() .. " > " .. info.city:GetName() .. ", urge=" .. info.urge);
+			----print(city:GetName() .. " > " .. info.city:GetName() .. ", urge=" .. info.urge);
 			local info = infos[i];
 			if info.city:Plot() == city:Plot() then
 				--print("destination city is ours!");

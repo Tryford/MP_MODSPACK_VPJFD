@@ -322,7 +322,7 @@ function UpdateDisplay()
 			
 			
 			if(thisImageMask == nil) then
-				print(ImageMaskName);
+				--print(ImageMaskName);
 			end
 			--local thisEraLabel = Controls[EraLabelName];
 			

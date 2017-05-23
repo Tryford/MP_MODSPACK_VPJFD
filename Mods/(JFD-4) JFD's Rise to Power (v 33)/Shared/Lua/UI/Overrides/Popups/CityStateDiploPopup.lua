@@ -83,7 +83,7 @@ end
 -------------------------------------------------------------------------------
 function SetButtonSize(textControl, buttonControl, animControl, buttonHL)
 
-	--print(textControl:GetText())
+	----print(textControl:GetText())
 	local sizeY = textControl:GetSizeY() + 19 --WordWrapOffset
 	buttonControl:SetSizeY(sizeY)
 	animControl:SetSizeY(sizeY+3) --WordWrapAnimOffset

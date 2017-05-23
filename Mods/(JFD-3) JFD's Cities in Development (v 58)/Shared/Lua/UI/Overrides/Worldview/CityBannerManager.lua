@@ -1704,7 +1704,7 @@ function OnCombatBegin( attackerPlayerID,
                         attackerY,
                         defenderX,
                         defenderY )
-    --print( "CityBanner CombatBegin" );                        
+    ----print( "CityBanner CombatBegin" );                        
 				
 	HideGarrisonRing(attackerX, attackerY, true);
 	HideGarrisonRing(defenderX, defenderY, true);
@@ -1729,7 +1729,7 @@ function OnCombatEnd( attackerPlayerID,
 					  defenderX,
                       defenderY )
                          
-    --print( "CityBanner CombatEnd" );                        
+    ----print( "CityBanner CombatEnd" );                        
     
 	HideGarrisonRing(attackerX, attackerY, false);
 	HideGarrisonRing(defenderX, defenderY, false);

@@ -49,7 +49,7 @@ function OnPopup( popupInfo )
 	tChoiceOverrideStrings = {}
 	LuaEvents.EventChoice_OverrideTextStrings(playerID, nil, pEventChoiceInfo, tChoiceOverrideStrings)
 	for _,str in ipairs(tChoiceOverrideStrings) do
-		print(str.Help)
+		--print(str.Help)
 		szTitleString = str.Description or szTitleString
 		szHelpString = str.Help or szHelpString
 	end

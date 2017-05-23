@@ -43,7 +43,7 @@ end
 function GetPairCity(city)
 	local x = city:GetNumRealBuilding(GameInfoTypes.BUILDING_EM_PAIR_X);
 	local y = city:GetNumRealBuilding(GameInfoTypes.BUILDING_EM_PAIR_Y);
-	--print(city:GetName() .. " get pair: ", "x=" .. x .. ", y=" .. y);
+	----print(city:GetName() .. " get pair: ", "x=" .. x .. ", y=" .. y);
 	local pair = Map.GetPlot(x, y):GetPlotCity();
 	--[[
 	if pair ~= nil then

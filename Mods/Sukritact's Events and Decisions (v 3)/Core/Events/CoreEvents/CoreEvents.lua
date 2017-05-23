@@ -1366,7 +1366,7 @@ local Event_RebelUprising = {}
 			Event_RebelUprising.Data1 = tCities[GetRandom(1, #tCities)]
 			Event_RebelUprising.Data2 = GetRandom(1, 2)
 
-			print(Event_RebelUprising.Data1:GetName(), Event_RebelUprising.Data2)
+			--print(Event_RebelUprising.Data1:GetName(), Event_RebelUprising.Data2)
 
 			if not(GetStrongestMilitaryUnit(pPlayer, false, "UNITCOMBAT_MELEE", "UNITCOMBAT_GUN")) then return end
 			return true

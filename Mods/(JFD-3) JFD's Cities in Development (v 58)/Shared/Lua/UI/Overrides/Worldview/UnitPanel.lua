@@ -49,13 +49,13 @@ local addinActions = {}
 local addinBuilds = {}
 
 function OnUnitPanelActionAddin(action)
-  print(string.format("Adding UnitPanel action %s (%s)", Locale.ConvertTextKey(action.Title), action.Name))
+  --print(string.format("Adding UnitPanel action %s (%s)", Locale.ConvertTextKey(action.Title), action.Name))
   table.insert(addinActions, action)
 end
 LuaEvents.UnitPanelActionAddin.Add(OnUnitPanelActionAddin)
 
 function OnUnitPanelBuildAddin(build)
-  print(string.format("Adding UnitPanel build %s (%s)", Locale.ConvertTextKey(build.Title), build.Name))
+  --print(string.format("Adding UnitPanel build %s (%s)", Locale.ConvertTextKey(build.Title), build.Name))
   table.insert(addinBuilds, build)
 end
 LuaEvents.UnitPanelBuildAddin.Add(OnUnitPanelBuildAddin)
@@ -172,8 +172,8 @@ function HookupActionIcon(action, actionIconSize, icon)
 		local iconIndex, iconAtlas = f(action);
 		IconHookup(iconIndex, actionIconSize, iconAtlas, icon);
 	else
-		print(action.Type);
-		print(action.SubType);
+		--print(action.Type);
+		--print(action.SubType);
 		error("Could not find method to obtain action icon.");
 	end
 end

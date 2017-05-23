@@ -13,15 +13,15 @@
 -- Use these functions as follows
 --
 --    for pEdgePlot in PlotRingIterator(pPlot, r, sector, anticlock) do
---      print(pEdgePlot:GetX(), pEdgePlot:GetY())
+--      --print(pEdgePlot:GetX(), pEdgePlot:GetY())
 --    end
 --
 --    for pAreaPlot in PlotAreaSpiralIterator(pPlot, r, sector, anticlock, inwards, centre) do
---      print(pAreaPlot:GetX(), pAreaPlot:GetY())
+--      --print(pAreaPlot:GetX(), pAreaPlot:GetY())
 --    end
 --
 --    for pAreaPlot in PlotAreaSweepIterator(pPlot, r, sector, anticlock, inwards, centre) do
---      print(pAreaPlot:GetX(), pAreaPlot:GetY())
+--      --print(pAreaPlot:GetX(), pAreaPlot:GetY())
 --    end
 --
 
@@ -42,7 +42,7 @@ CENTRE_INCLUDE = true
 CENTRE_EXCLUDE = false
 
 function PlotRingIterator(pPlot, r, sector, anticlock)
-  --print(string.format("PlotRingIterator((%i, %i), r=%i, s=%i, d=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd")))
+  ----print(string.format("PlotRingIterator((%i, %i), r=%i, s=%i, d=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd")))
   -- The important thing to remember with hex-coordinates is that x+y+z = 0
   -- so we never actually need to store z as we can always calculate it as -(x+y)
   -- See http://keekerdc.com/2011/03/hexagon-grids-coordinate-systems-and-distance-calculations/
@@ -94,7 +94,7 @@ function PlotRingIterator(pPlot, r, sector, anticlock)
     return function ()
       local pEdgePlot = nil
       local success, hex = coroutine.resume(next)
-      --if (hex ~= nil) then print(string.format("hex(%i, %i, %i)", hex.x, hex.y, -1 * (hex.x+hex.y))) else print("hex(nil)") end
+      --if (hex ~= nil) then --print(string.format("hex(%i, %i, %i)", hex.x, hex.y, -1 * (hex.x+hex.y))) else print("hex(nil)") end
 
       while (success and hex ~= nil and pEdgePlot == nil) do
         pEdgePlot = Map.GetPlot(ToGridFromHex(hex.x, hex.y))
@@ -111,7 +111,7 @@ end
 
 
 function PlotAreaSpiralIterator(pPlot, r, sector, anticlock, inwards, centre)
-  --print(string.format("PlotAreaSpiralIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
+  ----print(string.format("PlotAreaSpiralIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
   -- This coroutine walks each ring in sequence
   local next = coroutine.create(function ()
     if (centre and not inwards) then
@@ -148,7 +148,7 @@ end
 
 
 function PlotAreaSweepIterator(pPlot, r, sector, anticlock, inwards, centre)
-  -- print(string.format("PlotAreaSweepIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
+  -- --print(string.format("PlotAreaSweepIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
   -- This coroutine walks each radial in sequence
   local next = coroutine.create(function ()
     if (centre and not inwards) then
@@ -209,7 +209,7 @@ highlights = {
 }
 
 function TestPlotHighlight(pPlot, highlight)
-  -- print(pPlot:GetX(), pPlot:GetY())
+  -- --print(pPlot:GetX(), pPlot:GetY())
   if (highlight ~= nil) then
     Events.SerialEventHexHighlight(ToHexFromGrid(Vector2(pPlot:GetX(), pPlot:GetY())), true, highlight)
   end

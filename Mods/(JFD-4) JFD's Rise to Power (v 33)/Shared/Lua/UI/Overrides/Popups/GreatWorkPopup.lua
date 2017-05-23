@@ -137,8 +137,8 @@ function ShowHideHandler( bIsHide, bInitState )
 			local lcNewHeight = lcHeight + 20;
 	
 			print("FLIBBY");			
-			print(lcNewWidth);
-			print(m_fOriginalSizeX + deltaWidth - 34);
+			--print(lcNewWidth);
+			--print(m_fOriginalSizeX + deltaWidth - 34);
 			
 			
 			

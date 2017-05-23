@@ -4,7 +4,7 @@
 -- code is common using gk_mode and bnw_mode switches
 -- compatible with Communitas breaking yield types
 -- TODO: lots !
---print( "Loading EUI tooltips for "..tostring(ContextPtr:GetID()).." context" )
+----print( "Loading EUI tooltips for "..tostring(ContextPtr:GetID()).." context" )
 
 local civ5_mode = InStrategicView ~= nil
 local civBE_mode = not civ5_mode
@@ -35,7 +35,7 @@ local userSettingInvestmentsCore = JFD_GetUserSetting("JFD_CID_INVESTMENTS_CORE"
 ------------------------------
 -- JFD
 ------------------------------
---print( "Root contexts:", LookUpControl( "/FrontEnd" ) or "nil", LookUpControl( "/InGame" ) or "nil", LookUpControl( "/LeaderHeadRoot" ) or "nil")
+----print( "Root contexts:", LookUpControl( "/FrontEnd" ) or "nil", LookUpControl( "/InGame" ) or "nil", LookUpControl( "/LeaderHeadRoot" ) or "nil")
 -------------------------------
 -- minor lua optimizations
 -------------------------------

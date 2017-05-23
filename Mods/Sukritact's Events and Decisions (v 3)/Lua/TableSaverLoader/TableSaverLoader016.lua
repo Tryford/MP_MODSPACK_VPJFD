@@ -362,7 +362,7 @@ function TableLoad(masterTable, DBTablePrefix)
 	elseif bAssertError then
 		error(errorStr)
 	else
-		print(errorStr)
+		--print(errorStr)
 	end
 
 	bTableLoaded = true
@@ -428,7 +428,7 @@ DBChange = function(str)	--for single DB commands when an iterator just looks co
 	if bVerboseDB then
 		local i = 1
 		while i < #str do
-			print(sub(str, i, i + 499))	--friendly print for Fire Tuner
+			--print(sub(str, i, i + 499))	--friendly print for Fire Tuner
 			i = i + 500
 		end
 	end

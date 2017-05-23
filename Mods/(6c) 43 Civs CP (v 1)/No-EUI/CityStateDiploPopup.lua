@@ -38,7 +38,7 @@ local m_iPendingAction = kiNoAction; -- For bullying dialog popups
 -------------------------------------------------------------------------------
 function SetButtonSize(textControl, buttonControl, animControl, buttonHL)
 
-	--print(textControl:GetText());
+	----print(textControl:GetText());
 	local sizeY = textControl:GetSizeY() + WordWrapOffset;
 	buttonControl:SetSizeY(sizeY);
 	animControl:SetSizeY(sizeY+WordWrapAnimOffset);

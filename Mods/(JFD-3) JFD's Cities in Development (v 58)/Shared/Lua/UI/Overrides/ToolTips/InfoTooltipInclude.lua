@@ -124,7 +124,7 @@ function GetHelpTextForUnit(iUnitID, bIncludeRequirementsInfo, pCity)
 	-- Pre-written Help text
 	if (not pUnitInfo.Help) then
 		print("Invalid unit help");
-		print(strHelpText);
+		--print(strHelpText);
 	else
 		local strWrittenHelpText = Locale.ConvertTextKey( pUnitInfo.Help );
 		if (strWrittenHelpText ~= nil and strWrittenHelpText ~= "") then

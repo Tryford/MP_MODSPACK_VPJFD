@@ -1074,7 +1074,7 @@ function KillPopupText( control )
     
     if( instance == nil )
     then
-        print( "Error killing popup text" );
+        --print( "Error killing popup text" );
     else
         g_PopupIM:ReleaseInstance( instance );
         g_InstanceMap[ szKey ] = null;
@@ -1098,7 +1098,7 @@ end
 ----------------------------------------------------------------        
 function OnUnitHexHighlight( i, j, k, bOn, unitId )
 
-    --print( "GotEvent " .. unitId );
+    ----print( "GotEvent " .. unitId );
     local unit = UI.GetHeadSelectedUnit();
     
     if( unit ~= nil and

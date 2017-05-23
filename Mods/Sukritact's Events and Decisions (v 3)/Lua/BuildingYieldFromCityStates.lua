@@ -18,7 +18,7 @@ local iCulture = GameInfoTypes["YIELD_CULTURE"]
 local iFaith = GameInfoTypes["YIELD_FAITH"]
 
 function BuildingYieldFromCityStates(iPlayer, pPlayer, bIsTurnStart)
-	--print(bIsTurnStart)
+	----print(bIsTurnStart)
 	for row in GameInfo.Building_YieldFromCityStates() do
 		local iBuilding = GameInfo.Buildings[row.BuildingType].ID
 		local iYield = YieldTypes[row.YieldType]

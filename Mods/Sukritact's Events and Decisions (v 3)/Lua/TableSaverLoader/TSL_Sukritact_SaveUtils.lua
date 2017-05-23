@@ -4,19 +4,19 @@
 --=======================================================================================================================
 --=======================================================================================================================
 function InitializeInstances()
-	--print(Player)
-	--print(Player)
-	--print(Team)
-	--print(Team)
-	--print(Plot)
+	----print(Player)
+	----print(Player)
+	----print(Team)
+	----print(Team)
+	----print(Plot)
 	local pPlot = Map.GetPlotByIndex(0)
-	--print(Plot)
-	--print(Unit)
+	----print(Plot)
+	----print(Unit)
 	local pPlayer = Players[0]
 	for pUnit in pPlayer:Units() do
 		break
 	end
-	--print(Unit)
+	----print(Unit)
 end
 InitializeInstances()
 

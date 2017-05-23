@@ -70,7 +70,7 @@ function UpdateDisplay()
     
     local pPlayer = Players[ Game.GetActivePlayer() ];
     if( pPlayer == nil ) then
-        print( "Could not get player... huh?" );
+        --print( "Could not get player... huh?" );
         return;
     end
     
@@ -349,7 +349,7 @@ function JFD_OnCurrencySelected(currencyID)
 	Controls.CurrencyProsperity:SetHide(false)
 	Controls.CurrencyProsperity:LocalizeAndSetText("TXT_KEY_JFD_PROSPERITY_CHOOSE_CURRENCY_PROSPERITY", JFD_GetCurrencyProsperityValue(activePlayerID, currencyID))
 	Controls.CurrencyChoiceSymbol:SetHide(false)
-	print(currency.PortraitIndex, currency.IconAtlas)
+	--print(currency.PortraitIndex, currency.IconAtlas)
 	IconHookup(currency.PortraitIndex, 64, currency.IconAtlas, Controls.CurrencyChoiceSymbol)
 	Controls.CurrencyChoiceStack:ReprocessAnchoring()
 	Controls.CurrencyChoiceInfoStack:ReprocessAnchoring()

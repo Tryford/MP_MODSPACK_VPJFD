@@ -86,7 +86,7 @@ Events.SerialEventGameMessagePopup.Add( OnPopup );
 function SetIcon(x, y)
 	local pNaturalWonderPlot = Map.GetPlot(x, y);
 	local feature = pNaturalWonderPlot:GetFeatureType();
-	--print(feature);
+	----print(feature);
 	local info = GameInfo.Features[feature];
 	if(info.NaturalWonder or info.PseudoNaturalWonder)then
 		IconHookup(info.PortraitIndex, 128, info.IconAtlas, Controls.Icon);

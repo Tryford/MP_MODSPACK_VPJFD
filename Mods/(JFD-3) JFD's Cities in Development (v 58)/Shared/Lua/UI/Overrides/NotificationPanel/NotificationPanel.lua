@@ -566,7 +566,7 @@ end
 Events.NotificationRemoved.Add(
 function( Id )
 
---print( "removing Notification " .. Id .. " " .. tostring( g_ActiveNotifications[ Id ] ) .. " " .. tostring( g_notificationNames[ g_ActiveNotifications[ Id ] ] ) )
+----print( "removing Notification " .. Id .. " " .. tostring( g_ActiveNotifications[ Id ] ) .. " " .. tostring( g_notificationNames[ g_ActiveNotifications[ Id ] ] ) )
 
 	RemoveNotificationID( Id )
 	ProcessStackSizes()
@@ -593,18 +593,19 @@ function( x, y, oldPopulation, newPopulation )
 			L("TXT_KEY_NOTIFICATION_CITY_GROWTH", city:GetName(), newPopulation ),
 			L("TXT_KEY_NOTIFICATION_SUMMARY_CITY_GROWTH", city:GetName() ),
 			x, y, plot:GetPlotIndex() )	--iGameDataIndex, int iExtraGameData
-		--print( "Notification sent:", NotificationTypes.NOTIFICATION_CITY_GROWTH, sTip, sTitle, x, y )
+		----print( "Notification sent:", NotificationTypes.NOTIFICATION_CITY_GROWTH, sTip, sTitle, x, y )
 	end
+	print("pop changes: " .. x .. "," .. y .. "," .. oldPopulation .. "," .. newPopulation)
 end)
 
 GameEvents.CityBoughtPlot.Add(
 function( playerID, cityID, x, y, isWithGold, isWithFaithOrCulture )
 
 	if isWithFaithOrCulture and playerID == g_activePlayerID then
-		--print( "Border growth at coordinates: ", x, y, "playerID:", playerID, "isWithGold", isWithGold, "isWithFaithOrCulture", isWithFaithOrCulture )
+		----print( "Border growth at coordinates: ", x, y, "playerID:", playerID, "isWithGold", isWithGold, "isWithFaithOrCulture", isWithFaithOrCulture )
 		local plot = Map.GetPlot( x, y )
 		local city = g_activePlayer:GetCityByID( cityID )
-		--print( "CityTileNotification:", city and city:GetName(), x, y, plot, city and city:GetCityPlotIndex(plot) )
+		----print( "CityTileNotification:", city and city:GetName(), x, y, plot, city and city:GetCityPlotIndex(plot) )
 
 		if plot and city and ( ( plot:GetWorkingCity() and not city:IsPuppet() ) or Game.GetResourceUsageType( plot:GetResourceType( g_activeTeamID ) ) > 0 )
 		-- valid plot, either worked by city which is not a puppet, or has some kind of resource we can use
@@ -613,7 +614,7 @@ function( playerID, cityID, x, y, isWithGold, isWithFaithOrCulture )
 				L( "TXT_KEY_NOTIFICATION_CITY_CULTURE_ACQUIRED_NEW_PLOT", city:GetName() ),
 				L( "TXT_KEY_NOTIFICATION_SUMMARY_CITY_CULTURE_ACQUIRED_NEW_PLOT", city:GetName() ),
 				x, y, plot:GetPlotIndex() )	--iGameDataIndex, int iExtraGameData
-			--print( "CityTileNotification sent:", NotificationTypes.NOTIFICATION_CITY_TILE, city:GetName(), x, y )
+			----print( "CityTileNotification sent:", NotificationTypes.NOTIFICATION_CITY_TILE, city:GetName(), x, y )
 		end
 	end
 end)

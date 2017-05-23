@@ -7954,7 +7954,7 @@ function OnSearchButtonClicked()
 					end);
 
 					controlTable.Button:SetVoid1( i );
-					--print(v);
+					----print(v);
 				end
 				Controls.PartialMatchPullDown:CalculateInternals();
 				--print "---------------------------------"
