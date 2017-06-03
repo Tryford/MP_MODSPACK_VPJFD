@@ -65,8 +65,8 @@ v1 (Jan 13, 2015)
 -- NO CHANGES ARE NECESSARY IN THIS FILE.
 --------------------------------------------------------------
 
-MapModData.TSLTriggers = MapModData.TSLTriggers or {}
-TSLTriggers = MapModData.TSLTriggers
+MMData_RTP.TSLTriggers = MMData_RTP.TSLTriggers or {}
+TSLTriggers = MMData_RTP.TSLTriggers
 
 bBarbTurnSaved = TSLMaster.barbTurnSaved or false
 iCurrentTSLMaster = TSLMaster.verNum or 0
@@ -76,19 +76,19 @@ local bIsMasterContext = false
 -- MapModData is not cleared when reloading during a game
 if TSLMaster.isActive and TSLMaster.gameBegun then
 	--print("Resetting TSL Master for a loaded game...")
-	for data in pairs(MapModData.TSLMaster) do
-		MapModData.TSLMaster[data] = nil
+	for data in pairs(MMData_RTP.TSLMaster) do
+		MMData_RTP.TSLMaster[data] = nil
 	end
-	for data in pairs(MapModData.TSLTriggers) do
-		MapModData.TSLTriggers[data] = nil
+	for data in pairs(MMData_RTP.TSLTriggers) do
+		MMData_RTP.TSLTriggers[data] = nil
 	end
 	--print("Reinitializing globals...")
-	MapModData.TSLMaster = MapModData.TSLMaster or {}
-	TSLMaster = MapModData.TSLMaster
+	MMData_RTP.TSLMaster = MMData_RTP.TSLMaster or {}
+	TSLMaster = MMData_RTP.TSLMaster
 	iTSLIndex = TSLMaster.tableIndex or 1
 	bBarbTurnSaved = TSLMaster.barbTurnSaved or false
-	MapModData.TSLTriggers = MapModData.TSLTriggers or {}
-	TSLTriggers = MapModData.TSLTriggers
+	MMData_RTP.TSLTriggers = MMData_RTP.TSLTriggers or {}
+	TSLTriggers = MMData_RTP.TSLTriggers
 end
 
 function RegisterTSLMasterEvents()
@@ -97,6 +97,7 @@ function RegisterTSLMasterEvents()
 	LuaEvents.RegisterTSLTable.Add(AddTableToTSLMaster)
 	LuaEvents.HibernateTSLMaster.Add(TSLMasterHandoff)
 	Events.LoadScreenClose.Add(TSLGameBegun)
+	Events.MultiplayerGameLaunched.Add(TSLGameBegun)
 end
 
 function TSLMasterHandoff()
@@ -108,12 +109,13 @@ function TSLMasterHandoff()
 		LuaEvents.RegisterTSLTable.Remove(AddTableToTSLMaster)
 		LuaEvents.HibernateTSLMaster.Remove(TSLMasterHandoff)
 		Events.LoadScreenClose.Remove(TSLGameBegun)
+		Events.MultiplayerGameLaunched.Remove(TSLGameBegun)
 	end
 end
 
 function TSLGameBegun()
 	--print("Game control acquired by player. TSL Master standing by...")
-	MapModData.TSLMaster.gameBegun = true
+	MMData_RTP.TSLMaster.gameBegun = true
 end
 
 function GetTSLTableIndex()
@@ -163,7 +165,7 @@ function AddTableToTSLMaster(gTSLTable, sDBTableName)
 			--print("[TSL Serializer Master] Table has already been registered. Duplicate registration ignored.")
 			bRegistered = true
 			break
-		elseif TSLTriggers[i][1] == MapModData or TSLTriggers[i][1] == MapModData.gT then
+		elseif TSLTriggers[i][1] == MMData_RTP or TSLTriggers[i][1] == MMData_RTP.gT then
 			--print("[TSL Serializer Master] This is the default Global table! Unrelated data may cause issues!")
 		elseif TSLTriggers[i][1] == gTSLTable then
 			--print("[TSL Serializer Master] Global table is already being saved! Contents will be duplicated!")
@@ -222,6 +224,7 @@ local function OnEnterGame()
 end
 
 Events.LoadScreenClose.Add(OnEnterGame)
+Events.MultiplayerGameLaunched.Add(OnEnterGame)
 
 autoSaveFreq = OptionsManager.GetTurnsBetweenAutosave_Cached()
 

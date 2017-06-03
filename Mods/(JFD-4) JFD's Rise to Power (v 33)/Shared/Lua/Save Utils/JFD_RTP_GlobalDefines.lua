@@ -6,13 +6,14 @@
 --==========================================================================================================================
 -- Globals
 -----------------
-MapModData.JFD_RTP 				    = MapModData.JFD_RTP or {}
-MapModData.JFD_RTP_FreeReforms	    = MapModData.JFD_RTP_FreeReforms or {}
-MapModData.JFD_RTP_FreeGovtSwitches = MapModData.JFD_RTP_FreeGovtSwitches or {}
-MapModData.JFD_RTP_TheocracyHeresy  = MapModData.JFD_RTP_TheocracyHeresy or {}
-JFD_RTP			  				    = MapModData.JFD_RTP
-JFD_RTP_FreeReforms				    = MapModData.JFD_RTP_FreeReforms
-JFD_RTP_FreeGovtSwitches			= MapModData.JFD_RTP_FreeGovtSwitches
-JFD_RTP_TheocracyHeresy				= MapModData.JFD_RTP_TheocracyHeresy
+MMData_RTP = MMData_RTP or {}
+MMData_RTP.JFD_RTP 				    = MMData_RTP.JFD_RTP or {}
+MMData_RTP.JFD_RTP_FreeReforms	    = MMData_RTP.JFD_RTP_FreeReforms or {}
+MMData_RTP.JFD_RTP_FreeGovtSwitches = MMData_RTP.JFD_RTP_FreeGovtSwitches or {}
+MMData_RTP.JFD_RTP_TheocracyHeresy  = MMData_RTP.JFD_RTP_TheocracyHeresy or {}
+JFD_RTP			  				    = MMData_RTP.JFD_RTP
+JFD_RTP_FreeReforms				    = MMData_RTP.JFD_RTP_FreeReforms
+JFD_RTP_FreeGovtSwitches			= MMData_RTP.JFD_RTP_FreeGovtSwitches
+JFD_RTP_TheocracyHeresy				= MMData_RTP.JFD_RTP_TheocracyHeresy
 --==========================================================================================================================
 --==========================================================================================================================

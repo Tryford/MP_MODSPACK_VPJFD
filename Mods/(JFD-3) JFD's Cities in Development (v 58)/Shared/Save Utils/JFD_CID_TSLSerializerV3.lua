@@ -137,7 +137,7 @@ For more examples, please see the previous sections.
 -- LEAVE ALONE IF THESE TWO VARIABLES ARE ALREADY DEFINED
 --------------------------------------------------------------
 
-tableRoot = MapModData.JFD_CID
+tableRoot = MMData_CID.JFD_CID
 tableName = "JFD_CID"
 
 --------------------------------------------------------------
@@ -147,12 +147,12 @@ tableName = "JFD_CID"
 assert(tableRoot and type(tableRoot) == "table", "Error! tableRoot is not defined properly, or is not a table! Received: [" .. type(tableRoot) .. "] Aborting...")
 assert(tableName and type(tableName) == "string", "Error! tableName is not defined properly, or is not a string! Received: [" .. type(tableName) .. "] Aborting...")
 
-MapModData.TSLMaster = MapModData.TSLMaster or {}
-TSLMaster = MapModData.TSLMaster
+MMData_CID.TSLMaster = MMData_CID.TSLMaster or {}
+TSLMaster = MMData_CID.TSLMaster
 iTSLIndex = TSLMaster.tableIndex or 1
 
 -- Load Core TSL Serializer Components
-include("TSLSerializerCoreV3.lua")
+include("CID_TSLSerializerCoreV3.lua")
 
 -- Initiating client code
 if TSLMaster.isActive then
@@ -162,7 +162,7 @@ if TSLMaster.isActive then
 	--print("Received ID of " .. tostring(iTSLIndex) .. " from TSL Master.")
 end
 
-local function TSLSaveTable()
+local function TSLSaveTable_CID()
 	local iCurrentMasterVersion = TSLMaster.verNum
 	local bDebug = TSLMaster.debugMode or false
 	if iCurrentMasterVersion >= iClientVersion then
@@ -177,7 +177,7 @@ local function TSLSaveTable()
 end
 
 -- Add new LuaEvent listener to execute TableSave() when triggered by the TSL Master
-LuaEvents.TriggerTSLTableSave.Add(TSLSaveTable)
+LuaEvents.TriggerTSLTableSave.Add(TSLSaveTable_CID)
 
 -- Register the global table with the TSL Master
 LuaEvents.RegisterTSLTable(tableRoot, tableName)
@@ -201,11 +201,11 @@ end
 -- TableSaverLoader Autosave Interception Hookup
 
 local function OnAIProcessingEndedForPlayer(iPlayer)
-	if iPlayer == 63 then
-		if Game.GetGameTurn() % autoSaveFreq == 0 then
-			TableSave(tableRoot, tableName)
-		end
-	end
+	-- if iPlayer == 63 then
+		-- if Game.GetGameTurn() % autoSaveFreq == 0 then
+			-- TableSave(tableRoot, tableName)
+		-- end
+	-- end
 end
 
 Events.AIProcessingEndedForPlayer.Add(OnAIProcessingEndedForPlayer)
