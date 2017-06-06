@@ -9,7 +9,7 @@ include("JFD_PietyUtils.lua");
 include("JFD_CID_LoyaltyUtils.lua");
 include("JFD_CID_HappinessUtils.lua");
 include("JFD_RTPUtils.lua")
-include("JFD_RTP_GlobalDefines.lua");
+--include("JFD_RTP_GlobalDefines.lua");
 include("JFD_RTP_EpithetsUtils.lua");
 --=======================================================================================================================
 -- GAME DEFINES
@@ -583,7 +583,7 @@ end
 ----------------
 --JFD_GetNumFreeGovernmentSwitches
 function JFD_GetNumFreeGovernmentSwitches(playerID)
-	return JFD_RTP_FreeGovtSwitches[playerID] or 0
+	return JFD_RTP_FreeGovtSwitches[playerID] or numGovtChanges or 0
 end
 
 --JFD_ChangeNumFreeGovernmentSwitches
@@ -594,7 +594,7 @@ end
 
 --JFD_SetNumFreeGovernmentSwitches
 function JFD_SetNumFreeGovernmentSwitches(playerID, numGovtChanges)
-	JFD_RTP_FreeGovtSwitches[playerID] = numGovtChanges
+	--JFD_RTP_FreeGovtSwitches[playerID] = numGovtChanges
 end
 ----------------
 -- LEGISLATURE
@@ -1909,7 +1909,7 @@ end
 ----------------
 --JFD_GetNumFreeReforms
 function JFD_GetNumFreeReforms(playerID)
-	return JFD_RTP_FreeReforms[playerID] or 0
+	return JFD_RTP_FreeReforms[playerID] or numReforms or 0
 end
 
 --JFD_ChangeNumFreeReforms
@@ -1920,7 +1920,7 @@ end
 
 --JFD_SetNumFreeReforms
 function JFD_SetNumFreeReforms(playerID, numReforms)
-	JFD_RTP_FreeReforms[playerID] = numReforms
+	--JFD_RTP_FreeReforms[playerID] = numReforms
 end
 ----------------
 -- ANARCHY SENTIMENT

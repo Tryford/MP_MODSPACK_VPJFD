@@ -208,18 +208,18 @@ GameEvents.CustomMissionPossible.Add(JFD_RTP_MissionPossible)
 --=======================================================================================================================
 -- TSL
 --=======================================================================================================================
-include("RTP_TableSaverLoader016.lua")
-tableRoot = JFD_RTP
-tableName = "JFD_RTP"
-include("JFD_RTP_TSLSerializerV3.lua")
-TableLoad(tableRoot, tableName)
+--include("RTP_TableSaverLoader016.lua")
+--tableRoot = JFD_RTP
+--tableName = "JFD_RTP"
+--include("JFD_RTP_TSLSerializerV3.lua")
+--TableLoad(tableRoot, tableName)
 ------------------------------------------------------------------------------------------------------------------------
 -- TSL UTILITIES	
 ------------------------------------------------------------------------------------------------------------------------
 -- OnModLoaded
 function OnModLoaded() 
-	local bNewGame = not TableLoad(tableRoot, tableName)
-	TableSave(tableRoot, tableName)
+	--local bNewGame = not TableLoad(tableRoot, tableName)
+	--TableSave(tableRoot, tableName)
 end
 OnModLoaded()
 --=======================================================================================================================

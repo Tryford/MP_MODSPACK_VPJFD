@@ -5,7 +5,7 @@
 -- INCLUDES
 --=======================================================================================================================
 include("JFD_CIDUtilities.lua");
-include("JFD_CID_GlobalDefines.lua");
+--include("JFD_CID_GlobalDefines.lua");
 include("JFD_CulDivUtilities.lua");
 --=======================================================================================================================
 -- GAME DEFINES
@@ -142,17 +142,17 @@ end
 --JFD_GetProvinceName
 function JFD_GetProvinceName(city)
 	local cityID = JFD_GetCityID(city)
-	if JFD_CID[cityID] then 
-		return JFD_CID[cityID].ProvinceName 
-	end
+	--if JFD_CID[cityID] then 
+		--return JFD_CID[cityID].ProvinceName 
+	--end
 	return city:GetName()
 end
 
 --JFD_SetProvinceName
 function JFD_SetProvinceName(city, provinceName)
 	local cityID = JFD_GetCityID(city)
-	JFD_CID[cityID] = {}
-	JFD_CID[cityID].ProvinceName = provinceName
+	--JFD_CID[cityID] = {}
+	--JFD_CID[cityID].ProvinceName = provinceName
 end
 --------------------
 -- TITLE
