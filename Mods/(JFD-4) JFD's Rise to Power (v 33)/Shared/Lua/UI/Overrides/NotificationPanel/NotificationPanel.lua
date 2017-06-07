@@ -595,7 +595,7 @@ function( x, y, oldPopulation, newPopulation )
 			x, y, plot:GetPlotIndex() )	--iGameDataIndex, int iExtraGameData
 		----print( "Notification sent:", NotificationTypes.NOTIFICATION_CITY_GROWTH, sTip, sTitle, x, y )
 	end
-	print("pop changes: " .. x .. "," .. y .. "," .. oldPopulation .. "," .. newPopulation)
+	--print("pop changes: " .. x .. "," .. y .. "," .. oldPopulation .. "," .. newPopulation)
 end)
 
 GameEvents.CityBoughtPlot.Add(
