@@ -21,7 +21,7 @@ VALUES	('JFD_CULDIV_CORE_STARTING_BONUSES',				1), --Enables unique starting bon
 		('JFD_CULDIV_ARCHITECTURE_CHANGES_ZULU',			1), --Change City Artstyle from Mid-East to South American.
 		('JFD_CULDIV_EMBARKATION_CHANGES',					1), --Enables culture-specific embarkation graphics.
 		('JFD_CULDIV_MYTHICAL_EVENT',						1), --Enables a 'Mythical Creature' Event with Sukritact's E&D.
-		('JFD_CULDIV_SOUNDTRACK_ADDON',						1);	--Disable this if you're not using the Soundtrack Addon - this will ensure vanilla tracks are preserved.
+		('JFD_CULDIV_SOUNDTRACK_ADDON',						0);	--Disable this if you're not using the Soundtrack Addon - this will ensure vanilla tracks are preserved.
 --------------------------------------------------------------------------
 /*
 UNIT DIALOGUE SETTINGS

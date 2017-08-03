@@ -44,16 +44,12 @@ for k, v, w in ([[
 	NOTIFICATION_CITY_TILE													CityTile	
 	NOTIFICATION_DEMAND_RESOURCE											BonusResource	
 	NOTIFICATION_UNIT_PROMOTION												UnitPromoted			B
-	NOTIFICATION_WONDER_STARTED												WonderConstructed	
 	NOTIFICATION_WONDER_COMPLETED_ACTIVE_PLAYER								WonderConstructed	
 	NOTIFICATION_WONDER_COMPLETED											WonderConstructed	
 	NOTIFICATION_WONDER_BEATEN												WonderConstructed	
 	NOTIFICATION_GOLDEN_AGE_BEGUN_ACTIVE_PLAYER								GoldenAge	
-	NOTIFICATION_GOLDEN_AGE_BEGUN											GoldenAge	
 	NOTIFICATION_GOLDEN_AGE_ENDED_ACTIVE_PLAYER								GoldenAgeComplete	
-	NOTIFICATION_GOLDEN_AGE_ENDED											GoldenAgeComplete	
 	NOTIFICATION_GREAT_PERSON_ACTIVE_PLAYER									GreatPerson	
-	NOTIFICATION_GREAT_PERSON												GreatPerson	
 	NOTIFICATION_STARVING													Starving				B
 	NOTIFICATION_WAR_ACTIVE_PLAYER											War						B
 	NOTIFICATION_WAR														WarOther				B
@@ -69,7 +65,6 @@ for k, v, w in ([[
 	NOTIFICATION_DISCOVERED_LUXURY_RESOURCE									LuxuryResource			B
 	NOTIFICATION_DISCOVERED_STRATEGIC_RESOURCE								StrategicResource		B
 	NOTIFICATION_DISCOVERED_BONUS_RESOURCE									BonusResource			B
-	NOTIFICATION_POLICY_ADOPTION											Generic					B
 	NOTIFICATION_DIPLO_VOTE													Generic	
 	NOTIFICATION_RELIGION_RACE												Generic	
 	NOTIFICATION_EXPLORATION_RACE											NaturalWonder	

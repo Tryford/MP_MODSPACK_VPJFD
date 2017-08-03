@@ -283,7 +283,7 @@ function JFD_SendNotification(playerID, notificationType, description, descripti
 			sendNotification = true
 		end
 	else
-		if player:IsHuman() then
+		if player:IsHuman() and Game.GetActivePlayer() == playerID then
 			if metOnly then
 				if Teams[Game.GetActiveTeam()]:IsHasMet(player:GetTeam()) then
 					sendNotification = true

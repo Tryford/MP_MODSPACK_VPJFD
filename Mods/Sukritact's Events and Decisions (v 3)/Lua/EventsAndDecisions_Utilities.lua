@@ -78,7 +78,7 @@ function JFD_SendNotification(playerID, notificationType, description, descripti
 	if global then
 			Players[Game.GetActivePlayer()]:AddNotification(NotificationTypes[notificationType], description, descriptionShort, iX or -1, iY or -1)
 	else
-		if player:IsHuman() then
+		if player:IsHuman() and Game.GetActivePlayer() == playerID then
 			Players[Game.GetActivePlayer()]:AddNotification(NotificationTypes[notificationType], description, descriptionShort, iX or -1, iY or -1)
 		end
 	end
