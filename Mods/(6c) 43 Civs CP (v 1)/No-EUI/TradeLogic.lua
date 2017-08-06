@@ -353,7 +353,7 @@ end
 ----------------------------------------------------------------
 function OnOpenPlayerDealScreen( iOtherPlayer )
     
-    ----print( "OpenPlayerDealScreen: " .. iOtherPlayer );
+    --print( "OpenPlayerDealScreen: " .. iOtherPlayer );
 
     -- open a new deal with iThem
 	g_iUs = Game.GetActivePlayer();
@@ -370,9 +370,9 @@ function OnOpenPlayerDealScreen( iOtherPlayer )
 	-- or they already have an outgoing deal, stop them here rather than at all the places we send this event
 	
     local iProposalTo = UI.HasMadeProposal( g_iUs );
-	----print( "proposal: " .. iProposalTo );
-	----print( "war: " .. tostring( g_pUsTeam:IsAtWar( g_iThemTeam ) ) );
-	----print( "war: " .. tostring( g_bAlwaysWar or g_bNoChangeWar ) );
+	--print( "proposal: " .. iProposalTo );
+	--print( "war: " .. tostring( g_pUsTeam:IsAtWar( g_iThemTeam ) ) );
+	--print( "war: " .. tostring( g_bAlwaysWar or g_bNoChangeWar ) );
 	
 
 	  -- this logic should match OnOpenPlayerDealScreen in TradeLogic.lua, DiploCorner.lua, and DiploList.lua  
@@ -382,9 +382,9 @@ function OnOpenPlayerDealScreen( iOtherPlayer )
 	    return;
     end
    
-    ----print( "where?" ); 
+    --print( "where?" ); 
 	if( g_iUs == g_iThem ) then
-	    --print( "ERROR: OpenPlayerDealScreen called with local player" );
+	    print( "ERROR: OpenPlayerDealScreen called with local player" );
     end
     
     if( UI.ProposedDealExists( g_iUs, g_iThem ) ) then -- this is our proposal
@@ -425,7 +425,7 @@ end
 ----------------------------------------------------------------
 function OpenDealReview()
 
-    ----print( "OpenDealReview" );
+    --print( "OpenDealReview" );
     
 	g_iUs = Game:GetActivePlayer();
 	g_pUs = Players[ g_iUs ];
@@ -438,7 +438,7 @@ function OpenDealReview()
 	g_pThemTeam = Teams[ g_iThemTeam ];   	
 	
 	if( g_iUs == g_iThem ) then
-	    --print( "ERROR: OpenDealReview called with local player" );
+	    print( "ERROR: OpenDealReview called with local player" );
     end
 	
     g_bPVPTrade = false;
@@ -680,7 +680,7 @@ function DoUpdateButtons()
 	-- Dealing with a human in a MP game
     if (g_bPVPTrade) then
 		
-        ----print( "PVP Updating ProposeButton" );
+        --print( "PVP Updating ProposeButton" );
 	    
         if( g_bNewDeal ) then
             Controls.ProposeButton:SetText( Locale.ConvertTextKey( "TXT_KEY_DIPLO_PROPOSE" ));
@@ -1038,7 +1038,7 @@ function OnPropose( iType )
 		return;
 	end
 	
-    ----print( "OnPropose: " .. tostring( g_bPVPTrade ) .. " " .. iType );
+    --print( "OnPropose: " .. tostring( g_bPVPTrade ) .. " " .. iType );
     
     -- Trade between humans
     if( g_bPVPTrade ) then
@@ -1056,7 +1056,7 @@ function OnPropose( iType )
         	UI.DoFinalizePlayerDeal( g_iThem, g_iUs, true );
         	
     	else
-    	    --print( "invalid ProposalType" );
+    	    print( "invalid ProposalType" );
         end
     	
 	    ContextPtr:SetHide( true );
@@ -2354,7 +2354,7 @@ function ResetDisplay()
 			end
 			
 			-- Display final tooltip
-			----print(strTooltip);
+			--print(strTooltip);
 			Controls.UsPocketTechnology:SetToolTipString(strTooltip);
 		end
 		---------------------------------------------------------------------------------- 
@@ -2965,17 +2965,17 @@ function DisplayOtherPlayerItem( bFromUs, itemType, duration, iOtherTeam )
 	--print("iOtherPlayer: " .. iOtherPlayer);
 	
     if( TradeableItems.TRADE_ITEM_THIRD_PARTY_PEACE == itemType ) then
-        ----print( "Displaying Peace" );
+        --print( "Displaying Peace" );
 		local otherPlayerButton = g_OtherPlayersButtons[iOtherPlayer];
 		if(otherPlayerButton ~= nil) then
 			if( bFromUs ) then
-				----print( "    from us" );
+				--print( "    from us" );
 				g_OtherPlayersButtons[ iOtherPlayer ].UsTablePeace.Button:SetHide( false );
         		Controls.UsTableMakePeaceStack:SetHide( false );
         		Controls.UsTableMakePeaceStack:CalculateSize();
         		Controls.UsTableMakePeaceStack:ReprocessAnchoring();
 			else
-				----print( "    from them" );
+				--print( "    from them" );
 				g_OtherPlayersButtons[ iOtherPlayer ].ThemTablePeace.Button:SetHide( false );
         		Controls.ThemTableMakePeaceStack:SetHide( false );
         		Controls.ThemTableMakePeaceStack:CalculateSize();
@@ -2984,17 +2984,17 @@ function DisplayOtherPlayerItem( bFromUs, itemType, duration, iOtherTeam )
 		end
         
     elseif( TradeableItems.TRADE_ITEM_THIRD_PARTY_WAR == itemType ) then
-        ----print( "Displaying War" );
+        --print( "Displaying War" );
 		local otherPlayerButton = g_OtherPlayersButtons[iOtherPlayer];
 		if(otherPlayerButton ~= nil) then
 			if( bFromUs ) then
-				----print( "    from us" );
+				--print( "    from us" );
 				g_OtherPlayersButtons[ iOtherPlayer ].UsTableWar.Button:SetHide( false );
         		Controls.UsTableDeclareWarStack:SetHide( false );
         		Controls.UsTableDeclareWarStack:CalculateSize();
         		Controls.UsTableDeclareWarStack:ReprocessAnchoring();
 			else
-				----print( "    from them" );
+				--print( "    from them" );
 				g_OtherPlayersButtons[ iOtherPlayer ].ThemTableWar.Button:SetHide( false );
         		Controls.ThemTableDeclareWarStack:SetHide( false );
         		Controls.ThemTableDeclareWarStack:CalculateSize();
@@ -3232,10 +3232,10 @@ Controls.ThemPocketAllowEmbassy:SetVoid1( 0 );
 function TableAllowEmbassyHandler( isUs )
 	print("TableAllowEmbassyHandler");
 	if( isUs == 1 ) then
-		--print( "remove: us " .. g_iUs );
+		print( "remove: us " .. g_iUs );
 		g_Deal:RemoveByType( TradeableItems.TRADE_ITEM_ALLOW_EMBASSY, g_iUs );
 	else
-		--print( "remove: them " .. g_iThem );
+		print( "remove: them " .. g_iThem );
 		g_Deal:RemoveByType( TradeableItems.TRADE_ITEM_ALLOW_EMBASSY, g_iThem );
 	end
 	
@@ -3294,10 +3294,10 @@ Controls.ThemPocketOpenBorders:SetVoid1( 0 );
 function TableOpenBordersHandler( isUs )
 
     if( isUs == 1 ) then
-        --print( "remove: us " .. g_iUs );
+        print( "remove: us " .. g_iUs );
         g_Deal:RemoveByType( TradeableItems.TRADE_ITEM_OPEN_BORDERS, g_iUs );
     else
-        --print( "remove: them " .. g_iThem );
+        print( "remove: them " .. g_iThem );
         g_Deal:RemoveByType( TradeableItems.TRADE_ITEM_OPEN_BORDERS, g_iThem );
     end
        
@@ -3538,10 +3538,10 @@ Controls.ThemPocketTradeMap:SetVoid1( 0 );
 function TableMapHandler( isUs )
 	print("TableTradeMapHandler");
 	if( isUs == 1 ) then
-		--print( "remove: us " .. g_iUs );
+		print( "remove: us " .. g_iUs );
 		g_Deal:RemoveByType( TradeableItems.TRADE_ITEM_MAPS, g_iUs );
 	else
-		--print( "remove: them " .. g_iThem );
+		print( "remove: them " .. g_iThem );
 		g_Deal:RemoveByType( TradeableItems.TRADE_ITEM_MAPS, g_iThem );
 	end
 	
@@ -3811,7 +3811,7 @@ end
 -------------------------------------------------------------------
 for row in GameInfo.Resources( "ResourceUsage = 1" ) 
 do 
-    ----print( "adding strat: " .. row.Type );
+    --print( "adding strat: " .. row.Type );
     AddPocketResource( row, 1, Controls.UsPocketStrategicStack   );
     AddPocketResource( row, 0, Controls.ThemPocketStrategicStack );
     AddTableStrategic( row, 1, Controls.UsTableStrategicStack    );
@@ -3820,7 +3820,7 @@ end
 
 for row in GameInfo.Resources( "ResourceUsage = 2" ) 
 do 
-    ----print( "adding lux: " .. row.Type );
+    --print( "adding lux: " .. row.Type );
     AddPocketResource( row, 1, Controls.UsPocketLuxuryStack   );
     AddPocketResource( row, 0, Controls.ThemPocketLuxuryStack );
     AddTableLuxury(    row, 1, Controls.UsTableLuxuryStack    );
@@ -3832,7 +3832,7 @@ end
 if( not g_bDisableTechTrading) then
 	for row in GameInfo.Technologies( )
 	do
-		----print( "adding tech: " .. row.Type );
+		--print( "adding tech: " .. row.Type );
 		AddPocketTech( 	row, 1, Controls.UsPocketTechnologyStack );
 		AddPocketTech( 	row, 0, Controls.ThemPocketTechnologyStack );
 		AddTableTech(	row, 1, Controls.UsTableTechnologyStack );
@@ -4100,7 +4100,7 @@ end
 -------------------------------------------------------------
 function ShowCityChooser( isUs )
 
-    ----print( "ShowCityChooser" );
+    --print( "ShowCityChooser" );
     local m_pTo;
     local m_pFrom;
     local m_iTo;
@@ -4187,7 +4187,7 @@ Controls.ThemPocketCities:RegisterCallback( Mouse.eLClick, ShowCityChooser );
 -----------------------------------------------------------------------------------------------------------------------
 function ShowOtherPlayerChooser( isUs, type )
 
-	----print( "ShowOtherPlayerChooser" );
+	--print( "ShowOtherPlayerChooser" );
 	local SubTableName;
 	local iFromPlayer;
 	local tradeType;
@@ -4232,140 +4232,137 @@ function ShowOtherPlayerChooser( isUs, type )
 		if(otherPlayerButton ~= nil) then
 
 			local otherPlayerButtonSubTableNameButton = otherPlayerButton[SubTableName].Button;
-			
+			otherPlayerButtonSubTableNameButton:SetHide(true);
+
 			local strToolTip = "";
 			local iFromTeam = Players[iFromPlayer]:GetTeam();
 			local iToTeam = Players[iToPlayer]:GetTeam();
 			-- NO Met
-			if (not Teams[iFromTeam]:IsHasMet(iLoopTeam) or not Teams[iToTeam]:IsHasMet(iLoopTeam)) then
-				otherPlayerButtonSubTableNameButton:SetHide(true);
-			end
-			if(iFromTeam == iLoopTeam or iToTeam == iLoopTeam)then
-				otherPlayerButtonSubTableNameButton:SetHide(true);
-			end
+			if (Teams[iFromTeam]:IsHasMet(iLoopTeam) and Teams[iToTeam]:IsHasMet(iLoopTeam)) then		
+    			if( g_iUsTeam ~= iLoopTeam and g_iThemTeam ~= iLoopTeam)then			
+					if(g_Deal:IsPossibleToTradeItem( iFromPlayer, iToPlayer, tradeType, iLoopTeam ) ) then
+						otherPlayerButtonSubTableNameButton:SetHide( false );
+    					otherPlayerButtonSubTableNameButton:SetDisabled( false );
+    					otherPlayerButtonSubTableNameButton:SetAlpha( 1 );
+					else
+						otherPlayerButtonSubTableNameButton:SetHide( false );                     
+    					otherPlayerButtonSubTableNameButton:SetDisabled( true );
+    					otherPlayerButtonSubTableNameButton:SetAlpha( 0.5 );
+    				end
 
-    		if( g_iUsTeam ~= iLoopTeam and g_iThemTeam ~= iLoopTeam and
-                g_Deal:IsPossibleToTradeItem( iFromPlayer, iToPlayer, tradeType, iLoopTeam ) ) then
-                
-    		    otherPlayerButtonSubTableNameButton:SetDisabled( false );
-    		    otherPlayerButtonSubTableNameButton:SetAlpha( 1 );
-            else                     
-    		    otherPlayerButtonSubTableNameButton:SetDisabled( true );
-    		    otherPlayerButtonSubTableNameButton:SetAlpha( 0.5 );
-    		    
-    			-- Why won't they make peace?
-    			if (type == PEACE) then
+    				-- Why won't they make peace?
+    				if (type == PEACE) then
 
-					if (not Teams[iToTeam]:HasEmbassyAtTeam(iFromTeam)) then
-						if(strToolTip ~= "") then
-							strToolTip = strToolTip .. "[NEWLINE]";
-						end
-						strToolTip = strToolTip .. Locale.ConvertTextKey( "TXT_KEY_DIPLO_NEED_EMBASSY" );
-					end
-					if (not pLoopPlayer:IsMinorCiv()) then
-						-- CBP: No peace with non allied if not at war
-						if (g_pUsTeam:IsAtWar(g_iThemTeam)) then
-							if(strToolTip ~= "") then
-								strToolTip = strToolTip .. "[NEWLINE]";
-							end
-							strToolTip = strToolTip .. Locale.ConvertTextKey( "TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT" );
-						end
-						-- Not at war
-						if (not Teams[iLoopTeam]:IsAtWar(iFromTeam)) then
-							if(strToolTip ~= "") then
-								strToolTip = strToolTip .. "[NEWLINE]";
-							end
-							strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NOT_AT_WAR");
-    					else
-							-- Can't force third party peace with a loser. Has to be a sizeable difference
-							local iFromWarScore = Players[iFromPlayer]:GetWarScore(iLoopPlayer);
-
-							if(iFromWarScore < 75) then
-								if(strToolTip ~= "") then
-									strToolTip = strToolTip .. "[NEWLINE]";
-								end
-								strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_WAR_SCORE", iFromWarScore);
-							end
-						end
-
-						if (not Teams[iLoopTeam]:CanChangeWarPeace(iFromTeam)) then
-							if(strToolTip ~= "") then
-								strToolTip = strToolTip .. "[NEWLINE]";
-							end
-							strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_CANNOT_PEACE");
-    					end
-					-- Minor that won't make peace    				
-					else	
-    					local pMinorTeam = Teams[iLoopTeam];
-    					local iAlly = pLoopPlayer:GetAlly();
-    					
-    					-- Minor in permanent war with this guy
-    					if (pLoopPlayer:IsMinorPermanentWar(iFromPlayer)) then
- 							if(strToolTip ~= "") then
-								strToolTip = strToolTip .. "[NEWLINE]";
-							end
-    						strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_MINOR_PERMANENT_WAR");
-						end
-			    		-- Minor allied to a player
-	    				if (pMinorTeam:IsAtWar(iFromTeam) and iAlly ~= -1 and Teams[Players[iAlly]:GetTeam()]:IsAtWar(iFromTeam)) then
-							if(strToolTip ~= "") then
-								strToolTip = strToolTip .. "[NEWLINE]";
-							end
-			    			strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR");
-    					end
-					end
-    			-- Why won't they make war?
-    			else
-					-- CBP: No peace with non allied if not at war
-					if (not g_pUsTeam:IsAtWar(g_iThemTeam)) then
-						-- Already at war
-						if (Teams[iLoopTeam]:IsAtWar(iFromTeam)) then
-							if(strToolTip ~= "") then
-								strToolTip = strToolTip .. "[NEWLINE]";
-							end
-							strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_ALREADY_AT_WAR");
-						end
-						-- NO WAR
-						if (not Teams[iFromTeam]:CanDeclareWar(iLoopTeam, iFromPlayer)) then
-							if(strToolTip ~= "") then
-								strToolTip = strToolTip .. "[NEWLINE]";
-							end							
-							strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NO_WAR_BLOCKED");
-						end
-						-- CBP: Need Embassy:
 						if (not Teams[iToTeam]:HasEmbassyAtTeam(iFromTeam)) then
 							if(strToolTip ~= "") then
 								strToolTip = strToolTip .. "[NEWLINE]";
 							end
-							strToolTip = strToolTip .. Locale.ConvertTextKey( "TXT_KEY_DIPLO_NEED_EMBASSY" ) ;
-						end		
-						-- City-State ally
-						if (pLoopPlayer:IsMinorCiv()) then
-							if (pLoopPlayer:GetAlly() == iToPlayer or pLoopPlayer:GetAlly() == iFromPlayer) then
-								if(strToolTip ~= "") then
-									strToolTip = strToolTip .. "[NEWLINE]";
-								end
-								strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NO_WAR_ALLIES");
-							end
-						else
-							-- DOF
-							if (pLoopPlayer:IsDoF(iFromPlayer) or pLoopPlayer:IsDoF(iToPlayer)) then
-								if(strToolTip ~= "") then
-									strToolTip = strToolTip .. "[NEWLINE]";
-								end
-								strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NO_WAR_DOF");
-							end
-							-- DP
-							if (Teams[iLoopTeam]:IsDefensivePact(iFromTeam) or Teams[iLoopTeam]:IsDefensivePact(iToTeam)) then
-								if(strToolTip ~= "") then
-									strToolTip = strToolTip .. "[NEWLINE]";
-								end
-								strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NO_WAR_DP");
-							end
+							strToolTip = strToolTip .. Locale.ConvertTextKey( "TXT_KEY_DIPLO_NEED_EMBASSY" );
 						end
-					end
-  				
-    			end
+						if (not pLoopPlayer:IsMinorCiv()) then
+							-- CBP: No peace with non allied if not at war
+							if (g_pUsTeam:IsAtWar(g_iThemTeam)) then
+								if(strToolTip ~= "") then
+									strToolTip = strToolTip .. "[NEWLINE]";
+								end
+								strToolTip = strToolTip .. Locale.ConvertTextKey( "TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT" );
+							end
+							-- Not at war
+							if (not Teams[iLoopTeam]:IsAtWar(iFromTeam)) then
+								if(strToolTip ~= "") then
+									strToolTip = strToolTip .. "[NEWLINE]";
+								end
+								strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NOT_AT_WAR");
+    						else
+								-- Can't force third party peace with a loser. Has to be a sizeable difference
+								local iFromWarScore = Players[iFromPlayer]:GetWarScore(iLoopPlayer);
+
+								if(iFromWarScore < 75) then
+									if(strToolTip ~= "") then
+										strToolTip = strToolTip .. "[NEWLINE]";
+									end
+									strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_WAR_SCORE", iFromWarScore);
+								end
+							end
+
+							if (not Teams[iLoopTeam]:CanChangeWarPeace(iFromTeam)) then
+								if(strToolTip ~= "") then
+									strToolTip = strToolTip .. "[NEWLINE]";
+								end
+								strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_CANNOT_PEACE");
+    						end
+						-- Minor that won't make peace    				
+						else	
+    						local pMinorTeam = Teams[iLoopTeam];
+    						local iAlly = pLoopPlayer:GetAlly();
+    					
+    						-- Minor in permanent war with this guy
+    						if (pLoopPlayer:IsMinorPermanentWar(iFromPlayer)) then
+ 								if(strToolTip ~= "") then
+									strToolTip = strToolTip .. "[NEWLINE]";
+								end
+    							strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_MINOR_PERMANENT_WAR");
+							end
+			    			-- Minor allied to a player
+	    					if (pMinorTeam:IsAtWar(iFromTeam) and iAlly ~= -1 and Teams[Players[iAlly]:GetTeam()]:IsAtWar(iFromTeam)) then
+								if(strToolTip ~= "") then
+									strToolTip = strToolTip .. "[NEWLINE]";
+								end
+			    				strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR");
+    						end
+						end
+    				-- Why won't they make war?
+    				else
+						-- CBP: No peace with non allied if not at war
+						if (not g_pUsTeam:IsAtWar(g_iThemTeam)) then
+							-- Already at war
+							if (Teams[iLoopTeam]:IsAtWar(iFromTeam)) then
+								if(strToolTip ~= "") then
+									strToolTip = strToolTip .. "[NEWLINE]";
+								end
+								strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_ALREADY_AT_WAR");
+							end
+							-- NO WAR
+							if (not Teams[iFromTeam]:CanDeclareWar(iLoopTeam, iFromPlayer)) then
+								if(strToolTip ~= "") then
+									strToolTip = strToolTip .. "[NEWLINE]";
+								end							
+								strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NO_WAR_BLOCKED");
+							end
+							-- CBP: Need Embassy:
+							if (not Teams[iToTeam]:HasEmbassyAtTeam(iFromTeam)) then
+								if(strToolTip ~= "") then
+									strToolTip = strToolTip .. "[NEWLINE]";
+								end
+								strToolTip = strToolTip .. Locale.ConvertTextKey( "TXT_KEY_DIPLO_NEED_EMBASSY" ) ;
+							end		
+							-- City-State ally
+							if (pLoopPlayer:IsMinorCiv()) then
+								if (pLoopPlayer:GetAlly() == iToPlayer or pLoopPlayer:GetAlly() == iFromPlayer) then
+									if(strToolTip ~= "") then
+										strToolTip = strToolTip .. "[NEWLINE]";
+									end
+									strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NO_WAR_ALLIES");
+								end
+							else
+								-- DOF
+								if (pLoopPlayer:IsDoF(iFromPlayer) or pLoopPlayer:IsDoF(iToPlayer)) then
+									if(strToolTip ~= "") then
+										strToolTip = strToolTip .. "[NEWLINE]";
+									end
+									strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NO_WAR_DOF");
+								end
+								-- DP
+								if (Teams[iLoopTeam]:IsDefensivePact(iFromTeam) or Teams[iLoopTeam]:IsDefensivePact(iToTeam)) then
+									if(strToolTip ~= "") then
+										strToolTip = strToolTip .. "[NEWLINE]";
+									end
+									strToolTip = strToolTip .. Locale.ConvertTextKey("TXT_KEY_DIPLO_NO_WAR_DP");
+								end
+							end
+						end			
+    				end
+				end
 			end
 				
 			-- Tooltip

@@ -43,7 +43,7 @@ local g_IconModes = GetStrategicViewIconSettings();
 local g_OverlayActive = -1; 
 local g_OverlayIndexes = {none=1, culture=2, terrain=3, units=4, routes=5, resources=6, other=7};
 -- To get the standard entries for the following list, in FireTuner(MiniMapPanel) execute
---   for i,v in ipairs(GetStrategicViewOverlays()) do --print(i, v) end
+--   for i,v in ipairs(GetStrategicViewOverlays()) do print(i, v) end
 local g_OverlayInfo = {
   {{text="TXT_KEY_SV_OVERLAY_NONE",             call=function(bShow) if bShow then OnOverlaySelected(1); end end}},
   {{text="TXT_KEY_SV_OVERLAY_CULTURE",          call=function(bShow) if bShow then OnOverlaySelected(2); end end}},
@@ -67,13 +67,13 @@ function OnMiniMapOverlayAddin(tab)
   local overlayGroup = g_OverlayInfo[iIndex]
   for i,_ in ipairs(overlayGroup) do
     if (overlayGroup[i].text == tab.text) then
-      --print(string.format("Replacing %s in group %s", Locale.ConvertTextKey(tab.text), sGroup))
+      print(string.format("Replacing %s in group %s", Locale.ConvertTextKey(tab.text), sGroup))
       overlayGroup[i] = tab
       return
     end
   end
 
-  --print(string.format("Adding %s to group %s", Locale.ConvertTextKey(tab.text), sGroup))
+  print(string.format("Adding %s to group %s", Locale.ConvertTextKey(tab.text), sGroup))
   table.insert(overlayGroup, tab)
 end
 LuaEvents.MiniMapOverlayAddin.Add(OnMiniMapOverlayAddin)

@@ -3,13 +3,13 @@
 <GameData>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Autarky[ENDCOLOR][NEWLINE]Internal [ICON_INTERNATIONAL_TRADE] Trade Routes grant +10 [ICON_GOLD] Gold, and [ICON_CONNECTED] City Connections provide +3 [ICON_PRODUCTION] Production.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Iron Fist[ENDCOLOR][NEWLINE]Vassals can no longer rebel or be liberated by other Civilizations. Yields from Vassals and City-States increased by 100%, and +50% Worker Improvement rate.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
-			<Text>Autarky</Text>
+			<Text>Iron Fist</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_A">
-			<Text>Autarky is the quality of being self-sufficient. Usually the term is applied to political states or their economic systems. Autarky exists whenever an entity can survive or continue its activities without external assistance or international trade. If a self-sufficient economy also refuses all trade with the outside world then it is called a closed economy. Autarky is not necessarily an economic phenomenon; for example, a military autarky would be a state that could defend itself without help from another country. Autarky can be said to be the policy of a state or other entity when it seeks to be self-sufficient as a whole, but also can be limited to a narrow field such as possession of a key raw material.</Text>
+			<Text>Ruling with an iron fist generally means to require absolute control when managing other people, often in the workplace. The saying can also refer to situations such as child-rearing or styles of government. This idiom is often used to describe the actions and practices of managers, parents, or leaders who give their subordinates little if any freedom of choice or input regarding decisions. Reasons for ruling with an iron fist can often depend on individual circumstances, such as inexperienced workers or unruly children. The effectiveness of using total control can also vary, depending on the scope of the management style and the situation.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
@@ -25,13 +25,13 @@
 			<Text>Morrigan, Harbinger of Strife</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA">
-			<Text>Receive +12 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_FOOD] Food when your Borders expand, scaling with Era</Text>
+			<Text>Receive +10 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_FOOD] Food when your Borders expand, scaling with Era</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
 			<Text>Epona, the Great Mare</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA">
-			<Text>+1 [ICON_CULTURE] Culture for every 10 [ICON_GOLD] Gold per turn, and +1 [ICON_GOLDEN_AGE] Golden Age Points for every 5 [ICON_RESEARCH] Science per turn</Text>
+			<Text>+1 [ICON_CULTURE] Culture for every 10 [ICON_GOLD] Gold per turn, +1 [ICON_GOLDEN_AGE] Golden Age Points for every 5 [ICON_RESEARCH] Science per turn, and +2 [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
 			<Text>Nuada, the Silver-Handed King</Text>
@@ -43,13 +43,13 @@
 			<Text>Cernunnos, the Horned Stag</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH">
-			<Text>+4 [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, and [ICON_GOLD] Gold in Cities with a Specialist, +1 [ICON_CULTURE] Culture from World Wonders</Text>
+			<Text>+3 [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, and [ICON_GOLD] Gold in Cities with a Specialist</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
 			<Text>Lugh, the Skilled One</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
-			<Text>+2 [ICON_GOLDEN_AGE] Golden Age Points, [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold in every City</Text>
+			<Text>+2 [ICON_CULTURE] Culture in every City, +1 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production from every improved Resource</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON_SHORT">
 			<Text>Rhiannon, Goddess of Sovereignty</Text>
@@ -61,13 +61,13 @@
 			<Text>Mannanan, Son of the Sea</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA">
-			<Text>+1 [ICON_RESEARCH] Science for every 3 [ICON_CITIZEN] Citizens in a City, and gain 15 [ICON_CULTURE] Culture when a [ICON_CITIZEN] Citizen is born</Text>
+			<Text>+1 [ICON_RESEARCH] Science for every 3 [ICON_CITIZEN] Citizens in a City. +3 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_GREAT_SCIENTIST] Great Scientist Points in [ICON_CAPITAL] Capital</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
 			<Text>Ogma, the Learned</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BRAN">
-			<Text>+100% increase to [ICON_RANGE_STRENGTH] Ranged Combat Strength, +25% [ICON_FOOD] Growth, and +1 [ICON_CULTURE] Culture in every City</Text>
+			<Text>+100% increase to [ICON_RANGE_STRENGTH] Ranged Combat Strength, +25% [ICON_FOOD] Growth, and +8 [ICON_CULTURE] Culture when a [ICON_CITIZEN] Citizen is born, scaling with Era</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BRAN_SHORT">
 			<Text>Bran, the Sleeping Guardian</Text>
@@ -102,7 +102,7 @@
 			<Text>Defense</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] boosts City [ICON_STRENGTH] Defense and increases Hit Point recovery by 20% of the City's [ICON_PRODUCTION] Production.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] boosts City [ICON_STRENGTH] Defense and increases Hit Point recovery by 10% of the City's [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_STRATEGY">
 			<Text>Investing production in defense is a last-ditch method to stave off your city's conquest by a foreign power.</Text>
@@ -152,6 +152,9 @@
 		<!-- Sweden Grenadiers -->
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE">
 			<Text>Grenadiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_FORTIFY">
+			<Text>Pilum</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
 			<Text>Splash Damage</Text>

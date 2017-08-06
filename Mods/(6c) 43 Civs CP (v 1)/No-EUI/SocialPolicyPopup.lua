@@ -266,8 +266,7 @@ function UpdateDisplay()
 		
 		local strTextKey = GameInfo.PolicyBranchTypes[iDominantBranch].Title;
 		
-		--local strText = Locale.ConvertTextKey(strTextKey, player:GetNameKey(), player:GetCivilizationShortDescriptionKey());
-		local strText = player:GetNameKey() .. " of " .. Locale.ConvertTextKey(player:GetCivilizationShortDescriptionKey());
+		local strText = Locale.ConvertTextKey(strTextKey, player:GetNameKey(), player:GetCivilizationShortDescriptionKey());
 		
 	    Controls.PlayerTitleLabel:SetHide(false);
 	    Controls.PlayerTitleLabel:SetText(strText);
@@ -322,7 +321,7 @@ function UpdateDisplay()
 			
 			
 			if(thisImageMask == nil) then
-				--print(ImageMaskName);
+				print(ImageMaskName);
 			end
 			--local thisEraLabel = Controls[EraLabelName];
 			

@@ -1175,8 +1175,8 @@ function RefreshTheirCities(selectedAgentIndex, selectedAgentCurrentCityPlayerID
 				
 		if(agent ~= nil) then
 			local textColor = textColors[agent.State];
-			--print(textColor);
-			--print(agent.State);
+			print(textColor);
+			print(agent.State);
 			entry.CivilizationName:SetColor(textColor, 0);
 			entry.CityName:SetColor(textColor, 0);
 			entry.CityPopulation:SetColor(textColor, 0);

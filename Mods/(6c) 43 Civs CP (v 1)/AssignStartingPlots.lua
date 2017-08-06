@@ -1149,7 +1149,7 @@ function AssignStartingPlots:DivideIntoRegions(iNumDivisions, fertility_table, r
 
     if (iNumDivisions % 3 == 0) then
       local iSubdivisions = iNumDivisions / 3
-	  --print(string.format("DivideIntoRegions: Three: 2, %i", iSubdivisions))
+	  print(string.format("DivideIntoRegions: Three: 2, %i", iSubdivisions))
 
       local results = self:ChopIntoThreeRegions(fertility_table, rectangle_data_table, bTaller)
       self:DivideIntoRegions(iSubdivisions, results[1], results[2])
@@ -1157,7 +1157,7 @@ function AssignStartingPlots:DivideIntoRegions(iNumDivisions, fertility_table, r
       self:DivideIntoRegions(iSubdivisions, results[5], results[6])
     elseif (iNumDivisions % 2 == 0) then
       local iSubdivisions = iNumDivisions / 2
-	  --print(string.format("DivideIntoRegions: Even: 2, %i", iSubdivisions))
+	  print(string.format("DivideIntoRegions: Even: 2, %i", iSubdivisions))
 
       local results = self:ChopIntoTwoRegions(fertility_table, rectangle_data_table, bTaller, 49.5)
       self:DivideIntoRegions(iSubdivisions, results[1], results[2])
@@ -1176,7 +1176,7 @@ function AssignStartingPlots:DivideIntoRegions(iNumDivisions, fertility_table, r
 
       -- chopPercent is calculated to undershoot to compensate for the overshoot in the region chopping code
       local chopPercent = math.floor((firstSubdivisions / (iNumDivisions + 0.1)) * 1000) / 10
-	  --print(string.format("DivideIntoRegions: Prime: %i, %i, %f", firstSubdivisions, laterSubdivisions, chopPercent))
+	  print(string.format("DivideIntoRegions: Prime: %i, %i, %f", firstSubdivisions, laterSubdivisions, chopPercent))
 
       local results = self:ChopIntoTwoRegions(fertility_table, rectangle_data_table, bTaller, chopPercent)
       self:DivideIntoRegions(firstSubdivisions, results[1], results[2])
@@ -2084,9 +2084,9 @@ function AssignStartingPlots:DetermineRegionTypes()
 		
 		-- MOD.Barathor: New data for very useful debug printouts.
 		print("Threshold Values:")
-		--print(string.format("Desert: %.2f - Tundra: %.2f - Jungle: %.2f - Forest: %.2f - Hills: %.2f - Plains: %.2f - Grass: %.2f", desert_percent, tundra_percent, jungle_percent, forest_percent, hills_percent, plains_percent, grass_percent))		
+		print(string.format("Desert: %.2f - Tundra: %.2f - Jungle: %.2f - Forest: %.2f - Hills: %.2f - Plains: %.2f - Grass: %.2f", desert_percent, tundra_percent, jungle_percent, forest_percent, hills_percent, plains_percent, grass_percent))		
 		print("Region Values:")
-		--print(string.format("Desert: %.2f - Tundra: %.2f - Jungle: %.2f - Forest: %.2f - Hills: %.2f - Plains: %.2f - Grass: %.2f", desertCount / areaPlots, tundraCount / areaPlots, jungleCount / areaPlots, forestCount / areaPlots, hillsCount / areaPlots, plainsCount / areaPlots, grassCount / areaPlots))
+		print(string.format("Desert: %.2f - Tundra: %.2f - Jungle: %.2f - Forest: %.2f - Hills: %.2f - Plains: %.2f - Grass: %.2f", desertCount / areaPlots, tundraCount / areaPlots, jungleCount / areaPlots, forestCount / areaPlots, hillsCount / areaPlots, plainsCount / areaPlots, grassCount / areaPlots))
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 		
 	end
@@ -10503,60 +10503,60 @@ function AssignStartingPlots:PrintFinalResourceTotalsToLog()
 	print("-");
 	print("- LUXURY Resources -");
 	-- MOD.Barathor: Updated: Added ID numbers to each resource name and reordered them for much easier testing!
-	--print(self.whale_ID,    "Whale...: ", self.amounts_of_resources_placed[self.whale_ID + 1])
-	--print(self.pearls_ID,   "Pearls..: ", self.amounts_of_resources_placed[self.pearls_ID + 1])
-	--print(self.gold_ID,     "Gold....: ", self.amounts_of_resources_placed[self.gold_ID + 1])
-	--print(self.silver_ID,   "Silver..: ", self.amounts_of_resources_placed[self.silver_ID + 1])
-	--print(self.gems_ID,     "Gems....: ", self.amounts_of_resources_placed[self.gems_ID + 1])
-	--print(self.marble_ID,   "Marble..: ", self.amounts_of_resources_placed[self.marble_ID + 1])
-	--print(self.ivory_ID,    "Ivory...: ", self.amounts_of_resources_placed[self.ivory_ID + 1])
-	--print(self.fur_ID,      "Fur.....: ", self.amounts_of_resources_placed[self.fur_ID + 1])
-	--print(self.dye_ID,      "Dye.....: ", self.amounts_of_resources_placed[self.dye_ID + 1])
-	--print(self.spices_ID,   "Spices..: ", self.amounts_of_resources_placed[self.spices_ID + 1])
-	--print(self.silk_ID,     "Silk....: ", self.amounts_of_resources_placed[self.silk_ID + 1])
-	--print(self.sugar_ID,    "Sugar...: ", self.amounts_of_resources_placed[self.sugar_ID + 1])
-	--print(self.cotton_ID,   "Cotton..: ", self.amounts_of_resources_placed[self.cotton_ID + 1])
-	--print(self.wine_ID,     "Wine....: ", self.amounts_of_resources_placed[self.wine_ID + 1])
-	--print(self.incense_ID,  "Incense.: ", self.amounts_of_resources_placed[self.incense_ID + 1])
+	print(self.whale_ID,    "Whale...: ", self.amounts_of_resources_placed[self.whale_ID + 1])
+	print(self.pearls_ID,   "Pearls..: ", self.amounts_of_resources_placed[self.pearls_ID + 1])
+	print(self.gold_ID,     "Gold....: ", self.amounts_of_resources_placed[self.gold_ID + 1])
+	print(self.silver_ID,   "Silver..: ", self.amounts_of_resources_placed[self.silver_ID + 1])
+	print(self.gems_ID,     "Gems....: ", self.amounts_of_resources_placed[self.gems_ID + 1])
+	print(self.marble_ID,   "Marble..: ", self.amounts_of_resources_placed[self.marble_ID + 1])
+	print(self.ivory_ID,    "Ivory...: ", self.amounts_of_resources_placed[self.ivory_ID + 1])
+	print(self.fur_ID,      "Fur.....: ", self.amounts_of_resources_placed[self.fur_ID + 1])
+	print(self.dye_ID,      "Dye.....: ", self.amounts_of_resources_placed[self.dye_ID + 1])
+	print(self.spices_ID,   "Spices..: ", self.amounts_of_resources_placed[self.spices_ID + 1])
+	print(self.silk_ID,     "Silk....: ", self.amounts_of_resources_placed[self.silk_ID + 1])
+	print(self.sugar_ID,    "Sugar...: ", self.amounts_of_resources_placed[self.sugar_ID + 1])
+	print(self.cotton_ID,   "Cotton..: ", self.amounts_of_resources_placed[self.cotton_ID + 1])
+	print(self.wine_ID,     "Wine....: ", self.amounts_of_resources_placed[self.wine_ID + 1])
+	print(self.incense_ID,  "Incense.: ", self.amounts_of_resources_placed[self.incense_ID + 1])
 	print("- Expansion LUXURY Resources -");
-	--print(self.copper_ID,   "Copper..: ", self.amounts_of_resources_placed[self.copper_ID + 1])
-	--print(self.salt_ID,     "Salt....: ", self.amounts_of_resources_placed[self.salt_ID + 1])
-	--print(self.crab_ID,     "Crab....: ", self.amounts_of_resources_placed[self.crab_ID + 1])
-	--print(self.truffles_ID, "Truffles: ", self.amounts_of_resources_placed[self.truffles_ID + 1])
-	--print(self.citrus_ID,   "Citrus..: ", self.amounts_of_resources_placed[self.citrus_ID + 1])
-	--print(self.cocoa_ID,    "Cocoa...: ", self.amounts_of_resources_placed[self.cocoa_ID + 1])
+	print(self.copper_ID,   "Copper..: ", self.amounts_of_resources_placed[self.copper_ID + 1])
+	print(self.salt_ID,     "Salt....: ", self.amounts_of_resources_placed[self.salt_ID + 1])
+	print(self.crab_ID,     "Crab....: ", self.amounts_of_resources_placed[self.crab_ID + 1])
+	print(self.truffles_ID, "Truffles: ", self.amounts_of_resources_placed[self.truffles_ID + 1])
+	print(self.citrus_ID,   "Citrus..: ", self.amounts_of_resources_placed[self.citrus_ID + 1])
+	print(self.cocoa_ID,    "Cocoa...: ", self.amounts_of_resources_placed[self.cocoa_ID + 1])
 	-- MOD.Barathor: Start
 	print("- Mod LUXURY Resources -")
-	--print(self.coffee_ID,   "Coffee..: ", self.amounts_of_resources_placed[self.coffee_ID + 1])
-	--print(self.tea_ID,      "Tea.....: ", self.amounts_of_resources_placed[self.tea_ID + 1])
-	--print(self.tobacco_ID,  "Tobacco.: ", self.amounts_of_resources_placed[self.tobacco_ID + 1])
-	--print(self.amber_ID,    "Amber...: ", self.amounts_of_resources_placed[self.amber_ID + 1])
-	--print(self.jade_ID,     "Jade....: ", self.amounts_of_resources_placed[self.jade_ID + 1])
-	--print(self.olives_ID,   "Olives..: ", self.amounts_of_resources_placed[self.olives_ID + 1])
-	--print(self.perfume_ID,  "Perfume.: ", self.amounts_of_resources_placed[self.perfume_ID + 1])
-	--print(self.coral_ID,  	"Coral...: ", self.amounts_of_resources_placed[self.coral_ID + 1])
-	--print(self.lapis_ID,  	"Lapis...: ", self.amounts_of_resources_placed[self.lapis_ID + 1])
+	print(self.coffee_ID,   "Coffee..: ", self.amounts_of_resources_placed[self.coffee_ID + 1])
+	print(self.tea_ID,      "Tea.....: ", self.amounts_of_resources_placed[self.tea_ID + 1])
+	print(self.tobacco_ID,  "Tobacco.: ", self.amounts_of_resources_placed[self.tobacco_ID + 1])
+	print(self.amber_ID,    "Amber...: ", self.amounts_of_resources_placed[self.amber_ID + 1])
+	print(self.jade_ID,     "Jade....: ", self.amounts_of_resources_placed[self.jade_ID + 1])
+	print(self.olives_ID,   "Olives..: ", self.amounts_of_resources_placed[self.olives_ID + 1])
+	print(self.perfume_ID,  "Perfume.: ", self.amounts_of_resources_placed[self.perfume_ID + 1])
+	print(self.coral_ID,  	"Coral...: ", self.amounts_of_resources_placed[self.coral_ID + 1])
+	print(self.lapis_ID,  	"Lapis...: ", self.amounts_of_resources_placed[self.lapis_ID + 1])
 	print("-")
 	print("+ TOTAL.Lux: ", self.realtotalLuxPlacedSoFar)	-- MOD.Barathor: Fixed: The old variable gets corrupted with non-luxury additions after all luxuries have been placed.  This will display the correct total.
 	-- MOD.Barathor: End
 	print("-");
 	print("- STRATEGIC Resources -");
-	--print(self.iron_ID,     "Iron....: ", self.amounts_of_resources_placed[self.iron_ID + 1])
-	--print(self.horse_ID,    "Horse...: ", self.amounts_of_resources_placed[self.horse_ID + 1])
-	--print(self.coal_ID,     "Coal....: ", self.amounts_of_resources_placed[self.coal_ID + 1])
-	--print(self.oil_ID,      "Oil.....: ", self.amounts_of_resources_placed[self.oil_ID + 1])
-	--print(self.aluminum_ID, "Aluminum: ", self.amounts_of_resources_placed[self.aluminum_ID + 1])
-	--print(self.uranium_ID,  "Uranium.: ", self.amounts_of_resources_placed[self.uranium_ID + 1])
+	print(self.iron_ID,     "Iron....: ", self.amounts_of_resources_placed[self.iron_ID + 1])
+	print(self.horse_ID,    "Horse...: ", self.amounts_of_resources_placed[self.horse_ID + 1])
+	print(self.coal_ID,     "Coal....: ", self.amounts_of_resources_placed[self.coal_ID + 1])
+	print(self.oil_ID,      "Oil.....: ", self.amounts_of_resources_placed[self.oil_ID + 1])
+	print(self.aluminum_ID, "Aluminum: ", self.amounts_of_resources_placed[self.aluminum_ID + 1])
+	print(self.uranium_ID,  "Uranium.: ", self.amounts_of_resources_placed[self.uranium_ID + 1])
 	print("-");
 	print("- BONUS Resources -");
-	--print(self.wheat_ID,    "Wheat...: ", self.amounts_of_resources_placed[self.wheat_ID + 1])
-	--print(self.cow_ID,      "Cow.....: ", self.amounts_of_resources_placed[self.cow_ID + 1])
-	--print(self.sheep_ID,    "Sheep...: ", self.amounts_of_resources_placed[self.sheep_ID + 1])
-	--print(self.deer_ID,     "Deer....: ", self.amounts_of_resources_placed[self.deer_ID + 1])
-	--print(self.banana_ID,   "Banana..: ", self.amounts_of_resources_placed[self.banana_ID + 1])
-	--print(self.fish_ID,     "Fish....: ", self.amounts_of_resources_placed[self.fish_ID + 1])
-	--print(self.stone_ID,    "Stone...: ", self.amounts_of_resources_placed[self.stone_ID + 1])
-	--print(self.bison_ID,    "Bison...: ", self.amounts_of_resources_placed[self.bison_ID + 1])
+	print(self.wheat_ID,    "Wheat...: ", self.amounts_of_resources_placed[self.wheat_ID + 1])
+	print(self.cow_ID,      "Cow.....: ", self.amounts_of_resources_placed[self.cow_ID + 1])
+	print(self.sheep_ID,    "Sheep...: ", self.amounts_of_resources_placed[self.sheep_ID + 1])
+	print(self.deer_ID,     "Deer....: ", self.amounts_of_resources_placed[self.deer_ID + 1])
+	print(self.banana_ID,   "Banana..: ", self.amounts_of_resources_placed[self.banana_ID + 1])
+	print(self.fish_ID,     "Fish....: ", self.amounts_of_resources_placed[self.fish_ID + 1])
+	print(self.stone_ID,    "Stone...: ", self.amounts_of_resources_placed[self.stone_ID + 1])
+	print(self.bison_ID,    "Bison...: ", self.amounts_of_resources_placed[self.bison_ID + 1])
 	print("-");
 	print("-----------------------------------------------------");
 end

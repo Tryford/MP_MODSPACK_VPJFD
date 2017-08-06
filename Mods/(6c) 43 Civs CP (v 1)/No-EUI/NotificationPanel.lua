@@ -284,7 +284,7 @@ function OnNotificationAdded( Id, type, toolTip, strSummary, iGameValue, iExtraG
         
     else
         if(name == nil) then
-            --print( "Unknown Notification, Adding generic " .. Id );
+            print( "Unknown Notification, Adding generic " .. Id );
             name = "Generic";
         end
 
@@ -433,7 +433,7 @@ function RemoveNotificationID( Id )
 
     if( g_ActiveNotifications[ Id ] == nil )
     then
-        --print( "Attempt to remove unknown Notification " .. tostring( Id ) );
+        print( "Attempt to remove unknown Notification " .. tostring( Id ) );
         return;
     end
 
@@ -480,7 +480,7 @@ end
 -------------------------------------------------
 function NotificationRemoved( Id )
 
-    ----print( "removing Notification " .. Id .. " " .. tostring( g_ActiveNotifications[ Id ] ) .. " " .. tostring( g_NameTable[ g_ActiveNotifications[ Id ] ] ) );
+    --print( "removing Notification " .. Id .. " " .. tostring( g_ActiveNotifications[ Id ] ) .. " " .. tostring( g_NameTable[ g_ActiveNotifications[ Id ] ] ) );
         
 	RemoveNotificationID( Id );	
     ProcessStackSizes();

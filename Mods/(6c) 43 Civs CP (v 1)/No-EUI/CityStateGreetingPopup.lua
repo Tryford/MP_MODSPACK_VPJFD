@@ -107,7 +107,7 @@ function OnPopup( popupInfo )
 		local iMajorFriendship = GameDefines.FRIENDSHIP_THRESHOLD_FRIENDS - 1
 
 		if (iMajorBestFriend == -1) then
---print(string.format("City State: Looking for a friend"))
+print(string.format("City State: Looking for a friend"))
 			for iMajor = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
 				local iFriendship = pPlayer:GetMinorCivFriendshipWithMajor(iMajor)
 				if (iFriendship > iMajorFriendship) then
@@ -116,13 +116,13 @@ function OnPopup( popupInfo )
 				end
 			end
 		else
---print(string.format("City State: Has an ally"))
+print(string.format("City State: Has an ally"))
 		end
 
 		if (iMajorBestFriend ~= -1 and iMajorBestFriend ~= iActivePlayer) then
---print(string.format("City State: Best friend is %i", iMajorBestFriend))
+print(string.format("City State: Best friend is %i", iMajorBestFriend))
 			if (not Teams[Game.GetActiveTeam()]:IsHasMet(Players[iMajorBestFriend]:GetTeam())) then
---print(string.format("City State: Need to add a message and a quest"))
+print(string.format("City State: Need to add a message and a quest"))
 				-- Can we hijack the quest label to add the "Have you also met ..." text?
 				-- AddMinorCivQuestIfAble(iActivePlayer, MinorCivQuestTypes.MINOR_CIV_QUEST_FIND_PLAYER)
 			end

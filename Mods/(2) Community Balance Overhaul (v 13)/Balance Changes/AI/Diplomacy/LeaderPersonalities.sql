@@ -113,12 +113,12 @@ UPDATE Leader_MajorCivApproachBiases SET Bias =    1 WHERE LeaderType = 'LEADER_
 UPDATE Leader_MajorCivApproachBiases SET Bias =    1 WHERE LeaderType = 'LEADER_SHAKA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    3 WHERE LeaderType = 'LEADER_SHAKA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    9 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_GUARDED';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    4 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    7 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_GUARDED';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    3 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    3 WHERE LeaderType = 'LEADER_ODA_NOBUNAGA'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_WU_ZETIAN'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_WU_ZETIAN'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_WU_ZETIAN'         AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
@@ -169,13 +169,13 @@ UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_
 UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_MARIA_I'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_MARIA_I'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_MARIA_I'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    4 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_GUARDED';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    4 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    4 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_GUARDED';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    5 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    4 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    5 WHERE LeaderType = 'LEADER_WILLIAM'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_BISMARCK'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    4 WHERE LeaderType = 'LEADER_BISMARCK'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_BISMARCK'            AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
@@ -269,12 +269,12 @@ UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_
 UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_GANDHI'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    1 WHERE LeaderType = 'LEADER_GANDHI'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    5 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    7 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_GUARDED';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    5 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    5 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    4 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_RAMKHAMHAENG'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    4 WHERE LeaderType = 'LEADER_SELASSIE'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_SELASSIE'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_SELASSIE'                AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
@@ -353,13 +353,13 @@ UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_
 UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_RAMESSES'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_RAMESSES'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_RAMESSES'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    8 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_GUARDED';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
-UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    4 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_GUARDED';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    1 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_AFRAID';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_FRIENDLY';
+UPDATE Leader_MajorCivApproachBiases SET Bias =    1 WHERE LeaderType = 'LEADER_NAPOLEON'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_NEUTRAL';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_PACAL'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    2 WHERE LeaderType = 'LEADER_PACAL'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
 UPDATE Leader_MajorCivApproachBiases SET Bias =    6 WHERE LeaderType = 'LEADER_PACAL'           AND MajorCivApproachType = 'MAJOR_CIV_APPROACH_DECEPTIVE';
@@ -373,42 +373,41 @@ UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHE
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHERE  LeaderType = 'LEADER_ATTILA';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHERE  LeaderType = 'LEADER_ODA_NOBUNAGA';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHERE  LeaderType = 'LEADER_GENGHIS_KHAN';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHERE  LeaderType = 'LEADER_NAPOLEON';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'    WHERE  LeaderType = 'LEADER_ISABELLA';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHERE  LeaderType = 'LEADER_GUSTAVUS_ADOLPHUS';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHERE  LeaderType = 'LEADER_MONTEZUMA';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHERE  LeaderType = 'LEADER_AUGUSTUS';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHERE  LeaderType = 'LEADER_ASKIA';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'	WHERE  LeaderType = 'LEADER_SHAKA';
--- Maria is a conqueror here because of UI
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_CONQUEROR'    WHERE  LeaderType = 'LEADER_MARIA_I';
 
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_PACAL';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_SEJONG';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_PACHACUTI';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_ELIZABETH';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_CASIMIR';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_ENRICO_DANDOLO';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_KAMEHAMEHA';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_WILLIAM';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_ISABELLA';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_PEDRO';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_SELASSIE';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_HARUN_AL_RASHID';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_WASHINGTON';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'	WHERE  LeaderType = 'LEADER_NAPOLEON';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_COALITION'    WHERE  LeaderType = 'LEADER_ALEXANDER';
 
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_HIAWATHA';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_BOUDICCA';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_POCATELLO';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_WILLIAM';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_THEODORA';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_MARIA';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_PEDRO';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_GANDHI';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_AHMAD_ALMANSUR';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_BISMARCK';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_RAMKHAMHAENG';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_SELASSIE';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_KAMEHAMEHA';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_MARIA_I';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_DIPLOMAT'     WHERE  LeaderType = 'LEADER_ENRICO_DANDOLO';
 
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_THEODORA';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_HARUN_AL_RASHID';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_HIAWATHA';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_POCATELLO';
+UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_BOUDICCA';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_NEBUCHADNEZZAR';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_DIDO';
-UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_ALEXANDER';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_CATHERINE';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_RAMESSES';
 UPDATE Leader_MinorCivApproachBiases SET Personality='PERSONALITY_EXPANSIONIST' WHERE  LeaderType = 'LEADER_WU_ZETIAN';
@@ -441,3 +440,48 @@ UPDATE Leader_MinorCivApproachBiases SET Bias =    6 WHERE Personality = 'PERSON
 UPDATE Leader_MinorCivApproachBiases SET Bias =    8 WHERE Personality = 'PERSONALITY_EXPANSIONIST'         AND MinorCivApproachType = 'MINOR_CIV_APPROACH_CONQUEST';
 UPDATE Leader_MinorCivApproachBiases SET Bias =    4 WHERE Personality = 'PERSONALITY_EXPANSIONIST'         AND MinorCivApproachType = 'MINOR_CIV_APPROACH_BULLY';
 
+-- Start biases
+DELETE FROM Civilization_Start_Along_Ocean
+WHERE CivilizationType = 'CIVILIZATION_OTTOMAN';
+
+INSERT INTO Civilization_Start_Region_Priority
+	(CivilizationType, RegionType)
+VALUES
+	('CIVILIZATION_OTTOMAN', 'REGION_HILLS'),
+	('CIVILIZATION_GREECE', 'REGION_HILLS'),
+	('CIVILIZATION_AMERICA', 'REGION_FOREST'),
+	('CIVILIZATION_SIAM', 'REGION_JUNGLE'),
+	('CIVILIZATION_SIAM', 'REGION_FOREST'),
+	('CIVILIZATION_HUNS', 'REGION_PLAINS'),
+	('CIVILIZATION_ZULU', 'REGION_PLAINS'),
+	('CIVILIZATION_POLAND', 'REGION_GRASS'),
+	('CIVILIZATION_FRANCE', 'REGION_GRASS'),
+	('CIVILIZATION_GERMANY', 'REGION_GRASS'),
+	('CIVILIZATION_CELTS', 'REGION_HILLS'),
+	('CIVILIZATION_ROME', 'REGION_GRASS'),
+	('CIVILIZATION_SHOSHONE', 'REGION_GRASS'),
+	('CIVILIZATION_GERMANY', 'REGION_FOREST'),
+	('CIVILIZATION_MAYA', 'REGION_JUNGLE'),
+	('CIVILIZATION_PERSIA', 'REGION_HILLS'),
+	('CIVILIZATION_ETHIOPIA', 'REGION_HILLS'),
+	('CIVILIZATION_EGYPT', 'REGION_DESERT');
+
+INSERT INTO Civilization_Start_Along_River
+	(CivilizationType, StartAlongRiver)
+VALUES
+	('CIVILIZATION_EGYPT', '1'),
+	('CIVILIZATION_INDIA', '1'),
+	('CIVILIZATION_BABYLON', '1'),
+	('CIVILIZATION_CHINA', '1'),
+	('CIVILIZATION_ASSYRIA', '1');
+
+INSERT INTO Civilization_Start_Along_Ocean
+	(CivilizationType, StartAlongOcean)
+VALUES
+	('CIVILIZATION_NETHERLANDS', '1');
+
+DELETE FROM Civilization_Start_Region_Avoid
+WHERE CivilizationType = 'CIVILIZATION_SIAM';
+
+DELETE FROM Civilization_Start_Region_Priority
+WHERE CivilizationType = 'CIVILIZATION_INDIA';

@@ -130,8 +130,8 @@ function HookupActionIcon(action, actionIconSize, icon)
 		local iconIndex, iconAtlas = f(action);
 		IconHookup(iconIndex, actionIconSize, iconAtlas, icon);
 	else
-		--print(action.Type);
-		--print(action.SubType);
+		print(action.Type);
+		print(action.SubType);
 		error("Could not find method to obtain action icon.");
 	end
 end

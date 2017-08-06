@@ -188,6 +188,13 @@ ALTER TABLE Traits ADD COLUMN 'GoldenAgeOnWar' BOOLEAN DEFAULT 0;
 -- Player gains a free policy after unlocking x number of technologies from the tech tree.
 ALTER TABLE Traits ADD COLUMN 'FreePolicyPerXTechs' INTEGER default 0;
 
+-- Does this Civ get extra damage from multiple attacks on same target?
+ALTER TABLE Traits ADD COLUMN 'MultipleAttackBonus' INTEGER DEFAULT 0;
+
+-- Does this Civ get extra influence from meeting a CS?
+ALTER TABLE Traits ADD COLUMN 'InfluenceMeetCS' INTEGER DEFAULT 0;
+
+
 -- Grants a free valid promotion to a unit when it is on a type of improvement (farm, mine, etc.).
 
 ALTER TABLE Improvements ADD COLUMN 'UnitFreePromotion' TEXT DEFAULT NULL;
@@ -264,6 +271,10 @@ ALTER TABLE Buildings ADD COLUMN 'BorderObstacleCity' INTEGER DEFAULT 0;
 -- Movement speed penalty (like Great Wall) for water plots worked by a City.
 ALTER TABLE Buildings ADD COLUMN 'BorderObstacleWater' INTEGER DEFAULT 0;
 
+-- One building gives all cities this ability
+ALTER TABLE Buildings ADD COLUMN 'AllowsFoodTradeRoutesGlobal' BOOLEAN DEFAULT 0;
+ALTER TABLE Buildings ADD COLUMN 'AllowsProductionTradeRoutesGlobal' BOOLEAN DEFAULT 0;
+
 -- Adds abiility for units to upgrade in allied CS lands.
 ALTER TABLE Policies ADD COLUMN 'UpgradeCSTerritory' BOOLEAN DEFAULT 0;
 
@@ -275,7 +286,15 @@ ALTER TABLE Policies ADD COLUMN 'GoldenAgeTourism' INTEGER DEFAULT 0;
 -- Reduces specialist unhappiness in cities by a set amount, either in capital or in all cities.
 
 ALTER TABLE Policies ADD COLUMN 'NoUnhappfromXSpecialists' INTEGER DEFAULT 0;
+-- adds it back in as happiness!
+ALTER TABLE Policies ADD COLUMN 'HappfromXSpecialists' INTEGER DEFAULT 0;
 ALTER TABLE Policies ADD COLUMN 'NoUnhappfromXSpecialistsCapital' INTEGER DEFAULT 0;
+
+-- Warscore mod
+ALTER TABLE Policies ADD COLUMN 'WarScoreModifier' INTEGER DEFAULT 0;
+
+-- Can only trade with same ideology
+ALTER TABLE Policies ADD COLUMN 'IsOnlyTradeSameIdeology' BOOLEAN DEFAULT 0;
 
 -- Half specialist food in just capital
 ALTER TABLE Policies ADD COLUMN 'HalfSpecialistFoodCapital' BOOLEAN DEFAULT 0;
@@ -326,12 +345,30 @@ ALTER TABLE Policies ADD COLUMN 'WarWearinessModifier' INTEGER DEFAULT 0;
 -- GG Mod - boosts strength modifier of GGs
 ALTER TABLE Policies ADD COLUMN 'GreatGeneralExtraBonus' INTEGER DEFAULT 0;
 
+-- Shift Influence with CS for all by % +/- when you bully
+ALTER TABLE Policies ADD COLUMN 'BullyGlobalCSInfluenceShift' INTEGER DEFAULT 0;
+
+-- More yields from Vassals and CSs
+ALTER TABLE Policies ADD COLUMN 'VassalCSBonusModifier' INTEGER DEFAULT 0;
+
+-- Can bully friendly CSs (no penalty)
+ALTER TABLE Policies ADD COLUMN 'CanBullyFriendlyCS' BOOLEAN DEFAULT 0;
+
+-- CS influence does not decline at war
+ALTER TABLE Policies ADD COLUMN 'NoAlliedCSInfluenceDecayAtWar' BOOLEAN DEFAULT 0;
+
+-- Vassals don't rebel and can't be forced out by deals or WC
+ALTER TABLE Policies ADD COLUMN 'VassalsNoRebel' BOOLEAN DEFAULT 0;
+
 -- % boosts to city yield for happiness sources (traits) - Values should be negative to be good!
 ALTER TABLE Traits ADD COLUMN 'PovertyHappinessTraitMod' INTEGER DEFAULT 0;
 ALTER TABLE Traits ADD COLUMN 'DefenseHappinessTraitMod' INTEGER DEFAULT 0;
 ALTER TABLE Traits ADD COLUMN 'IlliteracyHappinessTraitMod' INTEGER DEFAULT 0;
 ALTER TABLE Traits ADD COLUMN 'UnculturedHappinessTraitMod' INTEGER DEFAULT 0;
 ALTER TABLE Traits ADD COLUMN 'MinorityHappinessTraitMod' INTEGER DEFAULT 0;
+
+-- Get more tenets when you adopt for first time
+ALTER TABLE Traits ADD COLUMN 'ExtraTenetsFirstAdoption' INTEGER DEFAULT 0;
 
 -- New Traits -- Can Only Select from beliefs unique to the civ
 ALTER TABLE Traits ADD COLUMN 'UniqueBeliefsOnly' BOOLEAN DEFAULT 0;
@@ -671,10 +708,9 @@ ALTER TABLE UnitPromotions ADD 'AttackBelowEqual50HealthMod' INTEGER DEFAULT 0;
 ALTER TABLE UnitPromotions ADD 'SplashDamage' INTEGER DEFAULT 0;
 
 ALTER TABLE UnitPromotions ADD 'AOEDamageOnKill' INTEGER DEFAULT 0;
+ALTER TABLE UnitPromotions ADD 'AoEWhileFortified' INTEGER DEFAULT 0;
 
 ALTER TABLE UnitPromotions ADD 'ReconChange' INTEGER DEFAULT 0;
-
-ALTER TABLE UnitPromotions ADD 'GainsXPFromScouting' BOOLEAN DEFAULT 0;
 
 ALTER TABLE UnitPromotions ADD 'PromotionDuration' INTEGER DEFAULT 0;
 
@@ -777,6 +813,11 @@ ALTER TABLE Units ADD COLUMN 'GlobalFaithPurchaseCooldown' INTEGER DEFAULT 0;
 
 ALTER TABLE Buildings ADD COLUMN 'PurchaseCooldown' INTEGER DEFAULT 0;
 
+-- Base air defense when defending against an airstrike.
+ALTER TABLE Units ADD COLUMN 'BaseLandAirDefense' INTEGER DEFAULT 0;
+ALTER TABLE UnitPromotions ADD COLUMN 'LandAirDefenseBonus' INTEGER DEFAULT 0;
+ALTER TABLE Buildings ADD COLUMN 'CityAirStrikeDefense' INTEGER DEFAULT 0;
+
 -- Allows Courthouses to be built in any city
 ALTER TABLE Buildings ADD COLUMN 'BuildAnywhere' BOOLEAN DEFAULT 0;
 
@@ -878,6 +919,9 @@ ALTER TABLE Policies ADD COLUMN 'TRSpeedBoost' INTEGER DEFAULT 0;
 ALTER TABLE Policies ADD COLUMN 'TRVisionBoost' INTEGER DEFAULT 0;
 ALTER TABLE Policies ADD COLUMN 'HappinessPerXPolicies' INTEGER DEFAULT 0;
 
+-- Trade Routes
+ALTER TABLE Policies ADD COLUMN 'ExtraCultureandScienceTradeRoutes' INTEGER DEFAULT 0;
+
 -- CORPORATIONS
 ALTER TABLE Technologies ADD COLUMN 'CorporationsEnabled' BOOLEAN;
 
@@ -954,6 +998,14 @@ ALTER TABLE Policies ADD NewCityFreeBuilding TEXT DEFAULT NULL REFERENCES Buildi
 -- Promotion grants a unit with XP if stacked with a Great General (or great admiral if a boat)
 ALTER TABLE UnitPromotions ADD COLUMN 'StackedGreatGeneralXP' INTEGER DEFAULT 0;
 
+-- Promotions 
+ALTER TABLE UnitPromotions ADD COLUMN 'GoodyHutYieldBonus' INTEGER DEFAULT 0;
+ALTER TABLE UnitPromotions ADD COLUMN 'GainsXPFromScouting' BOOLEAN DEFAULT 0;
+ALTER TABLE UnitPromotions ADD COLUMN 'GainsXPFromPillaging' BOOLEAN DEFAULT 0;
+ALTER TABLE UnitPromotions ADD COLUMN 'GainsXPFromSpotting' BOOLEAN DEFAULT 0;
+
+ALTER TABLE UnitPromotions ADD COLUMN 'MultiAttackBonus' INTEGER DEFAULT 0;
+
 -- Note: The below entries are used, e.g. mounting or dismounting a unit, say a Lancer gets below 50 HP "DamageThreshold", and can "dismount" and fortify as an Infantry type unit.
 
 -- Unit will convert to another UnitType. Must define a "DamageThreshold" and the "ConvertUnit" Type
@@ -1016,7 +1068,7 @@ ALTER TABLE Buildings ADD 'GlobalLandmarksTourismPercent' INTEGER DEFAULT 0;
 -- Define a modifier for all great work tourism in all cities.
 ALTER TABLE Buildings ADD 'GlobalGreatWorksTourismModifier' INTEGER DEFAULT 0;
 
--- Promotion grants additional combat strength if on a pillaged improvement
+-- Promotion grants additional religious pressure when this unit is garrisoned in the city (if the player has a religion).
 ALTER TABLE UnitPromotions ADD COLUMN 'ReligiousPressureModifier' INTEGER DEFAULT 0;
 
 -- Trait allows player to have every unit upgraded once tech is reached.

@@ -515,7 +515,7 @@ end
 -- Liberate Civ button clicked
 -------------------------------------------------
 function OnLiberateCivClicked( iVassalTeam )
-	--print( "Clicked on Liberate Civ: " .. iVassalTeam );
+	print( "Clicked on Liberate Civ: " .. iVassalTeam );
 
 	Controls.ConfirmLabel:LocalizeAndSetText( "TXT_KEY_VO_CONFIRM_LIBERATE", Teams[ iVassalTeam ]:GetName() );
 	Controls.Confirm:SetHide( false );

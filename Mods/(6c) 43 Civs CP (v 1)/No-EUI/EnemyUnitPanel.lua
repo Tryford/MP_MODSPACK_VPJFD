@@ -517,6 +517,14 @@ function UpdateCombatOddsUnitVsCity(pMyUnit, pCity)
 				   controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
 				end
 			end
+
+			-- Civ Trait Bonus
+			iModifier = pMyUnit:GetMultiAttackBonusCity(pCity);
+			if (iModifier ~= 0) then
+				controlTable = g_MyCombatDataIM:GetInstance();
+				controlTable.Text:LocalizeAndSetText(  "TXT_KEY_EUPANEL_BONUS_MULTI_ATTACK_BONUS" );
+				controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
+			end
 			-- END
 						
 			-- Civ Trait Bonus
@@ -757,6 +765,7 @@ function UpdateCombatOddsUnitVsUnit(pMyUnit, pTheirUnit)
 				
 				if (pMyUnit:GetDomainType() == DomainTypes.DOMAIN_AIR) then
 					iTheirDamageInflicted = pTheirUnit:GetAirStrikeDefenseDamage(pMyUnit, false);				
+					iTheirStrength = iTheirDamageInflicted;
 					iNumVisibleAAUnits = pMyUnit:GetInterceptorCount(pToPlot, pTheirUnit, true, true);		
 					bInterceptPossible = true;
 				end
@@ -1427,6 +1436,14 @@ function UpdateCombatOddsUnitVsUnit(pMyUnit, pTheirUnit)
 					controlTable.Text:LocalizeAndSetText( "TXT_KEY_EUPANEL_VS_BARBARIANS_BONUS" );
 					controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
 				end
+			end
+
+			-- Civ Trait Bonus
+			iModifier = pMyUnit:GetMultiAttackBonus(pTheirUnit);
+			if (iModifier ~= 0) then
+				controlTable = g_MyCombatDataIM:GetInstance();
+				controlTable.Text:LocalizeAndSetText(  "TXT_KEY_EUPANEL_BONUS_MULTI_ATTACK_BONUS" );
+				controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
 			end
 
 			-- Civ Trait Bonus
@@ -2270,6 +2287,14 @@ function UpdateCombatOddsCityVsUnit(myCity, theirUnit)
 				controlTable.Text:LocalizeAndSetText(  "TXT_KEY_EUPANEL_NAVAL_DEFENSE_CITY" );
 				controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
 			end
+		end
+	
+		-- Civ Trait Bonus
+		iModifier = myCity:GetMultiAttackBonusCity(theirUnit);
+		if (iModifier ~= 0) then
+			controlTable = g_MyCombatDataIM:GetInstance();
+			controlTable.Text:LocalizeAndSetText(  "TXT_KEY_EUPANEL_BONUS_MULTI_ATTACK_BONUS" );
+			controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
 		end
 -- END		
 		if (myCity:GetGarrisonedUnit() ~= nil) then		

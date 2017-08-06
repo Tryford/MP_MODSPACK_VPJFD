@@ -55,7 +55,7 @@ function UpdateDisplay()
     
     local pPlayer = Players[ Game.GetActivePlayer() ];
     if( pPlayer == nil ) then
-        --print( "Could not get player... huh?" );
+        print( "Could not get player... huh?" );
         return;
     end
     

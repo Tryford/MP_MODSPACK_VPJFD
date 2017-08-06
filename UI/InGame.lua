@@ -1074,7 +1074,7 @@ function KillPopupText( control )
     
     if( instance == nil )
     then
-        --print( "Error killing popup text" );
+        print( "Error killing popup text" );
     else
         g_PopupIM:ReleaseInstance( instance );
         g_InstanceMap[ szKey ] = null;
@@ -1098,7 +1098,7 @@ end
 ----------------------------------------------------------------        
 function OnUnitHexHighlight( i, j, k, bOn, unitId )
 
-    ----print( "GotEvent " .. unitId );
+    --print( "GotEvent " .. unitId );
     local unit = UI.GetHeadSelectedUnit();
     
     if( unit ~= nil and
@@ -1277,6 +1277,7 @@ ContextPtr:LoadNewContext("CorporationsOverview")
 ContextPtr:LoadNewContext("GlobalArchaeologistDigSites")
 ContextPtr:LoadNewContext("GlobalCityBombardRange")
 ContextPtr:LoadNewContext("OverlayAntiquities")
+ContextPtr:LoadNewContext("RandomVCPopup")
 ContextPtr:LoadNewContext("VassalageOverview")
 ContextPtr:LoadNewContext("Terra")
 ContextPtr:LoadNewContext("AssignStartingPlots")
@@ -1303,19 +1304,4 @@ ContextPtr:LoadNewContext("JFD_RTP_Piety_Functions")
 ContextPtr:LoadNewContext("JFD_RTP_Sovereignty_ChooseGovernmentPopup")
 ContextPtr:LoadNewContext("JFD_RTP_Sovereignty_Functions")
 ContextPtr:LoadNewContext("JFD_RTP_Sovereignty_GovernmentOverview")
---ContextPtr:LoadNewContext("JFD_CulDiv_Functions")
---ContextPtr:LoadNewContext("JFD_EC_CID_Functions")
---ContextPtr:LoadNewContext("JFD_EC_Civilizations_Functions")
---ContextPtr:LoadNewContext("JFD_EC_CulDiv_Functions")
---ContextPtr:LoadNewContext("JFD_EC_ExCE_Functions")
---ContextPtr:LoadNewContext("JFD_EC_Functions")
---ContextPtr:LoadNewContext("JFD_EC_Misc_Functions")
---ContextPtr:LoadNewContext("JFD_EC_RTP_Functions")
---ContextPtr:LoadNewContext("BuildingResourcePerEra")
---ContextPtr:LoadNewContext("BuildingYieldFromCityStates")
---ContextPtr:LoadNewContext("CityInfoStack")
---ContextPtr:LoadNewContext("EnactDescisionsPopup")
---ContextPtr:LoadNewContext("LuaEvents.PlayerEnteredNewEra")
---ContextPtr:LoadNewContext("RandomEventsPopup")
---ContextPtr:LoadNewContext("SanMarco_Functions")
---ContextPtr:LoadNewContext("Sukritact_ChangeResearchProgress")
+ContextPtr:LoadNewContext("JFD_CulDiv_Functions")

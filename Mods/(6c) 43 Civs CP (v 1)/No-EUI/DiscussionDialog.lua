@@ -434,8 +434,8 @@ function LeaderMessageHandler( iPlayer, iDiploUIState, szLeaderMessage, iAnimati
 				-----------------
 				-- Hostile!
 				print("Hello");
-				--print(tostring(activePlayer:GetMilitaryAggressivePosture(g_iAIPlayer)));
-				--print(AggressivePostureTypes.AGGRESSIVE_POSTURE_MEDIUM);
+				print(tostring(activePlayer:GetMilitaryAggressivePosture(g_iAIPlayer)));
+				print(AggressivePostureTypes.AGGRESSIVE_POSTURE_MEDIUM);
 				
 				if(not pAIPlayer:MoveRequestTooSoon(iActivePlayer)) then
 					if(activePlayer:GetMilitaryAggressivePosture(g_iAIPlayer) >= AggressivePostureTypes.AGGRESSIVE_POSTURE_MEDIUM) then

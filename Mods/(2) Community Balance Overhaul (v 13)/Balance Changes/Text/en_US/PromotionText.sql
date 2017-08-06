@@ -41,6 +41,12 @@
 	SET Text = '+10% [ICON_STRENGTH] Combat Strength, [COLOR_POSITIVE_TEXT]Flank attack bonus[ENDCOLOR] increased by 25%.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_SHOCK_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
+-- Survivalism
+	UPDATE Language_en_US
+	SET Text = 'Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action. Can Use Enemy Roads/Railroads.'
+	WHERE Tag = 'TXT_KEY_PROMOTION_SURVIVALISM_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
+
 -- Replace Accuracy
 
 	UPDATE Language_en_US
@@ -239,6 +245,11 @@
 	UPDATE Language_en_US
 	SET Text = '+150% Bonus vs Cities.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_CITY_ASSUALT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
+	UPDATE Language_en_US
+	SET Text = 'City Assault'
+	WHERE Tag = 'TXT_KEY_PROMOTION_SIEGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
 -- Amphibious Change
 
 	UPDATE Language_en_US

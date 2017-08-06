@@ -436,7 +436,7 @@ function IsResourceValid(eResource, ePlayer)
 	end
 
 	if(g_MonopolyResourceType == "All") then	
-		----print( "Looking at all resources" );
+		--print( "Looking at all resources" );
 		if(ePlayer ~= -1) then
 			local iNumResources = Players[ePlayer]:GetNumResourceTotal(eResource, false) + Players[ePlayer]:GetResourceExport(eResource);
 			return iTotal > 0 or iNumResources > 0;
@@ -445,21 +445,21 @@ function IsResourceValid(eResource, ePlayer)
 			return iTotal > 0;
 		end
 	elseif(g_MonopolyResourceType == "Global") then
-		----print( "Looking at global resources" );
+		--print( "Looking at global resources" );
 		if(ePlayer ~= -1) then
 			return Players[ePlayer]:HasGlobalMonopoly(eResource);
 		else
 			return false;
 		end
 	elseif(g_MonopolyResourceType == "Strategic") then
-		----print( "Looking at strategic resources" );
+		--print( "Looking at strategic resources" );
 		if(ePlayer ~= -1) then
 			return Players[ePlayer]:HasStrategicMonopoly(eResource);
 		else
 			return false;
 		end
 	elseif(g_MonopolyResourceType == "Potential") then
-		----print( "Looking at potential resources" );
+		--print( "Looking at potential resources" );
 		if(ePlayer ~= -1) then
 			if(not Players[ePlayer]:HasGlobalMonopoly(eResource) and not Players[ePlayer]:HasStrategicMonopoly(eResource)) then
 				return Players[ePlayer]:GetMonopolyPercent(eResource) > 0;
@@ -635,18 +635,18 @@ function UpdateAvailableCorporations()
 end
 
 function UpdateYourCorporation()
-	----print( "In UpdateYourCorporation()" );
+	--print( "In UpdateYourCorporation()" );
 
 	local eCorporation = g_pPlayer:GetCorporation();
 
 	if ( eCorporation == -1 ) then
-		--print( "ERROR: Got to UpdateYourCorporation() with no Corporation!");
+		print( "ERROR: Got to UpdateYourCorporation() with no Corporation!");
 		return;
 	end
 
 	local pCorporation = GameInfo.Corporations[eCorporation];
 	if ( pCorporation == nil ) then
-		--print( "ERROR: pCorporation is nil!" );
+		print( "ERROR: pCorporation is nil!" );
 		return;
 	end
 
@@ -757,20 +757,20 @@ function RefreshOffices( )
 
 	local eCorporation = g_pPlayer:GetCorporation();
 	if ( eCorporation == -1 ) then
-		--print( "ERROR: Got to RefreshOffices() with no Corporation!");
+		print( "ERROR: Got to RefreshOffices() with no Corporation!");
 		return;
 	end
 
 	local pCorporation = GameInfo.Corporations[eCorporation];
 	if ( pCorporation == nil ) then
-		--print( "ERROR: pCorporation is nil!" );
+		print( "ERROR: pCorporation is nil!" );
 		return;
 	end
 
 	local pOfficeClass = GameInfo.BuildingClasses[pCorporation.OfficeBuildingClass];
 	local pOffice = GameInfo.Buildings[pOfficeClass.DefaultBuilding];
 	if( pOffice == nil ) then
-		--print( "ERROR: No defined office. Exiting RefreshOffices()" );
+		print( "ERROR: No defined office. Exiting RefreshOffices()" );
 		return;
 	end
 
