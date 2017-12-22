@@ -9,7 +9,7 @@ include("JFD_PietyUtils.lua");
 include("JFD_CID_LoyaltyUtils.lua");
 include("JFD_CID_HappinessUtils.lua");
 include("JFD_RTPUtils.lua")
---include("JFD_RTP_GlobalDefines.lua");
+include("JFD_RTP_GlobalDefines.lua");
 include("JFD_RTP_EpithetsUtils.lua");
 --=======================================================================================================================
 -- GAME DEFINES

@@ -169,18 +169,18 @@ GameEvents.PlayerDoTurn.Add(JFD_CID_PlayerDoTurn)
 --=======================================================================================================================
 -- TSL
 --=======================================================================================================================
---include("CID_TableSaverLoader016.lua")
---tableRoot = JFD_CID
---tableName = "JFD_CID"
---include("JFD_CID_TSLSerializerV3.lua")
---TableLoad(tableRoot, tableName)
+include("CID_TableSaverLoader016.lua")
+tableRoot = JFD_CID
+tableName = "JFD_CID"
+include("JFD_CID_TSLSerializerV3.lua")
+TableLoad(tableRoot, tableName)
 ------------------------------------------------------------------------------------------------------------------------
 -- TSL UTILITIES	
 ------------------------------------------------------------------------------------------------------------------------
 -- OnModLoaded
 function OnModLoaded() 
-	--local bNewGame = not TableLoad(tableRoot, tableName)
-	--TableSave(tableRoot, tableName)
+	local bNewGame = not TableLoad(tableRoot, tableName)
+	TableSave(tableRoot, tableName)
 end
 OnModLoaded()
 --=======================================================================================================================

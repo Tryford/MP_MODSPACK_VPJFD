@@ -5,7 +5,7 @@
 -- INCLUDES
 --=======================================================================================================================
 include("JFD_CIDUtilities.lua");
---include("JFD_CID_GlobalDefines.lua");
+include("JFD_CID_GlobalDefines.lua");
 include("JFD_CulDivUtilities.lua");
 --=======================================================================================================================
 -- GAME DEFINES
