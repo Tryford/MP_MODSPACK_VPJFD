@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="781d81cf-49e1-4acb-ae5f-b9e3713f98d3" version="1">
+  <Properties>
+    <Name>JFDLC (6) - Putmalk's Civ IV Diplomatic Features</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>C4DF for Community Patch Only</Teaser>
+    <Description>This is C4DF for Community Patch only. It will not work with Community Balance Patch nor is it intended to. Please use the C4DF for Community Balance Patch mod.</Description>
+    <Authors>Michael "Putmalk"</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="52" maxversion="999" title="Community Patch - Core" />
+  </Dependencies>
+  <References />
+  <Blocks>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+  </Blocks>
+  <Files>
+    <File md5="E9029C9E9851D1E0138D792ED5F5A471" import="1">Images/vassal80.dds</File>
+    <File md5="8050930951C51832D14A659C7DD22C3F" import="1">Images/vassal80hl.dds</File>
+    <File md5="A9A161DF77A478E084A031662C79D941" import="1">LUA/DeclareWarPopup.lua</File>
+    <File md5="86D353FD71335DE6C35F3F049187FC36" import="1">LUA/DeclareWarPopup.xml</File>
+    <File md5="2C74F2339F02A3EAD5BBD56622A3790E" import="1">LUA/DiploCorner.lua</File>
+    <File md5="3D2CBE4BA21DE93F323760BB5C0ADC8A" import="1">LUA/DiploCorner.xml</File>
+    <File md5="040F99B468B7EFD7CD484580B333AC69" import="1">LUA/DiploCurrentDeals.xml</File>
+    <File md5="4C7881F5773D8B9B89B96807BCCAC1F0" import="1">LUA/DiploGlobalRelationships.lua</File>
+    <File md5="2555EE8002FFCA52F4B81E65245D986E" import="1">LUA/DiploGlobalRelationships.xml</File>
+    <File md5="A576DF00C42BD07E7CE5E5FE9C6EC52E" import="1">LUA/DiploList.lua</File>
+    <File md5="D6A04C5BBAA61E37CDB340DA7B65BBDD" import="1">LUA/DiploTrade.xml</File>
+    <File md5="3F3D0C5F9E40C85F70C222586CDC4AAF" import="1">LUA/DiscussionDialog.lua</File>
+    <File md5="6F8A28534B75B274D37AD59D98B5962D" import="1">LUA/DiscussionDialog.xml</File>
+    <File md5="A183CAB56DECEE27DF8BD2E04064C1DA" import="1">LUA/LeaderHeadRoot.lua</File>
+    <File md5="F78BC96D218E6401821E6A8E5422E199" import="1">LUA/LeaderHeadRoot.xml</File>
+    <File md5="00E33063EDB3F028BCF678CDF6193D6C" import="1">LUA/SimpleDiploTrade.xml</File>
+    <File md5="30826F85AD4A1C111886EB6518C4E877" import="1">LUA/TechButtonInclude.lua</File>
+    <File md5="6E978B13E3CC823D0ADC275CCDFBF45F" import="1">LUA/TopPanel.lua</File>
+    <File md5="E4EDBC16F4EC93D8AFEB1ABED98C6A6D" import="1">LUA/TradeLogic.lua</File>
+    <File md5="893FDC9F84ED2F09D4A7AEC2F2A4AFA8" import="1">LUA/VassalageOverview.lua</File>
+    <File md5="30BA62E79F70C9FFDC0236C4ACE9AEC0" import="1">LUA/VassalageOverview.xml</File>
+    <File md5="99EFA8DD94669E5EE343AE7ABCBC8909" import="0">SQL/Globals.sql</File>
+    <File md5="BEB9BBBDAD1ED80D5C735DF2CE0F36DE" import="0">SQL/NewColumns.sql</File>
+    <File md5="497C0B9D880EE709956E0F7A55E564EA" import="0">XML/Gameplay/C4DFConcepts.xml</File>
+    <File md5="F22260F5CF6B9D797DD5FB04012E3E7D" import="0">XML/Gameplay/C4DFDiplomacyResponses.xml</File>
+    <File md5="954B0F030CD7C265C861693A8644D795" import="0">XML/Gameplay/C4DFGameOptions.xml</File>
+    <File md5="FD36146DAEBC1FB26D9E59C2F22A7D17" import="0">XML/Gameplay/C4DFResolutions.xml</File>
+    <File md5="1F029F0A213B612F5520C306830317BE" import="0">XML/Text/en_US/en_US_Text_CivilopediaC4DF.xml</File>
+    <File md5="B748DAF33842348C82A253A437D4F508" import="0">XML/Text/en_US/en_US_Text_Generic_DiplomacyC4DF.xml</File>
+    <File md5="76897EAA6850B3BB86BC7B5ABE9BDE91" import="0">XML/Text/en_US/en_US_Text_UIC4DF.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/Globals.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/NewColumns.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Gameplay/C4DFConcepts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gameplay/C4DFDiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gameplay/C4DFGameOptions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gameplay/C4DFResolutions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/en_US/en_US_Text_CivilopediaC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/en_US/en_US_Text_Generic_DiplomacyC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/en_US/en_US_Text_UIC4DF.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/VassalageOverview.xml">
+      <Name>Vassal Overview</Name>
+      <Description>Vassal Overview</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

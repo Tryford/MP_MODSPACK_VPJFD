@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c1871abe-b596-4028-a121-6568c154cb8d" version="1">
+  <Properties>
+    <Name>JFDLC (4) - Sukritact's Suzereinty</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Sukritact's Suzerainty</Teaser>
+    <Description>Sukritact's Suzerainty</Description>
+    <Authors>Sukritact</Authors>
+    <SpecialThanks>Janboruta, Kesler</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+  </Dependencies>
+  <References>
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="77E2385E8296D1C740AEAD6A732CD00A" import="1">Art/Atlas/Suzerainity_DefaultMinor_128.dds</File>
+    <File md5="077E5E8DC9BFFAF93450AA260F3BA8E8" import="1">Art/Atlas/Suzerainity_DefaultMinor_24.dds</File>
+    <File md5="BF8BB505EAF77E239E96CD1F1C7CB7AE" import="1">Art/Atlas/Suzerainity_DefaultMinor_256.dds</File>
+    <File md5="98C5C9A7D9EEE326F5D377D7493EFF17" import="1">Art/Atlas/Suzerainity_DefaultMinor_32.dds</File>
+    <File md5="73B828185F94C80E942DE7B3A464FE87" import="1">Art/Atlas/Suzerainity_DefaultMinor_48.dds</File>
+    <File md5="B5EF8E314C11964F63B585BEEF3DD8E9" import="1">Art/Atlas/Suzerainity_DefaultMinor_80.dds</File>
+    <File md5="EC6F027A7630CFF324630E3B4AB046A5" import="1">Art/Atlas/SuzeraintyCultured_32.dds</File>
+    <File md5="2CBEB96ED64CA7CAF351275CC5FE003B" import="1">Art/Atlas/SuzeraintyCultured_48.dds</File>
+    <File md5="6EDA790AE0D7215F2CB236A7F86F77DE" import="1">Art/Atlas/SuzeraintyCultured_80.dds</File>
+    <File md5="755CDEB735C6061E67B8CF6F74F611E2" import="1">Art/Atlas/SuzeraintyFertile_32.dds</File>
+    <File md5="9A19495EC7C939AC2979276411181BC1" import="1">Art/Atlas/SuzeraintyFertile_48.dds</File>
+    <File md5="3C238850D1D618FF5AC8C6C3F4147B31" import="1">Art/Atlas/SuzeraintyFertile_80.dds</File>
+    <File md5="DBA18ACDA6BC0A19557D096C840728F4" import="1">Art/Atlas/SuzeraintyMercantile_32.dds</File>
+    <File md5="51C7B60CA6B34B4C1CB46F6D3F604B28" import="1">Art/Atlas/SuzeraintyMercantile_48.dds</File>
+    <File md5="4551270F95EDA8A141667483D6638C97" import="1">Art/Atlas/SuzeraintyMercantile_80.dds</File>
+    <File md5="190F5F60CF1D1863AE6B793888515668" import="1">Art/Atlas/SuzeraintyMilitaristic_32.dds</File>
+    <File md5="00F20979AEDD38C6863D44BD6E477027" import="1">Art/Atlas/SuzeraintyMilitaristic_48.dds</File>
+    <File md5="6BF5F68DE351968C0160076DAC567DB7" import="1">Art/Atlas/SuzeraintyMilitaristic_80.dds</File>
+    <File md5="02C6B5768BEB3DD1D01005EBEFFE4D8D" import="1">Art/Atlas/SuzeraintyReligious_32.dds</File>
+    <File md5="A76082A7E45D0B2D0F183A8BB872B9CB" import="1">Art/Atlas/SuzeraintyReligious_48.dds</File>
+    <File md5="1CD756279E0EF452705690C1E531A0B7" import="1">Art/Atlas/SuzeraintyReligious_80.dds</File>
+    <File md5="6FD928F362E954582E76B132CC65BE86" import="1">Art/UI/citystatebackgroundmaritime.dds</File>
+    <File md5="A85B2F10E98398374159FBF9E4BFCFE0" import="1">Art/UI/CityStateBanner_Cultured.dds</File>
+    <File md5="954A478A7A993B49507E0738559B1734" import="1">Art/UI/CityStateBanner_Fertile.dds</File>
+    <File md5="869E3793C791114481F9A9BE3EC64014" import="1">Art/UI/CityStateBanner_Mercantile.dds</File>
+    <File md5="F151A164B77003CD73FEF4192C444C3B" import="1">Art/UI/CityStateBanner_Militaristic.dds</File>
+    <File md5="DE860EBBE36FD49F04CDAF0F3CB5B0BC" import="1">Art/UI/CityStateBanner_Religious.dds</File>
+    <File md5="D32EE7C8871BFD3D5DDAE7F6B564F24C" import="1">Art/UI/citystatemaritime.dds</File>
+    <File md5="43E5D2A23BD08949EC86214911D7279A" import="1">Audio/Suk_Cultured.mp3</File>
+    <File md5="06FEAC3B21823C0BC551472ED2259050" import="1">Audio/Suk_Fertile.mp3</File>
+    <File md5="020DFEC8A36DFC88DFE4E6150F551E8F" import="1">Audio/Suk_Mercantile.mp3</File>
+    <File md5="8BDAD04E5C2B48EBD702E528423DFB48" import="1">Audio/Suk_Militaristic.mp3</File>
+    <File md5="6E0442A851C12129CE0F1540E7DB8BAE" import="0">Audio/MinorCivSounds.sql</File>
+    <File md5="04DF753B393411496985B76C496631CE" import="1">Audio/MinorCivSounds.xml</File>
+    <File md5="DD48354DAA258C2CCFEFC17973A2DFA0" import="1">Audio/MinorCivSounds_Expansion1.xml</File>
+    <File md5="B36E722DB1567EA0FF071C0AD13DD7DF" import="1">Audio/MinorCivSounds_Expansion2.xml</File>
+    <File md5="BD654A889DFE2158778270C87AF9D19E" import="1">Audio/MinorCivSounds_Inherited_Expansion2.xml</File>
+    <File md5="9493134C9C4D0D67F3B3089F068A392B" import="1">Audio/Suk_Religious.mp3</File>
+    <File md5="59201DF68C6FF13642FAE6917D1E4E76" import="1">Audio/Silence01s.mp3</File>
+    <File md5="8C473C72606632C28DC6FF04B4B0CA2C" import="0">Core/Suzerainty_ArtDefines.sql</File>
+    <File md5="0E6BE357D90C6F2ED0F236227E401346" import="0">Core/Suzerainty_GameText.sql</File>
+    <File md5="474A363813AA2EF9DACDDF783001D98D" import="0">Core/Suzerainty_Master.sql</File>
+    <File md5="6A7D09667EBA86C7541F3C83396DA295" import="0">Core/Suzerainty_MinorCivilizations.sql</File>
+    <File md5="8DF8B57926A514E780CEB23395BA2E74" import="0">Core/Suzerainty_MinorDialogue.sql</File>
+    <File md5="1D981A4BCD853839FC7AB68FCE7C9680" import="0">Core/Suzerainty_MinorTraits.sql</File>
+    <File md5="BCCDA4321A127E78EA388C049401BB0B" import="0">Core/Suzerainty_ModSupport.sql</File>
+    <File md5="68DB67417CDDEB6CAF11AD48BAA88A12" import="0">Core/Suzerainty_Pedia.sql</File>
+    <File md5="7F70263DEB43F955FBCD78A6B9476504" import="0">Core/Suzerainty_Remap.sql</File>
+    <File md5="CD3DBE34E654C6300E8E444239F88687" import="1">Lua/Interactions/Interactions_Suk_Avignon.lua</File>
+    <File md5="4EC89579777058818B2975EE21C6CC81" import="1">Lua/Interactions/Interactions_Suk_Gobekli_Tepe.lua</File>
+    <File md5="C28A48E9F3E7B0C6ADDA551217D3D3E3" import="1">Lua/Interactions/Interactions_Suk_Mesa.lua</File>
+    <File md5="83067F5740A20B499E52904EBE6EEA80" import="1">Lua/Interactions/Interactions_Suk_Oyo_Ile.lua</File>
+    <File md5="10A056B7B4E1BD85C3F385EFDED10E28" import="1">Lua/Interactions/Interactions_Suk_Sican.lua</File>
+    <File md5="A2F61E085CBA25E13C0FA8D8102E0833" import="1">Lua/Interactions/Interactions_Suk_Naqada.lua</File>
+    <File md5="2AFFDA94C8E48FCC7F8BE6749987A950" import="0">Lua/Suzerainty_Functions.lua</File>
+    <File md5="5B16742F216ADD58F342039BD37E9590" import="0">Lua/UI/Suzerainty_CS_DiploList.lua</File>
+    <File md5="21CCE91D5508399142CD4026AA02960F" import="0">Lua/UI/Suzerainty_CS_DiploList.xml</File>
+    <File md5="43662F7C93C32E1AA02D8643A4C80592" import="0">Lua/UI/Suzerainty_CS_Popup.lua</File>
+    <File md5="CF130D45D88A72E4765FAB5E08C8619E" import="0">Lua/UI/Suzerainty_CS_Popup.xml</File>
+    <File md5="9C080E9C067FE40AF2E784C840D6DC88" import="1">Lua/Utilities/CityStateDialogueHelper.lua</File>
+    <File md5="4DAD5E0C8A4C55E091F1EFDA3F9304B7" import="1">Lua/Utilities/CityStateInteractions.lua</File>
+    <File md5="5244308719C5B41D37E35BCE6F354D41" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="392D0AB83CB5113D4F33AA9ED74B3753" import="1">Lua/Utilities/Suzerainty_CityState_Utils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Audio/MinorCivSounds.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Suzerainty_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Suzerainty_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Suzerainty_MinorCivilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Suzerainty_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Suzerainty_MinorTraits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Suzerainty_MinorDialogue.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Suzerainty_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Suzerainty_Remap.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Suzerainty_Functions.lua">
+      <Name>Suzerainity_Functions.lua</Name>
+      <Description>Suzerainity_Functions.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/UI/Suzerainty_CS_Popup.xml">
+      <Name>Suzerainity_CS_Popup.xml</Name>
+      <Description>Suzerainity_CS_Popup.xml</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/UI/Suzerainty_CS_DiploList.xml">
+      <Name>Suzerainty_CS_DiploList</Name>
+      <Description>Suzerainty_CS_DiploList</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

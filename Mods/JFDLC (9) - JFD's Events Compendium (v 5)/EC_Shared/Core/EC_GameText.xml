@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<Replace Tag="TXT_KEY_NEED_YIELDS">
+			<Text>[NEWLINE] [ICON_BULLET] You lack the required Yields</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EVENT_DISABLED_REASONS_HEADER">
+			<Text>[COLOR_NEGATIVE_TEXT]Choice unavailable:[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EVENT_DISABLED_LUA">
+			<Text>[NEWLINE] [ICON_BULLET] You lack the requirements</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>

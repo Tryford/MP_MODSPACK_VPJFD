@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--PRIVY COUNCILLORS-->
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHANCELLOR_DESC">
+			<Text>Chancellor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHANCELLOR_HELP_FILLED">
+			<Text>This seat is filled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHANCELLOR_HELP_VACANT">
+			<Text>This seat is vacant. Fill it by expending one of the following [ICON_GREAT_PEOPLE] Great People:[NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great Engineer[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]+10% [ICON_PRODUCTION] Production toward Wonders.[ENDCOLOR][NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great Magistrate[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]+10% [ICON_PRODUCTION] Production toward Buildings.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_ENGINEER_HELP">
+			<Text>[NEWLINE]{1_Color}Great Engineer[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+10% [ICON_PRODUCTION] Production toward Wonders.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_MAGISTRATE_HELP">
+			<Text>[NEWLINE]{1_Color}Great Magistrate[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+10% [ICON_PRODUCTION] Production toward Buildings.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHAPLAIN_DESC">
+			<Text>Chaplain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHAPLAIN_HELP_FILLED">
+			<Text>This seat is filled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHAPLAIN_HELP_VACANT">
+			<Text>This seat is vacant. Fill it by expending one of the following [ICON_GREAT_PEOPLE] Great People:[NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great Doctor [ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]+20% to [ICON_JFD_PLAGUE] Plague Threshold.[ENDCOLOR][NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great Prophet [ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]-20% enemy [ICON_MISSIONARY] Conversion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_DOCTOR_HELP">
+			<Text>[NEWLINE]{1_Color}Great Doctor[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+20% to [ICON_JFD_PLAGUE] Plague Threshold.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_PROPHET_HELP">
+			<Text>[NEWLINE]{1_Color}Great Prophet[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}-20% enemy [ICON_MISSIONARY] Conversion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HERALD_DESC">
+			<Text>Herald</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HERALD_HELP_FILLED">
+			<Text>This seat is filled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HERALD_HELP_VACANT">
+			<Text>This seat is vacant. Fill it by expending one of the following [ICON_GREAT_PEOPLE] Great People:[NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great Artist/Director/Musician/Writer[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]+15% [ICON_TOURISM] Tourism from Theming Bonuses.[ENDCOLOR][NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great Dignitary[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]+10 [ICON_INFLUENCE] Resting Rate with City-States.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_DIGNITARY_HELP">
+			<Text>[NEWLINE]{1_Color}Great Dignitary[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+10 [ICON_INFLUENCE] Resting Rate with City-States.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_ARTIST_HELP">
+			<Text>[NEWLINE]{1_Color}Great Artist/Director/Musician/Writer[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+15% [ICON_TOURISM] Tourism from Theming Bonuses.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_MUSICIAN_HELP">
+			<Text>[NEWLINE]{1_Color}Great Artist/Director/Musician/Writer[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+15% [ICON_TOURISM] Tourism from Theming Bonuses.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_WRITER_HELP">
+			<Text>[NEWLINE]{1_Color}Great Artist/Director/Musician/Writer[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+15% [ICON_TOURISM] Tourism from Theming Bonuses.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_MARSHAL_DESC">
+			<Text>Marshal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_MARSHAL_HELP_FILLED">
+			<Text>This seat is filled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_MARSHAL_HELP_VACANT">
+			<Text>This seat is vacant. Fill it by expending one of the following [ICON_GREAT_PEOPLE] Great People:[NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great Admiral[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]+10% [ICON_PRODUCTION] Production for Naval Units.[ENDCOLOR][NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great General[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]+10% [ICON_PRODUCTION] Production for Land Units.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_ADMIRAL_HELP">
+			<Text>[NEWLINE]{1_Color}Great Admiral[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+10% [ICON_PRODUCTION] Production for Naval Units.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_GENERAL_HELP">
+			<Text>[NEWLINE]{1_Color}Great General[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+10% [ICON_PRODUCTION] Production for Land Units.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_STEWARD_DESC">
+			<Text>Steward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_MERCHANT_HELP">
+			<Text>[NEWLINE]{1_Color}Great Merchant[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}-10% [ICON_GOLD] Gold Purchase costs.[ENDCOLOR]</Text>>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_GREAT_SCIENTIST_HELP">
+			<Text>[NEWLINE]{1_Color}Great Scientist[ENDCOLOR][NEWLINE][ICON_BULLET]{2_Color}+5% [ICON_RESEARCH] Science when [ICON_HAPPINESS_1] Happy.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_STEWARD_HELP_FILLED">
+			<Text>This seat is filled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_STEWARD_HELP_VACANT">
+			<Text>This seat is vacant. Fill it by expending one of the following [ICON_GREAT_PEOPLE] Great People:[NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great Merchant[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]-10% [ICON_GOLD] Gold Purchase costs.[ENDCOLOR][NEWLINE][COLOR_FADING_POSITIVE_TEXT]Great Scientist[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_ALPHA]+5% [ICON_RESEARCH] Science when [ICON_HAPPINESS_1] Happy.[ENDCOLOR]</Text>
+		</Row>
+		<!--GOVERNMENTS-->
+		<!--Tribe-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_DESC">
+			<Text>Tribe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_DESC_ICON">
+			<Text>[ICON_JFD_CULTURE_TRIBALAMERICAN] Tribe</Text>
+		</Row>
+		<!--Dictatorship-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_DESC">
+			<Text>Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_DESC_TT">
+			<Text>Your Government Type is a Dictatorship.[NEWLINE][NEWLINE]Dictatorships </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_DESC_ICON">
+			<Text>[ICON_JFD_CULTURE_TOTALITARIAN] Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_HELP">
+			<Text>Dictatorship is a system of government in which sovereignty is held by an ideologue.[NEWLINE][ICON_BULLET]-50% [ICON_JFD_SOVEREIGNTY] Sovereignty from [ICON_JFD_LEGITIMACY] Legitimacies.[NEWLINE][ICON_BULLET]No [ICON_JFD_REFORM] Reform cost increase from [ICON_JFD_FACTION] Factions.[NEWLINE][ICON_BULLET]Legislatures: Military Junta, One-Party.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_HELP_CHANGE">
+			<Text>Dictatorship is a system of government in which sovereignty is held by an ideologue.[NEWLINE][ICON_BULLET]-50% [ICON_JFD_SOVEREIGNTY] Sovereignty from [ICON_JFD_LEGITIMACY] Legitimacies.[NEWLINE][ICON_BULLET]No [ICON_JFD_REFORM] Reform cost increase from [ICON_JFD_FACTION] Factions.[NEWLINE][ICON_BULLET]Legislatures: Military Junta, One-Party.</Text>
+		</Row>
+		<!--Holy Roman Empire-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROME_DESC">
+			<Text>Holy Roman Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROME_DESC_TT">
+			<Text>Your Government Type is a Holy Roman Empire.[NEWLINE][NEWLINE]Holy Roman Empires </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROME_DESC_ICON">
+			<Text>[ICON_JFD_HOLY_ROMAN_EMPIRE] Holy Roman Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROME_HELP">
+			<Text>The Holy Roman Empire is a system of government in which sovereignty lies in a collection of states.[NEWLINE][ICON_BULLET]+25% [ICON_JFD_FACTION] Faction power.[NEWLINE][ICON_BULLET]Legislatures: Privilegium Maius, Privilegium Minor.[NEWLINE][ICON_BULLET]Receive a free [ICON_GREAT_PEOPLE] Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROME_HELP_CHANGE">
+			<Text>The Holy Roman Empire is a system of government in which sovereignty lies in a collection of states.[NEWLINE][ICON_BULLET]+25% [ICON_JFD_FACTION] Faction power.[NEWLINE][ICON_BULLET]Legislatures: Privilegium Maius, Privilegium Minor.</Text>
+		</Row>
+		<!--Monarchy-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_DESC">
+			<Text>Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_DESC_TT">
+			<Text>Your Government Type is a Monarchy.[NEWLINE][NEWLINE]Monarchies </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_DESC_ICON">
+			<Text>[ICON_JFD_CULTURE_CENTRAL] Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_HELP">
+			<Text>Monarchy is a system of government in which sovereignty lies in an individual.[NEWLINE][ICON_BULLET]+25% [ICON_JFD_SOVEREIGNTY] Sovereignty from [ICON_JFD_LEGITIMACY] Legitimacies.[NEWLINE][ICON_BULLET]Legislatures: Aristocratic, Parliamentary.[NEWLINE][ICON_BULLET]Receive a free [ICON_GREAT_PEOPLE] Great Dignitary.[NEWLINE][ICON_BULLET]Unlocks building the Versailles wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_HELP_CHANGE">
+			<Text>Monarchy is a system of government in which sovereignty lies in an individual.[NEWLINE][ICON_BULLET]+25% [ICON_JFD_SOVEREIGNTY] Sovereignty from [ICON_JFD_LEGITIMACY] Legitimacies.[NEWLINE][ICON_BULLET]Legislatures: Aristocratic, Parliamentary.[NEWLINE][ICON_BULLET]Unlocks building the Versailles wonder.</Text>
+		</Row>
+		<!--Republic-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_DESC">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_DESC_TT">
+			<Text>Your Government Type is a Republic.[NEWLINE][NEWLINE]Republics .</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_DESC_ICON">
+			<Text>[ICON_JFD_CULTURE_CLASSICAL] Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_HELP">
+			<Text>Republic is a system of government in which sovereignty lies in a body of citizens.[NEWLINE][ICON_BULLET]-25% [ICON_JFD_REFORM] Reform cooldown.[NEWLINE][ICON_BULLET]Legislatures: Democratic, Oligarchic.[NEWLINE][ICON_BULLET]Receive a free [ICON_GREAT_PEOPLE] Great Magistrate.[NEWLINE][ICON_BULLET]Unlocks building the Doge's Palace wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_HELP_CHANGE">
+			<Text>Republic is a system of government in which sovereignty lies in a body of citizens.[NEWLINE][ICON_BULLET]-25% [ICON_JFD_REFORM] Reform cooldown.[NEWLINE][ICON_BULLET]Legislatures: Democratic, Oligarchic.[NEWLINE][ICON_BULLET]Unlocks building the Doge's Palace wonder.</Text>
+		</Row>
+		<!--Shogunate-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_DESC">
+			<Text>Shogunate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_DESC_TT">
+			<Text>Your Government Type is a Shogunate.[NEWLINE][NEWLINE]Shogunates </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_DESC_ICON">
+			<Text>[ICON_JFD_SHOGUNATE] Shogunate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_HELP">
+			<Text>The Shogunate is a system of government in which sovereignty lies in a tripartite between the Emperor, the Shogun, and the Daimyo.[NEWLINE][ICON_BULLET][NEWLINE][ICON_BULLET]Legislatures: The Daimyo, The Emperor.[NEWLINE][ICON_BULLET]Receive a free [ICON_GREAT_PEOPLE] Great Admiral and General.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_HELP_CHANGE">
+			<Text>The Shogunate is a system of government in which sovereignty lies in a tripartite between the Emperor, the Shogun, and the Daimyo.[NEWLINE][ICON_BULLET][NEWLINE][ICON_BULLET]Legislatures: The Daimyo, The Emperor.</Text>
+		</Row>
+		<!--Theocracy-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRACY_DESC">
+			<Text>Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRACY_DESC_TT">
+			<Text>Your Government Type is a Theocracy.[NEWLINE][NEWLINE]Theocracies .</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRACY_DESC_ICON">
+			<Text>[ICON_JFD_CULTURE_PAPAL] Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRACY_HELP">
+			<Text>Theocracy is a system of government in which sovereignty lies in the divine.[NEWLINE][ICON_BULLET]Cannot change State Religion or Secularize.[NEWLINE][ICON_BULLET]+20% Max [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][ICON_BULLET]Legislatures: Autocephalous, Ecumenical.[NEWLINE][ICON_BULLET]Receive a free [ICON_GREAT_PEOPLE] Great Prophet.[NEWLINE][ICON_BULLET]Unlocks building the St. Peter's Basilica wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRACY_HELP_CHANGE">
+			<Text>Theocracy is a system of government in which sovereignty lies in the divine.[NEWLINE][ICON_BULLET]Cannot change State Religion or Secularize.[NEWLINE][ICON_BULLET]+20% Max [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][ICON_BULLET]Legislatures: Autocephalous, Ecumenical.[NEWLINE][ICON_BULLET]Unlocks building the St. Peter's Basilica wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PIETY_LEVEL_JFD_THEOCRACY">
+			<Text>[ICON_BULLET]+{1_Num}% Max [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE]</Text>
+		</Row>
+		<!--LEGISLATURE-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT">
+			<Text>The Legislature determines how much [ICON_JFD_SOVEREIGNTY] Sovereignty it will cost for you to adopt a [ICON_JFD_REFORM] Political Reform. Political Reforms are similar to [ICON_CULTURE] Social Policies or [ICON_ED_DECISIONS] Decisions, but often exchange bonuses for penalties. Use them to divert state resources into an aspect of your civilization that is not functioning well!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GO_NO_HEAD_OF_GOVERNMENT_DESC">
+			<Text>No Head of Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_SHORT">
+			<Text>New Legislature</Text>
+		</Row>
+		<!--Holy Synod-->
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_HOLY_SYNOD">
+			<Text>A new {1_LegislatureDesc} has been formed! The [ICON_JFD_FACTION] Factions that have joined your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Results:[ENDCOLOR]{2_VoteList}[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Left-click for more details.[ENDCOLOR]</Text>
+		</Row>
+		<!--Holy Synod: Autocephalous-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_AUTOCEPHALOUS">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction correlates to one of your cities, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of their followers to your population total[ENDCOLOR].[NEWLINE][NEWLINE]The Factions' specific interests, although always in Left Reforms, depend upon the city from which they originate, and this can [COLOR_POSITIVE_TEXT]change each turn[ENDCOLOR]. Specifically, this is based upon whether or not the city generates [COLOR_POSITIVE_TEXT]more Faith[ENDCOLOR], [COLOR_POSITIVE_TEXT]Culture[ENDCOLOR], [COLOR_POSITIVE_TEXT]Gold[ENDCOLOR], or [COLOR_POSITIVE_TEXT]Science[ENDCOLOR].</Text>
+		</Row>
+		<!--Holy Synod: Ecumenical-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_ECUMENICAL">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction correlates to the followers of your State Religion, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of their followers to all followers total[ENDCOLOR].[NEWLINE][NEWLINE]The Factions' specific interests, although always in Right Reforms, depend upon the civilization from which they originate, and this can [COLOR_POSITIVE_TEXT]change each turn[ENDCOLOR]. Specifically, this is based upon whether or not the civilization generates [COLOR_POSITIVE_TEXT]more Faith[ENDCOLOR], [COLOR_POSITIVE_TEXT]Culture[ENDCOLOR], [COLOR_POSITIVE_TEXT]Gold[ENDCOLOR], or [COLOR_POSITIVE_TEXT]Science[ENDCOLOR].</Text>
+		</Row>
+		<!--Imperial Court-->
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_IMPERIAL_COURT">
+			<Text>The old Emperor has died and a new Imperial Court has been formed! The [ICON_JFD_FACTION] Faction that has joined your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Left-click for more details.[ENDCOLOR]</Text>
+		</Row>
+		<!--Imperial Court: Daimyo-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_DAIMYO">
+			<Text>When an [ICON_JFD_EMPEROR] Emperor dies, your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction correlates to your City-State Allies, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of their Population to all Population of City-State Allies total[ENDCOLOR].[NEWLINE][NEWLINE]The Factions' specific interests depend upon the City-State from which they originate.</Text>
+		</Row>
+		<!--Imperial Court: Emperor-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_EMPEROR">
+			<Text>Favouring the Emperor, they are your only [ICON_JFD_FACTION] Faction. When the current [ICON_JFD_EMPEROR] Emperor dies, a new one will succeed, bringing with them different interests. This Faction will retain total power unless you switch Governments or Legislatures.</Text>
+		</Row>
+		<!--Imperial Diet-->
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_IMPERIAL_DIET">
+			<Text>A new {1_LegislatureDesc} has been formed! The [ICON_JFD_FACTION] Factions that have joined your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Results:[ENDCOLOR]{2_VoteList}[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Left-click for more details.[ENDCOLOR]</Text>
+		</Row>
+		<!--Imperial Diet: Privilegium Maius-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_PRIVILEGIUM_MAIUS">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction correlates to your City-State Allies, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of their Population to all Population of City-State Allies total[ENDCOLOR].[NEWLINE][NEWLINE]The Factions' specific interests depend upon the City-State from which they originate.</Text>
+		</Row>
+		<!--Imperial Diet: Privilegium Minor-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_PRIVILEGIUM_MINOR">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction correlates to your City-State Friends, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of their Population to all Population of City-State Friends total[ENDCOLOR].[NEWLINE][NEWLINE]The Factions' specific interests depend upon the City-State from which they originate.</Text>
+		</Row>
+		<!--Legislature: Aristocratic-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_ARISTOCRATIC">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction is associated with two Yields, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of these Yields to the sum of all Yields total[ENDCOLOR].[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_BURGHERS]Burghers:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CULTURE] Culture [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_GOLD] Gold.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_CLERGY]Clergy:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_PEACE] Faith [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_RESEARCH] Science.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_NOBILITY]Nobility:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_FOOD] Food [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_PRODUCTION] Production.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_REVOLUTIONARIES]Revolutionaries:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_4] Excess Unhappiness.[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_ARISTOCRATIC">
+			<Text>A new {1_LegislatureDesc} has been formed! The [ICON_JFD_FACTION] Factions that have joined your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Results:[ENDCOLOR]{2_Result}[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Left-click for more details.[ENDCOLOR]</Text>
+		</Row>
+		<!--Legislature: Parliamentary-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_PARLIAMENTARY">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction may get up to two votes per city, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of these votes to the sum of all votes total[ENDCOLOR]. The first vote goes to the Faction with the [COLOR_POSITIVE_TEXT]lowest combination of two Yields[ENDCOLOR]. The second vote goes to the Faction with the [COLOR_POSITIVE_TEXT]highest combination of two (or more) Specialists[ENDCOLOR].[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_TEAM_8]Conversatives:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_PEACE] Faith [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_RESEARCH] Science.[NEWLINE][ICON_BULLET][ICON_JFD_SPECIALIST_MONK] Monks [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_JFD_SPECIALIST_SCIENTIST] Scientists.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_TEAM_3]Liberals:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GOLD] Gold [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_CULTURE] Culture.[NEWLINE][ICON_BULLET][ICON_JFD_SPECIALIST_ARTIST] Artists et al. [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_JFD_SPECIALIST_MERCHANT] Merchants.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_TEAM_2]Socialists:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_FOOD] Food [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_PRODUCTION] Production.[NEWLINE][ICON_BULLET][ICON_JFD_SPECIALIST_DOCTOR] Doctors [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_JFD_SPECIALIST_ENGINEER] Engineers.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_REVOLUTIONARIES]Revolutionaries:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_4] [COLOR_NEGATIVE_TEXT]Excess[ENDCOLOR] Unhappiness.[NEWLINE][NEWLINE]This Faction is not a part of the vote and their power is calculated globally.[NEWLINE]--------[NEWLINE]When an [COLOR_POSITIVE_TEXT]Ideology[ENDCOLOR] is dominant, different [ICON_JFD_FACTION] Factions will take the [COLOR_POSITIVE_TEXT]Specialist[ENDCOLOR] vote.</Text>
+			<!--	<Text>When a new election is called, each city will vote for up to two political parties that they support, based upon certain conditions.[NEWLINE][NEWLINE]The first vote will be based upon the city's lowest combination of two yields (before modifiers). Cities where [ICON_PEACE] Faith and [ICON_RESEARCH] Science are lowest will vote [COLOR_POSITIVE_TEXT]conservative[ENDCOLOR], where [ICON_CULTURE] Culture and [ICON_GOLD] Gold are lowest will vote [COLOR_POSITIVE_TEXT]liberal[ENDCOLOR], and where [ICON_FOOD] Food and [ICON_PRODUCTION] Production are lowest will vote [COLOR_POSITIVE_TEXT]socialist[ENDCOLOR].[NEWLINE][NEWLINE]The second vote will be based upon the highest combination of two different specialists. Cities where there are more [COLOR_FADING_POSITIVE_TEXT]Monks[ENDCOLOR] and [COLOR_FADING_POSITIVE_TEXT]Scientists[ENDCOLOR] will vote [COLOR_POSITIVE_TEXT]conservative[ENDCOLOR], with more [COLOR_FADING_POSITIVE_TEXT]Artists and [COLOR_FADING_POSITIVE_TEXT]Merchants[ENDCOLOR] will vote [COLOR_POSITIVE_TEXT]liberal[ENDCOLOR], and with more [COLOR_FADING_POSITIVE_TEXT]Unemployed Citizens[ENDCOLOR] and [COLOR_FADING_POSITIVE_TEXT]Engineers[ENDCOLOR] will vote [COLOR_POSITIVE_TEXT]socialist[ENDCOLOR].[NEWLINE][NEWLINE]After you have adopted an Ideology, the specialist vote will be distributed differenly, according to the ideology that is most influential over you. If [ICON_IDEOLOGY_AUTOCRACY] Autocracy is most influential, the conservative vote will go to [COLOR_POSITIVE_TEXT]fascists[ENDCOLOR]. If [ICON_IDEOLOGY_FREEDOM] Freedom, the liberal vote will go to [COLOR_POSITIVE_TEXT]libertarians[ENDCOLOR]. If [ICON_IDEOLOGY_ORDER] Order, the socialist vote will go to [COLOR_POSITIVE_TEXT]communists[ENDCOLOR]. Finally, if the most influential ideology is your own, then votes that would go to the corresponding party will go to [COLOR_POSITIVE_TEXT]reactionaries[ENDCOLOR] instead.</Text>-->
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_PARLIAMENTARY_IDEOLOGY">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction may get up to two votes per city, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of these votes to the sum of all votes total[ENDCOLOR]. The first vote goes to the Faction with the [COLOR_POSITIVE_TEXT]lowest combination of two Yields[ENDCOLOR]. The second vote goes to the Faction with the [COLOR_POSITIVE_TEXT]highest combination of two (or more) Specialists[ENDCOLOR].[NEWLINE][NEWLINE]The Faction that corresponds to your [COLOR_POSITIVE_TEXT]Ideology[ENDCOLOR] receives a (non-proportional) [COLOR_JFD_SOVEREIGNTY]+50%[ENDCOLOR] bonus to their power.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_TEAM_8]Conversatives:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_PEACE] Faith [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_RESEARCH] Science.[NEWLINE][ICON_BULLET][ICON_JFD_SPECIALIST_MONK] Monks [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_JFD_SPECIALIST_SCIENTIST] Scientists.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_TEAM_3]Liberals:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GOLD] Gold [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_CULTURE] Culture.[NEWLINE][ICON_BULLET][ICON_JFD_SPECIALIST_ARTIST] Artists et al. [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_JFD_SPECIALIST_MERCHANT] Merchants.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_TEAM_2]Socialists:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_FOOD] Food [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_PRODUCTION] Production.[NEWLINE][ICON_BULLET][ICON_JFD_SPECIALIST_DOCTOR] Doctors [COLOR_POSITIVE_TEXT]+[ENDCOLOR] [ICON_JFD_SPECIALIST_ENGINEER] Engineers.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_REVOLUTIONARIES]Revolutionaries:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_4] [COLOR_NEGATIVE_TEXT]Excess[ENDCOLOR] Unhappiness.[NEWLINE][NEWLINE]This Faction is not a part of the vote and their power is calculated globally.[NEWLINE]--------[NEWLINE]When an [COLOR_POSITIVE_TEXT]Ideology[ENDCOLOR] is dominant, different [ICON_JFD_FACTION] Factions will take the [COLOR_POSITIVE_TEXT]Specialist[ENDCOLOR] vote.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_PARLIAMENTARY">
+			<Text>A new {1_LegislatureDesc} has been formed! The [ICON_JFD_FACTION] Factions that have joined your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Results:[ENDCOLOR]{2_VoteList}[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Left-click for more details.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_PARLIAMENTARY_VOTE_OUTCOME">
+			<Text>[ICON_BULLET]{1_CityName}: {2_PoliticIcon} {3_PoliticDesc} [COLOR_POSITIVE_TEXT]{4_VoteCount} [ICON_JFD_VOTE] vote(s)[ENDCOLOR]</Text>
+		</Row>
+		<!--Legislature: Democratic-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_DEMOCRATIC">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction is associated with an aspect of Happiness and Unhappiness, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of these aspects to the sum of all Happiness + Unhappiness total[ENDCOLOR].[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_TEAM_8]Nationalists:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] [COLOR_POSITIVE_TEXT]Global[ENDCOLOR] Happiness [COLOR_POSITIVE_TEXT]+[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_4] Unhappiness from [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_TEAM_3]Popularists:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] [COLOR_POSITIVE_TEXT]Local[ENDCOLOR] Happiness[COLOR_POSITIVE_TEXT] +[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_4] Unhappiness from [COLOR_POSITIVE_TEXT]Population[ENDCOLOR].[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_REVOLUTIONARIES]Revolutionaries:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_4] [COLOR_NEGATIVE_TEXT]Excess[ENDCOLOR] Unhappiness.[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_DEMOCRATIC">
+			<Text>A new {1_LegislatureDesc} has been formed! The [ICON_JFD_FACTION] Factions that have joined your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Results:[ENDCOLOR]{2_VoteList}[NEWLINE][NEWLINE]Left-click for more details.</Text>
+		</Row>
+		<!--Legislature: Oligarchic-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_OLIGARCHIC">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction is associated with a specific value, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of these values to the sum of all values total[ENDCOLOR].[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_CITIZEN]Civic Faction:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL] National Wonders.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_INDUSTRIALIST]Industrialist Faction:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_SWAP] Domestic Trade Routes.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_MERCANTILE]Mercantile Faction:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_INTERNATIONAL_TRADE] International Trade Routes.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_MILITARY]Military Faction:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_WAR] (Major) Wars.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_POPULIST]Populist Faction:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CULTURE]Open/Complete Policy Branches.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_RELIGIOUS]Religious Faction:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_RELIGION](Major) State Religion Followers.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_REVOLUTIONARIES]Revolutionaries:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_4] [COLOR_NEGATIVE_TEXT]Excess[ENDCOLOR] Unhappiness.[NEWLINE]--------[NEWLINE]Once you have an [COLOR_POSITIVE_TEXT]Ideology[ENDCOLOR], different [ICON_JFD_FACTION] Factions will compose the Legislature.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_OLIGARCHIC_IDEOLOGY">
+			<Text>When an [ICON_JFD_VOTE] Election is called in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s), your [ICON_JFD_FACTION] Factions will be re-organized.[NEWLINE][NEWLINE]Each [ICON_JFD_FACTION] Faction is associated with a specific value, and their power in the Legislature is determined by the [COLOR_POSITIVE_TEXT]proportion of these values to the sum of all values total[ENDCOLOR].[NEWLINE][NEWLINE]The Faction that corresponds to your [COLOR_POSITIVE_TEXT]Ideology[ENDCOLOR] receives a (non-proportional) [COLOR_JFD_SOVEREIGNTY]+50%[ENDCOLOR] bonus to their power.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_IDEOLOGY_AUTOCRACY]Fanaticist Faction:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_WAR] (Major) Wars.[NEWLINE][ICON_BULLET][ICON_RELIGION](Major) State Religion Followers.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_IDEOLOGY_FREEDOM]Progressive Faction:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_INTERNATIONAL_TRADE] International Trade Routes.[NEWLINE][ICON_BULLET][ICON_CULTURE]Open/Complete Policy Branches.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_IDEOLOGY_ORDER]Radicalist Faction:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL] National Wonders.[NEWLINE][ICON_BULLET][ICON_SWAP] Domestic Trade Routes.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY][ICON_JFD_REVOLUTIONARIES]Revolutionaries:[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_HAPPINESS_4] [COLOR_NEGATIVE_TEXT]Excess[ENDCOLOR] Unhappiness.[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_OLIGARCHIC">
+			<Text>A new {1_LegislatureDesc} has been formed! The [ICON_JFD_FACTION] Factions that have joined your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Results:[ENDCOLOR]{2_VoteList}[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Left-click for more details.[ENDCOLOR]</Text>
+		</Row>
+		<!--Legislature: Military-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_MILITARY">
+			<Text>As a Military Dictatorship, you have only one [ICON_JFD_FACTION] Faction: the Military Junta. This Faction will retain total power unless you switch Governments or Legislatures.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_MILITARY">
+			<Text>A new {1_LegislatureDesc} has been formed! The [ICON_JFD_FACTION] Faction that composes your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Results:[ENDCOLOR]{2_VoteList}[NEWLINE][NEWLINE]Left-click for more details.</Text>
+		</Row>
+		<!--Legislature: One Party-->
+		<Row Tag="TXT_KEY_JFD_GO_LEGISLATURE_TT_ONE_PARTY">
+			<Text>As a One-Party Dictatorship, there is only one [ICON_JFD_FACTION] Faction within your Legislature: the Assembly. This Faction is determined by the Ideology that you have chosen.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY]Communist Assembly:[ENDCOLOR][NEWLINE][ICON_BULLET]Requires [ICON_IDEOLOGY_ORDER]Order.[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY]Fascist Assembly:[ENDCOLOR][NEWLINE][ICON_BULLET]Requires [ICON_IDEOLOGY_AUTOCRACY]Autocracy[ENDCOLOR].[NEWLINE]--------[NEWLINE][COLOR_JFD_SOVEREIGNTY]Libertarian Assembly:[ENDCOLOR][NEWLINE][ICON_BULLET]Requires [ICON_IDEOLOGY_FREEDOM]Freedom.[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_ONE_PARTY">
+			<Text>A new {1_LegislatureDesc} has been formed! The [ICON_JFD_FACTION] Faction that composes your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Results:[ENDCOLOR]{2_VoteList}[NEWLINE][NEWLINE]Left-click for more details.</Text>
+		</Row>
+		<!--FACTIONS-->
+		<!--MONARCHY (ARISTOCRATIC)-->
+		<!--Burghers-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_BURGHERS_DESC">
+			<Text>Burghers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_BURGHERS_SHORT_DESC">
+			<Text>Burghers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_BURGHERS_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Burghers stand for the power of the merchant elite. Their power is determined by your [ICON_CULTURE] Culture and [ICON_GOLD] Gold.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Industrial Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Economic Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Industrial Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Economic Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_BURGHERS_ADJ">
+			<Text>Burgher</Text>
+		</Row>
+		<!--Clergy-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CLERGY_DESC">
+			<Text>Clergy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CLERGY_SHORT_DESC">
+			<Text>Clergy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CLERGY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Clergy stand for the power of the religious elite. Their power is determined by your [ICON_PEACE] Faith and [ICON_RESEARCH] Science.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Religious Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Religious Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CLERGY_ADJ">
+			<Text>Clerical</Text>
+		</Row>
+		<!--Nobility-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_NOBILITY_DESC">
+			<Text>Nobility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_NOBILITY_SHORT_DESC">
+			<Text>Nobles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_NOBILITY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Nobility stand for the power of the aristocratic elite. Their power is determined by your [ICON_FOOD] Food and [ICON_PRODUCTION] Production.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Military Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Military Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_NOBILITY_ADJ">
+			<Text>Noble</Text>
+		</Row>
+		<!--Revolutionaries-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_DESC">
+			<Text>Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_SHORT_DESC">
+			<Text>Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]Revolutionaries hate you and everything for which you stand. They are most interested in seeing your head on a pike. Their power is determined by your [ICON_HAPPINESS_4] Excess Unhappiness.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]In addition to increasing [ICON_JFD_SOVEREIGNTY] Sovereignty needed for ALL Reforms, Revolutionaries will increase your [ICON_JFD_ANARCHY] Anarchy Sentiment![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_ADJ">
+			<Text>Revolutionary</Text>
+		</Row>
+		<!--MONARCHY (PARLIAMENTARY)-->
+		<!--Communists-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_COMMUNIST_DESC">
+			<Text>Communist Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_COMMUNIST_SHORT_DESC">
+			<Text>Communists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_COMMUNIST_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Communists stand for guarded equality. They emerge when [ICON_IDEOLOGY_ORDER] Order is the dominant Ideology, and their power is determined by the number of [ICON_JFD_SPECIALIST_DOCTOR] Doctors and [ICON_JFD_SPECIALIST_ENGINEER] Engineers.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Legal Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Industrial Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Legal Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Industrial Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_COMMUNIST_ADJ">
+			<Text>Communist</Text>
+		</Row>
+		<!--Conservatives-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_DESC">
+			<Text>Conservative Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_SHORT_DESC">
+			<Text>Conservatives</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Conservatives stand for reserved progress. Their power is determined by low [ICON_PEACE] Faith and [ICON_RESEARCH] Science output, and the number of [ICON_JFD_SPECIALIST_MONK] Monks and [ICON_JFD_SPECIALIST_SCIENTIST] Scientists.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Industrial Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Religious Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Industrial Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Religious Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_ADJ">
+			<Text>Conservative</Text>
+		</Row>
+		<!--Fascists-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_FASCIST_DESC">
+			<Text>Fascist Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_FASCIST_SHORT_DESC">
+			<Text>Fascists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_FASCIST_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Fascists stand for strong government. They emerge when [ICON_IDEOLOGY_AUTOCRACY] Autocracy is the dominant Ideology, and their power is determined by the number of [ICON_JFD_SPECIALIST_MONK] Monks and [ICON_JFD_SPECIALIST_SCIENTIST] Scientists.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Industrial Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Religious Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Industrial Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Religious Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_FASCIST_ADJ">
+			<Text>Fascist</Text>
+		</Row>
+		<!--Liberals-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_DESC">
+			<Text>Liberal Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_SHORT_DESC">
+			<Text>Liberals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Liberals stand for freedom. Their power is determined by low [ICON_CULTURE] Culture and [ICON_GOLD] Gold output, and the number of [ICON_JFD_SPECIALIST_ARTIST] Artists, Musicians, Writers, and [ICON_JFD_SPECIALIST_MERCHANT] Merchants.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Religious Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Religious Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_ADJ">
+			<Text>Liberal</Text>
+		</Row>
+		<!--Libertarians-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERTARIAN_DESC">
+			<Text>Libertarian Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERTARIAN_SHORT_DESC">
+			<Text>Libertarians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERTARIAN_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Libertarians stand for limited government. They emerge when [ICON_IDEOLOGY_FREEDOM] Freedom is the dominant Ideology, and their power is determined by the number of [ICON_JFD_SPECIALIST_ARTIST] Artists, Musicians, Writers, and [ICON_JFD_SPECIALIST_MERCHANT] Merchants.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Legal Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Religious Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Legal Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Religious Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERTARIAN_ADJ">
+			<Text>Libertarian</Text>
+		</Row>
+		<!--Reactionaries-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REACTIONARY_DESC">
+			<Text>Reactionary Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REACTIONARY_SHORT_DESC">
+			<Text>Reactionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REACTIONARY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]{1_Desc}[ENDCOLOR] stand for an unchanging and traditional status quo.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REACTIONARY_ADJ">
+			<Text>Reactionary</Text>
+		</Row>
+		<!--Socialists-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_SOCIALIST_DESC">
+			<Text>Socialist Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_SOCIALIST_SHORT_DESC">
+			<Text>Socialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_SOCIALIST_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Socialists stand for equality. Their power is determined by low [ICON_FOOD] Food and [ICON_PRODUCTION] Production output, and the number of [ICON_JFD_SPECIALIST_DOCTOR] Doctors and [ICON_JFD_SPECIALIST_ENGINEER] Engineers.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Industrial Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Legal Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Industrial Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Legal Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_SOCIALIST_ADJ">
+			<Text>Socialist</Text>
+		</Row>
+		<!--REPUBLIC (DEMOCRATIC)-->
+		<!--Nationalist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_DESC">
+			<Text>Nationalist Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_SHORT_DESC">
+			<Text>Nationalists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Nationalists stand for state interests. Their power is determined by your [ICON_HAPPINESS_1] Global Happiness and [ICON_HAPPINESS_4] City Unhappiness.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_ADJ">
+			<Text>Nationalist</Text>
+		</Row>
+		<!--Popularist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULARIST_DESC">
+			<Text>Popularist Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULARIST_SHORT_DESC">
+			<Text>Popularists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULARIST_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Popularists stand for public interests. Their power is determined by your [ICON_HAPPINESS_1] Local Happiness and [ICON_HAPPINESS_4] Population Unhappiness.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULARIST_ADJ">
+			<Text>Popularist</Text>
+		</Row>
+		<!--Revolutionaries-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARY_DESC">
+			<Text>Revolutionary Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARY_SHORT_DESC">
+			<Text>Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]Revolutionaries hate you and everything for which you stand. They are most interested in seeing your head on a pike. Their power is determined by your [ICON_HAPPINESS_4] Excess Unhappiness.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]In addition to increasing [ICON_JFD_SOVEREIGNTY] Sovereignty needed for ALL Reforms, Revolutionaries will increase your [ICON_JFD_ANARCHY] Anarchy Sentiment![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARY_ADJ">
+			<Text>Revolutionary</Text>
+		</Row>
+		<!--REPUBLIC (OLIGARCHIC)-->
+		<!--Civic-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CIVIC_DESC">
+			<Text>Civic Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CIVIC_SHORT_DESC">
+			<Text>Civics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CIVIC_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Civic Faction stand for legal interests. Their power is determined by the number of [ICON_CAPITAL] National Wonders.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Legal Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Religious Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CIVIC_ADJ">
+			<Text>Civic</Text>
+		</Row>
+		<!--Fanaticists-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FANATICAL_DESC">
+			<Text>Fanaticist Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FANATICAL_SHORT_DESC">
+			<Text>Fanaticists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FANATICAL_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Fanaticist Faction stand for extreme means. Their power is determined by the number of [ICON_WAR] Wars (with major Civilizations and Barbarians) + the number of Civilizations following your [ICON_RELIGION] State Religion.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Religious Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Legal Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Culture Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FANATICAL_ADJ">
+			<Text>Fanaticist</Text>
+		</Row>
+		<!--Industrialist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDUSTRIALIST_DESC">
+			<Text>Industrialist Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDUSTRIALIST_SHORT_DESC">
+			<Text>Industrialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDUSTRIALIST_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Industrialist Faction stand for industrial interests. Their power is determined by the number of [ICON_SWAP] Domestic Trade Routes.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Industrial Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Economic Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDUSTRIALIST_ADJ">
+			<Text>Industrialist</Text>
+		</Row>
+		<!--Mercantile-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCANTILE_DESC">
+			<Text>Mercantile Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCANTILE_SHORT_DESC">
+			<Text>Merchants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCANTILE_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Mercantile Faction stand for economic interests. Their power is determined by the number of [ICON_INTERNATIONAL_TRADE] International Trade Routes.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Economic Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Industrial Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCANTILE_ADJ">
+			<Text>Mercantile</Text>
+		</Row>
+		<!--Military-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_DESC">
+			<Text>Military Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_SHORT_DESC">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Military Faction stand for military interests. Their power is determined by the number of [ICON_WAR] Wars (with major Civilizations and Barbarians).[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Military Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Culture Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_ADJ">
+			<Text>Military</Text>
+		</Row>
+		<!--Populist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULIST_DESC">
+			<Text>Populist Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULIST_SHORT_DESC">
+			<Text>Populists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULIST_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Populist Faction stand for popular interests. Their power is determined by the number of [ICON_CULTURE] Policy Branches unlocked/completed.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Culture Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Military Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULIST_ADJ">
+			<Text>Populist</Text>
+		</Row>
+		<!--Progressives-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_DESC">
+			<Text>Progressive Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_SHORT_DESC">
+			<Text>Progressives</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Progressive Faction stand for improving society. Their power is determined by the number of [ICON_INTERNATIONAL_TRADE] International Trade Routes + the number of [ICON_CULTURE] Policy Branches unlocked/completed.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Economic Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Industrial Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_ADJ">
+			<Text>Progressive</Text>
+		</Row>
+		<!--Radicalists-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICAL_DESC">
+			<Text>Radicalist Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICAL_SHORT_DESC">
+			<Text>Radicals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICAL_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Radicalist Faction stand for revolutionizing society. Their power is determined by the number of [ICON_CAPITAL] National Wonders + the number of [ICON_SWAP] Domestic Trade Routes.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Legal Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Industrial Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Religious Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICAL_ADJ">
+			<Text>Radicalist</Text>
+		</Row>
+		<!--Religious-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_DESC">
+			<Text>Religious Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_SHORT_DESC">
+			<Text>Clergy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Religious Faction stand for religious interests. Their power is determined by the number of Civilizations following your [ICON_RELIGION] State Religion.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Religious Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Legal Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_ADJ">
+			<Text>Religious</Text>
+		</Row>
+		<!--DICTATORSHIP (MILITARY)-->
+		<!--Military Junta-->
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_MILITARY_DESC">
+			<Text>Military Junta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_MILITARY_SHORT_DESC">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_MILITARY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Military Junta stand for a strong military. Their power is always total.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Foreign Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Military Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_MILITARY_ADJ">
+			<Text>Military</Text>
+		</Row>
+		<!--DICTATORSHIP (ONE-PARTY)-->
+		<!--Communists-->
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_COMMUNIST_DESC">
+			<Text>Communist Assembly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_COMMUNIST_SHORT_DESC">
+			<Text>Communists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_COMMUNIST_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Communist Assembly stand for control over the economy. Their power is based on having chosen the Order Ideology.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Industrial Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_COMMUNIST_ADJ">
+			<Text>Communist</Text>
+		</Row>
+		<!--Fascists-->
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_FASCIST_DESC">
+			<Text>Fascist Assembly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_FASCIST_SHORT_DESC">
+			<Text>Fascists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_FASCIST_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Fascist Assembly stand for control over the state. Their power is based on having chosen the Autocracy Ideology.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Military Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_FASCIST_ADJ">
+			<Text>Fascist</Text>
+		</Row>
+		<!--Libertarians-->
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_LIBERTARIAN_DESC">
+			<Text>Libertarian Assembly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_LIBERTARIAN_SHORT_DESC">
+			<Text>Libertarians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_LIBERTARIAN_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Libertarian Assembly stand for freedom in society. Their power is based on having chosen the Freedom Ideology.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Culture Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Legal Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_LIBERTARIAN_ADJ">
+			<Text>Libertarian</Text>
+		</Row>
+		<!--THEOCRACY-->
+		<!--Clergy (Autocephalous)-->
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_AUTOCEPHALOUS_DESC">
+			<Text>Clergy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_AUTOCEPHALOUS_SHORT_DESC">
+			<Text>Clergy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_AUTOCEPHALOUS_ADJ">
+			<Text>Clerical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_AUTOCEPHALOUS_CULTURE_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]These Clergy stand for church control over social developmemt. Their power is based on having more Culture in their originating city than Faith, Gold, or Science.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Culture Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Culture Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_AUTOCEPHALOUS_FAITH_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]These Clergy stand for church control over spiritual development. Their power is based on having more Faith in their originating city than Culture, Gold, or Science.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Religious Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Religious Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_AUTOCEPHALOUS_GOLD_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]These Clergy stand for church control over economic developmemt. Their power is based on having more Gold in their originating city than Culture, Faith, or Science.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Economic Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Economic Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_AUTOCEPHALOUS_SCIENCE_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]These Clergy stand for church control over scientific development. Their power is based on having more Science their originating city than Culture, Faith, or Gold.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Industrial Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Industrial Reforms[NEWLINE]--------</Text>
+		</Row>
+		<!--Clergy (Ecumenism)-->
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_ECUMENICAL_DESC">
+			<Text>Clergy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_ECUMENICAL_SHORT_DESC">
+			<Text>Clergy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_ECUMENICAL_ADJ">
+			<Text>Clerical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_ECUMENICAL_CULTURE_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]These Clergy stand for state control over social developmemt. Their power is based on having more Culture in their originating civilization than Faith, Gold, or Science.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Culture Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Culture Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_ECUMENICAL_FAITH_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]These Clergy stand for state control over spiritual development. Their power is based on having more Faith in their originating civilization than Culture, Gold, or Science.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Religious Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Religious Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_ECUMENICAL_GOLD_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]These Clergy stand for state control over economic developmemt. Their power is based on having more Gold in their originating civilization than Culture, Faith, or Science.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Economic Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Economic Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_ECUMENICAL_SCIENCE_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]These Clergy stand for state control over scientific development. Their power is based on having more Science their originating civilization than Culture, Faith, or Gold.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Industrial Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Industrial Reforms[NEWLINE]--------</Text>
+		</Row>
+		<!--Revolutionaries-->
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_REVOLUTIONARY_DESC">
+			<Text>Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_REVOLUTIONARY_SHORT_DESC">
+			<Text>Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_REVOLUTIONARY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]Revolutionaries hate you and everything for which you stand. They are most interested in seeing your head on a pike. Their power is determined by your [ICON_JFD_PIETY] Deficit Piety, when it is considered Neutral or less.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]In addition to increasing [ICON_JFD_SOVEREIGNTY] Sovereignty needed for ALL Reforms, Revolutionaries will increase your [ICON_JFD_ANARCHY] Anarchy Sentiment![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_REVOLUTIONARY_ADJ">
+			<Text>Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLERGY_JFD_REVOLUTIONARY_UNIQUE_NAME">
+			<Text>Fundamentalists</Text>
+		</Row>
+		<!--HOLY ROME-->
+		<!--Prince-Electors-->
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_ELECTOR_DESC">
+			<Text>Elector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_ELECTOR_SHORT_DESC">
+			<Text>Electors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_ELECTOR_CULTURAL_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} of {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Elector stands for cultural society.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Cultural Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Legal Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Legal Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_ELECTOR_MARITIME_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} of {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Elector stands for industrial society.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Industrial Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Military Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_ELECTOR_MERCANTILE_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} of {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Elector stand for merchant society.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Economic Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Foreign Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Religious Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Foreign Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_ELECTOR_MILITARISTIC_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} of {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Elector stands for martial society.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Foreign Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Cultural Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Foreign Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_ELECTOR_RELIGIOUS_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc} of {2_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Elector stands for religious society.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Religious Reforms[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Legal Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]All[ENDCOLOR] Industrial Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Legal Reforms[NEWLINE]--------</Text>
+		</Row>
+		<!--Anti-Imperialists-->
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_REVOLUTIONARY_DESC">
+			<Text>Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_REVOLUTIONARY_SHORT_DESC">
+			<Text>Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_REVOLUTIONARY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]Revolutionaries hate you and everything for which you stand. They are most interested in seeing your head on a pike. Their power is determined by your [ICON_HAPPINESS_4] Excess Unhappiness.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]In addition to increasing [ICON_JFD_SOVEREIGNTY] Sovereignty needed for ALL Reforms, Revolutionaries will increase your [ICON_JFD_ANARCHY] Anarchy Sentiment![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_REVOLUTIONARY_ADJ">
+			<Text>Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ELECTOR_JFD_REVOLUTIONARY_UNIQUE_NAME">
+			<Text>Anti-Imperialists</Text>
+		</Row>
+		<!--SHOGUNATE-->
+		<!--Imperial Faction (Emperor)-->
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_EMPEROR_DESC">
+			<Text>The Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_EMPEROR_SHORT_DESC">
+			<Text>Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_EMPEROR_ADJ">
+			<Text>Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_EMPEROR_1_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]{1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Emperor stands for a strong military. Their power is always total.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Foreign Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Military Reforms[NEWLINE]--------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_EMPEROR_2_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]{1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Emperor stands for a strong military. Their power is always total.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Foreign Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Military Reforms[NEWLINE]--------</Text>
+		</Row>
+		<!--Imperial Faction (Daiymo)-->
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_DAIMYO_DESC">
+			<Text>Constitutionalists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_DAIMYO_SHORT_DESC">
+			<Text>Daiymo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_DAIMYO_ADJ">
+			<Text>Daiymo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_DAIMYO_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The Daiymo[ENDCOLOR][NEWLINE]--------[NEWLINE]The Daiymo stand for church control over social developmemt. Their power is based on having more Culture in their originating city than Faith, Gold, or Science.[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Left[ENDCOLOR] Culture Reforms[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed[ENDCOLOR][NEWLINE]--------[NEWLINE][ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Right[ENDCOLOR] Culture Reforms[NEWLINE]--------</Text>
+		</Row>
+		<!--Constitutionalists-->
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_REVOLUTIONARY_DESC">
+			<Text>Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_REVOLUTIONARY_SHORT_DESC">
+			<Text>Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_REVOLUTIONARY_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]Revolutionaries hate you and everything for which you stand. They are most interested in seeing your head on a pike. Their power is determined by your [ICON_HAPPINESS_4] Excess Unhappiness.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]In addition to increasing [ICON_JFD_SOVEREIGNTY] Sovereignty needed for ALL Reforms, Revolutionaries will increase your [ICON_JFD_ANARCHY] Anarchy Sentiment![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_REVOLUTIONARY_ADJ">
+			<Text>Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IMP_FACTION_JFD_REVOLUTIONARY_UNIQUE_NAME">
+			<Text>Constitutionalists</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

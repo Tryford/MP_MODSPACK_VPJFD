@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_PROGRESS_BUILD_CHARGES_HEADING1_TITLE">
+			<Text>Progress: Build Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROGRESS_BUILD_CHARGES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Build Charges[ENDCOLOR] are a replacement for how Workers (and Peasants and Slaves) construct Improvements. Instead of taking a number of turns to complete an Improvement, Improvements are now built instantly, consuming 'Charges' in the process. Each Worker may use these Charges until they have none left, at which point they are expended.[NEWLINE]Roads, Railroads, Repairs, and Clearing Features still requires a set number of turns, however, and do not consume Charges.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORKERS_JFD_REPAIRINGROADS_HEADING3_BODY">
+			<Text>A worker may repair a pillaged road or improvement. It does not take any Charges to do this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORKERS_JFD_DURATIONTOCONSTRUCT_HEADING3_BODY">
+			<Text>Some improvements takes a certain amount of time. It will take longer to construct improvements in marathon games, and shorter in games started in later eras.[NEWLINE][NEWLINE]Terrain Modifiers: Improvements constructed in tundra and deserts will take 25% longer than the standard time to construct, while improvements constructed in snow will take 50% longer.</Text>
+		</Row>
+		<!--BUILDINGS-->
+		<!--Broadcast Tower-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_BROADCAST_TOWER_HELP">
+			<Text>City must have an Opera House.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BROADCAST_TOWER_STRATEGY">
+			<Text>A Broadcast Tower is a late-game building which increases Culture output of the city by 33%. The city must possess a Opera House before it can construct a Broadcast Tower.</Text>
+		</Row>
+		<!--Cinema-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CINEMA">
+			<Text>Cinema</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CINEMA_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CINEMA_STRATEGY">
+			<Text>A Cinema Tower is a late-game building which increases Culture output of the city by 33%. The city must possess a Opera House before it can construct a Broadcast Tower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CINEMA_TEXT">
+			<Text>A a cinema is a building that contains an auditorium for viewing films (also called movies or cinemas), for entertainment. Most, but not all, theaters are commercial operations catering to the general public, who attend by purchasing a ticket. Some movie theaters, however, are operated by non-profit organizations or societies which charge members a membership fee to view films. The film is projected with a movie projector onto a large projection screen at the front of the auditorium while the dialogue, sounds and music are played through a number of wall-mounted speakers. Since the 1970s, subwoofers have been used for low-pitched sounds. In the 2010s, most movie theaters are equipped for digital cinema projection, removing the need to create and transport a physical film print on a heavy reel.</Text>
+		</Row>
+		<!--Gallery-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GALLERY_HELP">
+			<Text>City must have a Monument.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GALLERY_STRATEGY">
+			<Text>The Museum is a mid-game building which increases the city's Culture output. The city must possess a Monument in order to construct the Gallery. Contains 1 slot for Great Works of Art.</Text>
+		</Row>
+		<!--Mint-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MINT_HELP_PROGRESS">
+			<Text>Each source of [ICON_RES_COPPER] Copper, [ICON_RES_GOLD] Gold, and [ICON_RES_SILVER] Silver produces +2 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MINT_STRATEGY_PROGRESS">
+			<Text>The Mint increases the Gold output of each Copper, Gold, and Silver the city has access to.</Text>
+		</Row>
+		<!--Museum-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MUSEUM_HELP">
+			<Text>City must have an Gallery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MUSEUM_STRATEGY">
+			<Text>The Museum is a mid-game building which increases the city's Culture output. The city must possess a Gallery in order to construct the Museum. Contains 2 slots for Great Works of Art.</Text>
+		</Row>
+		<!--Opera House-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_OPERA_HOUSE_HELP">
+			<Text>City must have an Monument.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_OPERA_HOUSE_STRATEGY">
+			<Text>The Opera House is a Renaissance-era building which increases a city's [ICON_CULTURE] Culture. The city needs to have a Monument in order to construct the Opera House. Contains 1 slot for a Great Work of Music.</Text>
+		</Row>
+		<!--Publishing House-->
+		<Replace Tag="TXT_KEY_BUILDING_JFD_PUBLISHING_HOUSE">
+			<Text>Publishing House</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_JFD_PUBLISHING_HOUSE_STRATEGY">
+			<Text>The Publishing House is a Renaissance-era building which increases a city's Culture. The city needs to have an Amphitheater in order to construct the Publishing House. Contains 1 slots for Great Works of Writing.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_JFD_PUBLISHING_HOUSE_TEXT">
+			<Text>Publishing is the dissemination of literature, music, or information—the activity of making information available to the general public. In some cases, authors may be their own publishers, meaning originators and developers of content also provide media to deliver and display the content for the same. Also, the word publisher can refer to the individual who leads a publishing company or an imprint or to a person who owns/heads a magazine.</Text>
+		</Replace>
+		<!--Research Institute-->
+		<Replace Tag="TXT_KEY_BUILDING_EE_ACADEMY">
+			<Text>Research Institute</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_EE_ACADEMY_STRATEGY">
+			<Text>The Research Institute is an Enlightenment-era building which increases the Science output of a city by 15%. It may not be built in a city with a Salon, forcing cities to specialise in either Culture or Science.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_EE_ACADEMY_PEDIA">
+			<Text>A research institute is an establishment endowed for doing research. Research institutes may specialize in basic research or may be oriented to applied research. Although the term often implies natural science research, there are also many research institutes in the social sciences as well, especially for sociological and historical research purposes.</Text>
+		</Replace>
+		<!--Salon-->
+		<Replace Tag="TXT_KEY_BUILDING_EE_SALON_HELP">
+			<Text>City must not contain a Research Institute. Boosts [ICON_CULTURE] Culture output of the city by +25%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_EE_SALON_STRATEGY">
+			<Text>The Salon is an Enlightenment-era building which increases the [ICON_CULTURE] Culture output of a city by 25%. It may not be built in a city with a Research Institute, forcing cities to specialise in either Culture or Science.</Text>
+		</Replace>
+		<!--CULTURES-->
+		<!--Great Plains-->
+		<Row Tag="TXT_KEY_JFD_DAWN_GREAT_PLAINS_BONUSES_PROGRESS">
+			<Text>Begin with the [ICON_RESEARCH] Hunting Technology.</Text>
+		</Row>
+		<!--Pacific-->
+		<Row Tag="TXT_KEY_JFD_DAWN_PACIFIC_BONUSES_PROGRESS">
+			<Text>Begin with the [ICON_RESEARCH] Fishing Technology.</Text>
+		</Row>
+		<!--GREAT WORKS-->
+		<!--Film-->
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_JFD_FILM_SLOTS_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Great Work of Film slots: {1_NumSlots}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_JFD_FILM_EMPTY_TOOLTIP">
+			<Text>Empty Great Work of Film Slot</Text>
+		</Row>
+		<!--Great Works Film-->        
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_01">	
+            <Text>2001: A Space Odyssey</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_02">	
+            <Text>Jurassic Park</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_03">	
+            <Text>Birth of a Nation</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_04">	
+            <Text>Nosferatu</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_05">	
+            <Text>Pantzerkreuzer Potemkin</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_06">	
+            <Text>The Jazz Singer</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_07">	
+            <Text>Metropolis</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_08">	
+            <Text>All Quiet On The Western Front</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_09">	
+            <Text>Dracula</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_10">	
+            <Text>Frankenstein</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_11">	
+            <Text>King Kong</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_12">	
+            <Text>Modern Times</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_13">	
+            <Text>Snow White and the Seven Dwarfs</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_14">	
+            <Text>The Wizard of Oz</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_15">	
+            <Text>Fantasia</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_16">	
+            <Text>It's A Wonderful Life</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_17">	
+            <Text>The Third Man</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_18">	
+            <Text>Sunset Boulevard</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_19">	
+            <Text>A Streetcar Named Desire</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_20">	
+            <Text>Singin' In The Rain</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_21">	
+            <Text>Les Vacances de Monsieur Hulot</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_22">	
+            <Text>Rififi</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_23">	
+            <Text>Rebel Without a Cause</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_24">	
+            <Text>The Seventh Seal</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_25">	
+            <Text>The Bridge On The River Kwai</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_26">	
+            <Text>Citizen Kane</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_27">	
+            <Text>Ben-Hur</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_28">	
+            <Text>Psycho</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_29">	
+            <Text>Yojimbo</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_30">	
+            <Text>The Godfather</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_31">	
+            <Text>Cabaret</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_32">	
+            <Text>Chinatown</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_33">	
+            <Text>Star Wars</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_34">	
+            <Text>Caligula</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_35">	
+            <Text>Stalker</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_36">	
+            <Text>Alien</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_37">	
+            <Text>Raging Bull</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_38">	
+            <Text>Fitzcarraldo</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_39">	
+            <Text>The Elephant Man</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_40">	
+            <Text>Platoon</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_41">	
+            <Text>Pulp Fiction</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_42">	
+            <Text>Toy Story</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_43">	
+            <Text>The Matrix</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_44">	
+            <Text>In The Mood For Love</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_45">	
+            <Text>Spirited Away</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_46">	
+            <Text>Pokemon: The First Movie</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_47">	
+            <Text>Cidade De Deus</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_48">	
+            <Text>Oldboy</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_49">	
+            <Text>Eternal Sunshine Of The Spotless Mind</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_50">	
+            <Text>I'm Not There</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_51">	
+            <Text>Ip Man</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_52">	
+            <Text>The Hurt Locker</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_53">	
+            <Text>The Hunchback of Notre Dame</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_54">	
+            <Text>The Grand Budapest Hotel</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_55">	
+            <Text>Casablanca</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_56">	
+            <Text>Mis</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_57">	
+            <Text>The Shawshank Redemption</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_58">	
+            <Text>The Lord of the Rings</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_59">	
+            <Text>The Good, the Bad and the Ugly</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_60">	
+            <Text>One Flew Over the Cuckoo's Nest</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_61">	
+            <Text>Inception</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_62">	
+            <Text>Titanic</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_63">	
+            <Text>The Cabinet of Dr. Caligari</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_64">	
+            <Text>Nicholas and Alexandra</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_65">	
+            <Text>The Hunt for Red October</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_66">	
+            <Text>Treasure Planet</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_67">	
+            <Text>The Brave Little Toaster</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_68">	
+            <Text>Moana</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_69">	
+            <Text>Donnie Darko</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_70">	
+            <Text>The Last Emperor</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_71">	
+            <Text>Drive</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_72">	
+            <Text>Indiana Jones</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_73">	
+            <Text>Diarios de Motocicleta</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_74">	
+            <Text>Pan's Labyrinth</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_75">	
+            <Text>Harry Potter</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_76">	
+            <Text>Brassed Off</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_77">	
+            <Text>Lock, Stock, and Two Smoking Barrels</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_78">	
+            <Text>Back to the Future</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_79">	
+            <Text>Trainspotting</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_80">	
+            <Text>Amadeus</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_81">	
+            <Text>The Exorcist</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_82">	
+            <Text>The Lion King</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_83">	
+            <Text>Lawrence of Arabia</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_84">	
+            <Text>Night of the Living Dead</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_85">	
+            <Text>The Muppet Christmas Carol</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_86">	
+            <Text>Ten Commandments</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_87">	
+            <Text>Le Voyage dans la Lune</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_88">	
+            <Text>The Last of the Mohicans</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_89">	
+            <Text>District 9</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_90">
+			 <Text>Apocalypse Now</Text>
+		 </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_91">	
+            <Text>Butch Cassidy and the Sundance Kid</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_92">	
+            <Text>The Big Lebowski</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_93">	
+            <Text>La Passion de Jeanne d’Arc</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_94">	
+            <Text>Narnia</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_95">	
+            <Text>The Deer Hunter</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_96">	
+            <Text>Boy</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_97">	
+            <Text>Malcolm X</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_98">	
+            <Text>Die Hard</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_99">	
+            <Text>To Kill a Mockingbird</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_WORK_JFD_FILM_100">	
+            <Text>The Silence of the Lambs</Text>	
+         </Row>	
+		<!--IMPROVEMENTS-->
+		<!--Whaling Boats-->
+		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_WHALE_BOATS">
+			<Text>Whaling Boats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_JFD_WHALE_BOATS_TEXT">
+			<Text>Whaling is the hunting of whales for meat, oil, blubber, and purportedly scientific research. Its earliest forms date to at least circa 3000 BC. Various coastal communities have long histories of subsistence whaling and harvesting beached whales. Industrial whaling emerged with organized fleets in the 17th century; competitive national whaling industries in the 18th and 19th centuries; and the introduction of factory ships along with the concept of whale harvesting in the first half of the 20th century. By the late 1930s, more than 50,000 whales were killed annually In 1986, the International Whaling Commission (IWC) banned commercial whaling in order to increase the whale stock.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WHALE_BOATS">
+			<Text>Construct a Whaling Boat</Text>
+		</Row>
+		<!--MISSIONS-->
+		<!--Host Film Festival-->
+		<Row Tag="TXT_KEY_MISSION_JFD_HOST_FILM_FESTIVAL">
+			<Text>Host Film Festival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_HOST_FILM_FESTIVAL_HELP">
+			<Text>This order will consume the unit and allow you to pick another [ICON_GREAT_PEOPLE] Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_HOST_FILM_FESTIVAL_DISABLED">
+			<Text>Unit must be stationed in a city and at full Health.</Text>
+		</Row>
+		<!--Upgrade Unit-->
+		<Row Tag="TXT_KEY_MISSION_MULTIPLE_UPGRADE_HELP">
+			<Text>Upgrade the unit to one of several options</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_MULTIPLE_UPGRADE_HELP_DISABLED">
+			<Text>Your unit must be in friendly territory and have the required gold/resources available in order to upgrade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_UNIT_UPGRADES">
+			<Text>UNIT UPGRADES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_TECHNOLOGY">
+			<Text>You need {1_Tech} to upgrade this Unit.</Text>
+		</Row>
+		<!--NATIONAL WONDERS-->
+		<!--Directors' Guild-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_DIRECTORS_GUILD">
+			<Text>Directors' Guild</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DIRECTORS_GUILD_HELP">
+			<Text>Provides 3 [ICON_GREAT_PEOPLE] Great Person Points (GPP) towards a Great Director. Add up to three specialists to this building to gain [ICON_CULTURE] Culture and increase the rate of Great Director acquisition (3 [ICON_CULTURE] Culture and 3 [ICON_GREAT_PEOPLE] GPP per specialist).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DIRECTORS_GUILD_STRATEGY">
+			<Text>The Directors' Guild is the only building that contains director specialist slots, which are critical for generating Great Directors. If your goal is a cultural victory, this building is a must-have. The Director's Guild provides 3 [ICON_GREAT_PEOPLE] Great Person Points, and each assigned specialist provides 3 [ICON_GREAT_PEOPLE] Great Person Points and 3 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DIRECTORS_GUILD_PEDIA">
+			<Text>Since the dawn of the motion picture in the early 20th century, directors and filmmakers have maintained close contact with each other and inspired their peers to make ever-better films. The popularity of cinema has grown, the community has expanded, and the guild has increased their standards accordingly. Since then, guild membership has become a common prerequisite for working in film or television in order to maintain high quality and enforce the strict rules within the industry.</Text>
+		</Row>
+		<!--National Treasury-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_NATIONAL_TREASURY_HELP_PROGRESS">
+			<Text>Trade routes other players make to a city with a National Treasury will generate an extra 4 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route.[NEWLINE][NEWLINE]Must have built a Bank in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_NATIONAL_TREASURY_STRATEGY_PROGRESS">
+			<Text>The National Treasury increases the amount of [ICON_GOLD] Gold a city generates. Trade routes other players make to a city with a National Treasury will generate an extra 4 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route.[NEWLINE][NEWLINE]Must have built a Bank in all cities.</Text>
+		</Row>
+		<!--POLICIES-->
+		<!--Academy of Sciences-->
+		<Replace Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Academy of Sciences[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from every Observatory, Public School, and Research Institute, and Research Lab.</Text>
+		</Replace>
+		<!--Autocracy (CBO)-->
+		<Row Tag="TXT_KEY_POLICY_JFD_AUTOCRACY_HELP_CHARGES_CBO">
+			<Text>[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production when building Military Units, and +1 [ICON_BUILD] Build Charges.</Text>
+		</Row>
+		<!--Citizenship-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CITIZENSHIP_HELP_CHARGES">
+			<Text>[COLOR_POSITIVE_TEXT]Citizenship[ENDCOLOR][NEWLINE]+1 [ICON_WORKER] Build Charge for Builder Units and a Worker appears near the [ICON_CAPITAL] Capital. Tile Improvement construction speed increased by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CITIZENSHIP_HELP_CHARGES_CBO">
+			<Text>[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR][NEWLINE]A Worker appears near the [ICON_CAPITAL] Capital.[NEWLINE] +1 [ICON_WORKER] Build Charge for Builder Units and Workers are trained 25% more quickly.</Text>
+		</Row>
+		<!--Secularism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_SECULARISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Secularism[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Specialist.</Text>
+		</Row>
+		<!--PROCESSES-->
+		<!--Admirals-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_ADMIRAL">
+			<Text>Expedition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_ADMIRAL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Expedition[ENDCOLOR] converts 20% of the [ICON_PRODUCTION] Production of this City into [ICON_GREAT_ADMIRAL] Great Admiral Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_ADMIRAL_STRATEGY">
+			<Text>Enables conversion of Production into Great Admiral Points.</Text>
+		</Row>
+		<!--Culture-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_CULTURE">
+			<Text>Ceremony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_CULTURE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Ceremony[ENDCOLOR] converts 20% of the [ICON_PRODUCTION] Production of this City into [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_CULTURE_STRATEGY">
+			<Text>Enables conversion of Production into Culture.</Text>
+		</Row>
+		<!--Defense-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_DEFENSE">
+			<Text>Fortification</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_DEFENSE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Fortification[ENDCOLOR] boosts [ICON_STRENGTH] City Defense and increases Hit Point recovery by 10% of the City's [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_DEFENSE_STRATEGY">
+			<Text>Enables conversion of Production into City Defense.</Text>
+		</Row>
+		<!--Faith-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_FAITH">
+			<Text>Prayer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_FAITH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Prayer[ENDCOLOR] converts 20% of the [ICON_PRODUCTION] Production of this City into [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_FAITH_STRATEGY">
+			<Text>Enables conversion of Production into Faith.</Text>
+		</Row>
+		<!--Food-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_FOOD">
+			<Text>Stockpiling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_FOOD_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Stockpiling[ENDCOLOR] converts 20% of the [ICON_PRODUCTION] Production of this City into [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_FOOD_STRATEGY">
+			<Text>Enables conversion of Production into Food.</Text>
+		</Row>
+		<!--Generals-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_GENERAL">
+			<Text>Drills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_GENERAL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Wealth[ENDCOLOR] converts 20% of the [ICON_PRODUCTION] Production of this City into [ICON_GREAT_GENERAL] Great General Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_GENERAL_STRATEGY">
+			<Text>Enables conversion of Production into Great General Points.</Text>
+		</Row>
+		<!--Gold-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_GOLD_STRATEGY">
+			<Text>Enables conversion of Production into Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_GOLD_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Wealth[ENDCOLOR] converts 20% of the [ICON_PRODUCTION] Production of this City into [ICON_GOLD] Gold.</Text>
+		</Row>
+		<!--Golden Age Points-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_GAP">
+			<Text>Parade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_GAP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Parade[ENDCOLOR] converts 20% of the [ICON_PRODUCTION] Production of this City into [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_GAP_STRATEGY">
+			<Text>Enables conversion of Production into Golden Age Points.</Text>
+		</Row>
+		<!--Science-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_SCIENCE_STRATEGY">
+			<Text>Enables conversion of Production into Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_SCIENCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Research[ENDCOLOR] converts 20% of the [ICON_PRODUCTION] Production of this City into [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<!--Tourism-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_TOURISM">
+			<Text>Propaganda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_TOURISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Propaganda[ENDCOLOR] convert 20% of the [ICON_PRODUCTION] Production of this City into [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_TOURISM_STRATEGY">
+			<Text>Enables conversion of Production into Tourism.</Text>
+		</Row>
+		<!--PROMOTIONS-->
+		<!--Build Charges-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BUILD_CHARGE">
+			<Text>Build Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BUILD_CHARGE_HELP">
+			<Text>Indicates 1 Build Charge</Text>
+		</Row>
+		<!--Naval Target Penalty-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_NAVAL_PENALTY">
+			<Text>Naval Target Penalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_NAVAL_PENALTY_HELP">
+			<Text>-25% [ICON_RANGE_STRENGTH] Ranged Strength vs. Naval units.</Text>
+		</Row>
+		<!--Upgrade Discount-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_UPGRADE_DISCOUNT">
+			<Text>Upgrade Discount</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_UPGRADE_DISCOUNT_HELP">
+			<Text>-50% [ICON_GOLD] cost to upgrade into a Worker.</Text>
+		</Row>
+		<!--SPECIALISTS-->
+		<!--Director-->
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_DIRECTOR">
+			<Text>Director|Directors</Text>
+			<Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_DIRECTOR_STRATEGY">
+			<Text>Create Directors to increase the empire's [ICON_CULTURE] Culture and to speed the creation of Great Directors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_DIRECTOR_SLOTS">
+			<Text>Director Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_DIRECTOR_TITLE">
+			<Text>Great Director Points:</Text>
+		</Row>
+		<!--TECHNOLOGIES-->
+		<!--ANCIENT-->
+		<!--Animal Husbandry-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ANIMAL_HUSBANDRY_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you expand to a tile with a Pasture-based Resource.[ENDCOLOR]</Text>
+		</Row>
+		<!--Alchemy-->
+		<Row Tag="TXT_KEY_TECH_JFD_ALCHEMY_TITLE">
+			<Text>Alchemy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_ALCHEMY_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"You are an alchemist; make gold of that."[NEWLINE] - William Shakespeare[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_ALCHEMY_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when .[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_ALCHEMY_DESC">
+			<Text>Alchemy is a philosophical and protoscientific tradition practiced throughout Europe, Africa and Asia. It aimed to purify, mature, and perfect certain objects. Common aims were chrysopoeia, the transmutation of "base metals" (e.g., lead) into "noble metals" (particularly gold); the creation of an elixir of immortality; the creation of panaceas able to cure any disease; and the development of an alkahest, a universal solvent. The perfection of the human body and soul was thought to permit or result from the alchemical magnum opus and, in the Hellenistic and western tradition, the achievement of gnosis. In Europe, the creation of a philosopher's stone was variously connected with all of these projects.</Text>
+		</Row>
+		<!--Archery-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ARCHERY_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you kill a Ranged Unit.[ENDCOLOR]</Text>
+		</Row>
+		<!--Bronze Working-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_BRONZE_WORKING_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve a Mine Resource.[ENDCOLOR]</Text>
+		</Row>
+		<!--Calendar-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_CALENDAR_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you expand to a tile with a Plantation-based Resource.[ENDCOLOR]</Text>
+		</Row>
+		<!--Civil Planning-->
+		<Row Tag="TXT_KEY_TECH_JFD_CIVIL_PLANNING_TITLE">
+			<Text>Civil Planning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CIVIL_PLANNING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I found Rome a city of bricks and left it a city of marble."[NEWLINE] - Augustus.[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CIVIL_PLANNING_DESC">
+			<Text>Civil planning is a technical and political process concerned with the development and use of land, planning permission, protection and use of the environment, public welfare, and the design of the urban environment, including air, water, and the infrastructure passing into and out of urban areas, such as transportation, communications, and distribution networks. The idea of a planned out urban area evolved as different civilizations adopted it. Beginning in the 8th century BCE, Greek city states were primarily centered on orthogonal (or grid-like) plans.[6] The ancient Romans, inspired by the Greeks, also used orthogonal plans for their cities. City planning in the Roman world was developed for military defense and public convenience. The spread of the Roman Empire subsequently spread the ideas of urban planning. As the Roman Empire declined, these ideas slowly disappeared.</Text>
+		</Row>
+		<!--Civilization-->
+		<Row Tag="TXT_KEY_TECH_JFD_CIVILIZATION_TITLE">
+			<Text>Civilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CIVILIZATION_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I Authorize and give up my Right of Governing my selfe, to this Man, or to his Assembly of men, on this condition, that thou that give up thy Right to him, and Authorise all his Actionsin like manner."[NEWLINE] - Thomas Hobbes.[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CIVILIZATION_DESC">
+			<Text>A civilization is any complex society characterized by urban development, social stratification, symbolic communication forms (typically, writing systems), and a perceived separation from and domination over the natural environment by a cultural elite. Civilizations are intimately associated with and often further defined by other socio-politico-economic characteristics, including centralization, the domestication of both humans and other organisms, specialization of labour, culturally ingrained ideologies of progress and supremacism, monumental architecture, taxation, societal dependence upon farming as an agricultural practice, and expansionism.</Text>
+		</Row>
+		<!--Colonialism-->
+		<Row Tag="TXT_KEY_TECH_JFD_COLONIALISM_TITLE">
+			<Text>Colonialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_COLONIALISM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_COLONIALISM_DESC">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_COLONIALISM_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you find a Natural Wonder.[ENDCOLOR]</Text>
+		</Row>
+		<!--Fine Arts-->
+		<Row Tag="TXT_KEY_TECH_JFD_FINE_ARTS_TITLE">
+			<Text>Fine Arts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_FINE_ARTS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Great art picks up where nature ends." - Marc Chagall[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_FINE_ARTS_DESC">
+			<Text>In European academic traditions, fine art is art developed primarily for aesthetics or beauty, distinguishing it from applied art that also has to serve some practical function, such as pottery or most metalwork. Historically, the five main fine arts were painting, sculpture, architecture, music, and poetry, with performing arts including theatre and dance. Today, the fine arts commonly include additional forms, such as film, photography, video production/editing, design, sequential art, conceptual art, and printmaking. However, in some institutes of learning or in museums, fine art and frequently the term fine arts (pl.) as well, are associated exclusively with visual art forms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_FINE_ARTS_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when .[ENDCOLOR]</Text>
+		</Row>
+		<!--Fishing-->
+		<Row Tag="TXT_KEY_TECH_JFD_FISHING_TITLE">
+			<Text>Fishing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_FISHING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime."[NEWLINE] - Lao Tzu [NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_FISHING_DESC">
+			<Text>Man has long relied on the sea to provide sustenance. The most primitive people gathered mollusks and crabs from the sand; eventually they learned to make spears to capture the rich foodstuffs out of reach of hand. The fishing technology allows sophisticated advancements in fishing: building small coastal fishing vessels, weaving and deploying large fishing nets, constructing crab traps, and so forth.</Text>
+		</Row>
+		<!--Hunting-->
+		<Row Tag="TXT_KEY_TECH_JFD_HUNTING_TITLE">
+			<Text>Hunting</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_HUNTING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"If you chase two rabbits, you will lose them both."[NEWLINE] - Native American saying [NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_HUNTING_DESC">
+			<Text>In its most general sense, hunting is the pursuit of a target. For ancient societies, before the widespread domestication of animals and the creation of "livestock", hunting was vital to survival in the hunter-gatherer way of life. Hunting provided an important source of protein to augment the foraged plants and vegetables that made up the majority of the hunter-gatherer's diet. Hunting also provided significant exercise and challenges to these advancing people that improved communication and teamwork skills. Not only did hunting provide diet potential, but it also served as a way for early man to protect itself from cold weather through the use of furs and animal hides from the fallen beasts. The amount of energy that early humans put into hunting forced them to constantly discover new and creative ways to use every part of the animal.</Text>
+		</Row>
+		<!--Liberalism-->
+		<Row Tag="TXT_KEY_TECH_JFD_LIBERALISM_TITLE">
+			<Text>Liberalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_LIBERALISM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Of all the varieties of virtues, liberalism is the most beloved."[NEWLINE] - Aristotle[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_LIBERALISM_DESC">
+			<Text>Liberalism is the philosophy of freedom and, sometimes, of equality. As a political doctrine, Liberalism finds its roots in the Age of Enlightenment, where emerged its chief concerns: the freedom of market, worship, and government. It is often seen as the contrarian counterpart of Conservatism, though this is not necessarily accurate.[NEWLINE][NEWLINE]As a political movement, Liberalism was employed by revolutionaries in England, America, and France to counter the rise of absolutism and the divine right of kings which emerged out of the Renaissance. It spread quickly throughout Europe following the French Revolution in the 18th century, and those monarchies which did not adapt to it in the form of enlightened absolutism were transformed near homogenously into constitutional monarchs or republics subservient to the people.</Text>
+		</Row>
+		<!--Industrialization-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_INDUSTRIALIZATION_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you research an Enlightenment Era technology.[ENDCOLOR]</Text>
+		</Row>
+		<!--Military-->
+		<Row Tag="TXT_KEY_TECH_JFD_MILITARY_TITLE">
+			<Text>Military Training</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_MILITARY_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I don't underrate the value of military tradition, but if men make war in slavish obedience to rules, they will fail."[NEWLINE] - Ulysses S. Grant [NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_MILITARY_DESC">
+			<Text>Military training is a process which intends to establish and improve the capabilities of military personnel in their respective roles. The primary training is recruit training. Recruit training attempts to teach the basic information and training in techniques necessary to be an effective service member. To achieve this, service members are drilled physically, technically and psychologically. The drill instructor has the task of making the service members fit for military use. After finishing basic training, many service members undergo advanced training more in line with their chosen or assigned specialties. In advanced training, military technology and equipment is often taught.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_MILITARY_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you kill a Melee Unit.[ENDCOLOR]</Text>
+		</Row>
+		<!--Milling-->
+		<Row Tag="TXT_KEY_TECH_JFD_MILLING_TITLE">
+			<Text>Milling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_MILLING_DESC">
+			<Text>A mill is a device that breaks solid materials into smaller pieces by grinding, crushing, or cutting. Such comminution is an important unit operation in many processes. There are many different types of mills and many types of materials processed in them. Historically mills were powered by hand (e.g., via a hand crank), working animal (e.g., horse mill), wind (windmill) or water (watermill). Today they are usually powered by electricity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_MILLING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Fortune sometimes turns round like a mill wheel and he who was yesterday at the top lies today at the bottom."[NEWLINE] - Miguel de Cervantes Saavedra[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_MILLING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Farms[ENDCOLOR] next to rivers and lakes produce +1 [ICON_FOOD] Food, an extremely useful bonus. Also allows you to build the [COLOR_POSITIVE_TEXT]Windmill[ENDCOLOR] in cities built on flat land, increasing [ICON_PRODUCTION] Production, and the [COLOR_POSITIVE_TEXT]Water Mill[ENDCOLOR], which gives your city a [ICON_FOOD] Food and [ICON_PRODUCTION] Production boost if it's next to a river.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_MILLING_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when a city grows over 10 Population.[ENDCOLOR]</Text>
+		</Row>
+		<!--Mysticism-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_MYSTICISM_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you find a Natural Wonder.[ENDCOLOR]</Text>
+		</Row>
+		<!--Naval Engineering-->
+		<Row Tag="TXT_KEY_TECH_JFD_NAVAL_ENGINEERING_TITLE">
+			<Text>Naval Engineering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NAVAL_ENGINEERING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"We cannot control the wind, but we can direct the sail."[NELWINE]Thomas S. Monson[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NAVAL_ENGINEERING_DESC">
+			<Text>Naval architecture, also known as naval engineering, is an engineering discipline dealing with the engineering design process, shipbuilding, maintenance, and operation of marine vessels and structures. Naval architecture involves basic and applied research, design, development, design evaluation and calculations during all stages of the life of a marine vehicle. Preliminary design of the vessel, its detailed design, construction, trials, operation and maintenance, launching and dry-docking are the main activities involved. Ship design calculations are also required for ships being modified (by means of conversion, rebuilding, modernization, or repair). Naval architecture also involves formulation of safety regulations and damage-control rules and the approval and certification of ship designs to meet statutory and non-statutory requirements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_NAVAL_ENGINEERING_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you find a Natural Wonder.[ENDCOLOR]</Text>
+		</Row>
+		<!--Patronage-->
+		<Row Tag="TXT_KEY_TECH_JFD_PATRONAGE_TITLE">
+			<Text>Patronage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_PATRONAGE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"" - [NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_PATRONAGE_DESC">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_PATRONAGE_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you research a Medieval Era technology.[ENDCOLOR]</Text>
+		</Row>
+		<!--Political Science-->
+		<Row Tag="TXT_KEY_TECH_JFD_POLITICAL_SCIENCE_TITLE">
+			<Text>Political Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_POLITICAL_SCIENCE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"" - [NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_POLITICAL_SCIENCE_DESC">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_POLITICAL_SCIENCE_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num}.[ENDCOLOR]</Text>
+		</Row>
+		<!--Pottery-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_POTTERY_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you build a Farm.[ENDCOLOR]</Text>
+		</Row>
+		<!--Public Games-->
+		<Row Tag="TXT_KEY_TECH_JFD_GAMES_TITLE">
+			<Text>Public Games</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_GAMES_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"If bread is the first necessity of life, recreation is a close second."[NEWLINE] -  Edward Bellamy.[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_GAMES_DESC">
+			<Text>Each early civilization had its own forms of recreation. Recreation – in the form of games and sports – were often the vestiges of warfare, hunting, religious practices or other useless activities. Plato among others held that recreation was crucial for both the individual as well as the society, in that one could learn, explore and experience things in a “safe” environment. But in the Middle Ages, for many, recreation became a luxury; everyone worked hard … and the Church condemned most forms of leisure (not that folk didn’t engage in all these despite this). The Renaissance wasn’t much better, although the wealthy did find time to play games and read, and “artistic hobbies” were taken up by various feckless folk.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_GAMES_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Circus.[ENDCOLOR]</Text>
+		</Row>
+		<!--Rationalism-->
+		<Row Tag="TXT_KEY_TECH_JFD_RATIONALISM_TITLE">
+			<Text>Rationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_RATIONALISM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_RATIONALISM_DESC">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_RATIONALISM_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you find a Natural Wonder.[ENDCOLOR]</Text>
+		</Row>
+		<!--Trade-->
+		<Row Tag="TXT_KEY_TECH_JFD_TRADE_TITLE">
+			<Text>Trade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_TRADE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Every man lives by exchanging."[NEWLINE] - Adam Smith.[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_TRADE_DESC">
+			<Text>One of the oldest and most widespread social institutions is the exchange of goods, or Trade. At the most basic level of Trade, two people exchange items with each other. Ideally, the items given are in surplus and the items received are desired. The result is that both are better off, having exchanged extras for something wanted. People, as well as nations, normally have a comparative advantage over others in the production of some good or service. Through Trade, this advantage benefits both parties. Trade has also proven very important in the exchange of ideas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_TRADE_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you meet a Civilization.[ENDCOLOR]</Text>
+		</Row>
+		<!--Shipbuilding-->
+		<Row Tag="TXT_KEY_TECH_JFD_SHIPBUILDING_TITLE">
+			<Text>Shipbuilding</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_SHIPBUILDING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"If the art of ship-building were in the wood, ships would exist by nature"[NEWLINE] - Aristotle.[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_SHIPBUILDING_DESC">
+			<Text>Shipbuilding is the construction of ships and other floating vessels. It normally takes place in a specialized facility known as a shipyard. Shipbuilders, also called shipwrights, follow a specialized occupation that traces its roots to before recorded history. Shipbuilding and ship repairs, both commercial and military, are referred to as "naval engineering". The construction of boats is a similar activity called boat building.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_SHIPBUILDING_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Naval Unit.[ENDCOLOR]</Text>
+		</Row>
+		<!--Sovereignty-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_SOVEREIGNTY_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you research a Renaissance Era technology.[ENDCOLOR]</Text>
+		</Row>
+		<!--Stirrups-->
+		<Row Tag="TXT_KEY_TECH_JFD_STIRRUPS_TITLE">
+			<Text>Stirrups</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_STIRRUPS_DESC">
+			<Text>A stirrup is a light frame or ring that holds the foot of a rider, attached to the saddle by a strap, often called a stirrup leather. Stirrups are usually paired and are used to aid in mounting and as a support while using a riding animal (usually a horse or other equine, such as a mule).[1] They greatly increase the rider's ability to stay in the saddle and control the mount, increasing the animal's usefulness to humans in areas such as communication, transportation and warfare.</Text>
+		</Row>
+		<!--Wheel-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_WHEEL_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve Cattle or Sheep.[ENDCOLOR]</Text>
+		</Row>
+		<!--Writing-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_WRITING_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you found a Pantheon.[ENDCOLOR]</Text>
+		</Row>
+		<!--UNITS-->
+		<!--Atlatlist-->
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_ATLATLIST">
+			<Text>Only the Maya may build this unit. It is cheaper and available sooner than the Slinger, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ATLATLIST_STRATEGY">
+			<Text>The Atlatlist is the Mayan unique unit, replacing the Slinger. Atlatlists are both cheaper than a traditional Slinger, and available earlier without having to research Archery. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ATLATLIST_STRATEGY_PROGRESS">
+			<Text>The Atlatlist is the Mayan unique unit, replacing the Slinger. Atlatlists are both cheaper than a traditional Slinger, and available earlier without having to research Hunting. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+		<!--Archer-->
+		<Row Tag="TXT_KEY_UNIT_JFD_ARCHER_STRATEGY">
+			<Text>This is the next earliest ranged unit. It can attack enemies 1 or 2 hexes away, and is critically important when attacking enemy cities early in the game. However, it is fairly weak when attacked by other units. Assign it to garrison cities or keep it behind your lines, protected by melee units.</Text>
+		</Row>
+		<!--Bolas-->
+		<Row Tag="TXT_KEY_UNIT_JFD_BOLA">
+			<Text>Bola Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_BOLA">
+			<Text>One of the first available ranged Units, this Incan Unique Unit replaces the Slinger. The Bola Warrior is no more powerful than the Archer, and is even more fragile if subjected to a melee attack. However it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_BOLA_STRATEGY">
+			<Text>The Bola Warrior is an Ancient Era ranged infantry Unit that can strike foes from afar. This Incan Unique Unit can withdraw before most melee attacks: use it to harass your foes. However the Bola Warrior can be easily defeated if the enemy pins it against obstructions or chases it with fast units.</Text>
+		</Row>
+		<!--Camel Archer-->
+		<Row Tag="TXT_KEY_UNIT_JFD_CAMEL_ARCHER_HELP">
+			<Text>Fast Medieval ranged Unit, weak to Pikemen. Only the Arabians may build it. It is a ranged unit, unlike the Mounted Crossbowman which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_CAMEL_ARCHER_STRATEGY">
+			<Text>The Camel Archer is the Arabian unique unit, replacing the Mounted Crossbowman. The Camel Archer is a powerful ranged attack unit, allowing it to do damage to enemies 2 hexes away. It can move after combat. The Camel Archer is less powerful than the Knight in melee combat. As a mounted unit, the Camel Archer is vulnerable to Pikemen attack.</Text>
+		</Row>
+		<!--Dragoon-->
+		<Row Tag="TXT_KEY_UNIT_JFD_DRAGOON">
+			<Text>Dragoon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_DRAGOON">
+			<Text>Ranged Mounted Unit capable of fast and effective attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_DRAGOON_STRATEGY">
+			<Text>The Dragoon is a mid-game Mounted Ranged Unit, stronger than earlier units of its kind. It has a one-hex range, so it can deal significant damage to opposing units without taking damage itself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_DRAGOON_TEXT">
+			<Text>The word dragoon originally meant mounted infantry, who were trained in horse riding as well as infantry fighting skills. However, usage altered over time and during the 18th century, dragoons evolved into conventional light cavalry units and personnel. Dragoon regiments were established in most European armies during the late 17th and early 18th centuries.[NEWLINE][NEWLINE]The name is possibly derived from a type of firearm (called a dragon) carried by dragoons of the French Army. There is no distinction between the words dragon and dragoon in French; both are referred to as dragon.[NEWLINE][NEWLINE]The title has been retained in modern times by a number of armoured or ceremonial mounted regiments.</Text>
+		</Row>
+		<!--Keshik-->
+		<Row Tag="TXT_KEY_UNIT_JFD_KESHIK_HELP">
+			<Text>This Mongolian Unique Unit replaces the standard Mounted Crossbowman. It possesses a strong ranged attack, increased movement rate, and earns promotions 50% faster. Unit battles also contribute double the amount of points towards earning a Great General.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_KESHIK_STRATEGY">
+			<Text>The Keshik is a unique replacement for the Mounted Crossbowman, available to the Mongols starting in the Medieval Era. Keshiks possess a strong ranged attack and an increased movement rate (5 points total), allowing it to perform hit and run attacks remarkably effectively. If this wasn't enough, the Keshik also acquires promotions at double the rate of other units, and contributes twice the amount of points towards earning Great Generals. These mounted warriors singlehandedly afford Genghis control of the open plains.</Text>
+		</Row>
+		<!--Galley-->
+		<Row Tag="TXT_KEY_UNIT_JFD_GALLEY">
+			<Text>Galley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_GALLEY">
+			<Text>Ancient Era Naval Unit used to wrest control of the seas through ranged attacks on units and cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_GALLEY_STRATEGY">
+			<Text>The Galley is the first ranged naval unit available to civilizations in the game. It can bombard cities and attack units at sea or on land near the coast. It is also useful for limited exploration (it cannot enter Deep Ocean hexes outside of the city borders unless it is from Polynesia).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_GALLEY_TEXT">
+			<Text>A galley is a type of ship propelled by rowers that originated in the Mediterranean region and was used for warfare, trade and piracy from the first millennium BC. This early type of galley was also known as a bireme and consisted of two decks of oars. They were first created by the seafaring Phoenecians of the Mediterranean in early antiquity. Later on, these ships evolved and a third row of oars was added by the addition of an outrigger to the hull, a projecting construction that allowed for more room for the projecting oars. These new galleys were called triremes.</Text>
+		</Row>
+		<!--Great Director-->
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_DIRECTOR">
+			<Text>Great Director</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_GREAT_DIRECTOR_TEXT">
+			<Text>"Great Directors" are at the frontiers of politics, representing the nation and its ruler abroad. They ensure that the interests of the home nation are protected, inspire respect for their leaders, and develop theories of international politics in the process.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_DIRECTOR_STRATEGY">
+			<Text>A Great Director can create a Great Work of Film (generates both [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like the Cinema). A Great Director can also be exchanged for different Great Person. Great Directors are expended when used either of these ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_01">
+			<Text>Stanley Kubrick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_02">
+			<Text>Steven Spielberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_03">
+			<Text>D. W. Griffith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_04">
+			<Text>F.W. Murnau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_05">
+			<Text>Sergei Eisenstein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_06">
+			<Text>Alan Crosland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_07">
+			<Text>Fritz Lang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_08">
+			<Text>Lewis Milestone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_09">
+			<Text>Tod Browning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_10">
+			<Text>James Whale</Text>
+		</Row>
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_11">	
+            <Text>Merian C. Cooper</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_12">	
+            <Text>Charlie Chaplin</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_13">	
+            <Text>William Cottrell</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_14">	
+            <Text>Victor Fleming</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_15">	
+            <Text>Joe Grant</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_16">	
+            <Text>Frank Capra</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_17">	
+            <Text>Carol Reed</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_18">	
+            <Text>Billy Wilder</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_19">	
+            <Text>Elia Kazan</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_20">	
+            <Text>Gene Kelly</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_21">	
+            <Text>Jacques Tati</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_22">	
+            <Text>Jules Dassin</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_23">	
+            <Text>Nicholas Ray</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_24">	
+            <Text>Ingmar Bergman</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_25">	
+            <Text>David Lean</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_26">	
+            <Text>Orson Welles</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_27">	
+            <Text>William Wyler</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_28">	
+            <Text>Alfred Hitchcock</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_29">	
+            <Text>Akira Kurosawa</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_30">	
+            <Text>Francis Ford Copolla</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_31">	
+            <Text>Bob Fosse</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_32">	
+            <Text>Roman Polanski</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_33">	
+            <Text>George Lucas</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_34">	
+            <Text>Tinto Brass</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_35">	
+            <Text>Andrey Tarkovskiy</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_36">	
+            <Text>Ridley Scott</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_37">	
+            <Text>Martin Scorsese</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_38">	
+            <Text>Werner Herzog</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_39">	
+            <Text>David Lynch</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_40">	
+            <Text>Oliver Stone</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_41">	
+            <Text>Quentin Tarantino</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_42">	
+            <Text>John Lasseter</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_43">	
+            <Text>Lana and Lilly Wachowski</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_44">	
+            <Text>Wong Kar-Wai</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_45">	
+            <Text>Hayao Miyazaki</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_46">	
+            <Text>Kunihiko Yuyama</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_47">	
+            <Text>Fernando Meirelles</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_48">	
+            <Text>Park Chan-Wook</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_49">	
+            <Text>Michel Gondry</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_50">	
+            <Text>Todd Haynes</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_51">	
+            <Text>Wilson Yip</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_52">	
+            <Text>Kathryn Bigelow</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_53">	
+            <Text>Peter Medak</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_54">	
+            <Text>Wes Anderson</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_55">	
+            <Text>Michael Curtiz</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_56">	
+            <Text>Stanisław Bareja</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_57">	
+            <Text>Frank Darabont</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_58">	
+            <Text>Peter Jackson</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_59">	
+            <Text>Sergio Leone</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_60">	
+            <Text>Milos Forman</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_61">	
+            <Text>Christopher Nolan</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_62">	
+            <Text>James Cameron</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_63">	
+            <Text>Robert Wiene</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_64">	
+            <Text>Franklin J. Schaffner</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_65">	
+            <Text>John McTiernan</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_66">	
+            <Text>Ron Clements</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_67">	
+            <Text>Jerry Rees</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_68">	
+            <Text>John Musker</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_69">	
+            <Text>Richard Kelly</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_70">	
+            <Text>Bernardo Bertolucci</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_71">	
+            <Text>Nicolas Winding Refn</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_72">	
+            <Text>Steven Spielberg</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_73">	
+            <Text>Walter Salles</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_74">	
+            <Text>Guillermo del Toro</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_75">	
+            <Text>David Yates</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_76">	
+            <Text>Mark Herman</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_77">	
+            <Text>Guy Ritchie</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_78">	
+            <Text>Robert Zemeckis</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_79">	
+            <Text>Danny Boyle</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_80">	
+            <Text>Milos Forman</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_81">	
+            <Text>William Friedkin</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_82">	
+            <Text>Rob Minkoff</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_83">	
+            <Text>David Lean</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_84">	
+            <Text>George A. Romero</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_85">	
+            <Text>Brian Henson</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_86">	
+            <Text>Cecil B. DeMille</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_87">	
+            <Text>Georges Méliès</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_88">	
+            <Text>Michael Mann</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_89">	
+            <Text>Neill Blomkamp</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_90">	
+            <Text>Francis Ford Coppola</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_91">	
+            <Text>George Roy Hill</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_92">	
+            <Text>Joel and Ethan Cohen</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_93">	
+            <Text>Carl Theodor Dreyer</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_94">	
+            <Text>Andrew Adamson</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_95">	
+            <Text>Michael Cimino</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_96">	
+            <Text>Taika Waititi</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_97">	
+            <Text>Spike Lee</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_98">	
+            <Text>John McTiernan</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_99">	
+            <Text>Robert Mulligan</Text>	
+         </Row>	
+         <Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIRECTOR_100">	
+            <Text>Jonathan Demme</Text>	
+         </Row>	
+		<!--Mounted Crossbowman-->
+		<Row Tag="TXT_KEY_UNIT_JFD_MOUNTED_BOW">
+			<Text>Mounted Crossbowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_MOUNTED_BOW">
+			<Text>Powerful ranged Medieval Mounted Unit, weak to Pikemen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_MOUNTED_BOW_STRATEGY">
+			<Text>The Mounted Crossbowman is a fast and tactical Medieval unit. As a mounted unit it is vulnerable to Pikemen, however, as it is ranged, it can attack from afar.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_MOUNTED_BOW_TEXT">
+			<Text>Archer-bearing cavalry is a concept that dates to the earliest days of mankind, with its origins in the Neo-Assyrian empire. These first mounted archers involved two men and two horses – one man controlling both horses and the other man using the bow. Later examples developed by the Parthians and Scythians, and famously the Mongols and proto-Turks, involved only one man and one horse. These early horse archers were heavy cavalry, with thick armor and heavy bows.[NEWLINE][NEWLINE]The invention of the crossbow changed this, as the archer-cavalryman no longer needed both hands to work a bow, and thus could use one hand to control the horse and another to shoot the crossbow. The German and Scandinavian armies used these soldiers extensively throughout the medieval era. They would act as scouts and skirmishers, as well as a flank-guard for knights and could repel attacks from enemy light cavalry.[NEWLINE][NEWLINE]When fully engaged in battle, the crossbow was used much less extensively. In an initial charge towards the enemy, the cavalrymen would shoot their bolt at point-black range. However, instead of reloading, they would continue to fight using swords while on horseback. Certain mounted crossbowmen were equipped with weak crossbows in order to reload easily during the heat of battle. Inventions like the goat’s foot level and the cranequin allowed the mounted crossbowmen to reload and fire heavy crossbows as well as the weak ones.[NEWLINE][NEWLINE]Despite initial success, mounted archery was generally ineffective against massed foot archers. A lone archer was a much smaller target than a man and a horse, and standard crossbowmen could usually outshoot their mounted counterparts. The mounted crossbowman became completely obsolete by the 16th century, as firearm technology had matured to the point where cavalrymen could be armed with rifles rather than crossbows.</Text>
+		</Row>
+		<!--Peasant-->
+		<Row Tag="TXT_KEY_UNIT_JFD_PEASANT">
+			<Text>Peasant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PEASANT_HELP">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities at a slower rate than Workers and Slaves. Cannot build Railroads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PEASANT_HELP_CHARGES">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities, with less Charges than Slaves or Workers. Cannot build Railroads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PEASANT_STRATEGY">
+			<Text>The Peasant constructs roads and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory. The Peasant works at a slower rate than a Worker or Slave and cannot build Railroads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PEASANT_STRATEGY_CHARGES">
+			<Text>The Peasant constructs roads and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory. The Peasant has less Charges than a Worker or Slave and cannot build Railroads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PEASANT_PEDIA">
+			<Text>A peasant is a member of a traditional class of farmers, either laborers or owners of small farms, especially in the Middle Ages under feudalism, or more generally, in any pre-industrial society. Peasants either hold title to land in fee simple, or hold land by any of several forms of land tenure, among them socage, quit-rent, leasehold, and copyhold.</Text>
+		</Row>
+		<!--Pistolier-->
+		<Row Tag="TXT_KEY_UNIT_JFD_PISTOLIER">
+			<Text>Pistolier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_PISTOLIER">
+			<Text>Ranged Mounted Unit capable of fast and effective attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_PISTOLIER_STRATEGY">
+			<Text>The Pistolier is a fast Mounted Renaissance unit with one Range. This allows the unit to attack without incurring damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_PISTOLIER_TEXT">
+			<Text>The Pistolier is a soldier armed with a pistol. What, were you expecting something else?[NEWLINE][NEWLINE]The first hand-cannons were used in early 13th Century China and entered Europe and Arabia a century later. The brutal efficacy of the hand-cannon made the innovation very popular in armies, quickly changing the face of warfare. Armies without firearms were completely outmatched by those with them, no matter how primitive.[NEWLINE][NEWLINE]The specific origins in the pistol lies in the Hussite wars in the 1420s. The Czech píšťala was a type of handcannon used extensively through the fighting, and was a key factor in the Hussite victory at the end of the war. These hand cannons later became the handheld pistol in the 15th century, and by the 1800s a revolver had been developed and was famously used by Clint Eastwood to shoot Lee Van Cleef. These revolvers were the first truly practical hand firearms, succeeding the single-shot navy handguns of the age of flintlock weaponry.[NEWLINE][NEWLINE]Development on the firearm would continue throughout the 19th and 20th centuries, being used increasingly in combination with the rifle. Following Hiram Maxim’s gun in 1883, several gunsmiths attempted to apply the principle on a handheld scale. The first of the semi-automatic pistols were developed in the 1890s, and served as the standard sidearm during the first world war. To this day, the pistol is the standard side-arm for almost all armies and the primary weapon for most police forces in the world.</Text>
+		</Row>
+		<!--Slave-->
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_SLAVE_CHARGES">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities, with more Charges than Peasants. Can build Slave Plantations, but not Roads nor Railroads. Cannot repair Improvements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SLAVE_STRATEGY_CHARGES">
+			<Text>The Slave builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory. It has more Charges than the Peasant, however, it cannot construct roads or railroads and cannot repair improvements. The Slave can also hurry production of a unit, building or Wonder in a city. The Slave is expended when used in either of these ways.</Text>
+		</Row>
+		<!--Slinger-->
+		<Row Tag="TXT_KEY_UNIT_JFD_SLINGER">
+			<Text>Slinger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_SLINGER">
+			<Text>Weak Ancient Era ranged unit. Better on attack than defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SLINGER_STRATEGY">
+			<Text>This is the earliest ranged unit. It can attack enemies with a 1 hex ranged attack. However, it is fairly weak when attacked by other units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SLINGER_TEXT">
+			<Text>Like most early weapon systems, the sling evolved from a tool for hunting game to one for killing people. Simply a pouch between two lengths of cord, the sling was used to swing a projectile – a stone, lump of lead, or anything else convenient – in an arc until such time as it was launched. Although a thrown stone doesn’t have the lethality of an arrow or bullet, it can still do a lot of damage. If nothing else, a rain of well-aimed stones gives an enemy pause before rushing in. And, until composite bows were invented, it had a considerable range advantage over bows and spears. In addition, wasn’t hard to find ammunition. With the exception of Australia, ancient slings have been found in archaeological digs all over the world. Even a barbarian can sling a rock. And, as the First Book of Samuel points out, a slinger can bring down even a Goliath …</Text>
+		</Row>
+		<!--Windbuchse Ranger-->
+		<Row Tag="TXT_KEY_UNIT_JFD_WINDBUCHSE">
+			<Text>Windbuchse Ranger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_WINDBUCHSE">
+			<Text>A fast Gun Unit used for scouting and hit-and-run attacks. Especially deadly with flank attacks. Only the Austrians may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_WINDBUCHSE_STRATEGY">
+			<Text>Windbuchse Rangers are great scouts and flank attackers. They are slightly faster than Rifleman which they replace. They start with Promotions that give them +1 Sight and increases their bonus when making a Flank Attack by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_WINDBUCHSE_TEXT">
+			<Text>Historically, the windbuchse (“wind rifle”) was a fascinating “what if” of military history. It had a 20-round magazine, and could fire as quickly as the user could pull the trigger. The gun could drive a ball through a plank (or a man) at 100 paces, but it was a delicate weapon. Quiet, and without a tell-tale cloud of gunpowder smoke, the windbuchse did not work after rough treatment, something that was inevitable in battle. Napoleon Bonaparte hated them and decreed that any captured “assassin” with an airgun was to be executed, not treated as a soldier.</Text>
+		</Row>
+		<!--Worker-->
+		<Row Tag="TXT_KEY_UNIT_JFD_WORKER">
+			<Text>Worker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_WORKER">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities at a faster rate than Peasants or Labourers. Can build Villages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_WORKER_CHARGES">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities, with more Charges than Peasants or Labourers. Can build Villages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_WORKER_STRATEGY">
+			<Text>The Worker constructs roads, railroads and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory. This unit costs additional Maintenance over the Peasant and Slave, but works much faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_WORKER_STRATEGY_CHARGES">
+			<Text>The Worker constructs roads, railroads and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory. This unit costs additional Maintenance over the Peasant and Slave, but has more Charges.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_WORKER_TEXT">
+			<Text>To survive, a civilization needs skilled workers. They may be highly trained engineers, or civilians conscripted into labor, but someone has to dig the mines, plant the fields and pave the roads. Without these men and women, a civilization will stagnate and eventually fall prey to a more vigorous neighbor.</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Chartres Cathedral-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHARTRES">
+			<Text>Chartres Cathedral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_CHARTRES_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_CHARTRES_QUOTE">
+			<Text>[NEWLINE]"The pursuit of peace resembles the building of a great cathedral. It is the work of a generation. In concept it requires a master-architect; in execution, the labors of many."[NEWLINE] - Hubert H. Humphrey[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_CHARTRES_PEDIA">
+			<Text>The Cathedral Basilica of Our Lady of Chartres is a medieval Roman Rite Catholic church in Chartres in France. The building is one of the best examples of French Gothic architecture and is a World Heritage Site. The current cathedral is the the fifth in the town’s history as it became a bishopric in the 4th century, the current structure had begun construction after a fire ruined the previous structure in 1194. Since the 12th century the cathedral is a popular site for Christian pilgrims and visitors, all to see the building’s infamous relic - the Sancta Camisa, a tunic said to be worn by the Virgin Mary during the birth of Christ. During the Middle Ages the cathedral was also a cathedral school, Bishop Fulbert in the 11th century established Chartres as a leading school in Europe. By the new century the status of the cathedral was on the wane as the University of Paris grew into prominence and the emphasis of the cathedral moved away from education.</Text>
+		</Row>
+		<!--Fasil Ghebbi-->
+		<Replace Tag="TXT_KEY_WONDER_EE_FASIL_GHEBBI_HELP">
+			<Text>Friendly units within two tiles of this city have +33% [ICON_COMBAT_STRENGTH] Combat Strength</Text>
+		</Replace>
+		<!--Göbekli Tepe-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GOBEKLI">
+			<Text>Göbekli Tepe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_GOBEKLI_HELP">
+			<Text>Grants enough [ICON_PEACE] Faith to found a Pantheon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_GOBEKLI_QUOTE">
+			<Text>[NEWLINE]"Listen a hundred times; ponder a thousand times; speak once"[NEWLINE] - Turkish Proverb[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_GOBEKLI_PEDIA">
+			<Text>Göbekli Tepe is a religious site located in southern Turkey, near the Syrian border. It is the oldest known religious building on earth, dating to approximately 10000 BCE, during the Neolithic age of Human civilization, and predating all major civilizations and cities by several millenia. It was first observed during the 1960's, when archeologists noted that the hill could not be natural due to the shape, yet dismissed it as a Byzantine burial ground. It was not thought different until 1994, and not excavated until a year later. The complex is similar in manner to Stonehenge, with a round shape and large Monolithic stones. However, unlike Stonehenge, many of the pillars are carved with the figures of several animals, which are believed to have been sacred to the hunter-gatherers which constructed Göbekli Tepe.</Text>
+		</Row>
+		<!--Great Walls-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GREAT_WALL_HELP">
+			<Text>Enemy land Units must expend 1 extra [ICON_MOVES] movement per Tile inside your territory. Provides Walls for free in all Cities. Upon discovering Dynamite, The Great Wall becomes obsolete.</Text>
+		</Row>
+		<!--Great Ziggurat-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GREAT_ZIGGURAT">
+			<Text>Chogha Zanbil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_GREAT_ZIGGURAT_HELP">
+			<Text>Grants an [ICON_JFD_INNOVATION] Innovation towards all Ancient Era Technologies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_GREAT_ZIGGURAT_QUOTE">
+			<Text>[NEWLINE]"He looked at the walls, awed at the heights his people had achieved, and for a moment - just a moment - all that lay behind him, passed from view."[NEWLINE] - The Epic of Gilgamesh[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_GREAT_ZIGGURAT_PEDIA">
+			<Text>Chogha Zanbil, also known as Dur Untash, is a large Ziggurat located in the Iranian province of Khuzestan. It was constructed in approximately 1250 BCE by a king of Elam in an attempt to appease the Elamite deity of Inshushinak, and is one of the few known Ziggurat to have been built outside of Mesopotamia. It is also one of the most intact surviving Ziggurat, with the majority of damage being done in the year 640 BCE by the invading armies of the Assyrian king Ashurbanipal. While the main Ziggurat is dedicated to Inshushinak, the complex included an estimated eleven more temples to other gods in the Pantheon, with more temples planned prior to the death of the king which commissioned the project.</Text>
+		</Row>
+		<!--Hawa Mahal-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWA">
+			<Text>Hawa Mahal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_HAWA_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_HAWA_QUOTE">
+			<Text>[NEWLINE]"Wisdom sails with wind and time"[NEWLINE] - John Florio[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_HAWA_PEDIA">
+			<Text>The Hawa Mahal is a palace in the city of Jaipur. Built in 1799 by Maharaja Sawai Pratap Singh, the architect Lal Chand Ustad designed the structure from the crown of the Hindu god Krishna. The design of the 953 windows, known as 'jharokhas', is also compared to that of the honeycomb of the beehive. The original idea for the latticework on the windows is to allow the royal ladies to view the streets below without themselves being seen, observing strict 'purdah', face coverage. Sawai Pratap Singh's grandfather, Sawai Jai Singh founded Jaipur in 1727. Sawai Pratap Singh comissioned the Hawa Mahal as an expansion of the Royal City Palace, and Pratap Singh was a devoted adherent to Khrishna, this contributed to the design of the building as the Mukuta, Khrishna's headgear.[NEWLINE][NEWLINE]Though no actual historical evidence is available, it is believed that the women of the royal family, having to observe purdah, were given the opportunity to witness the transactions of the markets and royal processions behind the stone carved screens. Hawa Mahal was also used by the royal family as a retreat from the hot weather of Jaipur, the unusually designed windows provided a cool breeze and ventilation. The five story Hawa Mahal rises 50 feet from the base with the top three floors having the dimention of just one room, the bottom two floors have patios at the back of the structure. The shape of the front facade of the building is designed from semi-octagonal bays, producing its unique face, whereas the back side of the building retains need-based chambers with pillars and corridors reaching to the top floor. Inside the Hawa Mahal is described as "having rooms of different coloured marbles, relieved by inlaid panels; while fountains adorn the center of the courtyard".[NEWLINE][NEWLINE]Lal Chand Ustad also planned the founding of Jaipur, considered at the time as one of the best-planned cities in India. The red and pink sandstone of the Hawa Mahal reflects the other monuments and the epithet of Jaipur as the "Pink City". It is also a reflection of the fusion of Rajput and Mughal architecture; the use of the Rajput style using domed canopies and fluted pillars, and the Mughal style of stone inlay filigrees and arches.</Text>
+		</Row>
+		<!--Hollywood-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HOLLYWOOD">
+			<Text>Hollywood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_HOLLYWOOD_HELP">
+			<Text>1 free Great Director appears near the City where the Wonder was built. Contains 3 slots for Great Works of Film.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_HOLLYWOOD_QUOTE">
+			<Text>[NEWLINE]"Hollywood is a place where they'll pay you a thousand dollars for a kiss and fifty cents for your soul."[NEWLINE] - Marilyn Monroe[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_HOLLYWOOD_PEDIA">
+			<Text>Hollywood is a district of Los Angeles, USA, famous for it's film industry. The area started life as a idealistic 'suburban America', however it quickly grew from 1909, when film-makers started to arrive, and is now synonomous with the American Film Industry. [NEWLINE][NEWLINE] Today, Hollywood is glamourised for being the land of the rich and famous, where dreams are made and wishes come true. It is home to several iconic buildings, including the Hollywood Bowl and Grauman's Chinese Theatre. However, when most people think of Hollywood, they think of the large sign atop the Hollywood hills. This sign started life as a billboard for the suburban settlement, then named "Hollywoodland". In 1949, the "Land" was removed as part of a renovation contract.</Text>
+		</Row>
+		<!--Leonardo's Workshop-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_DA_VINCI">
+			<Text>Leonardo's Workshop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_DA_VINCI_HELP">
+			<Text>Upgrades all existing Siege Units for free.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_DA_VINCI_QUOTE">
+			<Text>[NEWLINE]"Art is never finished, only abandoned"[NEWLINE] - Leonard da Vinci[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_DA_VINCI_PEDIA">
+			<Text>Leonardo da Vinci was one of the most celebrated painters of the Italian Renaissance. His most famous works include the "Mona Lisa" and "The Last Supper". Although best known for his art, da Vinci was also an accomplished observer and designer. Preserved in his sketchbooks are ideas for dozens of inventions, many of them centuries ahead of their time. These include designs for such devices as drawbridges, construction equipment, parachutes, and even helicopters. His scientific and technical drawings became the basis for the development of many of these modern devices.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DA_VINCI">
+			<Text>Da Vinci's Workshop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DA_VINCI_HELP">
+			<Text>This unit has been upgraded through the great innovations of Da Vinci. Pity he wasn't good at economics!</Text>
+		</Row>
+		<!--Kandariya Mahadeva-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MAHAVEDA">
+			<Text>Kandariya Mahadeva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MAHAVEDA_HELP">
+			<Text>Grants a free Mandir in the city in which it is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MAHAVEDA_QUOTE">
+			<Text>[NEWLINE]"God is not present in idols. Your feelings are your god. The soul is your temple."[NEWLINE] - Chanakya[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MAHAVEDA_PEDIA">
+			<Text>The Kandariya Mahaadeva Temple is the largest and most decorated medieval temple found in the Khajuraho Group of Monuments in India. It is one of the best examples of preserved temples from India's medieval era. One of India's most popular tourist attractions today, Khajuraho was the religious capital of the Chandela Rajputs. The temple was built by King Vidyadhara, arguably one of the greatest of the Chandela kings, at about 1050.[NEWLINE][NEWLINE]The main spire - the shikhara - rises 31 meters and forms the shape of Mount Kailash, the residence of lord Shiva; of whom the temple worships, and is surrounded by 84 smaller spires. The temple features columned halls, an entrance porch and the inner sanctum. 646 statues decorate the sides of the temple and at the top of the shikhara is the amalaka; a circular ring motif commonly found in the architecture of temples in northern India. Also, 226 figures are found lining parts of the temple's wall, but some of these are of a sexual nature and are not publicly displayed.[NEWLINE][NEWLINE]The name of the site means 'the Cave of Mahadeva', Mahadeva being another name for Shiva. The temple represents the pinnacle of traditional medieval nouth Indian temple architecture. At first glance the temple appears to be formed from a single piece of solid stone, when this is not the case.</Text>
+		</Row>
+		<!--Kronborg-->
+		<Replace Tag="TXT_KEY_WONDER_EE_KRONBORG_HELP">
+			<Text>+25 HP in all coastal cities, +25% [ICON_PRODUCTION] Production for Naval Units in the city where the wonder is built in.</Text>
+		</Replace>
+		<!--Motherland Calls-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MOTHERLAND_CALLS">
+			<Text>Motherland Calls</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_WONDER_JFD_MOTHERLAND_CALLS_HELP">
+			<Text>Requires Order. Contains a prebuilt Great Work of Film in the Great Work Slot. 1 Free Social Policy.</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_WONDER_JFD_MOTHERLAND_CALLS_QUOTE">
+			<Text>[NEWLINE]"One of the hallmarks of a great nation, is its ability to raise to its feet after a fall"[NEWLINE] - Unknown[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MOTHERLAND_CALLS_PEDIA">
+			<Text>The Motherland Calls is an enormous statue located near the city of Volograd, in Russia. It was constructed in 1967 to commemorate the fallen Soviet soldiers that took place in the Battle of Stalingrad during World War 2. At the time of construction, it was declared as the tallest statue in the world, at 91 metres to the tip of the sword. Despite the larger statues, the nature of the posture of the statue required significantly more engineering techniques, with the large 33-metre sword rising well above the main body. Pressed concrete and wire ropes were used to achieve the shape. [NEWLINE][NEWLINE] On the path leading up the hill towards the statue are two hundred stairs, each one representing one day of the Battle of Stalingrad.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JFD_MOTHERLAND_CALLS">
+			<Text>Fall of Berlin</Text>
+		</Row>
+		<!--Pyramids-->
+		<Row Tag="TXT_KEY_WONDER_JFD_PYRAMID_HELP_CHARGES">
+			<Text>+1 [ICON_WORKER] Build Charge for Builder Units and two Workers appear near the City. Tile Improvement construction speed increased by 20%.</Text>
+		</Row>
+		<!--Smithsonian-->
+		<Replace Tag="TXT_KEY_WONDER_EE_SMITHSONIAN_HELP">
+			<Text>Contains 2 slots for a Great Work of Art. Receive a free Research Institute in the city where the wonder is built.</Text>
+		</Replace>
+		<!--St. Basil's Cathedral-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_ST_BASILS">
+			<Text>St. Basil's Cathedral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_ST_BASILS_HELP">
+			<Text>Enables you to select a Reformation Belief. Must be built in a Holy City.[NEWLINE][NEWLINE]If you already have a Reformation Belief, a free Great Prophet appears instead.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_ST_BASILS_QUOTE">
+			<Text>[NEWLINE]""[NEWLINE] - [NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_ST_BASILS_PEDIA">
+			<Text>The Cathedral of Vasily the Blessed, commonly known as the Cathedral of Saint Basil, is a former church in Red Square in Moscow, Russia. The building, now a museum, is officially known as the Cathedral of the Intercession of the Most Holy Theotokos on the Moat or Pokrovsky Cathedral. It was built from 1555–61 on orders from Ivan the Terrible and commemorates the capture of Kazan and Astrakhan. A world famous landmark, it has been the hub of growth since the 14th century and was the tallest building in the city until the completion of the Ivan the Great Bell Tower in 1600.</Text>
+		</Row>
+		<!--St. Mark's Basilica-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_ST_MARKS">
+			<Text>St Mark's Basilica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_ST_MARKS_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_ST_MARKS_QUOTE">
+			<Text>[NEWLINE]"It is the most splendid city I have ever seen, and the one which governs itself the most wisely." [NEWLINE]- Philippe de Commines[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_ST_MARKS_PEDIA">
+			<Text>The Patriarchal Cathedral Basilica of Saint Mark (officially known in Italian as the Basilica Cattedrale Patriarcale di San Marco and commonly known as Saint Mark's Basilica) is the cathedral church of the Roman Catholic Archdiocese of Venice, northern Italy. It is the most famous of the city's churches and one of the best known examples of Italo-Byzantine architecture. It lies at the eastern end of the Piazza San Marco, adjacent and connected to the Doge's Palace. Originally it was the chapel of the Doge, and has only been the city's cathedral since 1807, when it became the seat of the Patriarch of Venice, archbishop of the Roman Catholic Archdiocese of Venice, formerly at San Pietro di Castello.[NEWLINE][NEWLINE]For its opulent design, gold ground mosaics, and its status as a symbol of Venetian wealth and power, from the 11th century on the building has been known by the nickname Chiesa d'Oro</Text>
+		</Row>
+		<!--Wat Phra Kaew-->
+		<Replace Tag="TXT_KEY_WONDER_EE_WAT_PHRA_KAEW_HELP">
+			<Text>+1 [ICON_RESEARCH] Science from Religious buildings. City must be built on a river. </Text>
+		</Replace>
+		<!--Venetian Arsenal-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_VENETIAN_ARSENAL">
+			<Text>The Venetian Arsenal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_VENETIAN_ARSENAL_HELP">
+			<Text>+50% [ICON_PRODUCTION] Production toward Naval Units and Cargo Ships. Receive two free Galleasses.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_VENETIAN_ARSENAL_QUOTE">
+			<Text>[NEWLINE]"This one makes oars and that one cordage twists. Another mends the mainsail and the mizzen..."[NEWLINE] - Dante[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_VENETIAN_ARSENAL_TEXT">
+			<Text>The Venetian Arsenal is a complex of former shipyards and armories clustered together in the city of Venice in northern Italy. Owned by the state, the Arsenal was responsible for the bulk of the Venetian republic's naval power during the middle part of the second millennium AD. It was "one of the earliest large-scale industrial enterprises in history".</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

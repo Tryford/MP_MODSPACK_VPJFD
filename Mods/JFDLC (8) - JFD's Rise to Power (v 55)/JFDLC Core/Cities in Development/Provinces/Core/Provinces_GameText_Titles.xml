@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/2/2016 10:16:03 PM -->
+<GameData>
+	<Language_en_US>
+		<!--TITLES-->
+		<!--Government/Policy Specific-->
+		<!--Monarchy-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_MONARCHY">
+			<Text>Barony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_MONARCHY">
+			<Text>Baron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_MONARCHY_FEMININE">
+			<Text>Baroness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_MONARCHY">
+			<Text>County</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_MONARCHY">
+			<Text>Count</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_MONARCHY_FEMININE">
+			<Text>Countess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_MONARCHY">
+			<Text>Duchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_MONARCHY">
+			<Text>Duke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_MONARCHY_FEMININE">
+			<Text>Duchess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_MONARCHY">
+			<Text>Colony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_MONARCHY">
+			<Text>Viceroy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_MONARCHY_FEMININE">
+			<Text>Vicereine</Text>
+		</Row>
+		<!--Republic-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_REPUBLIC">
+			<Text>Canton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_REPUBLIC">
+			<Text>Mayor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_REPUBLIC_FEMININE">
+			<Text>Mayoress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_REPUBLIC">
+			<Text>District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_REPUBLIC">
+			<Text>Lord Mayor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_REPUBLIC_FEMININE">
+			<Text>Lord Mayoress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_REPUBLIC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_REPUBLIC">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_REPUBLIC_FEMININE">
+			<Text>Governoress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_REPUBLIC">
+			<Text>Colony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_REPUBLIC">
+			<Text>Vicegerent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_REPUBLIC_FEMININE">
+			<Text>Vicegerent</Text>
+		</Row>
+		<!--Civ Specific-->
+		<!--Assyria-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_ASSYRIA">
+			<Text>Low Governorate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ASSYRIA">
+			<Text>Pahutu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ASSYRIA_FEMININE">
+			<Text>Pahutu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_ASSYRIA">
+			<Text>Governorate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ASSYRIA">
+			<Text>Sakin Mati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ASSYRIA_FEMININE">
+			<Text>Sakin Mati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_ASSYRIA">
+			<Text>High Governorate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ASSYRIA">
+			<Text>Sakin Temi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ASSYRIA_FEMININE">
+			<Text>Sakin Temiu</Text>
+		</Row>
+		<!--Aztec-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_AZTEC">
+			<Text>Calpulli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_AZTEC">
+			<Text>Tlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_AZTEC_FEMININE">
+			<Text>Tlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_AZTEC">
+			<Text>Altepetl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_AZTEC">
+			<Text>Tlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_AZTEC_FEMININE">
+			<Text>Tlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_AZTEC">
+			<Text>Great Altepetl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_AZTEC">
+			<Text>Huey Tlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_AZTEC_FEMININE">
+			<Text>Huey Tlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_AZTEC">
+			<Text>Cuauhtlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_AZTEC">
+			<Text>Cuauhtlequetzqui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_AZTEC_FEMININE">
+			<Text>Cuauhtlequetzqui</Text>
+		</Row>
+		<!--Byzantium-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_BYZANTIUM">
+			<Text>Archontate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_BYZANTIUM">
+			<Text>Archon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_BYZANTIUM_FEMININE">
+			<Text>Archon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_BYZANTIUM">
+			<Text>Prefecture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_BYZANTIUM">
+			<Text>Prefect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_BYZANTIUM_FEMININE">
+			<Text>Prefect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_BYZANTIUM">
+			<Text>Katepanikion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_BYZANTIUM">
+			<Text>Katepano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_BYZANTIUM_FEMININE">
+			<Text>Katepano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_BYZANTIUM">
+			<Text>Exarchate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_BYZANTIUM">
+			<Text>Exarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_BYZANTIUM_FEMININE">
+			<Text>Exarch</Text>
+		</Row>
+		<!--Celts-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_CELTS">
+			<Text>Band</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_CELTS">
+			<Text>Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_CELTS_FEMININE">
+			<Text>Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_CELTS">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_CELTS">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_CELTS_FEMININE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_CELTS">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_CELTS">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_CELTS_FEMININE">
+			<Text>Queen</Text>
+		</Row>
+		<!--China-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_CHINA">
+			<Text>Xiàn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_CHINA">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_CHINA_FEMININE">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_CHINA">
+			<Text>Jùn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_CHINA">
+			<Text>Jùnshǒu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_CHINA_FEMININE">
+			<Text>Jùnshǒu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_CHINA">
+			<Text>Dào</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_CHINA">
+			<Text>Tàishǒu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_CHINA_FEMININE">
+			<Text>Tàishǒu</Text>
+		</Row>
+		<!--Egypt-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_EGYPT">
+			<Text>Low Nome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_EGYPT">
+			<Text>Low Nomarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_EGYPT_FEMININE">
+			<Text>Low Nomarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_EGYPT">
+			<Text>Nome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_EGYPT">
+			<Text>Nomarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_EGYPT_FEMININE">
+			<Text>Nomarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_EGYPT">
+			<Text>High Nome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_EGYPT">
+			<Text>High Nomarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_EGYPT_FEMININE">
+			<Text>High Nomarch</Text>
+		</Row>
+		<!--England-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_ENGLAND">
+			<Text>Earldom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ENGLAND">
+			<Text>Earl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ENGLAND_FEMININE">
+			<Text>Countess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_RULER_ENGLAND">
+			<Text>Marcher Lord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_RULER_ENGLAND_FEMININE">
+			<Text>Marcher Lord</Text>
+		</Row>
+		<!--Ethiopia-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_ETHIOPIA">
+			<Text>Fit'awrariate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ETHIOPIA">
+			<Text>Fit'awrari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ETHIOPIA_FEMININE">
+			<Text>Fit'awrari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_ETHIOPIA">
+			<Text>Dejazmachate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ETHIOPIA">
+			<Text>Dejazmach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ETHIOPIA_FEMININE">
+			<Text>Dejazmach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_ETHIOPIA">
+			<Text>Kilil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ETHIOPIA">
+			<Text>Ras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ETHIOPIA_FEMININE">
+			<Text>Ras</Text>
+		</Row>
+		<!--Germany-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_GERMANY">
+			<Text>Barony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_GERMANY">
+			<Text>Freiherr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_GERMANY_FEMININE">
+			<Text>Freifrau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_GERMANY">
+			<Text>County</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_GERMANY">
+			<Text>Graf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_GERMANY_FEMININE">
+			<Text>Gräfin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_GERMANY">
+			<Text>Duchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_GERMANY">
+			<Text>Herzog</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_GERMANY_FEMININE">
+			<Text>Herzog</Text>
+		</Row>
+		<!--Greece-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_GREECE">
+			<Text>Archontate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_GREECE">
+			<Text>Archon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_GREECE_FEMININE">
+			<Text>Archon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_GREECE">
+			<Text>Merides</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_GREECE">
+			<Text>Meridarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_GREECE_FEMININE">
+			<Text>Meridarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_GREECE">
+			<Text>Doukaton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_GREECE">
+			<Text>Dux</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_GREECE_FEMININE">
+			<Text>Dux</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_GREECE">
+			<Text>Exarchate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_GREECE">
+			<Text>Exarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_GREECE_FEMININE">
+			<Text>Exarch</Text>
+		</Row>
+		<!--Huns-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_HUNS">
+			<Text>Low Band</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_HUNS">
+			<Text>Low Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_HUNS_FEMININE">
+			<Text>Low Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_HUNS">
+			<Text>Band</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_HUNS">
+			<Text>Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_HUNS_FEMININE">
+			<Text>Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_HUNS">
+			<Text>High Band</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_HUNS">
+			<Text>High Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_HUNS_FEMININE">
+			<Text>High Chief</Text>
+		</Row>
+		<!--Inca-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_INCA">
+			<Text>Ayllu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_INCA">
+			<Text>Michoq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_INCA_FEMININE">
+			<Text>Michoq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_INCA">
+			<Text>Wamani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_INCA">
+			<Text>Tocricoq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_INCA_FEMININE">
+			<Text>Tocricoq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_INCA">
+			<Text>Suyu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_INCA">
+			<Text>Apu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_INCA_FEMININE">
+			<Text>Apu</Text>
+		</Row>
+		<!--India-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_INDIA">
+			<Text>Tehsil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_INDIA">
+			<Text>Tehsildar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_INDIA_FEMININE">
+			<Text>Tehsildar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_INDIA">
+			<Text>Division</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_INDIA">
+			<Text>Chief Commissioner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_INDIA_FEMININE">
+			<Text>Chief Commissioner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_INDIA">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_INDIA">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_INDIA_FEMININE">
+			<Text>Governoress</Text>
+		</Row>
+		<!--Indonesia-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_INDONESIA">
+			<Text>Kuwu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_INDONESIA">
+			<Text>Lurah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_INDONESIA_FEMININE">
+			<Text>Lurah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_INDONESIA">
+			<Text>Watek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_INDONESIA">
+			<Text>Wiyasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_INDONESIA_FEMININE">
+			<Text>Wiyasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_INDONESIA">
+			<Text>Nagara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_INDONESIA">
+			<Text>Bhre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_INDONESIA_FEMININE">
+			<Text>Bhre</Text>
+		</Row>
+		<!--Japan-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_JAPAN">
+			<Text>Lesser Domain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_JAPAN">
+			<Text>Daimyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_JAPAN_FEMININE">
+			<Text>Daimyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_JAPAN">
+			<Text>Domain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_JAPAN">
+			<Text>Daimyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_JAPAN_FEMININE">
+			<Text>Daimyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_JAPAN">
+			<Text>Greater Domain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_JAPAN">
+			<Text>Daimyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_JAPAN_FEMININE">
+			<Text>Daimyo</Text>
+		</Row>
+		<!--Korea-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_KOREA">
+			<Text>Mok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_KOREA">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_KOREA_FEMININE">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_KOREA">
+			<Text>Do</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_KOREA">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_KOREA_FEMININE">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_KOREA">
+			<Text>Ginae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_KOREA">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_KOREA_FEMININE">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_KOREA">
+			<Text>Gye</Text>
+		</Row>
+		<!--Maya-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_MAYA">
+			<Text>Tribe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_MAYA">
+			<Text>Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_MAYA_FEMININE">
+			<Text>Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_MAYA">
+			<Text>Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_MAYA">
+			<Text>High Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_MAYA_FEMININE">
+			<Text>High Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_MAYA">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_MAYA">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_MAYA_FEMININE">
+			<Text>Governoress</Text>
+		</Row>
+		<!--Ottoman-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_OTTOMAN">
+			<Text>Bey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_OTTOMAN">
+			<Text>Beylik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_OTTOMAN_FEMININE">
+			<Text>Beylik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_OTTOMAN">
+			<Text>Beylerbeylik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_OTTOMAN">
+			<Text>Beylerbey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_OTTOMAN_FEMININE">
+			<Text>Beylerbey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_OTTOMAN">
+			<Text>Pashaliks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_OTTOMAN">
+			<Text>Pasha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_OTTOMAN_FEMININE">
+			<Text>Pasha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_OTTOMAN">
+			<Text>Khedivate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_OTTOMAN">
+			<Text>Khedive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_OTTOMAN_FEMININE">
+			<Text>Khedive</Text>
+		</Row>
+		<!--Persia-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_PERSIA">
+			<Text>Kara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_PERSIA">
+			<Text>Pitar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_PERSIA_FEMININE">
+			<Text>Atar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_PERSIA">
+			<Text>Kara Agriya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_PERSIA">
+			<Text>Amata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_PERSIA_FEMININE">
+			<Text>Amata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_PERSIA">
+			<Text>Gah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_PERSIA">
+			<Text>Shah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_PERSIA_FEMININE">
+			<Text>Shah Banu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_PERSIA">
+			<Text>Durdas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_PERSIA_FEMININE">
+			<Text>Durdas</Text>
+		</Row>
+		<!--Poland-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_POLAND">
+			<Text>Gmina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_POLAND">
+			<Text>Wójt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_POLAND_FEMININE">
+			<Text>Wójt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_POLAND">
+			<Text>Powiat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_POLAND">
+			<Text>Starosta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_POLAND_FEMININE">
+			<Text>Starosta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_POLAND">
+			<Text>Voivodeship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_POLAND">
+			<Text>Voivode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_POLAND_FEMININE">
+			<Text>Voivode</Text>
+		</Row>
+		<!--Polynesia-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_POLYNESIA">
+			<Text>ʻili</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_POLYNESIA">
+			<Text>Kaukau ali'i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_POLYNESIA_FEMININE">
+			<Text>Kaukau ali'i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_POLYNESIA">
+			<Text>Ahupuaʻa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_POLYNESIA">
+			<Text>Ali`i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_POLYNESIA_FEMININE">
+			<Text>Ali'i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_POLYNESIA">
+			<Text>Moku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_POLYNESIA">
+			<Text>Ali'i nui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_POLYNESIA_FEMININE">
+			<Text>Ali'i nui</Text>
+		</Row>
+		<!--Rome-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_ROME">
+			<Text>Province</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ROME">
+			<Text>Praetor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ROME_FEMININE">
+			<Text>Praetor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_ROME">
+			<Text>Diocese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ROME">
+			<Text>Vicarius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ROME_FEMININE">
+			<Text>Vicarius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_ROME">
+			<Text>Prefecture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ROME">
+			<Text>Prefect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ROME_FEMININE">
+			<Text>Prefect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_ROME">
+			<Text>Lime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_ROME">
+			<Text>Dux Limitis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_ROME_FEMININE">
+			<Text>Dux Limitis</Text>
+		</Row>
+		<!--Russia-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RUSSIA">
+			<Text>Uyezd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_RUSSIA">
+			<Text>Namestnik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_RUSSIA_FEMININE">
+			<Text>Namestnik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RUSSIA">
+			<Text>Oblast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_RUSSIA">
+			<Text>Gubernator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_RUSSIA_FEMININE">
+			<Text>Gubernator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RUSSIA">
+			<Text>Guberniya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_RUSSIA">
+			<Text>Gubernator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_RUSSIA_FEMININE">
+			<Text>Gubernator</Text>
+		</Row>
+		<!--Siam-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_SIAM">
+			<Text>Tambon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_SIAM">
+			<Text>Kamnan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_SIAM_FEMININE">
+			<Text>Kamnan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_SIAM">
+			<Text>Amphoe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_SIAM">
+			<Text>Nai Amphoe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_SIAM_FEMININE">
+			<Text>Nai Amphoe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_SIAM">
+			<Text>Changwat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_SIAM">
+			<Text>Phu Wa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_SIAM_FEMININE">
+			<Text>Phu Wa</Text>
+		</Row>
+		<!--Culture Specific-->
+		<!--Generic Ancient-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_GENERIC_ANCIENT">
+			<Text>Low Governorate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_GENERIC_ANCIENT">
+			<Text>Low Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_GENERIC_ANCIENT_FEMININE">
+			<Text>Low Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_GENERIC_ANCIENT">
+			<Text>Governorate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_GENERIC_ANCIENT">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_GENERIC_ANCIENT_FEMININE">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_GENERIC_ANCIENT">
+			<Text>High Governorate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_GENERIC_ANCIENT">
+			<Text>High Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_GENERIC_ANCIENT_FEMININE">
+			<Text>High Governor</Text>
+		</Row>
+		<!--Generic Tribal-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_GENERIC_TRIBAL">
+			<Text>Tribe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_GENERIC_TRIBAL">
+			<Text>Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_GENERIC_TRIBAL_FEMININE">
+			<Text>Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_GENERIC_TRIBAL">
+			<Text>Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_GENERIC_TRIBAL">
+			<Text>Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_GENERIC_TRIBAL_FEMININE">
+			<Text>Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_GENERIC_TRIBAL">
+			<Text>Great Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_GENERIC_TRIBAL">
+			<Text>Great Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_GENERIC_TRIBAL_FEMININE">
+			<Text>Great Chieftess</Text>
+		</Row>
+		<!--Bharata-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_BHARATA">
+			<Text>Talukdari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_BHARATA">
+			<Text>Taluqdar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_BHARATA_FEMININE">
+			<Text>Taluqdar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_BHARATA">
+			<Text>Sirdari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_BHARATA">
+			<Text>Sirdar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_BHARATA_FEMININE">
+			<Text>Sirdar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_BHARATA">
+			<Text>Deshmukh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_BHARATA">
+			<Text>Desamukhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_BHARATA_FEMININE">
+			<Text>Desamukhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_BHARATA">
+			<Text>Sirdari-Bahadur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_BHARATA">
+			<Text>Sirdar-Bahadur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_BHARATA_FEMININE">
+			<Text>Sirdar-Bahadur</Text>
+		</Row>
+		<!--Central-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_CENTRAL">
+			<Text>Margravate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_RULER_CENTRAL">
+			<Text>Margrave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_RULER_CENTRAL_FEMININE">
+			<Text>Magravine</Text>
+		</Row>
+		<!--Eastern-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_EASTERN">
+			<Text>Krajina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_RULER_EASTERN">
+			<Text>Knyaz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_MARCH_DESC_RULER_EASTERN_FEMININE">
+			<Text>Knyaz</Text>
+		</Row>
+		<!--East Indies-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_EAST_INDIES">
+			<Text>Kota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_EAST_INDIES">
+			<Text>Wali kota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_EAST_INDIES_FEMININE">
+			<Text>Wali kota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_EAST_INDIES">
+			<Text>Regency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_EAST_INDIES">
+			<Text>Regent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_EAST_INDIES_FEMININE">
+			<Text>Regent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_EAST_INDIES">
+			<Text>Provinsi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_EAST_INDIES">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_EAST_INDIES_FEMININE">
+			<Text>Governoress</Text>
+		</Row>
+		<!--Himalayan-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_HIMALAYAN">
+			<Text>Gewog</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_HIMALAYAN">
+			<Text>Gap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_HIMALAYAN_FEMININE">
+			<Text>Gap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_HIMALAYAN">
+			<Text>Dungkhag</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_HIMALAYAN">
+			<Text>Dungkhag Tshogdu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_HIMALAYAN_FEMININE">
+			<Text>Dungkhag Tshogdu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_HIMALAYAN">
+			<Text>Dzongkhak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_HIMALAYAN">
+			<Text>Dzongkhak Tshogdu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_HIMALAYAN_FEMININE">
+			<Text>Dzongkhak Tshogdu</Text>
+		</Row>
+		<!--Islamic-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_ISLAMIC">
+			<Text>Amanah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ISLAMIC">
+			<Text>Al-qadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ISLAMIC_FEMININE">
+			<Text>Al-qadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_ISLAMIC">
+			<Text>Kaza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ISLAMIC">
+			<Text>Kadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ISLAMIC_FEMININE">
+			<Text>Kadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_ISLAMIC">
+			<Text>Walayah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ISLAMIC">
+			<Text>Wali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ISLAMIC_FEMININE">
+			<Text>Walia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_ISLAMIC">
+			<Text>Muhafazah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_ISLAMIC">
+			<Text>Muhafiz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_ISLAMIC_FEMININE">
+			<Text>Muhafiz</Text>
+		</Row>
+		<!--Mandala-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_MANDALA">
+			<Text>Kota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_MANDALA">
+			<Text>Datu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_MANDALA_FEMININE">
+			<Text>Datu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_MANDALA">
+			<Text>Kedatuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_MANDALA">
+			<Text>Chao Muang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_MANDALA_FEMININE">
+			<Text>Chao Muang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_MANDALA">
+			<Text>Mandala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_MANDALA">
+			<Text>Chao Khoueng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_MANDALA_FEMININE">
+			<Text>Chao Khoueng</Text>
+		</Row>
+		<!--Northern-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_NORTHERN">
+			<Text>Hundare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_NORTHERN">
+			<Text>Häradsrätt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_NORTHERN_FEMININE">
+			<Text>Häradsrätt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_NORTHERN">
+			<Text>Landskap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_NORTHERN">
+			<Text>Count</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_NORTHERN_FEMININE">
+			<Text>Countess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_NORTHERN">
+			<Text>Jarldom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_NORTHERN">
+			<Text>Jarl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_NORTHERN_FEMININE">
+			<Text>Jarl</Text>
+		</Row>
+		<!--Oriental-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_ORIENTAL">
+			<Text>Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ORIENTAL">
+			<Text>Banner Lord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_ORIENTAL_FEMININE">
+			<Text>Banner Lord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_ORIENTAL">
+			<Text>Prefecture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ORIENTAL">
+			<Text>Prefect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_ORIENTAL_FEMININE">
+			<Text>Prefect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_ORIENTAL">
+			<Text>Province</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ORIENTAL">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_ORIENTAL_FEMININE">
+			<Text>Governoress</Text>
+		</Row>
+		<!--Steppe-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_STEPPE">
+			<Text>Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_STEPPE">
+			<Text>Banner Lord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_STEPPE_FEMININE">
+			<Text>Banner Lord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_STEPPE">
+			<Text>League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_STEPPE">
+			<Text>League Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_STEPPE_FEMININE">
+			<Text>League Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_STEPPE">
+			<Text>Prefecture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_STEPPE">
+			<Text>Prefect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_STEPPE_FEMININE">
+			<Text>Prefect</Text>
+		</Row>
+		<!--Religion Specific-->
+		<!--Catholicism-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_THEOCRACY_CATHOLICISM">
+			<Text>Bishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_THEOCRACY_CATHOLICISM">
+			<Text>Bishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_THEOCRACY_CATHOLICISM_FEMININE">
+			<Text>Bishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_THEOCRACY_CATHOLICISM">
+			<Text>Archbishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_THEOCRACY_CATHOLICISM">
+			<Text>Archbishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_THEOCRACY_CATHOLICISM_FEMININE">
+			<Text>Archbishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_THEOCRACY_CATHOLICISM">
+			<Text>Patriarchate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_THEOCRACY_CATHOLICISM">
+			<Text>Patriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_THEOCRACY_CATHOLICISM_FEMININE">
+			<Text>Matriarch</Text>
+		</Row>	
+		<!--Orthodoxy-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_THEOCRACY_ORTHODOXY">
+			<Text>Metropolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_THEOCRACY_ORTHODOXY">
+			<Text>Bishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_THEOCRACY_ORTHODOXY_FEMININE">
+			<Text>Bishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_THEOCRACY_ORTHODOXY">
+			<Text>Great Metropolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_THEOCRACY_ORTHODOXY">
+			<Text>Archbishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_THEOCRACY_ORTHODOXY_FEMININE">
+			<Text>Archbishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_THEOCRACY_ORTHODOXY">
+			<Text>Patriarchate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_THEOCRACY_ORTHODOXY">
+			<Text>Patriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_THEOCRACY_ORTHODOXY_FEMININE">
+			<Text>Matriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_THEOCRACY_ORTHODOXY">
+			<Text>Exarchate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_THEOCRACY_ORTHODOXY">
+			<Text>Exarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_THEOCRACY_ORTHODOXY_FEMININE">
+			<Text>Exarch</Text>
+		</Row>
+		<!--Protestantism-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_THEOCRACY_PROTESTANTISM">
+			<Text>Bishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_THEOCRACY_PROTESTANTISM">
+			<Text>Bishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_THEOCRACY_PROTESTANTISM_FEMININE">
+			<Text>Bishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_THEOCRACY_PROTESTANTISM">
+			<Text>Archbishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_THEOCRACY_PROTESTANTISM">
+			<Text>Archbishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_THEOCRACY_PROTESTANTISM_FEMININE">
+			<Text>Archbishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_THEOCRACY_PROTESTANTISM">
+			<Text>Primate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_THEOCRACY_PROTESTANTISM">
+			<Text>Primate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_THEOCRACY_PROTESTANTISM_FEMININE">
+			<Text>Primate</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

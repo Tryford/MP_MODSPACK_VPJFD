@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow">
+
+	<Instance Name="WorldCurrenciesInstance">
+		<Box Size="930,30" Color="0,0,0,0" ID="Base">
+			<Stack StackGrowth="Right">
+				<Box Size="230,30" Color="0,0,0,0">
+					<Box Size="45,45" Anchor="L,C" Color="0,0,0,0">
+						<Image ID="CivilizationIconBG" Size="45,45" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+						<Image ID="CivilizationIconShadow" Size="32,32" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+						<Image ID="CivilizationIcon" Size="32,32" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+						<Image ID="CivilizationIconHighlight" Size="45,45" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+					</Box>
+					<Label Anchor="L,C" Offset="50,0" Font="TwCenMT18" TruncateWidth="224" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="Civilization" />
+				</Box>
+				<Box Size="239,30" Color="0,0,0,0">
+					<Image Anchor="L,C" Size="48,48" Offset="0,0" Texture="assets/DLC/Expansion/UI/Art/Icons/ReligiousSymbolsWhite48_Expansion.dds" ID="CurrencyIcon"/>
+					<Label Anchor="L,C" Offset="55,0" Font="TwCenMT18" TruncateWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="CurrencyName" />
+				</Box>
+				<Box Size="100,30" Color="0,0,0,0">
+					<Label Anchor="C,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="NumGPT" />
+				</Box>
+				<Box Size="100,30" Color="0,0,0,0">
+					<Label Anchor="C,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ProsperityScore" />
+				</Box>
+			</Stack>
+		</Box>
+	</Instance>
+
+	<!-- JFD World Currencies Tab Content-->
+	<Box Offset="-32,49" Anchor="C,C" Size="900,533" Color="255.255.200.0" ID="WorldCurrenciesPanel" >
+		<Label Anchor="C,C" Offset="20,0" String="TXT_KEY_JFD_NO_WORLD_CURRENCIES" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="NoWorldCurrencies"/>
+		<ScrollPanel Vertical="1" Size="940,565" Offset="0,-55" AutoScrollBar="0" ID="WorldCurrenciesScrollPanel" Hidden="1">
+			<!-- Scroll Controls -->
+			<ScrollBar ID="ScrollBar" Style="VertSlider" Length="529" Anchor="R,C" AnchorSide="O,I"/>
+			<UpButton ID="ScrollBarUp" Style="ScrollBarUp" Anchor="R,T" AnchorSide="O,I"/>
+			<DownButton ID="ScrollBarDown" Style="ScrollBarDown" Anchor="R,B" AnchorSide="O,I"/>
+			<Stack StackGrowth="Bottom" Padding="10" ID="WorldCurrenciesStack">
+				<Box Size="935,23" Color="0,0,0,150">
+					<Stack Anchor="L,T" StackGrowth="Right">
+						<Box Anchor="L,T" Color="0,0,0,0"  Size="230,24" >
+							<TextButton Offset="55,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_CIVILIZATION_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="SortByCivilization" Hidden="0" >
+								<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="SortByCivilizationImage" />
+							</TextButton>
+						</Box>
+
+						<Box Anchor="L,T" Color="0,0,0,0"  Size="230,24" >
+							<TextButton Offset="50,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_CURRENCY_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="SortByCurrency" Hidden="0" >
+								<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="SortByCurrencyImage" />
+							</TextButton>
+						</Box>
+
+						<Box Anchor="L,T" Color="0,0,0,0" Size="100,24" ID="PietyBox">
+							<TextButton Offset="0,1" Anchor="C,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GPT_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="SortByGPT" Hidden="0" >
+								<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="SortByGPTImage" />
+							</TextButton>
+						</Box>
+
+						<Box Anchor="L,T" Color="0,0,0,0" Size="100,24" >
+							<TextButton Offset="0,1" Anchor="C,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_PROSPERITY_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="SortByProsperity" Hidden="0" >
+								<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="SortByProsperityImage" />
+							</TextButton>
+						</Box>
+					</Stack>
+					<Image Anchor="L,T" Offset="0,24" TextureOffset="50,0" Texture="bar900x2.dds" Size="468,1" />
+					<Image Anchor="R,T" Offset="0,24" TextureOffset="368,0" Texture="bar900x2.dds" Size="467,1" />
+				</Box>
+			</Stack>
+		</ScrollPanel>
+	</Box>
+</Context>

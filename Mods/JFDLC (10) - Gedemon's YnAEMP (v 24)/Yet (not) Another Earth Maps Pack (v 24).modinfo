@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="36e88483-48fe-4545-b85f-bafc50dde315" version="24">
+  <Properties>
+    <Name>JFDLC (10) - Gedemon's YnAEMP</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Earth maps with True Starting Location and custom options.</Teaser>
+    <Description>Earth maps with True Starting Location and custom options using an advanced setup screen.[NEWLINE][COLOR_RED]quadcore CPU and 4gb RAM on 64bit OS are recommanded to use the giant map.[/COLOR][NEWLINE][ICON_BULLET] Giant Earth (180x96): edited conversion of Genghis Kai GEM for civ4.[NEWLINE][ICON_BULLET] Huge Earth (120x80): Dale's huge map edited with Europe and Japan upscaled[NEWLINE][ICON_BULLET] Standard Earth (82x50): a Werner projection Earth map by smellymummy[NEWLINE][ICON_BULLET] Large Europe (79x73): Dieter's Europe CiV map[NEWLINE][ICON_BULLET] Standard Mediterranean (74x52): for Ambrox62's AMC mod[NEWLINE][NEWLINE]City States [ICON_CITY_STATE] with TSL for each map are available as separate mods[NEWLINE][NEWLINE]Installation: activate the mod, then choose SINGLE PLAYER and CUSTOM GAME to get the new setup menu. [COLOR_RED]You must use the custom game menu, else the mod will not be activated in game.[/COLOR]</Description>
+    <Authors>Gedemon, JFD, Danmacsch</Authors>
+    <SpecialThanks>Genghis Kai, Dale, smellymummy, Dieter VonClam, Ambrox62</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=397387</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+    <Custom_Background_TXT_KEY_YNAEMP_SCENARIO_TITLE>Art/AncientWorld.dds</Custom_Background_TXT_KEY_YNAEMP_SCENARIO_TITLE>
+    <_FiraxisScenario>1</_FiraxisScenario>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="0" maxversion="999" title="More Luxuries" />
+    <Mod id="4d02cc9f-0805-4988-ae84-1dc28d49e1f0" minversion="0" maxversion="999" title="City States Expansion (G&amp;amp;K + BNW)" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="C1BE9F575B06377823E87F1F035D6775" import="0">Adriatic_Sea_Balkans_Huge.Civ5Map</File>
+    <File md5="4475E4373E39738E5ABEBBB1CD3986F6" import="0">Aegean_Standard.Civ5Map</File>
+    <File md5="85A2CF2A0B253DC620229995C2E6E7E0" import="0">Africa_Asia_Oceania_Huge.Civ5Map</File>
+    <File md5="AFFD6F2542C0311ADEAECD1901FEFCDF" import="0">Africa_Giant.Civ5Map</File>
+    <File md5="AFF2B8A437392764A581BBE6A62C759A" import="0">Africa_Southern_Europe_Large.Civ5Map</File>
+    <File md5="30941E1BDFEABD3AFD16A865261D9F1D" import="0">Africa_Standard.Civ5Map</File>
+    <File md5="EFDE926F198230F11BE3B29B629ECA9D" import="0">Americas_Giant.Civ5Map</File>
+    <File md5="C7F100154C55EA4801978BDFA7054089" import="0">Americas_Standard.Civ5Map</File>
+    <File md5="953F424DCD05DCB82EFFCC8F6D5A1CAA" import="0">Apennine_Standard.Civ5Map</File>
+    <File md5="9EE073ED30866AD739FB3756C5A015FC" import="1">Art/AncientWorld.dds</File>
+    <File md5="5A08C5F61A1CD7048D0E1DA9DF60C291" import="1">Art/WorldMap.dds</File>
+    <File md5="300F83509F66F39885E807657A694B35" import="0">Asia_East_Small.Civ5Map</File>
+    <File md5="28FCD6D5BEEAD84CAE074CE2A11A96BB" import="0">Asia_Large.Civ5Map</File>
+    <File md5="2C6B647E445851C160769B86AF64DB91" import="0">Asia_North_East_Standard.Civ5Map</File>
+    <File md5="C7E5BE3044C3E76E066ECA33DC9310AC" import="0">Asia_South_East_Large_blank.Civ5Map</File>
+    <File md5="22CDD84FCBF8CD8FB1845268EBEF7E22" import="0">Asia_South_Huge.Civ5Map</File>
+    <File md5="7FF70B199E116969FF363996685A27CE" import="0">Australasia_Giant.Civ5Map</File>
+    <File md5="C966F53B2FB543F26BB75C87B4E6F952" import="0">British_Isles_Large.Civ5Map</File>
+    <File md5="6B45016A7938B132A3DBC5218E507717" import="0">Caribbean_Large.Civ5Map</File>
+    <File md5="0218D3E959ACBE26FD7421852FECD5C4" import="0">Caucasus_Giant.Civ5Map</File>
+    <File md5="2FC7A5C5F1AADDB97D7267E2052547C1" import="0">Central_Asia_Giant.Civ5Map</File>
+    <File md5="C84D00486BA4B936D5E94D42472C64A7" import="0">DeleteMissingReferences.xml</File>
+    <File md5="988CB719453C0F9EEFD8F5EE354E508A" import="0">Earth_Giant_blank.Civ5Map</File>
+    <File md5="2DBF7DDF20A31E43FA31C838ABAF5850" import="0">Earth_Greatest_Large_blank.Civ5Map</File>
+    <File md5="5CB71D70E850BA5824EF520826CD1A57" import="0">Earth_Huge_blank.Civ5Map</File>
+    <File md5="01AA227EB98AE4312F842127279FD0D9" import="0">Earth_Standard_Cordiform_blank.Civ5Map</File>
+    <File md5="A85F26F2902B11EF2DB5A6B49D18E121" import="0">Eastern_Europe_Large.Civ5Map</File>
+    <File md5="02BC743AB7A9EE6D0BCAF11DB063D849" import="0">Europe_Giant_blank.Civ5Map</File>
+    <File md5="4BE0F7BFD0AF50CCE1DE76866DE79E72" import="0">Europe_Greatest_Large.Civ5Map</File>
+    <File md5="D88D5DF6D58526C7F18B236282FD5BB0" import="0">Europe_Large_blank.Civ5Map</File>
+    <File md5="527FB1951A1469E137F6D465CD41BC29" import="0">Europe_North_West_Standard.Civ5Map</File>
+    <File md5="2EB0F6A8A48031BD54B342A70382EC9A" import="1">GameSetup/ResourcesRules.lua</File>
+    <File md5="0D6C6787D3E799694FA19FA31B9F5817" import="0">GameSetup/YnaemSetup.lua</File>
+    <File md5="B374C9F59828380786A84E961D32CB3E" import="0">GameSetup/YnaemSetup.xml</File>
+    <File md5="EC2E8F299E8C45D468DF1FED8789FEDF" import="0">Earth_Standard.Civ5Map</File>
+    <File md5="2507D34AFFE05C1FF3E7DE9DEDE21A9A" import="0">Indian_Ocean_Large.Civ5Map</File>
+    <File md5="51397832699D3955129F1D8B10B0A98E" import="0">India_Giant.Civ5Map</File>
+    <File md5="7408E3C867FBBBEAE6ECFE367C9AE733" import="0">JFD's Additions/CivilizationsRequestedResource.sql</File>
+    <File md5="147EDB69E5E9A90D8F01DCF58B4095C1" import="0">JFD's Additions/CivilizationStartPos.sql</File>
+    <File md5="6859B9E4C9132329209F74ECDCF615DC" import="0">JFD's Additions/CivilizationStartPos.xml</File>
+    <File md5="FEB821E55AFAAF8B305BC3348DBCC80E" import="0">JFD's Additions/MinorCivStartPos.sql</File>
+    <File md5="A540541BF21EB30D3037BF0F6169D481" import="0">JFD's Additions/ResourceRegionExclude.sql</File>
+    <File md5="CEB9CB2EE6878F81810E6E9A912C53B9" import="0">JFD's Additions/ResourceRegionPos.sql</File>
+    <File md5="4C209E1FBBF9C0FF8228FB4061EEAC67" import="1">LUA/ShareData.lua</File>
+    <File md5="757AF07F7753CA6284292F397CC21342" import="1">LUA/YnaemCityMap.lua</File>
+    <File md5="A04C8A9B9720E00C33D8623568F07B11" import="1">LUA/YnaemFunctions.lua</File>
+    <File md5="FDEF391BE06EA7E61F0249E972B48AD5" import="1">LUA/YnaemScenario.lua</File>
+    <File md5="1F52E17971F6742F8C6264CBC6807616" import="1">LUA/YnaemDefines.lua</File>
+    <File md5="505865DFB0D54C7403C6095F8C51DF7F" import="0">LUA/YnaemInGame.lua</File>
+    <File md5="048C33CF43D6BBCE2FECC319DB20BFB8" import="1">LUA/YnaemLoading.lua</File>
+    <File md5="537FC0916BCB206CAB098EB619CB9801" import="1">LUA/YnaemUtils.lua</File>
+    <File md5="33B3FE6AA5D49AF1B90503869D06B026" import="0">Mediterranean_Large.Civ5Map</File>
+    <File md5="53B16DA30EF2FB526E97A261FBF16BC9" import="0">Mesopotamia_Giant.Civ5Map</File>
+    <File md5="DC813D54241B29D45B7BD022D4DEDD0F" import="0">Mesopotamia_Standard.Civ5Map</File>
+    <File md5="BC56E5D58EDC6D3F265FA0681D59B587" import="0">Mongol_Steppe_Giant.Civ5Map</File>
+    <File md5="64BDAB865284FDD317D698280381B043" import="0">NileValley_Large.Civ5Map</File>
+    <File md5="6A0B60E20AB4639B27AAB1457927E82D" import="0">North_America_Giant.Civ5Map</File>
+    <File md5="627B2C85BF47710ACD38E9AA49C2B8A0" import="0">North_America_Huge.Civ5Map</File>
+    <File md5="1B548D782638FFCEBFF8277C42974F9F" import="0">North_Atlantic_Large.Civ5Map</File>
+    <File md5="FDE78E549E5575711C6FB7AD7906036F" import="0">North_Sea_Huge.Civ5Map</File>
+    <File md5="9D6E4B813E889F15416760BE756EFB54" import="1">Override/MapGenerator.lua</File>
+    <File md5="4657D27E682810B91F0A181AA272FE83" import="1">Override/WorldBuilderRandomItems.lua</File>
+    <File md5="74938E1CAC8D4E03837E37E22D79DD54" import="0">Pacific_Huge.Civ5Map</File>
+    <File md5="F8E19ED8D397F69E430D2384DEFCB719" import="0">Scotland_Ireland_Huge.Civ5Map</File>
+    <File md5="9BC7F758168F3FA4B34CE6D5DAFFE83D" import="0">South_America_Central_America_Giant.Civ5Map</File>
+    <File md5="2464BCE9A2ECB2B1408A6319868313E1" import="0">South_America_Central_America_Huge.Civ5Map</File>
+    <File md5="0E6D65DD986749B4376BC166DD2F2299" import="0">South_America_Giant.Civ5Map</File>
+    <File md5="6E362FC2A99573448245F2726A4BE8DA" import="0">South_America_Large.Civ5Map</File>
+    <File md5="BE7C57652B110F7FD29A88DF06AA5823" import="0">South_Pacific_Giant.Civ5Map</File>
+    <File md5="6CDFB514E26706F681C9D22D826F4B5B" import="0">South_Pacific_Huge.Civ5Map</File>
+    <File md5="6E4B6C7A557DA8AAD91428535D962D07" import="0">West_Africa_Large.Civ5Map</File>
+    <File md5="4E423C281DDC2A6E8F2F91B658EB7B2A" import="0">YnAEMP_readme.txt</File>
+    <File md5="49B5078B285D0EA8FD395CDDEFD5D706" import="0">SQL/CleanCS.sql</File>
+    <File md5="97CCFD7C030B0BD15DA0F77301CAEEDC" import="0">SQL/RulesChange.sql</File>
+    <File md5="4759BAFADB9CAA3185F123969A0CEE83" import="0">XML/CityMap.xml</File>
+    <File md5="3599A37D2F2644830E08E2DB736E83AC" import="0">XML/CivilizationsRequestedResource.xml</File>
+    <File md5="7D6F1F139803DFBDAEEF6FA49AAB80F9" import="0">XML/ResourceRegionExclude.xml</File>
+    <File md5="CC2B5F408E14EF771F135F1870719CC7" import="0">XML/ResourceRegionPos.xml</File>
+    <File md5="0CEC480595B35D657A9BE830F1D4382F" import="0">XML/MinorCivAdded_.xml</File>
+    <File md5="B757D7CB33F9615DB5FD1687CA3E9E96" import="0">XML/CivilizationsStartPos.xml</File>
+    <File md5="B287FF4E528513CD5DC3A7505C4F96D1" import="0">XML/MinorCivStartPos.xml</File>
+    <File md5="F952C9FC8AF6720A328669AA98FEB83C" import="0">XML/RulesChange.xml</File>
+    <File md5="870ED2428079509A912ED1E76AEA891F" import="0">XML/Texts.xml</File>
+    <File md5="571BD5DAF2ED2E13A0F8716C665F318A" import="0">XML/YnaempTables.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/YnaempTables.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CivilizationsStartPos.xml</UpdateDatabase>
+      <UpdateDatabase>XML/RulesChange.xml</UpdateDatabase>
+      <UpdateDatabase>XML/MinorCivStartPos.xml</UpdateDatabase>
+      <UpdateDatabase>XML/MinorCivAdded.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ResourceRegionPos.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ResourceRegionExclude.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CivilizationsRequestedResource.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/RulesChange.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Texts.xml</UpdateDatabase>
+      <UpdateDatabase>JFD's Additions/CivilizationsRequestedResource.sql</UpdateDatabase>
+      <UpdateDatabase>JFD's Additions/CivilizationStartPos.sql</UpdateDatabase>
+      <UpdateDatabase>JFD's Additions/CivilizationStartPos.xml</UpdateDatabase>
+      <UpdateDatabase>JFD's Additions/MinorCivStartPos.sql</UpdateDatabase>
+      <UpdateDatabase>JFD's Additions/ResourceRegionExclude.sql</UpdateDatabase>
+      <UpdateDatabase>JFD's Additions/ResourceRegionPos.sql</UpdateDatabase>
+      <UpdateDatabase>DeleteMissingReferences.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="Custom" file="GameSetup/YnaemSetup.xml">
+      <Name>TXT_KEY_YNAEMP_SCENARIO_TITLE</Name>
+      <Description>True Sarting Location Earth Maps with custom setup menu, realistic random resources placement and more options.</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/YnaemInGame.lua">
+      <Name>YnAEMP</Name>
+      <Description>YnAEMP</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/ShareData.lua">
+      <Name>ShareData</Name>
+      <Description>ShareData</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

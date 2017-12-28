@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/14/2017 6:15:06 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CITY BANNER-->
+		<Row Tag="TXT_KEY_JFD_CITYBANNER_DISEASE_TEXT_TT">
+			<Text>City is considered [COLOR_JFD_DISEASE]Diseased[ENDCOLOR], and will go into [ICON_JFD_PLAGUE] Plague in {1_Num} Turn(s)![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYBANNER_HEALTH_TEXT_TT_PLAGUE">
+			<Text>{1_PlagueIcon} {2_PlagueDesc} ravages the city for {3_Num} turn(s)! While Plagued, Citizens will consume extra Food, and Cities will take extra damage each turn based upon City Disease.</Text>
+		</Row>
+		<!--CITY VIEW-->
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_DISEASE_TEXT">
+			<Text>Disease</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_HEALTH_TEXT">
+			<Text>Health</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_PLAGUED_TEXT">
+			<Text>PLAGUED</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_HEALTH_TEXT_TT">
+			<Text>[ICON_JFD_HEALTH] Health is used to offset [ICON_JFD_DISEASE] Disease, excess of which contributes toward a [ICON_JFD_PLAGUE] Plague. The threshold at which a Plague begins is increased with your Health.[NEWLINE]{1_DiseaseBreakdown}[NEWLINE]{3_HealthBreakdown}[NEWLINE]------------------[NEWLINE][COLOR_NEGATIVE_TEXT]{2_Num} [ICON_JFD_DISEASE] Total[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]{4_Num} [ICON_JFD_HEALTH] Total[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_HEALTH_TEXT_TT_FOOD">
+			<Text>[ICON_JFD_HEALTH] Health is used to offset [ICON_JFD_DISEASE] Disease, excess of which contributes toward a [ICON_JFD_PLAGUE] Plague. The threshold at which a Plague begins is increased with your Health. Excess Health is converted into [ICON_FOOD] Food.[NEWLINE]{1_DiseaseBreakdown}[NEWLINE]{3_HealthBreakdown}[NEWLINE]------------------[NEWLINE][COLOR_NEGATIVE_TEXT]{2_Num} [ICON_JFD_DISEASE] Total[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]{4_Num} [ICON_JFD_HEALTH] Total[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_PLAGUE_SENTIMENT_TEXT_TT">
+			<Text>{1_ColourHL}[ICON_JFD_PLAGUE] Plague Progress: {2_Num}/{3_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_PLAGUE_TURNS_TEXT_TT">
+			<Text>{1_ColourHL}City will enter [ICON_JFD_PLAGUE] Plague in {2_Num} Turn(s)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_PLAGUE_NONE_TURNS_TEXT">
+			<Text>[COLOR_JFD_HEALTH]No Plague threat[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_PLAGUE_RECEDING_TURNS_TEXT">
+			<Text>[COLOR_JFD_HEALTH]Plague threat receding[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_PLAGUE_TURNS_TEXT">
+			<Text>[COLOR_JFD_DISEASE]{1_NumTurns:number} {1_NumTurns: plural 1?turn; other?turns;} until [ICON_JFD_PLAGUE] Plague[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITYVIEW_PLAGUED_TURNS_TEXT">
+			<Text>[COLOR_JFD_PLAGUE]{1_Num} Turn(s)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_HEALTH">
+			<Text>{1_Num} {2_IconString} from City Health</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MODIFIER_HEALTH">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from City Health</Text>
+		</Row>
+		<!--Disease-->
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DISEASE_TT_FROM_CITY_CONNECTION">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num} [ICON_JFD_DISEASE] from City Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DISEASE_TT_FROM_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DISEASE] from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DISEASE_TT_FROM_DEVELOPMENT">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DISEASE] from Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DISEASE_TT_FROM_MODIFIERS">
+			<Text>[NEWLINE][NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DISEASE] from City Modifiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DISEASE_TT_FROM_POLICIES">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DISEASE] from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DISEASE_TT_FROM_POPULATION">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num} [ICON_JFD_DISEASE] from Population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DISEASE_TT_FROM_TERRAIN">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DISEASE] from Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_DISEASE_TT_FROM_TRADE">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num} [ICON_JFD_DISEASE] from Trade Routes</Text>
+		</Row>
+		<!--Health-->
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_HEALTH] from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_DEVELOPMENT">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_HEALTH] from Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_FAITH">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_HEALTH] from [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_FRESH_WATER">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num} [ICON_JFD_HEALTH] from Fresh Water</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_MODIFIERS">
+			<Text>[NEWLINE][NEWLINE][ICON_BULLET]{1_Num}% [ICON_JFD_HEALTH] from City Modifiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_POLICIES">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_HEALTH] from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_RELIGION">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_HEALTH] from Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_SPECIALISTS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_HEALTH] from Specialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_TERRAIN">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_HEALTH] from Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_JFD_HEALTH_TT_FROM_TRAITS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_HEALTH] from Traits</Text>
+		</Row>
+		<!--GREAT PEOPLE LIST-->
+		<Row Tag="TXT_KEY_GP_DOCTOR_DETAILS">
+			<Text>[ICON_PLUS] Great Doctors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_DOCTOR_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Doctors</Text>
+		</Row>
+		<!--NOTIFICATIONS-->
+		<Row Tag="TXT_KEY_JFD_CITY_PLAGUE_IMMINENT_NOTIFICATION_SHORT">
+			<Text>Plague Imminent in {1_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_PLAGUE_IMMINENT_NOTIFICATION">
+			<Text>A [ICON_JFD_PLAGUE] Plague is expected to break out in {1_CityName} in {2_Num} turns if we do not address their [ICON_JFD_DISEASE] Disease!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_PLAGUE_NOTIFICATION_SHORT">
+			<Text>Plague!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_PLAGUE_NOTIFICATION">
+			<Text>An epidemic of {1_PlagueIcon} {2_PlagueDesc} has broken out in {3_CityName} because their [ICON_JFD_DISEASE] Disease remains too high!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_CITY_PLAGUE">
+			<Text>An epidemic of {1_PlagueIcon} {2_PlagueDesc} has broken out in the {3_CivAdj} city of {4_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_PLAGUE_ENDS_NOTIFICATION_SHORT">
+			<Text>Plagued Ends!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_PLAGUE_ENDS_NOTIFICATION">
+			<Text>The epidemic of {1_PlagueIcon} {2_PlagueDesc} in {3_CityName} has ended!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_PLAGUE_CURED_NOTIFICATION_SHORT">
+			<Text>Plagued Cured!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITY_PLAGUE_CURED_NOTIFICATION">
+			<Text>{1_CityName} has been cured of its plague!</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_UNIT_PLAGUE_TRANSFER_THEM">
+			<Text>A virulent plague was spread to our {2_Unit} from their {1_Unit} during combat!</Text>
+		</Replace>
+		<!--TOOLTIPS-->
+		<Row Tag="TXT_KEY_PEDIA_DISEASE_LABEL">
+			<Text>Disease:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_GLOBAL_DISEASE_LABEL">
+			<Text>Global Disease:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DISEASE">
+			<Text>[ICON_JFD_DISEASE] Disease: +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DISEASE_MOD">
+			<Text>[ICON_JFD_DISEASE] Disease: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_DISEASE_MOD">
+			<Text>[ICON_JFD_DISEASE] Global Disease: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_YIELD_FROM_PLAGUE">
+			<Text>-{1_Num} [ICON_FOOD] from [ICON_JFD_PLAGUE] Plague</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_HEALTH_LABEL">
+			<Text>Health:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_GLOBAL_HEALTH_LABEL">
+			<Text>Global Health:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HEALTH">
+			<Text>[ICON_JFD_HEALTH] Health: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HEALTH_MOD">
+			<Text>[ICON_JFD_HEALTH] Health: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_HEALTH_MOD">
+			<Text>[ICON_JFD_HEALTH] Global Health: {1_Num}%</Text>
+		</Row>
+		<!--TRADE ROUTE OVERVIEW-->
+		<Row Tag="TXT_KEY_TRO_COL_FROM_DISEASE">
+			<Text>[ICON_ARROW_LEFT][ICON_JFD_DISEASE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_DISEASE">
+			<Text>[ICON_ARROW_RIGHT][ICON_JFD_DISEASE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_DISEASE_TT">
+			<Text>Click to sort by the amount of [ICON_JFD_DISEASE] Disease that the city that established the trade route generates from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_DISEASE_TT">
+			<Text>Click to sort by the amount of [ICON_JFD_DISEASE] Disease that the destination city would receive from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_DISEASE_FROM_TT">
+			<Text>You are receiving +{1_Num} [ICON_JFD_DISEASE] Disease on this route to your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_DISEASE_TO_TT">
+			<Text>They are receiving +{1_Num} [ICON_JFD_DISEASE] Disease on this route from your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_JFD_DISEASE">
+			<Text>[ICON_JFD_DISEASE] +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_JFD_DISEASE_SHORT">
+			<Text>[ICON_JFD_DISEASE] +{1_Num} Disease per turn</Text>
+		</Row>
+		<!--Unit Panel-->
+		<Row Tag="TXT_KEY_BUILD_HEALTH_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_JFD_HEALTH] Health</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_DISEASE_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_JFD_DISEASE] Disease</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

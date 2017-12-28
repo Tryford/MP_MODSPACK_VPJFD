@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--UNIT PANEL-->
+		<Row Tag="TXT_KEY_UPANEL_JFD_TALENTS" >
+			<Text>Talents</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_JFD_TALENTS_STATS" >
+			<Text>{1_Num}/{2_Num} [ICON_JFD_TALENT]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_JFD_TALENTS_TT" >
+			<Text>The number of Missions this unit can complete before being expended ({1_Num}/{2_Num}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_TALENTS">
+			<Text>[ICON_JFD_TALENT] Talents: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_NUM_TALENTS">
+			<Text>{1_Num} Talents</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_TALENTS_LABEL">
+			<Text>Talents:</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CULTURE BRANCHES-->
+		<Row Tag="TXT_KEY_CULTURE_BRANCH_JFD_AFRICA_SHORT_DESC">
+			<Text>Africa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_BRANCH_JFD_CENTRAL_ASIA_SHORT_DESC">
+			<Text>Central Asia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_BRANCH_JFD_EAST_ASIA_SHORT_DESC">
+			<Text>East Asia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_BRANCH_JFD_EUROPEAN_SHORT_DESC">
+			<Text>Europe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_BRANCH_JFD_MIDDLE_EAST_SHORT_DESC">
+			<Text>Middle East</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_BRANCH_JFD_NORTH_AMERICA_SHORT_DESC">
+			<Text>North America</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_BRANCH_JFD_OCEANIA_SHORT_DESC">
+			<Text>Oceania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_BRANCH_JFD_SOUTH_AMERICA_SHORT_DESC">
+			<Text>South America</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_BRANCH_JFD_SOUTH_ASIA_SHORT_DESC">
+			<Text>South Asia</Text>
+		</Row>
+		<!--CULTURES-->
+		<!--Aboriginal-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_ABORIGINAL_SHORT_DESC">
+			<Text>Aboriginal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_ABORIGINAL_BONUSES">
+			<Text>Begin with a free [ICON_MOVES] Scout and visibility of nearby lands.</Text>
+		</Row>
+		<!--Andean-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_ANDEAN_SHORT_DESC">
+			<Text>Andean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_ANDEAN_BONUSES">
+			<Text>Begin with a nearby source of [ICON_RES_GOLD] Gold.</Text>
+		</Row>
+		<!--Bantu-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_BANTU_SHORT_DESC">
+			<Text>Bantu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_BANTU_BONUSES">
+			<Text>Begin with a free Spearman and +10 XP for all starting units.</Text>
+		</Row>
+		<!--Bharata-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_BHARATA_SHORT_DESC">
+			<Text>Bharata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_BHARATA_BONUSES">
+			<Text>Begin with a nearby source of [ICON_RES_INCENSE] Incense.</Text>
+		</Row>
+		<!--Central-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_CENTRAL_SHORT_DESC">
+			<Text>Central</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_CENTRAL_BONUSES">
+			<Text>Begin with a [ICON_FOOD] Granary.</Text>
+		</Row>
+		<!--Classical-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_CLASSICAL_SHORT_DESC">
+			<Text>Classical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_CLASSICAL_BONUSES">
+			<Text>Begin with the [ICON_CULTURE] Liberty tree unlocked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_CLASSICAL_BONUSES_CBO">
+			<Text>Begin with a [ICON_GOLD] Market.</Text>
+		</Row>
+		<!--Colonial-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_COLONIAL_SHORT_DESC">
+			<Text>Colonial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_COLONIAL_BONUSES">
+			<Text>Begin with additional land.</Text>
+		</Row>
+		<!--Eastern-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_EASTERN_SHORT_DESC">
+			<Text>Eastern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_EASTERN_BONUSES">
+			<Text>Begin with [ICON_STRENGTH] Walls.</Text>
+		</Row>
+		<!--East Indies-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_EAST_INDIES_SHORT_DESC">
+			<Text>East Indies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_EAST_INDIES_BONUSES">
+			<Text>Begin with a nearby source of [ICON_RES_SPICES] Spices.</Text>
+		</Row>
+		<!--Great Plains-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_GREAT_PLAINS_SHORT_DESC">
+			<Text>Great Plains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_GREAT_PLAINS_BONUSES">
+			<Text>Begin with the [ICON_RESEARCH] Trapping Technology.</Text>
+		</Row>
+		<!--Himalayan-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_HIMALAYAN_SHORT_DESC">
+			<Text>Himalayan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_HIMALAYAN_BONUSES">
+			<Text>Begin with a [ICON_PEACE] Shrine.</Text>
+		</Row>
+		<!--Iranian-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_IRANIAN_SHORT_DESC">
+			<Text>Iranian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_IRANIAN_BONUSES">
+			<Text>Begin with an [ICON_FOOD] Aqueduct.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_IRANIAN_BONUSES_HEALTH">
+			<Text>Begin with a [ICON_JFD_HEALTH] Herbalist.</Text>
+		</Row>
+		<!--Islamic-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_ISLAMIC_SHORT_DESC">
+			<Text>Islamic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_ISLAMIC_BONUSES">
+			<Text>Begin with the [ICON_RESEARCH] Animal Husbandry Technology.</Text>
+		</Row>
+		<!--Katuje-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_KATUJE_SHORT_DESC">
+			<Text>Katuje</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_KATUJE_BONUSES">
+			<Text>Begin with the [ICON_RESEARCH] Pottery Technology.</Text>
+		</Row>
+		<!--Mandala-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_MANDALA_SHORT_DESC">
+			<Text>Mandala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_MANDALA_BONUSES">
+			<Text>Begin with the [ICON_CULTURE] Patronage tree unlocked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_MANDALA_BONUSES_CBO">
+			<Text>Begin with a nearby source of [ICON_RES_IVORY] Ivory.</Text>
+		</Row>
+		<!--Mesoamerican-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_MESOAMERICAN_SHORT_DESC">
+			<Text>Mesoamerican</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_MESOAMERICAN_BONUSES">
+			<Text>Begin with the [ICON_RESEARCH] Calendar Technology.</Text>
+		</Row>
+		<!--Mesopotamic-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_MESOPOTAMIC_SHORT_DESC">
+			<Text>Mesopotamic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_MESOPOTAMIC_BONUSES">
+			<Text>Begin with a nearby source of [ICON_RES_WHEAT] Wheat.</Text>
+		</Row>
+		<!--Northern-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_NORTHERN_SHORT_DESC">
+			<Text>Northern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_NORTHERN_BONUSES">
+			<Text>Begin with an extra [ICON_WAR] Warrior and the [ICON_CULTURE] Honor tree unlocked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_NORTHERN_BONUSES_CBO">
+			<Text>Begin with an extra [ICON_WAR] Warrior and +10 XP for all starting units.</Text>
+		</Row>
+		<!--Oceanic-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_OCEANIC_SHORT_DESC">
+			<Text>Oceanic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_OCEANIC_BONUSES">
+			<Text>Begin with a free [ICON_MOVES] Scout and ocean embarkation for all starting units.</Text>
+		</Row>
+		<!--Oriental-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_ORIENTAL_SHORT_DESC">
+			<Text>Oriental</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_ORIENTAL_BONUSES">
+			<Text>Begin with a free [ICON_WORKER] Worker.</Text>
+		</Row>
+		<!--Pacific-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_PACIFIC_SHORT_DESC">
+			<Text>Pacific</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_PACIFIC_BONUSES">
+			<Text>Begin with the [ICON_RESEARCH] Sailing Technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_PACIFIC_BONUSES_CBO">
+			<Text>Begin with two nearby sources of [ICON_RES_FISH] Fish.</Text>
+		</Row>
+		<!--Papal
+		<Row Tag="TXT_KEY_CULTURE_JFD_PAPAL_SHORT_DESC">
+			<Text>Papal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_PAPAL_BONUSES">
+			<Text>Begin with the [ICON_CULTURE] Piety tree unlocked.</Text>
+		</Row>-->
+		<!--Polar-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_POLAR_SHORT_DESC">
+			<Text>Polar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_POLAR_BONUSES">
+			<Text>Begin with [ICON_RESEARCH] Archery and a nearby source of [ICON_RES_DEER] Deer.</Text>
+		</Row>
+		<!--Saharan-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_SAHARAN_SHORT_DESC">
+			<Text>Saharan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_SAHARAN_BONUSES">
+			<Text>Begin with the [ICON_RESEARCH] Mining Technology.</Text>
+		</Row>
+		<!--Semitic-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_SEMITIC_SHORT_DESC">
+			<Text>Semitic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_SEMITIC_BONUSES">
+			<Text>Begin with a free [ICON_MOVES] Scout and +1 [ICON_MOVES] Moves and +1 Sight for all starting units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SEMITIC_MOVES">
+			<Text>Semitic Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SEMITIC_MOVES_HELP">
+			<Text>+1 [ICON_MOVES] Movement and +1 Sight.</Text>
+		</Row>
+		<!--Southern-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_SOUTHERN_SHORT_DESC">
+			<Text>Southern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_SOUTHERN_BONUSES">
+			<Text>Begin with a nearby source of [ICON_RES_WINE] Wine.</Text>
+		</Row>
+		<!--Steppe-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_STEPPE_SHORT_DESC">
+			<Text>Steppe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_STEPPE_BONUSES">
+			<Text>Begin with two nearby sources of [ICON_RES_HORSE] Horse.</Text>
+		</Row>
+		<!--Totalitarian-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_TOTALITARIAN_SHORT_DESC">
+			<Text>Totalitarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_TOTALITARIAN_BONUSES">
+			<Text>Begin with a free [ICON_GREAT_GENERAL] Great General.</Text>
+		</Row>
+		<!--West-African-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_WEST_AFRICAN_SHORT_DESC">
+			<Text>West-African</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_WEST_AFRICAN_BONUSES">
+			<Text>Begin with a nearby source of [ICON_RES_STONE] Stone.</Text>
+		</Row>
+		<!--Western-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_WESTERN_SHORT_DESC">
+			<Text>Western</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_WESTERN_BONUSES">
+			<Text>Begin with a lump sum of [ICON_GOLD] Gold.</Text>
+		</Row>
+		<!--Woodlands-->
+		<Row Tag="TXT_KEY_CULTURE_JFD_WOODLANDS_SHORT_DESC">
+			<Text>Woodlands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_WOODLANDS_BONUSES">
+			<Text>Begin with a free [ICON_MOVES] Scout and the Woodsman promotion for all starting units.</Text>
+		</Row>
+		<!--SUBCULTURES-->
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_BRITISH_SHORT_DESC">
+			<Text>British</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_BYZANTINE_SHORT_DESC">
+			<Text>Byzantine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_CELTIC_SHORT_DESC">
+			<Text>Celtic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_CRUSADER_SHORT_DESC">
+			<Text>Crusader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_EGYPTIAN_SHORT_DESC">
+			<Text>Egyptian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_ETHIOPIC_SHORT_DESC">
+			<Text>Ethiopic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_LATIN_SHORT_DESC">
+			<Text>Latin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_JAPANESE_SHORT_DESC">
+			<Text>Japanese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_PAPAL_SHORT_DESC">
+			<Text>Papal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_ROMAN_SHORT_DESC">
+			<Text>Roman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_SUB_JFD_TURKIC_SHORT_DESC">
+			<Text>Turkic</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

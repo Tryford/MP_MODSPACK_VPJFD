@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--INTERFACE-->
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_JFD_INFO_ANNEX">
+			<Text>[COLOR_POSITIVE_TEXT]Annexing[ENDCOLOR] the City into your empire causes it to become a normal City that produces quite a bit of extra [ICON_HAPPINESS_4] Unhappiness.[NEWLINE][NEWLINE]Annexing this City will increase [ICON_HAPPINESS_4] Unhappiness by {1_Num}.[NEWLINE][NEWLINE]City-States that you have [ICON_JFD_CLAIM_MEDIUM] Claimed are exempt from these penalties.</Text>
+		</Row>
+		<!--NOTIFICATIONS-->
+		<Replace Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT">
+			<Text>{@2_MinorCivName} joins {@1_CivName}!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_1">
+			<Text>A Political Union has been created between {@1_CivName} and the City-State of {@2_MinorCivName}.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_2">
+			<Text>A Political Union has been created between {@1_CivName} and the City-State of {@2_MinorCivName}.</Text>
+		</Replace>
+		<!--CITY-STATE POPUP-->
+		<Row Tag="TXT_KEY_POP_CSTATE_JFD_PUSH_CLAIM">
+			<Text>Push a {1_ClaimDesc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_JFD_PUSH_CLAIM_TT">
+			<Text>With a [ICON_JFD_CLAIM_MEDIUM] Claim, you may annex a City-State peacefully. With stronger [ICON_JFD_CLAIM_MEDIUM] Claims, the cost of doing this will decrease.[NEWLINE][NEWLINE]{1_ClaimHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_JFD_PUSH_CLAIM_CONFIRM">
+			<Text>Are you sure you want to push a {1_ClaimDesc} on this City-State?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_POLITICAL_CLAIM_SHORT_DESC">
+			<Text>Political Union</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_POLITICAL_CLAIM_DESC">
+			<Text>A Political Union has been created between the {1_CivName} and the City-State of {2_CivName}.</Text>
+		</Row>
+		<!--Causes-->
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_ALLIES">
+			<Text>[NEWLINE][ICON_BULLET]Long-Term Allies ({1_Num}/{2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]From Buildings and Wonders ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_BULLY">
+			<Text>[NEWLINE][ICON_BULLET]Intimidating Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_EPITHETS">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_CAPITAL] Epithets ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_GOLDEN_AGE">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_GOLDEN_AGE] Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_NEARBY">
+			<Text>[NEWLINE][ICON_BULLET]Nearby [ICON_CAPITAL] Capital ({1_Num} Tiles)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_PROTECTION">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_STRENGTH] Pledge of Protection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_POLICIES">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_CULTURE] Policies ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_REFORMS">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_JFD_REFORM] Reforms ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_SAME_CULTURE">
+			<Text>[NEWLINE][ICON_BULLET]Same Culture Type</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_SAME_RELIGION">
+			<Text>[NEWLINE][ICON_BULLET]Same [ICON_RELIGION] Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_SPY">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_SPY] Spy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_POPULATION">
+			<Text>[NEWLINE][ICON_BULLET]Higher [ICON_CITIZEN] Capital Population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_LAND_TRADE_ROUTE">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_INTERNATIONAL_TRADE] Land Trade Route</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_SEA_TRADE_ROUTE">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_INTERNATIONAL_TRADE] Sea Trade Route</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_TRADE_ROUTE">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_INTERNATIONAL_TRADE] Trade Route</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_CAUSE_TRAITS">
+			<Text>[NEWLINE][ICON_BULLET]Active [ICON_CAPITAL] Traits ({1_Num})</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_MORE_MILITARY_TT">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be in the top 60% of the world in terms of Military Power. Yours is ranked at {1_Num}% of world Military Power.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_ALLIES_TT">
+			<Text>[NEWLINE]   [ICON_BULLET]Allied with City-State </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_PLEDGE_NOT_CLOSE_ENOUGH_TT">
+			<Text>[NEWLINE]   [ICON_BULLET][COLOR_CYAN]OR[ENDCOLOR] Able to trade with City-State </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_PLEDGE_NO_TRADE_TT">
+			<Text>[NEWLINE]   [ICON_BULLET][COLOR_CYAN]OR[ENDCOLOR] Trading with City-State </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_PLEDGE_ACHIEVED">
+			<Text>  [ICON_CHECKBOX]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_PTP_ALL_CORRECT">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_PTP_ANY_CORRECT">
+			<Text>[ENDCOLOR][NEWLINE][NEWLINE]In addition, you must be:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Because you did not honor your previous pledge, this City-State does not trust you. {1_TurnsUntilPledgeAvailable} turns must pass before you can pledge again.[ENDCOLOR]</Text>
+		</Replace>
+		<!--GREAT PEOPLE LIST-->
+		<Row Tag="TXT_KEY_GP_DIGNITARY_DETAILS">
+			<Text>[ICON_PLUS] Great Dignitaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_DIGNITARY_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Dignitaries</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_GP_DIPLOMAT_DETAILS">
+			<Text>[ICON_PLUS] Great Diplomats</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GP_DIPLOMAT_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Diplomats</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_GP_MAGISTRATE_DETAILS">
+			<Text>[ICON_PLUS] Great Magistrates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_MAGISTRATE_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Magistrates</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

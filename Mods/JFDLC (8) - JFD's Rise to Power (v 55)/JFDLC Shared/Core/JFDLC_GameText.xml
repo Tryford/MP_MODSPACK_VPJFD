@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/12/2017 1:29:17 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_26">
+			<Text>Corporations and Monopolies</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_27">
+			<Text>Vassals</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_28">
+			<Text>JFDLC</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_POLICY_MAGISTRATE">
+			<Text>Write a bug on me.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_MONGOLIASILKROAD2">
+			<Text>Mongol Silk Road</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_EGYPTVALLEYOFTHEKINGS">
+			<Text>Excavate the Valley of the Kings</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_ESTATES_GENERAL">
+			<Text>Create the Estates-General</Text>
+		</Replace>
+		<!--BUILDINGS-->
+		<!--Defense-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_DEFENSE_DESC">
+			<Text>JFD: Defense</Text>
+		</Row>
+		<!--Puppet City-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PUPPET_CITY">
+			<Text>JFD: Puppet City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PUPPET_CITY_HELP">
+			<Text>Marks this city as a puppet city.</Text>
+		</Row>
+		<!--YIELDS-->
+		<Row Tag="TXT_KEY_YIELD_JFD_DEFENSE">
+			<Text>Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_JFD_DEVELOPMENT">
+			<Text>Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_JFD_HAPPINESS">
+			<Text>Happiness</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

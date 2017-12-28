@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--TUTORIALS-->
+		<!--Welcome to JFDLC!-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_INTRODUCTION_DESC">
+			<Text>Welcome to JFDLC!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_INTRODUCTION_HELP">
+			<Text>Hello, and welcome to [COLOR_ADVISOR_HIGHLIGHT_TEXT]JFDLC[/COLOR]! The new systems in this mod are designed to be intuitive, but if you ever get stuck, please check the Civilopedia > Concepts > JFDLC, or ask questions on the Rise to Power thread on CivFanatics. You can disable this message through the Options Menu, under Tutorial Levels.</Text>
+		</Row>
+		<!--Build Charges-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_BUILD_CHARGES_DESC">
+			<Text>You have Trained a Builder Unit!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_BUILD_CHARGES_HELP">
+			<Text>You have just trained your first [COLOR_ADVISOR_HIGHLIGHT_TEXT]Builder Unit[/COLOR]! These Units must expend [COLOR_ADVISOR_HIGHLIGHT_TEXT]Build Charges[/COLOR] in order to build Improvements. An Improvement is built immediately in this way, but when a Builder expends all its Charges, it is consumed.[NEWLINE][NEWLINE]Clearing Features, building Routes, and repairing Tiles will not expend Charges and will still take some turns to complete, however.</Text>
+		</Row>
+		<!--Colonies-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_COLONIES_DESC">
+			<Text>You have founded a Colony!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_COLONIES_HELP">
+			<Text>You have just founded a new [COLOR_ADVISOR_HIGHLIGHT_TEXT]Colony[/COLOR]! A Colony is a special type of city that you cannot control the production of but can still purchase items and invest in. They also have special conditions for their Loyalty.[NEWLINE][NEWLINE]Colonies are created when a [COLOR_ADVISOR_HIGHLIGHT_TEXT]Settler is too far from the Capital[/COLOR], or by a [COLOR_ADVISOR_HIGHLIGHT_TEXT]Colonist Unit[/COLOR]. They can be integrated as full cities once they have a certain Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_COLONIES_Q1_DESC">
+			<Text>What is a Colonist?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_COLONIES_COLONISTS_DESC">
+			<Text>Colonist Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_COLONIES_COLONISTS_HELP">
+			<Text>A [COLOR_ADVISOR_HIGHLIGHT_TEXT]Colonist Unit[/COLOR] is a unique variant of the [COLOR_ADVISOR_HIGHLIGHT_TEXT]Settler Unit[/COLOR] that can only be used to found [COLOR_ADVISOR_HIGHLIGHT_TEXT]Colonies[/COLOR]. Colonies built by Colonists receive pre-constructed [COLOR_ADVISOR_HIGHLIGHT_TEXT]Buildings[/COLOR] and additional [COLOR_ADVISOR_HIGHLIGHT_TEXT]Population[/COLOR].</Text>
+		</Row>
+		<!--Decisions-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DECISIONS_DESC">
+			<Text>A Decision Can Be Enacted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DECISIONS_HELP">
+			<Text>Your first [COLOR_ADVISOR_HIGHLIGHT_TEXT]Decision[/COLOR] is now available to be enacted! Decisions exchange [COLOR_ADVISOR_HIGHLIGHT_TEXT]Administrative Resources[/COLOR] such as Magistrates or Dignitaries for other bonuses. Sometimes, they also cost Yields such as Gold or Culture. Decisions are a useful way to gain quick bonuses.[NEWLINE][NEWLINE]More Decisions will become available as you advance through the Eras, found a Religion, from a Government, and adopt an Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DECISIONS_Q1_DESC">
+			<Text>What is an Administrative Resource?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DECISIONS_ADMINISTRATIVE_DESC">
+			<Text>Administrative Resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DECISIONS_ADMINISTRATIVE_HELP">
+			<Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]Administrative Resources[/COLOR] are resources used to enact [COLOR_ADVISOR_HIGHLIGHT_TEXT]Decisions[/COLOR]. They include Magistrates, Dignitaries, Captains, Clerics, and Inventors.[NEWLINE][NEWLINE]You begin the game with 2 of each Administrative Resource (except Clerics) but they are otherwise acquired by expending Great People for them. You receive 2 free Clerics when you found a Religion.</Text>
+		</Row>
+		<!--Development-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_INCREASE_DESC">
+			<Text>Your Development Increases!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_INCREASE_HELP">
+			<Text>The [COLOR_ADVISOR_HIGHLIGHT_TEXT]Building[/COLOR] you have just constructed increases [COLOR_ADVISOR_HIGHLIGHT_TEXT]Development[/COLOR], which is needed to ensure that a city can support its [COLOR_ADVISOR_HIGHLIGHT_TEXT]Population[/COLOR]. Cities must have at least as much Development as their Population Threshold, otherwise they will be affected by additional maluses. On the other hand, a city that has more Development than it needs will be given bonuses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_DEFICIT_DESC">
+			<Text>Your City is Under-Developed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_DEFICIT_HELP">
+			<Text>One of your cities is now in a [COLOR_ADVISOR_HIGHLIGHT_TEXT]Development Deficit[/COLOR]. This means that it has [COLOR_ADVISOR_HIGHLIGHT_TEXT]less Development[/COLOR] than it needs to support its [COLOR_ADVISOR_HIGHLIGHT_TEXT]Population[/COLOR]. This will result in additional [COLOR_ADVISOR_HIGHLIGHT_TEXT]Disease[/COLOR] and [COLOR_ADVISOR_HIGHLIGHT_TEXT]Crime[/COLOR] for the city until its Development is increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_SURPLUS_DESC">
+			<Text>Your City is Over-Developed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_SURPLUS_HELP">
+			<Text>One of your cities is now in a [COLOR_ADVISOR_HIGHLIGHT_TEXT]Development Surplus[/COLOR]. This means that it has [COLOR_ADVISOR_HIGHLIGHT_TEXT]more Development[/COLOR] than it needs to support its [COLOR_ADVISOR_HIGHLIGHT_TEXT]Population[/COLOR]. This will result in additional [COLOR_ADVISOR_HIGHLIGHT_TEXT]Health[/COLOR] and [COLOR_ADVISOR_HIGHLIGHT_TEXT]Happiness[/COLOR] for the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_Q1_DESC">
+			<Text>How can I increase Development?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_SOURCE_DESC">
+			<Text>Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_SOURCE_HELP">
+			<Text>All Buildings and National Wonders yield [COLOR_ADVISOR_HIGHLIGHT_TEXT]Development[/COLOR]. The value of this Development depends on the [COLOR_ADVISOR_HIGHLIGHT_TEXT]City District[/COLOR] to which they are assigned. Different Districts have different Development values. Buildings that belong in the Welfare District, for instance, yield more Development than Buildings that belong in the Military District.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_Q2_DESC">
+			<Text>What is a District?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_DISTRICTS_DESC">
+			<Text>City Districts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_DEVELOPMENT_DISTRICTS_HELP">
+			<Text>A [COLOR_ADVISOR_HIGHLIGHT_TEXT]District[/COLOR] is a category of Building, National Wonder, or World Wonder in your city. There are 10 District types, and each Building and Wonder belongs to specific type. District types determine a Building's or National Wonder's [COLOR_ADVISOR_HIGHLIGHT_TEXT]Development[/COLOR] value.</Text>
+		</Row>
+		<!--Epithet-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_EPITHETS_DESC">
+			<Text>You Have Been Awarded an Epithet!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_EPITHETS_HELP">
+			<Text>You have just been recognized by an [COLOR_ADVISOR_HIGHLIGHT_TEXT]Epithet[/COLOR]! An Epithet is a special title affixed to your leader's name that indicates something that you have become particularly known for, such as building Wonders or defeating Barbarians.[NEWLINE][NEWLINE]Epithets award unique bonuses for your civilization. However, you can only have one Epithet at a time, and if you are recognized by a new Epithet later, you will need to decide between the two.</Text>
+		</Row>
+		<!--Ideals-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_IDEALS_DESC">
+			<Text>About Ideals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_IDEALS_HELP">
+			<Text>Your civilization has access to unique [COLOR_ADVISOR_HIGHLIGHT_TEXT]Ideals[/COLOR]. These are unique Social Policies with [COLOR_ADVISOR_HIGHLIGHT_TEXT]special conditions[/COLOR] that you need to fulfill before they can be adopted.[NEWLINE][NEWLINE]Ideals still require [COLOR_ADVISOR_HIGHLIGHT_TEXT]Culture[/COLOR] to be spent to unlock them and often they can only be passed within a [COLOR_ADVISOR_HIGHLIGHT_TEXT]limited time-frame of eras[/COLOR], but they can be a source of powerful bonuses that go beyond the standard Social Policies.</Text>
+		</Row>
+		<!--Innovation-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_INNOVATIONS_DESC">
+			<Text>An Innovation Has Been Made!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_INNOVATIONS_HELP">
+			<Text>You have just made an [COLOR_ADVISOR_HIGHLIGHT_TEXT]Innovation[/COLOR] toward one of your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Technologies[/COLOR]. Innovations are small boosts in [COLOR_ADVISOR_HIGHLIGHT_TEXT]Science[/COLOR] toward specific Technologies made from completing certain actions.[NEWLINE][NEWLINE]Technologies are limited in how many Innovations can be made for them, and Innovations can only be made towards Technologies you haven't researched [COLOR_ADVISOR_HIGHLIGHT_TEXT]up to one Era beyond your current Era[/COLOR]. Information about specific Innovations can be seen when hovering over the [COLOR_ADVISOR_HIGHLIGHT_TEXT]Technology Icon[/COLOR].[NEWLINE][NEWLINE]Some Technologies do not have Innovations.</Text>
+		</Row>
+		<!--Investment-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_INVESTMENTS_DESC">
+			<Text>You Can Make an Investment!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_INVESTMENTS_HELP">
+			<Text>You now have enough [COLOR_ADVISOR_HIGHLIGHT_TEXT]Gold[/COLOR] to make an [COLOR_ADVISOR_HIGHLIGHT_TEXT]Investment[/COLOR]. Investments are an amount of Gold spent on a [COLOR_ADVISOR_HIGHLIGHT_TEXT]Building[/COLOR] or [COLOR_ADVISOR_HIGHLIGHT_TEXT]Wonder[/COLOR] to reduce its [COLOR_ADVISOR_HIGHLIGHT_TEXT]Production cost[/COLOR]. Up to 50% of a Building's and up to 25% of a Wonder's Production cost can be reduced with an Investment, but a Building or Wonder can only be Invested in once.</Text>
+		</Row>
+		<!--Privy Councillor-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_PRIVY_COUNCILLOR_DESC">
+			<Text>You Can Appoint a Advisory Councillor!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_PRIVY_COUNCILLOR_HELP">
+			<Text>The [COLOR_ADVISOR_HIGHLIGHT_TEXT]Great Person[/COLOR] that you just earned can be appointed as a [COLOR_ADVISOR_HIGHLIGHT_TEXT]Advisory Councillor[/COLOR] for your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Government[/COLOR]. Advisory Councillors grant permanent bonuses for your civilization, depending on their seat on the Advisory Council. Great People are restricted in what seat they can occupy, and each seat can only be filled by one Great Person at a time.[NEWLINE][NEWLINE]See the [COLOR_ADVISOR_HIGHLIGHT_TEXT]Government Overview[/COLOR] screen for more details on your Advisory Council.</Text>
+		</Row>
+		<!--Plague
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_PLAGUES_DESC">
+			<Text>A Plague Has Broken Out!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_PLAGUES_HELP">
+			<Text>One of your cities has just been hit by a [COLOR_ADVISOR_HIGHLIGHT_TEXT]Plague[/COLOR]! This means the city's [COLOR_ADVISOR_HIGHLIGHT_TEXT]Population[/COLOR] will consume more [COLOR_ADVISOR_HIGHLIGHT_TEXT]Food[/COLOR] until the Plague ends.[NEWLINE][NEWLINE]Plagues will happen from time to time when your city's [COLOR_ADVISOR_HIGHLIGHT_TEXT]Disease[/COLOR] remains higher than its [COLOR_ADVISOR_HIGHLIGHT_TEXT]Health[/COLOR] for too long. Plagues are almost impossible to prevent outright, but you can prepare for the next one by stocking up on Food! Focusing on your city's Health will also give you more time to prepare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_PLAGUES_Q1_DESC">
+			<Text>How can I prevent a Plague?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_PLAGUES_PREVENTION_DESC">
+			<Text>Preventing Plagues</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_PLAGUES_PREVENTION_HELP">
+			<Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]Plagues[/COLOR] are a part of your civilization's progress. Until the late game, you cannot prevent them, only prepare for them. You can do this by increasing a city's [COLOR_ADVISOR_HIGHLIGHT_TEXT]Health[/COLOR], as this will increase the amount of [COLOR_ADVISOR_HIGHLIGHT_TEXT]Disease[/COLOR] that it takes to trigger a Plague. Ensuring you have ample [COLOR_ADVISOR_HIGHLIGHT_TEXT]Food[/COLOR] before a Plague hits will also help you to mitigate the loss of your Citizens! A notification will alert you if a Plague is impending.</Text>
+		</Row>-->
+		<!--Plague Imminent
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_PLAGUES_IMMINENT_DESC">
+			<Text>A Plague Is Imminent!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_PLAGUES_IMMINENT_HELP">
+			<Text>One of your cities is expected to be hit by a [COLOR_ADVISOR_HIGHLIGHT_TEXT]Plague[/COLOR]! This means the city's [COLOR_ADVISOR_HIGHLIGHT_TEXT]Population[/COLOR] will consume more [COLOR_ADVISOR_HIGHLIGHT_TEXT]Food[/COLOR] until the Plague ends.[NEWLINE][NEWLINE]Plagues will happen from time to time when your city's [COLOR_ADVISOR_HIGHLIGHT_TEXT]Disease[/COLOR] remains higher than its [COLOR_ADVISOR_HIGHLIGHT_TEXT]Health[/COLOR] for too long. Plagues are almost impossible to prevent outright, but you can prepare for the next one by stocking up on Food! Focusing on your city's Health will also give you more time to prepare.</Text>
+		</Row>-->
+		<!--Reforms-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_REFORMS_FREE_DESC">
+			<Text>You Can Pass a Reform For Free!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_REFORMS_FREE_HELP">
+			<Text>You are able to pass a [COLOR_ADVISOR_HIGHLIGHT_TEXT]Free Reform[/COLOR][/COLOR]! A Free Reform can be passed without incurring the [COLOR_ADVISOR_HIGHLIGHT_TEXT]Cooldown[/COLOR] that passing a Reform would ordinarily invoke.[NEWLINE][NEWLINE]You still cannot pass a Free Reform whilst in an active Cooldown, however.</Text>
+		</Row>
+		<!--Slavery-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_SLAVERY_DESC">
+			<Text>You Have Produced Shackles!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_SLAVERY_HELP">
+			<Text>Your recent combat victory has produced [COLOR_ADVISOR_HIGHLIGHT_TEXT]Shackles[/COLOR] for your Civilization! Shackles are a special resource acquired through defeating Barbarian Units, conquering enemy Cities, or by trading with Occupied Cities, and can be spent in your cities to 'enslave' [COLOR_ADVISOR_HIGHLIGHT_TEXT]Military Units[/COLOR] or the special [COLOR_ADVISOR_HIGHLIGHT_TEXT]Labourer Unit[/COLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_SLAVERY_Q1_DESC">
+			<Text>What are 'Enslaved' Units?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_SLAVERY_ENSLAVEMENT_DESC">
+			<Text>Enslaved Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_SLAVERY_ENSLAVEMENT_HELP">
+			<Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]Enslaved Units[/COLOR] are Military Units that you have purchased with [COLOR_ADVISOR_HIGHLIGHT_TEXT]Shackles[/COLOR]. Mechanized Units such as Air, Armour, Naval, and Siege Units cannot be enslaved, but other standard Military Units can. These Units are cheap, but earn only 50% of the normal XP gained from battle. They also cost more to upgrade. They are best suited for quick defenses or as cannon-fodder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_SLAVERY_Q2_DESC">
+			<Text>What is a Labourer?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_SLAVERY_LABOURER_DESC">
+			<Text>You have produced Shackles!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_SLAVERY_LABOURER_HELP">
+			<Text>The Labourer is the only non-Military Unit that can be purchased with Shackles. It is like a Worker Unit, but has an additional Build Charge and requires no Maintenance. It cannot build Routes such as Roads and Railroads, however, and it cannot Repair Tiles.</Text>
+		</Row>
+		<!--State Religion-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_DESC">
+			<Text>You Have Established a State Religion!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_HELP">
+			<Text>You have established a [COLOR_ADVISOR_HIGHLIGHT_TEXT]State Religion[/COLOR]. Now that you have a State Religion, you will need to manage your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Piety Level[/COLOR] in order to ensure that your Religion remains strong.[NEWLINE][NEWLINE]A State Religion can be changed for a price in the [COLOR_ADVISOR_HIGHLIGHT_TEXT]Religion Overview[/COLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_FOUNDER_DESC">
+			<Text>Your Founder Belief is Important!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_FOUNDER_HELP">
+			<Text>The [COLOR_ADVISOR_HIGHLIGHT_TEXT]Founder Belief[/COLOR] that you choose for your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Religion[/COLOR] is an important choice to make. Once you research [COLOR_ADVISOR_HIGHLIGHT_TEXT]Priesthood[/COLOR], you will establish your Religion as your [COLOR_ADVISOR_HIGHLIGHT_TEXT]State Religion[/COLOR], and this Founder Belief will become your main way of generating [COLOR_ADVISOR_HIGHLIGHT_TEXT]Piety[/COLOR].[NEWLINE][NEWLINE]If you do not choose the right Founder Belief for your civilization, you may end up struggling to maintain your Piety!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_SECULARIZE_DESC">
+			<Text>You Can Secularize!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_SECULARIZE_HELP">
+			<Text>You can now [COLOR_ADVISOR_HIGHLIGHT_TEXT]Secularize[/COLOR]. This will dis-establish your [COLOR_ADVISOR_HIGHLIGHT_TEXT]State Religion[/COLOR] and eliminate the need to manage your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Piety[/COLOR]. This action [COLOR_ADVISOR_HIGHLIGHT_TEXT]cannot be undone[/COLOR], however, and you will lose the benefits of having a State Religion as well!</Text>
+		</Row>
+		<!--Questions-->
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_Q1_DESC">
+			<Text>What is Piety?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_PIETY_DESC">
+			<Text>Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_PIETY_HELP">
+			<Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]Piety[/COLOR] is the measurement of how much you are perceived to be following the tenets of your [COLOR_ADVISOR_HIGHLIGHT_TEXT]State Religion[/COLOR]. As time and your followers (including other Civilizations and City-States!) increase, your Piety will fall. You will need to maintain it in order to ensure that your people do not become disillusioned and [COLOR_ADVISOR_HIGHLIGHT_TEXT]convert away[/COLOR] from your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_Q2_DESC">
+			<Text>What is Piety Level?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_PIETY_LEVEL_DESC">
+			<Text>Piety Level</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_PIETY_LEVEL_HELP">
+			<Text>Your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Piety Level[/COLOR] is an important measurement of the strength of your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Piety[/COLOR]. There are five levels, from Devout to Heretical, and each comes with its own bonuses or penalties. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Devout[/COLOR] and [COLOR_ADVISOR_HIGHLIGHT_TEXT]Virtuous[/COLOR] are considered 'good' Piety Levels and offer bonuses such as increased religious pressure. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Poor[/COLOR] and [COLOR_ADVISOR_HIGHLIGHT_TEXT]Heretical[/COLOR] are considered 'bad' Piety Levels and impose penalties such as decreased religious pressure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_Q3_DESC">
+			<Text>What is Piety Resting Rate?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_PIETY_RESTING_RATE_DESC">
+			<Text>Piety Resting Rate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_PIETY_RESTING_RATE_HELP">
+			<Text>Your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Resting Rate[/COLOR] is the baseline for your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Piety[/COLOR]. You will not lose Piety each turn once you reach this threshold, and if you fall below it, you will steadily regain Piety. The [COLOR_ADVISOR_HIGHLIGHT_TEXT]number of Civilizations and City-States following your State Religion[/COLOR] (including yourself) determines how quickly your Piety will fall or recover.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_Q4_DESC">
+			<Text>How do I increase the Piety Resting Rate?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_PIETY_RESTING_INCREASE_DESC">
+			<Text>Increasing Piety Resting Rate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_PIETY_RESTING_INCREASE_HELP">
+			<Text>Your [COLOR_ADVISOR_HIGHLIGHT_TEXT]Piety Resting Rate[/COLOR] can be increased by owning [COLOR_ADVISOR_HIGHLIGHT_TEXT]Holy Cities[/COLOR], including those of other Religions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_JFD_STATE_RELIGION_Q5_DESC">
+			<Text>How do I increase Piety?</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

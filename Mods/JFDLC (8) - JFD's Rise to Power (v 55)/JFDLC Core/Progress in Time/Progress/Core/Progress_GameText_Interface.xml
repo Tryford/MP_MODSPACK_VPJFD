@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--GREAT PEOPLE LIST-->
+		<Row Tag="TXT_KEY_GP_DIRECTOR_DETAILS">
+			<Text>[ICON_PLUS] Great Directors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_DIRECTOR_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Directors</Text>
+		</Row>
+		<!--TECH TREE-->
+		<Row Tag="TXT_KEY_JFD_EXTRA_WORKBOAT_CHARGES" >
+			<Text>+{1_Num} [ICON_WORKER] Build Charges for Work Boats.</Text>
+		</Row>
+		<!--UNIT PANEL-->
+		<Row Tag="TXT_KEY_UPANEL_JFD_CHARGES" >
+			<Text>Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_JFD_CHARGES_STATS" >
+			<Text>{1_Num}/{2_Num} [ICON_WORKER]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_JFD_CHARGES_TT" >
+			<Text>The number of [ICON_WORKER] Improvements this unit can build before being expended ({1_Num}/{2_Num}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CHARGES">
+			<Text>[ICON_WORKER] Build Charges: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_NUM_CHARGES">
+			<Text>{1_Num} Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CHARGES_LABEL">
+			<Text>Charges:</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

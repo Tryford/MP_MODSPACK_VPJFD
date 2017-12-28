@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_JFD_DISABLED">
+			<Text>Disabled</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_UNAVALIABLE">
+			<Text>Unavaliable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_UNKNOWN">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NO_INFORMATION">
+			<Text>No Information</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EMBASSY_REQUIRED">
+			<Text>This information is only available if you have an Embassy with this Civilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_UNCONSTRUCTED">
+			<Text>Not Constructed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOT_APPLICABLE">
+			<Text>Not Applicable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ABOLISHED">
+			<Text>[COLOR_NEGATIVE_TEXT]Abolished[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY">
+			<Text>[ICON_JFD_SOVEREIGNTY] Sovereignty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY">
+			<Text>[ICON_JFD_PIETY] Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FAITH">
+			<Text>[ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CULTURE">
+			<Text>[ICON_CULTURE] Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOLDEN_AGE_POINTS">
+			<Text>[ICON_GOLDEN_AGE] Golden Age Points</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SCIENCE">
+			<Text>[ICON_RESEARCH] Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TOURISM">
+			<Text>[ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOLD">
+			<Text>[ICON_GOLD] Gold</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_TP_ANARCHY">
+			<Text>[COLOR_NEGATIVE_TEXT]The empire is in [ICON_RESISTANCE] Anarchy for {1_Turns} more turn(s). During Anarchy, the empire will not gain any [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_CULTURE] Culture, or [ICON_PEACE] Faith, and cities have no [ICON_PRODUCTION] Production to build anything. You also may not change your State Religion.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_YIELD_FROM_ART_CBO_FAITH">
+			<Text>{1_Num} [ICON_PEACE] from Great Works and Themes</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_JFD_PIETY_NATURAL_WONDER_DISCOVERED">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num} [ICON_JFD_PIETY][ENDCOLOR] from the discovery of [COLOR_POSITIVE_TEXT]{2_NaturalWonderDesc}[ENDCOLOR]!</Text>
+		</Row>
+		<!--CITY STATE POPUP-->
+		<Row Tag="TXT_KEY_POP_CSTATE_STATE_RELIGION">
+			<Text>State Religion: {1_ReligionIcon} {2_ReligionName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_STATE_RELIGION_NONE">
+			<Text>State Religion: None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_STATE_RELIGION_SECULAR">
+			<Text>State Religion: None (Secular)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SHOW_PIETY_GIFTS_BUTTON">
+			<Text>Grant Indulgences</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SHOW_PIETY_GIFTS_BUTTON_TT">
+			<Text>You may spend [ICON_JFD_PIETY] Piety to improve your [ICON_INFLUENCE] Influence with this City-State, so long as they follow {1_ReligionIcon} {2_ReligionDesc} as their State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_GIFT_LARGE">
+			<Text>{1_Num} [ICON_JFD_PIETY] Piety - will earn {2_Num} [ICON_INFLUENCE] Influence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_GIFT_MEDIUM">
+			<Text>{1_Num} [ICON_JFD_PIETY] Piety - will earn {2_Num} [ICON_INFLUENCE] Influence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_GIFT_SMALL">
+			<Text>{1_Num} [ICON_JFD_PIETY] Piety - will earn {2_Num} [ICON_INFLUENCE] Influence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_GIFT_TT">
+			<Text>Over time, the amount of [ICON_INFLUENCE] Influence earned from gifts of [ICON_JFD_PIETY] Piety goes down. Additionally, the more [ICON_JFD_PIETY] Piety you give in a single gift, the more [ICON_INFLUENCE] Influence is earned - making larger gifts is more efficient!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_GIFT_STATUS_TT">
+			<Text>{1_Num} [ICON_INFLUENCE] Influence is needed to be Friends, and {2_Num} is needed to be Allies. You currently have {3_Num} [ICON_INFLUENCE].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_JFD_SPEND_PIETY">
+			<Text>Are you sure you want to spend {1_Num} [ICON_JFD_PIETY] Piety for {2_Num} [ICON_INFLUENCE] Influence?</Text>
+		</Row>
+		<!--CHOOSE BELIEF POPUP-->
+		<Row Tag="TXT_KEY_CHOOSE_BELIEF_FILTER_TT">
+			<Text>Filter Beliefs by word.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Right-click to dismiss.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_BELIEF_LOCK_TT">
+			<Text>Taken by [COLOR_POSITIVE_TEXT]{1_CivDesc}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_BELIEF_LOCK_TT_UNMET">
+			<Text>an unmet Civilization</Text>
+		</Row>
+		<!--CHOOSE RELIGION POPUP-->
+		<Replace Tag="TXT_KEY_CHOOSE_RELIGION_ALREADY_FOUNDED">
+			<Text>{1_ReligionName} was already founded by [COLOR_POSITIVE_TEXT]{2_CivName}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_RELIGION_CONFIRM">
+			<Text>Are you sure you wish to found [COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR]?</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_RELIGION_CONFIRM_ENHANCE">
+			<Text>Are you ready to enhance [COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR]?</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_CHOOSE_RELIGION_FOLLOWER_BELIEF2_MISSION">
+			<Text>Follower (Mission) Belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOLLOWER_BELIEF2_PIETY">
+			<Text>Select a Follower Belief (bonus for each city following religion).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_RELIGION_FOLLOWER_BELIEF3">
+			<Text>Follower (Worship) Belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOLLOWER_BELIEF3">
+			<Text>Select a Follower Belief (bonus for each city following religion).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_FOUNDER_TITLE">
+			<Text>Choose a Founder Belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_FOLLOWER_TITLE">
+			<Text>Choose a Follower Belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ENHANCER_TITLE">
+			<Text>Choose a Founder Belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_BONUS_TITLE">
+			<Text>Choose a Bonus Belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_CLICK_TO_CUTSOMIZE">
+			<Text>(click to customize)</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_CHOOSE_RELIGION_FOUNDED_IN">
+			<Text>{1_DateYear}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CHOOSE_RELIGION_FOUNDER">
+			<Text>{1_UnitDesc}</Text>
+		</Replace>
+		<!--GREAT PEOPLE LIST-->
+		<Row Tag="TXT_KEY_GP_PROPHET_DETAILS">
+			<Text>[ICON_PLUS] Great Prophets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_PROPHET_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Prophets</Text>
+		</Row>
+		<!--NOTIFICATIONS-->
+		<!--Majority Religion-->
+		<Replace Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_MAJORITY_S">
+			<Text>Majority Religion Changes!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_MAJORITY">
+			<Text>{1_ReligionName} has become your new majority Religion. This shift in religious status may affect your relationship with other Civilizations, as well as your own population.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_STATE_RELIGION_S">
+			<Text>Primary Religion Changes!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_STATE_RELIGION">
+			<Text>{1_ReligionName} is now your primary Religion. You alone will benefit from [COLOR_POSITIVE_TEXT]Founder[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Reformation[ENDCOLOR] Beliefs related to {1_ReligionName}, and any Founder or Reformation Beliefs related to prior Religions are no longer valid.</Text>
+		</Replace>
+		<!-- Holy City Lost/Gained-->
+		<Replace Tag="TXT_KEY_NOTIFICATION_CITY_LOST_HOLY">
+			<Text>The Holy City of {1_CityName:textkey} was captured by {@2_CivName}! If {@2_CivName} is eliigble, {3_Religion} may become their primary Religion, thus giving them access to its Founder and Reformation Bonuses. If {3_Religion} was your primary Religion, you lose access to its Beliefs until you retake it.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_LOST_HOLY">
+			<Text>Holy City of {1_CityName:textkey} captured!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_CITY_GAINED_HOLY">
+			<Text>You captured the Holy City of {1_CityName:textkey}! If eligible, {2_Religion} may become your primary Relgion, thus giving you access to the [COLOR_POSITIVE_TEXT]Founder[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Reformation[ENDCOLOR] Belief bonuses associated with it (so long as you retain control of the City).</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_GAINED_HOLY">
+			<Text>Holy City of {1_CityName:textkey} taken!</Text>
+		</Replace>
+		<!--Religion Adoptable-->
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CAN_ADOPT_NOTIFICATION_TEXT">
+			<Text>You may adopt a State Religion![NEWLINE][NEWLINE]Go to the Religion Overview to do so.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CAN_ADOPT_NOTIFICATION_SHORT_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]May Adopt a State Religion[ENDCOLOR]</Text>
+		</Row>
+		<!--Religion Secularizeable-->
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CAN_SECULARIZE_NOTIFICATION_TEXT">
+			<Text>You may Secularize your State Religion![NEWLINE][NEWLINE]Go to the Religion Overview to do so.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CAN_SECULARIZE_NOTIFICATION_SHORT_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]May Secularize[ENDCOLOR]</Text>
+		</Row>
+		<!--Religion Founded-->
+		<Replace Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_ACTIVE_PLAYER">
+			<Text>You have founded the new religion [COLOR_POSITIVE_TEXT]{@1_ReligionName}[ENDCOLOR]  in the holy city of {@2_CityName}.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED">
+			<Text>{1_CivName} {1: plural 1?has; 2?have;} founded the new religion [COLOR_POSITIVE_TEXT]{@2_ReligionName}[ENDCOLOR] in the holy city of {@3_CityName}.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_UNKNOWN">
+			<Text>An unknown civilization has founded the new religion [COLOR_POSITIVE_TEXT]{@1_ReligionName}[ENDCOLOR] in one of their cities.</Text>
+		</Replace>
+		<!--State Religion Adopted-->
+		<Row Tag="TXT_KEY_JFD_PANTHEON_FOUNDED_NOTIFICATION_TEXT">
+			<Text>We have founded a [COLOR_POSITIVE_TEXT]Pantheon[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_NOTIFICATION_SHORT_TEXT">
+			<Text>State Religion adopted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_ADOPT_NOTIFICATION_TEXT">
+			<Text>You have adopted [COLOR_POSITIVE_TEXT]{1_Religion}[ENDCOLOR] as your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_ADOPT_NOTIFICATION_OTHER_TEXT">
+			<Text>{1_CivName} has adopted [COLOR_POSITIVE_TEXT]{2_Religion}[ENDCOLOR] as their State Religion.</Text>
+		</Row>
+		<!--State Religion Changed-->
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANGED_NOTIFICATION_SHORT_TEXT">
+			<Text>State Religion changed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANGE_NOTIFICATION_TEXT">
+			<Text>You have adopted [COLOR_POSITIVE_TEXT]{1_Religion}[ENDCOLOR] as your new State Religion, replacing [COLOR_NEGATIVE_TEXT]{2_Religion}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANGE_NOTIFICATION_OTHER_TEXT">
+			<Text>{1_CivName} has adopted [COLOR_POSITIVE_TEXT]{2_Religion}[ENDCOLOR] as their new State Religion, replacing [COLOR_NEGATIVE_TEXT]{3_Religion}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANGED_PIETY_LOST_ALERT">
+			<Text>[COLOR_JFD_PIETY]-{1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR] from [COLOR_NEGATIVE_TEXT]changing[ENDCOLOR] your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANGED_PIETY_GAIN_ALERT">
+			<Text>[COLOR_JFD_PIETY]+{1_Num} [ICON_JFD_PIETY] Piety[ENDCOLOR] from [COLOR_POSITIVE_TEXT]changing[ENDCOLOR] your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANGED_ANARCHY_ALERT_STATE_RELIGION">
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_RESISTANCE] Resistance has broken out over your recent change in State Religion![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANGED_ANARCHY_ALERT_SECULARIZE">
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_RESISTANCE] Resistance has broken out over your recent Secularization![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANGED_FAITH_ALERT_STATE_RELIGION">
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_PEACE] Faith has been lost over your recent change in State Religion![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANGED_FAITH_ALERT_SECULARIZE">
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_PEACE] Faith has been lost over your recent Secularization![ENDCOLOR]</Text>
+		</Row>
+		<!--Secularization-->
+		<Row Tag="TXT_KEY_JFD_SECULARIZATION_NOTIFICATION_SHORT_TEXT">
+			<Text>Secularization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SECULARIZATION_NOTIFICATION_TEXT">
+			<Text>You have [COLOR_POSITIVE_TEXT]Secularized[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SECULARIZATION_NOTIFICATION_OTHER_TEXT">
+			<Text>{1_CivName} has [COLOR_POSITIVE_TEXT]Secularized[ENDCOLOR].</Text>
+		</Row>
+		<!--Piety Level-->
+		<Row Tag="TXT_KEY_JFD_PIETY_LEVEL_NOTIFICATION_SHORT_TEXT">
+			<Text>Piety Level Changed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_LEVEL_NOTIFICATION_TEXT">
+			<Text>Your [ICON_JFD_PIETY] Piety is now considered {1_PietyColour}{2_PietyLevel}[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Left-click to bring up the Religion Overview, to see how your Piety is generated.[ENDCOLOR]</Text>
+		</Row>
+		<!--TOP PANEL-->
+		<Row Tag="TXT_KEY_JFD_PIETY_TOP_PANEL_TT_STATE_RELIGION">
+			<Text>Your State Religion is [COLOR_POSITIVE_TEXT]{1_ReligionIcon} {2_ReligionDesc}[ENDCOLOR].[NEWLINE][NEWLINE]Your main source of [ICON_JFD_PIETY] Piety is gained from [COLOR_POSITIVE_TEXT]{3_FollowerDesc}[ENDCOLOR]:[NEWLINE][ICON_BULLET]{4_FollowerHelp}[NEWLINE][NEWLINE]Other sources:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_TOP_PANEL_TT_STATE_RELIGION_NW_PIETY">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] when discovering a Natural Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_TOP_PANEL_TT_STATE_RELIGION_PROPHET_PIETY">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] when expending a Great Prophet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_TOP_PANEL_TT_PAGAN">
+			<Text>You are Pagan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_TOP_PANEL_TT_NO_STATE_RELIGION">
+			<Text>You have no State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_TOP_PANEL_TT_SECULAR">
+			<Text>You are a Secular State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_JFD_PIETY_TT">
+			<Text>Your Piety Level is considered {1_PietyColor}{2_PietyLevel}[ENDCOLOR].[NEWLINE]Piety Level changes at: {1_PietyColor}{8_Num}[ENDCOLOR] ({3_HL}{4_Num}[ENDCOLOR] Turns).[NEWLINE][NEWLINE]You maintain {1_PietyColor}{5_Num}[ENDCOLOR] [ICON_JFD_PIETY] Piety in total ({3_HL}{6_Num}[ENDCOLOR] Per Turn).{7_Source}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_JFD_PIETY_TT_EUI">
+			<Text>You maintain {1_PietyColor}{5_Num}[ENDCOLOR] [ICON_JFD_PIETY] Piety in total.[NEWLINE]Your [ICON_JFD_PIETY] Piety is considered {3_HL}{2_PietyLevel}[ENDCOLOR].[NEWLINE][NEWLINE]Piety Level changes: [COLOR_JFD_PIETY]{4_Num} TURNS[ENDCOLOR][NEWLINE][NEWLINE][COLOR_JFD_PIETY]{6_Num}[ENDCOLOR] Piety [ICON_JFD_PIETY] Per Turn[NEWLINE]{7_Source}</Text>
+		</Row>
+		<!--Piety Rate-->
+		<Row Tag="TXT_KEY_JFD_PIETY_RATE">
+			<Text>[ICON_JFD_PIETY]{1_PietyHL}{2_CurrentPiety}[COLOR_JFD_PIETY]/{3_MaxPiety}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_TOP_PANEL_NOTE">
+			<Text>[ICON_JFD_PIETY] Piety Rate will be re-calculated at the beginning of each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RATE_TT">
+			<Text>{1_PietyHL}{2_CurrentPiety}[COLOR_JFD_PIETY]/{3_MaxPiety}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RATE_EUI">
+			<Text>{1_PietyHL}{2_CurrentPiety}[COLOR_JFD_PIETY_NEUTRAL]({3_Rate})[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_RATE_POSITIVE">
+			<Text>[COLOR_JFD_PIETY]{1_Num}[ENDCOLOR] Per Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_RATE_NEGATIVE">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] Per Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_HERETICAL_CITIES">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from Cities not following your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_HERETICAL_CITIES_OTHER">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from Cities not following your State Religion of Civilizations that are.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_IDEOLOGY">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_INQUISITION">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from Cities under Inquisition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_MANDATE_OF_HEAVEN">
+			<Text>[COLOR_POSITIVE_TEXT]No Rate[ENDCOLOR] from Mandate of Heaven.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_WARS">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from war with Civilizations following your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_OTHER_CIVILIZATIONS">
+			<Text>[NEWLINE]   [ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from Civilizations following your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_OTHER_CITY_STATE">
+			<Text>[NEWLINE]   [ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from City-States following your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_ABOVE_THRESHOLD">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from being above your Resting Rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_ABOVE_THRESHOLD_CIVILIZATIONS">
+			<Text>[NEWLINE]   [ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from Civilizations with your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_ABOVE_THRESHOLD_CITY_STATES">
+			<Text>[NEWLINE]   [ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from City-States with your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_BELOW_THRESHOLD">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from being below your Resting Rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_BELOW_THRESHOLD_CIVILIZATIONS">
+			<Text>[NEWLINE]   [ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from Civilizations with your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_BELOW_THRESHOLD_CITY_STATES">
+			<Text>[NEWLINE]   [ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from City-States with your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_ON_THRESHOLD">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] from being at your Resting Rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TP_PIETY_TOOLTIP_PIETY_SOURCES_HELP">
+			<Text>In addition to from certain Beliefs, Decisions, Events, Policies, and Wonders, you earn Piety whenever a Civilization or City-State adopts your State Religion. If for the first time, the amount is greater.</Text>
+		</Row>
+		<!--Piety Resting Rate-->
+		<Row Tag="TXT_KEY_JFD_PIETY_RESTING_RATE">
+			<Text>Your resting rate is {1_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RESTING_RATE_TT">
+			<Text>Your [ICON_JFD_PIETY] Piety rests at [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR].{2_RestingRateSources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RESTING_RATE_FROM_BUILDINGS">
+			<Text>{1_TextHL}{2_Num}[ENDCOLOR] from Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RESTING_RATE_FROM_EPITHETS">
+			<Text>{1_TextHL}{2_Num}[ENDCOLOR] from Epithets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RESTING_RATE_FROM_HOLY_CITY">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from holding the Holy City for your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RESTING_RATE_FROM_HOLY_CITY_OTHER">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from other Holy City Owners following your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RESTING_RATE_FROM_REFORMS">
+			<Text>{1_TextHL}{2_Num}[ENDCOLOR] from Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RESTING_RATE_FROM_POLICIES">
+			<Text>{1_TextHL}{2_Num}[ENDCOLOR] from Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_RESTING_RATE_FROM_TRAITS">
+			<Text>{1_TextHL}{2_Num}[ENDCOLOR] from Traits.</Text>
+		</Row>
+		<!--Piety Yield-->
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_TT">
+			<Text>You earn [ICON_JFD_PIETY] Piety at [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] from all sources.{2_YieldSources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_FROM_BUILDINGS">
+			<Text>{1_Num}%[ENDCOLOR] from Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_FROM_EPITHETS">
+			<Text>{1_Num}[ENDCOLOR] from Epithets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_FROM_GAME_SPEED">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] from Game Speed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_FROM_IDEOLOGY">
+			<Text>{1_Num}%[ENDCOLOR] from Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_FROM_REFORMS">
+			<Text>{1_Num}%[ENDCOLOR] from Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_FROM_POLICIES">
+			<Text>{1_Num}%[ENDCOLOR] from Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_YIELD_FROM_TRAITS">
+			<Text>{1_Num}%[ENDCOLOR] from Traits.</Text>
+		</Row>
+		<!--CHOOSE RELIGION POPUP-->
+		<Row Tag="TXT_KEY_CHOOSE_RELIGION_PREFERENCE_TT">
+			<Text>This religion is your civilization's preference.</Text>
+		</Row>
+		<!--RELIGION OVERVIEW-->
+		<Row Tag="TXT_KEY_JFD_RELIGION_OVERVIEW_OVERVIEW_DROPDOWN">
+			<Text>Religion Overview</Text>
+		</Row>
+		<!--Found Pantheon-->
+		<Row Tag="TXT_KEY_JFD_FOUND_PANTHEON_BUTTON">
+			<Text>Found Pantheon</Text>
+		</Row>
+		<!--Your Religion Panel-->
+		<Replace Tag="TXT_KEY_RO_STATUS_FOUNDER">
+			<Text>Founder of {1_FontIcon} {2_ReligionDesc}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RO_STATUS_ADOPTER">
+			<Text>Adopter of {1_FontIcon} {2_ReligionDesc}</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION">
+			<Text>Your State Religion:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION_STATUS">
+			<Text>You have no Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION_STATUS_SECULAR">
+			<Text>You have Secularized</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION_STATUS_PAGAN">
+			<Text>You are Pagan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION_STATUS_PAGAN_TT">
+			<Text>You must have researched Priesthood to adopt a State Religion. There must be a valid Religion and you must have met the founder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION_STATUS_CHANGE">
+			<Text>{1_ReligionDesc} (click to change)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION_STATUS_CHANGE_TT">
+			<Text>You must have researched Priesthood to [COLOR_POSITIVE_TEXT]adopt[ENDCOLOR] a State Religion. There must be a valid Religion and you must have met the founder.[NEWLINE][NEWLINE]You may [COLOR_POSITIVE_TEXT]Secularize[ENDCOLOR] your State Religion once you have researched Scientific Theory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION_STATUS_CHANGE_TT_EE">
+			<Text>You must have researched Priesthood to [COLOR_POSITIVE_TEXT]adopt[ENDCOLOR] a State Religion. There must be a valid Religion and you must have met the founder.[NEWLINE][NEWLINE]You may [COLOR_POSITIVE_TEXT]Secularize[ENDCOLOR] your State Religion once you have researched Liberalism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION_STATUS_CHANGE_TT_DISABLED_FAITH">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You do not have enough [ICON_PEACE] Faith.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_YOUR_STATE_RELIGION_STATUS_CHANGE_TT_DISABLED_THEOCRACY">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You are a Theocracy and cannot do this.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_BUTTON_ADOPT_STATE_RELIGION">
+			<Text>[ICON_MOVES] Adopt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_BUTTON_CHANGE_STATE_RELIGION">
+			<Text>[ICON_MOVES] Change</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_BUTTON_SECULARIZE">
+			<Text>[ICON_RESEARCH] Secularize</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_JFD_PIETY">
+			<Text>[ICON_JFD_PIETY][COLOR_JFD_PIETY]PIETY: [ENDCOLOR]{1_Piety}[COLOR_JFD_PIETY]/{2_MaxPiety}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_JFD_PIETY_TT">
+			<Text>Your [ICON_JFD_PIETY] Piety is considered {1_PietyColor}{2_PietyLevel}[ENDCOLOR] ({3_PietyRate})[NEWLINE]{4_Source}</Text>
+		</Row>
+		<!--Choose State Religion Popup-->
+		<Row Tag="TXT_KEY_JFD_CHOOSE_STATE_RELIGION_MENU">
+			<Text>CHOOSE A STATE RELIGION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ESTABLISH_AS_STATE_RELIGION_BUTTON">
+			<Text>Establish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ESTABLISH_AS_STATE_RELIGION_BUTTON_TT">
+			<Text>Choose a religion from the list above</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BACK_BUTTON">
+			<Text>Back</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ESTABLISH_SECULARIZATION">
+			<Text>Secularization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ESTABLISH_SECULARIZATION_TT">
+			<Text>Your civilization will become a Secular nation, disabling your State Religion and [ICON_JFD_PIETY] Piety.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ESTABLISH_SECULARIZATION_TT_CRIMES">
+			<Text>Your civilization will become a Secular nation, disabling your State Religion and [ICON_JFD_PIETY] Piety.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Secular[ENDCOLOR][NEWLINE]Eliminates [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_FAITH] Heresy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_SECULARIZATION_MENU_TOOLTIP">
+			<Text>Your civilization will become a Secular nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_SECULARIZATION_MENU_TOOLTIP_ANARCHY_COST">
+			<Text>Your civilization will become a Secular nation.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will incur {1_Num} turn(s) of [ICON_RESISTANCE] Resistance in all cities following your current State Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_SECULARIZATION_MENU_TOOLTIP_FAITH_COST">
+			<Text>Your civilization will become a Secular nation.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost {1_Num} [ICON_PEACE] Faith.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_CONFIRM_JFD_SECULARIZE">
+			<Text>Are you sure you want to Secularize? [COLOR_WARNING_TEXT]This action cannot be undone.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_CONFIRM_JFD_SECULARIZE_ANARCHY_COST">
+			<Text>Are you sure you want to Secularize? [COLOR_WARNING_TEXT]This action cannot be undone and will incur {1_Num} turn(s) of [ICON_RESISTANCE] Resistance in all cities following your current State Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_CONFIRM_JFD_SECULARIZE_FAITH_COST">
+			<Text>Are you sure you want to Secularize? [COLOR_WARNING_TEXT]This action cannot be undone and will cost {1_Num} [ICON_PEACE] Faith.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_STATE_RELIGION_TT">
+			<Text>{1_ReligionDesc}[NEWLINE]{2_FounderDesc}[NEWLINE]{3_HolyCity}[NEWLINE]{4_FoundDate}[NEWLINE]{5_Beliefs}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_STATE_RELIGION_MENU_TOOLTIP">
+			<Text>{1_ReligionDesc} will be established as your State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_NEW_STATE_RELIGION_MENU_TOOLTIP">
+			<Text>{1_ReligionDesc} will be declared your new State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_NEW_STATE_RELIGION_MENU_TOOLTIP_ANARCHY_COST">
+			<Text>{1_ReligionDesc} will be declared your new State Religion.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will incur {2_Num} turn(s) of [ICON_RESISTANCE] Resistance in all cities following your current State Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_NEW_STATE_RELIGION_MENU_TOOLTIP_FAITH_COST">
+			<Text>{1_ReligionDesc} will be declared your new State Religion.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost {2_Num} [ICON_PEACE] Faith.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_CONFIRM_JFD_STATE_RELIGION">
+			<Text>Are you sure you want to adopt {1_ReligionDesc} as your State Religion?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_CONFIRM_JFD_STATE_RELIGION_ANARCHY_COST">
+			<Text>Are you sure you want to adopt {1_ReligionDesc} as your State Religion? [COLOR_WARNING_TEXT]This will incur {2_Num} turn(s) of [ICON_RESISTANCE] Resistance in all cities following your current State Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_CONFIRM_JFD_STATE_RELIGION_FAITH_COST">
+			<Text>Are you sure you want to adopt {1_ReligionDesc} as your State Religion? [COLOR_WARNING_TEXT]This will cost {2_Num} [ICON_PEACE] Faith.[ENDCOLOR]</Text>
+		</Row>
+		<!--State Religions Panel-->
+		<Row Tag="TXT_KEY_RO_TAB_JFD_STATE_RELIGIONS">
+			<Text>State Religions</Text>
+		</Row>
+		<!--No State Religion-->
+		<Row Tag="TXT_KEY_JFD_NO_STATE_RELIGIONS">
+			<Text>You have not met any civilizations with a State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGIONS_TT">
+			<Text>They have a {1_Num}% chance to adopt [COLOR_POSITIVE_TEXT]{2_Religion}[ENDCOLOR] as their State Religion.[NEWLINE][NEWLINE]You can increase this chance by improving your relationship with them. This chance also peaks in the Medieval and Renaissance Eras.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGIONS_TT_DISABLED">
+			<Text>They cannot adopt a State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGIONS_TT_NO_DESIRE">
+			<Text>They have no desire to adopt a State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGIONS_TT_SAME">
+			<Text>They have no desire to change their State Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGIONS_TT_SECULAR_NONE">
+			<Text>They have no desire to secularize.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGIONS_TT_SECULAR">
+			<Text>They have a {1_Num}% chance to secularize.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_FOUNDED_AND_CAPITAL">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]They have founded {1_ReligionDesc} and their Capital follows it.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_LITHUANIA">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]They prefer their Pagan beliefs.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_THEOCRACY">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]As a Theocracy, they will not relinquish their State Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_NO_CONDITIONS">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]They have not met the conditions to establish a State Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_NO_CONDITIONS_SECULARIZE">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]They have not met the conditions to Secularize.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_NO_INTEREST">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]They have no interest in having a State Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_TOO_RECENT">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]They changed their State Religion recently. They will reconsider in {1_Num} Turn(s).[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_TOO_RECENT_SECULARIZE">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]They changed their State Religion recently. They will consider Secularizing in {1_Num} Turn(s).[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_NO_RELIGION">
+			<Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]They do not have a religion in the majority of their cities or in their Capital.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_STATE_RELIGION_FLAVOUR">
+			<Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]They are too committed to their State Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_CHANCE_RELIGIOUS_CITY_STATE">
+			<Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]As a Religious City-State, they will never Secularize.[ENDCOLOR]</Text>
+		</Row>
+		<!--Civilization-->
+		<Row Tag="TXT_KEY_JFD_CIVILIZATION_PANEL">
+			<Text>Civilization</Text>
+		</Row>
+		<!--State Religion-->
+		<Row Tag="TXT_KEY_JFD_STATE_RELIGION_PANEL">
+			<Text>State Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NO_STATE_RELIGION_PAGAN">
+			<Text>Pagan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NO_STATE_RELIGION_SECULAR">
+			<Text>Secular</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NO_STATE_RELIGION_NONE">
+			<Text>No State Religion</Text>
+		</Row>
+		<!--Religious Founder-->
+		<Row Tag="TXT_KEY_JFD_NO_FOUNDER">
+			<Text>Not Organized</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FOUNDER_PANEL">
+			<Text>Founder</Text>
+		</Row>
+		<!--Religion Beliefs Panel-->
+		<Replace Tag="TXT_KEY_RO_TAB_BELIEFS">
+			<Text>World Beliefs</Text>
+		</Replace>
+		<!--Religion Map Panel-->
+		<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
+			<Text>Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
+			<Text>Followers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_TAB_MAP">
+			<Text>World Map</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HAS_ADOPTED_STATE_RELIGION">
+			<Text>State Religion: {1_ReligionName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RO_PIETY_THRESHOLD">
+			<Text>[ICON_BULLET][COLOR_JFD_PIETY]Resting Rate:[ENDCOLOR] {1_PietyRestingRate}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RO_PIETY_TOOLTIP_NO_STATE_RELIGION">
+			<Text>Need a State Religion in order to have [ICON_JFD_PIETY] Piety. Go to the Decisions Panel to establish a State Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RO_PIETY_TOOLTIP_NO_STATE_RELIGION_SECULAR">
+			<Text>Need a State Religion in order to have [ICON_JFD_PIETY] Piety. But you have secularized. Sorry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SECULAR_STATE">
+			<Text>(Secular State)</Text>
+		</Row>
+		<!--Piety Levels Help-->
+		<Row Tag="TXT_KEY_JFD_PIETY_ACTIVE_EFFECTS">
+			<Text>Active effects</Text>
+		</Row>
+		<!--Your Piety Level-->
+		<!--No State Religion-->
+		<Row Tag="TXT_KEY_JFD_NO_STATE_RELIGION">
+			<Text>No State Religion established.</Text>
+		</Row>
+		<!--State Religion-->
+		<Row Tag="TXT_KEY_JFD_YOUR_STATE_RELIGION">
+			<Text>{1_Color} {2_FounderAdjective} {3_StateReligion} [ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_YOUR_STATE_RELIGION_NEUTRAL">
+			<Text>{1_FounderAdjective} {2_StateReligion}</Text>
+		</Row>
+		<!--Piety-->
+		<Row Tag="TXT_KEY_JFD_PIETY_FROM_CONQUEST">
+			<Text>[COLOR_JFD_PIETY]+{1_Num} [ICON_JFD_PIETY][ENDCOLOR] from capturing a city with followers of [COLOR_POSITIVE_TEXT]{2_ReligionName}[ENDCOLOR] under the control of a heathen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_LOSS_FROM_CONQUEST">
+			<Text>[COLOR_JFD_PIETY]-{1_Num} [ICON_JFD_PIETY][ENDCOLOR] from losing a city with followers of [COLOR_NEGATIVE_TEXT]{2_ReligionName}[ENDCOLOR] to a heathen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_GAIN_FROM_ADOPTION">
+			<Text>[COLOR_JFD_PIETY]+{1_Num} [ICON_JFD_PIETY][ENDCOLOR] from {2_LeaderName}'s [COLOR_POSITIVE_TEXT]adoption[ENDCOLOR] of your State Religion!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_LOSS_FROM_ADOPTION">
+			<Text>[COLOR_JFD_PIETY]-{1_Num} [ICON_JFD_PIETY][ENDCOLOR] from {2_LeaderName}'s [COLOR_NEGATIVE_TEXT]abandoning[ENDCOLOR] of your State Religion!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_LOSS_FROM_SECULARIZATION">
+			<Text>[COLOR_JFD_PIETY]-{1_Num} [ICON_JFD_PIETY][ENDCOLOR] from {2_LeaderName}'s [COLOR_NEGATIVE_TEXT]secularization[ENDCOLOR] your State Religion!</Text>
+		</Row>
+		<!--World Religions Panel-->
+		<Row Tag="TXT_KEY_RO_WR_FOUND_DATE">
+			<Text>Year Founded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_UNKNOWN_FOUND_DATE">
+			<Text>0</Text>
+		</Row>
+		<!--SUKRITACT SUZERAINTY-->
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_1">
+			<Text>Your dedication to our religion is truly mesmerizing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_2">
+			<Text>Thank you. We promise to change our sinful ways from now on.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_3">
+			<Text>There is no one more pious than you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_4">
+			<Text>Splendid. A great weight has now lifted from this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_JFD_PIETY_GIFT_DIALOGUE_RESPONSE_5">
+			<Text>So we're absolved of our sins now, right?</Text>
+		</Row>
+		<!--VICTORIES-->
+		<!--<Row Tag="TXT_KEY_VP_RELIGIOUS_STATUS">
+			<Text>{1_ReligiousIcon} {2_Religion}[NEWLINE]Founder: {8_Player}[NEWLINE]Spread: {3_Spread}%/70%[NEWLINE]Followers: {4_Followers}/{5_MaxFollowers}[NEWLINE]Holy Cities: {6_ControlledHolyCities}/{7_MaxHolyCities}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RELIGIOUS_STATUS_UNMET">
+			<Text>{1_ReligiousIcon} {2_Religion}[NEWLINE]Founder: Unknown[NEWLINE]Spread: {3_Spread}%/70%[NEWLINE]Followers: {4_Followers}/{5_MaxFollowers}[NEWLINE]Holy Cities: {6_ControlledHolyCities}/{7_MaxHolyCities}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RELIGIOUS_STATUS_PLAYER">
+			<Text>{1_ReligiousIcon} {2_Religion}[NEWLINE]Founder: You[NEWLINE]Spread: {3_Spread}%/70%[NEWLINE]Followers: {4_Followers}/{5_MaxFollowers}[NEWLINE]Holy Cities: {6_ControlledHolyCities}/{7_MaxHolyCities}</Text>
+		</Row>-->
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,78 @@
+--==========================================================================================================================
+-- MISSIONS
+--==========================================================================================================================
+-- Missions
+------------------------------------------------------------------------------------------------------------------------
+--UPDATE Specialists
+--SET OrderPriority = 1
+--WHERE Type = 'SPECIALIST_JFD_GOVERNOR';
+--
+--UPDATE Specialists
+--SET OrderPriority = 2
+--WHERE Type = 'SPECIALIST_JFD_ADMIRAL';
+--
+--UPDATE Specialists
+--SET OrderPriority = 3
+--WHERE Type = 'SPECIALIST_JFD_ARISTIST';
+--
+--UPDATE Specialists
+--SET OrderPriority = 4
+--WHERE Type = 'SPECIALIST_JFD_ARISTOCRAT';
+--
+--UPDATE Specialists
+--SET OrderPriority = 5
+--WHERE Type = 'SPECIALIST_CIVIL_SERVANT';
+--
+--UPDATE Specialists
+--SET OrderPriority = 6
+--WHERE Type = 'SPECIALIST_DESCAMISADO';
+--
+--UPDATE Specialists
+--SET OrderPriority = 7
+--WHERE Type = 'SPECIALIST_JFD_DIGNITARY';
+--
+--UPDATE Specialists
+--SET OrderPriority = 8
+--WHERE Type = 'SPECIALIST_JFD_DIRECTOR';
+--
+--UPDATE Specialists
+--SET OrderPriority = 9
+--WHERE Type = 'SPECIALIST_JFD_DOCTOR';
+--
+--UPDATE Specialists
+--SET OrderPriority = 10
+--WHERE Type = 'SPECIALIST_ENGINEER';
+--
+--UPDATE Specialists
+--SET OrderPriority = 11
+--WHERE Type = 'SPECIALIST_GENERAL';
+--
+--UPDATE Specialists
+--SET OrderPriority = 12
+--WHERE Type = 'SPECIALIST_JFD_MAGISTRATE';
+--
+--UPDATE Specialists
+--SET OrderPriority = 13
+--WHERE Type = 'SPECIALIST_MERCHANT';
+--
+--UPDATE Specialists
+--SET OrderPriority = 14
+--WHERE Type = 'SPECIALIST_JFD_MONK';
+--
+--UPDATE Specialists
+--SET OrderPriority = 15
+--WHERE Type = 'SPECIALIST_JFD_MUSICIAN';
+--
+--UPDATE Specialists
+--SET OrderPriority = 16
+--WHERE Type = 'SPECIALIST_JFD_OFFICER';
+--
+--UPDATE Specialists
+--SET OrderPriority = 17
+--WHERE Type = 'SPECIALIST_JFD_SCIENTIST';
+--
+--UPDATE Specialists
+--SET OrderPriority = 18
+--WHERE Type = 'SPECIALIST_JFD_WRITER';
+--==========================================================================================================================
+--==========================================================================================================================

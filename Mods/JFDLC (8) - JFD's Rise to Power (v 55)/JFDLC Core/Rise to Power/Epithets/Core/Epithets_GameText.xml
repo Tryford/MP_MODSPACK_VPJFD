@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/23/2014 11:10:53 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_EPITHETS_HEADING1_TITLE">
+			<Text>Epithets: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EPITHETS_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Epithets[ENDCOLOR] are rewards that you may acquire by pursuing particular conditions. For instance, constructing Wonders may award you the epithet of 'the Builder,' with the chance increasing the more you build Wonders.[NEWLINE][NEWLINE]For a list of Epithets, see the Wikia in the real world.</Text>
+		</Row>
+		<!--EPITHETS-->
+		<!--The Affluent-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_AFFLUENT_SHORT_DESC">
+			<Text>the Affluent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_AFFLUENT_DESC">
+			<Text>+1 [ICON_GOLD] Gold on Customs Houses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_AFFLUENT_HELP">
+			<Text>Reputation of your many esteemed merchants has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--Augustus-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_AUGUSTUS_SHORT_DESC">
+			<Text>Augustus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_AUGUSTUS_DESC">
+			<Text>+1 [ICON_PRODUCTION] Production from the Circus Maximus, the Grand Temple, the Heroic Epic, the National Epic, and the National College</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_AUGUSTUS_HELP">
+			<Text>Reputation of your many public monuments has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Blessed-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_BLESSED_SHORT_DESC">
+			<Text>the Blessed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BLESSED_DESC">
+			<Text>+1 [ICON_PEACE] Faith on Holy Sites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BLESSED_HELP">
+			<Text>Reputation of your many esteemed prophets has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Beloved-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_BELOVED_SHORT_DESC">
+			<Text>the Beloved</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BELOVED_DESC">
+			<Text>+2 [ICON_HAPPINESS_1] Happiness on the Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BELOVED_HELP">
+			<Text>Reputation of your overwhelming benevolance has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Bold-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_BOLD_SHORT_DESC">
+			<Text>the Bold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BOLD_DESC">
+			<Text>Land Units have +10% [ICON_STRENGTH] Combat Strength when fighting in Foreign Lands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BOLD_HELP">
+			<Text>Reputation of your foolhardy courage has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BOLD">
+			<Text>Bold Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BOLD_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength when fighting in Foreign Lands</Text>
+		</Row>
+		<!--The Builder-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_BUILDER_SHORT_DESC">
+			<Text>the Builder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BUILDER_DESC">
+			<Text>+1 [ICON_TOURISM] Tourism from Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BUILDER_HELP">
+			<Text>Reputation of your many wonderous monuments has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Commoner-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_COMMONER_SHORT_DESC">
+			<Text>the Commoner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_COMMONER_DESC">
+			<Text>+10% Worker Improvement speed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_COMMONER_DESC_CHARGES">
+			<Text>+1 [ICON_WORKER] Build Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_COMMONER_HELP">
+			<Text>Reputation of your burgeoning civil service has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Conqueror-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_CONQUEROR_SHORT_DESC">
+			<Text>the Conqueror</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CONQUEROR_DESC">
+			<Text>+2 [ICON_GOLDEN_AGE] Golden Age Points from Courthouses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CONQUEROR_HELP">
+			<Text>Reputation of your many ruthless conquests has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Crusader-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUSADER_SHORT_DESC">
+			<Text>the Crusader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUSADER_SHORT_DESC_ISLAM">
+			<Text>Amir al-Mu'minin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUSADER_DESC">
+			<Text>[ICON_JFD_PIETY] Piety Resting Rate increased by 10</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUSADER_HELP">
+			<Text>Reputation of your many faithful conquests has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row> 
+		<!--The Cruel-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUEL_SHORT_DESC">
+			<Text>the Cruel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUEL_DESC">
+			<Text>+2 [ICON_INFLUENCE] Influence per turn with City-States you could demand tribute from</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUEL_HELP">
+			<Text>Reputation of your wicked mistreatment of lesser powers has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Diplomat-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_DIPLOMAT_SHORT_DESC">
+			<Text>the Diplomat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_DIPLOMAT_DESC">
+			<Text>+1 [ICON_JFD_CLAIM_MEDIUM] Cause with City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_DIPLOMAT_HELP">
+			<Text>Reputation of your diplomatic acumen has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Engineering-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_ENGINEERING_SHORT_DESC">
+			<Text>the Engineering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ENGINEERING_DESC">
+			<Text>+1 [ICON_PRODUCTION] Production on Manufactories</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ENGINEERING_HELP">
+			<Text>Reputation of your many esteemed engineers has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Enlightened-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_ENLIGHTENED_SHORT_DESC">
+			<Text>the Enlightened</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ENLIGHTENED_DESC">
+			<Text>+10% [ICON_GOLDEN_AGE] Golden Age length</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ENLIGHTENED_HELP">
+			<Text>Reputation of your enlightened ideals has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Explorer-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_EXPLORER_SHORT_DESC">
+			<Text>the Explorer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_EXPLORER_DESC">
+			<Text>+2 [ICON_TOURISM] Tourism from Natural Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_EXPLORER_HELP">
+			<Text>Reputation of your many natural discoveries has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Festive-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_FESTIVE_SHORT_DESC">
+			<Text>the Festive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_FESTIVE_DESC">
+			<Text>+2 [ICON_CULTURE] Culture from Entertainer Specialists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_FESTIVE_HELP">
+			<Text>Reputation of your many esteemed entertainers has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Great-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_GREAT_SHORT_DESC">
+			<Text>the Great</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GREAT_DESC">
+			<Text>Land Units earn +20% XP from combat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GREAT_HELP">
+			<Text>Reputation of your great armies has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT">
+			<Text>Great Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_HELP">
+			<Text>Earns 20% XP from combat</Text>
+		</Row>
+		<!--The Greek-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_GREEK_SHORT_DESC">
+			<Text>the Greek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GREEK_DESC">
+			<Text>+1 [ICON_RESEARCH] Science from the Great Library, the Great Lighthouse, the Oracle, the Parthenon, the Temple of Artemis, and the Statue of Zeus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GREEK_HELP">
+			<Text>Reputation of your many Greek monuments has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Healer-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_HEALER_SHORT_DESC">
+			<Text>the Healer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_HEALER_DESC">
+			<Text>Decreases [ICON_JFD_PLAGUE] Plague chance by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_HEALER_HELP">
+			<Text>Reputation of your many esteemed doctors has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Holy-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_HOLY_SHORT_DESC">
+			<Text>the Holy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_HOLY_DESC">
+			<Text>Palace yields +4 [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_HOLY_HELP">
+			<Text>Reputation of your many religious buildings has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Just-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_JUST_SHORT_DESC">
+			<Text>the Just</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_JUST_DESC">
+			<Text>+1 [ICON_PRODUCTION] Production from Magistrate Specialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_JUST_HELP">
+			<Text>Reputation of your many esteemed magistrates has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Lawgiver-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_LAWGIVER_SHORT_DESC">
+			<Text>the Lawgiver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_LAWGIVER_DESC">
+			<Text>+1 [ICON_CULTURE] Culture from Magistrate's Courts and High Courts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_LAWGIVER_HELP">
+			<Text>Reputation of your commitment to the rule of law has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Liberator-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_LIBERATOR_SHORT_DESC">
+			<Text>the Liberator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_LIBERATOR_DESC">
+			<Text>Resting point for [ICON_INFLUENCE] Influence with all City-States is increased by 10.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_LIBERATOR_HELP">
+			<Text>Reputation of your protection of lesser powers has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Lionheart-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_LIONHEART_SHORT_DESC">
+			<Text>the Lionheart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_LIONHEART_DESC">
+			<Text>Cities are 20% more resistant to [ICON_MISSIONARY] Religious Conversion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_LIONHEART_HELP">
+			<Text>Reputation of your many devoted conquests has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Magnanimous-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNANIMOUS_SHORT_DESC">
+			<Text>the Magnanimous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNANIMOUS_DESC">
+			<Text>-20% [ICON_GOLD] Gold cost when purchasing Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNANIMOUS_HELP">
+			<Text>Reputation of your great generosity has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Magnificent-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNIFICENT_SHORT_DESC">
+			<Text>the Magnificent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNIFICENT_DESC">
+			<Text>+10% [ICON_GREAT_PEOPLE] Great People generation during [ICON_GOLDEN_AGE] Golden Ages</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNIFICENT_HELP">
+			<Text>Reputation of your great beneficence has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--Maharaj-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAHARAJ_SHORT_DESC">
+			<Text>Maharaj</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAHARAJ_DESC">
+			<Text>+1 [ICON_PEACE] Faith and +1 [ICON_GOLD] Gold from Angkor Wat, Borobudur, Red Fort, the Taj Mahal, the Buddhas of Bamiyan, Todai-Ji, and Wat Phra Kaew</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAHARAJ_HELP">
+			<Text>Reputation of your many Asian monuments has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Mercenary-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_MERCENARY_SHORT_DESC">
+			<Text>the Mercenary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MERCENARY_DESC">
+			<Text>Reduces maintenance of Contracts by 15%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MERCENARY_HELP">
+			<Text>Reputation of your reliance upon Mercenary forces has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Monk-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_MONK_SHORT_DESC">
+			<Text>the Monk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MONK_DESC">
+			<Text>+2 [ICON_PEACE] Faith from Monasteries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MONK_HELP">
+			<Text>Reputation of your many monasteries has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Navigator-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_NAVIGATOR_SHORT_DESC">
+			<Text>the Navigator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_NAVIGATOR_DESC">
+			<Text>+1 Visibility for Naval Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_NAVIGATOR_HELP">
+			<Text>Reputation of your great navy has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_NAVIGATOR">
+			<Text>Navigational Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_NAVIGATOR_HELP">
+			<Text>+1 Visibility Change</Text>
+		</Row>
+		<!--The Noble-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_NOBLE_SHORT_DESC">
+			<Text>the Noble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_NOBLE_DESC">
+			<Text>+1 [ICON_CULTURE] Culture from Dignitary Specialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_NOBLE_HELP">
+			<Text>Reputation of your many esteemed dignitaries has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Pious-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_PIOUS_SHORT_DESC">
+			<Text>the Pious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_PIOUS_DESC">
+			<Text>+10% [ICON_JFD_PIETY] Piety from all sources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_PIOUS_HELP">
+			<Text>Reputation of your devotion to piety has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Philosopher-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_PHILOSOPHER_SHORT_DESC">
+			<Text>the Philosopher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_PHILOSOPHER_DESC">
+			<Text>-10% [ICON_CULTURE] Social Policy costs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_PHILOSOPHER_HELP">
+			<Text>Reputation of your many ideals has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Redeemer-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_REDEEMER_SHORT_DESC">
+			<Text>the Redeemer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_REDEEMER_SHORT_DESC_BUDDHISM">
+			<Text>Chakravartin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_REDEEMER_SHORT_DESC_HINDUISM">
+			<Text>the Avatar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_REDEEMER_SHORT_DESC_ISLAM">
+			<Text>al-Madhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_REDEEMER_SHORT_DESC_ZOROASTRIANISM">
+			<Text>the Saoshyant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_REDEEMER_DESC">
+			<Text>[ICON_JFD_PIETY] Piety Resting Rate increased by 10</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_REDEEMER_HELP">
+			<Text>Reputation of your devoted conquests has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_REDEEMER_SOURCE">
+			<Text>{1_Num} from Epithets</Text>
+		</Row>
+		<!--The Reformer-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_REFORMER_SHORT_DESC">
+			<Text>the Reformer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_REFORMER_DESC">
+			<Text>-15% [ICON_JFD_REFORM] Reform cooldown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_REFORMER_HELP">
+			<Text>Reputation of your many legislations has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Scholar-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_SCHOLAR_SHORT_DESC">
+			<Text>the Scholar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SCHOLAR_DESC">
+			<Text>+10% [ICON_PRODUCTION] Production when constructing Libraries, Universities, and Public Schools</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SCHOLAR_HELP">
+			<Text>Reputation of your devotion to knowledge has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Slaver-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_SLAVER_SHORT_DESC">
+			<Text>the Slaver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SLAVER_DESC">
+			<Text>+15% [ICON_JFD_SHACKLES] Shackles from all sources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SLAVER_HELP">
+			<Text>Reputation of your reliance upon Slave forces has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Slayer-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_SLAYER_SHORT_DESC">
+			<Text>the Barbarian Slayer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SLAYER_DESC">
+			<Text>Earn [ICON_GOLDEN_AGE] Golden Age Points from defeating Barbarians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SLAYER_HELP">
+			<Text>Reputation of your Barbarian-slaying has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Soldier-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_SOLDIER_SHORT_DESC">
+			<Text>the Soldier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SOLDIER_DESC">
+			<Text>+15 XP for new [ICON_JFD_LEVIES] Levy Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SOLDIER_HELP">
+			<Text>Reputation of your reliance upon Levy forces has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Sun King-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_SUN_KING_SHORT_DESC">
+			<Text>the Sun King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SUN_KING_SHORT_DESC_FEMININE">
+			<Text>the Sun Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SUN_KING_DESC">
+			<Text>+15% [ICON_CULTURE] Culture during [ICON_GOLDEN_AGE] Golden Ages</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SUN_KING_HELP">
+			<Text>Reputation of your magnificent sexiness has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Terrible-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_TERRIBLE_SHORT_DESC">
+			<Text>the Terrible</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_TERRIBLE_DESC">
+			<Text>Cities are [ICON_RAZING] Razed 15% faster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_TERRIBLE_HELP">
+			<Text>Reputation of your wicked cruelty against the conquered has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Wise-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_WISE_SHORT_DESC">
+			<Text>the Wise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_WISE_DESC">
+			<Text>+1 [ICON_RESEARCH] Science on Academies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_WISE_HELP">
+			<Text>Reputation of your many esteemed scientists has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<!--The Zealot-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_ZEALOT_SHORT_DESC">
+			<Text>the Zealot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ZEALOT_DESC">
+			<Text>Land Units earn [ICON_PEACE] Faith from kills, equal to 25% of the enemy's [ICON_STRENGTH] Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ZEALOT_HELP">
+			<Text>Reputation of your many religious military orders has earned you the name: [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ZEALOT">
+			<Text>Zealous Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ZEALOT_HELP">
+			<Text>Earn [ICON_PEACE] Faith from kills, equal to 25% of the enemy's [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<!--POLICY BRANCHES-->
+		<Row Tag="TXT_KEY_JFD_AESTHETICS_TITLE_EPITHET">
+			<Text>Chancellor {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_AUTOCRACY_TITLE_EPITHET">
+			<Text>{@1: gender feminine?Empress; other?Emperor;} {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COMMERCE_TITLE_EPITHET">
+			<Text>Doge {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EXPLORATION_TITLE_EPITHET">
+			<Text>Captain {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FREEDOM_TITLE_EPITHET">
+			<Text>Prime Minister {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HONOR_TITLE_EPITHET">
+			<Text>Commander {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LIBERTY_TITLE_EPITHET">
+			<Text>Consul {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ORDER_TITLE_EPITHET">
+			<Text>Chairman {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PATRONAGE_TITLE_EPITHET">
+			<Text>Prince {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PIETY_TITLE_EPITHET">
+			<Text>{@1: gender feminine?Matriarch; other?Patriarch;} {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_RATIONALISM_TITLE_EPITHET">
+			<Text>Kathigitarkh {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TRADITION_TITLE_EPITHET">
+			<Text>{@1: gender feminine?Queen; other?King;} {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

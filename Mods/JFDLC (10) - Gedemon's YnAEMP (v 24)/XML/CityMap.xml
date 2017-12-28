@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2011 4:32:22 PM -->
+<GameData>
+	<!-- Yagem -->
+	<YagemCityMap>
+		<!-- FRANCE -->
+		<Row>
+			<civilization>CIVILIZATION_FRANCE</civilization>
+			<X>15</X>
+			<Y>10</Y>
+			<ERA_ANCIENT>Parisi</ERA_ANCIENT>
+			<ERA_CLASSICAL>Lutece</ERA_CLASSICAL>
+			<ERA_MEDIEVAL>Paris</ERA_MEDIEVAL>
+			<ERA_RENAISSANCE>Paris</ERA_RENAISSANCE>
+			<ERA_INDUSTRIAL>Paris</ERA_INDUSTRIAL>
+			<ERA_MODERN>Paris</ERA_MODERN>
+			<ERA_FUTURE>Paris</ERA_FUTURE>			
+		</Row>
+	</YagemCityMap>
+
+	<!-- europe Standard -->
+	<EuroLargeCityMap>
+		<!-- FRANCE -->
+		<Row>
+			<civilization>CIVILIZATION_FRANCE</civilization>
+			<X>15</X>
+			<Y>10</Y>
+			<ERA_ANCIENT>Lutece</ERA_ANCIENT>
+			<ERA_CLASSICAL>Lutece</ERA_CLASSICAL>
+			<ERA_MEDIEVAL>Paris</ERA_MEDIEVAL>
+			<ERA_RENAISSANCE>Paris</ERA_RENAISSANCE>
+			<ERA_INDUSTRIAL>Paris</ERA_INDUSTRIAL>
+			<ERA_MODERN>Paris</ERA_MODERN>
+			<ERA_FUTURE>Paris</ERA_FUTURE>
+		</Row>
+	</EuroLargeCityMap>
+</GameData>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Ynaemp -->
+	<Defines>
+		<Update>
+			<Where Name="MIN_CITY_RANGE"/>
+			<Set>
+				<Value>2</Value>
+			</Set>			
+		</Update>
+	</Defines>
+
+	<MinorCivilizations>
+		<Update>
+			<Where Type="MINOR_CIV_STOCKHOLM"/>
+			<Set>
+				<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="MINOR_TYRE"/>
+			<Set>
+				<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+			</Set>
+		</Update>
+	</MinorCivilizations>	
+	
+	<!-- Allows Coal on flat lands and Horse near rivers else there won't be enough placed by the custom function... (cf Poland) -->
+	<Resources>
+		<Update>
+			<Where Type="RESOURCE_COAL"/>
+			<Set>
+				<Flatlands>1</Flatlands>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="RESOURCE_HORSE"/>
+			<Set>
+				<NoRiverSide>0</NoRiverSide>
+			</Set>
+		</Update>
+	</Resources>
+</GameData>

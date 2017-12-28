@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_INVESTMENTS_HEADING1_TITLE">
+			<Text>Invesments: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INVESTMENTS_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Investments[ENDCOLOR] replaces Gold-rushing Buildings. Instead, you use gold to 'Invest' in a Building or Wonder, thereby reducing its base Production cost.[NEWLINE][NEWLINE]Investing in a Puppet or Colony will incline the AI to focus on that Building. However, in these cities, the Magistrate resource can be used to rush Buildings instead.</Text>
+		</Row>
+		<!--BUILDINGS-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_BIG_BEN_HELP">
+			<Text>Requires Commerce. Cost of [ICON_INVEST] Investments reduced by 15% in all cities.</Text>
+		</Row>
+		<!--POLICIES-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MERCANTILISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mercantilism[ENDCOLOR][NEWLINE][ICON_INVEST] Investments in Buildings or Units reduce their [ICON_PRODUCTION] Production cost by an additional 15%. +1 [ICON_RESEARCH] Science from every Mint, Market, Bank, and Stock Exchange.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

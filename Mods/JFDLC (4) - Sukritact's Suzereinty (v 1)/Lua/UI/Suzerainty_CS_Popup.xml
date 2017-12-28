@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black" >
+	<Box Style="BGBlock_ClearTopBar"/>
+	<Grid Size="560,750" Anchor="C,C" Offset="0,0" Padding="0,0" Style="Grid9DetailFive140" ConsumeMouse="1">
+		<!-- Side treatments -->
+		<Box Style="MenuLeftSideTreatment"/>
+		<Box Style="MenuRightSideTreatment"/>
+		<!--=======================================================================================================================-->
+		<!-- Header -->
+		<!--=======================================================================================================================-->
+
+		<Image Anchor="C,T" Texture="HorizontalTrim.dds" Offset="0,133" Size="525,5"/>
+		<Image Anchor="R,T" Offset="17,44" Texture="CityStateBanner_Fertile.dds" ID="CSBanner" Size="523,89">
+			<Stack Anchor="L,C" Size="800,1" Offset="113,0" StackGrowth="Bottom" Padding="10">
+
+				<Stack Anchor="L,C" Offset="0,0" StackGrowth="Right" Padding="10">
+					<Label Anchor="L,B" String="Avignon" ID="CityStateName" Font="TwCenMT24" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+					<Label Anchor="L,B" String="Avignon" ID="CityStateStatus" Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+				</Stack>
+
+				<!-- CITY STATE METER -->
+				<Container Anchor="L,T" Offset="0,0" Size="161.11">
+					<Image Anchor="C,C" Offset="0,0" Texture="CityStateMeterBase.dds" Size="161,7" Hidden="0" Color="White.160"/>
+					<TextureBar ID="NegativeStatusMeter" Anchor="L,C" Size="81.7" Direction="Left" Texture="Assets/UI/Art/Notification/CityStateMeterBaseRed.dds" Hidden="0"/>
+					<TextureBar ID="PositiveStatusMeter" Anchor="R,C" Size="81.7" Direction="Right" Texture="Assets/UI/Art/Notification/CityStateMeterBaseBlue.dds" Hidden="0"/>
+					<Image Anchor="C,C" Offset="0,0" Texture="Assets/UI/Art/Notification/CityStateMeterFrameQuartered.dds" Size="161.11" Hidden="0"/>
+					<Image ID="StatusMeterMarker" Anchor="C,C" Offset="0,1" Texture="Assets/UI/Art/Notification/CityStateMeterFrameIcon32.dds" Size="32.32" Hidden="0"/>
+				</Container>	
+
+				<Label Anchor="L,C" String="Religious/Friendly" ID="CityStateAttr" ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow"/>
+			</Stack>
+		</Image>
+		<Image Anchor="L,T" Offset="18,44" Texture="LeftPortraitDecor128.dds" Size="103,89">
+			<Container Anchor="L,T" Offset="-5,-19" Size="128,128">
+				<Image Anchor="C,C" Size="80,80" ID="CityStateIcon"/>
+			</Container>
+		</Image>
+
+		<!--=======================================================================================================================-->
+		<!-- Info Block -->
+		<!--=======================================================================================================================-->
+		<ScrollPanel Anchor="C,T" ID="CityStatePanel" Vertical="1" Size="523,500" Offset="0,155" AutoScrollBar="1">
+			<Stack Anchor="C,T" Size="0,0" Offset="0,0" StackGrowth="Bottom" Padding="15" ID="TextStack">
+				<Label Anchor="C,T" Offset="0,0" WrapWidth="450" LeadingOffset="-4" Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" ID="DescriptionLabel" String="A city-state is an independent country whose territory consists of a city which is not administered as part of another local government."/>
+				
+				<Image Anchor="C,T" Offset="0,0" Texture="bar300x2.dds" Size="300.1">
+					<Image ID="BackgroundImage" Anchor="C,T" Offset="0,1" Color="White.140" Size="523.275" Texture="citystatebackgroundmercantile.dds" Hidden="0">
+
+						<Box Size="523.275" Anchor="C,B" Color="0.0.0.126"/>
+
+						<Stack Anchor="C,C" Size="0,0" Offset="0,0" StackGrowth="Bottom" Padding="13" ID="CS_BG_Stack">
+							<Stack Anchor="L,T" Offset="0,0" StackGrowth="Right" Padding="10" ID="QuestStack">
+								<Label ID="QuestLabel" Anchor="L,T" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_POP_CSTATE_QUESTS"/>
+								<TextButton ID="QuestInfo" String="Information" Anchor="L,T" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+							</Stack>
+
+							<Label Anchor="L,T" Offset="0,0" WrapWidth="450" LeadingOffset="-4" Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_SUZERAINITY_ALLY_INACTIVE" ID="AllyHeader"/>
+							<Label Anchor="L,T" Offset="0,0" WrapWidth="450" LeadingOffset="-4" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" ID="AllyLabel" String=""/>
+
+							<Image Anchor="C,T" Offset="0,0" Texture="bar300x2.dds" Size="300.1"/>
+							<Label Anchor="C,T" Offset="0,0" WrapWidth="450" LeadingOffset="-4" Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_SUZERAINITY_RELATIONS"/>
+							<Stack Anchor="C,T" Offset="0,0" StackGrowth="Right" Padding="5" ID="RelationsStack">
+								<Label ID="NoRelations" String="No Notable Relations" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" Anchor="C,T" />
+							</Stack>
+						</Stack>
+
+					</Image>
+					<Image Anchor="C,T" Offset="0,275" Texture="bar500x2.dds" Size="500.1"/>				
+				</Image>
+
+				<Stack Anchor="C,T" Offset="0,261" StackGrowth="Bottom" Padding="0" ID="InteractionsStack"/>
+			</Stack>
+
+			<ScrollBar Anchor="R,C" Offset="-17,-8" AnchorSide="O,I" Length="480" Style="VertSlider"/>
+			<UpButton Anchor="R,T" Offset="-17,-16" AnchorSide="O,I" Style="ScrollBarUp"/>
+			<DownButton Anchor="R,B" Offset="-17.0" AnchorSide="O,I" Style="ScrollBarDown"/>
+		</ScrollPanel>
+
+		<!--=======================================================================================================================-->
+
+		<Box Anchor="C,B" AnchorSide="I.I" Offset="0,54" Size="520,56" Color="255,255,255,0">
+			<!-- CLOSE BUTTON  -->
+			<GridButton Anchor="L,B" Style="SmallButton" Size="150,32" Offset="14,0" StateOffsetIncrement="0,0" ID="CloseButton">
+				<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_CLOSE" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			</GridButton>
+			<!-- FIND ON MAP BUTTON  -->
+			<GridButton Anchor="R,B" Style="SmallButton" Size="150,32" Offset="14,0" StateOffsetIncrement="0,0" ID="FindOnMapButton">
+				<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_POP_CSTATE_FIND_ON_MAP" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			</GridButton>
+		</Box>
+
+		<!--=======================================================================================================================-->
+		
+	</Grid>
+
+	<!--=======================================================================================================================-->
+	<!-- Instances -->
+	<!--=======================================================================================================================-->
+	<!-- RELATION INSTANCE -->
+
+	<Instance Name="RelationInstance">
+		<Container ID="RelationInstanceContainer" Size="45,48" Anchor="L,T">
+			<Container ID="AllyIconContainer" Size="45,45" Anchor="C,T" Offset="0,0" AnchorSide="O.I">
+		        <Image ID="AllyIconBG" Size="45.45" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+		        <Image ID="AllyIconShadow" Size="32.32" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas32.dds" Color="Black.128"/>
+		        <Image ID="AllyIcon" Size="32,32" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor512.dds"/>							
+			</Container>
+			<Label ID="AllyText" String="" Anchor="C,B" AnchorSide="O.I" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+		</Container>
+	</Instance>
+
+	<!-- INTERACTION INSTANCE -->
+	<Instance Name="InteractionInstance">	
+		<Button Size="500,32" Hidden="0" Anchor="C,C" Offset="0,0" ID="InteractionButton">
+			<Label ID="InteractionLabel" Anchor="C,C" Offset="0,0" String="TXT_KEY_BACK_BUTTON" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			<Image Anchor="C,B" Offset="0,0" Texture="bar500x2.dds" Size="500.1"/>
+			<ShowOnMouseOver>
+				<AlphaAnim Anchor="C,C" Offset="0,0" Size="500,35" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1" ID="InteractionAnim">
+					<Grid Size="500,35" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL"/>
+				</AlphaAnim>
+			</ShowOnMouseOver>
+		</Button>
+	</Instance>
+
+	<!-- War or Bully Confirmation Popup -->
+	<Box Style="BGBlock" ID="BullyConfirm" Hidden="1" ConsumeMouseOver="1">
+		<Grid Size="500,410" Anchor="C,C" Offset="0,0" Padding="0,20" Style="Grid9DetailFive140" Hidden="0">
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+			<Image Anchor="C,T" AnchorSide="I.O" Offset="0,-14" Size="256,64" Texture="Top512IconTrim.dds">
+				<Image Anchor="C,C" Offset="0,-6" Size="80,80" Texture="NotificationFrameBase.dds">
+					<AlphaAnim Anchor="C,C" Offset="0,0" Size="80.80" Texture="assets\UI\Art\Notification\NotificationGenericGlow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".5"/>
+				</Image>
+			</Image>
+			<Label Anchor="C,T" Offset="0,74" WrapWidth="440" String="" ID="BullyConfirmLabel" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			<Stack Anchor="C,B" Offset="0,80" Padding="24" StackGrowth="Bottom">
+				<!-- Yes Button  -->
+				<GridButton Style="BaseButton" ID="YesBully" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_YES_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+				<!-- No Button  -->
+				<GridButton Style="BaseButton" ID="NoBully" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_NO_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+			</Stack>
+		</Grid>
+	</Box>
+
+	<!-- Confirmation Popup -->
+	<Box Color="Black.200" Size="Full.Full" ID="SpendPietyConfirm" Hidden="1" ConsumeMouseOver="1" ConsumeMouseButton="1">
+		<Grid Size="500,310" Anchor="C,C" Offset="0,0" Padding="0,20" Style="Grid9DetailFive140" Hidden="0">
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+			<Image Anchor="C,T" AnchorSide="I.O" Offset="0,-14" Size="256,64" Texture="Top512IconTrim.dds">
+				<Image Anchor="C,C" Offset="0,-6" Size="80,80" Texture="NotificationFrameBase.dds">
+					<AlphaAnim Anchor="C,C" Offset="0,0" Size="80,80" Texture="assets\UI\Art\Notification\NotificationGenericGlow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".5"/>
+				</Image>
+			</Image>
+			<Label Anchor="C,T" Offset="0,54" WrapWidth="440" ID="SpendPietyLabelConfirm" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			<Stack Anchor="C,B" Offset="0,60" Padding="24" StackGrowth="Bottom">
+				<!-- Yes Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmSpendPietyYes" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_YES_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+				<!-- No Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmSpendPietyNo" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_NO_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+			</Stack>
+		</Grid>
+	</Box>
+
+	<!-- Confirmation Popup -->
+	<Box Color="Black.200" Size="Full.Full" ID="PushClaimConfirm" Hidden="1" ConsumeMouseOver="1" ConsumeMouseButton="1">
+		<Grid Size="500,310" Anchor="C,C" Offset="0,0" Padding="0,20" Style="Grid9DetailFive140" Hidden="0">
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+			<Image Anchor="C,T" AnchorSide="I.O" Offset="0,-14" Size="256,64" Texture="Top512IconTrim.dds">
+				<Image Anchor="C,C" Offset="0,-6" Size="80,80" Texture="NotificationFrameBase.dds">
+					<AlphaAnim Anchor="C,C" Offset="0,0" Size="80,80" Texture="assets\UI\Art\Notification\NotificationGenericGlow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".5"/>
+				</Image>
+			</Image>
+			<Label Anchor="C,T" Offset="0,54" WrapWidth="440" ID="PushClaimLabelConfirm" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			<Stack Anchor="C,B" Offset="0,60" Padding="24" StackGrowth="Bottom">
+				<!-- Yes Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmYes" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_YES_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+				<!-- No Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmNo" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_NO_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+			</Stack>
+		</Grid>
+	</Box>
+
+</Context>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--INTERFACE-->
+		<Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_NEW_TO_JFDLC">
+			<Text>New to JFDLC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_GO_TO_CITY">
+			<Text>Go to City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_GO_TO_PLOT">
+			<Text>Go to Tile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_GO_TO_UNIT">
+			<Text>Go to Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_GO_TO_PEDIA">
+			<Text>Show Civilopedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_MISC_SATELLITES_HEADING1_TITLE">
+			<Text>Misc: Satellites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MISC_SATELLITES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Satellites[ENDCOLOR] are an additional option when capturing a City-State. Instead of taking that City-State's Capital, a 'Statellite Government' may be installed, immediately granting a large amount of Influence with them.</Text>
+		</Row>
+		<!--SATELLITES-->
+		<!--Install Satellite-->
+		<Row Tag="TXT_KEY_POPUP_JFD_SATELLITE_CITY">
+			<Text>Install Satellite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_JFD_SATELLITE_CITY_TT">
+			<Text>By turning the City into a [COLOR_POSITIVE_TEXT]Satellite[ENDCOLOR], you will liberate this city and immediately gain +{1_Num} [ICON_INFLUENCE] Influence with them.</Text>
+		</Row>
+		<!--NOTIFICATIONS-->
+		<Row Tag="TXT_KEY_JFD_SATELLITE_INSTALLED_NOTIFICATION_SHORT">
+			<Text>Satellite Installed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SATELLITE_INSTALLED_NOTIFICATION">
+			<Text>We have installed a new satellite government in {1_CityName}, significantly increasing our [ICON_INFLUENCE] Influence over them!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_SATELLITE_INSTALLED">
+			<Text>{1_LeaderName} of {2_CivName} have installed a new satellite government in {3_CityName}, significantly increasing their [ICON_INFLUENCE] Influence over them!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

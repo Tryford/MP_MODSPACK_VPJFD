@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- ++++++++++++++++++++++++++++++++++ -->
+	<!-- New Europe map start position -->
+	<!-- ++++++++++++++++++++++++++++++++++ -->
+	<Civilizations_EuroLargeNewStartPosition>
+	<!-- JFD -->
+		<Row>
+			<Type>CIVILIZATION_JFD_ANGLO_SAXONS</Type>
+			<X>22</X>
+			<Y>46</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_AUSTRIA_JOSEPH_II</Type>
+			<X>43</X>
+			<Y>36</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_ICELAND</Type>
+			<X>2</X>
+			<Y>69</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_POLAND_LITHUANIA</Type>
+			<X>48</X>
+			<Y>47</Y> 
+			<!-- Casimir  
+			<X>48</X>
+			<Y>42</Y> -->
+			<!-- Jelgava City State 
+			<X>51</X>
+			<Y>56</Y> -->
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_JFD_LITHUANIA</Type>
+			<X>52</X>
+			<Y>52</Y>
+			<!-- Dorpat City State 
+			<X>56</X>
+			<Y>60</Y> -->
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_SWITZERLAND</Type>
+			<X>32</X>
+			<Y>34</Y> 
+			<!-- Avignon City State 
+			<X>29</X>
+			<Y>28</Y> -->
+			<!-- Lubeck City State 
+			<X>36</X>
+			<Y>51</Y> -->
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_FLANDERS</Type>
+			<X>27</X>
+			<Y>45</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_JFD_MILAN</Type>
+			<X>37</X>
+			<Y>32</Y> 
+			<!-- San Marino City State 
+			<X>39</X>
+			<Y>27</Y> -->
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_JFD_NORMANDY</Type>
+			<X>24</X>
+			<Y>42</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_SAXONY</Type>
+			<X>39</X>
+			<Y>43</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_RUSSIA_ALEXANDER_I</Type>
+			<X>59</X>
+			<Y>64</Y> 
+			<!-- Moscow - alt for other leaders
+			<X>70</X>
+			<Y>56</Y>-->
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_GERMANS</Type>
+			<X>37</X>
+			<Y>45</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_MUSCOVY</Type>
+			<X>70</X>
+			<Y>56</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_KHAZARIA</Type>
+			<X>80</X>
+			<Y>35</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_ARMENIA</Type>
+			<X>76</X>
+			<Y>24</Y> 
+			<!-- Tbilisi City State 
+			<X>78</X>
+			<Y>27</Y> -->
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_JFD_BAVARIA</Type>
+			<X>38</X>
+			<Y>37</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_BELGIUM</Type>
+			<X>28</X>
+			<Y>43</Y> 
+			<!-- Vaduz City State 
+			<X>36</X>
+			<Y>34</Y> -->
+			<!-- Andorra City State 
+			<X>24</X>
+			<Y>27</Y> -->
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_BOHEMIA</Type>
+			<X>42</X>
+			<Y>40</Y> 
+			<!-- Padua City State 
+			<X>39</X>
+			<Y>30</Y> -->
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_THE_FRANKS</Type>
+			<X>30</X>
+			<Y>41</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_HUNGARY</Type>
+			<X>47</X>
+			<Y>35</Y> 
+			<!-- Lviv City State 
+			<X>53</X>
+			<Y>41</Y> -->
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_NORWAY</Type>
+			<X>38</X>
+			<Y>65</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_PRUSSIA</Type>
+			<X>48</X>
+			<Y>52</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_SARDINIA_PIEDMONT</Type>
+			<X>32</X>
+			<Y>31</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_SCOTLAND</Type>
+			<X>21</X>
+			<Y>56</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_THE_VANDALS</Type>
+			<X>30</X>
+			<Y>12</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_TWO_SICILIES</Type>
+			<X>42</X>
+			<Y>20</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_NOVGOROD</Type>
+			<X>61</X>
+			<Y>61</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_PAPAL_STATES</Type>
+			<X>39</X>
+			<Y>23</Y> 
+			<!-- Karyes City State 
+			<X>54</X>
+			<Y>18</Y> -->
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_USSR_LENIN</Type>
+			<X>59</X>
+			<Y>64</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_JFD_USSR_STALIN</Type>
+			<X>70</X>
+			<Y>56</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_JFD_TURKS</Type>
+			<X>58</X>
+			<Y>19</Y> 
+		</Row>			
+		<Row>
+			<Type>CIVILIZATION_JFD_HOLYROMANEMPIRE</Type>
+			<X>37</X>
+			<Y>41</Y> 
+		</Row>	
+		
+	<!-- More Civs -->
+		<Row>
+			<Type>CIVILIZATION_MC_LITE_MOOR</Type>
+			<X>15</X>
+			<Y>17</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_MC_GAUL</Type>
+			<X>27</X>
+			<Y>34</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_MC_MERCIA</Type>
+			<X>21</X>
+			<Y>51</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_MC_MINOA</Type>
+			<X>56</X>
+			<Y>10</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_MC_SCOTLAND</Type>
+			<X>21</X>
+			<Y>56</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_MC_THRACE</Type>
+			<X>55</X>
+			<Y>24</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_MC_AYYUBIDS</Type>
+			<X>62</X>
+			<Y>2</Y> 
+		</Row>			
+		<Row>
+			<Type>CIVILIZATION_MC_SLAVS</Type>
+			<X>39</X>
+			<Y>49</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_MC_ATHENS</Type>
+			<X>54</X>
+			<Y>14</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_MC_SPARTA</Type>
+			<X>52</X>
+			<Y>13</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_MC_PERGAMON</Type>
+			<X>59</X>
+			<Y>20</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_MC_MACEDON</Type>
+			<X>52</X>
+			<Y>20</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_MC_ROMANIA</Type>
+			<X>54</X>
+			<Y>29</Y> 
+			<!-- Suceava City State 
+			<X>55</X>
+			<Y>36</Y> -->
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_MC_SERBIA</Type>
+			<X>49</X>
+			<Y>28</Y> 
+			<!-- Durazzo City State 
+			<X>48</X>
+			<Y>21</Y> -->
+		</Row>			
+		
+	<!-- Sukritact -->
+		<Row>
+			<Type>CIVILIZATION_MC_PHOENICIA</Type>
+			<X>69</X>
+			<Y>9</Y> 
+			<!-- Cyrene City State 
+			<X>48</X>
+			<Y>7</Y> -->	
+			<!-- Galatia City State 
+			<X>65</X>
+			<Y>20</Y> -->	
+			<!-- Syracuse City State 
+			<X>41</X>
+			<Y>12</Y> -->		
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_SAMI</Type>
+			<X>44</X>
+			<Y>74</Y> 
+		</Row>		
+		<Row>
+			<Type>CIVILIZATION_TUSCANY</Type>
+			<X>37</X>
+			<Y>27</Y> 
+			<!-- Mantua City State 
+			<X>38</X>
+			<Y>31</Y> -->	
+		</Row>	
+		
+	<!-- Tomatekh -->
+		<Row>
+			<Type>CIVILIZATION_KIEVAN_RUS_MOD</Type>
+			<X>58</X>
+			<Y>43</Y> 
+			<!-- Minsk City State 
+			<X>55</X>
+			<Y>51</Y> -->	
+		</Row>			
+		<Row>
+			<Type>CIVILIZATION_ANCIENT_LIBYA_MOD</Type>
+			<X>37</X>
+			<Y>1</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_VISIGOTHS_MOD</Type>
+			<X>61</X>
+			<Y>35</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_HITTITE_MOD</Type>
+			<X>67</X>
+			<Y>22</Y> 
+		</Row>	
+		
+	<!-- Tarcisio -->
+		<Row>
+			<Type>CIVILIZATION_TCM_AUSTRIA_HUNGARY</Type>
+			<X>43</X>
+			<Y>36</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_GREATEREUROPE_GERMANY</Type>
+			<X>39</X>
+			<Y>47</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_TCM_AURELIAN_ROME</Type>
+			<X>39</X>
+			<Y>23</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_TCM_SICILY</Type>
+			<X>39</X>
+			<Y>14</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_TCM_BOURBON_SPAIN</Type>
+			<X>17</X>
+			<Y>22</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_TCM_HYKSOS</Type>
+			<X>63</X>
+			<Y>4</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_TCM_THE_IBERIANS</Type>
+			<X>22</X>
+			<Y>23</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_TCM_ILKHANATE</Type>
+			<X>80</X>
+			<Y>20</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_TCM_WW1_OTTOMAN</Type>
+			<X>58</X>
+			<Y>23</Y> 
+		</Row>		
+		<Row>
+			<Type>CIVILIZATION_TCM_WW1_BULGARIA</Type>
+			<X>53</X>
+			<Y>24</Y> 
+			<!-- Solnitsata City State 
+			<X>56</X>
+			<Y>25</Y> -->
+		</Row>		
+		<Row>
+			<Type>CIVILIZATION_TCM_AVIS_PORTUGAL</Type>
+			<X>9</X>
+			<Y>19</Y> 
+		</Row>		
+		<Row>
+			<Type>CIVILIZATION_TCM_GREAT_MORAVIA</Type>
+			<X>44</X>
+			<Y>39</Y> 
+		</Row>				
+	
+	<!-- LITE -->
+		<Row>
+			<Type>CIVILIZATION_LITE_AKKAD</Type>
+			<X>78</X>
+			<Y>9</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_LITE_TARCISIO_PTOLEMIES</Type>
+			<X>60</X>
+			<Y>5</Y> 
+		</Row>					
+	
+	<!-- Hypereon -->
+		<Row>
+			<Type>CIVILIZATION_FINNS</Type>
+			<X>54</X>
+			<Y>66</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_HYP_FINLAND</Type>
+			<X>54</X>
+			<Y>66</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_HYPEREON_SECONDFRANCE</Type>
+			<X>26</X>
+			<Y>39</Y> 
+		</Row>			
+	
+	<!-- Danmacsch -->
+		<Row>
+			<Type>CIVILIZATION_DMS_CORSICA</Type>
+			<X>33</X>
+			<Y>24</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_DMS_DENMARK_VALDEMAR_II</Type>
+			<X>39</X>
+			<Y>54</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DMS_NURAGIC</Type>
+			<X>34</X>
+			<Y>18</Y> 
+		</Row>	
+
+	<!-- Ryanjames -->
+		<Row>
+			<Type>CIVILIZATION_RCYPRUS</Type>
+			<X>66</X>
+			<Y>12</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_RLYDIA</Type>
+			<X>61</X>
+			<Y>18</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_RAKKAD</Type>
+			<X>78</X>
+			<Y>9</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_RPALATINATE</Type>
+			<X>33</X>
+			<Y>40</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_CALC_MANX</Type>
+			<X>18</X>
+			<Y>53</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_ANDORRA</Type>
+			<X>24</X>
+			<Y>27</Y> 
+		</Row>	
+		
+	<!-- DJSHenninger -->
+		<Row>
+			<Type>CIVILIZATION_ALBANIA</Type>
+			<X>48</X>
+			<Y>19</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_ALGERIA</Type>
+			<X>24</X>
+			<Y>12</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DJSH_ARMENIA</Type>
+			<X>76</X>
+			<Y>23</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DJSH_AZERBAIJAN</Type>
+			<X>84</X>
+			<Y>24</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_DJSH_KRUM_BULGARIA</Type>
+			<X>56</X>
+			<Y>26</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DJSH_BULGARIA_SAM</Type>
+			<X>50</X>
+			<Y>22</Y> 
+		</Row>		
+		<Row>
+			<Type>CIVILIZATION_DJSH_SIM_BULGARIA</Type>
+			<X>55</X>
+			<Y>25</Y> 
+			<!-- Topola City State 
+			<X>49</X>
+			<Y>26</Y> -->
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_DJSH_TOM_CROATIA</Type>
+			<X>45</X>
+			<Y>29</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DJSH_GEORGIA</Type>
+			<X>78</X>
+			<Y>27</Y> 
+		</Row>		
+		<Row>
+			<Type>CIVILIZATION_DJSH_NORTHUMBRIA</Type>
+			<X>22</X>
+			<Y>53</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_DJSH_ROMANIA</Type>
+			<X>54</X>
+			<Y>29</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DJSH_SERBIA</Type>
+			<X>49</X>
+			<Y>28</Y> 
+		</Row>		
+		<Row>
+			<Type>CIVILIZATION_DJSH_SERBIA_PETER_I</Type>
+			<X>49</X>
+			<Y>28</Y> 
+		</Row>	
+		<Row>
+			<Type>CIVILIZATION_DJSH_SFRYUGOSLAVIA</Type>
+			<X>49</X>
+			<Y>28</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DJSH_BYZANTIUM_BASIL_II</Type>
+			<X>58</X>
+			<Y>23</Y> 
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DJSH_BYZANTIUM_JOHN_II</Type>
+			<X>58</X>
+			<Y>23</Y> 
+		</Row>				
+
+		<Row>
+			<Type>CIVILIZATION_DJSH_BYZANTIUM_JUSTINIAN_I</Type>
+			<X>58</X>
+			<Y>23</Y> 
+		</Row>				
+
+		<Row>
+			<Type>CIVILIZATION_DJSH_BYZANTIUM_MICHAEL_VIII</Type>
+			<X>58</X>
+			<Y>23</Y> 
+		</Row>
+	</Civilizations_EuroLargeNewStartPosition>
+</GameData>

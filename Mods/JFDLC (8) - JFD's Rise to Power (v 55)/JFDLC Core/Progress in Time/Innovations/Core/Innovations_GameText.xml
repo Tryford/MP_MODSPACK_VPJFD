@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_HEADING1_TITLE">
+			<Text>Innovations: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Innovations[ENDCOLOR] are unique ways to boost progress toward Technologies, such as through constructing certain Buildings or training certain Units. Most Technologies can have up to 30% of their Science cost discounted through completing Innovations.</Text>
+		</Row>
+		<!--GAMEPLAY-->
+		<!--Innovations-->
+		<!--Ancient Era-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_BRONZE_WORKING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you defeat a Barbarian.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_CALENDAR_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you found a Pantheon.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_MASONRY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Building.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_SAILING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you settle on a Coast.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_TRAPPING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you expand to a tile with a Camp-based Resource.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_THE_WHEEL_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Caravan.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_WRITING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you meet a Civilization.[ENDCOLOR]</Text>
+		</Row>
+		<!--Classical Era-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_DRAMA_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a National Wonder.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_CIVIL_PLANNING_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you research an Ancient Era technology.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_CODE_OF_LAWS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you adopt a Social Policy.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_CONSTRUCTION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct Walls.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_CURRENCY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Caravansary.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_HORSEBACK_RIDING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve Horses.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ENGINEERING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you build a Lumbermill.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_IRON_WORKING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve Iron.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_MATHEMATICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Watermill.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_MERCENARIES_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you declare a War.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_OPTICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve a Sea Resource.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_PHILOSOPHY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you meet a City-State.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_PRIESTHOOD_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you found a Religion.[ENDCOLOR]</Text>
+		</Row>
+		<!--Medieval Era-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_CHIVALRY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Mounted Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_CIVIL_SERVICE_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when a city grows +10 Population.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_CIVIL_SERVICE_HELP_PROVINCES">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you upgrade a Province.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_COMPASS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Naval Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EDUCATION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Library.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_GUILDS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Market.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_GUILDS_HELP_TRADING_POSTS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you upgrade a Trading Post.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_MACHINERY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Composite Bowman.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_MEDICINE_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Herbalist.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_METAL_CASTING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Swordsman.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_NOBILITY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Mounted Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_NOBILITY_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you research a Classical Era technology.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_NOBILITY_HELP_REFORMS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you form a Legislature.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_PHYSICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Catapult.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_RELIGIOUS_ORDERS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you purchase a Unit with Faith.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_STEEL_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Forge.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_THEOLOGY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you enhance your Religion.[ENDCOLOR]</Text>
+		</Row>
+		<!--Renaissance Era-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ACOUSTICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you purchase a Building with Faith.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ARCHITECTURE_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a World Wonder.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ASTRONOMY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you settle next to a Mountain.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_BANKING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you purchase a Building with Gold.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_BANKING_HELP_INVESTMENTS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you Invest in a Building.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_CHEMISTRY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Trebuchet.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_EXPLORATION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Caravel.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_JURISPRUDENCE_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you use a Great Magistrate.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_GUNPOWDER_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Longswordsman.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_GUNPOWDER_HELP_EXPLORATION">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve Sulphur.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_METALLURGY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct an Armory.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_PRINTING_PRESS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Workshop.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_SOVEREIGNTY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you use a Great Dignitary.[ENDCOLOR]</Text>
+		</Row>
+		<!--Enlightenment Era-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ECONOMICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you use a Great Merchant.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_FERTILIZER_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when a city grows +18 Population.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_FLINTLOCK_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Musketman.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_FORTIFICATION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you use a Great General.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_HUMANISM_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you use a Great Artist, Great Musician, or Great Writer.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_IMPERIALISM_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you settle a foreign continent.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_IMPERIALISM_COLONIES_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you settle a Colony.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_MANUFACTURING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you use a Great Engineer.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_NATURAL_HISTORY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you promote a Recon Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_NAVIGATION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you traverse Ocean tiles.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_SCIENTIFIC_THEORY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you use a Great Scientist.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_SCIENTIFIC_THEORY_HELP_PROGRESS">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you research a Renaissance Era Tech.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_WARSHIPS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you use a Great Admiral.[ENDCOLOR]</Text>
+		</Row>
+		<!--Industrial Era-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ARCHAEOLOGY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct the Hermitage.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ARCHAEOLOGY_HELP_EE">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Museum.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_ARMOUR_PLATING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you upgrade a Naval Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_BIOLOGY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when a city grows +25 Population.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_DYNAMITE_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Cannon.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_DYNAMITE_HELP_EE">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Field Gun.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ELECTRICITY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Factory.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ELECTRICITY_HELP_EXPLORATION">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve Rubber.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_INDUSTRIALIZATION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Windmill.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_INDUSTRIALIZATION_HELP_EE">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve Coal.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_MILITARY_SCIENCE_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you promote a Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_JFD_NATIONALISM_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you complete a Social Policy Branch.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_RIFLING_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Musketman.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_RIFLING_HELP_EE">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Line Infantry.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_ROMANTICISM_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train an Archaeologist.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_EE_ROMANTICISM_HELP_EXPLORATION">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train an Adventurer.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_STEAM_POWER_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Seaport.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_STEAM_POWER_HELP_POWER">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Blast Furnace or Factory.[ENDCOLOR]</Text>
+		</Row>
+		<!--Modern Era-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_BALLISTICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train an Artillery or Gatling Gun.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_COMBUSTION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Factory.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_COMBUSTION_HELP_POWER">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Coal Station or Oil Refinery.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ELECTRONICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Naval Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_FLIGHT_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you use a Great Scientist or Great Engineer.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_PLASTICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve Oil.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_RADIO_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve an Antiquity Site.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_RAILROAD_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Worker.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_REFRIGERATION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you improve Aluminum.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_REPLACEABLE_PARTS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Rifleman.[ENDCOLOR]</Text>
+		</Row>
+		<!--Atomic Era-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ATOMIC_THEORY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Research Lab.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_COMBINED_ARMS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you upgrade a Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_COMPUTERS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct an Airport.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ECOLOGY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Medical Lab.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_NUCLEAR_FISSION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you complete the Manhatten Project.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_PENICILLIN_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Hospital.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_RADAR_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you defeat an Air Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ROCKETRY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train an Anti-Aircraft Gun.[ENDCOLOR]</Text>
+		</Row>
+		<!--Information Era-->
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ADVANCED_BALLISTICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you detonate a Nuclear Bomb.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_GLOBALIZATION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when the World Ideology or World Religion Resolution is passed.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_LASERS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you defeat a Mobile SAM or Rocket Artillery.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_MOBILE_TACTICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Marine.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_NANOTECHNOLOGY_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Spaceship Factory.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_NUCLEAR_FUSION_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Power Plant.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_PARTICLE_PHYSICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you build a Spaceship Part.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_ROBOTICS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train a Mobile SAM or Rocket Artillery.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_SATELLITES_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you complete the Apollo Program.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_STEALTH_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you train an Air Unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_TELECOMMUNICATIONS_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you construct a Broadcast Tower.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INNOVATIONS_THE_INTERNET_HELP">
+			<Text>[COLOR_JFD_INNOVATION]{1_Num} when you research Computers.[ENDCOLOR]</Text>
+		</Row>
+		<!--TRAITS-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_KOREA">
+			<Text>+1 [ICON_RESEARCH] Science from all Specialists and receives a random [ICON_JFD_INNOVATION] Innovation from the current era when a Specialist building is constructed in the Capital.</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Yellow Crane Tower-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_YELLOW_CRANE">
+			<Text>Yellow Crane Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_YELLOW_CRANE_HELP">
+			<Text>All [ICON_JFD_INNOVATION] Innovations may be repeated one additional time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_YELLOW_CRANE_QUOTE">
+			<Text>[NEWLINE]"Long ago a man rode off on a yellow crane, all that remains here is Yellow Crane Tower. Once the yellow crane left it never returned, for one thousand years the clouds wandered without care".[NEWLINE] - Cui Hao[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_YELLOW_CRANE_PEDIA">
+			<Text>The Yellow Crane Tower is a large tower located on the bank of the Yangtze river in the Hubei province of China. Originally constructed in 223 AD, the tower underwent a restoration project in 1981, which among other things added an elevator to the structure. According to legend, the tower is built on the site where an immortal being known as Wang Zi'an left on the back of a Yellow crane from the spot, and that the temple was built in commemoration. </Text>
+		</Row>
+		<!--INTERFACE-->
+		<!--Tech Tree-->
+		<Row Tag="TXT_KEY_TECH_JFD_INNOVATIONS">
+			<Text>[ICON_BULLET]Innovations: {1_Num}/{2_Num} [ICON_JFD_INNOVATION] [COLOR_JFD_INNOVATION]Boosts[ENDCOLOR]</Text>
+		</Row>
+		<!--Notifications-->
+		<Row Tag="TXT_KEY_INNOVATION_COMPLETION_MESSAGE">
+			<Text>Your Civilization has made new [ICON_JFD_INNOVATION] [COLOR_JFD_INNOVATION]Innovations[ENDCOLOR] toward [COLOR_POSITIVE_TEXT]{1_TechDesc}[ENDCOLOR]!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

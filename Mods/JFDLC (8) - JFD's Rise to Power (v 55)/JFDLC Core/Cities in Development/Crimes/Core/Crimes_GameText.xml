@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_BUILDINGS_MAINTENANCE_HEADING2_BODY">
+			<Text>Some Buildings cost gold to maintain. The price depends upon the building in question, and can range from 1 to 5 per turn. The gold is deducted from your treasury each turn. Buildings that incur maintenance can be sold via the City Screen if necessary. See the section on Gold for more details on maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIME_HEADING1_TITLE">
+			<Text>Crime: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIME_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Crime[ENDCOLOR] is a consequence of your city's development and replaces Building Maintenance in many instances. As Crime grows, it will reduce a city's yields, depending upon how those yields are apportioned - so if you're producing a lot of Gold, you'll also be producing a lot of Corruption, in turn costing you Gold.[NEWLINE][NEWLINE]You won't lose more of your yields than you have Crime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIME_COUNTERACTION_HEADING1_TITLE">
+			<Text>Crime: Counteracting Crime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIME_COUNTERACTION_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Crime[ENDCOLOR] can be counteracted through the construction of Jails, Constabularies, and Police Stations, however, specific Crimes can be reduced as well, such as with the Mint, which reduces Corruption. When reducing a specific Crime, however, all other Crimes take the burden of that reduction. So building a Mint may reduce Corruption by 15%, but it will increase all other Crimes by 15%, too!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIME_ORGANIZED_HEADING1_TITLE">
+			<Text>Crime: Organized</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CRIME_ORGANIZED_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Organized Crime[ENDCOLOR] describes a Crime that has become dominant in your city. This requires that the Crime exceed a certain Threshold and that its corresponding yield has the highest portion of all yields in the city. An Organized Crime will reduce your yields as a modifier.</Text>
+		</Row>
+		<!--BUILDINGS-->
+		<!--Burial Tomb-->
+		<Row Tag="TXT_KEY_BUILDING_JFD2_BURIAL_TOMB_HELP">
+			<Text>Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_CULTURE] Vandalism by 15%.[NEWLINE][NEWLINE]Should this city be captured, the amount of [ICON_GOLD] Gold plundered by the enemy is doubled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD2_BURIAL_TOMB_STRATEGY">
+			<Text>The Burial Tomb is a Classical-era building which increases the city's output of Happiness and reduces Crime from Vandalism in the city. However, if the city is captured, the capturing civilization will gain twice as much gold as would be the case in a city without a Burial Tomb. It replaces the Temple.</Text>
+		</Row>
+		<!--Constabulary-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CONSTABULARY_HELP">
+			<Text>Reduces enemy spy stealing rate by 25%.[NEWLINE][NEWLINE]City must have a Jail.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CONSTABULARY_STRATEGY">
+			<Text>Constabularies slow down the rate at which enemy spies can steal technologies from your city. They also reduce Crime throughout the city. The city must possess a Jail in order to construct the Constabulary.</Text>
+		</Row>
+		<!--Jail-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_JAIL">
+			<Text>Jail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_JAIL_STRATEGY">
+			<Text>Jails reduce Crime throughout the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_JAIL_TEXT">
+			<Text>A jail is a building for holding prisoners. Jails can range in size from a single room to a sprawling complex of buildings inside miles of barbed wire. Prisoners incarcerated in a jail may be there for a variety of reasons. Some may be common criminals; others may be brutal murderers. Some may be captured enemy soldiers and spies. Some might be political prisoners, dissidents, or simply people who fell into bad grace with their rulers. Some might be mad - incarceration being a common way to deal with the insane before the creation of mental hospitals and sanitariums.</Text>
+		</Row>
+		<!--Mud Pyramid Mosque-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MUD_PYRAMID_MOSQUE_HELP">
+			<Text>Produces no [ICON_JFD_CRIME_BLACK] Crime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MUD_PYRAMID_MOSQUE_STRATEGY">
+			<Text>The Mud Pyramid Mosque is a Songhai unique building, replacing the Temple. The Mud Pyramid Mosque greatly increases the city's Culture, speeding the growth of the city's territory and the civilization's acquisition of Social Policies. The Mud Pyramid Mosque produces no Crime.</Text>
+		</Row>
+		<!--Police Station-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_POLICE_STATION_STRATEGY">
+			<Text>Police Stations slow down the rate at which enemy spies can steal technologies from your city. They also reduce Crime throughout the city.</Text>
+		</Row>
+		<!--Prison-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PRISON">
+			<Text>Prison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PRISON_HELP">
+			<Text>Increases the threshold at which Organized Crime emerges by 5%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PRISON_STRATEGY">
+			<Text>Prisons reduce the chance of  Organized Crime emerging in a city. Build Prisons in cities where the combination of two Crimes is particularly high.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PRISON_TEXT">
+			<Text>A prison, correctional facility, or penitentiary is a facility in which inmates are forcibly confined and denied a variety of freedoms under the authority of the state as a form of punishment. The most common use of prisons is within a criminal justice system. People charged with crimes may be imprisoned until they are brought to trial; those pleading or being found guilty of crimes at trial may be sentenced to a specified period of imprisonment. Besides their use for punishing civil crimes, authoritarian regimes also frequently use prisons and jails as tools of political repression to punish what are deemed political crimes, often without trial or other legal due process; this use is illegal under most forms of international law governing fair administration of justice. In times of war, prisoners of war or detainees may be detained in military prisons or prisoner of war camps, and large groups of civilians might be imprisoned in internment camps.</Text>
+		</Row>
+		<!--CRIMES-->
+		<Row Tag="TXT_KEY_CRIME_JFD_CULTURE_DESC">
+			<Text>Vandalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_CULTURE_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_CULTURE] Vandalism in the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRIME_JFD_FAITH_DESC">
+			<Text>Heresy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_FAITH_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_FAITH] Heresy in the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRIME_JFD_FOOD_DESC">
+			<Text>Violence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_FOOD_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_FOOD] Violence in the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRIME_JFD_GOLD_DESC">
+			<Text>Corruption</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_GOLD_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_GOLD] Corruption in the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRIME_JFD_HAPPINESS_DESC">
+			<Text>Treason</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_HAPPINESS_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_HAPPINESS] Treason in the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRIME_JFD_HEALTH_DESC">
+			<Text>Possession</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_HEALTH_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_HEALTH] Possession in the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRIME_JFD_GAP_DESC">
+			<Text>Conspiracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_GAP_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_PRESTIGE] Conspiracy in the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRIME_JFD_PRODUCTION_DESC">
+			<Text>Theft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_PRODUCTION_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_PRODUCTION] Theft in the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRIME_JFD_TOURISM_DESC">
+			<Text>Abduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_TOURISM_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_TOURISM] Abduction in the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRIME_JFD_SCIENCE_DESC">
+			<Text>Fraud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CRIME_JFD_SCIENCE_HELP">
+			<Text>[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_SCIENCE] Fraud in the city by 20%.</Text>
+		</Row>
+		<!--NATIONAL WONDERS-->
+		<!--Circus Maximus-->
+		<Row Tag="TXT_KEY_WONDER_JFD_CIRCUS_MAXIMUS_HELP_CRIME">
+			<Text>Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_FOOD] Violence by 5% in all cities.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<!--Court of Chancery-->
+		<Row Tag="TXT_KEY_WONDER_JFD_COURT_CHANCERY_HELP_CRIME">
+			<Text>Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_PRODUCTION] Theft by 5% in all cities.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<!--Ironworks-->
+		<Row Tag="TXT_KEY_WONDER_JFD_IRONWORKS_HELP_CRIME">
+			<Text>Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_GRAY] Sabotage by 5% in all cities.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<!--National Treasury-->
+		<Row Tag="TXT_KEY_WONDER_JFD_NATIONAL_TREASURY_HELP_CRIME">
+			<Text>Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_GOLD] Corruption by 5% in all cities.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<!--Oxford University-->
+		<Row Tag="TXT_KEY_WONDER_JFD_OXFORD_UNIVERSITY_HELP_CRIME">
+			<Text>Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_SCIENCE] Fraud by 5% in all cities.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<!--National Intelligence Agency-->
+		<Row Tag="TXT_KEY_WONDER_JFD_INTELLIGENCE_AGENCY_HELP_CRIME">
+			<Text>[NEWLINE][NEWLINE]Increases the threshold at which Organized Crime emerges by 10% in all cities.</Text>
+		</Row>
+		<!--National Visitor's Center-->
+		<Row Tag="TXT_KEY_WONDER_JFD_TOURIST_CENTER_HELP_CRIME">
+			<Text>Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_TOURISM] Abduction by 5% in all cities.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<!--Supreme Court-->
+		<Row Tag="TXT_KEY_WONDER_JFD_SUPREME_COURT_HELP_CRIME">
+			<Text>Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_HAPPINESS] Treason by by 5% in all cities.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<!--ORGANIZED CRIMES-->
+		<!--Culture-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_CULTURE_DESC">
+			<Text>Anarchists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CULTURE_EMERGES_NOTIFICATION">
+			<Text>Anarchists are now distributing phamplets against our city's government!</Text>
+		</Row>
+		<!--Faith-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_FAITH_DESC">
+			<Text>Cultists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FAITH_EMERGES_NOTIFICATION">
+			<Text>Cultists are now holding secret rituals in our city's cellars!</Text>
+		</Row>
+		<!--Food-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_FOOD_DESC">
+			<Text>Thugs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FOOD_EMERGES_NOTIFICATION">
+			<Text>Thugs are now assaulting people at our city's markets!</Text>
+		</Row>
+		<!--Golden Age Points-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_GAP_DESC">
+			<Text>Societies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GAP_EMERGES_NOTIFICATION">
+			<Text>Societies are now meeting in secret in our city's halls!</Text>
+		</Row>
+		<!--Gold-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_GOLD_DESC">
+			<Text>Cabals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOLD_EMERGES_NOTIFICATION">
+			<Text>Cabals are now forming between our city's most corrupt!</Text>
+		</Row>
+		<!--Happiness-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_HAPPINESS_DESC">
+			<Text>Assassins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HAPPINESS_EMERGES_NOTIFICATION">
+			<Text>Assassins are now dispatching our city's officials!</Text>
+		</Row>
+		<!--Health-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_HEALTH_DESC">
+			<Text>Cartels</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEALTH_EMERGES_NOTIFICATION">
+			<Text>Cartels are now peddling drugs to our city's most vulnerable!</Text>
+		</Row>
+		<!--Production-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_PRODUCTION_DESC">
+			<Text>Smugglers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRODUCTION_EMERGES_NOTIFICATION">
+			<Text>Smugglers are now stealing our city's precious brickwork!</Text>
+		</Row>
+		<!--Science-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_SCIENCE_DESC">
+			<Text>Counterfeiters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SCIENCE_EMERGES_NOTIFICATION">
+			<Text>Counterfeiters are now falsifying our city's research!</Text>
+		</Row>
+		<!--Tourism-->
+		<Row Tag="TXT_KEY_CRIME_ORGANIZED_JFD_TOURISM_DESC">
+			<Text>Terrorists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TOURISM_EMERGES_NOTIFICATION">
+			<Text>Terrorists are now threatening our city's landmarks!</Text>
+		</Row>
+		<!--POLICIES-->
+		<!--Popular Assembly-->
+		<Row Tag="TXT_KEY_POLICY_JFD_REPUBLIC">
+			<Text>Popular Assembly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_REPUBLIC_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Popular Assembly[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production in every City and +5% [ICON_PRODUCTION] Production in cities when constructing Buildings. Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_PRODUCTION] Theft by 15% in all Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLICY_JFD_REPUBLIC_TEXT">
+			<Text>A popular assembly (or people's assembly) is a gathering called to address issues of importance to participants. Assemblies tend to be freely open to participation and operate by direct democracy. Some assemblies are of people from a location, some from a given workplace, industry or educational establishment others are called to address a specific issue.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_SCIENTIFIC_REVOLUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Scientific Revolution[ENDCOLOR][NEWLINE]Boosts [ICON_RESEARCH] Science gained from research agreements by 50%. Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_SCIENCE] Fraud by 15% in all Cities.</Text>
+		</Row>
+		<!--PROCESSES-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_INTERNATIONAL_CRIMINAL_COURT">
+			<Text>International Criminal Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_INTERNATIONAL_CRIMINAL_COURT_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the International Criminal Court project.</Text>
+		</Row>
+		<!--RESOLUTIONS-->
+		<Row Tag="TXT_KEY_RESOLUTION_JFD_INTERNATIONAL_CRIMINAL_COURT">
+			<Text>International Criminal Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_JFD_INTERNATIONAL_CRIMINAL_COURT_HELP">
+			<Text>Begins the International Criminal Court project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list.  When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_JFD_INTERNATIONAL_CRIMINAL_COURT_3_HELP}[NEWLINE][ICON_TROPHY_CYAN]: {TXT_KEY_LEAGUE_PROJECT_REWARD_JFD_INTERNATIONAL_CRIMINAL_COURT_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_JFD_INTERNATIONAL_CRIMINAL_COURT_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Radio.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_JFD_INTERNATIONAL_CRIMINAL_COURT">
+			<Text>International Criminal Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_JFD_INTERNATIONAL_CRIMINAL_COURT_SPLASH">
+			<Text>Leaders from around the world have gathered to observe the creation of an International Criminal Court. As the world watches, Civilizations pledge their support to the cause and pursuit of a universal justice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_JFD_INTERNATIONAL_CRIMINAL_COURT_1">
+			<Text>Observing Member</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_JFD_INTERNATIONAL_CRIMINAL_COURT_1_HELP">
+			<Text>[ICON_JFD_ORGANIZED_CRIME] Organized Crime Threshold increased by 5%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_JFD_INTERNATIONAL_CRIMINAL_COURT_2">
+			<Text>Signatory Member</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_JFD_INTERNATIONAL_CRIMINAL_COURT_2_HELP">
+			<Text>[ICON_JFD_ORGANIZED_CRIME] Organized Crime Threshold increased by 15%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_JFD_INTERNATIONAL_CRIMINAL_COURT_3">
+			<Text>Hosting Member</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_JFD_INTERNATIONAL_CRIMINAL_COURT_3_HELP">
+			<Text>[ICON_JFD_ORGANIZED_CRIME] Organized Crime Threshold increased by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ICC_1_DESC">
+			<Text>JFD: ICC Bronze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ICC_2_DESC">
+			<Text>JFD: ICC Silver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ICC_3_DESC">
+			<Text>JFD: ICC Gold</Text>
+		</Row>
+		<!--SPECIALISTS-->
+		<!--Officer-->
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_OFFICER">
+			<Text>Officer|Officers</Text>
+			<Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_OFFICER_STRATEGY">
+			<Text>Create Officers to decrease the empire's [ICON_JFD_CRIME_BLACK] Crime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_OFFICER_SLOTS">
+			<Text>Officer Slots:</Text>
+		</Row>
+		<!--TENETS-->
+		<!--Decriminalization-->
+		<Row Tag="TXT_KEY_POLICY_JFD_DECRIMINALIZATION">
+			<Text>Decriminalization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DECRIMINALIZATION_TEXT">
+			<Text>Decriminalization is the abolition of criminal penalties in relation to certain acts, perhaps retroactively, though perhaps regulated permits or fines might still apply. Decriminalization reflects changing social and moral views. A society may come to the view that an act is not harmful, should no longer be criminalized, or is otherwise not a matter to be addressed by the justice system.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DECRIMINALIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Decriminalization[ENDCOLOR][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_TOURISM] Abduction, [ICON_JFD_CRIME_HAPPINESS] Treason, and [ICON_JFD_CRIME_FOOD] Violence by 20% in all Cities.</Text>
+		</Row>
+		<!--Secret Police-->
+		<Row Tag="TXT_KEY_POLICY_JFD_SECRET_POLICE">
+			<Text>Secret Police</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_SECRET_POLICE_TEXT">
+			<Text>Secret police are intelligence services or police and law enforcement agencies which operate in secrecy. Therefore, they have little to no transparency, accountability or oversight. A secret police organization is often used beyond the law by totalitarian states to protect the political power of an individual dictator or an authoritarian (autocratic) political regime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_SECRET_POLICE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Secret Police[ENDCOLOR][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_FAITH] Heresy, [ICON_JFD_CRIME_HAPPINESS] Treason, and [ICON_JFD_CRIME_CULTURE] Vandalism by 20% in all Cities.</Text>
+		</Row>
+		<!--Worker Councils-->
+		<Row Tag="TXT_KEY_POLICY_JFD_WORKER_COUNCILS">
+			<Text>Worker Councils</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_WORKER_COUNCILS_TEXT">
+			<Text>A workers' council is a form of political and economic organization in which a single place of work or enterprise, such as a factory, school, or farm, is controlled collectively by the workers of that workplace, through the core principle of temporary and instantly revocable delegates.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_WORKER_COUNCILS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Worker Councils[ENDCOLOR][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_SCIENCE] Fraud, [ICON_JFD_CRIME_PRODUCTION] Theft, and [ICON_JFD_CRIME_HAPPINESS] Treason by 20% in all Cities.</Text>
+		</Row>
+		<!--UNITS-->
+		<!--Notification-->
+		<Row Tag="TXT_KEY_UNIT_JFD_CRIME_NOTIFICATION">
+			<Text>JFD: Crime Notification</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Pentagon-->
+		<Row Tag="TXT_KEY_WONDER_JFD_PENTAGON_HELP">
+			<Text>[ICON_GOLD] Gold cost of upgrading military units reduced by 20%.[NEWLINE][NEWLINE]Reduces [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_TOURISM] Abduction and [ICON_JFD_CRIME_GOLD] Corruption by 20% in all Cities.</Text>
+		</Row>
+		<!--Uffizi-->
+		<Row Tag="TXT_KEY_WONDER_JFD_UFFIZI_HELP">
+			<Text>Requires Aesthetics. Eliminates [ICON_JFD_CRIME_BLACK] Crime from Great Works the city. Contains 3 slots for Great Works of Art.</Text>
+		</Row>
+		<!--White Tower-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_TOWER_LONDON">
+			<Text>White Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_TOWER_LONDON_HELP">
+			<Text>Provides a free Castle in the city. Eliminates [ICON_JFD_CRIME_BLACK] Crime from [ICON_JFD_CRIME_HAPPINESS] Treason in all cities.[NEWLINE][NEWLINE]+4 [ICON_TOURISM] Tourism after Electricity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_TOWER_LONDON_QUOTE">
+			<Text>[NEWLINE]"Is not this house as nigh heaven as my own?"[NEWLINE] - Thomas Moore[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_TOWER_LONDON_PEDIA">
+			<Text>Her Majesty's Royal Palace and Fortress, known as the Tower of London, is a historic castle located on the north bank of the River Thames in central London. It lies within the London Borough of Tower Hamlets, separated from the eastern edge of the square mile of the City of London by the open space known as Tower Hill. It was founded towards the end of 1066 as part of the Norman Conquest of England. The White Tower, which gives the entire castle its name, was built by William the Conqueror in 1078, and was a resented symbol of oppression, inflicted upon London by the new ruling elite. The castle was used as a prison from 1100 (Ranulf Flambard) until 1952 (Kray twins), although that was not its primary purpose. A grand palace early in its history, it served as a royal residence. As a whole, the Tower is a complex of several buildings set within two concentric rings of defensive walls and a moat. There were several phases of expansion, mainly under Kings Richard the Lionheart, Henry III, and Edward I in the 12th and 13th centuries. The general layout established by the late 13th century remains despite later activity on the site.</Text>
+		</Row>
+		<!--YIELDS-->
+		<Row Tag="TXT_KEY_YIELD_JFD_CRIME">
+			<Text>Crime</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

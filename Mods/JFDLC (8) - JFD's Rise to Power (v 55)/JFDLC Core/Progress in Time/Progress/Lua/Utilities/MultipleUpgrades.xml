@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow">
+	<Instance Name="UnitUpgrade">
+		<GridButton Anchor="L,B" Size="50,50" Offset="0,0" Style="BaseButton" ID="UnitUpgradeButton">
+			<Image Anchor="C,C" Offset="0,0" Size="64,64" Texture="UnitActions.dds" ID="UnitUpgradeIcon"/>
+		</GridButton>
+	</Instance>
+
+	<Grid Anchor="L,B" Offset="200,163" Size="270,110" Padding="0,0" Texture="Grid9DetailFive140.dds" ConsumeMouse="1" ID="UpgradePanel"
+		ULSize="70,50"  ULTexStart="0,0"
+		UCSize="1,50" UCTexStart="70,0"
+		URSize="70,50"  URTexStart="70,0"
+		LSize="70,1"  LTexStart="0,70"
+		CSize="1,1" CTexStart="70,70"
+		RSize="70,1"  RTexStart="70,70"
+		LLSize="70,11"  LLTexStart="0,90"
+		LCSize="1,11" LCTexStart="70,90"
+		LRSize="70,11"  LRTexStart="70,90">
+
+		<TextButton Offset="30,25" Anchor="R,T" AnchorSide="I,I" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" String="TXT_KEY_CLOSE" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="CloseButton" />
+		<Label Offset="60,18" Anchor="L,T" Font="TwCenMT20" String="TXT_KEY_UPANEL_UNIT_UPGRADES" FontStyle="Shadow"/>
+		<FlipAnim Offset="12,-12" Anchor="L,T" Size="64,64" Columns="4" Speed="10" Pause=".5" StepSize="64,64" FrameCount="8" Texture="PromotionAnimation.dds"/>
+	</Grid>
+</Context>

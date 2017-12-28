@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<Box ID="MainUIBG"  Style="BGBlock_ClearTopBar" Hidden="0"/>
+	<Grid  ID="MainUI" Size="600,360" Anchor="C,C" Offset="0,0" Padding="30,30" Style="Grid9DetailFive140" Hidden="0">
+		<!-- Upper Treatment -->
+		<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-14"  Texture="assets\UI\Art\Icons\Top512IconTrim.dds" >
+			<Image ID="CivIcon" Size="64,64" Offset="0,0"  Anchor="C,C" Texture="CivSymbolsColor512.dds" />
+		</Image>
+
+		<!-- Side treatments -->
+		<Box Style="MenuLeftSideTreatment"/>
+		<Box Style="MenuRightSideTreatment"/>
+
+		<Label  Anchor="C,T" Size="300,24" Offset="0,15" String="TXT_KEY_JFD_DAWN_OF_MAN_TITLE" ID="Title" ColorSet="Beige_Black"  Font="TwCenMT22" />
+		<Stack Anchor="C,T" Offset="0,70" Padding="12" StackGrowth="Bottom" ID="ButtonStack">
+			<Label Anchor="C,T" Offset="0,0" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" String="TXT_KEY_JFD_DAWN_OF_MAN_MESSAGE" ID="Summary" WrapWidth="570" LeadingOffset="-8"/>
+			<Image Anchor="C,C" Offset="0,40" Texture="bar340x2.dds" Size="340.1"/>
+			<Label Anchor="C,T" Offset="0,0" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" String="TXT_KEY_JFD_CULTURE_TITLE" ID="CultureTitle" WrapWidth="570" LeadingOffset="-8"/>
+			<Label Anchor="C,T" Offset="0,0" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" String="TXT_KEY_JFD_CULTURE_TITLE" ID="SubCultureTitle" WrapWidth="570" LeadingOffset="-8" Hidden="1"/>
+			<Label Anchor="C,T" Offset="0,0" ColorSet="Beige_Black" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_JFD_DAWN_OF_MAN_MESSAGE_BONUSES" ID="Summary2" WrapWidth="570" LeadingOffset="-8"/>
+			<GridButton Style="BaseButton"  ID="CloseButton" Size="180,36" Anchor="C,T" Offset="0,20"  Hidden="0" ToolTip ="TXT_KEY_JFD_DAWN_BUTTON">
+				<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_JFD_DAWN_BUTTON" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" ID="Button1Text" />
+			</GridButton>
+		</Stack>
+	</Grid>
+</Context>

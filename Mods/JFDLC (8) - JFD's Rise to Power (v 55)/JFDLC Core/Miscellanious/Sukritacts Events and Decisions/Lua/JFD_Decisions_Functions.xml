@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow">
+	<Instance Name="ChoiceInstance">
+		<Button Anchor="L,C" Size="342,64" Color="255,255,255,255" Offset="0,0" StateOffsetIncrement="0,0" ID="ChoiceButton">
+			<ShowOnMouseOver>
+				<AlphaAnim ID="BounceAnim" Anchor="L,T" Size="342,69" Offset="0,-3" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+					<Grid ID="BounceGrid" Size="342,69" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL"/>
+				</AlphaAnim>
+			</ShowOnMouseOver>
+			<Box Anchor="L,T" Size="342,64" Color="19,32,46,120" ID="Box"/>
+			<Grid ID="SelectedHL" Hidden="1" Size="342,69" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL"/>
+			<Stack StackGrowth="Right" ID="ChoiceStack" Size="342,64">
+				<Image Anchor="C,C" Size="64,64" Offset="0,0" Texture="ReligiousSymbolsWhite64_Expansion.dds" ID="ChoiceIcon" Hidden="0"/>
+				<Box Size="20,64" Color="0,0,0,0">
+					<Stack Anchor="L,C" Offset="0,0" StackGrowth="Bottom" Padding="3" ID="ChoiceInfoStack">
+						<Label ID="ChoiceDesc" Anchor="L,C" Offset="5,0" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+						<Label ID="ChoiceHelp" Anchor="L,C" Offset="5,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+						<Label ID="ChoiceFounder" Anchor="L,C" Offset="5,0" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+					</Stack>
+				</Box>
+			</Stack>
+			<Image Anchor="L,B" Offset="0,0" Texture="BlueBar500x3.dds" Size="342,1"/>
+		</Button>
+	</Instance>
+	<!--Choice Popup-->
+	<Box Style="BGBlock_ClearTopBar" ID="BGBlock" Hidden="1"/>
+	<Box Hidden="1" ID="ChoicePopup" Color="Black.200" Size="Full.Full" ConsumeMouseOver="1" ConsumeMouseButton="1">
+		<Grid Size="394,370" Anchor="C,C" Offset="0,0" Padding="0,20" Style="Grid9DetailFive140" ID="ChoiceGrid">
+			<Label ID="MainTitle" Style="MenuTitleCaption" String=""/>
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+			<ScrollPanel Anchor="L,T" ID="ChoiceScrollPanel" Vertical="1" Size="342,225" Offset="17,44" AutoScrollBar="0">
+				<!-- Scroll Controls -->
+				<ScrollBar Anchor="R,T" Offset="0.18" AnchorSide="O,I" Length="188" Style="VertSlider"/>
+				<UpButton Anchor="R,T" AnchorSide="O,I" Style="ScrollBarUp"/>
+				<DownButton Anchor="R,T" Offset="0.206" AnchorSide="O,I" Style="ScrollBarDown"/>
+				<Stack ID="ChoiceStack" Anchor="C,T" Offset="0,0" Padding="0" StackGrowth="Bottom"/>
+			</ScrollPanel>
+			<Image Anchor="C,B" Offset="0,-195" Texture="HorizontalTrim.dds" Size="360,290" ID="HorizontalTrim"/>
+			<GridButton ID="SelectButton" Size="140,36" Anchor="R,B" Offset="30,50" Style="BaseButton" ToolTip="TXT_KEY_JFD_ADOPT_SYSTEM_BUTTON_TT">
+				<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_JFD_ADOPT_SYSTEM_BUTTON" Font="TwCenMT24" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			</GridButton>
+		</Grid>
+	</Box>
+	<!--Confirmation Popup-->
+	<Box Color="Black.200" Size="Full.Full" ID="Confirm" Hidden="1" ConsumeMouseOver="1" ConsumeMouseButton="1">
+		<Grid Size="500,310" Anchor="C,C" Offset="0,0" Padding="0,20" Style="Grid9DetailFive140" Hidden="0">
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+			<Image Anchor="C,T" AnchorSide="I.O" Offset="0,-14" Size="256,64" Texture="Top512IconTrim.dds">
+				<Image Anchor="C,C" Offset="0,-6" Size="80,80" Texture="NotificationFrameBase.dds">
+					<AlphaAnim Anchor="C,C" Offset="0,0" Size="80,80" Texture="assets\UI\Art\Notification\NotificationGenericGlow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".5"/>
+				</Image>
+			</Image>
+			<Label Anchor="C,T" Offset="0,54" WrapWidth="440" ID="LabelConfirm" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			<Stack Anchor="C,B" Offset="0,60" Padding="24" StackGrowth="Bottom">
+				<!-- Yes Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmYes" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_YES_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+				<!-- No Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmNo" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_NO_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+			</Stack>
+		</Grid>
+	</Box>
+</Context>

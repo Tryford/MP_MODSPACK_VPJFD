@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_PROGRESS_TALENTS_HEADING1_TITLE">
+			<Text>Talents: Talents</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROGRESS_TALENTS_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Build Charges[ENDCOLOR] are a replacement for how Workers (and Peasants and Slaves) construct Improvements. Instead of taking a number of turns to complete an Improvement, Improvements are now built instantly, consuming 'Charges' in the process. Each Worker may use these Charges until they have none left, at which point they are expended.[NEWLINE]Roads, Railroads, Repairs, and Clearing Features still requires a set number of turns, however, and do not consume Charges.</Text>
+		</Row>
+		<!--MISSIONS-->
+		<!--Swear Oath of Fealty-->
+		<Row Tag="TXT_KEY_MISSION_JFD_INVENTORS">
+			<Text>Swear Oath of Fealty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_INVENTORS_HELP">
+			<Text>This order will consume the unit and grant 2 [ICON_JFD_INVENTOR] Inventors.</Text>
+		</Row>
+		<!--PROMOTIONS-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TALENT">
+			<Text>Talents</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TALENT_HELP">
+			<Text>[ICON_JFD_TALENT]</Text>
+		</Row>
+		<!--RESOURCES-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_INVENTORS">
+			<Text>Inventors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_INVENTORS_TEXT">
+			<Text>An inventor is a person who creates or discovers a new method, form, device or other useful means that becomes known as an invention. The word inventor comes form the Latin verb invenire, invent-, to find. The system of patents was established to encourage inventors by granting limited-term, limited monopoly on inventions determined to be sufficiently novel, non-obvious, and useful. Although inventing is closely associated with science and engineering, inventors are not necessarily engineers nor scientists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JFD_INVENTORS_HELP">
+			<Text>Used to enact Decisions.</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Trafalgar Square-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_TRAFALGAR">
+			<Text>Trafalgar Square</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_TRAFALGAR_HELP">
+			<Text>A Great Admiral appears near the City where the wonder was built and having a Naval Unit stationed in a City increases [ICON_JFD_BLUE_FIST] Loyalty by +15%.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_TRAFALGAR_QUOTE">
+			<Text>[NEWLINE]"Time is everything; five minutes make the difference between victory and defeat"[NEWLINE] - Lord Nelson[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_TRAFALGAR_PEDIA">
+			<Text>Trafalgar Square is a public area located in the heart of the City of Westminster, in London, England. Redevelopment of the existing area, known as Charing Cross, began in 1820 under the guide of architect John Nash, who in turn was commisioned by King George IV, and was completed in 1845. The name commemorates the Battle of Trafalgar, a naval battle fought between England and Napoleonic France during the Napoleonic Wars. In the center of the square is Nelson's column, a monument dedicate to Admiral Horatio Nelson, who died at the battle which was the square's namesake. The column features four cast iron plates made from captured French guns, each depicting a famous battle in the Napoleonic Wars. The base of the column is guarded by four Lion statues. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

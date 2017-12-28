@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/23/2014 11:10:53 PM -->
+<GameData>
+	<Language_en_US>
+		<!--GENERAL-->
+		<Row Tag="TXT_KEY_POLICY_JFD_PROSPERITY">
+			<Text>[ICON_FLOWER]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PROSPERITY_MOD">
+			<Text>[ICON_BULLET][ICON_FLOWER] Prosperity Bonuses: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PROSPERITY_MOD_PENALTY">
+			<Text>[ICON_BULLET][ICON_FLOWER] Prosperity Penalties: {1_Num}%</Text>
+		</Row>
+		<!--CHOOSE CURRENCY POPUP-->
+		<Row Tag="TXT_KEY_JFD_PROSPERITY_CHOOSE_CURRENCY_TITLE">
+			<Text>CHOOSE A CURRENCY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROSPERITY_CHOOSE_CURRENCY_MENU">
+			<Text>None Selected</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROSPERITY_CHOOSE_CURRENCY_BUTTON">
+			<Text>Select</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROSPERITY_CHOOSE_CURRENCY_BUTTON_TT">
+			<Text>Select a Currency for your civilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROSPERITY_CHOOSE_CURRENCY_MENU_TOOLTIP">
+			<Text>This will establish {1_FontIcon} {2_CurrencyDesc} as your National Currency. This can be changed later.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROSPERITY_CHOOSE_CURRENCY_PROSPERITY">
+			<Text>[ICON_FLOWER] Prosperity Value: {1_Num}</Text>
+		</Row>
+		<!--ECONOMIC OVERVIEW-->
+		<Row Tag="TXT_KEY_EO_TOTAL_JFD_PROSPERITY">
+			<Text>[ICON_FLOWER]Prosperity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_TOTAL_JFD_PROSPERITY_SCORE">
+			<Text>Score</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_TOTAL_JFD_CURRENCY">
+			<Text>Currency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_TOTAL_JFD_CURRENCY_NONE">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_TOTAL_JFD_CURRENCY_NONE_TT">
+			<Text>Right-Click to change</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_TOTAL_JFD_CURRENCY_NONE_TT_DISABLED">
+			<Text>Must have researched Currency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SORT_JFD_CRIME">
+			<Text>Sort by Crime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SORT_JFD_LOYALTY">
+			<Text>Sort by Loyalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_JFD_CRIME">
+			<Text>[ICON_PLUS] Corruption</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_EX_JFD_CRIME">
+			<Text>Total cost of [ICON_JFD_CRIME_GOLD] Corruption</Text>
+		</Row>
+		<!--WORLD CURRENCIES-->
+		<Row Tag="TXT_KEY_EO_TAB_JFD_WORLD_CURRENCIES">
+			<Text>World Currencies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NO_WORLD_CURRENCIES">
+			<Text>There are no World Currencies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NO_CURRENCY_NONE">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CURRENCY_PANEL">
+			<Text>Currency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GPT_PANEL">
+			<Text>[ICON_GOLD] Gold Per Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROSPERITY_PANEL">
+			<Text>[ICON_FLOWER] Prosperity</Text>
+		</Row>
+		<!--NOTIFICATIONS-->
+		<Row Tag="TXT_KEY_UNIT_JFD_PROSPERITY">
+			<Text>JFD: Currency Notification</Text>
+		</Row>
+		<!--Currency Adopted-->
+		<Row Tag="TXT_KEY_JFD_CURRENCY_NOTIFICATION_SHORT_TEXT">
+			<Text>Currency adopted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CURRENCY_NOTIFICATION_TEXT">
+			<Text>You have adopted the {1_FontIcon} {2_CurrencyDesc} as your national currency!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CURRENCY_NOTIFICATION_CHANGE_TEXT">
+			<Text>Allows you to adopt a Currency.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CURRENCY_NOTIFICATION_OTHER_TEXT">
+			<Text>{1_CivDesc} has adopted the {1_FontIcon} {2_CurrencyDesc} as their national currency!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CURRENCY_NOTIFICATION_OTHER_CHANGE_TEXT">
+			<Text>Allows you to adopt a Currency.</Text>
+		</Row>
+		<!--Currency Adoptable-->
+		<Row Tag="TXT_KEY_JFD_CURRENCY_CAN_ADOPT_NOTIFICATION_SHORT_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]May Adopt a Currency![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CURRENCY_CAN_ADOPT_NOTIFICATION_TEXT">
+			<Text>You may adopt a Currency![NEWLINE][NEWLINE]Go to the Economic Overview to do so.</Text>
+		</Row>
+		<!--TOP PANEL-->
+		<Row Tag="TXT_KEY_TOP_PANEL_JFD_PROSPERITY">
+			<Text>[ICON_FLOWER][COLOR_JFD_PROSPERITY]+{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_JFD_PROSPERITY_EUI">
+			<Text>[COLOR_JFD_PROSPERITY]+{1_Num}[ICON_FLOWER][ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_JFD_PROSPERITY_TT">
+			<Text>[COLOR_POSITIVE_TEXT]{2_CurrencyDesc}[ENDCOLOR] ({1_IconString}) is your Currency.[NEWLINE][NEWLINE]Your [ICON_FLOWER] Prosperity Score is [COLOR_POSITIVE_TEXT]{3_Desc}[ENDCOLOR] (+{4_Num}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_JFD_PROSPERITY_TT_NONE">
+			<Text>You have no Currency.[NEWLINE][NEWLINE]Your [ICON_FLOWER] Prosperity Score is [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] (+{2_Num}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_JFD_PROSPERITY_TT_GPT">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from your porportion of [ICON_GOLD] GPT in the known world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_JFD_PROSPERITY_TT_GPT_BONUS">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from {2_Num}% of the [ICON_GOLD] GPT of civilizations sharing Currencies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_JFD_PROSPERITY_TT_PROJECTED_CHANGE">
+			<Text>Your [ICON_FLOWER] Prosperity Score will be re-calculated at the beginning of the next turn. It is expected to become [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_JFD_PROSPERITY_TT_PROJECTED_UNCHANGED">
+			<Text>Your [ICON_FLOWER] Prosperity Score will be re-calculated at the beginning of the next turn. It is expected to remain [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

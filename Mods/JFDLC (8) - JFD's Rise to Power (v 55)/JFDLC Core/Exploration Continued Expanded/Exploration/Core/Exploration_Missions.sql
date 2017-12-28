@@ -1,0 +1,19 @@
+--==========================================================================================================================
+-- CONCEPTS
+--==========================================================================================================================
+-- Concepts
+--------------------------------------------------------------------------------------------------------------------------
+-- INSERT INTO Concepts
+		-- (Type,								Topic,									Description,							Summary,								AdvisorQuestion,							Advisor,	CivilopediaHeaderType)
+-- SELECT	'CONCEPT_JFD_EXPLORATION_RECON',	'TXT_KEY_TOPIC_JFD_EXPLORATION_RECON',	'TXT_KEY_TOPIC_JFD_EXPLORATION_RECON',	'TXT_KEY_JFD_EXPLORATION_RECON_BODY',	'TXT_KEY_JFD_EXPLORATION_RECON_QUESTION',	'FOREIGN',  'HEADER_EXCE'
+-- WHERE EXISTS (SELECT * FROM JFD_GlobalUserSettings WHERE Type = 'JFD_EXCE_EXPLORATION_CORE' AND Value = 1);
+--==========================================================================================================================	
+-- MISSIONS
+--==========================================================================================================================
+-- Missions
+--------------------------------------------------------------------------------------------------------------------------	
+-- INSERT OR REPLACE INTO Missions	
+		-- (Type, 								Time,	OrderPriority,	Visible,	Description, 						Help, 										DisabledHelp, 									EntityEventType,				IconAtlas,				IconIndex)
+-- VALUES	('MISSION_FREE_LUXURY', 			20,		199,			1,			'TXT_KEY_MISSION_FREE_LUXURY', 		'TXT_KEY_MISSION_FREE_LUXURY_HELP',			'TXT_KEY_MISSION_FREE_LUXURY_HELP_DISABLED',	'ENTITY_EVENT_GREAT_EVENT',		'UNIT_ACTION_ATLAS',	16);
+--==========================================================================================================================
+--==========================================================================================================================

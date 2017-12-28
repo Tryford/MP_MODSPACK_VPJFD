@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--INTERFACE-->
+		<Row Tag="TXT_KEY_JFD_CITIZEN_CULTURE_METER">
+			<Text>{1_Num}% {2_CultureType}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITIZEN_CULTURE_UNLOCKS">
+			<Text>(Supports: {1_Building} at {2_Tech})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CITIZEN_CULTURE_METER_TT">
+			<Text>Each [ICON_CITIZEN] Citizen belongs to a distinct culture group, determined when they are born. When a culture group becomes dominant, it unlocks a unique building. This building is destroyed if the group that unlocked it loses their dominant status. This building produces +1 [ICON_HAPPINESS_1] Happiness if it is unlocked by the same culture as your civilization's.[NEWLINE]----------------------[NEWLINE][COLOR_POSITIVE_TEXT]City Culture(s):[ENDCOLOR]{1_CultureList}[NEWLINE][NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Dominant City Culture(s):[ENDCOLOR] {2_DominantCultureList}[NEWLINE][NEWLINE]A [ICON_CITIZEN] Citizen's culture group is determined by </Text>
+		</Row>
+		<!--Dawn of Man-->
+		<Row Tag="TXT_KEY_JFD_DAWN_OF_MAN_TITLE">
+			<Text>The Dawn of Man</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_OF_MAN_MESSAGE">
+			<Text>The sun rises on the year {1_Year} {2_Era} Since time immemorial the {3_Adjective} people have lived a nomadic life. After years of wandering, they are finally ready to settle down and found their first city.[NEWLINE][NEWLINE]{4_Leader}, your people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_BUTTON">
+			<Text>Let us begin.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_BUTTON_TT">
+			<Text>{1_Bonuses}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_DAWN_STARTING_RESOURCE">
+			<Text>Begin with {1_Num} nearby source of {2_ResourceDesc}.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

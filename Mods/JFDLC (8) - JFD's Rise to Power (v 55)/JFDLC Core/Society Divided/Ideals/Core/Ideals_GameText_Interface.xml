@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_OTHER_PLAYER_UNKNOWN">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OTHER_PLAYER_YOU">
+			<Text>You</Text>
+		</Row>
+		<!--SOCIAL POLICY OVERVIEW-->
+		<Row Tag="TXT_KEY_POLICYSCREEN_IDEALS_TITLE">
+			<Text>CULTURAL IDEALS</Text>
+		</Row>
+		<!--IDEALS-->
+		<Row Tag="TXT_KEY_POLICYSCREEN_SHOW_IDEALS">
+			<Text>Show Ideals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_SHOW_IDEALS_TT">
+			<Text>Show Ideal details.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_SHOW_IDEOLOGY">
+			<Text>Show Ideology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_SHOW_IDEOLOGY_TT">
+			<Text>Show Ideology details.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IDEAL_COMPLETED">
+			<Text>[COLOR_POSITIVE_TEXT]Completing all three of your Ideals begins a [ICON_GOLDEN_AGE] Golden Age.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IDEAL_CANNOT_UNLOCK">
+			<Text>[COLOR_WARNING_TEXT]This Policy cannot be adopted yet because its conditions have not been met.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IDEAL_CANNOT_UNLOCK_NOT_VALID">
+			<Text>[COLOR_WARNING_TEXT]This Policy can no longer be unlocked as you have failed to meet its conditions before the {1_EraDesc}.[ENDCOLOR]</Text>
+		</Row>
+		<!--NOTIFICATIONS-->
+		<Row Tag="TXT_KEY_IDEAL_COMPLETION_MESSAGE">
+			<Text>Completing your [COLOR_MAGENTA]Cultural Ideals[ENDCOLOR] has begun a [ICON_GOLDEN_AGE] [COLOR_YELLOW]Golden Age[ENDCOLOR]!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

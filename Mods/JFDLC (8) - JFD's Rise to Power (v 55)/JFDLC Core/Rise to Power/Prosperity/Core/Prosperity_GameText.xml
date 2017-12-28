@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/23/2014 11:10:53 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_PROSPERITY_HEADING1_TITLE">
+			<Text>Prosperity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PROSPERITY_HEADING1_BODY">
+			<Text>Ah, Gold! Gold is wonderful stuff. You can use it to build an army, to pay for a road network, to purchase buildings, to buy the friendship of a city-state and to bribe an enemy civilization.[NEWLINE]It may be true that "money can't buy you love," but it can purchase a nuclear submarine armed with nuclear missiles, and that's not bad.</Text>
+		</Row>
+		<!--CURRENCIES-->
+		<Row Tag="TXT_KEY_CURRENCY_JFD_BAHT_DESC">
+			<Text>Baht</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_BIRR_DESC">
+			<Text>Birr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_CHAO_DESC">
+			<Text>Chao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_CROWN_DESC">
+			<Text>Crown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_DARIC_DESC">
+			<Text>Daric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_DENARIUS_DESC">
+			<Text>Denarius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_DINAR_DESC">
+			<Text>Dinar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_DIRHAM_DESC">
+			<Text>Dirham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_DOLLAR_DESC">
+			<Text>Dollar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_DRACHMA_DESC">
+			<Text>Drachma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_DUCAT_DESC">
+			<Text>Ducat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_EURO_DESC">
+			<Text>Euro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_FLORIN_DESC">
+			<Text>Florin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_GUILDER_DESC">
+			<Text>Guilder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_FRANC_DESC">
+			<Text>Franc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_HANSATSU_DESC">
+			<Text>Hansatsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_HYPERPYRON_DESC">
+			<Text>Hyperpyron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_JIAOZI_DESC">
+			<Text>Jiaozi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_KOCHOSEN_DESC">
+			<Text>Kochosen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_LIRA_DESC">
+			<Text>Lira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_LIVRE_DESC">
+			<Text>Livre Tournois</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_MARK_DESC">
+			<Text>Mark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_PESO_DESC">
+			<Text>Peso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_POUND_DESC">
+			<Text>Pound Sterling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_REAL_DESC">
+			<Text>Real</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_RUBLE_DESC">
+			<Text>Ruble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_RUPEE_DESC">
+			<Text>Rupee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_SHEQEL_DESC">
+			<Text>Sheqel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_STATER_DESC">
+			<Text>Stater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_WON_DESC">
+			<Text>Won</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_YEN_DESC">
+			<Text>Yen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_YUAN_DESC">
+			<Text>Ying Yuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_ZLOTY_DESC">
+			<Text>zloty</Text>
+		</Row>
+		<!--Fictional-->
+		<Row Tag="TXT_KEY_CURRENCY_JFD_DOLARYDOO_DESC">
+			<Text>Dolarydoo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_GALACTIC_CREDIT_DESC">
+			<Text>Galactic Credit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_POKEDOLLAR_DESC">
+			<Text>Pokédollar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENCY_JFD_SEPTIM_DESC">
+			<Text>Septim</Text>
+		</Row>
+		<!--PROSPERITY LEVELS-->
+		<Row Tag="TXT_KEY_PROSPERITY_JFD_AFFLUENT_DESC">
+			<Text>Affluent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROSPERITY_JFD_AFFLUENT_HELP">
+			<Text>
+				[COLOR_JFD_PROSPERITY]0.8 - 1.0[ENDCOLOR][NEWLINE]----------
+				[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] Golden Age Points: +100%.
+				[NEWLINE][ICON_BULLET][ICON_GOLD] Gold Purchase costs: +20%.
+				[NEWLINE][ICON_BULLET][ICON_GREAT_PEOPLE] Great People generation: +20%.
+				[NEWLINE][ICON_BULLET]1 [ICON_CITIZEN] Citizen [ICON_JFD_MIGRATION] Migrates to the largest city ([COLOR_POSITIVE_TEXT]{1_CityDesc}[ENDCOLOR]) in {2_Num} Turn(s).
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROSPERITY_JFD_BALANCED_DESC">
+			<Text>Balanced</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROSPERITY_JFD_BALANCED_HELP">
+			<Text>[COLOR_JFD_PROSPERITY]0.4 - 0.7[ENDCOLOR][NEWLINE]----------[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] Golden Age Points: +50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROSPERITY_JFD_WEAK_DESC">
+			<Text>Weak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROSPERITY_JFD_WEAK_HELP">
+			<Text>
+				[COLOR_JFD_PROSPERITY]0.1 - 0.3[ENDCOLOR][NEWLINE]----------
+				[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] Golden Age Points: +0%.
+				[NEWLINE][ICON_BULLET][ICON_GOLD] Gold Purchase costs: -20%.
+				[NEWLINE][ICON_BULLET][ICON_FOOD] Growth in all cities: +20%.
+				[NEWLINE][ICON_BULLET]1 [ICON_CITIZEN] Citizen [ICON_JFD_MIGRATION] Migrates to the smallest city ([COLOR_POSITIVE_TEXT]{1_CityDesc}[ENDCOLOR]) in {2_Num} Turn(s).
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROSPERITY_JFD_DESTITUTE_DESC">
+			<Text>Destitute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROSPERITY_JFD_DESTITUTE_HELP">
+			<Text>[COLOR_JFD_PROSPERITY]0.0[ENDCOLOR][NEWLINE]----------</Text>
+		</Row>
+		<!--TECHS-->
+		<Row Tag="TXT_KEY_JFD_ALLOWS_CURRENCIES">
+			<Text>Allows you to adopt a Currency.</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Grand Canal-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_CANAL">
+			<Text>Grand Canal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_GRAND_CANAL_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_GRAND_CANAL_QUOTE">
+			<Text>[NEWLINE]"Thou know'st that all my fortunes are at sea, Neither have I money nor commodity to raise a present sum: therefore go forth; Try what my credit can in Venice do"[NEWLINE] - William Shakespeare[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_GRAND_CANAL_PEDIA">
+			<Text>The Grand Canal is the main thouroughfare of the Italian city of Venice. It was not so much as constucted around the city, but rather the city was constructed around it - the Grand Canal orignated as a deeper waterway in the lagoon in which the Doge saw availablility to continue trading safely from. Over the years it was shaped by the city around it, several 'Fondaco' houses were built to accomodate goods and wealth of merchants.</Text>
+		</Row>
+		<!--Panama Canal-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PANAMA_CANAL">
+			<Text>Panama Canal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PANAMA_CANAL_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PANAMA_CANAL_QUOTE">
+			<Text>[NEWLINE]"A stream cannot rise larger than its source"[NEWLINE] - Theodore Roosevelt[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PANAMA_CANAL_PEDIA">
+			<Text>The Panama Canal is a manmade shipping lane located on the Panama Isthmus seperating the Pacific Ocean and Carribean Sea. The idea of a canal in the location was first proposed int he sixteenth century by Charles V, Holy Roman Emperor, who asked for a link to shorten the journey between Spain and their colony of Peru. In 1698 the Kingdom of Scotland launched a project to create an overland trade route in the area, which was abandoned due to inhospitiable conditions a year later. It was not until 1855 that a link was first established, the Panama Canal Railway, as a result of the 1849 discovery of Gold in the American state of California. This railway was used extensively in the American construction of the canal from 1904 to 1914. As opposed to the French plan of constructing a flat water canal, much like that of the Suez Canal, the American design featured a series of ship locks to rise the ships over a range that caused problems for the French design. The American design proved sucessful, and was opened on August 15, 1914. Railway cars had been used to transport approximately 152,910,972 cubic metres of excevations through the construction, while it had cost 27,500 lives across the whole project.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<!-- Civilizations starting position -->
+	<Table name="Civilizations_YagemStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_YahemStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_CordiformStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_EuroLargeStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_AmcWestMedStandardStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_AmcMedLargeStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_AmcEastMedStandardStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_AmcEastMedLargeStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_AmericaStandardStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_GreatestEarthStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="Civilizations_EuroGiantStartPosition">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+
+	<!-- Minor Civilizations starting position -->
+	<Table name="MinorCiv_YagemStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_YahemStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_CordiformStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_EuroLargeStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_AmcWestMedStandardStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_AmcMedLargeStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_AmcEastMedStandardStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_AmcEastMedLargeStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_AmericaStandardStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_GreatestEarthStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+	<Table name="MinorCiv_EuroGiantStartPosition">
+		<Column name="Type" type="text" reference="MinorCivilizations(Type)"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="AltX" type="integer" default="NULL"/>
+		<Column name="AltY" type="integer" default="NULL"/>
+	</Table>
+
+	<!-- Civilizations requested resources -->
+	<Table name="Civilizations_YagemRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_YahemRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_CordiformRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_EuroLargeRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_AmcWestMedStandardRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_AmcMedLargeRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_AmcEastMedStandardRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_AmcEastMedLargeRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_AmericaStandardRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_GreatestEarthRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	<Table name="Civilizations_EuroGiantRequestedResource">
+		<Column name="Type" type="text" reference="Civilizations(Type)"/>
+		<Column name="Req1" type="text" reference="Resources(Type)"/>
+		<Column name="Yield1" type="integer" default="1"/>
+		<Column name="Req2" type="text" reference="Resources(Type)"/>
+		<Column name="Yield2" type="integer" default="1"/>
+		<Column name="Req3" type="text" reference="Resources(Type)"/>
+		<Column name="Yield3" type="integer" default="1"/>
+		<Column name="Req4" type="text" reference="Resources(Type)"/>
+		<Column name="Yield4" type="integer" default="1"/>
+		<Column name="Req5" type="text" reference="Resources(Type)"/>
+		<Column name="Yield5" type="integer" default="1"/>
+		<Column name="Req6" type="text" reference="Resources(Type)"/>
+		<Column name="Yield6" type="integer" default="1"/>
+	</Table>
+	
+	<!-- Regions for resources -->
+	<!-- Yagem map -->
+	<Table name="Resource_YagemRegionPosition">
+		<Column name="Type" type="text"/>
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_YagemRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+	</Table>
+	<Table name="Resource_YagemGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- Yahem map -->
+	<Table name="Resource_YahemRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_YahemRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+	</Table>
+	<Table name="Resource_YahemGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- Cordiform map -->
+	<Table name="Resource_CordiformRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_CordiformRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+	</Table>
+	<Table name="Resource_CordiformGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- Europe Large map -->
+	<Table name="Resource_EuroLargeRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_EuroLargeRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+	</Table>
+	<Table name="Resource_EuroLargeGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- Western Mediterranean standard map -->
+	<Table name="Resource_AmcWestMedStandardRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_AmcWestMedStandardRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+	</Table>
+	<Table name="Resource_AmcWestMedStandardGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- Mediterranean large map -->
+	<Table name="Resource_AmcMedLargeRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_AmcMedLargeRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resource(Type)"/>
+	</Table>
+	<Table name="Resource_AmcMedLargeGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resource(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- Eastern Mediterranean standard map -->
+	<Table name="Resource_AmcEastMedStandardRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_AmcEastMedStandardRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+	</Table>
+	<Table name="Resource_AmcEastMedStandardGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- Eastern Mediterranean large map -->
+	<Table name="Resource_AmcEastMedLargeRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_AmcEastMedLargeRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resource(Type)"/>
+	</Table>
+	<Table name="Resource_AmcEastMedLargeGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resource(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- America standard map -->
+	<Table name="Resource_AmericaStandardRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_AmericaStandardRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+	</Table>
+	<Table name="Resource_AmericaStandardGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- America standard map -->
+	<Table name="Resource_GreatestEarthRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_GreatestEarthRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+	</Table>
+	<Table name="Resource_GreatestEarthGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	<!-- Europe Giant map -->
+	<Table name="Resource_EuroGiantRegionPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+	</Table>
+	<Table name="Resource_EuroGiantRegionExclude">
+		<Column name="Type" type="text" />
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+	</Table>
+	<Table name="Resource_EuroGiantGisementPosition">
+		<Column name="Type" type="text" />
+		<Column name="X" type="integer" default="0"/>
+		<Column name="Y" type="integer" default="0"/>
+		<Column name="Width" type="integer" default="0"/>
+		<Column name="Height" type="integer" default="0"/>
+		<Column name="Resource" type="text" reference="Resources(Type)"/>
+		<Column name="Deposit" type="integer" default="0"/>
+		<Column name="MinYield" type="integer" default="1"/>
+		<Column name="MaxYield" type="integer" default="1"/>
+	</Table>
+	
+
+	<!-- City Maps -->
+	<Table name="YagemCityMap">
+		<Column name="Civilization" type="text" reference="Civilizations(Type)" default="NULL"/>
+		<Column name="X" type="integer" notnull="true"/>
+		<Column name="Y" type="integer" notnull="true"/>
+		<Column name="ERA_ANCIENT" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_CLASSICAL" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_MEDIEVAL" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_RENAISSANCE" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_INDUSTRIAL" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_MODERN" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_FUTURE" type="text"  notnull="true" unique="true" />
+	</Table>
+	<Table name="EuroLargeCityMap">
+		<Column name="Civilization" type="text" reference="Civilizations(Type)" default="NULL"/>
+		<Column name="X" type="integer" notnull="true"/>
+		<Column name="Y" type="integer" notnull="true"/>
+		<Column name="ERA_ANCIENT" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_CLASSICAL" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_MEDIEVAL" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_RENAISSANCE" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_INDUSTRIAL" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_MODERN" type="text"  notnull="true" unique="true" />
+		<Column name="ERA_FUTURE" type="text"  notnull="true" unique="true" />
+	</Table>
+</GameData>

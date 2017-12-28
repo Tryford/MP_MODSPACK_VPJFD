@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_SLAVERY_HEADING1_TITLE">
+			<Text>Slavery: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SLAVERY_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Slavery[ENDCOLOR] is a method of purchasing Military Units outright. These Units are often very cheap, however, they earn only 50% of the normal XP from combat. They also cost much more to upgrade.[NEWLINE][NEWLINE]You cannot enslave Mechanized Units such as Tanks, Naval Units, Siege Units, or Air Units, however. You must buy these with Gold instead if you wish to rush them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SLAVERY_SHACKLES_HEADING1_TITLE">
+			<Text>Slavery: Acquiring Shackles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SLAVERY_SHACKLES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Shackles[ENDCOLOR] are the new Strategic Resource used to 'enslave' Military Units. They can be acquired from these sources:[NEWLINE][ICON_BULLET]Annexing enemy Cities.[NEWLINE][ICON_BULLET]Clearing Barbarian Encampments.[NEWLINE][ICON_BULLET]Defeating Barbarian Units.[NEWLINE][ICON_BULLET]Trading with Occupied Cities.</Text>
+		</Row>
+		<!--BELIEFS-->
+		<!--God of War-->
+		<Row Tag="TXT_KEY_BELIEF_JFD_GOD_WAR_SHORT_DESC">
+			<Text>God of War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_GOD_WAR_DESC">
+			<Text>+50% [ICON_JFD_SHACKLES] from defeating Barbarians and clearing Encampments</Text>
+		</Row>
+		<!--Human Sacrifices-->
+		<Row Tag="TXT_KEY_BELIEF_JFD_HUMAN_SACRIFICES_SHORT_DESC">
+			<Text>Human Sacrifices</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_HUMAN_SACRIFICES_DESC">
+			<Text>Gain [ICON_PEACE] Faith from defeating Barbarian Units</Text>
+		</Row>
+		<!--IMPROVEMENTS-->
+		<!--Village-->
+		<Row Tag="TXT_KEY_JFD_VILLAGE">
+			<Text>Construct a Village</Text>
+		</Row>
+		<!--POLICIES-->
+		<!--Honor Opener-->
+		<Row Tag="TXT_KEY_POLICY_JFD_HONOR_HELP_SLAVERY">
+			<Text>[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] improves the effectiveness of one's army in a variety of ways.[NEWLINE][NEWLINE]Adopting Honor gives a +33% combat bonus VS Barbarians, and notifications will be provided when new Barbarian Encampments spawn in revealed territory. Gain [ICON_CULTURE] Culture for the empire from each barbarian killed. Unlocks building the Statue of Zeus.[NEWLINE][NEWLINE]Adopting all policies in the Honor tree will grant [ICON_GOLD] Gold for each enemy unit killed and [ICON_JFD_SHACKLES] Shackles for each Barbarian Camp cleared. It also allows the purchase of Great Generals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_HONOR_HELP_SLAVERY_CBO">
+			<Text>[COLOR_POSITIVE_TEXT]Authority[ENDCOLOR] will greatly benefit warlike and expansionist civilizations.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Authority grants:[ENDCOLOR] [NEWLINE] [ICON_BULLET] +25% combat bonus VS Barbarians, and receive announcements when Barbarian Camps spawn in revealed territory. [NEWLINE] [ICON_BULLET] Gain [ICON_CULTURE] Culture when you kill Units and clear Barbarian Camps.[NEWLINE] [ICON_BULLET] +1 [ICON_PRODUCTION] Production in every City.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Each Authority policy unlocked grants:[ENDCOLOR] [NEWLINE] [ICON_BULLET] +1 [ICON_PRODUCTION] Production in every City.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Authority grants:[ENDCOLOR][NEWLINE] [ICON_BULLET] Unlocks building the [COLOR_CYAN]Terracotta Army[ENDCOLOR]. [NEWLINE] [ICON_BULLET] Clearing Barbarian Camps grants [ICON_JFD_SHACKLES] Shackles. [NEWLINE] [ICON_BULLET]Allows the purchasing of Landsknechts, Foreign Legions, and Mercenaries as their prerequisite technologies are researched.[NEWLINE] [ICON_BULLET] Allows for the purchase of [ICON_GREAT_GENERAL] Great Generals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<!--PROMOTIONS-->
+		<!--Enslaved-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ENSLAVED">
+			<Text>Enslaved</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ENSLAVED_HELP">
+			<Text>An [ICON_JFD_SHACKLES] Enslaved Unit earns 50% less XP and costs 100% more to upgrade.</Text>
+		</Row>
+		<!--PROCESSES-->
+		<Row Tag="TXT_KEY_PROCESS_JFD_HUMAN_RIGHTS">
+			<Text>Declaration of Human Rights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_JFD_HUMAN_RIGHTS_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Declaration of Human Rights project.</Text>
+		</Row>
+		<!--RESOLUTIONS-->
+		<Row Tag="TXT_KEY_RESOLUTION_JFD_HUMAN_RIGHTS">
+			<Text>Declaration of Human Rights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_JFD_HUMAN_RIGHTS_HELP">
+			<Text>Bans [ICON_JFD_SHACKLES] Shackles. All current Units purchased with Shackles will lose the 'Enslaved' status and all current Shackles will be converted for a one-off boost of [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<!--RESOURCES-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_SHACKLES">
+			<Text>Shackles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SHACKLES_TEXT">
+			<Text>Slavery is a system whereby some people are judged far inferior to others and are treated as objects or possessions, with no more rights than those afforded to chairs or cattle. Slavery has existed as long as human history, from earliest primitive times to the enlightened days of Greece and Rome and right up until today. Sometimes convicted criminals were made into slaves. Sometimes captured enemies of the state were enslaved. Sometimes people of a specific race or coloration were enslaved. In some civilizations a person could purchase their freedom or were allotted it after being enslaved for a specific period of time.[NEWLINE][NEWLINE]The advantage of slavery is that it allows people to be forced to do jobs that they would otherwise refuse to do without adequate compensation. Cheap labor results in concentration of wealth and thus the creation of great buildings and temples or the maintenance of large professional armies. Aside from its basic moral repugnance, the disadvantages of slavery are numerous; it corrupts both slave and master, it badly underutilizes the intelligence and creativity of the subject people, and it almost inevitably leads to revolts and internal strife.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JFD_SHACKLES_HELP">
+			<Text>Used by powerful Military Units and the Labourer.</Text>
+		</Row>
+		<!--UNITS-->
+		<!--Labourer-->
+		<Row Tag="TXT_KEY_UNIT_JFD_SLAVE">
+			<Text>Labourer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_SLAVE">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities at a faster rate than Peasants. Cannot build Roads nor Railroads and cannot repair Improvements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_SLAVE_STRATEGY">
+			<Text>The Slave builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory. It is faster than the Peasant, however, it cannot construct roads or railroads and cannot repair improvements. The Slave can also hurry production of a unit, building or Wonder in a city. The Slave is expended when used in either of these ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SLAVE_TEXT">
+			<Text>Slavery is the state in which one person is under the complete control of another; literally that one person is the property of another and forced to serve without the right of pay or protest. Historically, slavery was lucrative in all societies in maintaining economic stability, with three quarters of the world's population estimated to be slaves at the beginning of the 19th century, but the life of a slave was wretched. Today, slavery is outlawed in every country, following the example of the British Empire in the late 18th century, but there are an estimated 27 million people still living as slaves today; often as debt slaves, indentured servants, sex slaves, or child soldiers.</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Stone Town-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_STONE_TOWN">
+			<Text>Stone Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_STONE_TOWN_HELP">
+			<Text>Gains an additional [ICON_SWAP] Trade Route slot. +20% [ICON_JFD_SHACKLES] Shackles from [ICON_SWAP] Trade Routes to Puppeted and Occupied Cities.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_STONE_TOWN_QUOTE">
+			<Text>[NEWLINE]"The Europeans and Americans residing in the town of Zanzibar are either Government officials, independent merchants, or agents for a few great mercantile houses in Europe and America"[NEWLINE] - Henry Morton Stanley[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_STONE_TOWN_PEDIA">
+			<Text>Stone Town is the old part of Zanzibar City, on the Tanzanian island of Zanzibar. It is believed the first stone construction in the area began during the period in which the Sultan of Oman ruled over Zanzibar in the 18th - 19th centuries. In 1863, the Sultan of Oman moved his capital to Zanzibar, and created a lush palace complex on the island in Stone Town, and spurred the island and Stone Town into a period of rapid development. A war of sucession following the reign of one of the sultans caused Zanzibar to become an independant sultanate from Oman, leading to more development of Stone Town.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

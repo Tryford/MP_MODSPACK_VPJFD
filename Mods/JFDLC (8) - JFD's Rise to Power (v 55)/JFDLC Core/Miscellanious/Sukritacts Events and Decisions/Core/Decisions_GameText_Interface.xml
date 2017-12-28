@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/8/2014 11:45:18 AM -->
+<GameData>
+	<Language_en_US>
+		<!--INTERFACE-->
+		<Row Tag="TXT_KEY_DECISION_ERA_SORT">
+			<Text>Era</Text>
+		</Row>
+		<!--CHOOSE SYSTEM POPUP-->
+		<Row Tag="TXT_KEY_JFD_CHOOSE_CURRENCY_SYSTEM_MENU">
+			<Text>Choose a Currency System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_NATIONAL_ANTHEM_MENU">
+			<Text>Choose a National Anthem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_WRITING_SYSTEM_MENU">
+			<Text>Choose a Writing System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ADOPT_SYSTEM_BUTTON">
+			<Text>Adopt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ADOPT_SYSTEM_BUTTON_TT">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONFIRM_JFD_WRITING_SYSTEM">
+			<Text>Are you sure you want to adopt [COLOR_POSITIVE_TEXT]{1_WritingSystemDesc}[ENDCOLOR] as your Civilization's Writing System?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ADOPT_WRITING_SYSTEM_BUTTON_TT">
+			<Text>Adopt [COLOR_POSITIVE_TEXT]{1_FontIcon} {2_WritingSystemDesc}[ENDCOLOR] as your Civilization's Writing System.</Text>
+		</Row>
+		<!--DECISIONS PANEL-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_CAPTAINS_TT">
+			<Text>You have {1_Num} [ICON_JFD_CAPTAIN] Captains.[NEWLINE][NEWLINE]Gain Captains by expending Great Admirals and Great Generals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_CLERICS_TT">
+			<Text>You have {1_Num} [ICON_JFD_CLERIC] Clerics.[NEWLINE][NEWLINE]Gain Clerics by expending Great Prophets and when founding a Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_DIGNITARIES_TT">
+			<Text>You have {1_Num} [ICON_JFD_DIGNITARY] Dignitaries.[NEWLINE][NEWLINE]Gain Dignitaries by expending Great Dignitaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_INVENTORS_TT">
+			<Text>You have {1_Num} [ICON_JFD_INVENTOR] Inventors.[NEWLINE][NEWLINE]Gain Inventors by expending Great Artists, Great Directors, Great Entertainers, Great Doctors, Great Engineers, Great Merchants, Great Musicians, Great Scientists, and Great Writers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_MAGISTRATES_TT">
+			<Text>You have {1_Num} [ICON_MAGISTRATES] Magistrates.[NEWLINE][NEWLINE]Gain Magistrates by expending Great Magistrates.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

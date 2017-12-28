@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<!-- English -->
+	<!-- CITY STATES -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_YNAEMP_SCENARIO_TITLE">
+			<Text>Yet (not) Another Earth Maps Pack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YNAEMP_SCENARIO_DESC">
+			<Text>True Sarting Location Earth Maps with custom setup menu, realistic random resources placement and more options.</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_CIV5_SYDNEY_TEXT">
+			<Text>Sydney, located on the southeastern coast of Australia, was not only the first British colony established on the continent, but also the first European settlement of any kind. Founded by Admiral Arthur Phillip in 1788 as a penal colony, Sydney's early development would be led initially by convicts, and later continued by retired soldiers and settlers arriving from Britain. Over time, Sidney would grow to become the largest and perhaps most famous city in Australia, with a population of over 4 million people today.[NEWLINE][NEWLINE]Scouted by James Cook in 1770, the original landing site, known famously as "Botany Bay", was deemed unsuitable for the location of a permanent settlement. The nearby Sydney Cove named for "Lord Sydney" Thomas Townshend, would prove to be the ideal location. This area is thought to have been inhabited by Australian Aborigines for several thousand years prior to the arrival of British colonists, and numerous tribes were found in the region upon their arrival. Despite the efforts of Admiral Phillip to regulate the interaction between colonists and the local tribesmen, thousands of aborigines would die from smallpox and measles spread by colonial expeditions.[NEWLINE][NEWLINE]During its later history, Sydney experienced a massive population boom throughout the 19th century as gold was discovered in neighboring areas, particularly Bathurst. Greatly expanding its industrial development during this period, by the 1920s, Sydney's population would reach over 1 million and the city would continue expanding to meet its growing infrastructure needs.[NEWLINE][NEWLINE]In the present day, Sydney is known for its financial development, serving as the economic hub for all of Australia. Home to numerous major banks and financial institutions, the Australian Securities Exchange is also located in Sydney. Since the early 1800s, the date of Sydney's founding, January 26th, has been celebrated as Australia's national day, commemorating not only the city's history, but also its importance to Australia in the present day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SYDNEY_TITLE">
+			<Text>Sydney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_QUEBEC_CITY_TEXT">
+			<Text>Quebec City, founded in 1608 by the French explorer Samuel de Champlain, was once the location of a small Iroquois village known as StadaconÃ©. Taking its name from the Algonquin word "Kebec," meaning "where the river becomes narrow," the settlement of Quebec City would grow to become the center of French colonial efforts in North America throughout the 17th century.[NEWLINE][NEWLINE]During its early development, Quebec City served not only as a valuable trade outpost, but also as a home to various Christian missionaries and an increasing number of permanent settlers. The fur and lumber industries provided the French with valuable resources that strengthened early efforts to expand their reach in North America. Briefly passing under British rule from 1629 until 1632, the city would otherwise be controlled by the French for over 150 years, despite several attempted sieges. In 1663, Quebec City was officially named the capital of New France, having already served as the capital of French Canada since its founding.[NEWLINE][NEWLINE]The French would finally lose control of the colony in 1759 to the British during the Battle of the Plains of Abraham. Britain would remain in control of Quebec City until the formation of the Dominion of Canada in 1867. Following the Constitution Act of Canada, Quebec City would become the capital of the Canadian Province of Quebec.[NEWLINE][NEWLINE]Today, Quebec City is home to over 500,000 residents, and continues to thrive with a rich cultural heritage. Named a UNESCO World Heritage site in 1985, Quebec City still maintains much of the historic architecture from its colonial roots. Of particular interest are the famous ChÃ¢teau Frontenac hotel, and the Roman Catholic Churches of Notre-Dame de QuÃ©bec and Notre-Dame-des-Victoires, both originally constructed in the 17th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_QUEBEC_CITY_TITLE">
+			<Text>Quebec City</Text>
+		</Row>
+		-->
+		<!-- Restore City State text as before 1.0.1.275 patch -->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TEXT"/>
+			<Set>
+				<Text>According to legend, Oslo was founded by King Harald Hadrade of Norway in 1048, but archeological excavations show that some urban settlement at the site preceded that date. The first King of Norway did not reside in the city until much later, sometime in the early 14th century AD, when it became officially regarded as the capital city of the country.[NEWLINE][NEWLINE]Unfortunately (as medieval cities were wont to do), Oslo was destroyed several times by fire in the coming centuries, and in 1624 King Christian IV ordered the city rebuilt at a new site across the bay; the city was also renamed Christiania in honor of its new founding. Christiana was a local center of commerce, but its importance declined while Norway was a part of Denmark, during which its growth slowed to a halt. After the two countries separated in 1814, Christiana grew into the largest city in Norway (overtaking Bergen), as the newly founded University of Oslo helped to fuel the population and economy.  The city's name was restored to "Oslo" in 1925.[NEWLINE][NEWLINE]Growth in the city has remained a source of contention, as the citizens fight both growing up (with skyscrapers) and out (destroying the local faming and fishing communities). The last century has seen a grand increase in the economy and industry of the city, and Oslo now is home to some of the world's largest maritime shipping companies. Oslo has also recently gained the dubious honor of being the most expensive city in the world to live in, as space for apartments grows to an even higher premium.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TITLE"/>
+			<Set>
+				<Text>Oslo</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TEXT"/>
+			<Set>
+				<Text>Once a small fishing village known as Havn, Copenhagen is now the largest city and capital of the Kingdom of Denmark. While some archeological finds date the town back to the late Viking age, the founding of Copenhagen is traditionally set in 1167, when the Danish Bishop Absalon fortified the harbor town. The well-protected harbor established Copenhagen's importance as a center of trade and commerce for centuries to come, and it was made the capital of Denmark early in the 15th century.  Unfortunately, other civilizations also noticed the natural riches of Copenhagen's harbor, and the city was attacked numerous times, especially by the Hanseatic League (a trade organization running a monopoly along the coast of Northern Europe).[NEWLINE][NEWLINE]In 1658 the Swedes unsuccessfully tried to take the city, but in 1807 the British succeeded where they could not; a preemptive attack on the civilians and failing old defenses caused massive damage to the city and left hundreds dead. The city began to rebuild and expand over the now useless defensive line, improving sanitation and incorporating nearby towns in the process. Copenhagen was occupied by the Germans in World War II, but did not sustain any substantial damage and continued to expand greatly after the war's end.[NEWLINE][NEWLINE]Copenhagen is now recognized as one of the up-and-coming cities in Europe and is ranked the "most liveable city in the world" for its wonderful quality of life. The city is also renowned for its extensive public infrastructure and environmentally-friendly policies. Copenhagen is now one of the most visited cities in Europe and has become a veritable Mecca for the world's new architects, chefs, and designers.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TITLE"/>
+			<Set>
+				<Text>Copenhagen</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+<!-- German -->
+	<Language_DE_DE>
+		<!-- Restore City State text as before 1.0.1.275 patch -->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TEXT"/>
+			<Set>
+				<Text>According to legend, Oslo was founded by King Harald Hadrade of Norway in 1048, but archeological excavations show that some urban settlement at the site preceded that date. The first King of Norway did not reside in the city until much later, sometime in the early 14th century AD, when it became officially regarded as the capital city of the country.[NEWLINE][NEWLINE]Unfortunately (as medieval cities were wont to do), Oslo was destroyed several times by fire in the coming centuries, and in 1624 King Christian IV ordered the city rebuilt at a new site across the bay; the city was also renamed Christiania in honor of its new founding. Christiana was a local center of commerce, but its importance declined while Norway was a part of Denmark, during which its growth slowed to a halt. After the two countries separated in 1814, Christiana grew into the largest city in Norway (overtaking Bergen), as the newly founded University of Oslo helped to fuel the population and economy.  The city's name was restored to "Oslo" in 1925.[NEWLINE][NEWLINE]Growth in the city has remained a source of contention, as the citizens fight both growing up (with skyscrapers) and out (destroying the local faming and fishing communities). The last century has seen a grand increase in the economy and industry of the city, and Oslo now is home to some of the world's largest maritime shipping companies. Oslo has also recently gained the dubious honor of being the most expensive city in the world to live in, as space for apartments grows to an even higher premium.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TITLE"/>
+			<Set>
+				<Text>Oslo</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TEXT"/>
+			<Set>
+				<Text>Once a small fishing village known as Havn, Copenhagen is now the largest city and capital of the Kingdom of Denmark. While some archeological finds date the town back to the late Viking age, the founding of Copenhagen is traditionally set in 1167, when the Danish Bishop Absalon fortified the harbor town. The well-protected harbor established Copenhagen's importance as a center of trade and commerce for centuries to come, and it was made the capital of Denmark early in the 15th century.  Unfortunately, other civilizations also noticed the natural riches of Copenhagen's harbor, and the city was attacked numerous times, especially by the Hanseatic League (a trade organization running a monopoly along the coast of Northern Europe).[NEWLINE][NEWLINE]In 1658 the Swedes unsuccessfully tried to take the city, but in 1807 the British succeeded where they could not; a preemptive attack on the civilians and failing old defenses caused massive damage to the city and left hundreds dead. The city began to rebuild and expand over the now useless defensive line, improving sanitation and incorporating nearby towns in the process. Copenhagen was occupied by the Germans in World War II, but did not sustain any substantial damage and continued to expand greatly after the war's end.[NEWLINE][NEWLINE]Copenhagen is now recognized as one of the up-and-coming cities in Europe and is ranked the "most liveable city in the world" for its wonderful quality of life. The city is also renowned for its extensive public infrastructure and environmentally-friendly policies. Copenhagen is now one of the most visited cities in Europe and has become a veritable Mecca for the world's new architects, chefs, and designers.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TITLE"/>
+			<Set>
+				<Text>Copenhagen</Text>
+			</Set>
+		</Update>
+	</Language_DE_DE>
+<!-- Spanish -->
+	<Language_ES_ES>
+		<!-- Restore City State text as before 1.0.1.275 patch -->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TEXT"/>
+			<Set>
+				<Text>According to legend, Oslo was founded by King Harald Hadrade of Norway in 1048, but archeological excavations show that some urban settlement at the site preceded that date. The first King of Norway did not reside in the city until much later, sometime in the early 14th century AD, when it became officially regarded as the capital city of the country.[NEWLINE][NEWLINE]Unfortunately (as medieval cities were wont to do), Oslo was destroyed several times by fire in the coming centuries, and in 1624 King Christian IV ordered the city rebuilt at a new site across the bay; the city was also renamed Christiania in honor of its new founding. Christiana was a local center of commerce, but its importance declined while Norway was a part of Denmark, during which its growth slowed to a halt. After the two countries separated in 1814, Christiana grew into the largest city in Norway (overtaking Bergen), as the newly founded University of Oslo helped to fuel the population and economy.  The city's name was restored to "Oslo" in 1925.[NEWLINE][NEWLINE]Growth in the city has remained a source of contention, as the citizens fight both growing up (with skyscrapers) and out (destroying the local faming and fishing communities). The last century has seen a grand increase in the economy and industry of the city, and Oslo now is home to some of the world's largest maritime shipping companies. Oslo has also recently gained the dubious honor of being the most expensive city in the world to live in, as space for apartments grows to an even higher premium.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TITLE"/>
+			<Set>
+				<Text>Oslo</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TEXT"/>
+			<Set>
+				<Text>Once a small fishing village known as Havn, Copenhagen is now the largest city and capital of the Kingdom of Denmark. While some archeological finds date the town back to the late Viking age, the founding of Copenhagen is traditionally set in 1167, when the Danish Bishop Absalon fortified the harbor town. The well-protected harbor established Copenhagen's importance as a center of trade and commerce for centuries to come, and it was made the capital of Denmark early in the 15th century.  Unfortunately, other civilizations also noticed the natural riches of Copenhagen's harbor, and the city was attacked numerous times, especially by the Hanseatic League (a trade organization running a monopoly along the coast of Northern Europe).[NEWLINE][NEWLINE]In 1658 the Swedes unsuccessfully tried to take the city, but in 1807 the British succeeded where they could not; a preemptive attack on the civilians and failing old defenses caused massive damage to the city and left hundreds dead. The city began to rebuild and expand over the now useless defensive line, improving sanitation and incorporating nearby towns in the process. Copenhagen was occupied by the Germans in World War II, but did not sustain any substantial damage and continued to expand greatly after the war's end.[NEWLINE][NEWLINE]Copenhagen is now recognized as one of the up-and-coming cities in Europe and is ranked the "most liveable city in the world" for its wonderful quality of life. The city is also renowned for its extensive public infrastructure and environmentally-friendly policies. Copenhagen is now one of the most visited cities in Europe and has become a veritable Mecca for the world's new architects, chefs, and designers.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TITLE"/>
+			<Set>
+				<Text>Copenhagen</Text>
+			</Set>
+		</Update>
+	</Language_ES_ES>
+<!-- French -->
+	<Language_FR_FR>
+		<!-- Restore City State text as before 1.0.1.275 patch -->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TEXT"/>
+			<Set>
+				<Text>According to legend, Oslo was founded by King Harald Hadrade of Norway in 1048, but archeological excavations show that some urban settlement at the site preceded that date. The first King of Norway did not reside in the city until much later, sometime in the early 14th century AD, when it became officially regarded as the capital city of the country.[NEWLINE][NEWLINE]Unfortunately (as medieval cities were wont to do), Oslo was destroyed several times by fire in the coming centuries, and in 1624 King Christian IV ordered the city rebuilt at a new site across the bay; the city was also renamed Christiania in honor of its new founding. Christiana was a local center of commerce, but its importance declined while Norway was a part of Denmark, during which its growth slowed to a halt. After the two countries separated in 1814, Christiana grew into the largest city in Norway (overtaking Bergen), as the newly founded University of Oslo helped to fuel the population and economy.  The city's name was restored to "Oslo" in 1925.[NEWLINE][NEWLINE]Growth in the city has remained a source of contention, as the citizens fight both growing up (with skyscrapers) and out (destroying the local faming and fishing communities). The last century has seen a grand increase in the economy and industry of the city, and Oslo now is home to some of the world's largest maritime shipping companies. Oslo has also recently gained the dubious honor of being the most expensive city in the world to live in, as space for apartments grows to an even higher premium.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TITLE"/>
+			<Set>
+				<Text>Oslo</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TEXT"/>
+			<Set>
+				<Text>Once a small fishing village known as Havn, Copenhagen is now the largest city and capital of the Kingdom of Denmark. While some archeological finds date the town back to the late Viking age, the founding of Copenhagen is traditionally set in 1167, when the Danish Bishop Absalon fortified the harbor town. The well-protected harbor established Copenhagen's importance as a center of trade and commerce for centuries to come, and it was made the capital of Denmark early in the 15th century.  Unfortunately, other civilizations also noticed the natural riches of Copenhagen's harbor, and the city was attacked numerous times, especially by the Hanseatic League (a trade organization running a monopoly along the coast of Northern Europe).[NEWLINE][NEWLINE]In 1658 the Swedes unsuccessfully tried to take the city, but in 1807 the British succeeded where they could not; a preemptive attack on the civilians and failing old defenses caused massive damage to the city and left hundreds dead. The city began to rebuild and expand over the now useless defensive line, improving sanitation and incorporating nearby towns in the process. Copenhagen was occupied by the Germans in World War II, but did not sustain any substantial damage and continued to expand greatly after the war's end.[NEWLINE][NEWLINE]Copenhagen is now recognized as one of the up-and-coming cities in Europe and is ranked the "most liveable city in the world" for its wonderful quality of life. The city is also renowned for its extensive public infrastructure and environmentally-friendly policies. Copenhagen is now one of the most visited cities in Europe and has become a veritable Mecca for the world's new architects, chefs, and designers.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TITLE"/>
+			<Set>
+				<Text>Copenhagen</Text>
+			</Set>
+		</Update>
+	</Language_FR_FR>
+<!-- Italian -->
+	<Language_IT_IT>
+		<!-- Restore City State text as before 1.0.1.275 patch -->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TEXT"/>
+			<Set>
+				<Text>According to legend, Oslo was founded by King Harald Hadrade of Norway in 1048, but archeological excavations show that some urban settlement at the site preceded that date. The first King of Norway did not reside in the city until much later, sometime in the early 14th century AD, when it became officially regarded as the capital city of the country.[NEWLINE][NEWLINE]Unfortunately (as medieval cities were wont to do), Oslo was destroyed several times by fire in the coming centuries, and in 1624 King Christian IV ordered the city rebuilt at a new site across the bay; the city was also renamed Christiania in honor of its new founding. Christiana was a local center of commerce, but its importance declined while Norway was a part of Denmark, during which its growth slowed to a halt. After the two countries separated in 1814, Christiana grew into the largest city in Norway (overtaking Bergen), as the newly founded University of Oslo helped to fuel the population and economy.  The city's name was restored to "Oslo" in 1925.[NEWLINE][NEWLINE]Growth in the city has remained a source of contention, as the citizens fight both growing up (with skyscrapers) and out (destroying the local faming and fishing communities). The last century has seen a grand increase in the economy and industry of the city, and Oslo now is home to some of the world's largest maritime shipping companies. Oslo has also recently gained the dubious honor of being the most expensive city in the world to live in, as space for apartments grows to an even higher premium.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_OSLO_TITLE"/>
+			<Set>
+				<Text>Oslo</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TEXT"/>
+			<Set>
+				<Text>Once a small fishing village known as Havn, Copenhagen is now the largest city and capital of the Kingdom of Denmark. While some archeological finds date the town back to the late Viking age, the founding of Copenhagen is traditionally set in 1167, when the Danish Bishop Absalon fortified the harbor town. The well-protected harbor established Copenhagen's importance as a center of trade and commerce for centuries to come, and it was made the capital of Denmark early in the 15th century.  Unfortunately, other civilizations also noticed the natural riches of Copenhagen's harbor, and the city was attacked numerous times, especially by the Hanseatic League (a trade organization running a monopoly along the coast of Northern Europe).[NEWLINE][NEWLINE]In 1658 the Swedes unsuccessfully tried to take the city, but in 1807 the British succeeded where they could not; a preemptive attack on the civilians and failing old defenses caused massive damage to the city and left hundreds dead. The city began to rebuild and expand over the now useless defensive line, improving sanitation and incorporating nearby towns in the process. Copenhagen was occupied by the Germans in World War II, but did not sustain any substantial damage and continued to expand greatly after the war's end.[NEWLINE][NEWLINE]Copenhagen is now recognized as one of the up-and-coming cities in Europe and is ranked the "most liveable city in the world" for its wonderful quality of life. The city is also renowned for its extensive public infrastructure and environmentally-friendly policies. Copenhagen is now one of the most visited cities in Europe and has become a veritable Mecca for the world's new architects, chefs, and designers.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_COPENHAGEN_TITLE"/>
+			<Set>
+				<Text>Copenhagen</Text>
+			</Set>
+		</Update>
+	</Language_IT_IT>  
+
+</GameData>

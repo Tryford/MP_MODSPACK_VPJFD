@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_CLAIMS_HEADING1_TITLE">
+			<Text>Claims: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLAIMS_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Claims[ENDCOLOR] are a means for annexing City-States peacefully, through the expenditure of Dignitaries and Gold. Claiming a City-State in this way puts that City-State and its city and units under your control, without incurring a warmonger penalty and (to a degree) resistance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLAIMS_CAUSES_HEADING1_TITLE">
+			<Text>Claims: Causes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CLAIMS_CAUSES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Causes[ENDCOLOR] are your justifications for pushing a Claim. Each Claim has a strength level (Strong, Medium, or Weak), which determines the cost of pushing a Claim. Causes can be accumulated through Pledges of Protections, having Allied Status, and a variety of other means.</Text>
+		</Row>
+		<!--BUILDINGS-->
+		<!--Claimed City-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CLAIMED_CITY">
+			<Text>JFD: Claimed City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CLAIMED_CITY_HELP">
+			<Text>Marks this city as a claimed city.</Text>
+		</Row>
+		<!--Chancery-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY">
+			<Text>Chancery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_CSD">
+			<Text>City Hall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production toward Military Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_STRATEGY">
+			<Text>The Chancery is a Medieval Era building. It increases the speed at which the city produces military units. It can also be used to work Dignitary specialists, which increase your progress toward [ICON_GOLDEN_AGE] Golden Ages and the generation of Great Dignitaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_STRATEGY_CSD">
+			<Text>The City Hall is a Medieval Era building. It increases the speed at which the city produces military units. It can also be used to work Dignitary specialists, which increase your progress toward [ICON_GOLDEN_AGE] Golden Ages and the generation of Great Dignitaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_TEXT">
+			<Text>Chancery is a general term for a medieval writing office, responsible for the production of official documents. The title of chancellor, for the head of the office, came to be held by important ministers in a number of states, and remains the title of the heads of government in modern Germany and Austria. Chancery hand is a term for various types of handwriting associated with chanceries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_TEXT_CSD">
+			<Text>In local government, a city hall, town hall, civic centre, guildhall, Rathaus , or (more rarely) a municipal building, is the chief administrative building of a city, town, or other municipality. It usually houses the city or town council, its associated departments, and their employees. It also usually functions as the base of the mayor of a city, town, borough, or county.</Text>
+		</Row>
+		<!--Forge-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_FORGE_HELP">
+			<Text>Each source of [ICON_RES_COPPER] Copper and [ICON_RES_IRON] Iron worked by this City yields +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of [ICON_RES_COPPER] Copper or [ICON_RES_IRON] Iron nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_FORGE_STRATEGY">
+			<Text>The Forge can only be constructed in a city with an improved source of [ICON_RES_COPPER] Copper or [ICON_RES_IRON] Iron nearby. The Forge increases the [ICON_PRODUCTION] Production output of each such resource the city has access to.</Text>
+		</Row>
+		<!--High Court-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIGH_COURT">
+			<Text>High Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIGH_COURT_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production toward Buildings.[NEWLINE][NEWLINE]Must have a Magistrate's Court in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIGH_COURT_STRATEGY">
+			<Text>The High Court is a Renaissance Era building. It boosts the production in a city when a building is being constructed. It can also be used to work Magistrate specialists, which increase your progress toward [ICON_GOLDEN_AGE] Golden Ages and the generation of Great Magistrates. It requires a Magistrate's Court in the city before it can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIGH_COURT_TEXT">
+			<Text>A High Court is a higher level of court than a Magistrate's Court in a legal system, serving to administer the law on more serious cases, in larger jurisdictions. A High Court will also serve as an advisory court to all lesser courts and passes cases outside of its jurisdiction, such as cases of treason or serial murder, onto a national Supreme Court.</Text>
+		</Row>
+		<!--Magistrates Court-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MAGISTRATE_COURT">
+			<Text>Magistrate's Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MAGISTRATE_COURT_HELP">
+			<Text>+10% [ICON_PRODUCTION] Production toward Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MAGISTRATE_COURT_STRATEGY">
+			<Text>Magistrate's Courts is a Classical Era building. It boosts the production in a city when a building is being constructed. It can also be used to work Magistrate specialists, which increase your progress toward [ICON_GOLDEN_AGE] Golden Ages and the generation of Great Magistrates.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MAGISTRATE_COURT_TEXT">
+			<Text>A Magistrate's Court, or District Court, is the lowest level of court in a legal system, where all criminal proceedings begin. The authority of a Magistrate's Court varies; in common law systems, a magistrate has limited powers of enforcement and pass serious crimes onto High Courts. In a civil law system, on the other hand, a magistrate might have greater jurisdiction, with the powers to dispense more severe punishments.</Text>
+		</Row>
+		<!--Windmill-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_WINDMILL_HELP">
+			<Text>City must not be built on Hills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WINDMILL_STRATEGY">
+			<Text>The Windmill is a mid-game building which increases the [ICON_FOOD] Food and [ICON_PRODUCTION] Production output of a city. Cities constructed on hills may not build Windmills.</Text>
+		</Row>
+		<!--CLAIMS-->
+		<Row Tag="TXT_KEY_CLAIM_JFD_MEDIUM_DESC">
+			<Text>[ICON_JFD_CLAIM_MEDIUM] Medium Claim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_MEDIUM_HELP">
+			<Text>Cost of [ICON_JFD_CLAIM_MEDIUM] Medium Claim: [NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DIGNITARY] Dignitaries[NEWLINE][ICON_BULLET]{2_Num} [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]{3_Num} [ICON_RESISTANCE] Resistance Turn(s)[NEWLINE][NEWLINE]{4_Causes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_MEDIUM_CAUSES_HELP">
+			<Text>You have {1_Num} cause(s) to your [ICON_JFD_CLAIM_MEDIUM] Medium Claim. You need 5 to upgrade.{2_Causes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_STRONG_DESC">
+			<Text>[ICON_JFD_CLAIM_STRONG] Strong Claim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_STRONG_HELP">
+			<Text>Cost of [ICON_JFD_CLAIM_STRONG] Strong Claim:[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DIGNITARY] Dignitaries[NEWLINE][ICON_BULLET]{2_Num} [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]{3_Num} [ICON_RESISTANCE] Resistance Turn(s)[NEWLINE][NEWLINE]{4_Causes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_STRONG_CAUSES_HELP">
+			<Text>You have {1_Num} cause(s) to your [ICON_JFD_CLAIM_STRONG] Strong Claim.{2_Causes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_WEAK_DESC">
+			<Text>[ICON_JFD_CLAIM_WEAK] Weak Claim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_WEAK_HELP">
+			<Text>Cost of [ICON_JFD_CLAIM_WEAK] Weak Claim:[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_DIGNITARY] Dignitaries[NEWLINE][ICON_BULLET]{2_Num} [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]{3_Num} [ICON_RESISTANCE] Resistance Turn(s)[NEWLINE][NEWLINE]{4_Causes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLAIM_JFD_WEAK_CAUSES_HELP">
+			<Text>You have {1_Num} cause(s) to your [ICON_JFD_CLAIM_WEAK] Weak Claim. You need 3 to upgrade.{2_Causes}</Text>
+		</Row>
+		<!--IMPROVEMENTS-->
+		<!--Estate-->
+		<Row Tag="TXT_KEY_JFD_ESTATE">
+			<Text>Construct an Estate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_JFD_ESTATE_HELP">
+			<Text>Unit will be consumed.[NEWLINE][NEWLINE]Great Tile Improvements will connect Strategic Resources on this tile to the trade network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_ESTATE">
+			<Text>Estate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_JFD_ESTATE_TEXT">
+			<Text>Historically an estate comprises the houses and outbuildings and supporting farmland and woods that surround the gardens and grounds of a very large property, such as a country house or mansion. It is the modern term for a manor, but lacks the latter's now abolished jurisdictional authority.</Text>
+		</Row>
+		<!--MISSIONS-->
+		<!--Assimilate City-->
+		<Row Tag="TXT_KEY_MISSION_JFD_ASSIMILATE_CITY">
+			<Text>Assimilate City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_ASSIMILATE_CITY_HELP">
+			<Text>This order will consume the unit and remove any [ICON_RESISTANCE] Resistance, [ICON_RESISTANCE] Resistance Sentiment, and [ICON_JFD_REVOLT] Revolt Sentiment in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_ASSIMILATE_CITY_DISABLED">
+			<Text>Unit must be stationed in a city and at full Health.</Text>
+		</Row>
+		<!--Reclaim City
+		<Row Tag="TXT_KEY_MISSION_JFD_RECLAIM_CITY">
+			<Text>Reclaim City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_RECLAIM_CITY_HELP">
+			<Text>This order will consume the unit and return the city to your ownership.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_RECLAIM_CITY_DISABLED">
+			<Text>Unit must be stationed within range of a city previously under your control and you must be at peace with the current occupant.</Text>
+		</Row>-->
+		<!--Swear Oath of Fealty-->
+		<Row Tag="TXT_KEY_MISSION_JFD_DIGNITARIES">
+			<Text>Swear Oath of Fealty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_DIGNITARIES_HELP">
+			<Text>This order will consume the unit and grant 2 [ICON_JFD_DIGNITARY] Dignitaries.</Text>
+		</Row>
+		<!--Swear Oath of Fealty-->
+		<Row Tag="TXT_KEY_MISSION_JFD_MAGISTRATES">
+			<Text>Swear Oath of Fealty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_MAGISTRATES_HELP">
+			<Text>This order will consume the unit and grant 2 [ICON_MAGISTRATES] Magistrates.</Text>
+		</Row>
+		<!--NATIONAL WONDERS-->
+		<!--Court of Chancery-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY">
+			<Text>Court of Chancery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_HELP">
+			<Text>Length of [ICON_GOLDEN_AGE] Golden Ages increased by 25%.[NEWLINE][NEWLINE]Must have built a Chancery in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_HELP_CSD">
+			<Text>Length of [ICON_GOLDEN_AGE] Golden Ages increased by 25%.[NEWLINE][NEWLINE]Must have built a City Hall in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_STRATEGY">
+			<Text>This National Wonder increases the length of [ICON_GOLDEN_AGE] Golden Ages. It also provides a [ICON_JFD_DIGNITARY] Dignitary on completion, making the Court of Chancery a useful building for pushing [ICON_JFD_CLAIM_MEDIUM] Claims. A civilization must have a Chancery in all cities before it can construct a Court of Chancery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_STRATEGY_CSD">
+			<Text>This National Wonder increases the length of [ICON_GOLDEN_AGE] Golden Ages. It also provides a [ICON_JFD_DIGNITARY] Dignitary on completion, making the Court of Chancery a useful building for pushing [ICON_JFD_CLAIM_MEDIUM] Claims. A civilization must have a City Hall in all cities before it can construct a Court of Chancery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_TEXT">
+			<Text>The Court of Chancery was a court of equity in England and Wales that followed a set of loose rules to avoid the slow pace of change and possible harshness (or "inequity") of the common law. The Chancery had jurisdiction over all matters of equity, including trusts, land law, the administration of the estates of lunatics and the guardianship of infants. Its initial role was somewhat different, however; as an extension of the Lord Chancellor's role as Keeper of the King's Conscience, the Court was an administrative body primarily concerned with conscientious law. Thus the Court of Chancery had a far greater remit than the common law courts, whose decisions it had the jurisdiction to overrule for much of its existence, and was far more flexible. Until the 19th century, the Court of Chancery could apply a far wider range of remedies than the common law courts, such as specific performance and injunctions, and also had some power to grant damages in special circumstances. With the shift of the Exchequer of Pleas towards a common law court and loss of its equitable jurisdiction by the Administration of Justice Act 1841, the Chancery became the only national equitable body in the English legal system.</Text>
+		</Row>
+		<!--Supreme Court-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUPREME_COURT">
+			<Text>Supreme Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUPREME_COURT_HELP">
+			<Text>Length of [ICON_GOLDEN_AGE] Golden Ages increased by 25%.[NEWLINE][NEWLINE]Must have built a High Court in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUPREME_COURT_STRATEGY">
+			<Text>This National Wonder increases the length of [ICON_GOLDEN_AGE] Golden Ages. It also provides a [ICON_MAGISTRATES] Magistrate on completion, making the Supreme Court a useful building for enacting decisions. A civilization must have a Magistrate's Court in all cities before it can construct a Supreme Court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUPREME_COURT_TEXT">
+			<Text>In most countries, the Supreme Court is the highest court in the land, although it might also be subject to a Constitutional Court or Privy Council. A Supreme Court is usually the last court of appeals for lower or mid-level courts. In common law, a Supreme Court's ruling is binding upon all lower level courts. In civil law systems, this is not the case, however, a Supreme Court's ruling often sets the precedent for the ruling of lower courts.</Text>
+		</Row>
+		<!--POLICIES-->
+		<!--Consulates-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CONSULATES_HELP_CBP">
+			<Text>[COLOR_POSITIVE_TEXT]Consulates[ENDCOLOR][NEWLINE]Gain an additional Delegate in the World Congress for every 8 City-States in the game, and the chance of rigging elections in City-States is increased by 50%. Increases strength of [ICON_JFD_CLAIM_MEDIUM] Claims.</Text>
+		</Row>
+		<!--Liberty Opener-->
+		<Row Tag="TXT_KEY_POLICY_JFD_LIBERTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR] is best for civilizations which desire rapid expansion.[NEWLINE][NEWLINE]Adopting Liberty will provide 1 [ICON_CULTURE] Culture in every city. Unlocks building the Pyramids.[NEWLINE][NEWLINE]Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the [ICON_CAPITAL] Capital. It also allows the purchase of Great Magistrates with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_LIBERTY_HELP_FM">
+			<Text>[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR] is best for civilizations which desire rapid expansion.[NEWLINE][NEWLINE]Adopting Liberty will provide 1 [ICON_CULTURE] Culture in every city. Unlocks building the Forum Magnum.[NEWLINE][NEWLINE]Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the [ICON_CAPITAL] Capital. It also allows the purchase of Great Magistrates with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<!--Patronage Opener-->
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRONAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] enhances the benefits of City-State friendship.[NEWLINE][NEWLINE]Adopting Patronage will cause [ICON_INFLUENCE] Influence with City-States to degrade 25% slower than normal. Unlocks building the Forbidden Palace.[NEWLINE][NEWLINE]Adopting all policies in the Patronage tree will cause allied City-States to occasionally gift you [ICON_GREAT_PEOPLE] Great People. It also allows the purchase of Great Dignitaries with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRONAGE_HELP_CLAIMS">
+			<Text>[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] enhances the benefits of City-State friendship.[NEWLINE][NEWLINE]Adopting Patronage will cause [ICON_INFLUENCE] Influence with City-States to degrade 25% slower than normal. Unlocks building the Forbidden Palace.[NEWLINE][NEWLINE]Adopting all policies in the Patronage tree will cause allied City-States to occasionally gift you [ICON_GREAT_PEOPLE] Great People. It will also increase the strength of your [ICON_JFD_CLAIM_MEDIUM] Claims. It also allows the purchase of Great Dignitaries with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<!--RESOURCES-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_DIGNITARIES">
+			<Text>Dignitaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_DIGNITARIES_TEXT">
+			<Text>A dignitary might be anyone of high standing, but in this case refers to any person of high standing that might act on behalf of another. Such posts might include that of an ambassador or diplomat, but might also include representatives presenting a bride or groom to a foreign prince.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JFD_DIGNITARIES_HELP">
+			<Text>Used to enact Decisions.</Text>
+		</Row>
+		<!--SPECIALISTS-->
+		<!--Dignitary-->
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_DIGNITARY">
+			<Text>Dignitary|Dignitaries</Text>
+			<Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_DIGNITARY_STRATEGY">
+			<Text>Create Dignitaries to increase the empire's [ICON_GOLDEN_AGE] Golden Age Points and to speed the creation of Great Dignitaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_DIGNITARY_SLOTS">
+			<Text>Dignitary Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_DIGNITARY_TITLE">
+			<Text>Great Dignitary Points:</Text>
+		</Row>
+		<!--Magistrate-->
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_MAGISTRATE">
+			<Text>Magistrate|Magistrates</Text>
+			<Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_MAGISTRATE_STRATEGY">
+			<Text>Create Magistrates to increase the empire's [ICON_GOLDEN_AGE] Golden Age Points and to speed the creation of Great Magistrates.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_MAGISTRATE_SLOTS">
+			<Text>Magistrate Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_MAGISTRATE_TITLE">
+			<Text>Great Magistrate Points:</Text>
+		</Row>
+		<!--TECHS-->
+		<!--Banking-->
+		<Row Tag="TXT_KEY_TECH_JFD_BANKING_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Bank[ENDCOLOR], a building which increases the [ICON_GOLD] Gold produced by a city.</Text>
+		</Row>
+		<!--Code of Laws-->
+		<Row Tag="TXT_KEY_TECH_JFD_CODE_OF_LAWS_TITLE">
+			<Text>Code of Laws</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CODE_OF_LAWS_HELP">
+			<Text>Allows you to construct the [COLOR_POSITIVE_TEXT]Magistrate's Court[ENDCOLOR], which increases [ICON_PRODUCTION] Production when constructing Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CODE_OF_LAWS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"If you have ten thousand regulations you destroy all respect for the law."[NEWLINE] - Sir Winston Churchill[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CODE_OF_LAWS_DESC">
+			<Text>A code of laws is the recorded collection of the system of laws that govern a community. The most illustrious of these in history is Babylon's "Code of Hammurabi," which bore the phrase "lex talionis" or, "an eye for an eye," but the Roman Empire is renown for its extensive and complex legal codex, from which many of today's civil law legal systems are derived. Most nations today possess a codified legal system - there are only two exceptions: the United Kingdom and New Zealand.</Text>
+		</Row>
+		<!--Jurisprudence-->
+		<Row Tag="TXT_KEY_TECH_JFD_JURISPRUDENCE_TITLE">
+			<Text>Jurisprudence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_JURISPRUDENCE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"There is no crueler tyranny than that which is perpetuated under the shield of law and in the name of justice." - Charles de Montesquieu[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_JURISPRUDENCE_DESC">
+			<Text>Jurisprudence, study of the nature and the origin and development of law. It is variously regarded as a branch of ethics or of sociology. Many of the major systematic philosophers (e.g., Aristotle, St. Thomas Aquinas, and Kant) have expounded jurisprudential theories. Before the 19th cent. most jurisprudents adhered to natural law, which maintained that sound legal doctrine was derivable only from a supposed law of nature established by divine ordinance. The natural-law school did not deny that the details of legal regulation depended upon the will of the sovereign. However, the positivist, or analytical, school, which first became important in the late 18th cent., insisted that law was entirely a matter of sovereign decree, distinct from morality and theology. Among important 19th-century trends was the view, represented by Savigny, that a people's legal system expressed the national spirit. In the mid-19th cent. many jurisprudents attempted to avoid what they felt were theoretical preconceptions and to demonstrate a uniform evolution from primitive times to modern industrialized society. Other thinkers were skeptical of evolutionary explanations and sought the basic principles underlying all systems of law in various fields, including economics and psychology. Among the more important legal thinkers in the United States have been Learned Hand, Oliver Wendell Holmes, and Roscoe Pound.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_JURISPRUDENCE_HELP">
+			<Text>Allows you to construct the [COLOR_POSITIVE_TEXT]Constabulary[ENDCOLOR], which decreases [ICON_CRIMES_JFD_BLACK] Crime and which hinders a spies' ability to steal your technology. Also allows you to construct the [COLOR_POSITIVE_TEXT]High Court[ENDCOLOR], which increases [ICON_PRODUCTION] Production when constructing Buildings.</Text>
+		</Row>
+		<!--Nobility-->
+		<Row Tag="TXT_KEY_TECH_JFD_NOBILITY_TITLE">
+			<Text>Nobility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NOBILITY_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I will to my lord be true and faithful and love all which he loves and shun all which he shuns."[NEWLINE] - Anglo-Saxon Oath of Fealty [NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NOBILITY_DESC">
+			<Text>Nobility is a social class that possesses more acknowledged privileges or eminence than most other classes in a society, membership thereof typically being hereditary. The privileges associated with nobility may constitute substantial advantages over or relative to non-nobles, or may be largely honorary (e.g., precedence), and vary from country to country and era to era. Historically, membership of the nobility and the prerogatives thereof have been regulated or acknowledged by the monarch or government, thereby distinguishing it from other sectors of a nation's upper class. Nonetheless, nobility per se has rarely constituted a closed caste; acquisition of sufficient power, wealth, military prowess or royal favour has, occasionally or often, enabled commoners to ascend into the nobility.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NOBILITY_HELP">
+			<Text>Allows you to construct the [COLOR_POSITIVE_TEXT]Chancery[ENDCOLOR], which increases [ICON_PRODUCTION] Production when constructing Units.</Text>
+		</Row>
+		<!--TRAITS-->
+		<!--Diplomatic Marriage-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_AUSTRIA">
+			<Text>Gain a [ICON_JFD_DIGNITARY] Dignitary whenever a [ICON_GREAT_PEOPLE] Great Artist, Musician, or Writer is born. [ICON_JFD_CLAIM_MEDIUM] Claims are stronger with befriended City-States.</Text>
+		</Row>
+		<!--UNITS-->
+		<!--Great Dignitary-->
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_DIGNITARY">
+			<Text>Great Dignitary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_GREAT_DIGNITARY_TEXT">
+			<Text>"Great Dignitaries" are at the frontiers of politics, representing the nation and its ruler abroad. They ensure that the interests of the home nation are protected, inspire respect for their leaders, and develop theories of international politics in the process.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_DIGNITARY_STRATEGY">
+			<Text>A Great Dignitary may be expended for [ICON_JFD_DIGNITARY] Dignitaries; a resource used to enact certain Decisions and to push Claims on [ICON_CITY_STATE] City-States. A Great Dignitary may also journey to a city-state and perform a "Diplomatic Mission," producing a large amount of [ICON_INFLUENCE] Influence with that City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CONDUCT_JFD_TRADE_MISSION_DIGNITARY_DESC">
+			<Text>Diplomatic Mission</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CONDUCT_JFD_TRADE_MISSION_DIGNITARY_HELP">
+			<Text>If the unit is inside City-State territory that you are not at war with, this order will have the Great Dignitary conduct a diplomatic mission, giving you a large amount of [ICON_INFLUENCE] Influence with the City-State and reducing the [ICON_INFLUENCE] of all other major civilizations known to the City-State by the same amount.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_DIGNITARY">
+			<Text>Can Enter Rival Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_DIGNITARY_HELP">
+			<Text>Can Enter Rival Territory</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT">
+			<Text>Your {1_UnitType} increased your Influence in {3_CivShortDesc} by [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR], and reduced the Influence of all Major Civilizations known to the City-State by the same amount!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_SUMMARY">
+			<Text>Mission of your {1_UnitType} completed!</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_1">
+			<Text>Machiavelli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_2">
+			<Text>Edmund Burke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_3">
+			<Text>Hugo Grotius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_4">
+			<Text>Shang Yang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_5">
+			<Text>David Hume</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_6">
+			<Text>Woodrow Wilson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_7">
+			<Text>Thomas More</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_8">
+			<Text>Thomas Wolsey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_9">
+			<Text>Abd el-Ouahed ben Messaoud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_10">
+			<Text>Francis Bacon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_11">
+			<Text>Pietro Gentile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_12">
+			<Text>Giovanni II Bentivoglio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_13">
+			<Text>Andriantsitohaina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_14">
+			<Text>Henry Kissinger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_15">
+			<Text>John Quincy Adams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_16">
+			<Text>Eleanor Roosevelt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_17">
+			<Text>Canassatego</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_18">
+			<Text>Salvador de Madariaga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_19">
+			<Text>Charles de Talleyrand-Périgord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_20">
+			<Text>Axel von Fersen the Younger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_21">
+			<Text>Abdallah ben Aisha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_22">
+			<Text>Golda Meir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_23">
+			<Text>Klemens von Metternich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_24">
+			<Text>Shirley Temple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_25">
+			<Text>Simon Renard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_26">
+			<Text>Nicholas Roderick O'Conor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_27">
+			<Text>Jean de Dinteville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_28">
+			<Text>Georges de Selve</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_29">
+			<Text>Aleksandra Kollontai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_30">
+			<Text>Mohammed ben Hadou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_31">
+			<Text>Andrej Gromyko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_32">
+			<Text>Shigeru Yoshida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_33">
+			<Text>Guillaume-Henri Dufour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_34">
+			<Text>Ahmet Tevfik Pasha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_35">
+			<Text>Yuan Shikai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_36">
+			<Text>Soong May-ling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_37">
+			<Text>Mohammad Reza Beg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_38">
+			<Text>Dennis Rodman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_39">
+			<Text>Alva Myrdal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_40">
+			<Text>Gladwyn Jebb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_41">
+			<Text>Constantine Phaulkon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_42">
+			<Text>Kosa Pan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_43">
+			<Text>Ok-khun Chamnan Chaichong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_44">
+			<Text>Cordell Hull</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_45">
+			<Text>Henry Cabot Lodge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_46">
+			<Text>Benjamin Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_47">
+			<Text>Vyacheslav Molotov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_48">
+			<Text>Joachim von Ribbentrop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_49">
+			<Text>William Pitt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_50">
+			<Text>Nicholas III Zorzi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_51">
+			<Text>Jawaharlal Nehru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_52">
+			<Text>William H. Seward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_53">
+			<Text>Ban Ki-Moon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_54">
+			<Text>Kofi Annan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_55">
+			<Text>U Thant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_56">
+			<Text>Dag Hammarskjold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_57">
+			<Text>Mupitsukupu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_58">
+			<Text>Jens Stoltenberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_59">
+			<Text>Ignacy Jan Paderewski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_60">
+			<Text>Roman Dmowski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_61">
+			<Text>Adam Jerzy Czartoryski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_62">
+			<Text>Jozef Poniatowski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_63">
+			<Text>Juho Kusti Paasikivi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_64">
+			<Text>Martti Ahtisaari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_65">
+			<Text>Väinö Tanner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_66">
+			<Text>Madeleine Albright</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_67">
+			<Text>Tamati Waka Nene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_68">
+			<Text>Kalanimoku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_69">
+			<Text>Donnacona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_70">
+			<Text>Joseph Brant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_71">
+			<Text>Wellington Koo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_72">
+			<Text>Elias Boudinot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_73">
+			<Text>Ostenaco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_74">
+			<Text>André de Longjumeau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_75">
+			<Text>Zhang Qian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_76">
+			<Text>Gan Ying</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_77">
+			<Text>Le Duc Tho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_78">
+			<Text>Megasthenes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_79">
+			<Text>Timocrates of Rhodes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_80">
+			<Text>Namontack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_81">
+			<Text>Matchumps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_82">
+			<Text>Petalesharo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_83">
+			<Text>Ouray</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_DIGNITARY_84">
+			<Text>José Paranhos</Text>
+		</Row>
+		<!--Great Magistrate-->
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_MAGISTRATE">
+			<Text>Great Magistrate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_GREAT_MAGISTRATE_TEXT">
+			<Text>"Great Magistrates" are the innovators and idealists of judicial theory, giving rational and moral oversight to the law. They administer and protect justice, do the bidding of government officials, and ensure order within the nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_MAGISTRATE_STRATEGY">
+			<Text>A Great Magistrate may be expended for [ICON_MAGISTRATES] Magistrates; a resource used to enact certain Decisions. A Great Magistrate may also be expended when stationed in a city in order to instantly assimilate that city into the empire. This will immediately create a Courthouse if the city is occupied and will remove any [ICON_RESISTANCE] Resistance, [ICON_RESISTANCE] Resistance Sentiment, and [ICON_JFD_REVOLT] Revolt Sentiment in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_MAGISTRATE">
+			<Text>Can Enter Rival Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_MAGISTRATE_HELP">
+			<Text>Can Enter Rival Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_1">
+			<Text>Régis de Cambacérès</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_2">
+			<Text>Cesare Beccaria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_3">
+			<Text>Charles-François Lebrun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_4">
+			<Text>Montesquieu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_5">
+			<Text>Averroes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_6">
+			<Text>Jeremy Bentham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_7">
+			<Text>Cicero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_8">
+			<Text>Giovanni Falcone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_9">
+			<Text>Laity Kama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_10">
+			<Text>Han Fei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_11">
+			<Text>Li Si</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_12">
+			<Text>John Locke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_13">
+			<Text>Joseph de Maistr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_14">
+			<Text>Draco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_15">
+			<Text>Charondas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_16">
+			<Text>Cleisthenes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_17">
+			<Text>Demosthenes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_18">
+			<Text>Diocles of Syracuse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_19">
+			<Text>Lycurgus of Sparta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_20">
+			<Text>Solon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_21">
+			<Text>John Marshall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_22">
+			<Text>Justus Möser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_23">
+			<Text>Oliver Wendell Holmes, Jr.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_24">
+			<Text>William Blackstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_25">
+			<Text>Learned Hand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_26">
+			<Text>Hans Kelsen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_27">
+			<Text>Al-Nawawi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_28">
+			<Text>Eli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_29">
+			<Text>Samuel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_30">
+			<Text>Samson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_31">
+			<Text>Deborah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_32">
+			<Text>Abimelech</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_33">
+			<Text>Lyman Duff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_34">
+			<Text>John Stuart Mill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_35">
+			<Text>Clarence Darrow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_36">
+			<Text>Earl Warren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_37">
+			<Text>Mahadev Govind Ranade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_38">
+			<Text>Johnathan Edwards</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_39">
+			<Text>Wladyslaw Grabski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_40">
+			<Text>Wincenty Witos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_41">
+			<Text>Pawel Wlodkowic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_42">
+			<Text>Stanislaw Ciolek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_43">
+			<Text>Jan Amor Tarnowski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_44">
+			<Text>Ignacy Potocki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_45">
+			<Text>Hugo Kollataj</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_46">
+			<Text>Seni Pramoj</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_47">
+			<Text>Urho Kekkonen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_48">
+			<Text>Kaarlo Juho Ståhlberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_49">
+			<Text>Leo Mechelin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_50">
+			<Text>Max Weber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_51">
+			<Text>Chanakya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_52">
+			<Text>Wibalma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_53">
+			<Text>John Jay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_54">
+			<Text>John Marshall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_55">
+			<Text>Abu Yusuf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_56">
+			<Text>Abu Hanifa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_57">
+			<Text>Catecahassa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_58">
+			<Text>Tadodaho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_59">
+			<Text>Demonax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_60">
+			<Text>Lipit-Ishtar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_61">
+			<Text>Urukagina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_62">
+			<Text>Tanacharison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_63">
+			<Text>Dunquat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_64">
+			<Text>Scaroudy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_65">
+			<Text>Adna mac Uthidir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_66">
+			<Text>Keeaumoku Papaiahiahi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_67">
+			<Text>Luis Tupatu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_68">
+			<Text>Tlacotzin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_69">
+			<Text>Volodymyr Horbulin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_70">
+			<Text>Bohdan Khmelnytsky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_71">
+			<Text>Sebastião José de Carvalho e Melo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_72">
+			<Text>Tiberius Cornuncanius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_73">
+			<Text>Ulpian of Tyre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_74">
+			<Text>Shibtu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_75">
+			<Text>Jind Kaur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_76">
+			<Text>Saturninius Secundus Salutius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_77">
+			<Text>The Ridge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_78">
+			<Text>Alaeddin Pasha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_79">
+			<Text>Reniero Zeno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_80">
+			<Text>Alexander Hamilton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_81">
+			<Text>Henry Clay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_82">
+			<Text>James Madison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_83">
+			<Text>Bashorun Gaa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_84">
+			<Text>Tlacaelel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_85">
+			<Text>Papirius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_MAGISTRATE_86">
+			<Text>William Tyndale</Text>
+		</Row>
+		<!--Great Merchant-->
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_MERCHANT_STRATEGY">
+			<Text>The Great Merchant can construct the special Custom House improvement which, when worked, produces loads of [ICON_GOLD] Gold. The Great Merchant can also journey to a city-state and perform a 'Trade Mission,' which produces gobs of [ICON_GOLD] Gold. The Great Merchant is expended when used in any of these ways.</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_PROMOTION_GREAT_MERCHANT">
+			<Text>Market Control</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_GREAT_MERCHANT_HELP">
+			<Text>Earn [ICON_GOLD] but no [ICON_INFLUENCE] Influence when you conduct a Diplomatic Mission with this unit.</Text>
+		</Replace>
+		<!--Great Scientist-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_1">
+			<Text>Arete of Cyrene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_2">
+			<Text>Cai Yong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_3">
+			<Text>Li Chunfeng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_4">
+			<Text>Liu Hui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_5">
+			<Text>Zhang Heng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_6">
+			<Text>Dai Zhen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_7">
+			<Text>Bi Sheng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_8">
+			<Text>Cai Lun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_9">
+			<Text>Du Shi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_10">
+			<Text>Choe Museon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_11">
+			<Text>Jang Yeong-sil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_12">
+			<Text>Woo Jang-choon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_13">
+			<Text>Berossus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_14">
+			<Text>Kidinnu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_15">
+			<Text>Seleucus of Seleucia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_16">
+			<Text>Katherine Esau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_17">
+			<Text>Dmitri Ivanovsky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_18">
+			<Text>Norman Borlaug</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_19">
+			<Text>Charles de Talleyrand-Périgord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_20">
+			<Text>Vladimir Vernadsky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_21">
+			<Text>Yuri Kondratyuk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_22">
+			<Text>Abram Ioffe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_23">
+			<Text>Abram Ioffe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_24">
+			<Text>Robert Boyle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_25">
+			<Text>Johan Gottschalk Wallerius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_26">
+			<Text>Jocelyn Bell Burnell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_27">
+			<Text>Nicholas Callan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_28">
+			<Text>Megasthenes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_29">
+			<Text>Pliny the Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_30">
+			<Text>Sequoyah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_SCIENTIST_31">
+			<Text>David Unaipon</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Pyramids-->
+		<Row Tag="TXT_KEY_WONDER_JFD_PYRAMIDS_HELP">
+			<Text>Tile improvement construction speed increased by 25% and two Workers appear near the City.</Text>
+		</Row>
+		<!--Forum Magnum-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_FORUM_ROMANUM">
+			<Text>Forum Magnum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_FORUM_ROMANUM_HELP">
+			<Text>Requires Liberty. Provides a free Magistrates Court in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_FORUM_ROMANUM_QUOTE">
+			<Text>[NEWLINE]"I found Rome built of bricks; I leave her clothed in marble"[NEWLINE] - Augustus[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_FORUM_ROMANUM_PEDIA">
+			<Text>The Roman Forum is a rectangular forum surrounded by the ruins of several important ancient government buildings at the center of the city of Rome. Citizens of the ancient city referred to this space, originally a marketplace, as the Forum Magnum, or simply the Forum. It was for centuries the center of Roman public life: the site of triumphal processions and elections; the venue for public speeches, criminal trials, and gladiatorial matches; and the nucleus of commercial affairs. Here statues and monuments commemorated the city's great men. The teeming heart of ancient Rome, it has been called the most celebrated meeting place in the world, and in all history. Located in the small valley between the Palatine and Capitoline Hills, the Forum today is a sprawling ruin of architectural fragments and intermittent archaeological excavations attracting 4.5 million sightseers yearly.</Text>
+		</Row>
+		<!--Westminster Abbey-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_WESTMINSTER">
+			<Text>Westminster Abbey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_WESTMINSTER_HELP">
+			<Text>A [ICON_JFD_WLTKD] 'We Love the King Day' begins in this city. During a [ICON_JFD_WLTKD] 'We Love the King Day', +15% [ICON_CULTURE] Culture and [ICON_PEACE] Faith in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_WESTMINSTER_QUOTE">
+			<Text>[NEWLINE]"In this world there are only two tragedies. One is not getting what one wants, and the other is getting it"[NEWLINE] - Oscar Wilde[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_WESTMINSTER_PEDIA">
+			<Text>The Collegiate Church of St Peter at Westminster, more commonly known as Westminster Abbey, is a mostly Gothic church in Westminster, London. It is the traditional site for coronations and burials for English and British monarchs. According to tradition the Abbey was founded during the time of Bishop Mellitus; circa 600, build when a fisherman saw a vision of Saint Peter at the river Thames. The known origin of the Abbey dates back as far as around 960-970, where Saint Dunstan and King Edgar installed Benedictine monks in the Abbey.[NEWLINE][NEWLINE]Edward the Confessor began rebuilding the Abbey between 1042 and 1052 to provide himself a royal burial church; it would be the first church in England in the Norman Romanesque style. While not completed until 1090 the Abbey was consecrated on December 28 1065 - one week before Edward's death. His successor, Harold Godwinson, may have been crowned at the Abbey, but the first documented coronation is that of William the Conqueror. The present church was build by Henry III in 1245; the Abbey became the coronation site of Norman kings but none were buried there until Henry III. Henry even constructed a shrine inside the Abbey to venere King Edward. The construction continued on and off between 1245 all the way to 1517 and was mostly complete by Henry Yevele, the commissioned architect during the reign of Richard II. The iconic towers adorning the western facade of the Abbey were built between 1722 and 1745 by Nicholas Hawksmoor; this was one of many restorations and constructions that occurred in and around Westminster Abbey to give it its current look.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

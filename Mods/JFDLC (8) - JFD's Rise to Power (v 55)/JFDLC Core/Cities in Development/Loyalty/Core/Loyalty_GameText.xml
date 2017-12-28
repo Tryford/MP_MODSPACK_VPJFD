@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_LOYALTY_HEADING1_TITLE">
+			<Text>Loyalty: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LOYALTY_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Loyalty[ENDCOLOR] is how much a city respects being a part of your civilization and is based on whether a city is more Loyal than it is Disloyal. After a prolonged period of being in a certain Loyalty State, a city will begin a WLTKD or Revolt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LOYALTY_INCREASING_HEADING1_TITLE">
+			<Text>Loyalty: Increasing Loyalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LOYALTY_INCREASING_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Disloyalty[ENDCOLOR], the opposite to [COLOR_POSITIVE_TEXT]Loyalty[ENDCOLOR], increases based upon the city's distance from the Capital (for Colonies), occupied status (for conquered Cities), and a variety of other factors. You can counteract this Disloyalty with Loyalty produced from buildings such as the Castle, or from various Policies and Wonders. A city connection, military garrison, and spy will also increase a city's Loyalty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LOYALTY_SENTIMENT_HEADING1_TITLE">
+			<Text>Loyalty: Sentiment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LOYALTY_SENTIMENT_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Sentiment[ENDCOLOR] is the inclination of your Citizens to celebrate a WLTKD or to Revolt. At Patriotic and Allegiant Loyalties, Citizens will contribute 1 and 0.5 WLTKD Sentiment per turn, respectively. At Rebellious and Separatist Loyalties, Citizens will contribute 1 and 0.5 Revolt Sentiment per turn. When these values reach a threshold determined by the city's Population, a WLTKD or Revolt will begin.[NEWLINE][NEWLINE]Citizens following your State Religion will provide an additional 0.25 Sentiment. Later, Citizens contribute an extra 0.25 Sentiment if your Ideology is preferred.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LOYALTY_REVOLT_HEADING1_TITLE">
+			<Text>Loyalty: Revolt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LOYALTY_REVOLT_HEADING1_BODY">
+			<Text>A [COLOR_POSITIVE_TEXT]Revolt[ENDCOLOR] occurs when a city has been Rebellious or Separatist for a prolonged period of time. At Rebellious, this will spawn Rebel Units. At Separatist, this will cause the city to defect to the Barbarian player's control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LOYALTY_WLTKD_HEADING1_TITLE">
+			<Text>Loyalty: WLTKD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LOYALTY_WLTKD_HEADING1_BODY">
+			<Text>A [COLOR_POSITIVE_TEXT]WLTKD[ENDCOLOR] occurs when a city has been Patriotic or Allegiant for a prolonged period of time. This will increase the city's growth for the duration of the WLTKD.</Text>
+		</Row>
+		<!--LOYALTIES-->
+		<!--Patriotic-->
+		<Row Tag="TXT_KEY_LOYALTY_JFD_PATRIOTIC_SHORT_DESC">
+			<Text>[COLOR_LOYALTY_JFD_PATRIOTIC]Patriotic[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_PATRIOTIC_DESC">
+			<Text>[COLOR_LOYALTY_JFD_PATRIOTIC][ICON_JFD_BLUE_FIST] Patriotic[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_PATRIOTIC_HELP">
+			<Text>City is considered [COLOR_LOYALTY_JFD_PATRIOTIC][ICON_JFD_BLUE_FIST] Patriotic[ENDCOLOR].</Text>
+		</Row>
+		<!--Patriotic-->
+		<Row Tag="TXT_KEY_LOYALTY_JFD_ALLEGIANT_SHORT_DESC">
+			<Text>[COLOR_LOYALTY_JFD_ALLEGIANT]Allegiant[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_ALLEGIANT_DESC">
+			<Text>[COLOR_LOYALTY_JFD_ALLEGIANT][ICON_JFD_GREEN_FIST] Allegiant[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_ALLEGIANT_HELP">
+			<Text>City is considered [COLOR_LOYALTY_JFD_ALLEGIANT][ICON_JFD_GREEN_FIST] Allegiant[ENDCOLOR].</Text>
+		</Row>
+		<!--Neutral-->
+		<Row Tag="TXT_KEY_LOYALTY_JFD_NEUTRAL_SHORT_DESC">
+			<Text>Neutral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_NEUTRAL_DESC">
+			<Text>[COLOR_LOYALTY_JFD_NEUTRAL][ICON_SILVER_FIST] Neutral[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_NEUTRAL_HELP">
+			<Text>City is considered [COLOR_LOYALTY_JFD_NEUTRAL][ICON_SILVER_FIST] Neutral[ENDCOLOR].</Text>
+		</Row>
+		<!--Rebellious-->
+		<Row Tag="TXT_KEY_LOYALTY_JFD_REBELLIOUS_SHORT_DESC">
+			<Text>Rebellious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_REBELLIOUS_DESC">
+			<Text>[COLOR_LOYALTY_JFD_REBELLIOUS][ICON_JFD_YELLOW_FIST] Rebellious[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_REBELLIOUS_HELP">
+			<Text>City is considered [COLOR_LOYALTY_JFD_REBELLIOUS][ICON_JFD_YELLOW_FIST] Rebellious[ENDCOLOR].</Text>
+		</Row>
+		<!--Separatist-->
+		<Row Tag="TXT_KEY_LOYALTY_JFD_SEPARATIST_SHORT_DESC">
+			<Text>Separatist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_SEPARATIST_DESC">
+			<Text>[COLOR_LOYALTY_JFD_SEPARATIST][ICON_JFD_RED_FIST] Separatist[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOYALTY_JFD_SEPARATIST_HELP">
+			<Text>City is considered [COLOR_LOYALTY_JFD_SEPARATIST][ICON_JFD_RED_FIST] Separatist[ENDCOLOR].</Text>
+		</Row>
+		<!--NATIONAL WONDERS-->
+		<!--East India Company-->
+		<Row Tag="TXT_KEY_BUILDING_EAST_JFD_INDIA_COMPANY_LOYALTY_HELP">
+			<Text>-25% [ICON_JFD_RED_FIST] Disloyalty from distance for Colonies that have a [ICON_CONNECTED] connection to the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_EAST_JFD_INDIA_COMPANY_STRATEGY">
+			<Text>This National Wonder increases the Loyalty yield of connections to the [ICON_CAPITAL] Capital made via Road/Railroad or Harbour. Build the East India Company in order to better manage large, sprawling empires.</Text>
+		</Row>
+		<!--Heroic Epic-->
+		<Row Tag="TXT_KEY_WONDER_JFD_HEROIC_EPIC_HELP_LOYALTY">
+			<Text>Increases [ICON_JFD_BLUE_FIST] Loyalty by 10% in all Cities.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<!--POLICIES-->
+		<!--Military Caste-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MILITARY_CASTE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Military Caste[ENDCOLOR][NEWLINE]Each City with a garrison increases Local City [ICON_HAPPINESS_1] Happiness by 1, [ICON_CULTURE] Culture by 2, and [ICON_JFD_BLUE_FIST] Loyalty by +5% per their level.</Text>
+		</Row>
+		<!--TECHS-->
+		<!--Electricity-->
+		<Row Tag="TXT_KEY_TECH_JFD_ELECTRICITY_HELP">
+			<Text>Reveals [ICON_RES_ALUMINUM] Aluminum, a resource used for many late-game units. Also allows Cities to build the [COLOR_POSITIVE_TEXT]Stock Exchange[ENDCOLOR], a building which boosts [ICON_GOLD] Gold. Also allows you to build the [COLOR_POSITIVE_TEXT]Hydro Plant[ENDCOLOR], which increases [ICON_PRODUCTION] Production from tiles next to a River.</Text>
+		</Row>
+		<!--Nationalism-->
+		<Row Tag="TXT_KEY_TECH_JFD_NATIONALISM_TITLE">
+			<Text>Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NATIONALISM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"A man does not have himself killed for a half pence a day or for a petty distinction. You must speak to the soul in order to electrify him."[NEWLINE] - Napoleon Bonaparte [NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NATIONALISM_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Police Station[ENDCOLOR], which hinders a spies' ability to steal your technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NATIONALISM_DESC">
+			<Text>Nationalism is the belief that the affairs of the nation are the primary concern of its citizens. A recent political phenomenon (the first major application taking place after the French Revolution), it has nonetheless become the overriding paradigm for modern world politics. It is important to know that nationalism can come in a variety of forms, some permutations bearing little resemblance to each other. Many early nationalistic leaders preached the superiority of their country over all others. While this type isn't extinct today (as evidenced by the ethnocentric nationalism in the former Yugoslavia), most promote national determinism. Sanctioned by the United Nations, this is the belief that each nation should be responsible for its own growth and independence.</Text>
+		</Row>
+		<!--SPECIALISTS-->
+		<!--Aristocrat-->
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_ARISTOCRAT">
+			<Text>Aristocrat|Aristocrats</Text>
+			<Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_ARISTOCRAT_STRATEGY">
+			<Text>Create Aristocrats to increase the empire's [ICON_JFD_BLUE_FIST] Loyalty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_ARISTOCRAT_SLOTS">
+			<Text>Aristocrat Slots:</Text>
+		</Row>
+		<!--TRAITS-->
+		<!--YIELDS-->
+		<Row Tag="TXT_KEY_YIELD_JFD_LOYALTY">
+			<Text>Loyalty</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

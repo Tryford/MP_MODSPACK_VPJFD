@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_SUZERAINTY_HEADING1_TITLE">
+			<Text>Suzerainty: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SUZERAINTY_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Suzerainty[ENDCOLOR] describes your control and influence over a City-State as their ally. When Suzerain, you will receive a unique bonus based upon that City-State.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

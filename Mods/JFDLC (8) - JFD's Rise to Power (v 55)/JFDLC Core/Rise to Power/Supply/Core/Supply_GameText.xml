@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--SPECIALISTS-->
+		<!--Admiral-->
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_ADMIRAL">
+			<Text>Admiral|Admirals</Text>
+			<Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_ADMIRAL_STRATEGY">
+			<Text>Create Admirals to increase the empire's [ICON_JFD_SUPPLY] Unit Supply and to speed the creation of Great Admirals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_ADMIRAL_TITLE">
+			<Text>Great Admiral Points:</Text>
+		</Row>
+		<!--General-->
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_GENERAL">
+			<Text>General|Generals</Text>
+			<Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_GENERAL_STRATEGY">
+			<Text>Create Generals to increase the empire's [ICON_JFD_SUPPLY] Unit Supply and to speed the creation of Great Generals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_JFD_GENERAL_TITLE">
+			<Text>Great General Points:</Text>
+		</Row>
+		<!--MISSIONS-->
+		<!--Swear Oath of Fealty-->
+		<Row Tag="TXT_KEY_MISSION_JFD_CAPTAINS">
+			<Text>Swear Oath of Fealty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_CAPTAINS_HELP">
+			<Text>This order will consume the unit and grant 2 [ICON_JFD_CAPTAIN] Captains.</Text>
+		</Row>
+		<!--RESOURCES-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_CAPTAINS">
+			<Text>Captain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_CAPTAINS_TEXT">
+			<Text>A captain is a title for the commander of a military unit, the commander of a ship, airplane, spacecraft, or other vessel, or the commander of a port, fire department or police department, election precinct, etc. Captain is a military rank in armies, navies, coast guards, etc., typically at the level of an officer commanding a company of infantry, a ship, or a battery of artillery, or similar distinct unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JFD_CAPTAINS_HELP">
+			<Text>Used to enact Decisions.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

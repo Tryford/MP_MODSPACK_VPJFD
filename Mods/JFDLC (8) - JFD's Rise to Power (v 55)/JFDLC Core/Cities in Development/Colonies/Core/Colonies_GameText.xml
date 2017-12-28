@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2014 10:34:54 AM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_COLONIES_HEADING1_TITLE">
+			<Text>Colonies: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COLONIES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Colonies[ENDCOLOR] are cities that have been founded a certain distance from your Capital or with a Colonist. Colonies act similarly to puppet cities, in that you cannot control their production, but you may still purchase items in them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COLONIES_INTEGRATION_HEADING1_TITLE">
+			<Text>Colonies: Integrating Colonies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COLONIES_INTEGRATION_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Colonies[ENDCOLOR] may be integrated as regular cities are a certain Population threshold is met. This will remove all conditions of being a Colony and cannot be undone.</Text>
+		</Row>
+		<!--BELIEFS-->
+		<!--Mission Colonies-->
+		<Row Tag="TXT_KEY_BELIEF_JFD_MISSION_COLONIES_SHORT">
+			<Text>Mission Colonies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JFD_MISSION_COLONIES">
+			<Text>Use [ICON_PEACE] Faith to purchase Civilian Units. [ICON_JFD_COLONY] Colonies begin with a free Missionary when first settled.</Text>
+		</Row>
+		<!--DECISIONS-->
+		<!--Initiate Decolonization-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_CID_COLONIES_DECOLONIZATION">
+			<Text>Initiate Decolonization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_CID_COLONIES_DECOLONIZATION_DESC">
+			<Text>We have become overencumbered by the imperial system of government. It is time that we treat our colonies as our peers.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]May only be enacted from the beginning of the Modern Era.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Forbids the training of Colonists. All current Colonists are converted into Settlers.
+				[ICON_BULLET]All existing [ICON_JFD_COLONY] Colonies are assimilated and begin celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 10 turns.
+				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Note: The [ICON_GOLD] Gold and [ICON_MAGISTRATES] Magistrates costs increase with every [ICON_JFD_COLONY] Colony.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_CID_COLONIES_DECOLONIZATION_ENACTED_DESC">
+			<Text>We have become overencumbered by the imperial system of government. It is time that we treat our colonies as our peers.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Forbids the training of Colonists. All current Colonists are converted into Settlers.
+				[NEWLINE][ICON_BULLET]All existing [ICON_JFD_COLONY] Colonies are assimilated and begin celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 20 turns.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_CID_COLONIES_DECOLONIZATION">
+			<Text>{1_LeaderName} of the {2_CivName} has initiated a process of de-colonization.</Text>
+		</Row>
+		<!--MISSIONS-->
+		<!--Fort Colony-->
+		<Row Tag="TXT_KEY_MISSION_JFD_FORT_COLONY">
+			<Text>Establish Fort Colony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_FORT_COLONY_HELP">
+			<Text>This order will consume the unit and establish a [ICON_JFD_COLONY] Colony. This colony begins with a Citadel at this tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_FORT_COLONY_HELP_DISABLED">
+			<Text>A Promotion will indicate when this tile can support a [ICON_JFD_COLONY] Colony; this will show when you are not too close to your [ICON_CAPITAL] Capital or to another city. However, you must be on land.</Text>
+		</Row>
+		<!--NATIONAL WONDERS-->
+		<!--East India Company-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_EAST_INDIA_COMPANY">
+			<Text>East India Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_EAST_INDIA_COMPANY_HELP">
+			<Text>+4 [ICON_GOLD] Gold from each [ICON_JFD_COLONY] Colony.[NEWLINE][NEWLINE]The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_EAST_INDIA_COMPANY_TEXT">
+			<Text>The various East India Companies were joint-stock ventures chartered by the crown to pursue trade in Asia and the islands around the Indian Ocean. Reaching their height during the 17th and 18th centuries, the various companies maintained their own military forces, established settlements under their administration, undertook explorations, fought wars, collected taxes, and built plantations, mines and roads - all in the pursuit of profit. The most successful of these corporations were the "Honourable" East India Company of Britain (chartered by Queen Elizabeth in 1600 AD), the Dutch East Indies Company (1602) and the French Company of the Indies (1664).</Text>
+		</Row>
+		<!--Governor's Mansion-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GOVERNORS_MANSION">
+			<Text>Governor's Mansion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GOVERNORS_MANSION_HELP">
+			<Text>Denotes a [ICON_JFD_COLONY] Colony.[NEWLINE][NEWLINE]Colonies are essentially puppet cities in that you cannot control their production and that they have a penalty toward [ICON_CULTURE] Culture and [ICON_RESEARCH] Science output. They also do not contribute to Social Policy costs, nor to National Wonder requirements. However, unlike in a puppet city, you may purchase items in a colony with [ICON_PEACE] Faith or [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GOVERNORS_MANSION_TEXT">
+			<Text>A Governor is the political authority relegated to govern on behalf of the executive in any non-sovereign level of government. It is similar to the role of a Viceroy, but without the monarchical qualification. A Governor's Mansion refers to any local residence of a governor, and marks the city's status as being under their government.</Text>
+		</Row>
+		<!--National Treasury-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_NATIONAL_TREASURY">
+			<Text>National Treasury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_NATIONAL_TREASURY_HELP">
+			<Text>Trade routes other players make to a city with a National Treasury will generate an extra 4 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route.[NEWLINE][NEWLINE]Must have built a Market in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_NATIONAL_TREASURY_STRATEGY">
+			<Text>The National Treasury increases the amount of [ICON_GOLD] Gold a city generates. Trade routes other players make to a city with a National Treasury will generate an extra 4 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route.[NEWLINE][NEWLINE]Must have built a Market in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_JFD_NATIONAL_TREASURY_TEXT">
+			<Text>A National Treasury houses a civilization's wealth, gold, priceless items, and jewels, all under secure lock and key. Records show that some of the first treasuries were constructed by the ancient Greeks, who attached these buildings to temples in order to house all manner of gifts to the gods. Now a National Treasury is usually administered by a branch of government, and usually isn't attached to some religious building or other. The treasury branch not only keeps an eye on a civilization's accumulated wealth, but also governs other financial matters for the nation, like the fine tradition of taxation.</Text>
+		</Row>
+		<!--POLICIES-->
+		<!--Navigation School-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NAVIGATION_SCHOOL_HELP_COLONIES">
+			<Text>[COLOR_POSITIVE_TEXT]Navigation School[ENDCOLOR][NEWLINE]+1 [ICON_MOVES] Movement for all Great Admirals and Colonists. Earn Great Admirals and [ICON_PRODUCTION] train Colonists 33% faster.</Text>
+		</Row>
+		<!--Vicegerentry-->
+		<Row Tag="TXT_KEY_POLICY_JFD_VICEGENTRY_HELP_COLONIES">
+			<Text>[COLOR_POSITIVE_TEXT]Vicegerentry[ENDCOLOR][NEWLINE]Internal Trade Routes yield 50% more [ICON_PRODUCTION] Production and [ICON_FOOD] Food. +2 [ICON_HAPPINESS_1] Happiness from each [ICON_JFD_COLONY] Colony.</Text>
+		</Row>
+		<!--PROMOTIONS-->
+		<!--Colonial Settler-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_COLONIAL_SETTLER">
+			<Text>Colonial Settler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_COLONIAL_SETTLER_HELP">
+			<Text>A city founded by this unit will be established as a [ICON_JFD_COLONY] Colony.</Text>
+		</Row>
+		<!--Navigation School-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_FAST_ADMIRAL">
+			<Text>Navigation School</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_FAST_ADMIRAL_HELP">
+			<Text>+1 [ICON_MOVES] Movement.</Text>
+		</Row>
+		<!--TRAITS-->
+		<!--Dutch East India Company-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_NETHERLANDS">
+			<Text>Colonies begin with a Worker and claim nearby Resources when founded. Retain 50% of the [ICON_HAPPINESS_1] from a Luxury Resource if your last copy is traded away.</Text>
+		</Row>
+		<!--UNITS-->
+		<!--Colonist-->
+		<Row Tag="TXT_KEY_UNIT_JFD_COLONIST">
+			<Text>Colonist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_COLONIST">
+			<Text>Founds new Colonies with advanced infrastructure and additional [ICON_CITIZEN] Population.[NEWLINE][NEWLINE][ICON_FOOD] Growth of the City is stopped while this Unit is being built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_COLONIST_STRATEGY">
+			<Text>Use this unit to construct new cities. It cannot defend itself, so accompany it with a combat unit. When founded, cities built by Colonists automatically receive a selection of buildings, start with 3 [ICON_CITIZEN] Citizens, and claim additional territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_COLONIST_TEXT">
+			<Text>Studying throughout history, one can witness how colonists, a type of setter, very often occupied land previously home to long-established peoples, designated as indigenous (also called "natives", "Aborigines" or, in the Americas, "Indians"). In some cases (such as Australia), as colonialist mentalities and laws change, the legal ownership of some lands is contested by indigenous people, who either claim or seek restoration of traditional usage, land rights, native title and related forms of legal ownership or partial control. The word "settler" was not originally usually used in relation to unfree labour immigrants, such as slaves (e.g. in the United States), indentured labourers (such as in Colonial America), or convicts (such as in British America, c. 1615–1775; Australia 1788-1868). More recently descendants of these immigrants may argue that they have as much right to use the word "settler" as the descendants of free immigrants. In the figurative usage, a "person who goes first or does something first" also applies to the American English use of "pioneer" to refer to a settler—a person who has migrated to a less occupied area and established permanent residence there, often to colonize the area; as first recorded in English in 1605. In United States history it refers to those people who helped to settle new lands. In this usage, pioneers are usually among the first to an area, whereas settlers can arrive after first settlement and join others in the process of human settlement.[citation needed] This correlates with the work of military pioneers who were tasked with construction of camps before the main body of troops would arrive at the designated camp site.</Text>
+		</Row>
+		<!--WONDERS-->
+		<!--Pena National Palace-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PENA_PALACE">
+			<Text>Pena National Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PENA_PALACE_HELP">
+			<Text>Each [ICON_JFD_COLONY] Colony within the empire produces +1 [ICON_HAPPINESS_1] Happiness and +4 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PENA_PALACE_QUOTE">
+			<Text>[NEWLINE]"It is a pleasure to stand upon the shore, and to see ships tost upon the sea: a pleasure to stand in the window of a castle, and to see a battle and the adventures thereof below: but no pleasure is comparable to standing upon the vantage ground of truth."[NEWLINE] - Sir Francis Bacon[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PENA_PALACE_PEDIA">
+			<Text>Pena National Palace is a large romanticist palace located on a hill in the municipality of Sintra, Portugal. The hill was formerly the site of a monastery, which was constructed following a rumoured appiration of the Virgin Mary. This monastery was destroyed in the Great Lisbon Earthquake of 1755. Remaining untouched for many years, it was in 1838 that, after being purchased by King consort Ferdinand II, the grounds of the original monastery were rebuilt into a palace for the Portuguese royal family to stay at during the summer. The building of this new palace was placed under command of a notable German architect and engineer, Baron Wilhelm Ludwig von Eschwege, and construction was completed in 1854. It remained in possession of the Portuguese royal family until the Republican Revolution of 1910, after which it was turned into a national monument as well as a museum. Finally, in 1995 the palace was turned into a world heritage site by UNESCO.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

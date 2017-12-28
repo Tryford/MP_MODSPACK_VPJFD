@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" version="88">
+  <Properties>
+    <Name>JFDLC (1a) - Gazebo's Community Patch</Name>
+    <Stability>Beta</Stability>
+    <Teaser>(12-15) Bugfixes, AI Improvements, Game Optimizations and API Extensions for Civ V</Teaser>
+    <Description>Contains core AI improvements and bugfixes for the Civ 5 BNW DLL. Also contains support for Whoward's PNM Mods as well as the Community Balance Patch.</Description>
+    <Authors>The Community Patch Team</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>72</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Game minversion="1.0.3.124" maxversion="1.0.3.999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="49E4992BE54BF30AE68D0CF0B31801F9" import="0">CommunityOptions.sql</File>
+    <File md5="DD5FECD9838E35779A74DD66B065C1D4" import="1">Core Files/Core Changes/CompressedArt/alexander.dds</File>
+    <File md5="C04545B48484256F56047700756591B5" import="1">Core Files/Core Changes/CompressedArt/alrashid.dds</File>
+    <File md5="D66A3598398764263F19A7F67BFA2499" import="1">Core Files/Core Changes/CompressedArt/askia.dds</File>
+    <File md5="CC32C01B8BB8F4590C7C1147C24DA0C8" import="1">Core Files/Core Changes/CompressedArt/augustus.dds</File>
+    <File md5="DB3C7566EB344574770FFBD8D6492FD7" import="0">Core Files/Core Changes/CompressedArt/aztec.dds</File>
+    <File md5="F1F0257DB36B844D1397928AF8A0ED35" import="1">Core Files/Core Changes/CompressedArt/bismark.dds</File>
+    <File md5="C308336C6A4C05801434384A69C6F1B7" import="1">Core Files/Core Changes/CompressedArt/casimir.dds</File>
+    <File md5="BBD12A78E48CFBCF7DEA8CCC656D8C6B" import="1">Core Files/Core Changes/CompressedArt/catherine.dds</File>
+    <File md5="B3C1FBD5E66301B400B63040C7B42503" import="1">Core Files/Core Changes/CompressedArt/corp80_base.dds</File>
+    <File md5="D49B7AA0DAFF3621D9F72A36D22FB43B" import="1">Core Files/Core Changes/CompressedArt/corp80_hl.dds</File>
+    <File md5="AA023F85EEEB1F7DA0444C80DAF22A75" import="1">Core Files/Core Changes/CompressedArt/darius.dds</File>
+    <File md5="1D94F6DC259A5A1FE149BC83BC7C80E4" import="1">Core Files/Core Changes/CompressedArt/DC45_Corporations.dds</File>
+    <File md5="FD9F7C980781B0D6951E5575A8C52A1C" import="1">Core Files/Core Changes/CompressedArt/dom_catherine.dds</File>
+    <File md5="F521F2A6CB37AF3742C748B021760551" import="1">Core Files/Core Changes/CompressedArt/dom_nebuchadnezzar.dds</File>
+    <File md5="5A65FF1BC6EFC5404BC021D0FD2B9173" import="1">Core Files/Core Changes/CompressedArt/elizabeth.dds</File>
+    <File md5="2C21094334F1CB3A9EE1A5D35242B8C4" import="1">Core Files/Core Changes/CompressedArt/EventFrame.dds</File>
+    <File md5="8176FC2087EE89324E8BA19A1F9EFC55" import="1">Core Files/Core Changes/CompressedArt/ghandi.dds</File>
+    <File md5="B4C607332EC4BE50CB71C0419BAB7D09" import="1">Core Files/Core Changes/CompressedArt/hiawatha.dds</File>
+    <File md5="499D258A7F485F8BA82863D9215E6B8D" import="1">Core Files/Core Changes/CompressedArt/instantyieldnotification80.dds</File>
+    <File md5="5C925FD4541A092E3DB3A906FC089EDD" import="1">Core Files/Core Changes/CompressedArt/instantyieldnotificationglow80.dds</File>
+    <File md5="595F17B488894D170EF4CB9DD733E3C6" import="1">Core Files/Core Changes/CompressedArt/montezuma.dds</File>
+    <File md5="BA19066C26BB8347FE573788D4903D19" import="1">Core Files/Core Changes/CompressedArt/napoleon.dds</File>
+    <File md5="2975B5B885E1DAF6350CB298ACEED19C" import="1">Core Files/Core Changes/CompressedArt/nebuchadnezzar.dds</File>
+    <File md5="DE48FBA4B06265C41F73C1E0F30D6990" import="1">Core Files/Core Changes/CompressedArt/notificationcityeventglow.dds</File>
+    <File md5="4FEA391E88CC5EEF3C49EA84122B8D61" import="1">Core Files/Core Changes/CompressedArt/notificationcityeventorange.dds</File>
+    <File md5="95D498B7DD244272391492AF9BA4F4A1" import="1">Core Files/Core Changes/CompressedArt/notificationeventglow.dds</File>
+    <File md5="879CF550A56D42755709363D22253E11" import="1">Core Files/Core Changes/CompressedArt/notificationeventorange.dds</File>
+    <File md5="FAEB1412BD31B1205C31F4C8BD873E34" import="1">Core Files/Core Changes/CompressedArt/notificationMPdiplo128.dds</File>
+    <File md5="2F04CABEA9E85C5BBEBE5829A777E0F8" import="1">Core Files/Core Changes/CompressedArt/notificationMPdiploglow128.dds</File>
+    <File md5="6E2C17A7E9BE2B2B73FAA46840801F87" import="1">Core Files/Core Changes/CompressedArt/oda.dds</File>
+    <File md5="DEED057539D754BD6C5F58F6DDFFD22D" import="1">Core Files/Core Changes/CompressedArt/pacal_the_great.dds</File>
+    <File md5="12F02BD8BA4061E00F4F5761D8720757" import="1">Core Files/Core Changes/CompressedArt/ramesses.dds</File>
+    <File md5="C63669324016754011918B8526E88B37" import="1">Core Files/Core Changes/CompressedArt/ramkhamaeng.dds</File>
+    <File md5="ABD37B929005231A5FA48C331CA3D8CD" import="1">Core Files/Core Changes/CompressedArt/sulieman.dds</File>
+    <File md5="CB05E0CC0973C888102B8128DED99EE4" import="1">Core Files/Core Changes/CompressedArt/TradeMP.dds</File>
+    <File md5="341D9AF3FA7E166C621F7B4866D60B90" import="1">Core Files/Core Changes/CompressedArt/washington.dds</File>
+    <File md5="ACA338F2B02A8184C76AADB60D0D4319" import="1">Core Files/Core Changes/CompressedArt/wonderconceptbroadway.dds</File>
+    <File md5="12D7AE7B46F4A1CFC9C04068B91EC4EA" import="1">Core Files/Core Changes/CompressedArt/wonderconceptgreatwall.dds</File>
+    <File md5="B0F68066FF301B6B10E15EC0E85CFDE6" import="1">Core Files/Core Changes/CompressedArt/wonderconceptnotredame.dds</File>
+    <File md5="0429CDBB6DB69F18C354FA6B36B459E8" import="1">Core Files/Core Changes/CompressedArt/wu.dds</File>
+    <File md5="3E018F5F9A1784EDE8E5BB0FBD5F9648" import="0">Core Files/Core Changes/CoreChanges.sql</File>
+    <File md5="2082C36A23AE3826394B48536A5372C1" import="0">Core Files/Core Changes/CommunityPatchDLLChanges.xml</File>
+    <File md5="1EE8068EEDE2863AF707CCBCFFD9259B" import="0">Core Files/Core Changes/EraSpecificWriters.sql</File>
+    <File md5="30382037160A3931218C71A926DEC1C8" import="0">Core Files/Core Changes/EraSpecificArtists.sql</File>
+    <File md5="8E0C2EB4CF1322F206BE9B1DE2403C39" import="0">Core Files/Core Changes/EraSpecificMusicians.sql</File>
+    <File md5="2962BC8033024867575F48589690A8A2" import="0">Core Files/Core Changes/CoreChanges.xml</File>
+    <File md5="852EB702A3A04DDA61CAE00064D1B0A3" import="1">Core Files/Core Changes/GreatArt/artifact.dds</File>
+    <File md5="F772E5C5B3C34261AE26BAD47E06B448" import="1">Core Files/Core Changes/GreatArt/esp_thief_framedicon45.dds</File>
+    <File md5="EEBEEFD65D927355EB6731CD6278792C" import="1">Core Files/Core Changes/GreatArt/Sarcophagus.dds</File>
+    <File md5="302DB62E319DA3F30D0AA84837D3907B" import="0">Core Files/Core Changes/UnitFixes.sql</File>
+    <File md5="E2B19CBFFF8F783398DF4BD00E5633D1" import="1">Core Files/Core Changes/GreatArt/esp_spy_rigginelectioncooldown22.dds</File>
+    <File md5="B5951BFB8C5655834700B8218EE03B4E" import="0">Core Files/Core Changes/SaneTerrain.sql</File>
+    <File md5="3D1DA5C5C96C830EB3ADED51E6F64281" import="0">Core Files/Core Changes/WorldChanges.sql</File>
+    <File md5="5D3F7DB8143B4D1AF76146432B7D468E" import="0">Core Files/Core Changes/TerrainFixes.xml</File>
+    <File md5="D6A84377DC0A60D68C78E911777E9E88" import="1">Core Files/Core Changes/GreatArt/ancientchina.dds</File>
+    <File md5="1154AB813A0500E7664C5894CEAFCB15" import="1">Core Files/Core Changes/GreatArt/ancientjapan.dds</File>
+    <File md5="D437F09F6BF878F68FE10C0AB39725E5" import="1">Core Files/Core Changes/GreatArt/ancientpersia.dds</File>
+    <File md5="7EA9FD3BE2AC37E87A74B7A34744F2F0" import="1">Core Files/Core Changes/GreatArt/ashurbanipalstatue.dds</File>
+    <File md5="A522A972DF19C35452E41E3965742A45" import="1">Core Files/Core Changes/GreatArt/augustusstatue.dds</File>
+    <File md5="DB3C7566EB344574770FFBD8D6492FD7" import="1">Core Files/Core Changes/GreatArt/aztec.dds</File>
+    <File md5="09DB2818395D0217A9469CD12036547C" import="1">Core Files/Core Changes/GreatArt/bayeuxtapestry.dds</File>
+    <File md5="054B81EB234FF28FF12991A4CFEBB414" import="1">Core Files/Core Changes/GreatArt/classicalgreece.dds</File>
+    <File md5="8054B3C12D2733890EFA5B30D93CE8D6" import="1">Core Files/Core Changes/GreatArt/egyptianmefertem.dds</File>
+    <File md5="E0B240F720F8C48DDB34DD694B17BF2C" import="1">Core Files/Core Changes/GreatArt/justinian.dds</File>
+    <File md5="F7F260E5C23B39860D5DA040DC085B57" import="1">Core Files/Core Changes/GreatArt/kalamkari.dds</File>
+    <File md5="5524ADC4596BA3609E0C34CBA9D01D09" import="1">Core Files/Core Changes/GreatArt/kells.dds</File>
+    <File md5="DF03A0D8C1CD30315757A768B40D198A" import="1">Core Files/Core Changes/GreatArt/lascaux.dds</File>
+    <File md5="D0E3C2B347BE4F8AF7425039B2601FAA" import="1">Core Files/Core Changes/GreatArt/medieval.dds</File>
+    <File md5="6DE5AC31317313EEF46A7EC98D020D3C" import="1">Core Files/Core Changes/GreatArt/resource_furs.gr2</File>
+    <File md5="8109543F21A0AE4E5E225595732319B4" import="1">Core Files/Core Changes/GreatArt/suttonhoo.dds</File>
+    <File md5="893B339A2044E714FAD61E981B8B4A35" import="0">Core Files/Core Changes/NewWriters.xml</File>
+    <File md5="12A0F1F3F4AC7D09CBD28E06B17F8BF3" import="0">Core Files/Core Changes/NewArtists.xml</File>
+    <File md5="4E508F5AA1D796DB0A5E1A4CDACBBD4F" import="0">Core Files/Core Changes/NewText.xml</File>
+    <File md5="480A38B4F4DFDF3CF24BC1C03A1F3C64" import="0">Core Files/Core Changes/TextChanges.sql</File>
+    <File md5="ABFDF9C7834F82EA32884703EC0D5F77" import="0">Core Files/Core Tables/CommunityOptionsTable.sql</File>
+    <File md5="8997586CCBA2AF00FF3BA9D1D8611FA4" import="0">Core Files/Core Tables/CoreTableAdditions.xml</File>
+    <File md5="A69E87736048BC4DEE530B9830053921" import="0">Core Files/Core Tables/CoreTableAdditions1HH.xml</File>
+    <File md5="E5E94DDCBF7E8A75DF0727B02D773F5C" import="0">Core Files/Core Tables/CoreTableAdditions2HH.sql</File>
+    <File md5="49BE1D599AC2059AD8F6A2AEB2A01969" import="0">Core Files/Core Tables/CoreTableEntries.sql</File>
+    <File md5="2A4077BC8A7ACC09131C001139F3CB7C" import="0">Core Files/Core Tables/CustomModOptions.xml</File>
+    <File md5="1D94AF60D6548E810E87CF9BBFC051D9" import="0">Core Files/Core Tables/EventAudio.xml</File>
+    <File md5="B30D8A1A7F42B7F9711F05EA64771F59" import="0">Core Files/Core Tables/JFDContracts.xml</File>
+    <File md5="429BD12E6BC5CFFFE5CCAD5B994E2948" import="0">Core Files/Core Tables/SampleEvents.xml</File>
+    <File md5="3C9280FF37802C6EB816C6801E3BB7F3" import="0">Core Files/Core Tables/GameEventsTable.xml</File>
+    <File md5="4FC51835F4E1FACE48D5D92A36189955" import="0">Core Files/Core Values/CargoShipMod.sql</File>
+    <File md5="C393213E1B473AA5AEEA10DC660E92EE" import="0">Core Files/Core Values/CoreDefines.sql</File>
+    <File md5="260E49F1463125721E6A1B96B69D47A1" import="0">Core Files/Core Values/ExtraSpyTable.xml</File>
+    <File md5="DA29EBFCB5739A0EFB1C2963E24B4A46" import="0">Core Files/Core Values/CoreValues.xml</File>
+    <File md5="4294BB607CA8995F0DC562AA8B1F8C20" import="0">Core Files/Core Values/Automates.xml</File>
+    <File md5="6472E73AF0AA0E2FF97AFDE18690F35F" import="0">Core Files/Core Values/DummyTrigger.sql</File>
+    <File md5="018C7C5EB66102FE2744BA8D54F38D72" import="0">Core Files/Core Values/MinorCivQuestRewards.xml</File>
+    <File md5="55680AD4774BC1DC4991E321F40A183E" import="0">Core Files/Core Values/New_CIV5AICityStrategies.xml</File>
+    <File md5="22C823A2A9A00B2B73B7983130602DDB" import="0">Core Files/Core Values/New_CIV5AIMilitaryStrategies.xml</File>
+    <File md5="D1B7240F5DE96BC359A5E1DD51116992" import="0">Core Files/Core Values/New_CIV5MultiUnitFormations.xml</File>
+    <File md5="8E14558200C818AED91FEDEC0407951B" import="0">Core Files/Core Values/New_GlobalAIDefines.xml</File>
+    <File md5="51CBE465E42FA27457401A9EB2A0E0B5" import="1">Core Files/Core Values/TechAwardPopup.lua</File>
+    <File md5="3AEA3154A06B8B69762F22A642C8ED1D" import="1">Core Files/Core Values/TechAwardPopup.xml</File>
+    <File md5="69374534A7816E9BA13B570292DA73D8" import="1">Core Files/Core Values/TechHelpInclude.lua</File>
+    <File md5="99B415476E11B1F8F55897D5E407805E" import="1">Core Files/CoreLua/badeventdefaultbackground.dds</File>
+    <File md5="24FBC9EFC39D58899C510986127E523F" import="1">Core Files/CoreLua/cityeventdefaultbackground.dds</File>
+    <File md5="0DB4732E3E9808725ED0F280C4FABCD1" import="0">Core Files/CoreLua/CityEventPopup.lua</File>
+    <File md5="DB148EB48CB0FC537C7B3ED852F8ED14" import="0">Core Files/CoreLua/CityEventPopup.xml</File>
+    <File md5="464FF5291A70846BA602CF2367E84695" import="1">Core Files/CoreLua/CityEventsInfo.lua</File>
+    <File md5="716E665A7374FEC615837C8A85AF18F8" import="1">Core Files/CoreLua/CityEventsInfo.xml</File>
+    <File md5="7EF32E3FC07D71234FD7E09333D7AE3C" import="1">Core Files/CoreLua/CityRecentEventsInfo.lua</File>
+    <File md5="F101066874ED5BEDE778EE71E4BB4D4A" import="1">Core Files/CoreLua/CityRecentEventsInfo.xml</File>
+    <File md5="E63F495530830ACDA63D58F4239814D2" import="1">Core Files/CoreLua/EventArt/AirBalloon.dds</File>
+    <File md5="6BB340B55207D61CEB2102D83CD5D480" import="1">Core Files/CoreLua/EventArt/FireWorks.dds</File>
+    <File md5="6AADF65C7F52C2582215C19E8B81219B" import="1">Core Files/CoreLua/EventArt/GoldStandard.dds</File>
+    <File md5="CE4F1D1578C73C83718580A0F0D95CA9" import="1">Core Files/CoreLua/EventArt/HarborTrade.dds</File>
+    <File md5="7AE54BA5A31E80A1745528F5EC9924D7" import="1">Core Files/CoreLua/EventArt/StockMarketCrash.dds</File>
+    <File md5="26908BC94A3A9C3ED9F9A59E48C609EC" import="1">Core Files/CoreLua/EventArt/SunHeat.dds</File>
+    <File md5="7CC44079C17A550A92E808DF9D781B61" import="0">Core Files/CoreLua/EventOverview.xml</File>
+    <File md5="F96BAF543AB02586B4CD913507F7420E" import="1">Core Files/CoreLua/EventChoice.mp3</File>
+    <File md5="6DA9943C95E9C9BE8149F4D48115D8FD" import="0">Core Files/CoreLua/EventChoicePopup.lua</File>
+    <File md5="213DD9B4CD1DB151EC26DBD1F996E4A7" import="0">Core Files/CoreLua/EventChoicePopup.xml</File>
+    <File md5="C52150B6258A39219B526BA1601E9153" import="0">Core Files/CoreLua/EventChoicePopupCity.lua</File>
+    <File md5="2FBF778B6AF3317CA4105412226E02DE" import="0">Core Files/CoreLua/EventChoicePopupCity.xml</File>
+    <File md5="BA37B4E0B8D6E723A5DFBEE3D3C5A749" import="0">Core Files/CoreLua/EventPopup.lua</File>
+    <File md5="695FACA1BA4A5C15D3595EF99B6B658C" import="0">Core Files/CoreLua/EventPopup.xml</File>
+    <File md5="D34DBE771326E8740FF4354E860675FD" import="0">Core Files/CoreLua/EventOverview.lua</File>
+    <File md5="FAE13602CE1A44D64D734538BE4C1AAD" import="1">Core Files/CoreLua/PathHelpManager.lua</File>
+    <File md5="B9265F59D7CFB7857DD3D8C308F5D7D0" import="1">Core Files/CoreLua/RecentEventsInfo.xml</File>
+    <File md5="5CE8AADCD96BC892206D0738E4879395" import="1">Core Files/CoreLua/RecentEventsInfo.lua</File>
+    <File md5="D189054DBC0B89454E00137394C4CB1A" import="1">Core Files/CoreLua/playereventdefaultbackground.dds</File>
+    <File md5="47D9492129F0335754825A2AFCDE425F" import="1">Core Files/CoreLua/PlayerEventsInfo.xml</File>
+    <File md5="A5F8A30B9629E6251072B6A406124856" import="1">Core Files/CoreLua/PlayerEventsInfo.lua</File>
+    <File md5="A53A3F95997B22DE5DABEE779D28BD87" import="0">Core Files/PNM Mods DB/API/Achievements.xml</File>
+    <File md5="36A115A631B96817D4965D32E894077E" import="0">Core Files/PNM Mods DB/API/Espionage.xml</File>
+    <File md5="9B4D318C2BB5BEEB0203644FFC335CF6" import="0">Core Files/PNM Mods DB/API/Extensions.sql</File>
+    <File md5="737996DD4F199C2643B20D36001DC568" import="0">Core Files/PNM Mods DB/API/PlotBasedDamage.sql</File>
+    <File md5="6D97538D607296FD026A054C09468DD3" import="0">Core Files/PNM Mods DB/API/PlotYields.xml</File>
+    <File md5="7F9108F053503C87166346AD2488D9CC" import="0">Core Files/PNM Mods DB/API/Religion.xml</File>
+    <File md5="B1C2E8D070A6676AB523D8E7D760B93F" import="0">Core Files/PNM Mods DB/API/UnifiedYields.sql</File>
+    <File md5="0AFB421272AF90D728133B6808537295" import="0">Core Files/PNM Mods DB/API/UnifiedYields.xml</File>
+    <File md5="A38D710EFFE4388E1D8B154FEA115FC9" import="0">Core Files/PNM Mods DB/API/UnifiedYieldsGoldenAge.xml</File>
+    <File md5="1C2DA7B81D9F6C008BE5A20C419BEF72" import="0">Core Files/PNM Mods DB/API/UnifiedYieldsTourism.xml</File>
+    <File md5="9D4C79414FFC68BA541ADF2FA594F54F" import="1">Core Files/PNM Mods DB/ART/yieldatlas_128_admiral.dds</File>
+    <File md5="D2C99368E100F1982AE2F53118253E44" import="1">Core Files/PNM Mods DB/ART/yieldatlas_128_culturelocal.dds</File>
+    <File md5="004BEA672244A2AD3705B61431A4E3DB" import="1">Core Files/PNM Mods DB/ART/yieldatlas_128_general.dds</File>
+    <File md5="8DBF300FFEC8BB9D400845CA40DD933D" import="1">Core Files/PNM Mods DB/ART/YieldAtlas_128_GoldenAge.dds</File>
+    <File md5="ABD5FA5416A63C4E062E3F9113215550" import="1">Core Files/PNM Mods DB/ART/YieldAtlas_128_Tourism.dds</File>
+    <File md5="3649CA4F3817898997E12690F5A49684" import="0">Core Files/PNM Mods DB/BUGFIX/FeatureRemoval.sql</File>
+    <File md5="E8750DF83A985489BF5005EF9860625F" import="0">Core Files/PNM Mods DB/BUGFIX/GoodyHutMessages.xml</File>
+    <File md5="F05356D5D0E61F6D8D34D00F4BA9AA35" import="0">Core Files/PNM Mods DB/BUGFIX/SpyNames.xml</File>
+    <File md5="FA3BCC26D8997291AEBFFD57DCED931B" import="0">Core Files/PNM Mods DB/BUGFIX/UnitclassNotUnit.sql</File>
+    <File md5="EC46E85CA29BC011585D0F50E27B7287" import="0">Core Files/PNM Mods DB/BUGFIX/UnitclassNotUnit.xml</File>
+    <File md5="C3FB79372F12F72F6887D4EE43CAC9D7" import="0">Core Files/PNM Mods DB/CONFIG/AiInXml.sql</File>
+    <File md5="433ED158F3FE1A0BC953208F0FEF1A99" import="0">Core Files/PNM Mods DB/CONFIG/GameInXml.xml</File>
+    <File md5="1B9194202D8BDFD40AB1DB188A1C586E" import="0">Core Files/PNM Mods DB/CustomModTables.xml</File>
+    <File md5="660782ED475B005179F85682F65BFC19" import="0">Core Files/PNM Mods DB/DIPLO/AIWarmongerAdjustments.xml</File>
+    <File md5="AF6286F99584CA76E095A460820246BF" import="0">Core Files/PNM Mods DB/EVENTS/BattleRoles.xml</File>
+    <File md5="D0D6D053B57D552F04659AC2427D7B6D" import="0">Core Files/PNM Mods DB/EVENTS/CanMoveInto.sql</File>
+    <File md5="B7036E7A6D8F7F5CCFFDC3C3D9A171F4" import="0">Core Files/PNM Mods DB/EVENTS/CityBombard.sql</File>
+    <File md5="B9719225BCB71D12B8A7C2E218949E1F" import="0">Core Files/PNM Mods DB/EVENTS/DiploModifiers.xml</File>
+    <File md5="B2EC173C6EE473335C806278D0C90701" import="0">Core Files/PNM Mods DB/GLOBAL/AlpinePasses.sql</File>
+    <File md5="9E7C090BEE0EA0C00CFC72DA2E26E07B" import="0">Core Files/PNM Mods DB/GLOBAL/CannotEmbark.sql</File>
+    <File md5="9AE580627CFD6F5BC6800B56E146BBCA" import="0">Core Files/PNM Mods DB/GLOBAL/CityWorking.sql</File>
+    <File md5="988A4E2A03A8A65D2BA34454314AE7D4" import="0">Core Files/PNM Mods DB/GLOBAL/ExcludeFromGifts.sql</File>
+    <File md5="472D7C4DA95FC83DF11F2016759B3645" import="0">Core Files/PNM Mods DB/GLOBAL/GreatworkYieldtypes.sql</File>
+    <File md5="90694D4709EA89AF77088DF73D90DCA2" import="0">Core Files/PNM Mods DB/GLOBAL/MoveAfterUpgrade.sql</File>
+    <File md5="B8F6FD6D3E36392564DE3656EBDA9215" import="0">Core Files/PNM Mods DB/GLOBAL/PassableForts.sql</File>
+    <File md5="51373E2AA9261D7F86C5DDE69FF50B3F" import="0">Core Files/PNM Mods DB/GLOBAL/PromotionClasses.sql</File>
+    <File md5="DE47CDA0C3005F12E066E22368CA2C71" import="0">Core Files/PNM Mods DB/GLOBAL/Relocation.sql</File>
+    <File md5="7535E4E51C56BDAFAB2CAB031F6EEE62" import="0">Core Files/PNM Mods DB/GLOBAL/SeparateGreatAdmiral.sql</File>
+    <File md5="2B8176BE774DEA75B17EB3605201BA56" import="0">Core Files/PNM Mods DB/GLOBAL/StackingRules.sql</File>
+    <File md5="9639CEC999B47F444742BF4FF0616D4B" import="0">Core Files/PNM Mods DB/PROMOTIONS/CrossIce.sql</File>
+    <File md5="B3C07FB04A6A210BD9D4D55B0B2875ED" import="0">Core Files/PNM Mods DB/PROMOTIONS/CrossMountains.sql</File>
+    <File md5="9BEB60B675E932FCD4C5FE642BC412C6" import="0">Core Files/PNM Mods DB/PROMOTIONS/CrossOceans.sql</File>
+    <File md5="7E661A0B3E710151939AA35D0A941502" import="0">Core Files/PNM Mods DB/PROMOTIONS/DeepWaterEmbarkation.sql</File>
+    <File md5="15CA1250F3878B47D8E432AC69198A15" import="0">Core Files/PNM Mods DB/PROMOTIONS/DeepWater.xml</File>
+    <File md5="2CF34973FE19471DA56BE6323B2AE2DD" import="0">Core Files/PNM Mods DB/PROMOTIONS/HalfMove.sql</File>
+    <File md5="702973513B4141D021A6A449EE204A78" import="0">Core Files/PNM Mods DB/PROMOTIONS/ImprovementBonus.sql</File>
+    <File md5="148949D0AC55C112E9696F9D61E889FB" import="0">Core Files/PNM Mods DB/PROMOTIONS/UnitNaming.xml</File>
+    <File md5="7A7DB57E445F452D9039898A5D03D7E8" import="0">Core Files/PNM Mods DB/PROMOTIONS/VariableRecon.sql</File>
+    <File md5="F8F301C8C64FAD0E2A0C9C804EB26222" import="0">Core Files/PNM Mods DB/PROMOTIONS/VariableRecon.xml</File>
+    <File md5="1E15551DE1014ED349492B3DFB746E08" import="0">Core Files/PNM Mods DB/RELIGION/ConversionModifiers.sql</File>
+    <File md5="9CBE98CF52584514D0EDE1F00CC89605" import="0">Core Files/PNM Mods DB/RELIGION/LocalReligions.sql</File>
+    <File md5="13FEFAD9A05E0391F424CBFEFE96968F" import="0">Core Files/PNM Mods DB/RELIGION/PlotYields.xml</File>
+    <File md5="CB71D7982DC1E08534E0122DACD3CF8D" import="0">Core Files/PNM Mods DB/RELIGION/PolicyBranchFaithGp.xml</File>
+    <File md5="02BEA08A9576D206C1D464CE5DAE78D7" import="0">Core Files/PNM Mods DB/SMART/SQL/AISmart.sql</File>
+    <File md5="BE9E4BF3BEB2E105E53E4FF069759F3E" import="0">Core Files/PNM Mods DB/SMART/XML/AISmart.xml</File>
+    <File md5="F2B13E524B66A313721B040A874DDC7A" import="0">Core Files/PNM Mods DB/TRADE/RouteScaling.sql</File>
+    <File md5="BC01B6EEFC9B32E48AEFA59795EB2084" import="0">Core Files/PNM Mods DB/TRAITS/AnyBelief.sql</File>
+    <File md5="7CA1F2B70AA145AF9A0950A31E519A17" import="0">Core Files/PNM Mods DB/TRAITS/CrossesIce.sql</File>
+    <File md5="D60500F862DCB87C573F5B6A1388EB76" import="0">Core Files/PNM Mods DB/TRAITS/OtherPrereqs.sql</File>
+    <File md5="B3CCB02EC2837C3E5F0ABBE81E8D8CEB" import="0">Core Files/PNM Mods DB/TRAITS/TradeRouteBonuses.sql</File>
+    <File md5="F07A00D6875A33DF7C81C895030416CE" import="0">Core Files/PNM Mods DB/UI/CityExpansion.sql</File>
+    <File md5="A43003134A6B81542243CECDDD6BFEAE" import="0">Core Files/PNM Mods DB/UNITS/MaxHp.sql</File>
+    <File md5="846BDCF403D213AB85C9A6D214F4DDBA" import="0">Core Files/PNM Mods DB/UNITS/NoSupply.sql</File>
+    <File md5="11C01F8C31293E8D1FA61C43FF92BE71" import="0">Core Files/Text/CoreText_en_US.xml</File>
+    <File md5="A28F572ACA90EC3B66116BE016A72CCB" import="0">Core Files/Text/CoreText_en_US.sql</File>
+    <File md5="8C8A30E65E2E58A196E61B8FF1A06689" import="1">CvGameCore_Expansion2.dll</File>
+    <File md5="A9173FECA4709DD9F0B710A585D037EA" import="1">LUA/ActionInfoPanel.lua</File>
+    <File md5="25EBC04DA0DB8CEF4055E6C96A179AD3" import="1">LUA/AssignStartingPlots.lua</File>
+    <File md5="CB53DEA73538CBA095CEB9BE81775284" import="1">LUA/Bombardment.lua</File>
+    <File md5="E0569E14F560B3D4844257A987628251" import="1">LUA/CityBannerManager.lua</File>
+    <File md5="3377B347687C3915177BFE3C72B72F99" import="1">LUA/CityBannerManager.xml</File>
+    <File md5="ED8CCC7A358D1EDDCFE7444E11D45CAF" import="1">LUA/CityStateDiploPopup.lua</File>
+    <File md5="026B0E8A3FD78E58779D26607DB6ACE8" import="1">LUA/CityStateStatusHelper.lua</File>
+    <File md5="9D69D8D78DE0CE7DAF1251D7AA39E023" import="1">LUA/CultureOverview.lua</File>
+    <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">LUA/CultureOverview.xml</File>
+    <File md5="5C05901A93905948A7B803F6B123BB89" import="1">LUA/DeclareWarPopup.lua</File>
+    <File md5="5D74B47C8B98B0F3D4FBC7242DA26ACD" import="1">LUA/DeclareWarPopup.xml</File>
+    <File md5="11EDE3E24F81C2B9014FBCCE80802B3A" import="1">LUA/Demographics.lua</File>
+    <File md5="72B45888D08F7C24DA41B2DAF9AA3876" import="1">LUA/DiploCurrentDeals.xml</File>
+    <File md5="C022E74D35CD2DDAC9404CD6808681C6" import="1">LUA/DiploGlobalRelationships.lua</File>
+    <File md5="7E63CCE9CF67C5D04DF73CE209CC90BA" import="1">LUA/DiploList.lua</File>
+    <File md5="3A8D5BF29EE1E66CDD7516370D8CB124" import="1">LUA/DiploTrade.xml</File>
+    <File md5="303B362FCC820CA0F40907324A18748C" import="1">LUA/DiscussionDialog.lua</File>
+    <File md5="EA7AAC2ED44FC19F15A5ED5C1DAB0B5D" import="1">LUA/DiscussionDialog.xml</File>
+    <File md5="694FFB3BC06F9853E30B00D652A314A5" import="1">LUA/EspionageOverview.lua</File>
+    <File md5="F5AFCB468D395D7CE2A0B8711B4104EE" import="1">LUA/EspionageOverview.xml</File>
+    <File md5="DEBC67F2EA97D4B3536139966A9F33F4" import="1">LUA/GPList.lua</File>
+    <File md5="801D723A3CE5E55CFD89414754246B77" import="1">LUA/InfoTooltipInclude.lua</File>
+    <File md5="2A48B3C180BD360519FAD575F4063C74" import="1">LUA/LeaderHeadRoot.lua</File>
+    <File md5="A7DD1163D44270F31E5F44C1F0F564B0" import="1">LUA/LeaderHeadRoot.xml</File>
+    <File md5="A9FEDE41B8D28348DDD9FD51E905C096" import="1">LUA/NaturalWonderPopup.lua</File>
+    <File md5="9FD5CB9C8E4F391F12B2D1B210E7F84D" import="1">LUA/NotificationPanel.lua</File>
+    <File md5="B5D84641CAB1A10FB5EDC09C34F101FB" import="1">LUA/NotificationPanel.xml</File>
+    <File md5="04DB9A9676FA36944D394703DB1C9F91" import="1">LUA/ProductionPopup.lua</File>
+    <File md5="CED3819BD087B71E44A72C7850F4EEFE" import="1">LUA/PuppetCityPopup.lua</File>
+    <File md5="6AAE427BCAF6DB63D8557A0DC1F7A8C8" import="1">LUA/ReligionOverview.lua</File>
+    <File md5="371ED7897969FAD06EE1FEB311666BDC" import="1">LUA/SimpleDiploTrade.xml</File>
+    <File md5="59DFEB43562FCC4CCF53398C5F8F5544" import="1">LUA/TopPanel.lua</File>
+    <File md5="704F9E1B3F2E6CF94F11FD342524E0C4" import="1">LUA/TradeLogic.lua</File>
+    <File md5="BB747350C836F07517202090558A4CD3" import="1">LUA/TradeRouteHelpers.lua</File>
+    <File md5="5A87219957975A85A1D3CEDA1D98A835" import="1">LUA/YieldIconManager.lua</File>
+    <File md5="8FD4EF5AAB5BD6E16DB8EBE95963FC33" import="1">LUA/YieldIconManager.xml</File>
+    <File md5="7E56A710EFF67D83EB0307013F9AFB7B" import="0">Mapscripts/Communitas.lua</File>
+    <File md5="266B335F3E71C8565B8F6EDE4AFDDB5C" import="0">Modules/Events/CoreEvents.sql</File>
+    <File md5="5FAAEA39F7DDD2550F3AC43B5B72BA0C" import="0">Modules/Events/Text/en_US/City_en_US.xml</File>
+    <File md5="388EAADDB1A54AF680A0C75B7EDC848F" import="0">Modules/Events/Text/en_US/EventCore_en_US.xml</File>
+    <File md5="3AFF84A0EAD81C05FC6612853F4440B9" import="0">Modules/Events/Text/en_US/Player_en_US.xml</File>
+  </Files>
+  <Actions>
+    <OnGetDLLPath>
+      <SetDllPath>CvGameCore_Expansion2.dll</SetDllPath>
+    </OnGetDLLPath>
+    <OnModActivated>
+      <UpdateDatabase>Core Files/Core Tables/CommunityOptionsTable.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/CustomModTables.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Tables/CustomModOptions.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/CommunityPatchDLLChanges.xml</UpdateDatabase>
+      <UpdateDatabase>CommunityOptions.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/UnifiedYields.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Tables/CoreTableAdditions.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Tables/CoreTableEntries.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/CoreDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/CoreChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/CoreValues.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/CoreChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/NewText.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/ExtraSpyTable.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/Achievements.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/Espionage.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/Extensions.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/PlotBasedDamage.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/PlotYields.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/Religion.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/UnifiedYields.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/UnifiedYieldsGoldenAge.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/UnifiedYieldsTourism.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/FeatureRemoval.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/GoodyHutMessages.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/SpyNames.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/UnitclassNotUnit.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/UnitclassNotUnit.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/CONFIG/AiInXml.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/CONFIG/GameInXml.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/DIPLO/AIWarmongerAdjustments.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/EVENTS/CanMoveInto.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/EVENTS/CityBombard.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/EVENTS/DiploModifiers.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/EVENTS/BattleRoles.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/AlpinePasses.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/CannotEmbark.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/CityWorking.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/ExcludeFromGifts.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/GreatworkYieldtypes.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/MoveAfterUpgrade.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/PassableForts.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/PromotionClasses.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/SeparateGreatAdmiral.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/StackingRules.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/GLOBAL/Relocation.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/CrossIce.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/CrossMountains.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/CrossOceans.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/DeepWaterEmbarkation.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/HalfMove.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/ImprovementBonus.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/UnitNaming.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/VariableRecon.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/VariableRecon.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/RELIGION/ConversionModifiers.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/RELIGION/LocalReligions.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/RELIGION/PlotYields.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/RELIGION/PolicyBranchFaithGp.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/SMART/XML/AISmart.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/SMART/SQL/AISmart.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/TRADE/RouteScaling.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/TRAITS/AnyBelief.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/TRAITS/CrossesIce.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/TRAITS/TradeRouteBonuses.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/TRAITS/OtherPrereqs.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/UI/CityExpansion.sql</UpdateDatabase>
+      <UpdateUserData>Core Files/PNM Mods DB/UNITS/NoSupply.sql</UpdateUserData>
+      <UpdateDatabase>Core Files/PNM Mods DB/UNITS/MaxHp.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/EraSpecificArtists.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/EraSpecificMusicians.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/EraSpecificWriters.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/NewArtists.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/NewWriters.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/TextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/TerrainFixes.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/Automates.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/WorldChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/SaneTerrain.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/MinorCivQuestRewards.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/DummyTrigger.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Text/CoreText_en_US.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Text/CoreText_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/DeepWater.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/UnitFixes.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Tables/EventAudio.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Tables/GameEventsTable.xml</UpdateDatabase>
+      <UpdateDatabase>Modules/Events/Text/en_US/City_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Modules/Events/Text/en_US/EventCore_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Modules/Events/Text/en_US/Player_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/New_CIV5AICityStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/New_CIV5AIMilitaryStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/New_CIV5MultiUnitFormations.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/New_GlobalAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Modules/Events/CoreEvents.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Tables/JFDContracts.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/CargoShipMod.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Tables/CoreTableAdditions1HH.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Tables/CoreTableAdditions2HH.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="MapScript" file="Mapscripts/Communitas.lua">
+      <Name>Communitas</Name>
+      <Description>Communitas</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core Files/CoreLua/EventChoicePopup.lua">
+      <Name>EventChoice</Name>
+      <Description>EventChoice</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core Files/CoreLua/EventPopup.lua">
+      <Name>Event</Name>
+      <Description>Event</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core Files/CoreLua/EventChoicePopupCity.lua">
+      <Name>CityEvent</Name>
+      <Description>CityEvent</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core Files/CoreLua/CityEventPopup.lua">
+      <Name>CityEventPopup</Name>
+      <Description>CityEventPopup</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core Files/CoreLua/EventOverview.xml">
+      <Name>EventOverview.lua</Name>
+      <Description>EventOverview.lua</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

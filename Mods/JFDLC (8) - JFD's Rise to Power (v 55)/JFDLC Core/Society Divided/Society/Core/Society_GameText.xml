@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/18/2013 1:17:48 PM -->
+<GameData>
+	<Language_en_US>
+		<!--POLICY BRANCHES-->
+		<!--COMMONERS-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_COMMONERS">
+			<Text>Commoners</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_COMMONERS_HELP">
+			<Text>[COLOR_MAGENTA]Commoners[ENDCOLOR] support your rural interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +1 [ICON_CULTURE] Culture on Granaries and Watermills, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Granaries and Watermills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLICY_JFD_COMMONERS_TEXT">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COMMONERS_TITLE">
+			<Text>{1_PlayerName:textkey} the Commoner of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COMMONERS_SHORT_TITLE">
+			<Text>the Commoner</Text>
+		</Row>
+		<!--Assemblies-->
+		<Row Tag="TXT_KEY_POLICY_JFD_ASSEMBLIES">
+			<Text>Assemblies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_ASSEMBLIES_HELP">
+			<Text>[COLOR_MAGENTA]Assemblies[ENDCOLOR][NEWLINE]------------------[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness for each City you own [ICON_CONNECTED] connected to the [ICON_CAPITAL] Capital and -20% [ICON_HAPPINESS_4] Unhappiness from number of Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLICY_JFD_ASSEMBLIES_TEXT">
+			<Text></Text>
+		</Row>
+		<!--Civic Society-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CIVIC_SOCIETY">
+			<Text>Civic Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CIVIC_SOCIETY_HELP">
+			<Text>[COLOR_MAGENTA]Citizenship[ENDCOLOR][NEWLINE]------------------[NEWLINE]Speeds the training of Civilian Units in all cities by 20% and cities you found will increase the [ICON_CULTURE] Culture cost of policies by 33% less than normal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLICY_JFD_CIVIC_SOCIETY_TEXT">
+			<Text></Text>
+		</Row>
+		<!--Communalism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_COMMUNALISM">
+			<Text>Communalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_COMMUNALISM_HELP">
+			<Text>[COLOR_MAGENTA]Communalism[ENDCOLOR][NEWLINE]------------------[NEWLINE]Towns and Villages upgrade 20% faster and yield +1 [ICON_JFD_DEVELOPMENT] Development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLICY_JFD_COMMUNALISM_TEXT">
+			<Text></Text>
+		</Row>
+		<!--NOBILITY-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_NOBILITY">
+			<Text>Nobility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_NOBILITY_HELP">
+			<Text>[COLOR_MAGENTA]Nobility[ENDCOLOR] support your  interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +1 [ICON_CULTURE] Culture on Walls and Castles, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Walls and Castles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOBILITY_TITLE">
+			<Text>{1_PlayerName:textkey} the Noble of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOBILITY_SHORT_TITLE">
+			<Text>the Noble</Text>
+		</Row>
+		<!--SOLDIERS-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_SOLDIERS">
+			<Text>Soldiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_SOLDIERS_HELP">
+			<Text>[COLOR_MAGENTA]Soldiers[ENDCOLOR] support your military interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +1 [ICON_CULTURE] Culture on Barracks and Armories, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Barracks and Armories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOLDIERS_TITLE">
+			<Text>{1_PlayerName:textkey} the Soldier of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOLDIERS_SHORT_TITLE">
+			<Text>the Soldier</Text>
+		</Row>
+		<!--PRIESTHOOD-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_PRIESTHOOD">
+			<Text>Priesthood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_PRIESTHOOD_HELP">
+			<Text>[COLOR_MAGENTA]Priesthood[ENDCOLOR] supports your religious interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +1 [ICON_CULTURE] Culture on Temples and Monasteries, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Temples and Monasteries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRIESTHOOD_TITLE">
+			<Text>{1_PlayerName:textkey} the Priest of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PRIESTHOOD_SHORT_TITLE">
+			<Text>the Priest</Text>
+		</Row>
+		<!--MERCHANTS-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_MERCHANTS">
+			<Text>Merchants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_MERCHANTS_HELP">
+			<Text>[COLOR_MAGENTA]Merchants[ENDCOLOR] support your commercial interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +1 [ICON_CULTURE] Culture on Markets and Banks, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Markets and Banks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MERCHANTS_TITLE">
+			<Text>{1_PlayerName:textkey} the Merchant of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_MERCHANTS_SHORT_TITLE">
+			<Text>the Merchant</Text>
+		</Row>
+		<!--ARTISTS-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_ARTIST">
+			<Text>Artists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_ARTIST_HELP">
+			<Text>[COLOR_MAGENTA]Artists[ENDCOLOR] support your industrial interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +1 [ICON_CULTURE] Culture on Granaries and Watermills, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Granaries and Watermills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ARTIST_TITLE">
+			<Text>{1_PlayerName:textkey} the Artist of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ARTIST_SHORT_TITLE">
+			<Text>the Artist</Text>
+		</Row>
+		<!--BUREAUCRATS-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_BUREAUCRATS">
+			<Text>Bureaucrats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_BUREAUCRATS_HELP">
+			<Text>[COLOR_MAGENTA]Bureaucrats[ENDCOLOR] support your foreign interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +1 [ICON_CULTURE] Culture on Courthouses and Constabularies, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Courthouses and Constabularies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_BUREAUCRATS_HELP_CLAIMS">
+			<Text>[COLOR_MAGENTA]Bureaucrats[ENDCOLOR] support your foreign interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +1 [ICON_CULTURE] Culture on Chanceries and High Courts, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Chanceries and High Courts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUREAUCRATS_TITLE">
+			<Text>{1_PlayerName:textkey} the Bureaucrat of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BUREAUCRATS_SHORT_TITLE">
+			<Text>the Bureaucrat</Text>
+		</Row>
+		<!--ADMIRALTY-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_ADMIRALTY">
+			<Text>Admiralty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_ADMIRALTY_HELP">
+			<Text>[COLOR_MAGENTA]Admiralty[ENDCOLOR] support your maritime interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +2 [ICON_CULTURE] Culture on Harbours and Seaports, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Harbours and Seaports.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ADMIRALTY_TITLE">
+			<Text>{1_PlayerName:textkey} the Admiral of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_ADMIRALTY_SHORT_TITLE">
+			<Text>the Admiral</Text>
+		</Row>
+		<!--SCHOLARS-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_SCHOLARS">
+			<Text>Scholars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_SCHOLARS_HELP">
+			<Text>[COLOR_MAGENTA]Scholars[ENDCOLOR] support your academic interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +2 [ICON_CULTURE] Culture on Universities and Public Schools, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Universities and Public Schools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_SCHOLARS_HELP_EE">
+			<Text>[COLOR_MAGENTA]Scholars[ENDCOLOR] support your academic interests.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Beginning[ENDCOLOR] this tree grants +2 [ICON_CULTURE] Culture on Universities and Research Institutes, and increases the construction of these Buildings by 20%.[NEWLINE]------------------[NEWLINE][COLOR_POSITIVE_TEXT]Finishing[ENDCOLOR] this tree grants +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment on Universities and Research Institutes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SCHOLARS_TITLE">
+			<Text>{1_PlayerName:textkey} the Scholar of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SCHOLARS_SHORT_TITLE">
+			<Text>the Scholar</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

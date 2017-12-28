@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CONCEPTS-->
+		<Row Tag="TXT_KEY_JFD_IDEALS_HEADING1_TITLE">
+			<Text>Ideals: Introduction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IDEALS_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Ideals[ENDCOLOR] are unique Social Policies specific to your Culture. They often require certain, time-sensitive conditions to be met before they can be unlocked. These Policies still require Culture to be adopted.</Text>
+		</Row>
+		<!--IDEALS-->
+		<!--ABORIGIONAL-->
+		<!--Bora Ceremonies-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_DESC_1">
+			<Text>Bora Ceremonies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Bora Ceremonies[ENDCOLOR][NEWLINE]------------------[NEWLINE]Gain +10 [ICON_CULTURE] Culture when a new Tile is acquired via [ICON_CULTURE] Culture. This scales with Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 10 [ICON_CULTURE] Culture Per Turn by the end of the Ancient Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_TEXT_1">
+			<Text>Bora is an initiation ceremony of the Aboriginal and Torres Strait Islander people of Australia. The word "bora" also refers to the site on which the initiation is performed. At such a site, boys achieve the status of men. The ceremony, and the process leading up to it, involves the learning of traditional sacred songs, stories, dances, and traditional lore. Many different clans will assemble to participate in an initiation ceremony.</Text>
+		</Row>
+		<!--Songline-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_DESC_2">
+			<Text>Songline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Songline[ENDCOLOR][NEWLINE]------------------[NEWLINE]Atolls, Oases, and Natural Wonders each yield +2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must control at least 1 Natural Wonder by the end of the Medieval Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_TEXT_2">
+			<Text>Within the animist belief system of Indigenous Australians, a songline, also called dreaming track, is one of the paths across the land (or sometimes the sky) which mark the route followed by localised 'creator-beings' during the Dreaming. The paths of the songlines are recorded in traditional songs, stories, dance, and painting.</Text>
+		</Row>
+		<!--Walkabout-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_DESC_3">
+			<Text>Walkabout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Walkabout[ENDCOLOR][NEWLINE]------------------[NEWLINE]Melee and Ranged Units receive the Survivalism I and II promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 2 Recon Units with the Survivalism II promotion by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ABORIGINAL_TEXT_3">
+			<Text>Walkabout historically refers to a rite of passage during which Indigenous male Australians would undergo a journey during adolescence, typically ages 10 to 16, and live in the wilderness for a period as long as six months to make the spiritual and traditional transition into manhood. Walkabout has come to be referred to as "temporal mobility" because its original name has been used as a derogatory term in Australian culture, demeaning its spiritual significance.</Text>
+		</Row>
+		<!--ANDEAN-->
+		<!--City of Gold-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_DESC_1">
+			<Text>City of Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]City of Gold[ENDCOLOR][NEWLINE]------------------[NEWLINE]Mints increase the [ICON_GOLD] Gold output of the Palace by +1 each.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must control at least 5 sources of any of [ICON_RES_COPPER] Copper, [ICON_RES_GOLD] Gold, or [ICON_RES_SILVER] Silver, or otherwise El Dorado by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_TEXT_1">
+			<Text>El Dorado, the City of Gold, was the term used by the Spanish Empire to describe a mythical tribal chief of the Muisca native people of Colombia, who, as an initiation rite, covered himself with gold dust and submerged in Lake Guatavita. The legends surrounding El Dorado changed over time, as it went from being a man, to a city, to a kingdom, and then finally an empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ANDEAN_IDEAL_1_DESC">
+			<Text>JFD: Andean Ideal (1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ANDEAN_IDEAL_1_HELP">
+			<Text>+1 [ICON_GOLD] Gold on the Palace.</Text>
+		</Row>
+		<!--Royal Roads-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_DESC_2">
+			<Text>Royal Roads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Royal Roads[ENDCOLOR][NEWLINE]------------------[NEWLINE]Palace yields +10 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 4 cities on a Hill or Mountain that are [ICON_CONNECTED] Connected via road to the Capital by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_TEXT_2">
+			<Text>The Inca road system was the most extensive and advanced transportation system in pre-Columbian South America. It was about 39,900 kilometres (24,800 mi) long. The construction of the roads required a large expenditure of time and effort, and the quality of that construction is borne out by the fact that it is still in quite good condition after over 400 years of use.</Text>
+		</Row>
+		<!--Sacred Apus-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_DESC_3">
+			<Text>Sacred Apus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Sacred Apus[ENDCOLOR][NEWLINE]------------------[NEWLINE]Shrines built in cities on a Hill or Mountain yield +2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 4 Shrines in cities on a Hill or Mountain by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ANDEAN_TEXT_3">
+			<Text>In the religion and mythology of Peru, Ecuador, and Bolivia, apus are the spirits of the mountains - and sometimes solitary rocks and caves, that protect the local people in the highlands. The term dates back to the Inca Empire, which observed 12 sacred apus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ANDEAN_IDEAL_3_DESC">
+			<Text>JFD: Andean Ideal (2)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ANDEAN_IDEAL_3_HELP">
+			<Text>+1 [ICON_PEACE] Faith on Shrines.</Text>
+		</Row>
+		<!--BANTU-->
+		<!--Fetish Idols-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_DESC_1">
+			<Text>Fetish Idols</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Fetish Idols[ENDCOLOR][NEWLINE]------------------[NEWLINE]Cities with a majority religion also get the Pantheon belief bonus of the second most popular religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have the highest [ICON_PEACE] Faith output and at least +5 [ICON_PEACE] Faith Per Turn by the end of the Ancient Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN] Per Turn. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN] Per Turn.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_TEXT_1">
+			<Text>Nkisi or Nkishi are spirits, or an object that a spirit inhabits. It is frequently applied to a variety of objects used throughout the Congo Basin in Central Africa that are believed to contain spiritual powers or spirits. The term and its concept have passed with the Atlantic slave trade to the Americas.</Text>
+		</Row>
+		<!--Hide Shields-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_DESC_2">
+			<Text>Hide Shields</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Hide Shields[ENDCOLOR][NEWLINE]------------------[NEWLINE]Melee Units have +10% [ICON_STRENGTH] Combat Strength when within 2 tiles of a Pasture and Pastures each yield +2 [ICON_GREAT_GENERAL] Great General Points and +1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 6 Pastures worked by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_TEXT_2">
+			<Text>A Nguni shield is a traditional, pointed oval-shaped, ox or cowhide shield which is used by various ethnic groups among the Nguni people of southern Africa. Recently it is used by diviners or for ceremonial and symbolic purposes, and many are produced for the tourist market. A cow-hide shield is known as isihlangu, ihawu or ingubha in Zulu, and ikhaka or ikhawu in Xhosa. Strictly speaking these native names denote shields of different application, and additional types are known by other names. War shields were traditionally stockpiled by a chief or king, to whom they belonged, while a smaller shield was reserved for his subordinates' personal daily use, or as a complement at their dancing ceremonies. True Nguni shields are made of raw cattle hide, as the esteemed Sanga-Nguni cattle lend distinction to the shields, which are more than mere commodities for physical protection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BANTU_2">
+			<Text>Hide Shields</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BANTU_2_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength bonus if within 2 tiles of a Pasture.</Text>
+		</Row>
+		<!--Houses of Stone-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_DESC_3">
+			<Text>Houses of Stone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Houses of Stone[ENDCOLOR][NEWLINE]------------------[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness and +3 [ICON_STRENGTH] Defense from Ancient, Classical, and Medieval Wonders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 3 Stone Works by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BANTU_TEXT_3">
+			<Text>The name "Zimbabwe" is based on a Shona term for Great Zimbabwe, an ancient ruined city in the country's south-east whose remains are now a protected site. There are two theories on the origin of the word. Many sources hold that the word is derived from dzimba-dza-mabwe, translated from the Karanga dialect of Shona as "large houses of stone" (dzimba = plural of imba, "house"; mabwe = plural of bwe, "stone").</Text>
+		</Row>
+		<!--BHARATA-->
+		<!--Four Varnas-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_DESC_1">
+			<Text>Four Varnas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Four Varnas[ENDCOLOR][NEWLINE]------------------[NEWLINE]All Specialists yield +1 of their base Yield and produce no [ICON_JFD_CRIME_BLACK] Crime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have 1 Monk, 1 Merchant, 1 Engineer, and 1 Scientist worked in each city by the end of the Renaissance Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_TEXT_1">
+			<Text>Varna is a Sanskrit word which means type, order, or class. The term refers to social classes in Brahminical books like the Manusmriti. These and other Hindu literature classified the society in principle into four varnas: the Brahmins, the Kshatriyas, the Vaishyas, and the Shrudras.</Text>
+		</Row>
+		<!--Gunpowder Empire-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_DESC_2">
+			<Text>Gunpowder Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Gunpowder Empire[ENDCOLOR][NEWLINE]------------------[NEWLINE]Gun and Siege Units earn +15% more XP from combat and increase [ICON_JFD_BLUE_FIST] Loyalty by 10% when garrisoned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have researched Chemistry and have the most Siege Units by the end of the Industrial Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_TEXT_2">
+			<Text>The Gunpowder Empires is a term used to describe the Ottoman, Safavid and Mughal empires. Each of these three empires had considerable military success using the newly developed firearms, especially cannon and small arms, in the course of their empires, but unlike Europe for example, the introduction of the gunpowder weapons prompted changes well beyond simply army organization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BHARATA_2">
+			<Text>Gunpowder Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BHARATA_2_HELP">
+			<Text>Earns 15% more XP from Combat. When garrisoned, increases [ICON_JFD_LOYALTY] Loyalty by 10%.</Text>
+		</Row>
+		<!--Sacred Languages-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_DESC_3">
+			<Text>Sacred Languages</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Sacred Languages[ENDCOLOR][NEWLINE]------------------[NEWLINE]+100% Religious Pressure in owned cities without your Religion and your Religion spreads to them from 50% further away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have researched Writing and have at least 15 [ICON_PEACE] Faith Per Turn by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_BHARATA_TEXT_3">
+			<Text>A sacred language is a language that is cultivated for religious reasons by people who speak another language in their daily life. Hinduism is traditionally considered to have two sacred languages, Sanskrit and Tamil. Sanskrit is the language of the Vedas, Bhagavadgita, Puranas like Bhagavatam, and the Upanishads, and various other liturgical texts such as the Sahasranama, Chamakam and Rudram. It is also the tongue of most Hindu rituals.</Text>
+		</Row>
+		<!--CENTRAL-->
+		<!--Feudal Duties-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_DESC_1">
+			<Text>Feudal Duties</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Feudal Duties[ENDCOLOR][NEWLINE]------------------[NEWLINE]Castles yield +2 [ICON_GREAT_GENERAL] Great General Points and +15 XP for newly trained Land Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have Castles in all cities and at least 1 [ICON_JFD_DUCHY] State-level Province by the end of the Medieval Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_TEXT_1">
+			<Text>Feudal duties were the set of reciprocal financial, military and legal obligations among the warrior nobility in a feudal system. These duties developed in both Europe and Japan with the decentralisation of empire and due to lack of monetary liquidity, as groups of warriors took over the social, political, judicial, and economic spheres of the territory they controlled. While many feudal duties were based upon control of a parcel of land and its productive resources, even landless knights owed feudal duties such as direct military service in their lord's behest. Feudal duties were not uniform over time or across political boundaries. And in their later development also included duties from and to the peasant population, such as abergement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CENTRAL_CASTLE_HELP">
+			<Text>[NEWLINE][NEWLINE]+15 XP for all Land Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CENTRAL_IDEAL_1_DESC">
+			<Text>JFD: Central Ideal (1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CENTRAL_IDEAL_1_HELP">
+			<Text>+15 XP for all Land Units.</Text>
+		</Row>
+		<!--Marriage Politics-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_DESC_2">
+			<Text>Marriage Politics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Marriage Politics[ENDCOLOR][NEWLINE]------------------[NEWLINE]Dignitary and Magistrate Specialists each yield +2 [ICON_GOLD] Gold and Gifts of Gold yield +20% more [ICON_INFLUENCE] Influence with City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have 4 of of any of Dignitary or Magistrate Specialists working by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_TEXT_2">
+			<Text>The marriage policy of the Habsburgs describes the practice and tradition of this aristocracy, since the end of the Middle Ages it has been possible to extend the sphere of domination by marriages, which goes beyond the general meaning of dynastic policy in the pre-modern period, and under the slogan "Bella gerant alii, Tu felix Austria nube" became the Habsburg motto.</Text>
+		</Row>
+		<!--Orders of Merit-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_DESC_3">
+			<Text>Orders of Merit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Orders of Merit[ENDCOLOR][NEWLINE]------------------[NEWLINE]+25 [ICON_CULTURE] Culture when a unit is promoted. This scales with Level.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 4 Level 5 Units by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_HELP_3_REQ_EE">
+			<Text>[COLOR_CYAN]Must have at least 4 Level 5 Units by the end of the Enlightenment Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CENTRAL_TEXT_3">
+			<Text>The Pour le Mérite is an order of merit established in 1740 by King Frederick II of Prussia. The Pour le Mérite was awarded as both a military and civil honour and ranked, along with the Order of the Black Eagle, the Order of the Red Eagle and the House Order of Hohenzollern, among the highest orders of merit in the Kingdom of Prussia.</Text>
+		</Row>
+		<!--CLASSICAL-->
+		<!--Res Publica-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_DESC_1">
+			<Text>Res Publica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Res Publica[ENDCOLOR][NEWLINE]------------------[NEWLINE]Ancient and Classical Era National Wonders yield +1 [ICON_HAPPINESS_1] Happiness and an extra +0.4 [ICON_JFD_DEVELOPMENT] Development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 7 National Wonders by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_TEXT_1">
+			<Text>Res Publica is a latin phrase meaning "public affair.' Res Publica usually means someone held in common by many people. Taking everything together that is of public interest leads to the connotation that the ‘res publica’ in general equals 'the state.'</Text>
+		</Row>
+		<!--Socratic Method-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_DESC_2">
+			<Text>Socratic Method</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Socratic Method[ENDCOLOR][NEWLINE]------------------[NEWLINE]Gain [ICON_CULTURE], [ICON_GOLDEN_AGE], [ICON_PEACE], and [ICON_RESEARCH] whenever you expend a [ICON_GREAT_PEOPLE] Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have the highest [ICON_RESEARCH] Science output and at least 25 [ICON_RESEARCH] Science Per Turn by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN] Per Turn. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN] Per Turn.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_TEXT_2">
+			<Text>The Socratic method is a form of cooperative argumentative dialogue between individuals, based on asking and answering questions to stimulate critical thinking and to draw out ideas and underlying presumptions. This method is named after the classical Greek philosopher Socrates, and is introduced by him in Plato's Theaetetus.</Text>
+		</Row>
+		<!--Valeria Victrix-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_DESC_3">
+			<Text>Valeria Victrix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Valeria Victrix[ENDCOLOR][NEWLINE]------------------[NEWLINE]Great General [ICON_STRENGTH] Combat Bonus increased by 15%, and double Citadel tile-acquisition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have the most Great Generals and at least 2 by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_CLASSICAL_TEXT_3">
+			<Text>In Rome, pride was based in the soldier's unit, to which was attached a military standard - in the case of the legions a legionary eagle. Successful units were awarded with accolades that became a part of their official name, such as the 20th legion, which became the XX Valeria Victrix (the "Valiant and Victorious 20th").</Text>
+		</Row>
+		<!--COLONIAL-->
+		<!--American Dream
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_DESC_1">
+			<Text>American Dream</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]American Dream[ENDCOLOR][NEWLINE]------------------[NEWLINE]Melee Units have +10% [ICON_STRENGTH] Combat Strength when within 2 tiles of a Pasture and Pastures yield +1 [ICON_PRODUCTION] Production and +2 [ICON_GREAT_GENERAL] Great General Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 6 Pastures worked by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_TEXT_1">
+			<Text>The American Dream is a national ethos of the United States, the set of ideals (democracy, rights, liberty, opportunity, and equality) in which freedom includes the opportunity for prosperity and success, and an upward social mobility for the family and children, achieved through hard work in a society with few barriers. In the definition of the American Dream by James Truslow Adams in 1931, "life should be better and richer and fuller for everyone, with opportunity for each according to ability or achievement" regardless of social class or circumstances of birth.</Text>
+		</Row>-->
+		<!--Constitutionalism-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_DESC_2">
+			<Text>Constitutionalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Constitutionalism[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_CULTURE] Social Policies are 10% cheaper and +1 [ICON_HAPPINESS_1] Happiness for every 5 Policies adopted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have passed the [ICON_JFD_REFORM] "Codified (Constitution)" Reform and opened at least 4 Social Policy Branches by the end of the Industrial Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_TEXT_2">
+			<Text>Constitutionalism is "a complex of ideas, attitudes, and patterns of behavior elaborating the principle that the authority of government derives from and is limited by a body of fundamental law". Political organizations are constitutional to the extent that they "contain institutionalized mechanisms of power control for the protection of the interests and liberties of the citizenry, including those that may be in the minority".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COLONIAL_IDEAL_2_DESC">
+			<Text>JFD: Colonial Ideal (1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COLONIAL_IDEAL_2_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness for every 5 Policies adopted.</Text>
+		</Row>
+		<!--Patria Grande-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_DESC_3">
+			<Text>Patria Grande</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Patria Grande[ENDCOLOR][NEWLINE]------------------[NEWLINE]Artist, Musician, and Writer Specialists yield +1 [ICON_CULTURE] Culture, +1 [ICON_JFD_WLTKD] 'WLTKD' Sentiment, and +2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have the highest [ICON_CULTURE] Culture Per Turn and at least 50 by the end of the Modern Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_COLONIAL_TEXT_3">
+			<Text>The Patria Grande is the concept of a shared homeland or community encompassing all of Spanish America, and sometimes all of Latin America and the Caribbean. The term is associated with political ideas of Hispanic American integration, rejecting the balkanization of the Spanish Empire in the Americas that followed the Spanish American wars of independence. The term may be also used to talk specifically about projects of Hispanic American unity held by Simón Bolívar and José de San Martín.</Text>
+		</Row>
+		<!--EAST_INDIES-->
+		<!--Kedatuan Polities-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_DESC_1">
+			<Text>Kedatuan Polities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Kedatuan Polities[ENDCOLOR][NEWLINE]------------------[NEWLINE]Units trained in the [ICON_CAPITAL] Capital begin with +20 XP and +1 [ICON_MOVES] Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 3 [ICON_JFD_COUNTY] County-level Provinces by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_TEXT_1">
+			<Text>Kedatuan were historical semi-independent city-states or principalities throughout ancient Maritime Southeast Asia in present-day Indonesia, Malaysia, and parts of the Philippines. In a modern Malay and Indonesian sense, they could be described as kingdoms or polities. The earliest written record mentioning the term kadatuan was the 7th-century Srivijayan Telaga Batu inscription.</Text>
+		</Row>
+		<!--Masked Dances-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_DESC_2">
+			<Text>Masked Dances</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Masked Dances[ENDCOLOR][NEWLINE]------------------[NEWLINE]Cities celebrating [ICON_JFD_WLTKD] 'We Love the King Day' yield +10% [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 3 Amphitheaters by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_TEXT_2">
+			<Text>Topeng is a dramatic form of Indonesian dance in which one or more mask-wearing, ornately-costumed performers interpret traditional narratives concerning fabled kings, heroes and myths, accompanied by gamelan music. Indonesian masked dance predates Hindu-Buddhist influences. Native Indonesian tribes still perform traditional masked-dances to represent nature, as the Hudoq dance of the Dayak people of Kalimantan, or to represent ancestor spirits.</Text>
+		</Row>
+		<!--Spice Trade-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_DESC_3">
+			<Text>Spice Trade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Spice Trade[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_PRODUCTION] Build Cargo Ships +50% faster and all [ICON_SWAP] Sea Trade Routes have +50% range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must control at least 4 sources of any of [ICON_RES_SPICES] Spices, [ICON_RES_JFD_GINGER] Ginger, [ICON_RES_CLOVES] Cloves, [ICON_RES_NUTMEG] Nutmeg, or [ICON_RES_PEPPER] Pepper by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EAST_INDIES_TEXT_3">
+			<Text>The Spice Islands typically refers to the Molucca Archipelago in the modern Indonesian provinces of Maluku and North Maluku. The name was due to the nutmeg, mace and cloves that were originally exclusively found there, and the presence of these sparked colonial interest from Europe in the 16th century.</Text>
+		</Row>
+		<!--EASTERN-->
+		<!--Imperial Frontiers-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_DESC_1">
+			<Text>Imperial Frontiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Imperial Frontiers[ENDCOLOR][NEWLINE]------------------[NEWLINE]Cities can work an additional ring of tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have the highest number of Tiles and at least 50 by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_HELP_1_REQ_EE">
+			<Text>[COLOR_CYAN]Must have the highest number of Tiles and at least 50 by the end of the Enlightenment Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_TEXT_1">
+			<Text>The expansion of Russia to the north, south (Wild Fields) and east (Siberia, the Russian Far East and Russian Alaska) exploited ever-changing frontier regions over several centuries and often involved the development and settlement of Cossack communities.</Text>
+		</Row>
+		<!--Orthodoxy-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_DESC_2">
+			<Text>Orthodoxy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Orthodoxy[ENDCOLOR][NEWLINE]------------------[NEWLINE]Cities following your majority religion yield +2 [ICON_PEACE] Faith and Religious Citizens contribute 25% more [ICON_JFD_BLUE_FIST] Loyalty Sentiment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have all cities following your State Religion and at least 4 by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_TEXT_2">
+			<Text>Orthodoxy is adherence to correct or accepted creeds, especially in religion. In the Christian sense the term means "conforming to the Christian faith as represented in the creeds of the early Church". The first seven Ecumenical Councils were held between the years of 325 and 787 with the aim of formalizing accepted doctrines.</Text>
+		</Row>
+		<!--Tsarism-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_DESC_3">
+			<Text>Tsarism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Tsarism[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_JFD_REFORM] Government and Foreign Reforms require no [ICON_JFD_SOVEREIGNTY] Sovereignty to pass.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have [ICON_JFD_SOVEREIGNTY] Max Sovereignty by the end of the Industrial Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_HELP_3_REQ_EE">
+			<Text>[COLOR_CYAN]Must have [ICON_JFD_SOVEREIGNTY] Max Sovereignty by the end of the Enlightenment Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_EASTERN_TEXT_3">
+			<Text>Tsarist autocracy refers to a form of autocracy (later absolute monarchy) specific to the Grand Duchy of Moscow, which later became Tsardom of Russia and the Russian Empire. In it, all power and wealth is controlled (and distributed) by the tsar. They had more power than constitutional monarchs, who are usually rested by law and counterbalanced by a legislative authority; they even had more authority on religious issues compared to Western monarchs. In Russia, it originated during the time of Ivan III (1440−1505), and was abolished after the Russian Revolution of 1917.</Text>
+		</Row>
+		<!--GREAT_PLAINS-->
+		<!--Hide Painters-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_DESC_1">
+			<Text>Hide Painters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Hide Painters[ENDCOLOR][NEWLINE]------------------[NEWLINE]Camp-based Resources yield +2 [ICON_CULTURE] Culture and +1 [ICON_JFD_DEVELOPMENT] Development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 5 of any of [ICON_RES_BISON] Bison, [ICON_RES_DEER] Deer, [ICON_RES_FUR] Furs, [ICON_RES_IVORY] Ivory, or [ICON_RES_TRUFFLES] Truffles by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_TEXT_1">
+			<Text>Plains hide painting is a traditional Plains Indian artistic practice of painting on either tanned or raw animal hides. Tipis, tipi liners, shields, parfleches, robes, clothing, drums, and winter counts could all be painted.</Text>
+		</Row>
+		<!--Plains Riders-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_DESC_2">
+			<Text>Plains Riders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Plains Riders[ENDCOLOR][NEWLINE]------------------[NEWLINE]All Units have doubled [ICON_MOVES] Movement in Grassland and Plains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 12 sources of [ICON_RES_HORSE] Horses by the end of the Industrial Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_TEXT_2">
+			<Text>It was the Comanche who first realized the potential of the horse. As pure nomads, hunters, and pastoralists, well supplied with horses, they swept most of the mixed-economy Apaches from the plains and by the 1730s were dominant in the Great Plains south of the Arkansas River. The success of the Comanche encouraged other Indian tribes to adopt a similar lifestyle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_PLAINS_1">
+			<Text>Plains Riders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_PLAINS_1_HELP">
+			<Text>Double [ICON_MOVES] Movement in Grassland and Plains.</Text>
+		</Row>
+		<!--Sun Dances-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_DESC_3">
+			<Text>Sun Dances</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Sun Dances[ENDCOLOR][NEWLINE]------------------[NEWLINE]Cities celebrating [ICON_JFD_WLTKD] 'We Love the King Day' yield +15% [ICON_JFD_HEALTH] Health.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have a Pantheon and at least 2 cities on Plains Tiles by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_GREAT_PLAINS_TEXT_3">
+			<Text>The Sun Dance is a ceremony practiced by some indigenous people of United States of America and Canada, primarily those of the Plains cultures. It usually involves the community gathering together to pray for healing. Individuals make personal sacrifices on behalf of the community.</Text>
+		</Row>
+		<!--HIMALAYAN-->
+		<!--Charnel Grounds-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_DESC_1">
+			<Text>Charnel Grounds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Charnel Grounds[ENDCOLOR][NEWLINE]------------------[NEWLINE]Mountains yield +4 [ICON_GOLDEN_AGE] Golden Age Points and +2 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must control a Holy City with a Mountain by the end of the Medieval Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_TEXT_1">
+			<Text>A charnel ground is an above-ground site for the putrefaction of bodies, generally human, where formerly living tissue is left to decompose uncovered. In a religious sense, it is also a very important location for sadhana and ritual activity for Indo-Tibetan traditions of Dharma.</Text>
+		</Row>
+		<!--Tantric Medicine-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_DESC_2">
+			<Text>Tantric Medicine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Tantric Medicine[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_GREAT_WORK] Great Works of Art, Music, and Writing yield +1 [ICON_RESEARCH] Science and +1 [ICON_JFD_HEALTH] Health.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 4 [ICON_GREAT_WORK] Great Works of any of Art, Music, or Writing by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_TEXT_2">
+			<Text>Tantra is the esoteric traditions of Hinduism and Buddhism that co-developed most likely about the middle of 1st millennium CE. The term tantra, in the Indian traditions, also means any systematic broadly applicable "text, theory, system, method, instrument, technique or practice".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIMALAYAN_IDEAL_2_DESC">
+			<Text>Tantric Medicines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIMALAYAN_IDEAL_2_HELP">
+			<Text></Text>
+		</Row>
+		<!--Triple Gem-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_DESC_3">
+			<Text>Triple Gem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Triple Gem[ENDCOLOR][NEWLINE]------------------[NEWLINE]Monasteries each yield +1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_PEACE] Faith, and +0.2 [ICON_JFD_DEVELOPMENT] Development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have a State Religion, at least +300 [ICON_PEACE] Faith, and at least 1 Monk Specialist working in all cities by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_HIMALAYAN_TEXT_3">
+			<Text>Buddhists take refuge in the Three Jewels or Triple Gem, (a.k.a. the "Three Refuges"). The Three Jewels are: the Buddha; the Dharma, the teachings; the Sangha. Refuge is common to all major schools of Buddhism.</Text>
+		</Row>
+		<!--IRANIAN-->
+		<!--Imperial Levies-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_DESC_1">
+			<Text>Imperial Levies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Imperial Levies[ENDCOLOR][NEWLINE]------------------[NEWLINE]Units purchased as [ICON_JFD_LEVIES] Levies heal each turn, even when performing an action.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 20 [ICON_CITIZEN] Population between conquered cities by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_TEXT_1">
+			<Text>A levy is a military force raised ("levied") in a particular manner. Typically this means units raised by conscription, but not always. In the Persian Empire, levies composed the bulk of the Persian armies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IRANIAN_1">
+			<Text>Imperial Levies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IRANIAN_1_HELP">
+			<Text>Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action.</Text>
+		</Row>
+		<!--King's Eyes and Ears-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_DESC_2">
+			<Text>King's Eyes and Ears</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]King's Eyes and Ears[ENDCOLOR][NEWLINE]------------------[NEWLINE]-20% [ICON_JFD_CRIME_BLACK] Crime in the [ICON_CAPITAL] Capital and -10% [ICON_JFD_CRIME_BLACK] Crime in all other cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have all cities [ICON_CONNECTED] Connected to the Capital and at least 3 by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_TEXT_2">
+			<Text>The King's Eyes and Ears were the imperial spies in Persia that traveled throughout the empire with military forces and conducted surprise audits of accounts and procedures in the provinces. They were present during both the Achaeminid and Sasanian dynasties.</Text>
+		</Row>
+		<!--Qanat Systems-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_DESC_3">
+			<Text>Qanat Systems</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Qanat Systems[ENDCOLOR][NEWLINE]------------------[NEWLINE]Aqueducts yield +2 [ICON_FOOD] Food and all cities with an Aqueduct receive a Garden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 3 Aqueducts by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_IRANIAN_TEXT_3">
+			<Text>A Qanat is a gently sloping underground channel to transport water from an aquifer or water well to surface for irrigation and drinking. Qanat is an old system of water supply from a deep well with a series of vertical access shafts, Qanats still create a reliable supply of water for human settlements and irrigation in hot, arid, and semi-arid climates. The qanat technology is known to have been developed in Iran by the Persian people sometime in the early 1st millennium BC, and spread from there slowly westward and eastward.</Text>
+		</Row>
+		<!--ISLAMIC-->
+		<!--Houses of Wisdom-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_DESC_1">
+			<Text>Houses of Wisdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Houses of Wisdom[ENDCOLOR][NEWLINE]------------------[NEWLINE]Academies and Sanatoriums yield +2 of their base Yield and +3 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 4 of any of Academies and Sanatoriums worked by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_TEXT_1">
+			<Text>The House of Wisdom was a major intellectual center during the Islamic Golden Age. The House of Wisdom was founded by Caliph Harun al-Rashid (reigned 786–809) and culminated in prominence under his son al-Ma'mun who is credited with its formal institution. Al-Ma'mun is also credited with bringing many well-known scholars to share information, ideas, and culture in the House of Wisdom. Based in Baghdad from the 9th to 13th centuries, beside Muslim scholars, people of Jewish or Christian background were allowed to study here. Besides translating books into Arabic and preserving them, scholars associated with the House of Wisdom also made many remarkable original contributions to diverse fields.</Text>
+		</Row>
+		<!--Sufi Orders-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_DESC_2">
+			<Text>Sufi Orders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Sufi Orders[ENDCOLOR][NEWLINE]------------------[NEWLINE]Missionaries have +1 [ICON_MOVES] Movement and lose the 'Unwelcome Evangelists' promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 500 [ICON_PEACE] Faith by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_TEXT_2">
+			<Text>Sufism is Islam's mystical-ascetic dimension and is represented by schools or orders known as Tasawwufī-Ṭarīqah. It is seen as that aspect of Islamic teaching that deals with the purification of inner self. By focusing on the more spiritual aspects of religion, Sufis strive to obtain direct experience of God by making use of "intuitive and emotional faculties" that one must be trained to use.[</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ISLAMIC_2">
+			<Text>Sufi Orders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ISLAMIC_2_HELP">
+			<Text>+1 [ICON_MOVES] Movement.</Text>
+		</Row>
+		<!--Trans-Saharan Routes-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_DESC_3">
+			<Text>Trans-Saharan Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Trans-Saharan Routes[ENDCOLOR][NEWLINE]------------------[NEWLINE]All [ICON_SWAP] Trade Routes have +1 Sight and reveal Fog of War when travelling.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 3 Caravansaries in cities on or adjacent to Desert by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ISLAMIC_TEXT_3">
+			<Text>Trans-Saharan trade requires travel across the Sahara (north and south) to reach sub-Saharan Africa from the North African coast, Europe, to the Levant. While existing from prehistoric times, the peak of trade extended from the 8th century until the early 17th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ISLAMIC_IDEAL_3_DESC">
+			<Text>JFD: Islamic Ideal (3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ISLAMIC_IDEAL_3_HELP">
+			<Text>All Trade Routes have +1 Sight and reveal Fog of War.</Text>
+		</Row>
+		<!--KATUJE-->
+		<!--Bow Mastery-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_DESC_1">
+			<Text>Bow Mastery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Bow Mastery[ENDCOLOR][NEWLINE]------------------[NEWLINE]Archers and Composite Bowmen can attack twice in one turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have have at least 3 Level 4 Units of any of Archers or Composite Bowmen by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_TEXT_1">
+			<Text>The Tupi primarily used bows, which they fired rapidly and with an accuracy that amazed the Europeans - mostly Portuguese, Spanish and Dutch - who encountered them. Fighting between family groups was commonplace among the Tupi, and they did not hesitate to add the European invaders to the list of their enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_KATUJE_1">
+			<Text>Bow Mastery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_KATUJE_1_HELP">
+			<Text>Can attack twice in one turn.</Text>
+		</Row>
+		<!--People's Language-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_DESC_2">
+			<Text>People's Language</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]People's Language[ENDCOLOR][NEWLINE]------------------[NEWLINE]Cities adjacent to Jungle are automatically [ICON_CONNECTED] Connected to one another.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 4 cities adjacent to Jungle by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_TEXT_2">
+			<Text>Guarani, specifically the primary variety known as Paraguayan Guarani ('the people's language'), is an indigenous language of South America that belongs to the Tupi–Guarani family of the Tupian languages. It is one of the official languages of Paraguay (along with Spanish), where it is spoken by the majority of the population, and where half of the rural population is monolingual.</Text>
+		</Row>
+		<!--Ritual Cannibalism-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_DESC_3">
+			<Text>Ritual Cannibalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Ritual Cannibalism[ENDCOLOR][NEWLINE]------------------[NEWLINE]Melee Units recover 20 Hit Points when defeating an enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 120 [ICON_PEACE] Faith by the end of the Ancient Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_KATUJE_TEXT_3">
+			<Text>The modern word cannibal is derived from the Caníbales, the Spanish name for the Carib people. Carib cannibalism was reported by Columbus and other Spanish explorers, and may have been part of their religious rituals and war practice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_KATUJE_3">
+			<Text>Ritual Cannibalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_KATUJE_3_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]HEALS[ENDCOLOR] 20 damage when defeating an enemy unit.</Text>
+		</Row>
+		<!--MANDALA-->
+		<!--Field Power-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_DESC_1">
+			<Text>Field Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Field Power[ENDCOLOR][NEWLINE]------------------[NEWLINE]Towns and Villages yield +2 [ICON_FOOD] Food and +3 [ICON_STRENGTH] Defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have a Village or Town worked by all cities and at least 4 by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_TEXT_1">
+			<Text>The Kings of Ayutthaya created many institutions to support their rule. Whereas feudalism developed in the European Middle Ages, Ayutthayan King Trailokanat instituted Sakdina, (lit. "Field Power"), but usually translated as "dignity marks." This comported with the names of two kingdoms further north: Lanna "Million Fields" and Sip Song Phan Na "Twelve Thousand Fields."</Text>
+		</Row>
+		<!--Mueang Principalities-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_DESC_2">
+			<Text>Mueang Principalities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Mueang Principalities[ENDCOLOR][NEWLINE]------------------[NEWLINE]+1 [ICON_INFLUENCE] Influence Per Turn with City-States that you have a [ICON_INTERNATIONAL_TRADE] Trade Route with. Units can be upgraded in friendly City-State borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 3 Allied City-States by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_TEXT_2">
+			<Text>Mueang were pre-modern semi-independent city-states or principalities in Indochina. The Mandala model of political organisation organised states in collective hierarchy such that smaller mueang were subordinate to more powerful neighboring ones, which in turn were subordinate to a central king or other leader. Mueang large and small often shifted allegiance, and frequently paid tribute to more than one powerful neighbor - the most powerful of the period being the Ming of Imperial China.</Text>
+		</Row>
+		<!--Temple Spires-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_DESC_3">
+			<Text>Temple Spires</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Temple Spires[ENDCOLOR][NEWLINE]------------------[NEWLINE]Temples and belief-based Religious Buildings yield +20 [ICON_CULTURE] Culture and +20 [ICON_PEACE] Faith when constructed. This scales with Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have adopted the State Religion of another Civilization by the end of the Renaissance Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MANDALA_TEXT_3">
+			<Text>A prang is a tall tower-like spire, usually richly carved. They were a common shrine element of Hindu and Buddhist architecture in the Khmer Empire. They were later adapted by Buddhist builders in Thailand, especially during the Ayutthaya Kingdom (1350–1767) and Rattanakosin Kingdom (1782-1932). In Thailand it appears only with the most important Buddhist temples.</Text>
+		</Row>
+		<!--MESOAMERICAN-->
+		<!--Astro-Divination-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_DESC_1">
+			<Text>Astro-Divination</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Astrological Divination[ENDCOLOR][NEWLINE]------------------[NEWLINE]Temples yield +1 [ICON_RESEARCH] Science and produce 2 [ICON_GREAT_PEOPLE] Great Prophet Points Per Turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have a Pantheon and at least 20 [ICON_RESEARCH] Science Per Turn by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_TEXT_1">
+			<Text>Maya astronomy is the study of the moon, planets, milky way, sun, and other astronomical occurrences by the Precolumbian Maya Civilization of Mesoamerica.The Maya made meticulous observations of celestial bodies, patiently recording astronomical data on the movements of the sun, moon, Venus, and the stars. This information was used for divination, so Maya astronomy was essentially for astrological purposes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MESOAMERICAN_IDEAL_1_DESC">
+			<Text>JFD: Mesoamerican Ideal (1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MESOAMERICAN_IDEAL_1_HELP">
+			<Text>+2 [ICON_GREAT_PEOPLE] Great Prophet Points Per Turn</Text>
+		</Row>
+		<!--Eagles and Jaguars-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_DESC_2">
+			<Text>Eagles and Jaguars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Eagles and Jaguars[ENDCOLOR][NEWLINE]------------------[NEWLINE]Melee Units begin with +10 XP and force defenders to retreat when inflicting more damage than they receive.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have the highest number of [ICON_JFD_SHACKLES] Shackles and at least 40 by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_TEXT_2">
+			<Text>Aztec warriors were called a cuāuhocēlōtl. The word cuāuhocēlōtl derives from the Eagle warrior cuāuhtli and the Jaguar Warrior ocēlōtl. Those Aztec warriors who demonstrated the most bravery and who fought well became either jaguar or eagle warriors. Of all of the Aztec warriors, they were the most feared. Both the jaguar and eagle Aztec warriors wore distinguishing helmets and uniforms. The jaguars were identifiable by the jaguar skins they wore over their entire body, with only their faces showing from within the jaguar head. The eagle Aztec warriors, on the other hand, wore feathered helmets including an open beak.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_MESOAMERICAN_2">
+			<Text>Eagles and Jaguars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_MESOAMERICAN_2_HELP">
+			<Text>Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.</Text>
+		</Row>
+		<!--Triple Alliance-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_DESC_3">
+			<Text>Triple Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Triple Alliance[ENDCOLOR][NEWLINE]------------------[NEWLINE]+10% [ICON_JFD_BLUE_FIST] Loyalty, -15% [ICON_HAPPINESS_4] Unhappiness, and +20% [ICON_PRODUCTION] Production in [ICON_PUPPET] Puppets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 2 foreign Capitals as [ICON_PUPPET] Puppets under your control by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOAMERICAN_TEXT_3">
+			<Text>The Aztec Empire, or the Triple Alliance, began as an alliance of three Nahua "altepetl" city-states: Mexico-Tenochtitlan, Mexico-Texcoco, and Mexico-Tlacopan. These three city-states ruled the area in and around the Valley of Mexico from 1428 until they were defeated by the combined forces of the Spanish conquistadores and their native allies under Hernán Cortés in 1521.</Text>
+		</Row>
+		<!--MESOPOTAMIC-->
+		<!--Ceremonial Burial-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_DESC_1">
+			<Text>Ceremonial Burial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Ceremonial Burial[ENDCOLOR][NEWLINE]------------------[NEWLINE]Ancient Era Wonders yield +2 [ICON_CULTURE] Culture, [ICON_PEACE] Faith, [ICON_GOLD] Gold, and [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have a Pantheon and a World Wonder in the Capital by the end of the Ancient Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_TEXT_1">
+			<Text>Burial or interment is the ritual act of placing a dead person or animal, sometimes with objects, into the ground. This is accomplished by excavating a pit or trench, placing the deceased and objects in it, and covering it over. Methods of burial may be heavily ritualized and can include natural burial; embalming or mummification; the use of containers for the dead such as a shrouds, caskets, grave liners, and burial vaults all of which can retard decomposition of the body.</Text>
+		</Row>
+		<!--Gateway of God-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_DESC_2">
+			<Text>Gateway of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Gateway of the Gods[ENDCOLOR][NEWLINE]------------------[NEWLINE]5 Specialists in your [ICON_CAPITAL] Capital no longer cause [ICON_HAPPINESS_4] Unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have the highest [ICON_CITIZEN] Population in the Capital and at least 12 by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_TEXT_2">
+			<Text>Babylon was a major city of ancient Mesopotamia in the fertile plain between the Tigris and Euphrates rivers. The city was built upon the Euphrates and divided in equal parts along its left and right banks, with steep embankments to contain the river's seasonal floods. It has been estimated that Babylon was the largest city in the world from c. 1770 to 1670 BC, and again between c. 612 and 320 BC. It was perhaps the first city to reach a population above 200,000.</Text>
+		</Row>
+		<!--Scribal Schools-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_DESC_3">
+			<Text>Scribal Schools</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Scribal Schools[ENDCOLOR][NEWLINE]------------------[NEWLINE]+30 [ICON_RESEARCH] Science when a new [ICON_CITIZEN] Citizen is born in the [ICON_CAPITAL] Capital. This scales with Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 8 [ICON_RESEARCH] Technologies by the end of the Ancient Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_MESOPOTAMIC_TEXT_3">
+			<Text>Edubba is the Sumerian term for "scribal school." The eduba was the institution that trained and educated young scribes in ancient Mesopotamia during the late third or early second millennium BCE. Most of the information known about edubas comes from cuneiform texts dating to the Old Babylonian period (ca. 2000-1600 BCE).</Text>
+		</Row>
+		<!--NORTHERN-->
+		<!--Epic Poetry-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_DESC_1">
+			<Text>Epic Poetry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Epic Poetry[ENDCOLOR][NEWLINE]------------------[NEWLINE]Earn [ICON_GREAT_PEOPLE] Great Musicians and Great Writers +33% faster, and[ICON_GREAT_WORK] Great Works of Music and Writing each yield +1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 3 of any combination of Great Admirals or Great Generals by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_TEXT_1">
+			<Text>An epic poem is a lengthy narrative poem, ordinarily concerning a serious subject containing details of heroic deeds and events significant to a culture or nation. Epics tend to highlight cultural norms and to define or call into question cultural values, particularly as they pertain to heroism.</Text>
+		</Row>
+		<!--Midsummer's Eve-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_DESC_2">
+			<Text>Midsummer's Eve</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Midsummer's Eve[ENDCOLOR][NEWLINE]------------------[NEWLINE]Cities celebrating [ICON_JFD_WLTKD] 'We Love the King Day' yield +10% [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least one city celebrating [ICON_JFD_WLTKD] 'We Love the King Day' by the end of the Medieval Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_TEXT_2">
+			<Text>Midsummer, also known as St John's Day, is the period of time centred upon the summer solstice, and more specifically the Northern European celebrations that accompany the actual solstice or take place on a day between June 19 and June 25 and the preceding evening.</Text>
+		</Row>
+		<!--Warrior Code-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_DESC_3">
+			<Text>Warrior Code</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR][NEWLINE]------------------[NEWLINE]All Units fight as though they were at full strength even when damaged.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have Barracks' in all cities and at least 4 by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_NORTHERN_TEXT_3">
+			<Text>In many societies in which a specialized warrior class exists, specific codes of conduct (ethical code or honor code) are established to ensure that the warrior class is not corrupted or otherwise dangerous to the rest of society. Common features include valuing honor in the forms of faith, loyalty and courage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_NORTHERN_3">
+			<Text>Warrior Code</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_NORTHERN_3_HELP">
+			<Text>Fights as though they were at full strength even when damaged.</Text>
+		</Row>
+		<!--OCEANIC-->
+		<!--Celestial Navigation-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_DESC_1">
+			<Text>Celestial Navigation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Celestial Navigation[ENDCOLOR][NEWLINE]------------------[NEWLINE]Naval Units receive the Supply promotion, and Embarked Units have +1 [ICON_MOVES] Moves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have discovered at least 50 Ocean Tiles by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_TEXT_1">
+			<Text>Celestial navigation, also known as astronavigation, is the ancient science of position fixing that enables a navigator to transition through a space without having to rely on estimated calculations, or dead reckoning, to know their position. Celestial navigation uses "sights," or angular measurements taken between a celestial body (the sun, the moon, a planet or a star) and the visible horizon. The sun is most commonly used, but navigators can also use the moon, a planet, Polaris, or one of 57 other navigational stars whose coordinates are tabulated in the nautical almanac and air almanacs.</Text>
+		</Row>
+		<!--Island Settlers-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_DESC_2">
+			<Text>Island Settlers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Island Settlers[ENDCOLOR][NEWLINE]------------------[NEWLINE]Atolls yield +1 [ICON_CULTURE], [ICON_JFD_DEVELOPMENT], [ICON_PEACE], [ICON_GOLD], [ICON_RESEARCH], [ICON_TOURISM].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at 4 Atolls worked by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_TEXT_2">
+			<Text>The Pacific Islands is a term broadly referring to the islands of the Pacific Ocean. Depending on the context, it may refer to countries and islands with common Austronesian origins, islands once or currently colonized, or Oceania.</Text>
+		</Row>
+		<!--Wayfaring Myths-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_DESC_3">
+			<Text>Wayfaring Myths</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Wayfaring Myths[ENDCOLOR][NEWLINE]------------------[NEWLINE]Naval Units yield [ICON_CULTURE] Culture in the nearest city when uncovering new Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have researched Sailing by the end of the Ancient Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_OCEANIC_TEXT_3">
+			<Text>Polynesian narrative (or Polynesian mythology) is the oral traditions of the people of Polynesia, a grouping of Central and South Pacific Ocean island archipelagos in the Polynesian triangle together with the scattered cultures known as the Polynesian outliers. Polynesians speak languages that descend from a language reconstructed as Proto-Polynesian that was probably spoken in the Tonga - Samoa area around 1000 BC.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_OCEANIC_3">
+			<Text>Wayfaring Myths</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_OCEANIC_3_HELP">
+			<Text>Yields [ICON_CULTURE] Culture in the nearest city when uncovering new Tiles.</Text>
+		</Row>
+		<!--ORIENTAL-->
+		<!--Hydraulic Despotism-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_DESC_1">
+			<Text>Hydraulic Despotism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Hydraulic Despotism[ENDCOLOR][NEWLINE]------------------[NEWLINE]Aqueducts and Cisterns each yield +2 and +5% [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have Aqueducts or Cisterns in all cities and at least 4 of any combination by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_TEXT_1">
+			<Text>A hydraulic empire is a social or government structure which maintains power and control through exclusive control over access to water. It arises through the need for flood control and irrigation, which requires central coordination and a specialized bureaucracy.</Text>
+		</Row>
+		<!--Scholar Officials-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_DESC_2">
+			<Text>Scholar Officials</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Scholar Officials[ENDCOLOR][NEWLINE]------------------[NEWLINE]Specialists yield +2 [ICON_GOLDEN_AGE] Golden Age Points and +0.1 [ICON_JFD_DEVELOPMENT] Development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 2 Specialists working in all cities by the end of the Renaissance Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_TEXT_2">
+			<Text>The centralized beaucracies of East Asia were highly meritocratic. The ‘scholar-officialdoms’ of pre-modern China and Korea pre-date the same meritocratic civil service systems in Europe by several centuries.</Text>
+		</Row>
+		<!--Son of Heaven-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_DESC_3">
+			<Text>Son of Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Son of Heaven[ENDCOLOR][NEWLINE]------------------[NEWLINE]+10% [ICON_JFD_SOVEREIGNTY] Sovereignty during [ICON_GOLDEN_AGE] Golden Ages and [ICON_GOLDEN_AGE] Golden Ages are 20% longer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must be in a [ICON_GOLDEN_AGE] Golden Age and must have a Government by end of the Medieval Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_ORIENTAL_TEXT_3">
+			<Text>The Son of Heaven was an imperial title originating from the ancient Han Chinese emperors and subsequently adopted by other East Asian monarchs. The title was interpreted literally in China and Japan, and the Chinese and Japanese monarchs were referred to as a demigod, deity or "living God."</Text>
+		</Row>
+		<!--PACIFIC-->
+		<!--Fishing Societies-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_DESC_1">
+			<Text>Fishing Societies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Fishing Societies[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_PRODUCTION] Build Work Boats +50% faster, and Fishing Boats each yield +1 [ICON_JFD_DEVELOPMENT] Development and +1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 5 sources of any of [ICON_RES_CRAB] Crab, [ICON_RES_FISH] Fish, or [ICON_RES_WHALE] Whale by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_TEXT_1">
+			<Text>Due in part to the richness of Pacific Northwest Coast and river fisheries, some of the indigenous peoples developed complex sedentary societies while remaining hunter-gatherers. When Europeans first arrived on the Northwest Coast, they found one of the world's most complex hunting and fishing societies, with large sedentary villages, large houses, systems of social rank and prestige, extensive trade networks, and many other factors more commonly associated with societies based on domesticated agriculture.</Text>
+		</Row>
+		<!--Potlatch-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_DESC_2">
+			<Text>Potlatch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Potlatch[ENDCOLOR][NEWLINE]------------------[NEWLINE]+10 [ICON_FOOD] Food and +10 [ICON_CULTURE] Culture when a new [ICON_CITIZEN] Citizen is born in any city. This scales with Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have all cities [ICON_CONNECTED] Connected to the Capital and at least 5 by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_TEXT_2">
+			<Text>A potlatch is a gift-giving feast practiced by indigenous peoples of the Pacific Northwest Coast of Canada and the United States, among whom it is traditionally the primary economic system. This includes the Heiltsuk, Haida, Nuxalk, Tlingit, Makah, Tsimshian, Nuu-chah-nulth, Kwakwaka'wakw, and Coast Salish cultures. Potlatches are also a common feature of the peoples of the Interior and of the Subarctic adjoining the Northwest Coast, though mostly without the elaborate ritual and gift-giving economy of the coastal peoples (see Athabaskan potlatch).</Text>
+		</Row>
+		<!--Totems-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_DESC_3">
+			<Text>Totems</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Totems[ENDCOLOR][NEWLINE]------------------[NEWLINE]Monuments increase [ICON_GREAT_PEOPLE] Great People generation by 15%, and yield +1 [ICON_GREAT_ADMIRAL] Great Admiral and +1 [ICON_GREAT_GENERAL] Great General Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have Monuments in all cities and at least 3 by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_PACIFIC_TEXT_3">
+			<Text>Totems of the Pacific Northwest of North America are monumental poles of heraldry. They feature many different designs (bears, birds, frogs, people, and various supernatural beings and aquatic creatures) that function as crests of families or chiefs. They recount stories owned by those families or chiefs, and/or commemorate special occasions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PACIFIC_IDEAL_3_DESC">
+			<Text>JFD: Pacific Ideal (3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PACIFIC_IDEAL_3_HELP">
+			<Text>+15% [ICON_GREAT_PEOPLE] Great People generation.</Text>
+		</Row>
+		<!--POLAR-->
+		<!--Land of Eternal Sun-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_DESC_1">
+			<Text>Land of Eternal Sun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Land of Eternal Sun[ENDCOLOR][NEWLINE]------------------[NEWLINE]Snow Tiles yield +2 [ICON_GOLDEN_AGE] Golden Age Points and all Units have doubled healing in Snow.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 2 cities with Ice by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_TEXT_1">
+			<Text>According to Hoop Thrower, the Yaghan of Patagonia believe Antarctica to be a paradise; where the sun is endless.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_POLAR_1">
+			<Text>Land of Eternal Sun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_POLAR_1_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Healing[ENDCOLOR] is doubled in Snow.</Text>
+		</Row>
+		<!--Nomadic Herders-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_DESC_2">
+			<Text>Nomadic Herders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Nomadic Herders[ENDCOLOR][NEWLINE]------------------[NEWLINE]Settlers and Workers have +1 [ICON_MOVES] Moves, and all Camps yield +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 3 Camps by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_TEXT_2">
+			<Text>A herder is a worker who lives a possibly semi-nomadic life, caring for various domestic animals, in places where these animals wander pasture lands. Because their work is necessarily mostly outdoors, they move around from place to place in the course of their labours. The possibility exists that the lands upon which their beasts graze are not claimed as any single person's property.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_POLAR_2">
+			<Text>Nomadic Herders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_POLAR_2_HELP">
+			<Text>+1 [ICON_MOVES] Movement and +1 Sight.</Text>
+		</Row>
+		<!--Spirit Trance-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_DESC_3">
+			<Text>Spirit Trance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Spirit Trance[ENDCOLOR][NEWLINE]------------------[NEWLINE]Shrines, Temples, and Monasteries each yield +1 [ICON_JFD_HEALTH] Health and -1 [ICON_JFD_CRIME_BLACK] Crime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have a Pantheon and at least 25 [ICON_PEACE] Faith Per Turn by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_POLAR_TEXT_3">
+			<Text>A shaman is a person regarded as having access to, and influence in, the world of benevolent and malevolent spirits, who typically enters into a trance state during a ritual, and practices divination and healing. The word "shaman" probably originates from the Tungusic Evenki language of North Asia.</Text>
+		</Row>
+		<!--SAHARAN-->
+		<!--Farimba-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_DESC_1">
+			<Text>Farimba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Farimba[ENDCOLOR][NEWLINE]------------------[NEWLINE]Military Units purchased with [ICON_JFD_SHACKLES] Shackles help produce Great Generals more quickly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 4 Units with the [ICON_JFD_SHACKLES] 'Enslaved' Promotion by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_TEXT_1">
+			<Text>In Mali Empire, farimba was the name for military leaders assigned to oversee local rulers and ensure that local policy did not interfere with the emperor's. Farimba kept a small army garrisoned inside the provincial capital composed entirely of slave forces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SAHARAN_1">
+			<Text>Farimba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SAHARAN_1_HELP">
+			<Text>Combat Likely To Create Great Generals.</Text>
+		</Row>
+		<!--Lord of Wangara-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_DESC_2">
+			<Text>Lord of Wangara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Lord of Wangara[ENDCOLOR][NEWLINE]------------------[NEWLINE]+20 [ICON_PRODUCTION] Production with each [ICON_INVEST] Investment. This scales with Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have the highest [ICON_GOLD] Gold stored and at least 2000 [ICON_GOLD] Gold by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_TEXT_2">
+			<Text>The Wangara were Soninke clans that specialized in the gold trade. The gold trade in Djenne and Bighu was described as a place where "mines of gold and gold dust" were found. Mansa Musa, the wealthiest person in history, was known as the Lord of the Mines of Wangara.</Text>
+		</Row>
+		<!--Scholars of Sankore-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_DESC_3">
+			<Text>Scholars of Sankore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Scholars of Sankore[ENDCOLOR][NEWLINE]------------------[NEWLINE]Eliminates [ICON_JFD_CRIME_SCIENCE] Fraud in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 2 Academies worked by the Capital by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SAHARAN_TEXT_3">
+			<Text>Sankoré Madrasah, The University of Sankoré, or Sankore Masjid is one of three ancient centers of learning located in Timbuktu, Mali, West Africa. The three mosques of Sankoré, Djinguereber Mosque and Sidi Yahya compose the famous University of Timbuktu. Madrasah means school/university in Arabic and also in other languages associated with Muslims.</Text>
+		</Row>
+		<!--SEMITIC-->
+		<!--Dietary Laws-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_DESC_1">
+			<Text>Dietary Laws</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Dietary Laws[ENDCOLOR][NEWLINE]------------------[NEWLINE]Increases [ICON_JFD_PIETY] Piety resting rate by +10 and [ICON_JFD_PIETY] Piety recovers twice as fast when below resting rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must be [ICON_JFD_PIETY] Devout by the end of the Classical Era.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_TEXT_1">
+			<Text>Some people abstain from consuming various foods and beverages in conformity with various religious, cultural, legal or other societal prohibitions. Many of these prohibitions constitute taboos. Food prohibitions can be defined as rules, codified by religion or otherwise, about which foods, or combinations of foods, may not be eaten and how animals are to be slaughtered or prepared. The origins of these prohibitions are varied. In some cases, they are thought to be a result of health considerations or other practical reasons; in others, they relate to human symbolic systems.</Text>
+		</Row>
+		<!--Land of Merchants-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_DESC_2">
+			<Text>Land of Merchants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Land of Merchants[ENDCOLOR][NEWLINE]------------------[NEWLINE]All Great Merchants receive +2 [ICON_MOVES] Movement and begin a short [ICON_GOLDEN_AGE] Golden Age when expended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have the highest number of Merchant Specialists worked and at least 4 by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_TEXT_2">
+			<Text>The term "Canaanites" in biblical Hebrew is applied especially to the inhabitants of the lower regions, along the sea coast and on the shores of Jordan, as opposed to the inhabitants of the mountainous regions. By the time of the Second Temple, "Canaanite" in Hebrew had come to be not an ethnic designation, so much as a general synonym for "merchant", as it is interpreted in, for example, Job 40:30, or Proverbs 31:24.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SEMITIC_2">
+			<Text>Land of Merchants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SEMITIC_2_HELP">
+			<Text>+2 [ICON_MOVES] Movement. Begins a 4-Turn [ICON_GOLDEN_AGE] Golden Age when expended.</Text>
+		</Row>
+		<!--Rock-hewn Churches-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_DESC_3">
+			<Text>Rock-hewn Churches</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Rock-hewn Churches[ENDCOLOR][NEWLINE]------------------[NEWLINE]Cities adjacent to Mountains receive +10% [ICON_PRODUCTION] Building Production and Mountains yield +3 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 3 cities adjacent to Mountains by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SEMITIC_TEXT_3">
+			<Text>A monolithic church or rock-hewn church is a church made from a single block of stone. Because freestanding rocks of sufficient size are rare, such churches are usually hewn into the ground or into the side of a hill or mountain. They can be of comparable architectural complexity to constructed buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SEMITIC_IDEAL_3_DESC">
+			<Text>JFD: Semitic Ideal (3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SEMITIC_IDEAL_3_HELP">
+			<Text>+10% [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<!--SOUTHERN-->
+		<!--Free Companies-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_DESC_1">
+			<Text>Free Companies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Free Companies[ENDCOLOR][NEWLINE]------------------[NEWLINE]All [ICON_JFD_MERCENARY] Mercenaries can pillage without using[ICON_MOVES] Movement Points and steal [ICON_GOLD] Gold when attacking cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have 3 active [ICON_JFD_MERCENARY] Contracts by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_TEXT_1">
+			<Text>A free company was a late medieval army of mercenaries acting independently of any government, and thus "free". The term "free company" is most applied to those companies of soldiers which formed after the Peace of Brétigny during the Hundred Years' War and were active mainly in France, but it has been applied to other companies, such as the Catalan Grand Company and companies that operated elsewhere, such as in Italy and the Holy Roman Empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SOUTHERN_1">
+			<Text>Free Companies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SOUTHERN_1_HELP">
+			<Text>Steals [ICON_GOLD] Gold equal to 50% of the damage inflicted on a city and No Movement Cost to Pillage.</Text>
+		</Row>
+		<!--High Renaissance-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_DESC_2">
+			<Text>High Renaissance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]High Renaissance[ENDCOLOR][NEWLINE]------------------[NEWLINE]+1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith, +1 [ICON_RESEARCH] Science, and +2 [ICON_GOLDEN_AGE] Golden Age Points from each Great Work of Art.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must control the most [ICON_GREAT_WORK] Great Works of Art and at least 3 by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_TEXT_2">
+			<Text>In art history, High Renaissance is the period denoting the apogee of the visual arts in the Italian Renaissance. The High Renaissance period is traditionally taken to begin in the 1490s, with Leonardo's fresco of the Last Supper in Milan and the death of Lorenzo de' Medici in Florence, and to have ended in 1527 with the sacking of Rome by the troops of Charles V.</Text>
+		</Row>
+		<!--Mother Church-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_DESC_3">
+			<Text>Mother Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Mother Church[ENDCOLOR][NEWLINE]------------------[NEWLINE]Cities are +50% more resilient to [ICON_MISSIONARY] Missionaries and never lose their Religion because of low [ICON_JFD_PIETY] Piety.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have founded a Religion, and must have the most world followers and at least 20 by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_SOUTHERN_TEXT_3">
+			<Text>Mother church (Lat. Mater Ecclesiae) is a term, especially in Catholicism, depicting the Christian Church as a mother in its functions of nourishing and protecting the believer. It may also refer to the mother church of a diocese i.e. Cathedral or a metropolitan church. The term has specific meanings within different Christian denominations.</Text>
+		</Row>
+		<!--STEPPE-->
+		<!--Great Hordes-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_DESC_1">
+			<Text>Great Hordes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Great Hordes[ENDCOLOR][NEWLINE]------------------[NEWLINE]Receive a second Mounted Unit with every one trained, if you have the [ICON_RES_HORSE] Horses to support it. All Mounted Units receive +1 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have the highest number of [ICON_RES_HORSE] Horses and at least 6 improved [ICON_RES_HORSE] Horses by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_TEXT_1">
+			<Text>An orda or horde was a historical sociopolitical and military structure found on the Eurasian Steppe, usually associated with the Turkic raiders and Mongols. This entity can be seen as the regional equivalent of a clan or a tribe. Some successful ordas gave rise to khanates.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_STEPPE_1">
+			<Text>Great Hordes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_STEPPE_1_HELP">
+			<Text>+1 Visibility Change.</Text>
+		</Row>
+		<!--Silk Road-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_DESC_2">
+			<Text>Silk Road</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Silk Road[ENDCOLOR][NEWLINE]------------------[NEWLINE]Owned [ICON_SWAP] Trade Routes cannot be pillaged by Barbarians and [ICON_SWAP] Land Trade Routes have +50% range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have at least 4 [ICON_SWAP] Trade Routes with different Civilizations by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_TEXT_2">
+			<Text>The Silk Road or Silk Route was an ancient network of trade routes that were for centuries central to cultural interaction through regions of the Asian continent connecting the East and West from China to the Mediterranean Sea. While the term is of modern coinage, the Silk Road derives its name from the lucrative trade in Chinese silk carried out along its length.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STEPPE_IDEAL_2_DESC">
+			<Text>JFD: Steppe Ideal (2)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_STEPPE_IDEAL_2_HELP">
+			<Text>Owned [ICON_SWAP] Trade Routes cannot be pillaged by Barbarians.</Text>
+		</Row>
+		<!--Steppe Empire-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_DESC_3">
+			<Text>Steppe Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Steppe Empire[ENDCOLOR][NEWLINE]------------------[NEWLINE]Conquered cities claim all workable Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 5 conquered cities by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_STEPPE_TEXT_3">
+			<Text>The Mongol Empire existed during the 13th and 14th centuries and was the largest contiguous land empire in history. Originating in the steppes of Central Asia, the Mongol Empire eventually stretched from Central Europe to the Sea of Japan, extending northwards into Siberia, eastwards and southwards into the Indian subcontinent, Indochina, and the Iranian plateau, and westwards as far as the Levant and Arabia.</Text>
+		</Row>
+		<!--TOTALITARIAN-->
+		<!--Autarky-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_DESC_1">
+			<Text>Autarky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Autarky[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_SWAP] Internal Trade Routes provide 50% more [ICON_FOOD] Food or [ICON_PRODUCTION] Production when originating from the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have at least 5 [ICON_SWAP] Internal Trade Routes by the end of the Modern Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_TEXT_1">
+			<Text>Autarky is the quality of being self-sufficient. Usually the term is applied to political states or their economic systems. Autarky exists whenever an entity can survive or continue its activities without external assistance or international trade. If a self-sufficient economy also refuses all trade with the outside world then it is called a closed economy.</Text>
+		</Row>
+		<!--Panoptic Surveillance-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_DESC_2">
+			<Text>Panoptic Surveillance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Panoptic Surveillance[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_PRODUCTION] Build Constabularies and Police Stations +50% faster and these Buildings each yield +10% [ICON_JFD_BLUE_FIST] Loyalty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have Jails in all conquered cities and at least 6 by the end of the Modern Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_TEXT_2">
+			<Text>Panopticism is a social theory named after the Panopticon, originally developed by French philosopher Michel Foucault in his book Discipline and Punish. The "panopticon" refers to an experimental laboratory of power in which behaviour could be modified, and Foucault viewed the panopticon as a symbol of the disciplinary society of surveillance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_POLICE_STATE">
+			<Text>Police State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_POLICE_STATE_HELP">
+			<Text>Police State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_POLICESTATE_TEXT">
+			<Text>Police State</Text>
+		</Row>
+		<!--Supreme Leader-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_DESC_3">
+			<Text>Supreme Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Supreme Leader[ENDCOLOR][NEWLINE]------------------[NEWLINE]+25% [ICON_PRODUCTION] Production toward Military Units during a [ICON_JFD_WLTKD] 'We Love the King Day.'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have all cities with [ICON_JFD_BLUE_FIST] Patriotic Loyalty and at least 4 by the end of the Modern Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_TOTALITARIAN_TEXT_3">
+			<Text>A supreme leader typically refers to the person among a number of leaders of a state, organization or other such group who has been given or is able to exercise the most – or complete – authority over it. There have been many dictators and political party leaders who have assumed such personal and/or political titles to evoke their supreme authority. World War II, for example, saw many fascist and other far right figures model their rule on Hitler's Führer or Mussolini's Duce personae.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_TOTALITARIAN_IDEAL_3_DESC">
+			<Text>JFD: Totalitarian Ideal (1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_TOTALITARIAN_IDEAL_3_HELP">
+			<Text>+25% [ICON_PRODUCTION] Production toward Military Units.</Text>
+		</Row>
+		<!--WEST AFRICAN-->
+		<!--Defensive Earthworks-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_DESC_1">
+			<Text>Defensive Earthworks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Defensive Earthworks[ENDCOLOR][NEWLINE]------------------[NEWLINE]First two Stone Works are Maintenance free, and cities with a Stone Works have increased (+25%) [ICON_STRENGTH] Defense from Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have built at least 2 Stone Works by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_TEXT_1">
+			<Text>Sungbo's Eredo is a system of defensive walls and ditches that is located to the southwest of the Yoruba town of Ijebu Ode in Ogun State, southwest Nigeria. The Eredo served a defensive purpose when it was built in 800–1000, a period of political confrontation and consolidation in the southern Nigerian rainforest. It was likely to have been inspired by the same process that led to the construction of similar walls and ditches throughout western Nigeria, including earthworks around Ifẹ̀, Ilesa, and the Benin Iya.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WEST_AFRICAN_IDEAL_1_DESC">
+			<Text>JFD: Pacific Ideal (3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WEST_AFRICAN_IDEAL_1_HELP">
+			<Text>+25% [ICON_STRENGTH] Defense from Buildings.</Text>
+		</Row>
+		<!--Religious Kinship-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_DESC_2">
+			<Text>Religious Kinship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Religious Kinship[ENDCOLOR][NEWLINE]------------------[NEWLINE]+20 [ICON_PEACE] Faith when a new [ICON_CITIZEN] Citizen is born in any city. This scales with Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have founded a Pantheon and have at least 12 [ICON_CITIZEN] Population by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_TEXT_2">
+			<Text>West and Central African religious practices generally manifest themselves in communal ceremonies and/or divinatory rites in which members of the community, overcome by force, are excited to the point of going into meditative trance in response to rhythmic or mantric drumming and/or singing. One religious ceremony practiced in Gabon and Cameroon is the Okuyi, practiced by several Bantu ethnic groups.</Text>
+		</Row>
+		<!--Sculpted Figures-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_DESC_3">
+			<Text>Sculpted Figures</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Sculpted Figures[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_RES_COPPER] Copper, [ICON_RES_IRON] Iron, and [ICON_RES_STONE] Stone each yield +2 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 4 sources of any of [ICON_RES_COPPER] Copper, [ICON_RES_IRON] Iron, or [ICON_RES_STONE] Stone by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WEST_AFRICAN_TEXT_3">
+			<Text>Precolonial West African sculpture also made extensive use of terracotta. The regions most recognized for producing terracotta art in that part of the world include the Nok culture of central and north-central Nigeria, the Ife/Benin cultural axis in western and southern Nigeria (also noted for its exceptionally naturalistic sculpture), and the Igbo culture area of eastern Nigeria, which excelled in terracotta pottery. These related, but separate, traditions also gave birth to elaborate schools of bronze and brass sculpture in the area.</Text>
+		</Row>
+		<!--WESTERN-->
+		<!--Colonial Empires-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_DESC_1">
+			<Text>Colonial Empires</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Colonial Empires[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_JFD_COLONY] Colonies yield +4 [ICON_GOLDEN_AGE] Golden Age Points, +3 [ICON_GOLD] Gold, and +2 [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must control the most [ICON_JFD_COLONY] Colonies and at least 3 by the end of the Industrial Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_TEXT_1">
+			<Text>Empire originates from the Latin word imperium, which means to rule over large territories. Colonialism, on the other hand, is the establishment of a colony in one territory by a political power from another territory, and the subsequent maintenance, expansion, and exploitation of that colony.</Text>
+		</Row>
+		<!--Industrial Revolution-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_DESC_2">
+			<Text>Industrial Revolution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Industrial Revolution[ENDCOLOR][NEWLINE]------------------[NEWLINE][ICON_PRODUCTION] Build Blast Furnaces, Coal Stations, Factories, and Oil Refineries 33% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have Workshops in all cities and at least 5 by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_HELP_2_REQ_EE">
+			<Text>[COLOR_CYAN]Must have Workshops in all cities and at least 5 by the end of the Enlightenment Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_TEXT_2">
+			<Text>The Industrial Revolution was the transition to new manufacturing processes in the period from about 1760 to sometime between 1820 and 1840. This transition included going from hand production methods to machines, new chemical manufacturing and iron production processes, improved efficiency of water power, the increasing use of steam power, the development of machine tools and the rise of the factory system.</Text>
+		</Row>
+		<!--Naval Supremacy-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_DESC_3">
+			<Text>Naval Supremacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Naval Supremacy[ENDCOLOR][NEWLINE]------------------[NEWLINE]Naval Units are 33% [ICON_GOLD] cheaper to upgrade and have +20% [ICON_STRENGTH] Combat Strength when in Foreign Territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have the most Naval Units and at least 10 by the end of the Industrial Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN]. The highest ([COLOR_POSITIVE_TEXT]{2_CivDesc}[ENDCOLOR][COLOR_CYAN]) has [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WESTERN_TEXT_3">
+			<Text>From the middle decades of the 17th century and through the 18th century, European navies vied for maritime supremacy. From the mid 18th century, the British Royal Navy was the world's most powerful navy until surpassed by the United States Navy during the Second World War.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_WESTERN_3">
+			<Text>Naval Superpower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_WESTERN_3_HELP">
+			<Text>Requires 33% less [ICON_GOLD] Gold to upgrade and has +20% [ICON_STRENGTH] Combat Strength [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].</Text>
+		</Row>
+		<!--WOODLANDS-->
+		<!--Buzzard Cult-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_DESC_1">
+			<Text>Buzzard Cult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_HELP_1">
+			<Text>[COLOR_POSITIVE_TEXT]Buzzard Cult[ENDCOLOR][NEWLINE]------------------[NEWLINE]Your Religion spreads +33% faster over all [ICON_SWAP] Trade Routes and Land Trade Routes yield +2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_HELP_1_REQ">
+			<Text>[COLOR_CYAN]Must have a Pantheon and at least 2 active [ICON_SWAP] Land Trade Routes by the end of the Classical Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_TEXT_1">
+			<Text>The Southeastern Ceremonial Complex, known archaically as the Buzzard Cult, is the name given to the regional stylistic similarity of artifacts, iconography, ceremonies, and mythology of the Mississippian culture that coincided with their adoption of maize agriculture and chiefdom-level complex social organization from 1200 to 1650. This development appears to have no direct links to Mesoamerica, but developed independently. This ceremonial complex represents a major component of the religion of the Mississippian peoples, and is one of the primary means by which their religion is understood.</Text>
+		</Row>
+		<!--Grand Council-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_DESC_2">
+			<Text>Grand Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_HELP_2">
+			<Text>[COLOR_POSITIVE_TEXT]Grand Council[ENDCOLOR][NEWLINE]------------------[NEWLINE]+10 [ICON_FOOD] Food and +10 [ICON_PRODUCTION] Production when a new Building is built in any city. This scales with Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_HELP_2_REQ">
+			<Text>[COLOR_CYAN]Must have all cities [ICON_CONNECTED] Connected to the Capital and at least 5 by the end of the Renaissance Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_TEXT_2">
+			<Text>The Iroquois League is governed by a Grand Council, an assembly of fifty chiefs or sachems, each representing one of the clans of one of the nations. According to this interpretation of the scholars, the Iroquois League refers to the ceremonial and cultural institution embodied in the Grand Council, while the Iroquois Confederacy is the decentralized political and diplomatic entity that emerged in response to European colonization.</Text>
+		</Row>
+		<!--Pathfinders-->
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_DESC_3">
+			<Text>Pathfinders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_HELP_3">
+			<Text>[COLOR_POSITIVE_TEXT]Pathfinders[ENDCOLOR][NEWLINE]------------------[NEWLINE]Recon Units receive the Scouting I, Scouting II, and Scouting III promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_HELP_3_REQ">
+			<Text>[COLOR_CYAN]Must have at least 6 Forest Tiles worked by the end of the Medieval Era. You have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][COLOR_CYAN].[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEAL_JFD_WOODLANDS_TEXT_3">
+			<Text>Squee idk.</Text>
+		</Row>
+		<!--SOCIAL POLICIES-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_IDEALS">
+			<Text>Ideals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_IDEALS_HELP">
+			<Text>Ideals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_IDEALS_TITLE">
+			<Text>{1_LeaderDesc} of {2_CivDesc}</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
