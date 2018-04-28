@@ -1013,8 +1013,9 @@ function JFD_SendNotification(playerID, notificationType, description, descripti
 			if (includesSerialMessage and description) then Events.GameplayAlertMessage(description) end
 		end
 	else
-		if (not player:IsHuman()) then return end
-		if (metOnly and team:IsHasMet(player:GetTeam()) or (not metOnly)) then
+		--if (not player:IsHuman()) then return end
+		if Game.GetActivePlayer() == playerID then 
+		--if (metOnly and team:IsHasMet(player:GetTeam()) or (not metOnly)) then
 			activePlayer:AddNotification(NotificationTypes[notificationType], description, descriptionShort, data1, data2, unitID, data3)
 			if (includesSerialMessage and description) then Events.GameplayAlertMessage(description) end
 		end

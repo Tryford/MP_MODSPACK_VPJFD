@@ -194,7 +194,7 @@ function OnCivPanelUpdated()
 		end
 		
 		if resourceMagistrateID~=nil then
-			Controls.DecisionsText:LocalizeAndSetText("TXT_KEY_CIVILIZATION_PANEL_JFD_DECISIONS", JFD_GetNumEnactableDecisions(activePlayerID))
+			--Controls.DecisionsText:LocalizeAndSetText("TXT_KEY_CIVILIZATION_PANEL_JFD_DECISIONS", JFD_GetNumEnactableDecisions(activePlayerID))
 			Controls.DecisionsText:SetHide(false);
 			Controls.MagistratesText:LocalizeAndSetText("TXT_KEY_CIVILIZATION_PANEL_JFD_MAGISTRATES", activePlayer:GetNumResourceAvailable(resourceMagistrateID, false))
 			Controls.MagistratesText:SetHide(false);
