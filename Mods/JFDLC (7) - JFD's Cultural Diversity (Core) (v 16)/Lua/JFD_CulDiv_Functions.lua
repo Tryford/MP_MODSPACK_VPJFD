@@ -25,12 +25,12 @@ local userSettingCulDivStartingBonuses 			= (Game.GetUserSetting("JFD_CULDIV_COR
 --=======================================================================================================================
 -- GLOBALS
 ------------------------------------------------------------------------------------------------------------------------
-local activePlayerID = Game.GetActivePlayer()
-local activePlayer	 = Players[activePlayerID]
-local handicapID	 = Game.GetHandicapType()
-local handicapMod 	 = GameInfo.HandicapInfos[handicapID].AdvancedStartPointsMod
-local speedID		 = Game.GetGameSpeedType()
-local speedMod 		 = GameInfo.GameSpeeds[speedID].GoldPercent
+-- local activePlayerID = Game.GetActivePlayer()
+-- local activePlayer	 = Players[activePlayerID]
+-- local handicapID	 = Game.GetHandicapType()
+-- local handicapMod 	 = GameInfo.HandicapInfos[handicapID].AdvancedStartPointsMod
+-- local speedID		 = Game.GetGameSpeedType()
+-- local speedMod 		 = GameInfo.GameSpeeds[speedID].GoldPercent
 --=======================================================================================================================
 -- CORE FUNCTIONS
 --=======================================================================================================================
@@ -240,7 +240,7 @@ function JFD_CulDiv_TeamSetEra(teamID, eraID)
 	end
 end
 if userSettingCulDivEmbarkationChanges then
-	GameEvents.TeamSetEra.Add(JFD_CulDiv_TeamSetEra)
+	--GameEvents.TeamSetEra.Add(JFD_CulDiv_TeamSetEra)
 end
 -------------------------------------------------------------------------------------------------------------------------
 -- UNITS
@@ -268,7 +268,7 @@ function JFD_CulDiv_UnitActionChanged(playerID, unitID)
 	end
 end
 if userSettingCulDivDialogue then
-	Events.UnitActionChanged.Add(JFD_CulDiv_UnitActionChanged)
+	--Events.UnitActionChanged.Add(JFD_CulDiv_UnitActionChanged)
 end
 
 --JFD_CulDiv_UnitSetXY
@@ -296,7 +296,7 @@ function JFD_CulDiv_UnitSetXY(playerID, unitID)
 	end
 end
 if userSettingCulDivDialogue then
-	GameEvents.UnitSetXY.Add(JFD_CulDiv_UnitSetXY)
+	--GameEvents.UnitSetXY.Add(JFD_CulDiv_UnitSetXY)
 end
 
 --JFD_CulDiv_UnitSelectionChanged
@@ -322,7 +322,7 @@ function JFD_CulDiv_UnitSelectionChanged(playerID, unitID, i, j, k, isSelected)
 	end
 end
 if userSettingCulDivDialogue then
-	Events.UnitSelectionChanged.Add(JFD_CulDiv_UnitSelectionChanged)
+	--Events.UnitSelectionChanged.Add(JFD_CulDiv_UnitSelectionChanged)
 end
 --=======================================================================================================================
 -- UI FUNCTIONS
