@@ -577,10 +577,10 @@ function JFD_RTP_Epithets_ShowChooseEpithetPopup(epithetID)
 	end
 	UIManager:QueuePopup(ContextPtr, PopupPriority.BarbarianCamp)
 end
---LuaEvents.JFD_RTP_Epithets_ShowChooseEpithetPopup.Add(JFD_RTP_Epithets_ShowChooseEpithetPopup)
+LuaEvents.JFD_RTP_Epithets_ShowChooseEpithetPopup.Add(JFD_RTP_Epithets_ShowChooseEpithetPopup)
 
---UIManager:QueuePopup(ContextPtr, PopupPriority.BarbarianCamp)
---UIManager:DequeuePopup(ContextPtr)
+UIManager:QueuePopup(ContextPtr, PopupPriority.BarbarianCamp)
+UIManager:DequeuePopup(ContextPtr)
 
 function JFD_RTP_Epithets_Accept()
 	activePlayer:SetHasEpithet(g_EpithetSelectedID, true, true)
