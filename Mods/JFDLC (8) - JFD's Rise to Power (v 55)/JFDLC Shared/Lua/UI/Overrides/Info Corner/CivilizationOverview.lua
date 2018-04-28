@@ -86,7 +86,7 @@ function OnCivPanelUpdated()
 	--end
 	
 	local civilization = GameInfo.Civilizations[activePlayer:GetCivilizationType()]
-	if civilization then
+	if civilization~=nil then
 		--Update civ and leader icon
 		local civilization = GameInfo.Civilizations[activePlayer:GetCivilizationType()]
 		local leader = GameInfo.Leaders[activePlayer:GetLeaderType()]

@@ -124,7 +124,7 @@ function JFD_CID_Loyalty_LoyaltyStateChanged(playerID, cityID, oldLoyaltyID, new
 	local loyalty = GameInfo.JFD_Loyalties[newLoyaltyID]
 	local loyaltyNotificationShort = loyalty.NotificationShortDesc
 	if (player:IsHuman() and loyaltyNotificationShort) then
-		JFD_SendNotification(activePlayerID, loyalty.NotificationType, Locale.ConvertTextKey(loyalty.NotificationDesc, city:GetName()), Locale.ConvertTextKey(loyaltyNotificationShort, city:GetName()), false, city:GetX(), city:GetY())
+		JFD_SendNotification(playerID, loyalty.NotificationType, Locale.ConvertTextKey(loyalty.NotificationDesc, city:GetName()), Locale.ConvertTextKey(loyaltyNotificationShort, city:GetName()), false, city:GetX(), city:GetY())
 		if loyalty.SoundEffect then
 			Events.AudioPlay2DSound(loyalty.SoundEffect)
 		end
