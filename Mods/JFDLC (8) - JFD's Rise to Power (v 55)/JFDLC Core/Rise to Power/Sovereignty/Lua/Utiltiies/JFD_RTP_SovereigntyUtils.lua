@@ -472,6 +472,7 @@ end
 --Player:GetSovereigntyTopPanelInfoTT
 function Player.GetSovereigntyTopPanelInfoTT(player)
 	local sovereigntyTT = convertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_GOVERNMENT_NONE")
+	if not player:HasGovernment() then return sovereigntyTT end
 	local governmentID = player:GetGovernment()
 	local government = GameInfo.JFD_Governments[governmentID]
 	sovereigntyTT = convertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_" .. government.Type .. "_TT")

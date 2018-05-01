@@ -3,6 +3,8 @@ print("This is the modded UnitPanel from 'UI - Condensed Promotions'")
 -- JFDLC
 ------------------------------
 include("JFDLCUtils.lua")
+include("JFD_PIT_ProgressUtils.lua")
+include("JFD_CID_ColoniesUtils.lua")
 local userSettingCIDColoniesCore 			= (Game.GetUserSetting("JFD_CID_COLONIES_CORE") == 1)
 local userSettingCIDColoniesDistanceRadius	= (Game.GetUserSetting("JFD_CID_COLONIES_DISTANCE_CORE_CITY_RADIUS"))
 local userSettingPITProgressBuildCharges    = (Game.GetUserSetting("JFD_PIT_PROGRESS_BUILD_CHARGES") == 1)
@@ -949,7 +951,8 @@ end
 local activePlayerID = Game.GetActivePlayer()
 local activePlayer   = Players[activePlayerID]
 function UpdateUnitStats(unit)
-    
+    local activePlayerID = Game.GetActivePlayer()
+	local activePlayer   = Players[activePlayerID]
     -- update the background image (update this if we get icons for the minors)
     local civType = unit:GetCivilizationType();
 	local civInfo = GameInfo.Civilizations[civType];
