@@ -2466,7 +2466,7 @@ function Player.GetUniqueTitle(player, titleType, isReligious)
 	if player:IsMinorCiv() then
 		civType = GameInfo.MinorCivilizations[player:GetMinorCivType()].Type
 		for row in GameInfo.MinorCivilization_JFD_Titles("MinorCivilizationType = '" .. civType .. "'") do
-			return row.UniqueTitle, row.UseAdjective
+			return row.UniqueLeaderTitle, true
 		end
 		for row in GameInfo.JFD_CultureType_Titles("CultureType = '" .. cultureType .. "' AND DefaultTitle = '" .. titleType .. "'") do
 			return row.UniqueTitle, row.UseAdjective, false, true

@@ -681,7 +681,7 @@ function JFD_RTP_Sovereignty_FoundsGovernment(playerID, cityID, buildingID)
 		player:SetGovernment(government.ID)
 	end
 	if player:HasGovernment() then return end
-	if building.FoundsGovernment then
+	if building.FoundsGovernment ~= nil then
 		if player:IsHuman() then
 			JFD_SendNotification(playerID, "NOTIFICATION_JFD_CHOOSE_GOVERNMENT", convertTextKey("TXT_KEY_JFD_CAN_GOVERNMENT_NOTIFICATION_TEXT"), convertTextKey("TXT_KEY_JFD_CAN_GOVERNMENT_NOTIFICATION_SHORT_TEXT"))	
 		else
