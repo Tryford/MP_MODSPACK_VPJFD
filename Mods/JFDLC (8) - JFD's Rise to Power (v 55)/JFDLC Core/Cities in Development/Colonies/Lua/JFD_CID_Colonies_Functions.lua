@@ -47,7 +47,7 @@ local unitPromotionColonistID	 = GameInfoTypes["PROMOTION_JFD_COLONIAL_SETTLER"]
 local eraIndustrialID = GameInfoTypes["ERA_INDUSTRIAL"]
 function JFD_CID_Colonies_PlayerDoTurnAI(playerID)
 	local player = Players[playerID]
-	if player:IsHuman() and playerID == Game.GetActivePlayer() thenreturn end
+	if player:IsHuman() then return end
 	if player:IsBarbarian() then return end
 	if (not player:CanFoundColonies()) then return end
 	if player:GetNumCities() == 1 then return end

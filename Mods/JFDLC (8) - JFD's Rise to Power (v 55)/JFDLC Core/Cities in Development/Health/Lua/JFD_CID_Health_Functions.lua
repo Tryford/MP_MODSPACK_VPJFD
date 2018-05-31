@@ -37,7 +37,7 @@ local yieldFoodID	 = YieldTypes.YIELD_FOOD
 local unitClassGreatDoctorID = GameInfoTypes["UNITCLASS_JFD_GREAT_DOCTOR"]
 function JFD_CID_Health_UnitCreatedAI(playerID, unitID, unitTypeID)
 	local player = Players[playerID]
-	if player:IsHuman() return end
+	if player:IsHuman() then return end
 	local unit = player:GetUnitByID(unitID) 
 	if unit:GetUnitClassType() ~= unitClassGreatDoctorID then return end
 	local plagueCity = nil
