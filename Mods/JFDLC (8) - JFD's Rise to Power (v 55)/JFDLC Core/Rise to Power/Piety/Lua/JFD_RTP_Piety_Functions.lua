@@ -121,7 +121,7 @@ end
 function JFD_RTP_Piety_PlayerDoTurnAI(playerID)
 	local player = Players[playerID]
 	local playerTeam = Teams[player:GetTeam()]
-	if player:IsHuman() then return end
+	if player:IsHuman() and playerID == Game.GetActivePlayer() thenreturn end
 	if player:IsBarbarian() then return end
 	if player:IsMinorCiv() then return end
 	if (not player:HasStateReligion()) then return end
@@ -558,7 +558,7 @@ function JFD_RTP_Piety_PietyLevelChanged(playerID, currentPiety, pietyChange)
 		end
 		break
 	end
-	if player:IsHuman() then Events.SerialEventGameDataDirty() end
+	if player:IsHuman() and playerID == Game.GetActivePlayer() then Events.SerialEventGameDataDirty() end
 end
 if userSettingRTPPietyCore then
 	GameEvents.PietyChange.Add(JFD_RTP_Piety_PietyLevelChanged)

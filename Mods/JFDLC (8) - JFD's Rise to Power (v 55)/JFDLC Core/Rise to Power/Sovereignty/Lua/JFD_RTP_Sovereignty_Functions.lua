@@ -222,7 +222,7 @@ function JFD_RTP_Sovereignty_OnGovernment(playerID, governmentID)
 	player:SetLegislatureName(legislatureName)
 	player:SetGovernmentTitle(player:GetGovernmentTitle(governmentID))
 	player:SetLeaderTitle(player:GetLeaderTitleShort(governmentID))
-	if player:IsHuman() then Events.SerialEventGameDataDirty() end
+	if player:IsHuman() and playerID == Game.GetActivePlayer() then Events.SerialEventGameDataDirty() end
 	player:SetReformCooldown(0)
 	JFD_RTP_Sovereignty(playerID)
 	if (not player:HasGovernment()) then

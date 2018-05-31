@@ -52,7 +52,7 @@ function JFD_TriggerInnovation(playerID, teamID, techID, city)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local city = city or player:GetCapitalCity()
 					local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
@@ -103,7 +103,7 @@ function JFD_PIT_Innovations_CityBoughtPlot(playerID, cityID, plotX, plotY, isGo
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -157,7 +157,7 @@ function JFD_PIT_Innovations_CityConstructed(playerID, cityID, buildingID, isGol
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -193,7 +193,7 @@ function JFD_PIT_Innovations_CityConstructed(playerID, cityID, buildingID, isGol
 				if scienceBoost > 0 then
 					teamTechs:ChangeResearchProgress(techID, scienceBoost)
 					player:ChangeNumInnovations(teamTechs, techID, 1)
-					if player:IsHuman() then 
+					if player:IsHuman() and playerID == Game.GetActivePlayer() then
 						local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 						Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 						Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -237,7 +237,7 @@ function JFD_PIT_Innovations_CityConstructed(playerID, cityID, buildingID, isGol
 				if scienceBoost > 0 then
 					teamTechs:ChangeResearchProgress(techID, scienceBoost)
 					player:ChangeNumInnovations(teamTechs, techID, 1)
-					if player:IsHuman() then 
+					if player:IsHuman() and playerID == Game.GetActivePlayer() then
 						local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 						Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 						Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -274,7 +274,7 @@ function JFD_PIT_Innovations_CityConstructed(playerID, cityID, buildingID, isGol
 				if scienceBoost > 0 then
 					teamTechs:ChangeResearchProgress(techID, scienceBoost)
 					player:ChangeNumInnovations(teamTechs, techID, 1)
-					if player:IsHuman() then 
+					if player:IsHuman() and playerID == Game.GetActivePlayer() then
 						local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 						Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 						Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -311,7 +311,7 @@ function JFD_PIT_Innovations_CityCreated(playerID, cityID, projectID, isGold, is
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -357,7 +357,7 @@ function JFD_PIT_Innovations_CityInvestedBuilding(playerID, cityID, buildingID, 
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -405,7 +405,7 @@ function JFD_PIT_Innovations_CityTrained(playerID, cityID, unitID, isGold, isFai
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -438,7 +438,7 @@ function JFD_PIT_Innovations_CityTrained(playerID, cityID, unitID, isGold, isFai
 				if scienceBoost > 0 then
 					teamTechs:ChangeResearchProgress(techID, scienceBoost)
 					player:ChangeNumInnovations(teamTechs, techID, 1)
-					if player:IsHuman() then 
+					if player:IsHuman() and playerID == Game.GetActivePlayer() then
 						local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 						Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 						Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -469,7 +469,7 @@ function JFD_PIT_Innovations_CityTrained(playerID, cityID, unitID, isGold, isFai
 				if scienceBoost > 0 then
 					teamTechs:ChangeResearchProgress(techID, scienceBoost)
 					player:ChangeNumInnovations(teamTechs, techID, 1)
-					if player:IsHuman() then 
+					if player:IsHuman() and playerID == Game.GetActivePlayer() then
 						local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 						Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 						Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -500,7 +500,7 @@ function JFD_PIT_Innovations_CityTrained(playerID, cityID, unitID, isGold, isFai
 				if scienceBoost > 0 then
 					teamTechs:ChangeResearchProgress(techID, scienceBoost)
 					player:ChangeNumInnovations(teamTechs, techID, 1)
-					if player:IsHuman() then 
+					if player:IsHuman() and playerID == Game.GetActivePlayer() then
 						local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 						Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 						Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -540,7 +540,7 @@ function JFD_PIT_Innovations_DeclareWar(playerAttackID, playerDefendID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -570,7 +570,7 @@ function JFD_PIT_Innovations_GovernmentCooldownChanges(playerID, governmentID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -605,7 +605,7 @@ function JFD_PIT_Innovations_GreatPersonExpended(playerID, unitID, unitTypeID, p
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -636,7 +636,7 @@ function JFD_PIT_Innovations_MinorAlliesChanged(minorPlayerID, playerID, isAlly,
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -665,7 +665,7 @@ function JFD_PIT_Innovations_NaturalWonderDiscovered(teamID, featureID, plotX, p
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -694,7 +694,7 @@ function JFD_PIT_Innovations_NaturalWonderDiscovered(playerID, plotX, plotY, isW
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -724,7 +724,7 @@ function JFD_PIT_Innovations_PantheonFounded(playerID, cityID, religionID, belie
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -754,7 +754,7 @@ function JFD_PIT_Innovations_PlagueBegins(playerID, plagueID, city, plotX, plotY
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -787,7 +787,7 @@ function JFD_PIT_Innovations_PlayerAdoptPolicy(playerID, policyBranchID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -820,7 +820,7 @@ function JFD_PIT_Innovations_PlayerAdoptPolicyBranch(playerID, policyBranchID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -864,7 +864,7 @@ function JFD_PIT_Innovations_PlayerBuilt(playerID, unitID, plotX, plotY, buildID
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -917,7 +917,7 @@ function JFD_PIT_Innovations_PlayerCityFounded(playerID, plotX, plotY)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -969,7 +969,7 @@ function JFD_PIT_Innovations_ReformPassed(playerID, reformID, isFree)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -999,7 +999,7 @@ function JFD_PIT_Innovations_ReligionEnhanced(playerID, religionID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1029,7 +1029,7 @@ function JFD_PIT_Innovations_ReligionFounded(playerID, cityID, religionID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(city:GetX(), city:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1059,7 +1059,7 @@ function JFD_PIT_Innovations_ReligionReformed(playerID, religionID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1091,7 +1091,7 @@ function JFD_PIT_Innovations_ResolutionResult(resolutionID, proposerID, choiceID
 				if scienceBoost > 0 then
 					teamTechs:ChangeResearchProgress(techID, scienceBoost)
 					player:ChangeNumInnovations(teamTechs, techID, 1)
-					if player:IsHuman() then 
+					if player:IsHuman() and playerID == Game.GetActivePlayer() then
 						local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 						Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 						Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1132,7 +1132,7 @@ function JFD_PIT_Innovations_TeamMeet(playerMetID, playerMeetID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1170,7 +1170,7 @@ function JFD_PIT_Innovations_TeamTechResearched(teamID, techID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(capital:GetX(), capital:GetY()))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1210,7 +1210,7 @@ function JFD_PIT_Innovations_SetPopulation(plotX, plotY, oldPopulation, newPopul
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1247,7 +1247,7 @@ function JFD_PIT_Innovations_TileImprovementChanged(plotX, plotY, playerID, oldI
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1283,7 +1283,7 @@ function JFD_PIT_Innovations_TileRevealed(plotX, plotY, teamID, fromTeamID, isFi
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1338,7 +1338,7 @@ function JFD_PIT_Innovations_UnitPrekill(playerKilledID, unitID, unitType, plotX
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1386,7 +1386,7 @@ function JFD_PIT_Innovations_UnitPromoted(playerID, unitID, promotionID)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1422,7 +1422,7 @@ function JFD_PIT_Innovations_UnitSetXY(playerID, unitID, plotX, plotY)
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1470,7 +1470,7 @@ function JFD_PIT_Innovations_UnitUpgraded(playerID, unitID, newUnitID, isGoodyHu
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))
@@ -1498,7 +1498,7 @@ function JFD_PIT_Innovations_WLTKDBegins(playerID, city, plotX, plotY, WLTKDTurn
 			if scienceBoost > 0 then
 				teamTechs:ChangeResearchProgress(techID, scienceBoost)
 				player:ChangeNumInnovations(teamTechs, techID, 1)
-				if player:IsHuman() then 
+				if player:IsHuman() and playerID == Game.GetActivePlayer() then
 					local hex = ToHexFromGrid(Vector2(plotX, plotY))
 					Events.AudioPlay2DSound("AS2D_SOUND_JFD_INNOVATION");	
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_INNOVATION_COMPLETION_MESSAGE", techDesc))

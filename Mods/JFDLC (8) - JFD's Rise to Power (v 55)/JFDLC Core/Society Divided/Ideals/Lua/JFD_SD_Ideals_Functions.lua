@@ -65,7 +65,7 @@ function JFD_SD_Ideals_PlayerAdoptsPolicy(playerID, policyID)
 	if policy.IsIdeal then
 		if player:GetNumIdeals() == 3 then
 			player:ChangeGoldenAgeTurns(12*modGAPercent)
-			if player:IsHuman() then Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_IDEAL_COMPLETION_MESSAGE")) end
+			if player:IsHuman() and playerID == Game.GetActivePlayer() then Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_IDEAL_COMPLETION_MESSAGE")) end
 		end
 	end
 end

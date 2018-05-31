@@ -291,7 +291,7 @@ function JFD_CID_Provinces_EventChoice(playerID, eventChoiceID)
 	if (eventChoiceLevyDamage > 0 or eventChoiceLevyXP > 0) then
 		for unit in player:Units() do
 			if (unit:HasPromotion(promotionLevyID) or unit:HasPromotion(promotionLevyDefensiveID)) then
-				if player:IsHuman() then 
+				if player:IsHuman() then
 					local unitX = unit:GetX()
 					local unitY = unit:GetY()
 					local hex = ToHexFromGrid(Vector2(unitX, unitY))

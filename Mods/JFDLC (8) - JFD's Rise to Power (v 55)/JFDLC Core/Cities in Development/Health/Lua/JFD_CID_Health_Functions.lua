@@ -37,7 +37,7 @@ local yieldFoodID	 = YieldTypes.YIELD_FOOD
 local unitClassGreatDoctorID = GameInfoTypes["UNITCLASS_JFD_GREAT_DOCTOR"]
 function JFD_CID_Health_UnitCreatedAI(playerID, unitID, unitTypeID)
 	local player = Players[playerID]
-	if player:IsHuman() then return end
+	if player:IsHuman() return end
 	local unit = player:GetUnitByID(unitID) 
 	if unit:GetUnitClassType() ~= unitClassGreatDoctorID then return end
 	local plagueCity = nil
@@ -247,7 +247,7 @@ function JFD_CID_Health_GreatPersonExpended(playerID, unitID, unitTypeID, plotX,
 	local unit = player:GetUnitByID(unitID) 
 	if unit:GetUnitClassType() ~= unitClassGreatDoctorID then return end
 	local hex = ToHexFromGrid(Vector2(plotX, plotY))
-	if player:IsHuman() then 
+	if player:IsHuman() and playerID == Game.GetActivePlayer() then
 		Events.GameplayFX(hex.x, hex.y, -1) 
 		Events.AudioPlay2DSound("AS2D_SOUND_JFD_DOCTOR")
 	end
