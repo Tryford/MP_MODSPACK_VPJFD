@@ -104,6 +104,7 @@ end
 --Player:GetCityDiseaseFromConnections
 function Player.GetCityDiseaseFromConnections(player, city, diseaseConnections)
 	local capital = player:GetCapitalCity()
+	if capital == nil then return 0 end --wtf?
 	if (capital:HasPlague() and player:IsCapitalConnectedToCity(city) and (not city:IsCapital())) then
 		diseaseConnections = ((diseaseConnections*defineCIDHealthDiseaseConnectionMod)/100)
 		for row in GameInfo.Building_JFD_HealthMods("DiseaseConnectionMod <> 0") do

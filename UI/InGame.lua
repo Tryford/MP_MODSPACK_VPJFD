@@ -1267,7 +1267,7 @@ for addin in Modding.GetActivatedModEntryPoints("InGameUIAddin") do
 	
 	table.insert(g_uiAddins, ContextPtr:LoadNewContext(path));
 end
-ContextPtr:LoadNewContext("ShareData")
+--ContextPtr:LoadNewContext("ShareData")
 ContextPtr:LoadNewContext("YnaemInGame")
 --ContextPtr:LoadNewContext("EventChoicePopupCity")
 --ContextPtr:LoadNewContext("CityEventPopup")
