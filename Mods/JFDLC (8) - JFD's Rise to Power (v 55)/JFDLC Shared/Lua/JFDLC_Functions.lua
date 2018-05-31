@@ -1042,19 +1042,19 @@ GameEvents.UnitPromoted.Add(JFDLC_UnitPromoted)
 --=======================================================================================================================
 -- TSL
 --=======================================================================================================================
-include("TableSaverLoader016.lua")
-tableRoot = JFDLC
-tableName = "JFDLC"
-include("JFDLC_TSLSerializerV3.lua")
-TableLoad(tableRoot, tableName)
-------------------------------------------------------------------------------------------------------------------------
--- TSL UTILITIES	
-------------------------------------------------------------------------------------------------------------------------
--- OnModLoaded
-function OnModLoaded() 
-	local bNewGame = not TableLoad(tableRoot, tableName)
-	TableSave(tableRoot, tableName)
-end
-OnModLoaded()
+-- include("TableSaverLoader016.lua")
+-- tableRoot = JFDLC
+-- tableName = "JFDLC"
+-- include("JFDLC_TSLSerializerV3.lua")
+-- TableLoad(tableRoot, tableName)
+-- ------------------------------------------------------------------------------------------------------------------------
+-- -- TSL UTILITIES	
+-- ------------------------------------------------------------------------------------------------------------------------
+-- -- OnModLoaded
+-- function OnModLoaded() 
+	-- local bNewGame = not TableLoad(tableRoot, tableName)
+	-- TableSave(tableRoot, tableName)
+-- end
+-- OnModLoaded()
 --=======================================================================================================================
 --=======================================================================================================================
