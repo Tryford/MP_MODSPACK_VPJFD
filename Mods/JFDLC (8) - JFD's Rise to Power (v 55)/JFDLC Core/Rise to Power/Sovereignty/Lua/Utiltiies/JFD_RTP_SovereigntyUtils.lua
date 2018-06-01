@@ -2493,7 +2493,9 @@ local reformStateEmpireID 		    = GameInfoTypes["REFORM_JFD_STATE_EMPIRE"]
 function Player.GetLeaderTitle(player)
 	local playerID = player:GetID()
 	local civName = player:GetCivilizationShortDescription()
+	--print(player:GetName())
 	local leaderName = convertTextKey(player:GetDefaultName())
+	if player:IsHuman() then leaderName = convertTextKey(player:GetName()) end
 	local dominantBranchID = player:GetDominantPolicyBranchForTitle()
 	local leaderFullTitle = leaderName
 	if (dominantBranchID > -1 and (not userSettingEpithetsCore)) then

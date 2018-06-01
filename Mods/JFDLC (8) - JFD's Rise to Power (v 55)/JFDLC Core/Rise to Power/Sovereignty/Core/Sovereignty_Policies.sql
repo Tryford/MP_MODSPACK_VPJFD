@@ -74,5 +74,11 @@ UPDATE PolicyBranchTypes
 SET TitleShort = 'TXT_KEY_AUTOCRACY_TITLE_SHORT', IconString = '[ICON_IDEOLOGY_AUTOCRACY]'
 WHERE Type = 'POLICY_BRANCH_AUTOCRACY'
 AND EXISTS (SELECT * FROM JFD_GlobalUserSettings WHERE Type = 'JFD_RTP_SOVEREIGNTY_CORE' AND Value = 1);
+
+--Ideals
+UPDATE PolicyBranchTypes
+SET TitleShort = 'TXT_KEY_IDEALS_TITLE_SHORT'
+WHERE Type = 'POLICY_BRANCH_IDEALS'
+AND EXISTS (SELECT * FROM JFD_GlobalUserSettings WHERE Type = 'JFD_RTP_SOVEREIGNTY_CORE' AND Value = 1);
 --==========================================================================================================================
 --==========================================================================================================================
