@@ -597,7 +597,7 @@ function JFD_RTP_Sovereignty_PrivyCouncillorAppointed(playerID, unitID)
 			local privyCouncillorID = GameInfoTypes[row.PrivyCouncillorType]
 			player:GrantPolicy(policyID, true)
 			if player:IsHuman() then
-				JFDLC_PrivyCouncillorName[privyCouncillorID] = unit:GetNameNoDesc()
+				--JFDLC_PrivyCouncillorName[privyCouncillorID] = unit:GetNameNoDesc() -- Depends on TSL
 				local hex = ToHexFromGrid(Vector2(unit:GetX(), unit:GetY()))
 				JFD_SendNotification(playerID, "NOTIFICATION_JFD_GOVERNMENT_ACTIVE_PLAYER", convertTextKey("TXT_KEY_JFD_PRIVY_COUNCILLOR_NOTIFICATION_TEXT", player:GetPrivyCouncillorTitle(privyCouncillorID), unit:GetNameNoDesc()), convertTextKey("TXT_KEY_JFD_PRIVY_COUNCILLOR_NOTIFICATION_SHORT_TEXT"), true)
 				Events.AudioPlay2DSound("AS2D_JFD_PRIVY_COUNCILLOR")

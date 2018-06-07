@@ -554,11 +554,11 @@ function SelectReligion(religionID, name, iconAtlas, portraitIndex)
 		
 		local foundedIn = Locale.Lookup("TXT_KEY_CHOOSE_RELIGION_FOUNDED_IN", date);
 		Controls.LabelReligionFoundedIn:SetText(foundedIn);
-		if JFDLC_ProphetName[Game.GetActivePlayer()] then
-			Controls.LabelReligionFounder:LocalizeAndSetText(JFDLC_ProphetName[Game.GetActivePlayer()]);
-		else
+		--if JFDLC_ProphetName[Game.GetActivePlayer()] then
+			--Controls.LabelReligionFounder:LocalizeAndSetText(JFDLC_ProphetName[Game.GetActivePlayer()]); -- Depends on TSL
+		--else
 			Controls.LabelReligionFounder:SetHide(true)
-		end
+		--end
 		Controls.ReligionPanel:SetHide(false);
 	end
 end

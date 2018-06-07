@@ -199,17 +199,17 @@ end
 --Player:GetProvinceName
 function Player.GetProvinceName(player, city)
 	local cityID = player:CompileCityID(city)
-	if JFDLC_ProvinceName[cityID] then 
-		return JFDLC_ProvinceName[cityID]
-	end
+	--if JFDLC_ProvinceName[cityID] then 
+		--return JFDLC_ProvinceName[cityID] -- Depends on TSL
+	--end
 	return city:GetName()
 end
 
 --Player:SetProvinceName
 function Player.SetProvinceName(player, city, provinceName)
 	local cityID = player:CompileCityID(city)
-	JFDLC_ProvinceName[cityID] = {}
-	JFDLC_ProvinceName[cityID] = provinceName
+	--JFDLC_ProvinceName[cityID] = {}
+	--JFDLC_ProvinceName[cityID] = provinceName -- Depends on TSL
 end
 --------------------
 -- TITLE

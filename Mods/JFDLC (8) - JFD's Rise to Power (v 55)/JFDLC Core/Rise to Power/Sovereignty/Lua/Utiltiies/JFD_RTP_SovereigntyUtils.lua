@@ -604,7 +604,8 @@ end
 ----------------
 --Player:GetNumFreeGovernmentChanges
 function Player.GetNumFreeGovernmentChanges(player)
-	return JFDLC_FreeGovtSwitches[player:GetID()] or 0
+	--return JFDLC_FreeGovtSwitches[player:GetID()] or 0 -- Depends on TSL
+	return 0
 end
 
 --Player:ChangeNumFreeGovernmentChanges
@@ -615,7 +616,7 @@ end
 
 --Player:SetNumFreeGovernmentChanges
 function Player.SetNumFreeGovernmentChanges(player, numGovtChanges)
-	JFDLC_FreeGovtSwitches[player:GetID()] = numGovtChanges
+	--JFDLC_FreeGovtSwitches[player:GetID()] = numGovtChanges -- Depends on TSL
 end
 ----------------
 -- LEGISLATURE
@@ -1990,7 +1991,8 @@ end
 ----------------
 --Player:GetNumFreeReforms
 function Player.GetNumFreeReforms(player)
-	return JFDLC_FreeReforms[player:GetID()] or 0
+	--return JFDLC_FreeReforms[player:GetID()] or 0 -- Depends on TSL
+	return 0
 end
 
 --Player:ChangeNumFreeReforms
@@ -2001,7 +2003,7 @@ end
 
 --Player:SetNumFreeReforms
 function Player.SetNumFreeReforms(player, numReforms)
-	JFDLC_FreeReforms[player:GetID()] = numReforms
+	--JFDLC_FreeReforms[player:GetID()] = numReforms  -- Depends on TSL
 end
 ----------------
 -- ANARCHY SENTIMENT

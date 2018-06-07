@@ -1073,7 +1073,7 @@ function JFD_RTP_Piety_FromUnitExpended(playerID, unitID, unitTypeID, plotX, plo
 	local unit = player:GetUnitByID(unitID)
 	local unitClassType = GameInfo.Units[unitTypeID].Class
 	if (player:GetReligionCreatedByPlayer() <= 0 and unitClassType == "UNITCLASS_PROPHET") then
-		JFDLC_ProphetName[playerID] = unit:GetNameNoDesc()
+		--JFDLC_ProphetName[playerID] = unit:GetNameNoDesc() -- Depends on TSL
 	end	
 	if (not player:HasStateReligion()) then return end
 	local religionID = player:GetStateReligion()

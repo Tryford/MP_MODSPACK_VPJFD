@@ -386,9 +386,9 @@ function JFD_RefreshYourGovernmentStats()
 			local councillorHelp1 = nil
 			local councillorHelp2 = nil
 			local councillorAlpha = 0
-			if JFDLC_PrivyCouncillorName[privyCouncillor.ID] then
-				councillorName = JFDLC_PrivyCouncillorName[privyCouncillor.ID]
-			end
+			--if JFDLC_PrivyCouncillorName[privyCouncillor.ID] then
+				--councillorName = JFDLC_PrivyCouncillorName[privyCouncillor.ID] -- Depends on TSL
+			--end
 			for row in GameInfo.JFD_PrivyCouncillor_GreatPeople("PrivyCouncillorType = '" .. privyCouncillor.Type .. "'") do
 				if councillorUnitInfo.Class == row.UnitClassType then
 					councillorHelp1 = Locale.ConvertTextKey(row.Help, "[COLOR_POSITIVE_TEXT]", "")
